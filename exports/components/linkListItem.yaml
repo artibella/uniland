@@ -1,0 +1,31 @@
+id: linkListItem
+name: Link list item
+icon: link
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: linkPrefix
+    name: Link Prefix
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: link
+    name: Link
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2022-11-02T15:14:00.493049+00:00'
+updated: '2022-11-02T18:37:14.852645+00:00'

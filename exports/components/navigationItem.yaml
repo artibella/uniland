@@ -1,0 +1,32 @@
+id: navigationItem
+name: Navigation Item
+icon: link
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: url
+    name: URL
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: link
+    name: Link
+    type: sitemap_link
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    allowedComponents:
+      - navigationItem
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2022-09-15T08:38:29.638661+00:00'
+updated: '2022-09-30T13:10:09.393758+00:00'

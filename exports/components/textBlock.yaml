@@ -1,0 +1,23 @@
+id: textBlock
+name: Text block
+icon: format-text
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: false
+  - id: body
+    name: Body
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: '10'
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2022-09-30T12:00:21.313654+00:00'
+updated: '2022-09-30T12:00:21.313654+00:00'

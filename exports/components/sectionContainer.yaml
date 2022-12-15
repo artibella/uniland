@@ -1,0 +1,55 @@
+id: sectionContainer
+name: Section Container
+icon: image-text
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: theme
+    name: Theme
+    type: select
+    helpText: Choose a theme that will change the design of this section
+    typeConfig:
+      options:
+        - text: Default
+          value: light
+        - text: Dark
+          value: dark
+        - text: Spring
+          value: spring
+        - text: Ice
+          value: ice
+        - text: Mango
+          value: mango
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - $loop
+      - $localization
+      - $test
+      - $personalization
+      - textBlock
+      - restaurantDetails
+      - recipeList
+      - recipeHero
+      - productList
+      - productCard
+      - imageBlock
+      - hero
+      - genericCard
+      - gridContainer
+      - scheduledContent
+      - howtoSection
+      - kitchensink
+      - linkList
+      - tabContainer
+      - lottieAnimation
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2022-10-19T14:23:35.307515+00:00'
+updated: '2022-11-17T09:25:24.626465+00:00'

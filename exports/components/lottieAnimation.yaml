@@ -1,0 +1,50 @@
+id: lottieAnimation
+name: Lottie Animation
+icon: film
+parameters:
+  - id: id
+    name: ID
+    type: text
+    helpText: ID for HTML
+    typeConfig: null
+  - id: src
+    name: Source
+    type: text
+    helpText: 'URL to the animation file (Lottie JSON) '
+    typeConfig: null
+  - id: autoplay
+    name: Autoplay
+    type: checkbox
+    helpText: Should animation auto play
+    typeConfig: null
+  - id: loop
+    name: Loop
+    type: checkbox
+    helpText: Should animation loop
+    typeConfig: null
+  - id: controls
+    name: Show controls
+    type: checkbox
+    helpText: Show playback controls for animation
+    typeConfig: null
+  - id: hover
+    name: Play on hover
+    type: checkbox
+    helpText: Start playback on hover
+    typeConfig: null
+  - id: width
+    name: Width
+    type: text
+    helpText: Width of animation. Add sizing unit (like px or %)
+    typeConfig: null
+  - id: height
+    name: Height
+    type: text
+    helpText: Height of animation. Add sizing unit (like px or %)
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+titleParameter: id
+canBeComposition: false
+created: '2022-11-17T09:24:36.516412+00:00'
+updated: '2022-11-17T09:24:36.516412+00:00'

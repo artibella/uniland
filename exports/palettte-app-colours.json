@@ -1,0 +1,137 @@
+[
+  {
+    "paletteName": "Aqua",
+    "swatches": [
+      {
+        "name": "50",
+        "color": "D2EEF1"
+      },
+      {
+        "name": "100",
+        "color": "B6D5DC"
+      },
+      {
+        "name": "200",
+        "color": "9CBBC7"
+      },
+      {
+        "name": "300",
+        "color": "83A0B1"
+      },
+      {
+        "name": "400",
+        "color": "6C869B"
+      },
+      {
+        "name": "500",
+        "color": "51617E"
+      },
+      {
+        "name": "600",
+        "color": "384061"
+      },
+      {
+        "name": "700",
+        "color": "242444"
+      },
+      {
+        "name": "800",
+        "color": "282C47"
+      },
+      {
+        "name": "900",
+        "color": "2D334A"
+      }
+    ]
+  },
+  {
+    "paletteName": "Mango",
+    "swatches": [
+      {
+        "name": "Mango 900",
+        "color": "9D8402"
+      },
+      {
+        "name": "Mango 800",
+        "color": "B19502"
+      },
+      {
+        "name": "Mango 700",
+        "color": "C4A602"
+      },
+      {
+        "name": "Mango 600",
+        "color": "D8B703"
+      },
+      {
+        "name": "Mango 500",
+        "color": "EBC703"
+      },
+      {
+        "name": "Mango 400",
+        "color": "FFD803"
+      },
+      {
+        "name": "Mango 300",
+        "color": "FFE038"
+      },
+      {
+        "name": "Mango 200",
+        "color": "FFE86C"
+      },
+      {
+        "name": "Mango 100",
+        "color": "FFF0A1"
+      },
+      {
+        "name": "Mango 50",
+        "color": "FFF9D5"
+      }
+    ]
+  },
+  {
+    "paletteName": "Ice",
+    "swatches": [
+      {
+        "name": "Ice 50",
+        "color": "E3F6F5"
+      },
+      {
+        "name": "Ice 100",
+        "color": "D8F3F1"
+      },
+      {
+        "name": "Ice 200",
+        "color": "CEEFEE"
+      },
+      {
+        "name": "Ice 300",
+        "color": "C4ECEB"
+      },
+      {
+        "name": "Ice 400",
+        "color": "BAE8E8"
+      },
+      {
+        "name": "Ice 500",
+        "color": "A1D7D7"
+      },
+      {
+        "name": "Ice 600",
+        "color": "89C6C6"
+      },
+      {
+        "name": "Ice 700",
+        "color": "74B5B5"
+      },
+      {
+        "name": "Ice 800",
+        "color": "60A4A4"
+      },
+      {
+        "name": "Ice 900",
+        "color": "4E9494"
+      }
+    ]
+  }
+]

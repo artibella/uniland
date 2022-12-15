@@ -1,0 +1,25 @@
+id: contributor
+name: Contributor
+icon: user-add
+parameters:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: image
+    name: Image
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: link
+    name: Link
+    type: sitemap_link
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+titleParameter: name
+canBeComposition: false
+created: '2022-09-30T12:53:46.018873+00:00'
+updated: '2022-09-30T12:53:46.018873+00:00'

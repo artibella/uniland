@@ -1,0 +1,38 @@
+id: gridContainer
+name: Grid Container
+icon: view-cols
+parameters:
+  - id: columns
+    name: Columns
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '10'
+      min: '1'
+      required: true
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    allowedComponents:
+      - genericCard
+      - hero
+      - imageBlock
+      - sectionContainer
+      - textBlock
+      - $personalization
+      - $test
+      - $localization
+      - $loop
+      - badge
+      - lottieAnimation
+    inheritAllowedComponents: false
+defaults:
+  type: gridContainer
+  parameters:
+    columns:
+      type: number
+      value: '2'
+canBeComposition: false
+created: '2022-10-19T14:44:39.794772+00:00'
+updated: '2022-11-17T09:25:12.806713+00:00'

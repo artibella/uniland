@@ -1,0 +1,54 @@
+id: badge
+name: Badge
+icon: tag
+parameters:
+  - id: label
+    name: Label
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: size
+    name: Size
+    type: select
+    helpText: Size of the badge. Defaults to "large"
+    typeConfig:
+      options:
+        - text: extra small
+          value: xs
+        - text: small
+          value: sm
+        - text: medium
+          value: md
+        - text: large
+          value: lg
+  - id: color
+    name: Color
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: 'primary '
+          value: 'primary '
+        - text: ' secondary '
+          value: ' secondary '
+        - text: ' accent '
+          value: ' accent '
+        - text: ' ghost '
+          value: ' ghost '
+        - text: ' info '
+          value: ' info '
+        - text: ' success '
+          value: ' success '
+        - text: ' warning '
+          value: ' warning '
+        - text: ' error'
+          value: ' error'
+useTeamPermissions: true
+slots: []
+titleParameter: label
+canBeComposition: false
+created: '2022-09-30T12:22:35.793238+00:00'
+updated: '2022-11-11T14:07:46.255922+00:00'
+variants:
+  - id: outline
+    name: outline

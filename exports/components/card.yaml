@@ -1,0 +1,36 @@
+id: card
+name: Card
+icon: card
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: byline
+    name: Byline
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: image
+    name: Image
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: body
+    name: Body
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+useTeamPermissions: true
+slots:
+  - id: actions
+    name: Actions
+    allowedComponents:
+      - callToAction
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2022-09-28T10:53:11.825156+00:00'
+updated: '2022-11-23T18:52:45.576725+00:00'

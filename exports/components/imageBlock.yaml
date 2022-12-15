@@ -1,0 +1,29 @@
+id: imageBlock
+name: Image block
+icon: image
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: altText
+    name: Alt text
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: imageUrl
+    name: Image URL
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: caption
+    name: Caption
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+canBeComposition: false
+created: '2022-09-30T12:25:22.250996+00:00'
+updated: '2022-11-07T18:01:21.010382+00:00'

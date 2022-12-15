@@ -1,0 +1,18 @@
+id: linkList
+name: Link List
+icon: layout-list
+parameters: []
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    allowedComponents:
+      - $loop
+      - $localization
+      - $test
+      - $personalization
+      - linkListItem
+    inheritAllowedComponents: false
+canBeComposition: false
+created: '2022-11-02T15:12:10.90945+00:00'
+updated: '2022-11-02T15:14:24.126398+00:00'

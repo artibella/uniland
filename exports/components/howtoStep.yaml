@@ -1,0 +1,25 @@
+id: howtoStep
+name: Howto Step
+icon: bulb
+parameters:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: image
+    name: Image
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots: []
+titleParameter: name
+canBeComposition: false
+created: '2022-10-28T12:08:07.935883+00:00'
+updated: '2022-10-28T12:08:07.935883+00:00'

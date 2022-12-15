@@ -1,0 +1,20 @@
+id: tabContainer
+name: Tab Container
+icon: tab
+parameters: []
+useTeamPermissions: true
+slots:
+  - id: tabs
+    name: Tabs
+    maxComponents: 5
+    minComponents: 1
+    allowedComponents:
+      - $loop
+      - $localization
+      - $test
+      - $personalization
+      - tabPanel
+    inheritAllowedComponents: false
+canBeComposition: false
+created: '2022-11-13T17:48:42.154898+00:00'
+updated: '2022-11-13T17:56:00.27621+00:00'

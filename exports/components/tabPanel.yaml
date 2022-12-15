@@ -1,0 +1,33 @@
+id: tabPanel
+name: Tab Panel
+icon: tab
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: Title of the tab (appears in the tab navigation)
+    typeConfig:
+      required: true
+  - id: isActive
+    name: Is Active
+    type: checkbox
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - sectionContainer
+      - textBlock
+      - $personalization
+      - $test
+      - $localization
+      - $loop
+      - linkList
+      - imageBlock
+      - howtoSection
+    inheritAllowedComponents: false
+canBeComposition: false
+created: '2022-11-13T17:53:33.183597+00:00'
+updated: '2022-11-13T17:53:33.183597+00:00'

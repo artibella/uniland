@@ -1,0 +1,42 @@
+id: hero
+name: Hero
+icon: card
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: body
+    name: Body
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: '3'
+  - id: imageUrl
+    name: Image URL
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: imageAltText
+    name: Image Alt Text
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: link
+    name: Link
+    type: project_map_link
+    helpText: ''
+    typeConfig: null
+useTeamPermissions: true
+slots:
+  - id: ctas
+    name: CTAs
+    allowedComponents:
+      - callToAction
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2022-09-27T14:42:05.444438+00:00'
+updated: '2022-10-26T08:19:16.621915+00:00'
