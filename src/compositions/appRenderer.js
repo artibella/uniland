@@ -19,7 +19,7 @@ import LottieAnimation from '../components/LottieAnimation';
 
 const ComponentsMap = {
   navigation: Navigation,
-  genericCard: Card,
+  card: Card,
   hero: GenericHero,
   sectionContainer: SectionContainer,
   gridContainer: GridContainer,
@@ -31,7 +31,7 @@ const ComponentsMap = {
   callToAction: CallToAction,
   linkList: Linklist,
   linkListItem: LinklistItem,
-  tag: Tag,
+  badge: Tag,
   tabContainer: TabContainer,
   tabPanel: TabPanel,
   lottieAnimation: LottieAnimation

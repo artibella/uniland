@@ -1,5 +1,6 @@
 import Page from './Page';
 
+// maps composition types to components
 const CompositionMap = {
   page: Page
 }
