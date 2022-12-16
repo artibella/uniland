@@ -1,0 +1,32 @@
+composition:
+  _name: Home
+  _id: 786faa4e-bb64-4891-a6a6-ddd4f4805d8c
+  _slug: /
+  type: page
+  parameters: {}
+  slots:
+    hero:
+      - _id: 378e3074-7c97-4a8d-8efd-6b2b3d0a93c0
+        type: hero
+        parameters:
+          body:
+            type: text
+            value: Uniland is an example landing page built with Uniform.dev
+          title:
+            type: text
+            value: Hello world
+          imageUrl:
+            type: text
+            value: unbound
+            connectedData:
+              syntax: jptr
+              pointer: /Hero image/photos/1/src/landscape
+              required: false
+  _dataResources:
+    Hero image:
+      type: pexelsSearch
+      variables:
+        query: Berlin
+created: '2022-12-15T14:10:06.178157+00:00'
+modified: '2022-12-15T14:17:44.156291+00:00'
+pattern: false

@@ -26,8 +26,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2022-09-27T14:43:46.219491+00:00'
-updated: '2022-11-07T18:10:12.066563+00:00'
+created: '2022-12-15T14:08:25.748367+00:00'
+updated: '2022-12-15T14:08:25.748367+00:00'
 variants:
   - id: default
     name: Default

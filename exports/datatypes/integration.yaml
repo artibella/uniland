@@ -1,0 +1,25 @@
+id: integration
+displayName: Integration
+ttl: 30
+path: /entries
+custom:
+  multiSelect: false
+  allowedContentTypes:
+    integration:
+      id: integration
+      name: Integration
+method: GET
+purgeKey: 01bb15c5-b70a-41e5-97d4-0d9ab6afcd0e
+archetype: contentfulEntry
+variables:
+  entryIds:
+    type: string
+    default: n/a
+parameters:
+  include: '2'
+  sys.id[in]: ${entryIds}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: uniform
+allowedOnComponents: []

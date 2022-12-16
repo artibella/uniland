@@ -1,0 +1,9 @@
+composition:
+  _name: Test
+  _id: 0dbb201e-ecb8-446c-a389-f46c73d1b80d
+  _slug: test
+  type: page
+  parameters: {}
+created: '2022-12-16T00:37:07.788712+00:00'
+modified: '2022-12-16T00:37:07.788712+00:00'
+pattern: false

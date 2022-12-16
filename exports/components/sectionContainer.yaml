@@ -1,6 +1,6 @@
 id: sectionContainer
 name: Section Container
-icon: image-text
+icon: rectangle-rounded
 parameters:
   - id: title
     name: Title
@@ -33,23 +33,16 @@ slots:
       - $test
       - $personalization
       - textBlock
-      - restaurantDetails
-      - recipeList
-      - recipeHero
-      - productList
-      - productCard
       - imageBlock
       - hero
-      - genericCard
       - gridContainer
-      - scheduledContent
       - howtoSection
-      - kitchensink
       - linkList
       - tabContainer
       - lottieAnimation
+      - card
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2022-10-19T14:23:35.307515+00:00'
-updated: '2022-11-17T09:25:24.626465+00:00'
+created: '2022-12-15T14:08:27.760427+00:00'
+updated: '2022-12-16T09:18:54.970198+00:00'

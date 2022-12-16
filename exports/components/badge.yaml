@@ -47,8 +47,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: label
 canBeComposition: false
-created: '2022-09-30T12:22:35.793238+00:00'
-updated: '2022-11-11T14:07:46.255922+00:00'
+created: '2022-12-15T14:08:25.552011+00:00'
+updated: '2022-12-15T14:08:25.552011+00:00'
 variants:
   - id: outline
     name: outline

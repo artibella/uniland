@@ -1,0 +1,31 @@
+id: integrationList
+displayName: Integration List
+ttl: 30
+path: /entries
+custom:
+  allowedContentTypes:
+    integration:
+      id: integration
+      name: Integration
+method: GET
+purgeKey: def51b2e-a6b9-4569-b2ff-4426cee78158
+archetype: contentfulQuery
+variables:
+  limit:
+    type: string
+    default: '5'
+  order:
+    type: string
+    default: '-sys.updatedAt'
+  contentType:
+    type: string
+    default: __any__
+parameters:
+  limit: ${limit}
+  order: ${order}
+  content_type: ${contentType}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: uniform
+allowedOnComponents: []
