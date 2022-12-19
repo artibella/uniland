@@ -15,6 +15,10 @@ module.exports = {
       pattern: /bg-./,
       variants: ['sm', 'md', 'lg', 'hover', 'group-hover']
     },
+        {
+      pattern: /(text|justify|align|items|object)-./,
+      variants: ['sm', 'md', 'lg', 'hover', 'group-hover']
+    },
   ],
   theme: {
     extend: {

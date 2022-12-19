@@ -1,10 +1,9 @@
-import Image from "next/image";
+import Image from 'next/image';
 
 export default function ImageBlock({ imageUrl = '', caption = '' }) {
-
   return (
-    <article className="text-block my-8 lg:my-20">
-      <div className="container mx-auto">
+    <article className="image-block">
+      <div className="">
         {imageUrl ? (
           <figure>
             <img src={imageUrl} alt={caption} />
@@ -12,8 +11,10 @@ export default function ImageBlock({ imageUrl = '', caption = '' }) {
               {caption}
             </figcaption>
           </figure>
-        ) : ''}
+        ) : (
+          ''
+        )}
       </div>
     </article>
-  )
+  );
 }

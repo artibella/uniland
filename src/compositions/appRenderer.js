@@ -16,6 +16,7 @@ import Tag from '../components/Tag';
 import TabContainer from '../components/TabContainer';
 import TabPanel from '../components/TabPanel';
 import LottieAnimation from '../components/LottieAnimation';
+import TwoColumns from '../components/TwoColumns';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -34,7 +35,8 @@ const ComponentsMap = {
   badge: Tag,
   tabContainer: TabContainer,
   tabPanel: TabPanel,
-  lottieAnimation: LottieAnimation
+  lottieAnimation: LottieAnimation,
+  twoColumns: TwoColumns
 };
 
 const appRenderer = (component)  => {
