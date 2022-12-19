@@ -1,0 +1,124 @@
+id: twoColumns
+name: Two Columns
+icon: image-text
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: layout
+    name: Layout
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: 50-50 split
+          value: split-50-50
+        - text: One Third - Two Thirds
+          value: split-one-two
+        - text: Two thirds - One Third
+          value: split-two-one
+  - id: leftColumnHorizontalAlignment
+    name: 'Left Column: Horizontal Alignment'
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: start
+        - text: Center
+          value: center
+        - text: Right
+          value: end
+  - id: leftColumnVerticalAlignment
+    name: 'Left Column: Vertical Alignment'
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Top
+          value: start
+        - text: Center
+          value: center
+        - text: Bottom
+          value: end
+  - id: rightColumnHorizontalAlignment
+    name: 'Right Column: Horizontal Alignment'
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: start
+        - text: Center
+          value: center
+        - text: Right
+          value: end
+  - id: rightColumnVerticalAlignment
+    name: 'Right Column: Vertical Alignment'
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Top
+          value: start
+        - text: Center
+          value: center
+        - text: Bottom
+          value: end
+  - id: gapSize
+    name: Gap size
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: small
+        - text: Medium (default)
+          value: medium
+        - text: Large
+          value: large
+        - text: X-Large
+          value: xl
+        - text: None
+          value: none
+  - id: mobileReverseOrder
+    name: Reverse order on mobile
+    type: checkbox
+    helpText: Reverse order of columns on mobile screen sizes
+    typeConfig: null
+useTeamPermissions: true
+slots:
+  - id: leftContent
+    name: Left Content
+    allowedComponents:
+      - imageBlock
+      - textBlock
+      - tabContainer
+      - $personalization
+      - $test
+      - $loop
+      - $localization
+      - card
+      - linkList
+      - lottieAnimation
+    inheritAllowedComponents: false
+  - id: rightContent
+    name: Right Content
+    allowedComponents:
+      - card
+      - imageBlock
+      - linkList
+      - lottieAnimation
+      - tabContainer
+      - textBlock
+      - $personalization
+      - $test
+      - $localization
+      - $loop
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2022-12-19T14:33:55.1508+00:00'
+updated: '2022-12-19T21:30:55.217649+00:00'

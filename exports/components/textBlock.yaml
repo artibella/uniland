@@ -1,5 +1,5 @@
 id: textBlock
-name: Text block
+name: Text Block
 icon: format-text
 parameters:
   - id: title
@@ -15,9 +15,21 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '10'
+  - id: textAlign
+    name: Text align
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.903269+00:00'
-updated: '2022-12-15T14:08:27.903269+00:00'
+updated: '2022-12-19T21:27:22.318214+00:00'
