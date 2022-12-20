@@ -100,8 +100,50 @@ parameters:
           value: square
         - text: Video
           value: video
+  - id: imageWidth
+    name: Image width
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Icon small
+          value: icon-sm
+        - text: Icon
+          value: icon
+        - text: Icon large
+          value: icon-lg
+        - text: Icon XL
+          value: icon-xl
+        - text: 1/3 width
+          value: width-one-third
+        - text: 2/3 width
+          value: width-two-third
+        - text: 25% width
+          value: width-one-quarter
+        - text: 50% width
+          value: width-half
+        - text: 75% width
+          value: width-three-quarter
+        - text: 100% width
+          value: width-full
+  - id: backgroundStyle
+    name: Background style
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: White
+          value: white
+        - text: Dark
+          value: dark
+        - text: Mango
+          value: mango
+        - text: Spring
+          value: spring
+        - text: Ice
+          value: ice
 useTeamPermissions: true
 slots: []
 canBeComposition: false
 created: '2022-12-15T14:08:26.5631+00:00'
-updated: '2022-12-20T14:10:54.904013+00:00'
+updated: '2022-12-20T17:00:10.714113+00:00'

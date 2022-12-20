@@ -10,7 +10,7 @@ const getColumnClasses = (horizontalAlign, verticalAlign, layout, column) => {
   const vAlign = verticalAlign.length > 0 ? verticalAlign : 'start';
 
   return classNames(
-    'mb-8 md:flex md:flex-col md:mb-0',
+    'mb-8 md:flex md:flex-col gap-4 md:mb-0',
     // horizontal align
     { [`md:items-${hAlign}`]: true },
     // vertical align
@@ -46,11 +46,11 @@ export default function TwoColumns({
     { 'md:grid-cols-9': layout === LAYOUT_SPLIT_TWO_ONE },
     { 'md:grid-cols-9': layout === LAYOUT_SPLIT_ONE_TWO },
     // gap size
-    { 'md:md:gap-4': gapSize === 'small' },
-    { 'md:md:gap-8': gapSize === 'medium' },
-    { 'md:md:gap-16': gapSize === 'large' },
-    { 'md:md:gap-32': gapSize === 'xl' },
-    { 'md:md:gap-0': gapSize === 'none' }
+    { 'md:gap-4': gapSize === 'small' },
+    { 'md:gap-8': gapSize === 'medium' },
+    { 'md:gap-16': gapSize === 'large' },
+    { 'md:gap-32': gapSize === 'xl' },
+    { 'md:gap-0': gapSize === 'none' }
   );
 
   const leftColClasses = getColumnClasses(
