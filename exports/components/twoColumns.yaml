@@ -70,7 +70,7 @@ parameters:
   - id: gapSize
     name: Gap size
     type: select
-    helpText: ''
+    helpText: Size of gap between columns
     typeConfig:
       options:
         - text: Small
@@ -84,9 +84,9 @@ parameters:
         - text: None
           value: none
   - id: mobileReverseOrder
-    name: Reverse order on mobile
+    name: Reverse column order on mobile
     type: checkbox
-    helpText: Reverse order of columns on mobile screen sizes
+    helpText: Reverse order of columns when stacked on mobile screen sizes
     typeConfig: null
 useTeamPermissions: true
 slots:
@@ -121,4 +121,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-19T14:33:55.1508+00:00'
-updated: '2022-12-19T21:30:55.217649+00:00'
+updated: '2022-12-20T13:03:22.429206+00:00'

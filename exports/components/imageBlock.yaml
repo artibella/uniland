@@ -1,5 +1,5 @@
 id: imageBlock
-name: Image block
+name: Image Block
 icon: image
 parameters:
   - id: title
@@ -22,8 +22,86 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+  - id: borderRadius
+    name: Border Radius
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: 3XL
+          value: 3xl
+        - text: Full
+          value: full
+        - text: None
+          value: none
+  - id: imageFit
+    name: Image fit
+    type: select
+    helpText: >-
+      Specify how the image should scaled within its container (see
+      https://tailwindcss.com/docs/object-fit)
+    typeConfig:
+      options:
+        - text: Cover
+          value: cover
+        - text: Contain
+          value: contain
+        - text: Fill
+          value: fill
+        - text: Scale down
+          value: scale-down
+        - text: None
+          value: none
+  - id: imagePosition
+    name: Image position
+    type: select
+    helpText: Define how a resized image should be placed within its container
+    typeConfig:
+      options:
+        - text: Center
+          value: center
+        - text: Top
+          value: top
+        - text: Left
+          value: left
+        - text: Right
+          value: right
+        - text: Bottom
+          value: bottom
+        - text: Top left
+          value: left-top
+        - text: Top right
+          value: right-top
+        - text: Bottom left
+          value: left-bottom
+        - text: Bottom right
+          value: right-bottom
+  - id: aspectRatio
+    name: Aspect ratio
+    type: select
+    helpText: Define aspect ratio for the image
+    typeConfig:
+      options:
+        - text: Auto
+          value: auto
+        - text: Square
+          value: square
+        - text: Video
+          value: video
 useTeamPermissions: true
 slots: []
 canBeComposition: false
 created: '2022-12-15T14:08:26.5631+00:00'
-updated: '2022-12-15T14:08:26.5631+00:00'
+updated: '2022-12-20T14:10:54.904013+00:00'
