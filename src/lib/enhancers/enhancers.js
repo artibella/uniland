@@ -14,6 +14,7 @@ import { EnhancerBuilder } from '@uniformdev/canvas';
 //   CANVAS_CONTENTSTACK_QUERY_PARAMETER_TYPES
 // } from "@uniformdev/canvas-contentstack";
 import contributerListEnhancer from './components/contributerList.js';
+import imageUrlEnhancer from './parameters/imageUrl.js';
 
 
 export const getEnhancers = () => {
@@ -48,5 +49,9 @@ export const getEnhancers = () => {
     .component(
       'contributorList',
       contributerListEnhancer
+    )
+    .parameterName(
+      'imageUrl',
+      imageUrlEnhancer
     )
 };
