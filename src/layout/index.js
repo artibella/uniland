@@ -1,5 +1,3 @@
-// components/layout.js
-
 import Sitefooter from './Sitefooter'
 import Siteheader from './Siteheader'
 

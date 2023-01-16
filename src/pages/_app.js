@@ -2,15 +2,17 @@ import { UniformContext } from "@uniformdev/context-react";
 import { Context, enableContextDevTools } from "@uniformdev/context";
 import manifest from "../lib/contextManifest.json";
 import getConfig from "next/config";
-import Layout from "../components/layout";
+import Layout from "../layout";
 import Script from "next/script";
 import * as gtag from "../lib/gtag";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import "../styles/globals.css";
 import "../styles/page.css";
-import { Html } from "next/document";
-import Head from "next/head";
+import initComponents from "../components";
+
+// register and load components
+initComponents();
 
 const {
   publicRuntimeConfig: { gtmStreamId },
