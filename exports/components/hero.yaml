@@ -42,11 +42,6 @@ parameters:
           value: scale-down
         - text: None
           value: none
-  - id: link
-    name: Link
-    type: project_map_link
-    helpText: ''
-    typeConfig: null
 useTeamPermissions: true
 slots:
   - id: ctas
@@ -57,4 +52,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:26.050869+00:00'
-updated: '2022-12-19T14:24:41.90136+00:00'
+updated: '2023-01-16T11:11:09.667689+00:00'

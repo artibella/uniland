@@ -1,0 +1,15 @@
+composition:
+  _name: Integrations
+  _id: e0f6974d-8ee3-4a83-85a7-469791358188
+  _slug: integrations
+  type: page
+  _dataResources:
+    Integrations:
+      type: uniform-v2-integrationList
+      variables:
+        limit: '30'
+        order: '-sys.updatedAt'
+        contentType: integration
+created: '2023-01-04T19:02:46.123358+00:00'
+modified: '2023-01-04T20:28:25.553901+00:00'
+pattern: false

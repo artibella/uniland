@@ -1,0 +1,42 @@
+composition:
+  _name: Integration Card
+  _id: d663c4d1-9383-40b6-96a9-25052fc28e55
+  type: card
+  parameters:
+    body:
+      type: text
+      value: unbound
+      connectedData:
+        syntax: jptr
+        pointer: /Integration/fields/description
+        required: false
+    image:
+      type: text
+      value: unbound
+      connectedData:
+        syntax: jptr
+        pointer: /Integration/fields/image/fields/file/url
+        required: false
+    title:
+      type: text
+      value: unbound
+      connectedData:
+        syntax: jptr
+        pointer: /Integration/fields/title
+        required: false
+    byline:
+      type: text
+      value: unbound
+      connectedData:
+        syntax: jptr
+        pointer: /Integration/fields/category/fields/title
+        required: false
+  _dataResources:
+    Integration:
+      type: uniform-v2-integration
+      variables:
+        entryIds: 1DUb17mzRO86BslO5npXiF
+      isPatternParameter: true
+created: '2022-12-16T21:01:45.786852+00:00'
+modified: '2023-01-04T20:40:25.695114+00:00'
+pattern: true

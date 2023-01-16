@@ -1,6 +1,6 @@
 id: linkList
 name: Link List
-icon: layout-list
+icon: link
 parameters: []
 useTeamPermissions: true
 slots:
@@ -15,4 +15,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: false
 created: '2022-12-15T14:08:26.420263+00:00'
-updated: '2022-12-15T14:08:26.420263+00:00'
+updated: '2023-01-16T10:57:05.541682+00:00'
