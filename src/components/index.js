@@ -15,6 +15,7 @@ import TabContainer from './TabContainer';
 import TabPanel from './TabPanel';
 import LottieAnimation from './LottieAnimation';
 import TwoColumns from './TwoColumns';
+import BrickContainer from './BrickContainer';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -32,7 +33,8 @@ const ComponentsMap = {
   tabContainer: TabContainer,
   tabPanel: TabPanel,
   lottieAnimation: LottieAnimation,
-  twoColumns: TwoColumns
+  twoColumns: TwoColumns,
+  brick: BrickContainer
 };
 
 const initComponents = () => {

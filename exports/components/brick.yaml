@@ -1,0 +1,215 @@
+id: brick
+name: Brick
+icon: rectangle-rounded
+parameters:
+  - id: internalName
+    name: Internal name
+    type: text
+    helpText: Internal name to help make it easier to find the component
+    typeConfig: null
+  - id: title
+    name: Title
+    type: text
+    helpText: Public title to show on the brick
+    typeConfig: null
+  - id: horizontalAlignment
+    name: Horizontal alignment of content
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: start
+        - text: Center
+          value: center
+        - text: Right
+          value: end
+  - id: verticalAlignment
+    name: Vertical alignment of content
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Top
+          value: start
+        - text: Center
+          value: center
+        - text: Bottom
+          value: end
+  - id: borderRadius
+    name: Border Radius
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: 3XL
+          value: 3xl
+        - text: Full
+          value: full
+        - text: None
+          value: none
+  - id: backgroundType
+    name: Background type
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Fill
+          value: fill
+        - text: Gradient
+          value: gradient
+        - text: Image
+          value: image
+        - text: None
+          value: none
+  - id: backgroundImage
+    name: Background Image
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: backgroundImageFit
+    name: Background Image fit
+    type: select
+    helpText: >-
+      Specify how the background image should scaled within its container (see
+      https://tailwindcss.com/docs/object-fit)
+    typeConfig:
+      options:
+        - text: Cover
+          value: cover
+        - text: Contain
+          value: contain
+        - text: Fill
+          value: fill
+        - text: Scale down
+          value: scale-down
+        - text: None
+          value: none
+  - id: backgroundPosition
+    name: Background position
+    type: select
+    helpText: >-
+      Define how the resized background image should be placed within its
+      container
+    typeConfig:
+      options:
+        - text: Center
+          value: center
+        - text: Top
+          value: top
+        - text: Left
+          value: left
+        - text: Right
+          value: right
+        - text: Bottom
+          value: bottom
+        - text: Top left
+          value: left-top
+        - text: Top right
+          value: right-top
+        - text: Bottom left
+          value: left-bottom
+        - text: Bottom right
+          value: right-bottom
+  - id: aspectRatio
+    name: Aspect ratio
+    type: select
+    helpText: Define aspect ratio for the brick
+    typeConfig:
+      options:
+        - text: Auto
+          value: auto
+        - text: Square
+          value: square
+        - text: Video
+          value: video
+  - id: paddingSize
+    name: Inner spacing (padding)
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: None
+          value: none
+  - id: marginSize
+    name: Outer spacing (margin)
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: Full
+          value: full
+        - text: None
+          value: none
+  - id: theme
+    name: Theme
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: White
+          value: white
+        - text: Dark
+          value: dark
+        - text: Mango
+          value: mango
+        - text: Spring
+          value: spring
+        - text: Ice
+          value: ice
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - gridContainer
+      - imageBlock
+      - linkList
+      - lottieAnimation
+      - twoColumns
+      - textBlock
+      - $personalization
+      - $test
+      - $localization
+      - $loop
+    inheritAllowedComponents: false
+titleParameter: internalName
+canBeComposition: false
+created: '2023-01-19T10:12:31.391729+00:00'
+updated: '2023-01-19T12:37:35.757199+00:00'

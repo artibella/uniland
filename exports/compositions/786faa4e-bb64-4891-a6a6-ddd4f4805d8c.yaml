@@ -238,6 +238,9 @@ composition:
                   - _id: bdd333a8-f5e2-4ace-a028-5290a6eeb33c
                     type: imageBlock
                     parameters:
+                      altText:
+                        type: text
+                        value: Icon +
                       imageUrl:
                         type: text
                         value: >-
@@ -401,5 +404,5 @@ composition:
       variables:
         query: Berlin
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2023-01-16T11:22:22.92035+00:00'
+modified: '2023-01-16T12:20:19.207491+00:00'
 pattern: false
