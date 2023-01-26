@@ -1,9 +1,16 @@
-import { Composition, Slot } from '@uniformdev/canvas-react';
+import {
+  UniformComposition,
+  UniformSlot,
+  createUniformApiEnhancer,
+} from '@uniformdev/canvas-react';
 import Head from 'next/head';
 // import appRenderer from '../components';
 
 export default function Page({ composition }) {
   const placeHolder = <div className="h-96"></div>;
+  const contextualEditingEnhancer = createUniformApiEnhancer({
+    apiUrl: '/api/preview',
+  });
   return (
     <>
       <Head>
@@ -11,14 +18,17 @@ export default function Page({ composition }) {
         <meta name="robots" content="noindex"></meta>
       </Head>
       <div>
-        <Composition data={composition}>
+        <UniformComposition
+          data={composition}
+          contextualEditingEnhancer={contextualEditingEnhancer}
+        >
           <section>
-            <Slot name="hero" emptyPlaceholder={placeHolder} />
+            <UniformSlot name="hero" emptyPlaceholder={placeHolder} />
           </section>
           <section>
-            <Slot name="sections" emptyPlaceholder={placeHolder} />
+            <UniformSlot name="sections" emptyPlaceholder={placeHolder} />
           </section>
-        </Composition>
+        </UniformComposition>
       </div>
     </>
   );

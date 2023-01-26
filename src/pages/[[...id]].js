@@ -1,7 +1,7 @@
 import React from 'react';
 import getConfig from "next/config";
 import { enhance, CANVAS_DRAFT_STATE, CANVAS_PUBLISHED_STATE } from "@uniformdev/canvas";
-import { useContextualEditing, createApiEnhancer } from "@uniformdev/canvas-react";
+import { useUniformContextualEditing, createUniformApiEnhancer } from "@uniformdev/canvas-react";
 import { canvasClient } from '../lib/canvas';
 import { getEnhancers } from '../lib/enhancers/enhancers';
 import { projectMapClient } from '../lib/projectMap';
@@ -15,14 +15,7 @@ const {
 } = getConfig();
 
 
-export default function DynamicComposition({ composition: initialCompositionValue }) {
-  // enable contextual editing
-  const { composition } = useContextualEditing({ 
-    initialCompositionValue,
-    enhance: createApiEnhancer({
-      apiUrl: '/api/preview',
-    })
-  });
+export default function DynamicComposition({ composition }) {
   // get composition type
   const CompositionType = compositionRenderer(composition);
   return (
