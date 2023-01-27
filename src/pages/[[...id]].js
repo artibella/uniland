@@ -18,6 +18,7 @@ const {
 export default function DynamicComposition({ composition }) {
   // get composition type
   const CompositionType = compositionRenderer(composition);
+
   return (
     <CompositionType composition={composition} />
   )
@@ -37,6 +38,8 @@ export const getStaticProps = async context => {
         ? CANVAS_DRAFT_STATE
         : CANVAS_PUBLISHED_STATE,
     unstable_resolveData: true
+  }).catch((error) => {
+      return { notFound: true };
   });
 
   // return 404 if no composition is found
