@@ -27,7 +27,7 @@ export default function Section({ title = '', theme = 'light', children }) {
     <section data-theme={theme} className={sectionClasses} id={id}>
       <div className="container mx-auto">
         <div className="px-4 md:px-8">
-          <h2 className={headingClasses}>{title}</h2>
+          {title && <h2 className={headingClasses}>{title}</h2>}
           <div className="section-content">{children}</div>
         </div>
       </div>
