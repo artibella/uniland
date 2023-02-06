@@ -1,0 +1,46 @@
+id: quoteBlock
+name: Quote Block
+icon: quote-o
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: quote
+    name: Quote
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: author
+    name: Author
+    type: text
+    helpText: Author or person that made the quote
+    typeConfig: null
+  - id: source
+    name: Source
+    type: text
+    helpText: Source of quote (e.g. book, film)
+    typeConfig: null
+  - id: theme
+    name: Theme
+    type: select
+    helpText: Choose a theme that will change the design of this section
+    typeConfig:
+      options:
+        - text: Default
+          value: light
+        - text: Dark
+          value: dark
+        - text: Spring
+          value: spring
+        - text: Ice
+          value: ice
+        - text: Mango
+          value: mango
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2023-02-06T10:50:27.050352+00:00'
+updated: '2023-02-06T10:50:27.050352+00:00'

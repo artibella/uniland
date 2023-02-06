@@ -17,6 +17,12 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+  - id: internalLink
+    name: Internal link
+    type: project_map_link
+    helpText: Use for linking to internal pages using the project map
+    typeConfig:
+      required: false
   - id: openInNewTab
     name: Open in new tab
     type: checkbox
@@ -27,7 +33,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:25.748367+00:00'
-updated: '2022-12-15T14:08:25.748367+00:00'
+updated: '2023-02-01T10:09:36.879005+00:00'
 variants:
   - id: default
     name: Default

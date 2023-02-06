@@ -16,6 +16,7 @@ import TabPanel from './TabPanel';
 import LottieAnimation from './LottieAnimation';
 import TwoColumns from './TwoColumns';
 import BrickContainer from './BrickContainer';
+import QuoteBlock from './QuoteBlock';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -34,13 +35,17 @@ const ComponentsMap = {
   tabPanel: TabPanel,
   lottieAnimation: LottieAnimation,
   twoColumns: TwoColumns,
-  brick: BrickContainer
+  brick: BrickContainer,
+  quoteBlock: QuoteBlock,
 };
 
 const initComponents = () => {
-  for(let component in ComponentsMap) {
-    registerUniformComponent({type: component, component: ComponentsMap[component]});
+  for (let component in ComponentsMap) {
+    registerUniformComponent({
+      type: component,
+      component: ComponentsMap[component],
+    });
   }
-}
+};
 
 export default initComponents;

@@ -103,6 +103,8 @@ slots:
       - card
       - linkList
       - lottieAnimation
+      - brick
+      - quoteBlock
     inheritAllowedComponents: false
   - id: rightContent
     name: Right Content
@@ -117,8 +119,10 @@ slots:
       - $test
       - $localization
       - $loop
+      - brick
+      - quoteBlock
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-19T14:33:55.1508+00:00'
-updated: '2022-12-20T13:03:22.429206+00:00'
+updated: '2023-02-06T10:53:05.839259+00:00'

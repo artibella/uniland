@@ -42,8 +42,10 @@ slots:
       - lottieAnimation
       - card
       - twoColumns
+      - brick
+      - quoteBlock
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.760427+00:00'
-updated: '2022-12-19T14:35:01.928438+00:00'
+updated: '2023-02-06T10:52:31.443531+00:00'
