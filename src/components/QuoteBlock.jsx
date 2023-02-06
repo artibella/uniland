@@ -63,12 +63,8 @@ export default function QuoteBlock({
       ></blockquote>
       <figcaption className="font-sans text-xl my-4">
         {(author || source) && <span>&mdash; </span>}
-        {author && <span>{author}</span>}
-        {source && (
-          <>
-            , <cite>{source}</cite>
-          </>
-        )}
+        {author && <span>{author}, </span>}
+        {source && <cite>{source}</cite>}
       </figcaption>
     </figure>
   );
