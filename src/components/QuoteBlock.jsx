@@ -24,13 +24,13 @@ export default function QuoteBlock({
     'before:font-serif',
     'before:w-16',
     'before:h-16',
-    'md:before:text-center',
-    'md:before:absolute',
-    'md:before:-inset-x-20',
-    'md:before:align-middle',
-    'md:before:justify-center',
-    'md:before:items-center',
-    'md:before:items'
+    'lg:before:text-center',
+    'lg:before:absolute',
+    'lg:before:-inset-x-20',
+    'lg:before:align-middle',
+    'lg:before:justify-center',
+    'lg:before:items-center',
+    'lg:before:items'
   );
 
   const quoteClasses = classNames(
@@ -39,7 +39,7 @@ export default function QuoteBlock({
     'text-4xl',
     'text-left',
     'prose',
-    'md:flex',
+    'lg:flex',
     'relative',
     quoteDecoClasses,
     { 'text-white': theme === 'dark' },
