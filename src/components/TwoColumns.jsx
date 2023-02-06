@@ -1,4 +1,4 @@
-import { Slot } from '@uniformdev/canvas-react';
+import { UniformSlot } from '@uniformdev/canvas-react';
 import classNames from 'classnames';
 
 const LAYOUT_SPLIT_50_50 = 'split-50-50';
@@ -79,10 +79,10 @@ export default function TwoColumns({
       <h3 className={headingClasses}>{title}</h3>
       <div className={layoutClasses}>
         <div className={`column-left ${leftColClasses}`}>
-          <Slot name="leftContent" />
+          <UniformSlot name="leftContent" />
         </div>
         <div className={`column-right ${rightColClasses}`}>
-          <Slot name="rightContent" />
+          <UniformSlot name="rightContent" />
         </div>
       </div>
     </div>

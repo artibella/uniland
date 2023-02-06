@@ -1,4 +1,4 @@
-import { Slot } from '@uniformdev/canvas-react';
+import { UniformSlot } from '@uniformdev/canvas-react';
 import classNames from 'classnames';
 
 const renderImage = (imageUrl, imageFit, title) => {
@@ -42,7 +42,7 @@ export default function GenericHero({
               </p>
 
               <div className="hero-actions sm:inline-flex items-center justify-center gap-4 mt-8 lg:mt-12 text-center lg:text-left">
-                <Slot name="ctas" emptyPlaceholder={null} />
+                <UniformSlot name="ctas" emptyPlaceholder={null} />
               </div>
             </div>
           </div>
