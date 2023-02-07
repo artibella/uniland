@@ -7,13 +7,27 @@ composition:
     hero:
       - _id: 378e3074-7c97-4a8d-8efd-6b2b3d0a93c0
         type: hero
+        slots:
+          ctas:
+            - _id: 03c3a090-e037-4421-8b35-5c029da07156
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  value: Learn more
+                internalLink:
+                  type: project_map_link
+                  value:
+                    path: /integrations/contentful
+                    nodeId: a20f1957-a5da-4bda-be43-8dc7f447e5d0
+                    projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
         parameters:
           body:
             type: text
             value: Uniland is an example landing page built with Uniform.dev
           title:
             type: text
-            value: Stop being blocked by your own tech
+            value: Stop being blocked by your own tech!
           imageFit:
             type: select
             value: scale-down
@@ -390,19 +404,248 @@ composition:
           theme:
             type: select
             value: ''
+      - _id: 769f49af-ed29-4c4f-883b-910bf242bc50
+        type: sectionContainer
+        slots:
+          content:
+            - _id: fd03d22d-1de9-4669-b71d-cd059142e516
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: eebe0d46-c02e-48de-94e9-906753997ee7
+                    type: brick
+                    slots:
+                      content:
+                        - _id: 7b7cbf28-fca2-4985-8d70-5706da6ac303
+                          type: textBlock
+                          parameters:
+                            body:
+                              type: text
+                              value: This is a text block inside of a brick
+                            title:
+                              type: text
+                              value: Hello 🧱s
+                            textAlign:
+                              type: select
+                              value: left
+                    parameters:
+                      theme:
+                        type: select
+                        value: white
+                      marginSize:
+                        type: select
+                        value: md
+                      aspectRatio:
+                        type: select
+                        value: auto
+                      paddingSize:
+                        type: select
+                        value: md
+                      borderRadius:
+                        type: select
+                        value: 3xl
+                      internalName:
+                        type: text
+                        value: Demo brick
+                      backgroundType:
+                        type: select
+                        value: image
+                      backgroundImage:
+                        type: text
+                        value: >-
+                          https://images.unsplash.com/photo-1508614999368-9260051292e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80
+                      verticalAlignment:
+                        type: select
+                        value: center
+                      backgroundImageFit:
+                        type: select
+                        value: cover
+                      backgroundPosition:
+                        type: select
+                        value: right-bottom
+                      horizontalAlignment:
+                        type: select
+                        value: center
+                  - _id: b5afe059-75b0-49fe-b0bc-77f3806018ed
+                    type: brick
+                    slots:
+                      content:
+                        - _id: bc463ceb-87b1-48d9-b7dc-cebcae803427
+                          type: textBlock
+                          parameters:
+                            body:
+                              type: text
+                              value: This is a text block inside of a brick
+                            title:
+                              type: text
+                              value: Hello 🧱s
+                            textAlign:
+                              type: select
+                              value: left
+                    parameters:
+                      theme:
+                        type: select
+                        value: mango
+                      marginSize:
+                        type: select
+                        value: none
+                      aspectRatio:
+                        type: select
+                        value: square
+                      paddingSize:
+                        type: select
+                        value: md
+                      borderRadius:
+                        type: select
+                        value: 3xl
+                      internalName:
+                        type: text
+                        value: Demo brick
+                      backgroundType:
+                        type: select
+                        value: fill
+                      verticalAlignment:
+                        type: select
+                        value: center
+                      backgroundImageFit:
+                        type: select
+                        value: contain
+                      backgroundPosition:
+                        type: select
+                        value: right-bottom
+                      horizontalAlignment:
+                        type: select
+                        value: center
+                rightContent:
+                  - _id: bf30c366-aae9-48e0-80d3-d717a8e58251
+                    type: brick
+                    slots:
+                      content:
+                        - _id: 9e862ac6-5af1-4bb9-94c8-e05cbed68a39
+                          type: lottieAnimation
+                          parameters:
+                            id:
+                              type: text
+                              value: Heart-anim
+                            src:
+                              type: text
+                              value: >-
+                                https://assets9.lottiefiles.com/packages/lf20_Tj3A1GrIHf.json
+                            loop:
+                              type: checkbox
+                              value: true
+                            width:
+                              type: text
+                              value: 200px
+                            height:
+                              type: text
+                              value: 200px
+                            autoplay:
+                              type: checkbox
+                              value: true
+                    parameters:
+                      theme:
+                        type: select
+                        value: white
+                      marginSize:
+                        type: select
+                        value: none
+                      aspectRatio:
+                        type: select
+                        value: square
+                      paddingSize:
+                        type: select
+                        value: default
+                      borderRadius:
+                        type: select
+                        value: 3xl
+                      internalName:
+                        type: text
+                        value: Demo brick
+                      backgroundType:
+                        type: select
+                        value: image
+                      backgroundImage:
+                        type: text
+                        value: >-
+                          https://images.unsplash.com/photo-1508614999368-9260051292e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80
+                      verticalAlignment:
+                        type: select
+                        value: center
+                      backgroundImageFit:
+                        type: select
+                        value: cover
+                      backgroundPosition:
+                        type: select
+                        value: right-bottom
+                      horizontalAlignment:
+                        type: select
+                        value: center
+        parameters:
+          theme:
+            type: select
+            value: dark
+          title:
+            type: text
+            value: Bricks
+      - _id: c1a5fdf1-d27a-4260-b21e-fe785df31121
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 24de9ea6-fd88-40da-9483-335b7b447c39
+              type: quoteBlock
+              parameters:
+                quote:
+                  type: text
+                  value: >-
+                    One good thing about music, when it hits you, you feel no
+                    pain.
+                theme:
+                  type: select
+                  value: spring
+                author:
+                  type: text
+                  value: Bob Marley!
+                source:
+                  type: text
+                  value: Babylon by bus
+        parameters:
+          theme:
+            type: select
+            value: spring
   _dataResources:
     Feature:
       type: uniform-v2-feature
       variables:
         entryIds: KpIJ4eAUywvOGy3V3r3ti
+    Twillio:
+      type: uniform-v2-integration
+      variables:
+        entryIds: 68Ul8KcFy2nbMZS1IWCdWX
     Feature 2:
       type: uniform-v2-feature
       variables:
         entryIds: 5vBvnVAF3DTssiD37sr7dH
+    Heartcore:
+      type: uniform-v2-integration
+      variables:
+        entryIds: 4VjICjEIWavxV4lAqYavIm
     Hero image:
       type: pexelsSearch
       variables:
         query: Berlin
+    dotnet Stack:
+      type: integrationsCurated
+      variables:
+        entryIds: 7ffMkAEz1TlKPgkV6qCukF,3Pl8r8TT6N2wwyHv0mTtBe,rwmH7fv6hDZfO1TSA08JH
+    Open source stack:
+      type: integrationsCurated
+      variables:
+        entryIds: 7AvZ2ewdxBNeLP2AGBQRjO,6MNvdb4HfcDcXhQGJ0FbnV,2iFbzBFbZ61lsKdFbpWi3z
+    Sitecore Order Cloud:
+      type: uniform-v2-integration
+      variables:
+        entryIds: rwmH7fv6hDZfO1TSA08JH
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2023-01-16T12:20:19.207491+00:00'
+modified: '2023-02-07T13:08:31.136919+00:00'
 pattern: false
