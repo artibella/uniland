@@ -10,7 +10,8 @@ export default function QuoteBlock({
 }) {
   const blockClasses = classNames(
     'quote',
-    'max-w-3xl',
+    'flex',
+    'justify-center',
     { ['bg-aqua-900']: theme === 'dark' },
     { 'bg-green-50': theme === 'spring' },
     { 'bg-mango-400': theme === 'mango' },
@@ -54,18 +55,19 @@ export default function QuoteBlock({
   );
 
   return (
-    <figure data-theme={theme} className={blockClasses}>
-      {title && <h3 className={headingClasses}>{title}</h3>}
-
-      <blockquote
-        className={quoteClasses}
-        dangerouslySetInnerHTML={{ __html: quote }}
-      ></blockquote>
-      <figcaption className="font-sans text-xl my-4">
-        {(author || source) && <span>&mdash; </span>}
-        {author && <span>{author}, </span>}
-        {source && <cite>{source}</cite>}
-      </figcaption>
-    </figure>
+    <div className={blockClasses}>
+      <figure className="max-w-3xl">
+        {title && <h3 className={headingClasses}>{title}</h3>}
+        <blockquote
+          className={quoteClasses}
+          dangerouslySetInnerHTML={{ __html: quote }}
+        ></blockquote>
+        <figcaption className="font-sans text-xl my-4">
+          {(author || source) && <span>&mdash; </span>}
+          {author && <span>{author}, </span>}
+          {source && <cite>{source}</cite>}
+        </figcaption>
+      </figure>
+    </div>
   );
 }
