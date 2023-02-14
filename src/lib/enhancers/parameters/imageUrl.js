@@ -1,5 +1,7 @@
-const skipCloudinaryProxy = (src) =>
-  src.includes('res.cloudinary.com') || src.includes('.svg');
+const skipCloudinaryProxy = src =>
+  src.includes('res.cloudinary.com') ||
+  src.includes('images.unsplash.com') ||
+  src.includes('.svg');
 
 const getProxyImageSrc = ({ src, width = 800, quality = 75 }) => {
   if (skipCloudinaryProxy(src)) return src;
@@ -9,7 +11,6 @@ const getProxyImageSrc = ({ src, width = 800, quality = 75 }) => {
   }`;
 };
 
-
-export default function imageUrlEnhancer ({parameter}) {
-  return getProxyImageSrc({src: parameter.value});
+export default function imageUrlEnhancer({ parameter }) {
+  return getProxyImageSrc({ src: parameter.value });
 }
