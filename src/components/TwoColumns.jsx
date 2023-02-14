@@ -75,8 +75,8 @@ export default function TwoColumns({
   );
 
   return (
-    <div className="two-columns mb-16">
-      <h3 className={headingClasses}>{title}</h3>
+    <div className="two-columns mb-16 last:mb-0">
+      {title && <h3 className={headingClasses}>{title}</h3>}
       <div className={layoutClasses}>
         <div className={`column-left ${leftColClasses}`}>
           <UniformSlot name="leftContent" />
