@@ -1,10 +1,9 @@
 import { enhance } from '@uniformdev/canvas';
 import { createPreviewHandler } from '@uniformdev/canvas-next';
-import getConfig from 'next/config';
 import { getEnhancers } from '../../lib/enhancers/enhancers';
 
 const handler = createPreviewHandler({
-  secret: () => getConfig().serverRuntimeConfig.previewSecret,
+  secret: () => process.env.UNIFORM_PREVIEW_SECRET,
   // add custom routing logic
   // render compositions without project map node under "preview" route
   resolveFullPath: ({ slug, path }) => {
