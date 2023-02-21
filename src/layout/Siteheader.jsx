@@ -7,11 +7,11 @@ export default function Siteheader({ children }) {
       <div className="container mx-auto flex">
         <div className="site-branding">
           <Link href="/">
-            <a>
-              <span className="text-5xl font-bold text-left font-serif">
-                Uniland
-              </span>
-            </a>
+
+            <span className="text-5xl font-bold text-left font-serif">
+              Uniland
+            </span>
+
           </Link>
         </div>
         <NavBar />

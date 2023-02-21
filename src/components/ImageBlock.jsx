@@ -1,5 +1,5 @@
 import classNames from 'classnames';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 export default function ImageBlock({
   imageUrl = '',
