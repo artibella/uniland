@@ -1,11 +1,13 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 const path = require('path');
-const withPackages = require('next-transpile-modules')(['react-daisyui']);
 
-const config = withPackages({
+const config = {
   reactStrictMode: true,
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
+  },
+  experimental: {
+    transpilePackages: ['react-daisyui'],
   },
   images: {
     loader: 'cloudinary',
@@ -50,6 +52,6 @@ const config = withPackages({
     contentstackEnvironment: process.env.CONTENTSTACK_ENVIRONMENT,
     gtmStreamId: process.env.GTM_STREAM_ID,
   },
-});
+};
 
 module.exports = config;
