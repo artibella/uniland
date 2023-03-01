@@ -1,4 +1,5 @@
 import { UniformSlot } from '@uniformdev/canvas-react';
+import Heading from './Heading';
 import classNames from 'classnames';
 
 const renderImage = (imageUrl, imageFit, title) => {
@@ -25,8 +26,15 @@ export default function GenericHero({
   body = '',
   imageUrl = '',
   imageFit = 'cover',
+  component,
 }) {
   const image = renderImage(imageUrl, imageFit, title);
+  let useDefaultHeading = !Array.isArray(component.slots.heading);
+
+  // const headingType = useDefaultHeading ? 'default' : 'slot';
+  // console.log('default heading', useDefaultHeading, headingType);
+  // console.log(title, component.slots.heading);
+  // console.log('------------');
 
   return (
     <div className="relative overflow-hidden bg-white">
@@ -34,9 +42,12 @@ export default function GenericHero({
         <div className="relative z-10 bg-white py-8 sm:py-16 md:py-20 lg:py-28 xl:py-32 lg:w-full lg:max-w-2xl">
           <div className="mx-auto mt-10 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="text-center lg:text-left">
-              <h2 className="text-4xl font-bold font-serif tracking-tight text-aqua-900 sm:text-5xl md:text-6xl">
-                {title}
-              </h2>
+              {useDefaultHeading ? (
+                <Heading title={title} tagName="h2" />
+              ) : (
+                <UniformSlot name="heading" emptyPlaceholder={null} />
+              )}
+
               <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">
                 {body}
               </p>

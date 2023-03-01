@@ -17,6 +17,7 @@ import LottieAnimation from './LottieAnimation';
 import TwoColumns from './TwoColumns';
 import BrickContainer from './BrickContainer';
 import QuoteBlock from './QuoteBlock';
+import Heading from './Heading';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -37,6 +38,7 @@ const ComponentsMap = {
   twoColumns: TwoColumns,
   brick: BrickContainer,
   quoteBlock: QuoteBlock,
+  heading: Heading,
 };
 
 const initComponents = () => {

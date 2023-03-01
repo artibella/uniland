@@ -1,8 +1,7 @@
 import classNames from 'classnames';
 import slugify from 'slugify';
 
-export default function Section({ title = '', theme = 'light', children }) {
-  const id = slugify(title);
+export default function Section({ title, theme = 'light', children }) {
   const sectionClasses = classNames(
     'section',
     'py-8',
@@ -24,10 +23,10 @@ export default function Section({ title = '', theme = 'light', children }) {
   );
 
   return (
-    <section data-theme={theme} className={sectionClasses} id={id}>
+    <section data-theme={theme} className={sectionClasses}>
       <div className="container mx-auto">
         <div className="px-4 md:px-8">
-          {title && <h2 className={headingClasses}>{title}</h2>}
+          {title && title}
           <div className="section-content">{children}</div>
         </div>
       </div>
