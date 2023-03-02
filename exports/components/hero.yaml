@@ -44,6 +44,13 @@ parameters:
           value: none
 useTeamPermissions: true
 slots:
+  - id: heading
+    name: Heading
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - heading
+    inheritAllowedComponents: false
   - id: ctas
     name: CTAs
     allowedComponents:
@@ -51,5 +58,5 @@ slots:
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2022-12-15T14:08:26.050869+00:00'
-updated: '2023-01-16T11:11:09.667689+00:00'
+created: '2023-01-16T13:42:28.961676+00:00'
+updated: '2023-02-28T16:15:53.604836+00:00'

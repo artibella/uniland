@@ -19,7 +19,7 @@ parameters:
     typeConfig: null
   - id: internalLink
     name: Internal link
-    type: project_map_link
+    type: link
     helpText: Use for linking to internal pages using the project map
     typeConfig:
       required: false
@@ -32,8 +32,8 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2022-12-15T14:08:25.748367+00:00'
-updated: '2023-02-01T10:09:36.879005+00:00'
+created: '2023-01-16T13:42:27.67047+00:00'
+updated: '2023-02-07T13:16:49.590118+00:00'
 variants:
   - id: default
     name: Default

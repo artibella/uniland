@@ -25,6 +25,13 @@ parameters:
           value: mango
 useTeamPermissions: true
 slots:
+  - id: heading
+    name: Heading
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - heading
+    inheritAllowedComponents: false
   - id: content
     name: Content
     allowedComponents:
@@ -47,5 +54,5 @@ slots:
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2022-12-15T14:08:27.760427+00:00'
-updated: '2023-02-06T10:52:31.443531+00:00'
+created: '2023-01-16T13:42:31.072234+00:00'
+updated: '2023-02-28T18:27:06.38924+00:00'

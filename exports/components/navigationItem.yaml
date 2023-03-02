@@ -16,7 +16,7 @@ parameters:
       required: true
   - id: link
     name: Link
-    type: project_map_link
+    type: link
     helpText: Internal link
     typeConfig: null
 useTeamPermissions: true

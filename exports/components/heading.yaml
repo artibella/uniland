@@ -1,0 +1,74 @@
+id: heading
+name: Heading
+icon: format-heading
+parameters:
+  - id: byline
+    name: Byline
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: titleHtml
+    name: Title HTML
+    type: text
+    helpText: Insert a title that supports custom CSS styling
+    typeConfig:
+      multiline: true
+      linesCount: '5'
+  - id: tagName
+    name: Tag name
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: H1
+          value: h1
+        - text: H2
+          value: h2
+        - text: H3
+          value: h3
+        - text: H4
+          value: h4
+        - text: H5
+          value: h5
+        - text: H6
+          value: h6
+      required: true
+  - id: align
+    name: Align
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+  - id: theme
+    name: Theme
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Default
+          value: light
+        - text: Dark
+          value: dark
+        - text: Spring
+          value: spring
+        - text: Ice
+          value: ice
+        - text: Mango
+          value: mango
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2023-02-28T16:13:29.988147+00:00'
+updated: '2023-02-28T19:35:03.426864+00:00'
