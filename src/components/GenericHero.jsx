@@ -29,12 +29,8 @@ export default function GenericHero({
   component,
 }) {
   const image = renderImage(imageUrl, imageFit, title);
-  let useDefaultHeading = !Array.isArray(component.slots.heading);
-
-  // const headingType = useDefaultHeading ? 'default' : 'slot';
-  // console.log('default heading', useDefaultHeading, headingType);
-  // console.log(title, component.slots.heading);
-  // console.log('------------');
+  // TODO: fix issue with Visual Canvas as slot could contain placeholder
+  const useDefaultHeading = !Array.isArray(component.slots.heading);
 
   return (
     <div className="relative overflow-hidden bg-white">
