@@ -1,11 +1,24 @@
 import { UniformContext } from '@uniformdev/context-react';
 import Layout from '../layout';
 import { createUniformContext } from '../lib/context/uniformContext';
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
 import '../styles/globals.css';
 import '../styles/page.css';
+// import components
 import initComponents from '../components';
+// import fonts
+import { Source_Serif_Pro, Inter } from '@next/font/google';
+
+const sourceSerif = Source_Serif_Pro({
+  weight: ['400', '700'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  variable: '--font-source-serif-pro',
+});
+
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+});
 
 // register and load components
 initComponents();
@@ -15,9 +28,11 @@ const clientContext = createUniformContext();
 function UnilandApp({ Component, pageProps, serverUniformContext }) {
   return (
     <UniformContext context={serverUniformContext ?? clientContext}>
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <main className={`${sourceSerif.variable} ${inter.variable} font-sans`}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </main>
     </UniformContext>
   );
 }
