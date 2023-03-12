@@ -6,9 +6,8 @@ const config = {
   sassOptions: {
     includePaths: [path.join(__dirname, 'styles')],
   },
-  experimental: {
-    transpilePackages: ['react-daisyui'],
-  },
+  transpilePackages: ['react-daisyui'],
+  experimental: {},
   images: {
     loader: 'cloudinary',
     domains: ['res.cloudinary.com'],
