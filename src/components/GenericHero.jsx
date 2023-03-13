@@ -30,7 +30,7 @@ export default function GenericHero({
 }) {
   const image = renderImage(imageUrl, imageFit, title);
   // TODO: fix issue with Visual Canvas as slot could contain placeholder
-  const useDefaultHeading = !Array.isArray(component.slots.heading);
+  const useDefaultHeading = !Array.isArray(component.slots?.heading);
 
   return (
     <div className="relative overflow-hidden bg-white">
