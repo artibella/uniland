@@ -1,9 +1,9 @@
-import { Fragment } from 'react'
-import { Tab } from '@headlessui/react'
-import { Slot } from '@uniformdev/canvas-react';
+import { Fragment } from 'react';
+import { Tab } from '@headlessui/react';
+import { UniformSlot } from '@uniformdev/canvas-react';
 
 const renderTabList = function (tabs) {
-  return tabs.map((tab) => {
+  return tabs.map(tab => {
     const title = tab.parameters?.title?.value || '';
     return (
       <Tab as={Fragment} key={title}>
@@ -18,13 +18,11 @@ const renderTabList = function (tabs) {
           </button>
         )}
       </Tab>
-    )
-  })
-}
-
+    );
+  });
+};
 
 export default function TabContainer({ component }) {
-
   const tabs = component.slots?.tabs || [];
 
   return (
@@ -35,10 +33,10 @@ export default function TabContainer({ component }) {
             {renderTabList(tabs)}
           </Tab.List>
           <Tab.Panels>
-            <Slot name='tabs' />
+            <UniformSlot name="tabs" />
           </Tab.Panels>
         </Tab.Group>
       ) : null}
     </div>
-  )
+  );
 }

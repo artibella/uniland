@@ -23,9 +23,6 @@ export default function DynamicComposition({ composition }) {
 export const getStaticProps = withUniformGetStaticProps({
   param: 'id',
   client: canvasClient,
-  requestOptions: {
-    unstable_resolveData: true,
-  },
   callback: async (context, composition) => {
     if (composition) {
       // run enhancers
