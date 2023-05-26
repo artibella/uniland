@@ -58,7 +58,6 @@ export const getServerSideProps = unstable_withUniformGetServerSideProps({
       // eslint-disable-next-line no-console
       console.log(routeResponse.compositionApiResponse.errors);
       console.log('Returning 404 because data errors');
-
       // return null;
     }
     const composition = routeResponse.compositionApiResponse.composition;
