@@ -1,6 +1,10 @@
 import React from 'react';
 import getConfig from 'next/config';
-import { enhance, CANVAS_DRAFT_STATE } from '@uniformdev/canvas';
+import {
+  enhance,
+  CANVAS_DRAFT_STATE,
+  CANVAS_PUBLISHED_STATE,
+} from '@uniformdev/canvas';
 import { getEnhancers } from '../lib/enhancers/enhancers';
 import { canvasClient } from '../lib/canvas';
 import { compositionRenderer } from '../compositions/compositionRenderer';
@@ -47,17 +51,20 @@ export default function DynamicComposition({ composition }) {
 
 export const getServerSideProps = unstable_withUniformGetServerSideProps({
   requestOptions: {
-    state: CANVAS_DRAFT_STATE,
     diagnostics: true,
+    state:
+      process.env.NODE_ENV === 'development'
+        ? CANVAS_DRAFT_STATE
+        : CANVAS_PUBLISHED_STATE,
   },
-  async handleComposition(routeResponse, context, _defaultHandler) {
+  handleComposition: async (routeResponse, context) => {
     if (
       routeResponse.compositionApiResponse.errors?.some(e => e.type === 'data')
     ) {
       // if we got data errors, we could not resolve a data resource and we choose to return a 404 instead of partial content
       // eslint-disable-next-line no-console
+      console.log('Page has data errors');
       console.log(routeResponse.compositionApiResponse.errors);
-      console.log('Returning 404 because data errors');
       // return null;
     }
     const composition = routeResponse.compositionApiResponse.composition;
@@ -68,7 +75,7 @@ export const getServerSideProps = unstable_withUniformGetServerSideProps({
     return {
       props: {
         composition: composition,
-        pageTitle: routeResponse.compositionApiResponse.composition?._name,
+        pageTitle: composition?._name,
       },
     };
   },
