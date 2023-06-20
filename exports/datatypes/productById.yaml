@@ -1,0 +1,21 @@
+id: productById
+displayName: Product by ID
+ttl: 30
+path: ''
+method: GET
+purgeKey: 830c1079-de47-4730-b892-042df8760a03
+archetype: default
+variables:
+  productID:
+    type: text
+    default: gid://shopify/Product/7982905098262
+parameters:
+  - key: query
+    value: >-
+      { product(id: "${productID}") { id title description featuredImage { id
+      url } }}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: mockShop
+allowedOnComponents: []

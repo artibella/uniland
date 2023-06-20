@@ -1,0 +1,24 @@
+id: images
+displayName: Images
+ttl: 30
+path: /assets
+custom:
+  mimeTypes:
+    - image
+  searchType: fields.title
+method: GET
+purgeKey: b476aae7-8b7f-4573-8916-dc9facf2cbd6
+archetype: assets
+variables:
+  assetsIds:
+    type: text
+    default: unknown
+    displayName: Assets ID
+parameters:
+  - key: sys.id[in]
+    value: ${assetsIds}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: uniformWebsite
+allowedOnComponents: []

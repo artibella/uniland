@@ -1,0 +1,22 @@
+id: productsByCollection
+displayName: Products by collection
+ttl: 30
+path: ''
+method: GET
+purgeKey: 83924680-c665-4667-a9c8-fb4355359440
+archetype: default
+variables:
+  collectionID:
+    type: text
+    default: gid://shopify/Collection/429512622102
+parameters:
+  - key: query
+    value: >-
+      { collection(id: "${collectionID}") { id handle title description image {
+      id url } products(first: 20) { edges { node { id title featuredImage { id
+      url } } } } }}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: mockShop
+allowedOnComponents: []

@@ -1,0 +1,52 @@
+id: posts
+displayName: Posts
+ttl: 30
+path: /entries
+custom:
+  include: '10'
+  imagePath: featuredImage
+  searchField:
+    id: fields.title
+    type: Symbol
+  allowContentTypeIds:
+    - BlogPost
+method: GET
+purgeKey: 264bb356-8ea5-48f7-9829-21a7a251b565
+archetype: queryEntry
+variables:
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  order:
+    type: text
+    default: ''
+    displayName: Order
+  keyword:
+    type: text
+    default: ''
+    displayName: Search Text
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+  contentTypeId:
+    type: text
+    default: BlogPost
+    displayName: Content Type
+parameters:
+  - key: include
+    value: '10'
+  - key: order
+    value: ${order}
+  - key: query
+    value: ${keyword}
+  - key: limit
+    value: ${limit}
+  - key: content_type
+    value: ${contentTypeId}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: uniformWebsite
+allowedOnComponents: []
