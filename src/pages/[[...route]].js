@@ -6,7 +6,7 @@ import {
 } from '@uniformdev/canvas';
 import { getEnhancers } from '../lib/enhancers/enhancers';
 import { compositionRenderer } from '../compositions/compositionRenderer';
-import { unstable_withUniformGetServerSideProps } from '@uniformdev/canvas-next/route';
+import { withUniformGetServerSideProps } from '@uniformdev/canvas-next/route';
 
 export default function DynamicComposition({ composition }) {
   // get composition type
@@ -15,7 +15,7 @@ export default function DynamicComposition({ composition }) {
   return <CompositionType composition={composition} />;
 }
 
-export const getServerSideProps = unstable_withUniformGetServerSideProps({
+export const getServerSideProps = withUniformGetServerSideProps({
   requestOptions: {
     diagnostics: true,
     state:
