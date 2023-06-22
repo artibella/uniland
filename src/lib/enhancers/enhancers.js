@@ -48,6 +48,6 @@ export const getEnhancers = () => {
       // Component enhancers
       .component('contributorList', contributerListEnhancer)
       .parameterName('imageUrl', imageUrlEnhancer)
-      .parameterName('richText', contentfulRichTextEnhancer)
+      .parameterName('externalRichText', contentfulRichTextEnhancer)
   );
 };

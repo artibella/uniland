@@ -2,11 +2,13 @@ import classNames from 'classnames';
 import slugify from 'slugify';
 import Heading from './Heading';
 import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import { UniformRichText } from '@uniformdev/canvas-next';
 
 export default function TextBlock({
   title = '',
   body = '',
   richText = null,
+  externalRichText = null,
   textAlign = 'left',
   theme = 'light',
 }) {
@@ -36,10 +38,12 @@ export default function TextBlock({
         </div>
       )}
 
-      {richText && (
+      <UniformRichText className={bodyClasses} parameterId="richText" />
+
+      {externalRichText && (
         <div
           className={bodyClasses}
-          dangerouslySetInnerHTML={{ __html: richText }}
+          dangerouslySetInnerHTML={{ __html: externalRichText }}
         />
       )}
     </article>
