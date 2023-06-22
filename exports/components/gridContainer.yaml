@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: gridContainer
 name: Grid Container
 icon: view-cols
@@ -28,9 +30,7 @@ slots:
       - card
       - brick
       - quoteBlock
-    allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: false
 defaults:
   type: gridContainer
   parameters:
@@ -38,5 +38,5 @@ defaults:
       type: number
       value: '2'
 canBeComposition: false
-created: '2023-01-16T13:42:28.697612+00:00'
-updated: '2023-03-21T14:25:29.71173+00:00'
+created: '2022-12-15T14:08:25.921759+00:00'
+updated: '2023-03-09T12:30:46.324252+00:00'

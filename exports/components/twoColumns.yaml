@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: twoColumns
 name: Two Columns
 icon: image-text
@@ -7,18 +9,14 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
-  - id: layout
-    name: Layout
-    type: select
-    helpText: ''
+  - id: leftColumn
+    name: Left column
+    type: group
     typeConfig:
-      options:
-        - text: 50-50 split
-          value: split-50-50
-        - text: One Third - Two Thirds
-          value: split-one-two
-        - text: Two thirds - One Third
-          value: split-two-one
+      collapsed: false
+      childrenParams:
+        - leftColumnHorizontalAlignment
+        - leftColumnVerticalAlignment
   - id: leftColumnHorizontalAlignment
     name: 'Left Column: Horizontal Alignment'
     type: select
@@ -44,6 +42,14 @@ parameters:
           value: center
         - text: Bottom
           value: end
+  - id: rightColumn
+    name: Right column
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - rightColumnHorizontalAlignment
+        - rightColumnVerticalAlignment
   - id: rightColumnHorizontalAlignment
     name: 'Right Column: Horizontal Alignment'
     type: select
@@ -68,6 +74,27 @@ parameters:
           value: center
         - text: Bottom
           value: end
+  - id: layoutSettings
+    name: Layout settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - layout
+        - gapSize
+        - mobileReverseOrder
+  - id: layout
+    name: Layout
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: 50-50 split
+          value: split-50-50
+        - text: One Third - Two Thirds
+          value: split-one-two
+        - text: Two thirds - One Third
+          value: split-two-one
   - id: gapSize
     name: Gap size
     type: select
@@ -106,7 +133,10 @@ slots:
       - lottieAnimation
       - brick
       - quoteBlock
+      - heading
+    allowAllComponents: false
     inheritAllowedComponents: false
+    patternsInAllowedComponents: false
   - id: rightContent
     name: Right Content
     allowedComponents:
@@ -122,8 +152,11 @@ slots:
       - $loop
       - brick
       - quoteBlock
+      - heading
+    allowAllComponents: false
     inheritAllowedComponents: false
+    patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-01-16T13:42:32.129215+00:00'
-updated: '2023-02-22T16:07:44.709133+00:00'
+created: '2022-12-19T14:33:55.1508+00:00'
+updated: '2023-06-02T12:31:26.920362+00:00'

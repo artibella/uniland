@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: imageBlock
 name: Image Block
 icon: image
@@ -7,9 +9,19 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
-  - id: altText
-    name: Alt text
-    type: text
+  - id: imageSetting
+    name: Image setting
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - imageUrl
+        - image
+        - caption
+        - altText
+  - id: image
+    name: Image
+    type: image
     helpText: ''
     typeConfig: null
   - id: imageUrl
@@ -17,35 +29,65 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+  - id: altText
+    name: Alt text
+    type: text
+    helpText: ''
+    typeConfig:
+      required: false
   - id: caption
     name: Caption
     type: text
     helpText: ''
     typeConfig: null
-  - id: borderRadius
-    name: Border Radius
+  - id: imageSizing
+    name: Image sizing
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - imageWidth
+        - aspectRatio
+        - imageFit
+        - imagePosition
+  - id: imageWidth
+    name: Image width
     type: select
     helpText: ''
     typeConfig:
       options:
-        - text: Small
-          value: sm
-        - text: Default
-          value: default
-        - text: Medium
-          value: md
-        - text: Large
-          value: lg
-        - text: XL
-          value: xl
-        - text: 2XL
-          value: 2xl
-        - text: 3XL
-          value: 3xl
-        - text: Full
-          value: full
-        - text: None
-          value: none
+        - text: Icon small
+          value: icon-sm
+        - text: Icon
+          value: icon
+        - text: Icon large
+          value: icon-lg
+        - text: Icon XL
+          value: icon-xl
+        - text: 1/3 width
+          value: width-one-third
+        - text: 2/3 width
+          value: width-two-third
+        - text: 25% width
+          value: width-one-quarter
+        - text: 50% width
+          value: width-half
+        - text: 75% width
+          value: width-three-quarter
+        - text: 100% width
+          value: width-full
+  - id: aspectRatio
+    name: Aspect ratio
+    type: select
+    helpText: Define aspect ratio for the image
+    typeConfig:
+      options:
+        - text: Auto
+          value: auto
+        - text: Square
+          value: square
+        - text: Video
+          value: video
   - id: imageFit
     name: Image fit
     type: select
@@ -88,44 +130,43 @@ parameters:
           value: left-bottom
         - text: Bottom right
           value: right-bottom
-  - id: aspectRatio
-    name: Aspect ratio
-    type: select
-    helpText: Define aspect ratio for the image
+  - id: borderSettings
+    name: Border settings
+    type: group
     typeConfig:
-      options:
-        - text: Auto
-          value: auto
-        - text: Square
-          value: square
-        - text: Video
-          value: video
-  - id: imageWidth
-    name: Image width
+      collapsed: true
+      childrenParams:
+        - borderRadius
+  - id: borderRadius
+    name: Border Radius
     type: select
     helpText: ''
     typeConfig:
       options:
-        - text: Icon small
-          value: icon-sm
-        - text: Icon
-          value: icon
-        - text: Icon large
-          value: icon-lg
-        - text: Icon XL
-          value: icon-xl
-        - text: 1/3 width
-          value: width-one-third
-        - text: 2/3 width
-          value: width-two-third
-        - text: 25% width
-          value: width-one-quarter
-        - text: 50% width
-          value: width-half
-        - text: 75% width
-          value: width-three-quarter
-        - text: 100% width
-          value: width-full
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: 3XL
+          value: 3xl
+        - text: Full
+          value: full
+        - text: None
+          value: none
+  - id: backgroundSettings
+    name: Background settings
+    type: group
+    typeConfig:
+      childrenParams:
+        - backgroundStyle
   - id: backgroundStyle
     name: Background style
     type: select
@@ -145,5 +186,5 @@ parameters:
 useTeamPermissions: true
 slots: []
 canBeComposition: false
-created: '2023-01-16T13:42:29.242555+00:00'
-updated: '2023-02-07T13:16:49.104048+00:00'
+created: '2022-12-15T14:08:26.5631+00:00'
+updated: '2023-06-02T15:50:34.458032+00:00'

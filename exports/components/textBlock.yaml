@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: textBlock
 name: Text Block
 icon: format-text
@@ -15,11 +17,32 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '10'
-  - id: richText
-    name: Rich Text
-    type: json
-    helpText: External JSON based rich text
-    typeConfig: {}
+  - id: richTextContent
+    name: Rich text Content
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
   - id: textAlign
     name: Text align
     type: select
@@ -32,6 +55,27 @@ parameters:
           value: center
         - text: Right
           value: right
+  - id: group_externalContent
+    name: External Content
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - externalRichText
+        - richText
+  - id: externalRichText
+    name: External Rich Text
+    type: json
+    helpText: Rich text JSON coming from another CMS
+    typeConfig: {}
+  - id: group_textStyling
+    name: Text styling
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - theme
+        - textAlign
   - id: theme
     name: Theme
     type: select
@@ -52,5 +96,5 @@ useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-01-16T13:42:31.849442+00:00'
-updated: '2023-03-24T08:55:22.61397+00:00'
+created: '2022-12-15T14:08:27.903269+00:00'
+updated: '2023-06-22T13:28:00.090605+00:00'
