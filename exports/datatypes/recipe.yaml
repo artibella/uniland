@@ -1,0 +1,35 @@
+id: recipe
+displayName: Recipe
+ttl: 30
+path: /content_types/${content_type_uid}/entries/${entry_uid}
+custom:
+  imagePath: featuredimage.url
+  searchFieldIds:
+    - subtitle
+    - title
+  allowContentTypeUids:
+    - recipe
+method: GET
+purgeKey: 9f1ea4aa-8a75-45f7-a3c8-b75f470759d6
+archetype: singleEntry
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  entry_uid:
+    type: text
+    default: ''
+    displayName: Entry Uid
+  content_type_uid:
+    type: text
+    default: recipe
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: unifood
+allowedOnComponents: []

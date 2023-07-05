@@ -1,0 +1,63 @@
+id: restaurantReview
+displayName: Restaurant Review
+ttl: 30
+path: /content_types/${content_type_uid}/entries/${entry_uid}
+custom:
+  imagePath: featured_image.url
+  searchFieldIds:
+    - review_html
+    - teaser_text
+    - title
+    - url
+  allowContentTypeUids:
+    - restaurant_review
+method: GET
+purgeKey: de7a28f1-a056-48cc-8ba2-07a3b663dd7d
+archetype: singleEntry
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  entry_uid:
+    type: text
+    default: ''
+    displayName: Entry Uid
+  content_type_uid:
+    type: text
+    default: restaurant_review
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: include[]
+    value: restaurants
+  - key: include[]
+    value: restaurants.cuisines
+  - key: include[]
+    value: restaurants.diets
+  - key: include[]
+    value: authors
+  - key: include[]
+    value: related_reviews
+  - key: include[]
+    value: related_reviews.restaurants
+  - key: include[]
+    value: related_reviews.restaurants.cuisines
+  - key: include[]
+    value: related_reviews.restaurants.diets
+  - key: include[]
+    value: related_reviews.authors
+  - key: include[]
+    value: related_reviews.related_reviews
+  - key: include[]
+    value: related_reviews.related_reviews.restaurants
+  - key: include[]
+    value: related_reviews.related_reviews.authors
+  - key: include[]
+    value: related_reviews.related_reviews.related_reviews
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: unifood
+allowedOnComponents: []

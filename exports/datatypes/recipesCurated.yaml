@@ -1,0 +1,31 @@
+id: recipesCurated
+displayName: Recipes (curated)
+ttl: 30
+path: /content_types/${content_type_uid}/entries
+custom:
+  imagePath: featuredimage.url
+  searchFieldIds:
+    - description
+    - intro
+    - title
+  allowContentTypeUid: recipe
+method: GET
+purgeKey: 1e06bbd0-a07b-49e2-a042-79b996584c9b
+archetype: multipleEntry
+variables:
+  query:
+    type: text
+    default: '{ "uid": { "$in": [ "" ] } }'
+    displayName: Query
+  content_type_uid:
+    type: text
+    default: recipe
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: unifood
+allowedOnComponents: []

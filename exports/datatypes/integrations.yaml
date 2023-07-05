@@ -1,19 +1,18 @@
-id: postsBySlug
-displayName: Posts by Slug
-ttl: 300
-body: ''
+id: integrations
+displayName: Integrations
+ttl: 30
 path: /entries
 custom:
   include: '10'
-  imagePath: featuredImage
+  imagePath: icon
   searchField:
-    id: fields.slug
+    id: fields.title
     type: Symbol
   allowContentTypeIds:
-    - BlogPost
+    - integration
 method: GET
-purgeKey: c53bb488-4236-4338-a303-b4d4d92cf506
-archetype: queryEntry
+purgeKey: 95e2457d-5d0b-4057-b498-2293c841bbf8
+archetype: multipleEntry
 variables:
   limit:
     type: text
@@ -33,21 +32,15 @@ variables:
     displayName: Entry Ids
   contentTypeId:
     type: text
-    default: BlogPost
+    default: integration
     displayName: Content Type
 parameters:
   - key: include
     value: '10'
-  - key: order
-    value: ${order}
-  - key: query
-    value: ${keyword}
-  - key: limit
-    value: ${limit}
-  - key: content_type
-    value: ${contentTypeId}
+  - key: sys.id[in]
+    value: ${entryIds}
 longTermCache:
   enabled: false
   ttlInHours: 24
-dataSourceId: uniformWebsite
+dataSourceId: uniform
 allowedOnComponents: []

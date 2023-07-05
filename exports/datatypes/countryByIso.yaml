@@ -1,0 +1,19 @@
+id: countryByIso
+displayName: Country by ISO
+ttl: 30
+path: /alpha/${code}
+custom:
+  proposedName: alpha/${code}
+method: GET
+purgeKey: ea843e7f-9e7f-4f66-831d-51c86b3e9843
+archetype: default
+variables:
+  code:
+    type: text
+    default: us
+    helpText: Country ISO code
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: restCountries
+allowedOnComponents: []

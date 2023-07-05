@@ -1,0 +1,22 @@
+id: multipleCountriesByIsoCode
+displayName: Multiple countries by ISO code
+ttl: 30
+path: /alpha
+custom:
+  proposedName: alpha
+method: GET
+purgeKey: 1764ff1f-eb0a-437a-a3d3-1b8c3bdb5327
+archetype: default
+variables:
+  codes:
+    type: text
+    default: at,de,hu,ch
+    helpText: Comma separated list of ISO codes (e.g. at,de,hu,ch)
+parameters:
+  - key: codes
+    value: ${codes}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: restCountries
+allowedOnComponents: []

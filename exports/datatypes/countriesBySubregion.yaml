@@ -1,0 +1,21 @@
+id: countriesBySubregion
+displayName: Countries by sub region
+ttl: 30
+path: /subregion/${region}
+custom:
+  proposedName: subregion/${region}
+method: GET
+purgeKey: 55d76f57-24a7-4fd7-8767-bbadfe117104
+archetype: default
+variables:
+  region:
+    type: text
+    default: Western Europe
+    helpText: >-
+      Name of the sub region (e.g. Western Europe, Central Europe, Northern
+      Europe)
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: restCountries
+allowedOnComponents: []

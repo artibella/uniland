@@ -1,7 +1,6 @@
-id: postsBySlug
-displayName: Posts by Slug
-ttl: 300
-body: ''
+id: postBySlug
+displayName: Post by Slug
+ttl: 30
 path: /entries
 custom:
   include: '10'
@@ -12,7 +11,7 @@ custom:
   allowContentTypeIds:
     - BlogPost
 method: GET
-purgeKey: c53bb488-4236-4338-a303-b4d4d92cf506
+purgeKey: 3699a3c8-5d9c-4d94-9cf2-0005a35e7dd9
 archetype: queryEntry
 variables:
   limit:
@@ -49,5 +48,5 @@ parameters:
 longTermCache:
   enabled: false
   ttlInHours: 24
-dataSourceId: uniformWebsite
+dataSourceId: uniform
 allowedOnComponents: []

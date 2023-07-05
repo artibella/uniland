@@ -1,0 +1,66 @@
+id: fakeUser
+displayName: Fake User
+ttl: 30
+body: ''
+path: /staticdata
+custom:
+  json:
+    info:
+      page: 1
+      seed: 4cc097e1c187444a
+      results: 1
+      version: '1.4'
+    results:
+      - id:
+          name: NINO
+          value: WY 14 42 35 R
+        dob:
+          age: 33
+          date: '1989-06-14T22:33:23.263Z'
+        nat: GB
+        cell: 07136 068719
+        name:
+          last: Rodriguez
+          first: Joe
+          title: Mr
+        email: joe.rodriguez@example.com
+        login:
+          md5: 5def24e72b7a8b5bc71c41111d404ac3
+          salt: vgvQQzlc
+          sha1: a4192dcdac52b796f2fe367f142e1e9fbb4ada0e
+          uuid: 8c50e812-515a-4a63-8c8f-5c0808b65327
+          sha256: 47e29ba0452b1a18ff880e56d4e5a05f94d8d5ce138fa492b2fac3b124c9f832
+          password: richie
+          username: lazyzebra418
+        phone: 016974 72595
+        gender: male
+        picture:
+          large: https://randomuser.me/api/portraits/men/55.jpg
+          medium: https://randomuser.me/api/portraits/med/men/55.jpg
+          thumbnail: https://randomuser.me/api/portraits/thumb/men/55.jpg
+        location:
+          city: Londonderry
+          state: Buckinghamshire
+          street:
+            name: The Grove
+            number: 543
+          country: United Kingdom
+          postcode: IZ06 6UA
+          timezone:
+            offset: '-3:30'
+            description: Newfoundland
+          coordinates:
+            latitude: '-5.4944'
+            longitude: '-44.8192'
+        registered:
+          age: 21
+          date: '2002-04-09T22:24:13.101Z'
+  proposedName: JSON Data
+method: GET
+purgeKey: 34675769-8a97-4e18-ac28-270b07838535
+archetype: staticData
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: mockjson
+allowedOnComponents: []

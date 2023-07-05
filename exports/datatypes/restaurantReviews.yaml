@@ -1,0 +1,74 @@
+id: restaurantReviews
+displayName: Restaurant Reviews
+ttl: 30
+path: /content_types/${content_type_uid}/entries
+custom:
+  imagePath: featured_image.url
+  searchFieldIds:
+    - title
+  allowContentTypeUids:
+    - restaurant_review
+method: GET
+purgeKey: 9825ac62-6cac-4bf2-809c-cd33125a9d47
+archetype: queryEntry
+variables:
+  asc:
+    type: text
+    default: ''
+    displayName: Order by asc
+  desc:
+    type: text
+    default: ''
+    displayName: Order by desc
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  query:
+    type: text
+    default: ''
+    displayName: Query
+  content_type_uid:
+    type: text
+    default: restaurant_review
+    displayName: Entry Type
+parameters:
+  - key: query
+    value: ${query}
+  - key: limit
+    value: ${limit}
+  - key: asc
+    value: ${asc}
+  - key: desc
+    value: ${desc}
+  - key: include[]
+    value: restaurants
+  - key: include[]
+    value: restaurants.cuisines
+  - key: include[]
+    value: restaurants.diets
+  - key: include[]
+    value: authors
+  - key: include[]
+    value: related_reviews
+  - key: include[]
+    value: related_reviews.restaurants
+  - key: include[]
+    value: related_reviews.restaurants.cuisines
+  - key: include[]
+    value: related_reviews.restaurants.diets
+  - key: include[]
+    value: related_reviews.authors
+  - key: include[]
+    value: related_reviews.related_reviews
+  - key: include[]
+    value: related_reviews.related_reviews.restaurants
+  - key: include[]
+    value: related_reviews.related_reviews.authors
+  - key: include[]
+    value: related_reviews.related_reviews.related_reviews
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: unifood
+allowedOnComponents: []

@@ -1,0 +1,27 @@
+id: photoSearch
+displayName: Photo search
+ttl: 30
+path: /search
+custom:
+  proposedName: search
+method: GET
+purgeKey: b40807fe-3a05-411f-89d4-1cb5b115b821
+archetype: default
+variables:
+  query:
+    type: text
+    default: ''
+  orientation:
+    type: text
+    default: landscape
+    helpText: Desired photo orientation (landscape, portrait or square)
+parameters:
+  - key: query
+    value: ${query}
+  - key: orientation
+    value: ${orientation}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: pexels
+allowedOnComponents: []

@@ -1,0 +1,31 @@
+id: recipesQuery
+displayName: Recipes Query
+ttl: 30
+body: ${body}
+path: ''
+custom:
+  imagePath: image.url
+  displayName: title
+  searchFields:
+    - title
+  allowContentTypeIds:
+    - recipe_model
+method: POST
+purgeKey: c33f7fd7-7040-4207-9499-edc5918cc5cf
+archetype: queryEntry
+variables:
+  body:
+    type: text
+    default: >-
+      {"query":"{\n                  ${contentType}(filter: { id: { eq: \"\" }
+      }) {\n                    id\n                  }\n                }"}
+    displayName: Body
+  contentType:
+    type: text
+    default: allRecipeModels
+    displayName: Content Type
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: datoRecipes
+allowedOnComponents: []

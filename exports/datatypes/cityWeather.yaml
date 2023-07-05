@@ -1,0 +1,24 @@
+id: cityWeather
+displayName: 'City Weather '
+ttl: 600
+path: /weather
+custom:
+  proposedName: weather
+method: GET
+purgeKey: d90dd136-2e2e-4a7e-a5bc-98fce034ceee
+archetype: default
+variables:
+  city:
+    type: text
+    default: Berlin
+    helpText: Enter city
+parameters:
+  - key: units
+    value: metric
+  - key: q
+    value: ${city}
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: openWeatherMap
+allowedOnComponents: []

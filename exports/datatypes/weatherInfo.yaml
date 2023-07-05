@@ -1,0 +1,30 @@
+id: weatherInfo
+displayName: Weather Info
+ttl: 600
+path: /weather
+custom:
+  proposedName: weather
+method: GET
+purgeKey: d90dd136-2e2e-4a7e-a5bc-98fce034ceee
+archetype: default
+variables:
+  latitude:
+    type: text
+    default: '52.520008'
+    helpText: Latitude
+  longitude:
+    type: text
+    default: '13.404954'
+    helpText: Longitude
+parameters:
+  - key: lat
+    value: ${latitude}
+  - key: lon
+    value: ${longitude}
+  - key: units
+    value: metric
+longTermCache:
+  enabled: false
+  ttlInHours: 24
+dataSourceId: openWeatherMap
+allowedOnComponents: []
