@@ -18,11 +18,9 @@ export default function DynamicComposition({ composition }) {
 export const getServerSideProps = withUniformGetServerSideProps({
   requestOptions: {
     diagnostics: true,
-    state:
-      process.env.NODE_ENV === 'development'
-        ? CANVAS_DRAFT_STATE
-        : CANVAS_PUBLISHED_STATE,
   },
+  preview: process.env.NODE_ENV === 'development',
+
   handleComposition: async (routeResponse, context) => {
     if (
       routeResponse.compositionApiResponse.errors?.some(e => e.type === 'data')
