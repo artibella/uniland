@@ -16,6 +16,11 @@ export default function LottieAnimation({
     import('@lottiefiles/lottie-player');
   });
 
+  const jsonString =
+    typeof jsonSrc === 'object' && jsonSrc !== ''
+      ? JSON.stringify(jsonSrc)
+      : undefined;
+
   return (
     <div className="lottie-animation">
       <lottie-player
@@ -26,7 +31,7 @@ export default function LottieAnimation({
         loop={Boolean(loop) ? 'loop' : undefined}
         hover={Boolean(hover) ? 'hover' : undefined}
         mode="normal"
-        src={jsonSrc || src}
+        src={jsonString || src}
         style={{ width, height }}
       ></lottie-player>
     </div>
