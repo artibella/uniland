@@ -1,17 +1,16 @@
-id: integrationQuery
-displayName: Integration Query
+id: integrationsQuery
+displayName: Integrations Query
 ttl: 30
-path: /entries
+path: /entries?${filters}
 custom:
-  include: '3'
-  imagePath: image
-  searchField:
-    id: fields.title
-    type: Symbol
+  include: 9
+  imagePath: icon
   allowContentTypeIds:
     - integration
+  enableFilterByLocale: false
+  enableAdvancedFilters: true
 method: GET
-purgeKey: 312c94f0-00ca-4068-afdd-8b6c65655503
+purgeKey: 83ad8ac8-ed8c-4347-a424-59ce725e8d70
 archetype: queryEntry
 variables:
   limit:
@@ -22,6 +21,14 @@ variables:
     type: text
     default: ''
     displayName: Order
+  locale:
+    type: text
+    default: en-US
+    displayName: Locale
+  filters:
+    type: text
+    default: ''
+    displayName: Filters
   keyword:
     type: text
     default: ''
@@ -32,11 +39,13 @@ variables:
     displayName: Entry Ids
   contentTypeId:
     type: text
-    default: integration
+    default: ''
     displayName: Content Type
 parameters:
   - key: include
-    value: '3'
+    value: '9'
+  - key: locale
+    value: ${locale}
   - key: order
     value: ${order}
   - key: query
@@ -48,5 +57,5 @@ parameters:
 longTermCache:
   enabled: false
   ttlInHours: 24
-dataSourceId: uniform
+dataSourceId: uniformWebsite
 allowedOnComponents: []

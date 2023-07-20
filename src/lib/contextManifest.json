@@ -1,9 +1,62 @@
 {
   "project": {
     "pz": {
+      "agg": {
+        "visitBerlin": {
+          "inputs": [
+            {
+              "dim": "berlinVisitor"
+            }
+          ]
+        },
+        "berliner": {
+          "inputs": [
+            {
+              "dim": "berlinVisitor"
+            }
+          ]
+        }
+      },
       "enr": {
-        "1": {
+        "2": {
           "cap": 100
+        },
+        "3": {
+          "cap": 100
+        },
+        "4": {
+          "cap": 500
+        }
+      },
+      "sig": {
+        "berlinVisitor": {
+          "str": 50,
+          "cap": 100,
+          "dur": "p",
+          "crit": {
+            "op": "|",
+            "type": "G",
+            "clauses": [
+              {
+                "key": "vc-city",
+                "type": "QK",
+                "match": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "Berlin"
+                }
+              },
+              {
+                "type": "QS",
+                "match": {
+                  "cs": false,
+                  "op": "=",
+                  "rhs": "berlin"
+                },
+                "queryName": "city"
+              }
+            ]
+          }
         }
       }
     },

@@ -3,50 +3,26 @@ displayName: Post by Slug
 ttl: 30
 path: /entries
 custom:
-  include: '10'
-  imagePath: featuredImage
-  searchField:
-    id: fields.slug
-    type: Symbol
-  allowContentTypeIds:
-    - BlogPost
+  slugField: fields.slug
+  displayField: nameInternal
+  contentTypeId: BlogPost
 method: GET
-purgeKey: 3699a3c8-5d9c-4d94-9cf2-0005a35e7dd9
-archetype: queryEntry
+purgeKey: 93c40ed1-a428-4ea8-ad55-44538a1f746a
+archetype: entryByField
 variables:
-  limit:
-    type: text
-    default: '5'
-    displayName: Limit
-  order:
+  slug:
     type: text
     default: ''
-    displayName: Order
-  keyword:
-    type: text
-    default: ''
-    displayName: Search Text
-  entryIds:
-    type: text
-    default: ''
-    displayName: Entry Ids
-  contentTypeId:
-    type: text
-    default: BlogPost
-    displayName: Content Type
+    displayName: Slug
 parameters:
   - key: include
-    value: '10'
-  - key: order
-    value: ${order}
-  - key: query
-    value: ${keyword}
-  - key: limit
-    value: ${limit}
+    value: '1'
+  - key: fields.slug[in]
+    value: ${slug}
   - key: content_type
-    value: ${contentTypeId}
+    value: BlogPost
 longTermCache:
   enabled: false
   ttlInHours: 24
-dataSourceId: uniform
+dataSourceId: uniformWebsite
 allowedOnComponents: []

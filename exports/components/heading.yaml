@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: heading
 name: Heading
 icon: format-heading
@@ -12,6 +14,22 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+  - id: titleRichText
+    name: Title Rich Text
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn: []
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - strikethrough
+          - superscript
+          - subscript
+          - italic
+          - underline
   - id: titleHtml
     name: Title HTML
     type: text
@@ -19,10 +37,19 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '5'
+  - id: group_formattingOptions
+    name: Formatting options
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - tagName
+        - theme
+        - align
   - id: tagName
     name: Tag name
     type: select
-    helpText: ''
+    helpText: Defaults to h3 if not set
     typeConfig:
       options:
         - text: H1
@@ -37,19 +64,7 @@ parameters:
           value: h5
         - text: H6
           value: h6
-      required: true
-  - id: align
-    name: Align
-    type: select
-    helpText: ''
-    typeConfig:
-      options:
-        - text: Left
-          value: left
-        - text: Center
-          value: center
-        - text: Right
-          value: right
+      required: false
   - id: theme
     name: Theme
     type: select
@@ -66,9 +81,23 @@ parameters:
           value: ice
         - text: Mango
           value: mango
+  - id: align
+    name: Align
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+description: Generic heading component
+previewImageUrl: ''
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-02-28T16:13:29.988147+00:00'
-updated: '2023-02-28T19:35:03.426864+00:00'
+created: '2023-03-09T12:30:46.489835+00:00'
+updated: '2023-07-20T08:02:38.64571+00:00'
