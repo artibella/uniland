@@ -1,3 +1,4 @@
+import { UniformText } from '@uniformdev/canvas-react';
 import Link from 'next/link';
 import { Fragment } from 'react';
 
@@ -7,10 +8,9 @@ const renderPrimaryCta = (title, link, openInNewTab) => {
       <Link
         href={link}
         className="flex w-full items-center justify-center rounded-md border border-transparent bg-mango px-8 py-3 text-base font-medium text-aqua-900 hover:bg-mango-200 md:py-4 md:px-10 md:text-lg"
-        target={openInNewTab ? '_blank' : '_self'}>
-
-        {title}
-
+        target={openInNewTab ? '_blank' : '_self'}
+      >
+        <UniformText parameterId="title" placeholder="Button text" as="span" />
       </Link>
     </div>
   );
@@ -22,10 +22,9 @@ const renderSecondaryCta = (title, link, openInNewTab) => {
       <Link
         href={link}
         className="flex w-full items-center justify-center rounded-md border border-transparent bg-ice px-8 py-3 text-base font-medium text-aqua-900 hover:bg-ice-200 md:py-4 md:px-10 md:text-lg"
-        target={openInNewTab ? '_blank' : '_self'}>
-
-        {title}
-
+        target={openInNewTab ? '_blank' : '_self'}
+      >
+        <UniformText parameterId="title" placeholder="Button text" as="span" />
       </Link>
     </div>
   );

@@ -1,9 +1,22 @@
 import classNames from 'classnames';
 import slugify from 'slugify';
+import { UniformText, UniformRichTextNode } from '@uniformdev/canvas-react';
+import { UniformRichText } from '@uniformdev/canvas-next';
+
+function TitleRichTextNode({ node, children }) {
+  return <span>{children}</span>;
+}
+
+function resolveTitleRichTextRenderer(node) {
+  if (node.type === 'paragraph') {
+    return TitleRichTextNode;
+  }
+}
 
 export default function Heading({
   title = '',
   titleHtml = '',
+  titleRichText = '',
   byline = '',
   align = 'left',
   tagName = 'h3',
@@ -66,14 +79,27 @@ export default function Heading({
     <>
       {hasTitle && (
         <header id={id}>
-          {byline && <span className={bylineClasses}>{byline}</span>}
-          {hasHtmlTitle ? (
-            <HeaderTag
+          {byline && (
+            <UniformText
+              parameterId="byline"
+              as="span"
+              className={bylineClasses}
+              placeholder=" "
+            />
+          )}
+          {titleRichText ? (
+            <UniformRichText
               className={headingClasses}
-              dangerouslySetInnerHTML={{ __html: titleHtml }}
+              as={tagName}
+              parameterId="titleRichText"
+              resolveRichTextRenderer={resolveTitleRichTextRenderer}
             />
           ) : (
-            <HeaderTag className={headingClasses}>{title}</HeaderTag>
+            <UniformText
+              as={tagName}
+              parameterId="title"
+              className={headingClasses}
+            />
           )}
         </header>
       )}

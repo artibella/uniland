@@ -1,4 +1,4 @@
-import { UniformSlot } from '@uniformdev/canvas-react';
+import { UniformSlot, UniformText } from '@uniformdev/canvas-react';
 import Link from 'next/link';
 import { Badge, Card } from 'react-daisyui';
 import isHtml from 'is-html';
@@ -22,7 +22,11 @@ export default function GenericCard({
           tag="h4"
           className="text-xl hover:underline hover:underline-offset-1"
         >
-          {title}
+          <UniformText
+            parameterId="title"
+            as="span"
+            placeholder="Add card title"
+          />
         </Card.Title>
         {isHtml(body) ? (
           <div className="" dangerouslySetInnerHTML={{ __html: body }} />
