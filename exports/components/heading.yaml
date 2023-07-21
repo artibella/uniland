@@ -46,6 +46,7 @@ parameters:
         - tagName
         - theme
         - align
+        - showEditorialLine
   - id: tagName
     name: Tag name
     type: select
@@ -93,6 +94,11 @@ parameters:
           value: center
         - text: Right
           value: right
+  - id: showEditorialLine
+    name: Show editorial line
+    type: checkbox
+    helpText: Show a line separator after the heading
+    typeConfig: null
 description: Generic heading component
 previewImageUrl: ''
 useTeamPermissions: true
@@ -100,4 +106,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2023-03-09T12:30:46.489835+00:00'
-updated: '2023-07-20T08:02:38.64571+00:00'
+updated: '2023-07-21T12:10:11.011974+00:00'
