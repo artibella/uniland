@@ -31,7 +31,12 @@ export default function GenericCard({
         {isHtml(body) ? (
           <div className="" dangerouslySetInnerHTML={{ __html: body }} />
         ) : (
-          <p>{body}</p>
+          <UniformText
+            parameterId="body"
+            as="p"
+            isMultiline={true}
+            placeholder="Add card body"
+          />
         )}
         <Card.Actions className="mt-8">
           <UniformSlot name="actions" emptyPlaceholder={null} />
