@@ -21,6 +21,7 @@ export default function Heading({
   align = 'left',
   tagName = 'h3',
   theme = 'light',
+  showEditorialLine = false,
 }) {
   const id = slugify(title);
 
@@ -37,6 +38,15 @@ export default function Heading({
     { 'text-aqua-900': theme !== 'dark' }
   );
 
+  const wrapperClasses = classNames(
+    { 'mb-8 md:mb-16': tagName === 'h1' },
+    { 'mb-8': tagName === 'h2' },
+    { 'mb-8': tagName === 'h3' },
+    { 'mb-4': tagName === 'h4' },
+    { 'mb-2': tagName === 'h5' },
+    { 'mb-2': tagName === 'h6' }
+  );
+
   const headingClasses = classNames(
     baseHeadingClasses,
     { 'text-4xl md:text-7xl': tagName === 'h1' },
@@ -44,13 +54,7 @@ export default function Heading({
     { 'text-3xl md:text-4xl': tagName === 'h3' },
     { 'text-3xl': tagName === 'h4' },
     { 'text-2xl': tagName === 'h5' },
-    { 'text-xl': tagName === 'h6' },
-    { 'mb-8 md:mb-16': tagName === 'h1' },
-    { 'mb-8': tagName === 'h2' },
-    { 'mb-8': tagName === 'h3' },
-    { 'mb-4': tagName === 'h4' },
-    { 'mb-2': tagName === 'h5' },
-    { 'mb-2': tagName === 'h6' }
+    { 'text-xl': tagName === 'h6' }
   );
 
   const bylineClasses = classNames(
@@ -67,8 +71,21 @@ export default function Heading({
     { 'mb-2': tagName === 'h3' },
     { 'mb-2': tagName === 'h4' },
     { 'mb-0': tagName === 'h5' },
-    { 'mb-0': tagName === 'h6' },
-    'mb-4'
+    { 'mb-0': tagName === 'h6' }
+  );
+
+  const editorialLineClasses = classNames(
+    'block h-px w-16 border-b-2',
+    // basic theming
+    { 'border-white': theme === 'dark' },
+    { 'border-aqua-900': theme !== 'dark' },
+    // margin
+    { 'mt-8 md:mt-16': tagName === 'h1' },
+    { 'mt-8': tagName === 'h2' },
+    { 'mt-8': tagName === 'h3' },
+    { 'mt-4': tagName === 'h4' },
+    { 'mt-2': tagName === 'h5' },
+    { 'mt-2': tagName === 'h6' }
   );
 
   const HeaderTag = `${tagName}`;
@@ -78,7 +95,7 @@ export default function Heading({
   return (
     <>
       {hasTitle && (
-        <header id={id}>
+        <header id={id} className={wrapperClasses}>
           {byline && (
             <UniformText
               parameterId="byline"
@@ -101,6 +118,9 @@ export default function Heading({
               className={headingClasses}
             />
           )}
+          {showEditorialLine ? (
+            <span className={editorialLineClasses} aria-hidden></span>
+          ) : null}
         </header>
       )}
     </>
