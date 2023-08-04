@@ -12,5 +12,5 @@ const getProxyImageSrc = ({ src, width = 800, quality = 75 }) => {
 };
 
 export default function imageUrlEnhancer({ parameter }) {
-  return getProxyImageSrc({ src: parameter.value });
+  return parameter.value ? getProxyImageSrc({ src: parameter.value }) : '';
 }
