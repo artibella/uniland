@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: card
 name: Card
 icon: card
@@ -23,6 +25,9 @@ parameters:
     helpText: ''
     typeConfig:
       multiline: true
+description: ''
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691416931/Uniland/components/card.png
 useTeamPermissions: true
 slots:
   - id: actions
@@ -32,5 +37,5 @@ slots:
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
-created: '2023-01-16T13:42:27.938638+00:00'
-updated: '2023-02-07T13:16:48.724672+00:00'
+created: '2022-12-15T14:08:27.014521+00:00'
+updated: '2023-08-07T14:03:31.57696+00:00'

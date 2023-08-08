@@ -35,6 +35,7 @@ parameters:
           - link
           - quote
           - code
+          - variable
       required: false
       formatting:
         builtIn:
@@ -93,9 +94,12 @@ parameters:
           value: ice
         - text: Mango
           value: mango
+categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.903269+00:00'
-updated: '2023-07-01T12:26:24.347317+00:00'
+updated: '2023-08-07T10:45:16.222858+00:00'
