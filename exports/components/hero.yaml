@@ -47,7 +47,7 @@ parameters:
 categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
 description: ''
 previewImageUrl: >-
-  https://res.cloudinary.com/content-ops/image/upload/v1691407678/Uniland/components/product-hero.png
+  https://res.cloudinary.com/content-ops/image/upload/v1691488613/Uniland/components/default-hero.png
 useTeamPermissions: true
 slots:
   - id: heading
@@ -65,4 +65,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:26.050869+00:00'
-updated: '2023-08-07T14:38:07.137977+00:00'
+updated: '2023-08-08T09:57:24.867757+00:00'

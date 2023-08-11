@@ -5,38 +5,33 @@ composition:
   parameters:
     body:
       type: text
-      value: unbound
-      connectedData:
-        syntax: jptr
-        pointer: /Integration/fields/description
-        required: false
+      value: ${#jptr:/Integration/fields/description}
     image:
       type: text
-      value: unbound
-      connectedData:
-        syntax: jptr
-        pointer: /Integration/fields/image/fields/file/url
-        required: false
+      value: https:${#jptr:/Integration/fields/icon/fields/file/url}
     title:
       type: text
-      value: unbound
-      connectedData:
-        syntax: jptr
-        pointer: /Integration/fields/title
-        required: false
+      value: ${#jptr:/Integration/fields/title}
     byline:
       type: text
-      value: unbound
-      connectedData:
-        syntax: jptr
-        pointer: /Integration/fields/category/fields/title
-        required: false
+      value: ${#jptr:/Integration/fields/category/fields/title}
   _dataResources:
     Integration:
-      type: uniform-v2-integration
+      type: integration
       variables:
-        entryIds: 1DUb17mzRO86BslO5npXiF
+        locale: ''
+        entryIds: 5La0MgvKRUqq1dJ89L2fjg
       isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      body: 'yes'
+      image: 'yes'
+      title: 'yes'
+      byline: 'yes'
 created: '2022-12-16T21:01:45.786852+00:00'
-modified: '2023-01-04T20:40:25.695114+00:00'
+modified: '2023-08-07T14:27:21.103486+00:00'
 pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691418362/Uniland/components/integration-card.png
+categoryId: f6715b33-f805-408e-bd6c-1c5697e7bf4e

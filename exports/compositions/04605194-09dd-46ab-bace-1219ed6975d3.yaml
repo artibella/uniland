@@ -1,0 +1,54 @@
+composition:
+  _name: Product Detail
+  _id: 04605194-09dd-46ab-bace-1219ed6975d3
+  _slug: ':product'
+  type: page
+  slots:
+    hero:
+      - _id: d2e9911f-8dc1-4de5-b47a-7ac84abe49c3
+        type: hero
+        slots:
+          heading:
+            - _id: ea5aeb98-6d5d-4920-8834-f69649a63337
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: unresolved
+                  connectedData:
+                    syntax: jptr
+                    pointer: /Product by handle Content/data/product/title
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            value: unresolved
+            connectedData:
+              syntax: jptr
+              pointer: /Product by handle Content/data/product/description
+          imageFit:
+            type: select
+            value: cover
+          imageUrl:
+            type: text
+            value: unresolved
+            connectedData:
+              syntax: jptr
+              pointer: /Product by handle Content/data/product/featuredImage/url
+    sections:
+      - _id: 17641aeb-6d93-4550-9df0-1733bcf91066
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 658ba53d-02e3-4ad6-aeb7-932ec89369f4
+              type: brick
+  _dataResources:
+    Product by handle Content:
+      type: productByHandle
+      variables:
+        handle: ${product}
+created: '2023-06-07T08:49:36.736468+00:00'
+modified: '2023-07-26T12:12:58.184694+00:00'
+pattern: false

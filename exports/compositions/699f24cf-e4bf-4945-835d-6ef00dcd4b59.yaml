@@ -1,0 +1,14 @@
+composition:
+  _name: Product Categories
+  _id: 699f24cf-e4bf-4945-835d-6ef00dcd4b59
+  _slug: Categories
+  type: page
+  parameters: {}
+  slots:
+    hero:
+      - _id: 67847d68-3b85-48c8-8d5c-0aed7f994071
+        type: hero
+        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
+created: '2023-07-26T07:55:04.375015+00:00'
+modified: '2023-07-26T07:55:04.375015+00:00'
+pattern: false

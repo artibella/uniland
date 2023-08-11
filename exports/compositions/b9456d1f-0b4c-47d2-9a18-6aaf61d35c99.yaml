@@ -1,0 +1,21 @@
+composition:
+  _name: Demo
+  _id: b9456d1f-0b4c-47d2-9a18-6aaf61d35c99
+  _slug: demo2
+  type: page
+  parameters:
+    title:
+      type: text
+      value: Demo
+  slots:
+    sections:
+      - _id: e85f9e4c-518c-496c-91ff-68d51109d2ff
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 0adea10f-4b7e-40ae-92a2-8e753d349a0b
+              type: card
+              _pattern: e4afbe8f-db91-40f4-be07-fbbef9f0593d
+created: '2023-03-15T21:15:34.658066+00:00'
+modified: '2023-06-21T07:54:37.018784+00:00'
+pattern: false

@@ -3,6 +3,47 @@ composition:
   _id: e0f6974d-8ee3-4a83-85a7-469791358188
   _slug: integrations
   type: page
+  slots:
+    sections:
+      - _id: 7f3314f6-7777-4871-8a8f-547c7c9d9257
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 56e95948-33ab-4195-be3e-2e190db248dd
+              type: gridContainer
+              slots:
+                items:
+                  - _id: f6f7713c-e080-49a0-938c-970d2afc4e43
+                    type: card
+                    _pattern: d663c4d1-9383-40b6-96a9-25052fc28e55
+                    _dataResources:
+                      Integration:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 5lnN2LwkTryS4XlOYvVGp3
+                  - _id: e0e4aee0-88d3-4c22-b6aa-ca20c49d8bcb
+                    type: card
+                    _pattern: d663c4d1-9383-40b6-96a9-25052fc28e55
+                    _dataResources:
+                      Integration:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 25lxtgEPg25ClF40aXjj4w
+                  - _id: 510be920-0746-42a8-9918-3173d14ec2e5
+                    type: card
+                    _pattern: d663c4d1-9383-40b6-96a9-25052fc28e55
+                    _dataResources:
+                      Integration:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 38u5echub33ADcVH0pDy7c
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
   _dataResources:
     Integrations:
       type: uniform-v2-integrationList
@@ -10,6 +51,12 @@ composition:
         limit: '30'
         order: '-sys.updatedAt'
         contentType: integration
+  _overrides:
+    510be920-0746-42a8-9918-3173d14ec2e5:
+      parameters:
+        image:
+          type: text
+          value: https:${#jptr:/Integration/fields/icon/fields/file/url}
 created: '2023-01-04T19:02:46.123358+00:00'
-modified: '2023-01-04T20:28:25.553901+00:00'
+modified: '2023-08-07T14:29:35.362894+00:00'
 pattern: false

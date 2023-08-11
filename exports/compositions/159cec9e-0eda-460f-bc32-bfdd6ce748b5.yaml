@@ -1,0 +1,68 @@
+composition:
+  _name: Shop
+  _id: 159cec9e-0eda-460f-bc32-bfdd6ce748b5
+  _slug: shop
+  type: page
+  slots:
+    hero:
+      - _id: 9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd
+        type: hero
+        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
+        _dataResources:
+          Product by handle Content:
+            type: productByHandle
+            variables:
+              handle: canvas-sneakers
+    sections:
+      - _id: 385ee79c-e641-4713-967c-2548a762348b
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 991c1357-2ea4-4f46-9255-3b238f3e43db
+              type: gridContainer
+              slots:
+                items:
+                  - _id: 172092d7-a7c9-434d-aab7-d7e73339f53d
+                    type: card
+                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
+                    _dataResources:
+                      Product:
+                        type: productByHandle
+                        variables:
+                          handle: slides
+                  - _id: 869c7eb8-d388-44db-bd16-f9d7b0131560
+                    type: card
+                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
+                    _dataResources:
+                      Product:
+                        type: productByHandle
+                  - _id: 4dbd7673-cf93-4c05-91b2-58441e98c44d
+                    type: card
+                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
+                    _dataResources:
+                      Product:
+                        type: productByHandle
+                        variables:
+                          handle: hoodie
+                  - _id: 1d871f45-a6c7-4428-b071-9bc624ae5947
+                    type: card
+                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
+                    _dataResources:
+                      Product:
+                        type: productByHandle
+                        variables:
+                          handle: frontpack
+              parameters:
+                columns:
+                  type: number
+                  value: '2'
+          heading:
+            - _id: 731f46c1-ab15-4b05-ae82-bd9b17f74e35
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: Latest arrivals
+created: '2023-08-06T15:41:30.053601+00:00'
+modified: '2023-08-06T16:04:41.472473+00:00'
+pattern: false
