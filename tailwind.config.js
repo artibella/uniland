@@ -26,7 +26,7 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['var(--font-inter)', ...fontFamily.sans],
-        serif: ['var(--font-source-serif-pro)', ...fontFamily.serif],
+        serif: ['var(--font-source-serif-4)', ...fontFamily.serif],
       },
       colors: {
         mango: {
