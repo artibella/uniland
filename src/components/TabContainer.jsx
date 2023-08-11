@@ -11,7 +11,9 @@ const renderTabList = function (tabs) {
           /* Use the `selected` state to conditionally style the selected tab. */
           <button
             className={
-              selected ? 'p-2 border-b-mango-2' : 'border-b-transparent-2'
+              selected
+                ? 'tab tab-lg tab-lifted tab-active font-bold focus:outline-none'
+                : 'tab tab-lg tab-lifted focus:outline-none'
             }
           >
             {title}
@@ -29,10 +31,13 @@ export default function TabContainer({ component }) {
     <div className="tab-container">
       {tabs.length ? (
         <Tab.Group>
-          <Tab.List className="flex flex-row items-center justify-items-center gap-4 space-x-1 p-1 border-b-2">
-            {renderTabList(tabs)}
+          <Tab.List className="tabs z-10 -mb-px">
+            <>
+              {renderTabList(tabs)}
+              <div class="tab tab-lifted mr-6 flex-1 cursor-default [--tab-border-color:transparent]"></div>
+            </>
           </Tab.List>
-          <Tab.Panels>
+          <Tab.Panels className="border-base-300 bg-base-100 flex min-h-[6rem] min-w-[18rem] flex-wrap items-center justify-center gap-2 overflow-x-hidden border bg-cover p-16">
             <UniformSlot name="tabs" />
           </Tab.Panels>
         </Tab.Group>
