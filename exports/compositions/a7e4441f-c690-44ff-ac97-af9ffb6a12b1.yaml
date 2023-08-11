@@ -1,0 +1,59 @@
+composition:
+  _name: Blog category
+  _id: a7e4441f-c690-44ff-ac97-af9ffb6a12b1
+  _slug: ':category'
+  type: page
+  slots:
+    sections:
+      - _id: 87379edd-948b-46c1-b87c-c9ebb797d86d
+        type: sectionContainer
+        slots:
+          content:
+            - _id: f8999a82-4902-471d-a57b-d88cfa36af99
+              type: $loop
+              slots:
+                body:
+                  - _id: 40ed9688-e57e-4fc0-a705-856f4ee5e505
+                    type: card
+                    parameters:
+                      image:
+                        type: text
+                        value: unresolved
+                        connectedData:
+                          syntax: jptr
+                          pointer: >-
+                            /Posts Content items Loop
+                            Item/fields/featuredImage/fields/file/url
+                      title:
+                        type: text
+                        value: unresolved
+                        connectedData:
+                          syntax: jptr
+                          pointer: /Posts Content items Loop Item/fields/title
+              _dataResources:
+                Posts Content items Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: /Posts Content/items
+  _dataResources:
+    Posts Content:
+      type: posts
+      variables:
+        limit: '5'
+        order: ''
+        keyword: ${category}
+        sortOrder: asc
+        sortFieldId: ''
+        contentTypeId: BlogPost
+    Blog Posts Query Content:
+      type: blogPostsQuery
+      variables:
+        limit: '5'
+        order: ''
+        keyword: ${category}
+        sortOrder: asc
+        sortFieldId: ''
+        contentTypeId: BlogPost
+created: '2023-06-01T17:13:12.275759+00:00'
+modified: '2023-06-01T17:24:18.216897+00:00'
+pattern: false

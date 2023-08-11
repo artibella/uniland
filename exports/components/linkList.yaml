@@ -1,7 +1,12 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: linkList
 name: Link List
 icon: link
 parameters: []
+categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: items
@@ -14,5 +19,5 @@ slots:
       - linkListItem
     inheritAllowedComponents: false
 canBeComposition: false
-created: '2023-01-16T13:42:29.485608+00:00'
-updated: '2023-02-07T13:16:49.794158+00:00'
+created: '2022-12-15T14:08:26.420263+00:00'
+updated: '2023-08-07T10:46:20.13025+00:00'

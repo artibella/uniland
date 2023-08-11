@@ -1,7 +1,12 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: tabContainer
 name: Tab Container
 icon: tab
 parameters: []
+categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: tabs
@@ -16,5 +21,5 @@ slots:
       - tabPanel
     inheritAllowedComponents: false
 canBeComposition: false
-created: '2023-01-16T13:42:31.336183+00:00'
-updated: '2023-02-07T13:16:49.770824+00:00'
+created: '2022-12-15T14:08:27.453548+00:00'
+updated: '2023-08-07T10:43:51.758879+00:00'

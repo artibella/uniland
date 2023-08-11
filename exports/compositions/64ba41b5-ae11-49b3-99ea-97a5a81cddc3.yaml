@@ -1,0 +1,9 @@
+composition:
+  _name: About us
+  _id: 64ba41b5-ae11-49b3-99ea-97a5a81cddc3
+  _slug: about-us
+  type: page
+  parameters: {}
+created: '2023-03-09T12:26:54.237186+00:00'
+modified: '2023-03-09T12:26:54.237186+00:00'
+pattern: false

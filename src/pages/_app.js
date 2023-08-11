@@ -6,13 +6,13 @@ import '../styles/page.css';
 // import components
 import initComponents from '../components';
 // import fonts
-import { Source_Serif_Pro, Inter } from '@next/font/google';
+import { Source_Serif_4, Inter } from 'next/font/google';
 
-const sourceSerif = Source_Serif_Pro({
+const sourceSerif = Source_Serif_4({
   weight: ['400', '700'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
-  variable: '--font-source-serif-pro',
+  variable: '--font-source-serif-4',
 });
 
 const inter = Inter({

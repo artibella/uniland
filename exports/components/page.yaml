@@ -9,6 +9,8 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: hero
@@ -21,7 +23,7 @@ slots:
       - hero
     allowAllComponents: false
     inheritAllowedComponents: false
-    patternsInAllowedComponents: true
+    patternsInAllowedComponents: false
   - id: sections
     name: Sections
     allowedComponents:
@@ -31,7 +33,21 @@ slots:
       - $loop
       - sectionContainer
       - hero
+      - conditionalContainer
     inheritAllowedComponents: false
+defaults:
+  type: page
+  slots:
+    hero:
+      - type: hero
+        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
+        _overridability:
+          parameters:
+            body: 'yes'
+            title: 'yes'
+            imageFit: 'yes'
+            imageUrl: 'yes'
+            imageAltText: 'yes'
 canBeComposition: true
 created: '2022-12-15T14:08:27.337946+00:00'
-updated: '2023-04-28T16:39:04.247575+00:00'
+updated: '2023-07-26T11:56:04.548596+00:00'

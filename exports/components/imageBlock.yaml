@@ -183,8 +183,11 @@ parameters:
           value: spring
         - text: Ice
           value: ice
+categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots: []
 canBeComposition: false
 created: '2022-12-15T14:08:26.5631+00:00'
-updated: '2023-06-02T15:50:34.458032+00:00'
+updated: '2023-08-07T10:45:36.362315+00:00'

@@ -1,0 +1,64 @@
+composition:
+  _name: Post
+  _id: b1b7a479-a76d-4fe2-8b9d-e7ba34236d1c
+  _slug: ':post'
+  type: page
+  slots:
+    sections:
+      - _id: 421f0595-c222-47ee-816b-5b105436b93b
+        type: sectionContainer
+        slots:
+          content:
+            - _id: c103f686-3ce0-45e2-a56a-d2e85cd29c1e
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 2822ecc7-198a-429d-97de-172884348b4b
+                    type: heading
+                    parameters:
+                      align:
+                        type: select
+                        value: left
+                      title:
+                        type: text
+                        value: ${#jptr:/Post/entries/0/entry/fields/title/value}
+                      byline:
+                        type: text
+                        value: ${#jptr:/Post/entries/0/entry/fields/author/value}
+                      tagName:
+                        type: select
+                        value: h1
+                rightContent:
+                  - _id: 4a7736ec-4318-44cd-ad40-ebc129bf7784
+                    type: imageBlock
+                    parameters:
+                      imageUrl:
+                        type: text
+                        value: ${#jptr:/Post/entries/0/entry/fields/postImage/value}
+              parameters:
+                layout:
+                  type: select
+                  value: split-two-one
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+            - _id: f7adf8db-43f9-4b04-b9fd-e157cf06b372
+              type: textBlock
+              parameters:
+                richText:
+                  type: richText
+                  value: ${#jptr:/Post/entries/0/entry/fields/postBody/value}
+                textAlign:
+                  type: select
+                  value: left
+                externalRichText:
+                  type: json
+                  value: ${#jptr:/Post/items/0/fields/content}
+  _dataResources:
+    Post:
+      type: blogPostBySlug
+      variables:
+        slug: ${slug}
+created: '2023-05-22T22:39:10.655331+00:00'
+modified: '2023-08-04T20:04:25.213831+00:00'
+pattern: false

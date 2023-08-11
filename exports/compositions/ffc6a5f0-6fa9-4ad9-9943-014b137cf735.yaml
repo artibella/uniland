@@ -1,0 +1,162 @@
+composition:
+  _name: Demo
+  _id: ffc6a5f0-6fa9-4ad9-9943-014b137cf735
+  type: page
+  slots:
+    sections:
+      - _id: 7b725457-bc8e-41f6-bae7-efc00b6584c5
+        type: sectionContainer
+        slots:
+          content:
+            - _id: a78a79fa-73b5-4380-a307-4a151bef7dbc
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: c1fecb9f-6856-4661-b107-6d06b80615d9
+                    type: textBlock
+                    parameters:
+                      title:
+                        type: text
+                        value: >-
+                          ${#jptr:/Single User Content/results/0/name/title}
+                          ${#jptr:/Single User Content/results/0/name/first}
+                          ${#jptr:/Single User Content/results/0/name/last}
+                      richText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Single User
+                                      Content/results/0/location/street/name
+                                  - mode: normal
+                                    text: ' '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Single User
+                                      Content/results/0/location/street/number
+                                  - type: linebreak
+                                    version: 1
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Single User
+                                      Content/results/0/location/postcode
+                                  - mode: normal
+                                    text: ' '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Single User
+                                      Content/results/0/location/city
+                                  - mode: normal
+                                    text: ' '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - type: linebreak
+                                    version: 1
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Single User
+                                      Content/results/0/location/state
+                                  - mode: normal
+                                    text: ', '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Single User
+                                      Content/results/0/location/country
+                                direction: null
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Phone:'
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 1
+                                    version: 1
+                                  - mode: normal
+                                    text: ' '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - type: variable
+                                    version: 1
+                                    reference: '#jptr:/Single User Content/results/0/phone'
+                                direction: ltr
+                            direction: null
+                rightContent:
+                  - _id: e95fc861-8866-4cdc-87f6-300f53d64545
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: image
+                        value: ${#jptr:/Single User Content/results/0/picture/large}
+                      altText:
+                        type: text
+                        value: >-
+                          ${#jptr:/Single User Content/results/0/name/first}
+                          ${#jptr:/Single User Content/results/0/name/last}
+                      imageUrl:
+                        type: text
+                        value: ${#jptr:/Single User Content/results/0/picture/large}
+                      aspectRatio:
+                        type: select
+                        value: square
+                      borderRadius:
+                        type: select
+                        value: full
+              parameters:
+                layout:
+                  type: select
+                  value: split-one-two
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+  _dataResources:
+    Single User Content:
+      type: singleUser
+      variables: {}
+    Multiple users Content:
+      type: multipleUsers
+      variables: {}
+created: '2023-02-07T13:44:43.265902+00:00'
+modified: '2023-08-06T19:27:00.047839+00:00'
+pattern: false

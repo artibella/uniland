@@ -1,0 +1,43 @@
+composition:
+  _name: Blog Post Card
+  _id: 8137751c-c178-4b53-80a8-25f36770a99e
+  type: card
+  parameters:
+    image:
+      type: text
+      value: ${#jptr:/Blog Post/entry/fields/postImage/value}
+    title:
+      type: text
+      value: ${#jptr:/Blog Post/entry/fields/title/value}
+    byline:
+      type: text
+      value: ${#jptr:/Blog Post/entry/_author}
+  slots:
+    actions:
+      - _id: 3b6c0e08-e10b-40b3-ac7f-9c2a1a6ad0bc
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            value: Read post
+          internalLink:
+            type: link
+            value:
+              path: /blog/${#jptr:/Blog Post/entry/_slug}
+              type: projectMapNode
+              nodeId: d947bbe8-7fe2-44e1-a628-d15557c43e42
+              projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+              dynamicInputValues:
+                slug: ${#jptr:/Blog Post/entry/_slug}
+  _dataResources:
+    Blog Post:
+      type: blogPost
+      variables:
+        entryId: 3e79e06e-aacf-4589-8ab4-c1f43ae9c89c
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+created: '2023-05-22T22:18:41.279517+00:00'
+modified: '2023-08-07T14:07:42.432561+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691416931/Uniland/components/card.png

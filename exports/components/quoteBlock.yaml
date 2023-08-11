@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: quoteBlock
 name: Quote Block
 icon: quote-o
@@ -38,9 +40,12 @@ parameters:
           value: ice
         - text: Mango
           value: mango
+categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots: []
 titleParameter: title
 canBeComposition: false
-created: '2023-02-07T13:16:49.741467+00:00'
-updated: '2023-02-07T13:16:49.741467+00:00'
+created: '2023-02-06T10:50:27.050352+00:00'
+updated: '2023-08-07T10:45:26.436548+00:00'

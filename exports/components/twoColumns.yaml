@@ -116,6 +116,9 @@ parameters:
     type: checkbox
     helpText: Reverse order of columns when stacked on mobile screen sizes
     typeConfig: null
+categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: leftContent
@@ -159,4 +162,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-19T14:33:55.1508+00:00'
-updated: '2023-06-02T12:31:26.920362+00:00'
+updated: '2023-08-07T10:44:06.859278+00:00'
