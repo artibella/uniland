@@ -7,6 +7,7 @@ module.exports = {
     './src/components/**/*.{js,ts,jsx,tsx}',
     './src/compositions/**/*.{js,ts,jsx,tsx}',
     'node_modules/daisyui/dist/**/*.js',
+    'node_modules/react-daisyui/dist/**/*.js',
   ],
   safelist: [
     {
