@@ -1,3 +1,4 @@
+import { UniformText } from '@uniformdev/canvas-react';
 import classNames from 'classnames';
 import slugify from 'slugify';
 
@@ -58,14 +59,28 @@ export default function QuoteBlock({
     <div className={blockClasses}>
       <figure className="max-w-3xl">
         {title && <h3 className={headingClasses}>{title}</h3>}
-        <blockquote
-          className={quoteClasses}
-          dangerouslySetInnerHTML={{ __html: quote }}
-        ></blockquote>
+        <blockquote className={quoteClasses}>
+          <UniformText parameterId="quote" as="div" placeholder="Enter quote" />
+        </blockquote>
         <figcaption className="font-sans text-xl my-4">
           {(author || source) && <span>&mdash; </span>}
-          {author && <span>{author}, </span>}
-          {source && <cite>{source}</cite>}
+          {author && (
+            <UniformText
+              parameterId="author"
+              as="span"
+              placeholder="Enter author"
+            />
+          )}
+          {source && (
+            <cite>
+              ,{' '}
+              <UniformText
+                parameterId="source"
+                as="span"
+                placeholder="Enter source"
+              />
+            </cite>
+          )}
         </figcaption>
       </figure>
     </div>
