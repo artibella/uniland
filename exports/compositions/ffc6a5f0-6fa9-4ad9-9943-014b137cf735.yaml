@@ -150,7 +150,63 @@ composition:
                 rightColumnVerticalAlignment:
                   type: select
                   value: center
+      - _id: a2021c86-a5f3-489f-8362-a100197cb028
+        type: sectionContainer
+        slots:
+          content:
+            - _id: fa698bca-1f42-4dc4-99cb-b73dcd6a0335
+              type: contributorList
+              slots:
+                contributors:
+                  - _id: a57cc837-e3f3-4db2-8c7e-d10bfe353a24
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 524c2fee-501e-4c3e-8a5b-1dae2a7f8dc2
+                          type: contributor
+                          parameters:
+                            link:
+                              type: link
+                              value:
+                                path: ${#jptr:/Contributors results Loop Item/email}
+                                type: email
+                            name:
+                              type: text
+                              value: >-
+                                ${#jptr:/Contributors results Loop
+                                Item/name/first} ${#jptr:/Contributors results
+                                Loop Item/name/last}
+                            image:
+                              type: image
+                              value: >-
+                                ${#jptr:/Contributors results Loop
+                                Item/picture/thumbnail}
+                    _dataResources:
+                      Contributors results Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Contributors/results
+              parameters:
+                byline:
+                  type: text
+                  value: Featuring
+          heading:
+            - _id: f283ed29-6286-41e0-bb4b-6cbd1239b178
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: Other examples
+        parameters:
+          theme:
+            type: select
+            value: ice
   _dataResources:
+    Contributors:
+      type: multipleUsers
+      variables:
+        seed: hello-world
+        results: '3'
     Single User Content:
       type: singleUser
       variables: {}
@@ -158,5 +214,5 @@ composition:
       type: multipleUsers
       variables: {}
 created: '2023-02-07T13:44:43.265902+00:00'
-modified: '2023-08-06T19:27:00.047839+00:00'
+modified: '2023-08-10T09:49:20.095919+00:00'
 pattern: false

@@ -6,10 +6,7 @@ composition:
   parameters:
     title:
       type: text
-      value: unresolved
-      connectedData:
-        syntax: jptr
-        pointer: /Hello copy/entry/fields/value/value
+      value: ${#jptr:/Hello copy/entry/fields/value/value}
   slots:
     hero:
       - _id: 882f6224-7fb8-4a16-845a-5c0024f71489
@@ -25,10 +22,7 @@ composition:
                     parameters:
                       title:
                         type: text
-                        value: unresolved
-                        connectedData:
-                          syntax: jptr
-                          pointer: /Hello copy/entry/fields/value/value
+                        value: ${#jptr:/Hello copy/entry/fields/value/value}
                       tagName:
                         type: select
                         value: h4
@@ -77,10 +71,7 @@ composition:
 
                 title:
                   type: text
-                  value: unresolved
-                  connectedData:
-                    syntax: jptr
-                    pointer: /Hello copy/entry/fields/value/value
+                  value: ${#jptr:/Hello copy/entry/fields/value/value}
                 $pzCrit:
                   type: $pzCrit
                   value:
@@ -93,10 +84,7 @@ composition:
                   value: contain
                 imageUrl:
                   type: text
-                  value: unresolved
-                  connectedData:
-                    syntax: jptr
-                    pointer: /Hero image/photos/1/src/large
+                  value: ${#jptr:/Hero image/photos/1/src/large}
             - _id: f80601a7-449d-4dd2-8229-425be9f9bcf9
               type: hero
               slots:
@@ -537,6 +525,134 @@ composition:
           theme:
             type: select
             value: spring
+      - _id: 319a2b41-3ea7-41f4-953e-9effac5640d4
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 268a358b-37a4-425f-bded-85f99510ada7
+              type: tabContainer
+              slots:
+                tabs:
+                  - _id: 57f351d1-489b-4de2-a4f5-1b09387258be
+                    type: tabPanel
+                    slots:
+                      content:
+                        - _id: 07787c32-32fe-4022-8eb5-68a476319a65
+                          type: quoteBlock
+                          parameters:
+                            quote:
+                              type: text
+                              value: Nothing is certain except for death and taxes.
+                            theme:
+                              type: select
+                              value: light
+                            author:
+                              type: text
+                              value: Benjamin Franklin
+                            source:
+                              type: text
+                              value: US Founding Father
+                    parameters:
+                      title:
+                        type: text
+                        value: Quote 1
+                  - _id: 799a4b3b-17cf-4056-94dc-80a2e81c8f30
+                    type: tabPanel
+                    slots:
+                      content:
+                        - _id: 28303afb-ffb8-4e7c-bee8-ab46d7bb225a
+                          type: quoteBlock
+                          parameters:
+                            quote:
+                              type: text
+                              value: >-
+                                One good thing about music, when it hits you,
+                                you feel no pain.
+                            theme:
+                              type: select
+                              value: light
+                            author:
+                              type: text
+                              value: Bob Marley
+                            source:
+                              type: text
+                              value: Babylon by bus
+                    parameters:
+                      title:
+                        type: text
+                        value: Quote 2
+                  - _id: eef1fede-3ed6-4724-96a4-3ce57d4a6472
+                    type: tabPanel
+                    slots:
+                      content:
+                        - _id: 4a25b07e-d60e-4356-8ddf-f984a0f3b1f9
+                          type: textBlock
+                          parameters:
+                            title:
+                              type: text
+                              value: Keep working your Core Web Vitals
+                            richText:
+                              type: richText
+                              value:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Search engines prioritize fast-loading
+                                            pages, penalizing poor performance with
+                                            lower rankings. Uniform can keep your
+                                            Core Web Vitals green by making it easy
+                                            to utilize the latest front-end
+                                            frameworks and cutting-edge CDN edge
+                                            integrations - including for A/B tests
+                                            and personalization deployed from
+                                            Canvas. This lets teams drive
+                                            conversions without impacting user
+                                            experience or undermining SEO
+                                            investments.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children: []
+                                      direction: null
+                                  direction: ltr
+                            textAlign:
+                              type: select
+                              value: ''
+                    parameters:
+                      title:
+                        type: text
+                        value: Some text
+          heading:
+            - _id: 0c363e58-9571-40e9-9709-160676d84ae5
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: Some quotes by some famous people
+                tagName:
+                  type: select
+                  value: h2
+        parameters:
+          theme:
+            type: select
+            value: light
   _dataResources:
     Hello copy:
       type: microcopyAutogenerated
@@ -600,5 +716,5 @@ composition:
           type: select
           value: left
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2023-07-20T08:02:04.165713+00:00'
+modified: '2023-08-11T10:43:57.742926+00:00'
 pattern: false
