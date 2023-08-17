@@ -1,6 +1,9 @@
-import { Fragment } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { Tab } from '@headlessui/react';
-import { UniformSlot } from '@uniformdev/canvas-react';
+import {
+  UniformSlot,
+  useUniformContextualEditingState,
+} from '@uniformdev/canvas-react';
 
 const renderTabList = function (tabs) {
   return tabs.map(tab => {
@@ -26,11 +29,33 @@ const renderTabList = function (tabs) {
 
 export default function TabContainer({ component }) {
   const tabs = component.slots?.tabs || [];
+  const { selectedComponentReference } = useUniformContextualEditingState();
+
+  const findSelectedTabIndex = element => {
+    return element.parameters?.isActive?.value === true;
+  };
+  const defaultIndexFromTabs = tabs.findIndex(findSelectedTabIndex);
+  const defaultIndex = defaultIndexFromTabs >= 0 ? defaultIndexFromTabs : 0;
+
+  const [selectedIndex, setSelectedIndex] = useState(defaultIndex);
+
+  useEffect(() => {
+    if (typeof selectedComponentReference?.componentIndex !== 'number') {
+      return;
+    }
+    console.log('selected component', selectedComponentReference);
+
+    setSelectedIndex(selectedComponentReference.componentIndex);
+  }, [selectedComponentReference]);
 
   return (
     <div className="tab-container">
       {tabs.length ? (
-        <Tab.Group>
+        <Tab.Group
+          defaultIndex={defaultIndex}
+          selectedIndex={selectedIndex}
+          onChange={setSelectedIndex}
+        >
           <Tab.List className="tabs z-10 -mb-px">
             <>
               {renderTabList(tabs)}
