@@ -43,7 +43,6 @@ export default function TabContainer({ component }) {
     if (typeof selectedComponentReference?.componentIndex !== 'number') {
       return;
     }
-    console.log('selected component', selectedComponentReference);
 
     setSelectedIndex(selectedComponentReference.componentIndex);
   }, [selectedComponentReference]);
