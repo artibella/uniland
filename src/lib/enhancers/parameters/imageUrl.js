@@ -1,6 +1,7 @@
 const skipCloudinaryProxy = src =>
   src.includes('res.cloudinary.com') ||
   src.includes('images.unsplash.com') ||
+  src.includes('images.pexels.com') ||
   src.includes('.svg');
 
 const getProxyImageSrc = ({ src, width = 800, quality = 75 }) => {
