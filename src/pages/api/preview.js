@@ -10,6 +10,7 @@ const handler = createPreviewHandler({
     const previewSlug = slug && slug.length ? `/preview/${slug}` : '';
     return path?.length ? path : previewSlug;
   },
+  playgroundPath: '/playground',
   // run project enhancers
   enhance: composition =>
     enhance({
