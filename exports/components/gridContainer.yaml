@@ -33,6 +33,7 @@ slots:
       - card
       - brick
       - quoteBlock
+      - accordion
     inheritAllowedComponents: false
 defaults:
   type: gridContainer
@@ -42,4 +43,4 @@ defaults:
       value: '2'
 canBeComposition: false
 created: '2022-12-15T14:08:25.921759+00:00'
-updated: '2023-08-07T10:44:30.580336+00:00'
+updated: '2023-08-21T09:37:48.501127+00:00'

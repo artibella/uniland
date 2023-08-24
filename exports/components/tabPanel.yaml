@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: tabPanel
 name: Tab Panel
 icon: tab
@@ -13,6 +15,8 @@ parameters:
     type: checkbox
     helpText: ''
     typeConfig: null
+description: ''
+previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: content
@@ -29,7 +33,9 @@ slots:
       - howtoSection
       - brick
       - quoteBlock
+      - accordion
     inheritAllowedComponents: false
+titleParameter: title
 canBeComposition: false
-created: '2023-01-16T13:42:31.601296+00:00'
-updated: '2023-02-07T13:16:49.895367+00:00'
+created: '2022-12-15T14:08:27.582753+00:00'
+updated: '2023-08-21T09:38:19.413155+00:00'

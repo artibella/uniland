@@ -18,6 +18,8 @@ import TwoColumns from './TwoColumns';
 import BrickContainer from './BrickContainer';
 import QuoteBlock from './QuoteBlock';
 import Heading from './Heading';
+import Accordion from './Accordion';
+import AccordionItem from './AccordionItem';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -39,6 +41,8 @@ const ComponentsMap = {
   brick: BrickContainer,
   quoteBlock: QuoteBlock,
   heading: Heading,
+  accordion: Accordion,
+  accordionItem: AccordionItem,
 };
 
 const initComponents = () => {

@@ -25,6 +25,7 @@ parameters:
     helpText: ''
     typeConfig:
       multiline: true
+categoryId: 7c7c6ecc-9368-4cb5-92b4-7b4d25dbf457
 description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1691416931/Uniland/components/card.png
@@ -38,4 +39,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.014521+00:00'
-updated: '2023-08-07T14:03:31.57696+00:00'
+updated: '2023-08-20T15:12:52.528164+00:00'
