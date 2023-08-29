@@ -1,5 +1,5 @@
 import '../components';
-
+import { BackgroundDecorator } from '../playground/decorators/BackgroundDecorator';
 import {
   createUniformApiEnhancer,
   UniformPlayground,
@@ -11,7 +11,10 @@ const PlaygroundPage = () => {
   });
 
   return (
-    <UniformPlayground contextualEditingEnhancer={contextualEditingEnhancer} />
+    <UniformPlayground
+      contextualEditingEnhancer={contextualEditingEnhancer}
+      decorators={[BackgroundDecorator]}
+    />
   );
 };
 
