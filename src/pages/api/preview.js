@@ -5,11 +5,7 @@ import { getEnhancers } from '../../lib/enhancers/enhancers';
 const handler = createPreviewHandler({
   secret: () => process.env.UNIFORM_PREVIEW_SECRET,
   // add custom routing logic
-  // render compositions without project map node under "preview" route
-  resolveFullPath: ({ slug, path }) => {
-    const previewSlug = slug && slug.length ? `/preview/${slug}` : '';
-    return path?.length ? path : previewSlug;
-  },
+  playgroundPath: '/playground',
   // run project enhancers
   enhance: composition =>
     enhance({

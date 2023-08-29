@@ -1,4 +1,6 @@
 import React from 'react';
+import Layout from '../layout';
+
 import {
   enhance,
   CANVAS_DRAFT_STATE,
@@ -12,7 +14,11 @@ export default function DynamicComposition({ composition }) {
   // get composition type
   const CompositionType = compositionRenderer(composition);
 
-  return <CompositionType composition={composition} />;
+  return (
+    <Layout>
+      <CompositionType composition={composition} />;
+    </Layout>
+  );
 }
 
 export const getServerSideProps = withUniformGetServerSideProps({

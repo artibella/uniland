@@ -58,7 +58,7 @@ export default function TabContainer({ component }) {
           <Tab.List className="tabs z-10 -mb-px">
             <>
               {renderTabList(tabs)}
-              <div class="tab tab-lifted mr-6 flex-1 cursor-default [--tab-border-color:transparent]"></div>
+              <div className="tab tab-lifted mr-6 flex-1 cursor-default [--tab-border-color:transparent]"></div>
             </>
           </Tab.List>
           <Tab.Panels className="border-base-300 bg-base-100 flex min-h-[6rem] min-w-[18rem] flex-wrap items-center justify-center gap-2 overflow-x-hidden border bg-cover p-16">
