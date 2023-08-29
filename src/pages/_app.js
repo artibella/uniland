@@ -1,5 +1,4 @@
 import { UniformContext } from '@uniformdev/context-react';
-import Layout from '../layout';
 import { createUniformContext } from '../lib/context/uniformContext';
 import '../styles/globals.css';
 import '../styles/page.css';
@@ -29,9 +28,7 @@ function UnilandApp({ Component, pageProps, serverUniformContext }) {
   return (
     <UniformContext context={serverUniformContext ?? clientContext}>
       <main className={`${sourceSerif.variable} ${inter.variable} font-sans`}>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
+        <Component {...pageProps} />
       </main>
     </UniformContext>
   );
