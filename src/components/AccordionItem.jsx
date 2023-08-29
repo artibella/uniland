@@ -26,7 +26,7 @@ export default function AccordionItem({
 
   return (
     <Accordion icon={icon} defaultChecked={isSelected}>
-      <Accordion.Title className="text-xl font-medium">{title}</Accordion.Title>
+      <Accordion.Title className="text-xl font-bold">{title}</Accordion.Title>
       <Accordion.Content>
         <UniformSlot name="content" />
       </Accordion.Content>
