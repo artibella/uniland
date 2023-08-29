@@ -19,6 +19,10 @@ module.exports = {
       variants: ['sm', 'md', 'lg', 'hover', 'group-hover'],
     },
     {
+      pattern: /w-./,
+      variants: ['sm', 'md', 'lg', 'hover', 'group-hover'],
+    },
+    {
       pattern: /(text|justify|align|items|object)-./,
       variants: ['sm', 'md', 'lg', 'hover', 'group-hover'],
     },

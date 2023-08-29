@@ -25,7 +25,6 @@ const getButtonClassesByTheme = theme =>
     getBackgroundClassesByTheme(theme),
     'playground-theme-button',
     'p-2',
-    'w-8',
     'h-8',
     'border',
     { 'text-white': theme === 'dark' },
@@ -45,7 +44,7 @@ export const BackgroundDecorator = ({ children }) => {
   return (
     <div className={containerClasses}>
       <div
-        className="playground-controls bg-gray-100 grid grid-rows md:grid-cols-5 gap-8 p-8"
+        className="playground-controls bg-gray-100 grid grid-rows md:grid-cols-5 gap-8 p-4"
         {...{ [IS_RENDERED_BY_UNIFORM_ATTRIBUTE]: true }}
       >
         {Object.entries(backgroundDecoratorOptions).map(([name, theme]) => (
@@ -61,7 +60,7 @@ export const BackgroundDecorator = ({ children }) => {
           </button>
         ))}
       </div>
-      <div className="px-8">{children}</div>
+      <div className="">{children}</div>
     </div>
   );
 };
