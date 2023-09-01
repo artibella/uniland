@@ -55,6 +55,7 @@
     "@uniformdev/canvas-react": "^19.49.1",
     "@uniformdev/cli": "^19.49.1",
     "@uniformdev/context": "^19.49.1",
+    "@uniformdev/context-devtools": "^19.49.1",
     "@uniformdev/context-gtag": "^19.49.1",
     "@uniformdev/context-next": "^19.49.1",
     "@uniformdev/context-react": "^19.49.1",
