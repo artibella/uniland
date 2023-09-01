@@ -4,7 +4,6 @@ import { getEnhancers } from '../../lib/enhancers/enhancers';
 
 const handler = createPreviewHandler({
   secret: () => process.env.UNIFORM_PREVIEW_SECRET,
-  // add custom routing logic
   playgroundPath: '/playground',
   // run project enhancers
   enhance: composition =>
