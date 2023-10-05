@@ -16,7 +16,7 @@ export default function DynamicComposition({ composition }) {
 
   return (
     <Layout>
-      <CompositionType composition={composition} />;
+      <CompositionType composition={composition} />
     </Layout>
   );
 }

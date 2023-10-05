@@ -40,7 +40,7 @@ export default function Page({ composition }) {
         <title>{composition?._name}</title>
         <meta name="robots" content="noindex"></meta>
       </Head>
-      <div>
+      <div className="page-wrapper">
         <UniformComposition
           data={composition}
           contextualEditingEnhancer={contextualEditingEnhancer}

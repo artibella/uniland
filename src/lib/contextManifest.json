@@ -54,6 +54,14 @@
                   "rhs": "berlin"
                 },
                 "queryName": "city"
+              },
+              {
+                "path": {
+                  "cs": false,
+                  "op": "~",
+                  "rhs": "berlin"
+                },
+                "type": "PV"
               }
             ]
           }
