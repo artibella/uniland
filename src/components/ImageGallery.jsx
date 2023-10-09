@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import Image from 'next/image';
 
-const renderImages = function (images) {
+const renderImages = function (images, variant) {
   const figureClasses = classNames(
     'image-gallery__figure',
     // layout specific style
