@@ -2,7 +2,13 @@ import classNames from 'classnames';
 import Image from 'next/image';
 
 const renderImages = function (images) {
-  const figureClasses = 'image-gallery__figure break-inside-avoid';
+  const figureClasses = classNames(
+    'image-gallery__figure',
+    // layout specific style
+    {
+      'break-inside-avoid mb-8': variant === 'masonry',
+    }
+  );
   const imageClasses = 'h-auto max-w-full rounded-lg';
 
   return images.map(({ id, url, title, description, width, height }) => {
@@ -16,7 +22,7 @@ const renderImages = function (images) {
           // height={height}
         />
         {(description || title) && (
-          <figcaption className="text-sm text-slate-700 mt-4 ml-4 mb-8">
+          <figcaption className="text-sm text-slate-700 mt-4 ml-4">
             {description || title}
           </figcaption>
         )}
@@ -45,7 +51,7 @@ export default function ImageGallery({ title = '', images = [], component }) {
   return (
     <div className="image-gallery-block block">
       <div className={layoutClasses}>
-        {images?.length && renderImages(images)}
+        {images?.length && renderImages(images, variant)}
       </div>
     </div>
   );
