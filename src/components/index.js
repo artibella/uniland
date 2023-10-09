@@ -20,6 +20,7 @@ import QuoteBlock from './QuoteBlock';
 import Heading from './Heading';
 import Accordion from './Accordion';
 import AccordionItem from './AccordionItem';
+import ImageGallery from './ImageGallery';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -43,6 +44,7 @@ const ComponentsMap = {
   heading: Heading,
   accordion: Accordion,
   accordionItem: AccordionItem,
+  imageGalleryBlock: ImageGallery,
 };
 
 const initComponents = () => {
