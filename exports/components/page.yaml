@@ -9,8 +9,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
-description: ''
-previewImageUrl: ''
+description: A generic page type which has a hero and a single content slot
 useTeamPermissions: true
 slots:
   - id: hero
@@ -48,6 +47,7 @@ defaults:
             imageFit: 'yes'
             imageUrl: 'yes'
             imageAltText: 'yes'
+titleParameter: title
 canBeComposition: true
 created: '2022-12-15T14:08:27.337946+00:00'
-updated: '2023-07-26T11:56:04.548596+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

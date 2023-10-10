@@ -17,14 +17,6 @@ parameters:
 categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
 useTeamPermissions: true
 slots:
-  - id: titleBagde
-    name: Title bagde
-    maxComponents: 1
-    allowedComponents:
-      - badge
-    allowAllComponents: false
-    inheritAllowedComponents: false
-    patternsInAllowedComponents: false
   - id: content
     name: Content
     allowedComponents:
@@ -49,4 +41,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2023-08-21T09:37:20.536743+00:00'
-updated: '2023-08-21T09:37:20.536743+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

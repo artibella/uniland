@@ -45,7 +45,6 @@ parameters:
         - text: None
           value: none
 categoryId: 08bd6561-61eb-4cbf-8826-f10fd75bcab6
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1691488613/Uniland/components/default-hero.png
 useTeamPermissions: true
@@ -65,4 +64,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:26.050869+00:00'
-updated: '2023-08-18T15:50:17.961476+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

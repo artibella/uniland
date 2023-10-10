@@ -5,8 +5,6 @@ name: Tab Container
 icon: tab
 parameters: []
 categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
-description: ''
-previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: tabs
@@ -22,4 +20,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: false
 created: '2022-12-15T14:08:27.453548+00:00'
-updated: '2023-08-07T10:43:51.758879+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

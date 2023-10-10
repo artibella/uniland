@@ -52,14 +52,12 @@ parameters:
     typeConfig:
       linkTypes:
         tel: false
-description: ''
-previewImageUrl: ''
 useTeamPermissions: true
 slots: []
 titleParameter: label
 canBeComposition: false
 created: '2022-12-15T14:08:25.552011+00:00'
-updated: '2023-07-19T09:12:00.932333+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'
 variants:
   - id: outline
     name: outline

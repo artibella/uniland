@@ -15,8 +15,6 @@ parameters:
     type: checkbox
     helpText: ''
     typeConfig: null
-description: ''
-previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: content
@@ -34,8 +32,9 @@ slots:
       - brick
       - quoteBlock
       - accordion
+      - imageGalleryBlock
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.582753+00:00'
-updated: '2023-08-21T09:38:19.413155+00:00'
+updated: '2023-10-09T14:29:32.419778+00:00'

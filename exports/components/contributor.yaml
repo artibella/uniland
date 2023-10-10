@@ -19,11 +19,9 @@ parameters:
     type: link
     helpText: ''
     typeConfig: null
-description: ''
-previewImageUrl: ''
 useTeamPermissions: true
 slots: []
 titleParameter: name
 canBeComposition: false
 created: '2022-12-15T14:08:26.873059+00:00'
-updated: '2023-08-10T09:41:48.430385+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

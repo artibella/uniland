@@ -5,8 +5,6 @@ name: Link List
 icon: link
 parameters: []
 categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
-description: ''
-previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: items
@@ -20,4 +18,4 @@ slots:
     inheritAllowedComponents: false
 canBeComposition: false
 created: '2022-12-15T14:08:26.420263+00:00'
-updated: '2023-08-07T10:46:20.13025+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

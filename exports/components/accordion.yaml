@@ -46,7 +46,6 @@ categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
 description: >-
   A layout component with vertical collapsible sections where one section can be
   expanded at a time
-previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: items
@@ -58,4 +57,4 @@ slots:
 titleParameter: internalName
 canBeComposition: false
 created: '2023-08-21T09:27:14.311015+00:00'
-updated: '2023-08-21T09:57:03.824461+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

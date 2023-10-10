@@ -14,18 +14,35 @@ parameters:
     type: text
     helpText: Public title to show on the brick
     typeConfig: null
-  - id: horizontalAlignment
-    name: Horizontal alignment of content
+  - id: group_layoutSettings
+    name: Layout settings
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - theme
+        - verticalAlignment
+        - horizontalAlignment
+        - borderRadius
+        - aspectRatio
+        - paddingSize
+        - marginSize
+  - id: theme
+    name: Theme
     type: select
     helpText: ''
     typeConfig:
       options:
-        - text: Left
-          value: start
-        - text: Center
-          value: center
-        - text: Right
-          value: end
+        - text: White
+          value: white
+        - text: Dark
+          value: dark
+        - text: Mango
+          value: mango
+        - text: Spring
+          value: spring
+        - text: Ice
+          value: ice
   - id: verticalAlignment
     name: Vertical alignment of content
     type: select
@@ -37,6 +54,18 @@ parameters:
         - text: Center
           value: center
         - text: Bottom
+          value: end
+  - id: horizontalAlignment
+    name: Horizontal alignment of content
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: start
+        - text: Center
+          value: center
+        - text: Right
           value: end
   - id: borderRadius
     name: Border Radius
@@ -62,6 +91,70 @@ parameters:
           value: full
         - text: None
           value: none
+  - id: aspectRatio
+    name: Aspect ratio
+    type: select
+    helpText: Define aspect ratio for the brick
+    typeConfig:
+      options:
+        - text: Auto
+          value: auto
+        - text: Square
+          value: square
+        - text: Video
+          value: video
+  - id: paddingSize
+    name: Inner spacing (padding)
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: None
+          value: none
+  - id: marginSize
+    name: Outer spacing (margin)
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Small
+          value: sm
+        - text: Default
+          value: default
+        - text: Medium
+          value: md
+        - text: Large
+          value: lg
+        - text: XL
+          value: xl
+        - text: 2XL
+          value: 2xl
+        - text: Full
+          value: full
+        - text: None
+          value: none
+  - id: group_backgroundSettings
+    name: Background Settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - backgroundType
+        - backgroundImage
+        - backgroundImageFit
+        - backgroundPosition
   - id: backgroundType
     name: Background type
     type: select
@@ -125,79 +218,7 @@ parameters:
           value: left-bottom
         - text: Bottom right
           value: right-bottom
-  - id: aspectRatio
-    name: Aspect ratio
-    type: select
-    helpText: Define aspect ratio for the brick
-    typeConfig:
-      options:
-        - text: Auto
-          value: auto
-        - text: Square
-          value: square
-        - text: Video
-          value: video
-  - id: paddingSize
-    name: Inner spacing (padding)
-    type: select
-    helpText: ''
-    typeConfig:
-      options:
-        - text: Small
-          value: sm
-        - text: Default
-          value: default
-        - text: Medium
-          value: md
-        - text: Large
-          value: lg
-        - text: XL
-          value: xl
-        - text: 2XL
-          value: 2xl
-        - text: None
-          value: none
-  - id: marginSize
-    name: Outer spacing (margin)
-    type: select
-    helpText: ''
-    typeConfig:
-      options:
-        - text: Small
-          value: sm
-        - text: Default
-          value: default
-        - text: Medium
-          value: md
-        - text: Large
-          value: lg
-        - text: XL
-          value: xl
-        - text: 2XL
-          value: 2xl
-        - text: Full
-          value: full
-        - text: None
-          value: none
-  - id: theme
-    name: Theme
-    type: select
-    helpText: ''
-    typeConfig:
-      options:
-        - text: White
-          value: white
-        - text: Dark
-          value: dark
-        - text: Mango
-          value: mango
-        - text: Spring
-          value: spring
-        - text: Ice
-          value: ice
 categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
-description: ''
-previewImageUrl: ''
 useTeamPermissions: true
 slots:
   - id: content
@@ -214,8 +235,9 @@ slots:
       - $localization
       - $loop
       - quoteBlock
+      - imageGalleryBlock
     inheritAllowedComponents: false
 titleParameter: internalName
 canBeComposition: false
 created: '2023-01-19T10:12:31.391729+00:00'
-updated: '2023-08-07T10:45:45.668766+00:00'
+updated: '2023-10-09T14:29:16.040741+00:00'

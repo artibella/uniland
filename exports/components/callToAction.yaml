@@ -30,7 +30,6 @@ parameters:
     type: checkbox
     helpText: ''
     typeConfig: null
-description: ''
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1692374043/Uniland/components/cta-button-primary.png
 useTeamPermissions: true
@@ -38,7 +37,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:25.748367+00:00'
-updated: '2023-08-18T15:54:33.601241+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'
 variants:
   - id: default
     name: Default
