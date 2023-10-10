@@ -21,6 +21,7 @@ import Heading from './Heading';
 import Accordion from './Accordion';
 import AccordionItem from './AccordionItem';
 import ImageGallery from './ImageGallery';
+import Logos from './Logos';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -45,6 +46,7 @@ const ComponentsMap = {
   accordion: Accordion,
   accordionItem: AccordionItem,
   imageGalleryBlock: ImageGallery,
+  logos: Logos,
 };
 
 const initComponents = () => {
