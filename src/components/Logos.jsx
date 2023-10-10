@@ -25,11 +25,17 @@ const renderLogos = function (logos, variant) {
   });
 };
 
-export default function Logos({ title = '', logos = [], component }) {
+export default function Logos({
+  title = '',
+  logos = [],
+  logosPerRow = 4,
+  component,
+}) {
   const variant = component.variant || 'default';
   const layoutClasses = classNames([
     'logos--layout',
-    'grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-4 items-center',
+    'grid gap-8 text-gray-500 sm:gap-12 items-center',
+    `grid-cols-2 md:grid-cols-3 lg:grid-cols-${logosPerRow}`,
   ]);
 
   return (
