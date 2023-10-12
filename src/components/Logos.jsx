@@ -11,7 +11,7 @@ const renderLogos = function (logos, variant) {
   return logos.map(logo => {
     const name = logo.fields?.name?.value;
     const assets = logo.fields?.logo?.value;
-    const asset = assets.length ? assets[0] : undefined;
+    const asset = assets && assets.length ? assets[0] : undefined;
 
     if (!asset) {
       return null;
