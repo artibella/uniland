@@ -40,7 +40,9 @@ export default function Logos({
 
   return (
     <div className="logos py-8 lg:py-16 px-4">
-      <Heading title={title} tagName="h3" align="center" className="mb-16" />
+      {title && (
+        <Heading title={title} tagName="h3" align="center" className="mb-16" />
+      )}
       <div className={layoutClasses}>
         {logos?.length && renderLogos(logos, variant)}
       </div>
