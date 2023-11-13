@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import slugify from 'slugify';
 import Heading from './Heading';
-import { ReactMarkdown } from 'react-markdown/lib/react-markdown';
+import Markdown from 'react-markdown';
 import { UniformRichText } from '@uniformdev/canvas-next';
 
 export default function TextBlock({
@@ -34,7 +34,7 @@ export default function TextBlock({
 
       {body && (
         <div className={bodyClasses}>
-          <ReactMarkdown>{body}</ReactMarkdown>
+          <Markdown>{body}</Markdown>
         </div>
       )}
 
