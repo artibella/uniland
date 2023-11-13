@@ -14,6 +14,11 @@ const config = {
     deviceSizes: [320, 420, 768, 1024, 1280],
     path: 'https://res.cloudinary.com/contentops/image/fetch',
   },
+  i18n: {
+    locales: ['en-US', 'de-DE', 'da-DK'],
+    defaultLocale: 'en-US',
+    localeDetection: false,
+  },
   publicRuntimeConfig: {
     appVersion: process.env.npm_package_version,
     projectId: process.env.UNIFORM_PROJECT_ID,

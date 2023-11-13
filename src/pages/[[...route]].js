@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../layout';
+import { localize } from '@uniformdev/canvas';
+
 
 import {
   enhance,
@@ -38,6 +40,22 @@ export const getServerSideProps = withUniformGetServerSideProps({
       // return null;
     }
     const composition = routeResponse.compositionApiResponse.composition;
+    
+    // localize composition
+    const defaultLocale = context.defaultLocale ?? 'en-US';
+    const currentLocale = context.locale ?? defaultLocale;
+
+    localize({
+      composition,
+      locale: ({ locales }) => {
+        if (Object.keys(locales).includes(currentLocale)) {
+          return currentLocale;
+        }
+        return defaultLocale;
+      }
+    });
+
+    // enhance composition
     await enhance({ composition, enhancers: getEnhancers(), context });
 
     // example of extending props with your own needs
