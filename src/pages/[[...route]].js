@@ -1,10 +1,7 @@
 import React from 'react';
 import Layout from '../layout';
-import { localize } from '@uniformdev/canvas';
-
-
 import {
-  enhance,
+  enhance, localize,
   CANVAS_DRAFT_STATE,
   CANVAS_PUBLISHED_STATE,
 } from '@uniformdev/canvas';
