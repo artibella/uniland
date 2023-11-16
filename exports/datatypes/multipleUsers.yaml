@@ -1,0 +1,25 @@
+id: multipleUsers
+displayName: Multiple users
+ttl: 30
+path: /
+custom:
+  proposedName: ''
+method: GET
+purgeKey: 0739cca6-7aaf-49aa-b503-fbb3d3ee1911
+archetype: default
+variables:
+  seed:
+    type: text
+    default: uniland
+    helpText: Some string to ensure the same user is returned
+  results:
+    type: text
+    default: '10'
+    helpText: Number of users to fetch
+parameters:
+  - key: seed
+    value: ${seed}
+  - key: results
+    value: ${results}
+dataSourceId: randomUserApi
+allowedOnComponents: []

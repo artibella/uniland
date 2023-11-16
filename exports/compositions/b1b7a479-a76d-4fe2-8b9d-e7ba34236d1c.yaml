@@ -3,6 +3,10 @@ composition:
   _id: b1b7a479-a76d-4fe2-8b9d-e7ba34236d1c
   _slug: ':post'
   type: page
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Post/entry/fields/title/value}
   slots:
     sections:
       - _id: 421f0595-c222-47ee-816b-5b105436b93b
@@ -13,28 +17,38 @@ composition:
               type: twoColumns
               slots:
                 leftContent:
-                  - _id: 2822ecc7-198a-429d-97de-172884348b4b
+                  - _id: 055c3308-f3f3-43d8-bd4e-8b2848539979
                     type: heading
                     parameters:
-                      align:
-                        type: select
-                        value: left
                       title:
                         type: text
-                        value: ${#jptr:/Post/entries/0/entry/fields/title/value}
-                      byline:
-                        type: text
-                        value: ${#jptr:/Post/entries/0/entry/fields/author/value}
-                      tagName:
-                        type: select
-                        value: h1
+                        value: ${#jptr:/Post/entry/fields/title/value}
+                      titleRichText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: variable
+                                    version: 1
+                                    reference: '#jptr:/Post/entry/fields/title/value'
+                                direction: null
+                            direction: null
                 rightContent:
                   - _id: 4a7736ec-4318-44cd-ad40-ebc129bf7784
                     type: imageBlock
                     parameters:
                       imageUrl:
-                        type: text
-                        value: ${#jptr:/Post/entries/0/entry/fields/postImage/value}
+                        type: image
+                        value: ${#jptr:/Post/entry/fields/postImage/value}
               parameters:
                 layout:
                   type: select
@@ -47,7 +61,7 @@ composition:
               parameters:
                 richText:
                   type: richText
-                  value: ${#jptr:/Post/entries/0/entry/fields/postBody/value}
+                  value: ${#jptr:/Post/entry/fields/postBody/value}
                 textAlign:
                   type: select
                   value: left
@@ -60,5 +74,5 @@ composition:
       variables:
         slug: ${slug}
 created: '2023-05-22T22:39:10.655331+00:00'
-modified: '2023-08-04T20:04:25.213831+00:00'
+modified: '2023-09-13T11:54:40.544973+00:00'
 pattern: false

@@ -17,8 +17,5 @@ variables:
 parameters:
   - key: sys.id[in]
     value: ${assetsIds}
-longTermCache:
-  enabled: false
-  ttlInHours: 24
 dataSourceId: uniformWebsite
 allowedOnComponents: []

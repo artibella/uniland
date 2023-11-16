@@ -1,0 +1,2579 @@
+id: productCanvasSneakers
+displayName: 'Product: Canvas Sneakers'
+ttl: 30
+path: /staticdata
+custom:
+  json:
+    state: 64
+    created: '2023-08-24T11:53:16.259867+00:00'
+    pattern: false
+    modified: '2023-08-24T12:13:41.64332+00:00'
+    projectId: 14df26fb-4bdc-4d17-b35c-8320c8d5cdd9
+    composition:
+      _id: 09c00a22-27fc-4203-8fff-90a9546355af
+      type: canvasProduct
+      _name: Canvas Sneakers
+      _slug: canvas-sneakers
+      slots:
+        assets:
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Canvas Sneakers
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Canvas Sneakers
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Canvas Sneakers
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Canvas Sneakers
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Canvas Sneakers
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+        variants:
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 4 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696935272470
+              name:
+                type: text
+                value: 4 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 4 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696935239702
+              name:
+                type: text
+                value: 4 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 4 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696935305238
+              name:
+                type: text
+                value: 4 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 4 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696935338006
+              name:
+                type: text
+                value: 4 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 4 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696935370774
+              name:
+                type: text
+                value: 4 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 5 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941367318
+              name:
+                type: text
+                value: 5 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 5 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941334550
+              name:
+                type: text
+                value: 5 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 5 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941400086
+              name:
+                type: text
+                value: 5 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 5 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941432854
+              name:
+                type: text
+                value: 5 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 5 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941465622
+              name:
+                type: text
+                value: 5 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 6 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941531158
+              name:
+                type: text
+                value: 6 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 6 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941498390
+              name:
+                type: text
+                value: 6 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 6 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941563926
+              name:
+                type: text
+                value: 6 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 6 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941596694
+              name:
+                type: text
+                value: 6 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 6 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941629462
+              name:
+                type: text
+                value: 6 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 7 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941694998
+              name:
+                type: text
+                value: 7 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 7 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941662230
+              name:
+                type: text
+                value: 7 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 7 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941760534
+              name:
+                type: text
+                value: 7 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 7 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941793302
+              name:
+                type: text
+                value: 7 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 7 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941826070
+              name:
+                type: text
+                value: 7 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 8 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941891606
+              name:
+                type: text
+                value: 8 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 8 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941858838
+              name:
+                type: text
+                value: 8 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 8 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941924374
+              name:
+                type: text
+                value: 8 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 8 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941957142
+              name:
+                type: text
+                value: 8 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 8 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696941989910
+              name:
+                type: text
+                value: 8 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 9 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942055446
+              name:
+                type: text
+                value: 9 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 9 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942022678
+              name:
+                type: text
+                value: 9 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 9 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942088214
+              name:
+                type: text
+                value: 9 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 9 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942120982
+              name:
+                type: text
+                value: 9 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 9 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942153750
+              name:
+                type: text
+                value: 9 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 10 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942219286
+              name:
+                type: text
+                value: 10 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 10 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942186518
+              name:
+                type: text
+                value: 10 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 10 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942252054
+              name:
+                type: text
+                value: 10 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 10 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942284822
+              name:
+                type: text
+                value: 10 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 10 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942317590
+              name:
+                type: text
+                value: 10 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 11 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942383126
+              name:
+                type: text
+                value: 11 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 11 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942350358
+              name:
+                type: text
+                value: 11 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 11 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942415894
+              name:
+                type: text
+                value: 11 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 11 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942448662
+              name:
+                type: text
+                value: 11 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 11 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942481430
+              name:
+                type: text
+                value: 11 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 12 / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942546966
+              name:
+                type: text
+                value: 12 / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 12 / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayCanvasSneaker01.jpg?v=1675454881
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942514198
+              name:
+                type: text
+                value: 12 / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 12 / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942579734
+              name:
+                type: text
+                value: 12 / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 12 / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleCanvasSneaker01.jpg?v=1675446185
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942612502
+              name:
+                type: text
+                value: 12 / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: 12 / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedCanvasSneaker01.jpg?v=1675446186
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696942645270
+              name:
+                type: text
+                value: 12 / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              These high-quality canvas sneakers offer a
+                              comfortable fit and superior breathability, thanks
+                              to their cushioning midsoles and durable
+                              construction. An array of stylish colors adds to
+                              the appeal, making them perfect for casual wear.
+                              Slip them on and enjoy reliable performance and
+                              style that lasts.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+        categories:
+          - type: canvasProductCategory
+            parameters:
+              name:
+                type: text
+                value: Men
+              image:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_a_neatly_arranged_photo_of_mens_clothes_t-shirt_gray_hoodie__c5a4ebe4-ccb1-4d94-ae56-a1b33b4e71d9_1.png?v=1675456349
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: ''
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductCategory
+            parameters:
+              name:
+                type: text
+                value: Accessories
+              image:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_black_sport_bag_containing_sport_accessories_one_towel_one_w_ef3e1828-4bde-4d7f-a6bf-e7abae4961e8.png?v=1675462987
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: ''
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductCategory
+            parameters:
+              name:
+                type: text
+                value: Featured
+              image:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/banner-2.png?v=1675462488
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: ''
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductCategory
+            parameters:
+              name:
+                type: text
+                value: Shoes
+              image:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_three_pairs_of_neatly_arranged_men_and_womens_running_shoes._f4121e54-2c8a-4ad2-b366-355c0cc4348d_1.png?v=1675461870
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: ''
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+      parameters:
+        namie:
+          type: text
+          value: Canvas Sneakers
+        reference:
+          type: text
+          value: gid://shopify/Product/7983593095190
+        description:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        These high-quality canvas sneakers offer a comfortable
+                        fit and superior breathability, thanks to their
+                        cushioning midsoles and durable construction. An array
+                        of stylish colors adds to the appeal, making them
+                        perfect for casual wear. Slip them on and enjoy reliable
+                        performance and style that lasts.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              direction: null
+        primaryImage:
+          type: image
+          value: >-
+            https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenCanvasSneaker01.jpg?v=1675454881
+  proposedName: JSON Data
+method: GET
+purgeKey: 3163de84-80b6-4378-a8e1-75983c4deaef
+archetype: staticData
+dataSourceId: fakeCanvas
+allowedOnComponents: []

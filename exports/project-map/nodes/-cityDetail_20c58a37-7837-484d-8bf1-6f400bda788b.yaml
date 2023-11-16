@@ -1,0 +1,10 @@
+id: 20c58a37-7837-484d-8bf1-6f400bda788b
+name: City detail
+type: composition
+data:
+  previewValue: ''
+order: 400
+path: /demos/city/:cityDetail
+compositionId: 9f24a9b6-634a-49dc-8428-bda1022740ab
+pathSegment: ':cityDetail'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

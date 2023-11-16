@@ -1,7 +1,6 @@
 id: postsBySlug
 displayName: Posts by Slug
-ttl: 300
-body: ''
+ttl: 30
 path: /entries
 custom:
   include: '10'
@@ -46,8 +45,5 @@ parameters:
     value: ${limit}
   - key: content_type
     value: ${contentTypeId}
-longTermCache:
-  enabled: false
-  ttlInHours: 24
 dataSourceId: uniformWebsite
 allowedOnComponents: []

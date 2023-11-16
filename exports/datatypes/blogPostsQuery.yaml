@@ -42,8 +42,5 @@ parameters:
     value: ${limit}
   - key: content_type
     value: ${contentTypeId}
-longTermCache:
-  enabled: false
-  ttlInHours: 24
 dataSourceId: uniformWebsite
 allowedOnComponents: []

@@ -39,8 +39,5 @@ parameters:
     value: '2'
   - key: sys.id[in]
     value: ${entryIds}
-longTermCache:
-  enabled: false
-  ttlInHours: 24
 dataSourceId: uniformWebsite
 allowedOnComponents: []

@@ -1,0 +1,8 @@
+id: '2'
+name: Blog
+cap: 100
+values:
+  - id: feat
+    value: Feature
+  - id: news
+    value: News

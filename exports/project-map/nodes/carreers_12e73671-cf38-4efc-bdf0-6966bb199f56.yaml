@@ -1,0 +1,9 @@
+id: 12e73671-cf38-4efc-bdf0-6966bb199f56
+name: Carreers
+type: composition
+data: {}
+order: 700
+path: /company/carreers
+compositionId: fb99576f-3c7b-48a1-af5f-7614080097f2
+pathSegment: carreers
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

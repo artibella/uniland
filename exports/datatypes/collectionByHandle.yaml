@@ -21,8 +21,5 @@ parameters:
       { collection(handle: "${handle}") { id handle title description image { id
       url } products(first: 20) { edges { node { id title featuredImage { id url
       } } } } }}
-longTermCache:
-  enabled: false
-  ttlInHours: 24
 dataSourceId: mockShop
 allowedOnComponents: []

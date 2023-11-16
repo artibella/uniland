@@ -1,0 +1,40 @@
+id: postUsingSlug
+displayName: Post using Slug
+ttl: 30
+path: /entries
+custom:
+  slugField: fields.slug
+  displayField: nameInternal
+  contentTypeId: BlogPost
+  enableFilterByLocale: false
+method: GET
+purgeKey: e20d5908-e4fd-48fa-b492-7c93363ce22c
+archetype: entryByField
+variables:
+  slug:
+    type: text
+    default: ''
+    displayName: Slug
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  slugField:
+    type: text
+    default: fields.slug[in]
+    displayName: Slug Field
+  contentType:
+    type: text
+    default: BlogPost
+    displayName: Content Type
+parameters:
+  - key: include
+    value: '2'
+  - key: ${slugField}
+    value: ${slug}
+  - key: content_type
+    value: ${contentType}
+  - key: locale
+    value: ${locale}
+dataSourceId: uniformWebsite
+allowedOnComponents: []

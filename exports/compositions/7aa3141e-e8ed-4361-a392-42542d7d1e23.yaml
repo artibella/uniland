@@ -5,117 +5,177 @@ composition:
   type: page
   slots:
     hero:
-      - _id: 0091459a-2b7d-48d6-a153-60ea0d577f67
-        type: hero
+      - _id: b34049b6-0f23-4579-84af-2a42e62dda78
+        type: $localization
         slots:
-          heading:
-            - _id: ca37671e-674f-40b1-bba2-5b99feda19c5
-              type: heading
+          localized:
+            - _id: 0091459a-2b7d-48d6-a153-60ea0d577f67
+              type: hero
+              slots:
+                heading:
+                  - _id: ca37671e-674f-40b1-bba2-5b99feda19c5
+                    type: heading
+                    parameters:
+                      align:
+                        type: select
+                        value: left
+                      title:
+                        type: text
+                        value: Uniland blog
+                      byline:
+                        type: text
+                        value: Extra extra
+                      tagName:
+                        type: select
+                        value: h1
+                      titleRichText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: 'Uniland '
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: blog
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 10
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
               parameters:
-                align:
-                  type: select
-                  value: left
-                title:
+                locale:
+                  type: localeSelect
+                  value: en-US
+            - _id: 41d21fad-f380-4337-b0b8-3b0916686953
+              type: hero
+              slots:
+                heading:
+                  - _id: 2a92ec51-1c16-4cdc-b82e-a6fafc31e4e5
+                    type: heading
+                    parameters:
+                      align:
+                        type: select
+                        value: left
+                      title:
+                        type: text
+                        value: Uniland blog
+                      byline:
+                        type: text
+                        value: 'Jetzt neu:'
+                      tagName:
+                        type: select
+                        value: h1
+                      titleRichText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Der Uniland B
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - mode: normal
+                                    text: log
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 10
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+              parameters:
+                body:
                   type: text
-                  value: Uniland blog
-                byline:
+                  value: Jetzt auch auf Deutsch 🇩🇪
+                locale:
+                  type: localeSelect
+                  value: de-DE
+                imageUrl:
                   type: text
-                  value: Extra extra
-                tagName:
-                  type: select
-                  value: h1
-                titleRichText:
-                  type: richText
-                  value:
-                    root:
-                      type: root
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - type: paragraph
-                          format: ''
-                          indent: 0
-                          version: 1
-                          children:
-                            - mode: normal
-                              text: 'Uniland '
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 0
-                              version: 1
-                            - mode: normal
-                              text: blog
-                              type: text
-                              style: ''
-                              detail: 0
-                              format: 10
-                              version: 1
-                          direction: ltr
-                      direction: ltr
+                  value: >-
+                    https://images.unsplash.com/photo-1580746240442-47de5d7e4c7b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
     sections:
       - _id: 396d14dc-7e84-4a3c-bc61-d02ead556393
         type: sectionContainer
         slots:
           content:
-            - _id: 51dfb398-1186-4d3d-ac7a-5716d7c7880d
+            - _id: 177dcef3-c05a-4eb7-b5ee-195e8fb55a6d
               type: gridContainer
-              slots:
-                items:
-                  - _id: 2a4e5d87-1079-4db3-b5d9-585bffcdcad1
-                    type: $loop
-                    slots:
-                      body:
-                        - _id: 4a4e14d0-4ceb-4ff6-a8b1-1be35987ca18
-                          type: card
-                          slots:
-                            actions:
-                              - _id: >-
-                                  4a4e14d0-4ceb-4ff6-a8b1-1be35987ca18|3b6c0e08-e10b-40b3-ac7f-9c2a1a6ad0bc
-                                type: callToAction
-                                parameters:
-                                  title:
-                                    type: text
-                                    value: Read post
-                                  internalLink:
-                                    type: link
-                                    value:
-                                      path: >-
-                                        /blog/${#jptr:/Latest Blog Posts items
-                                        Loop Item/entry/_slug}
-                                      type: projectMapNode
-                                      nodeId: d947bbe8-7fe2-44e1-a628-d15557c43e42
-                                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
-                                      dynamicInputValues:
-                                        slug: >-
-                                          ${#jptr:/Latest Blog Posts items Loop
-                                          Item/entry/_slug}
-                          parameters:
-                            image:
-                              type: text
-                              value: >-
-                                ${#jptr:/Latest Blog Posts items Loop
-                                Item/entry/fields/postImage/value}
-                            title:
-                              type: text
-                              value: >-
-                                ${#jptr:/Latest Blog Posts items Loop
-                                Item/entry/fields/title/value}
-                            byline:
-                              type: text
-                              value: >-
-                                ${#jptr:/Latest Blog Posts items Loop
-                                Item/entry/fields/author/value}
-                    _dataResources:
-                      Latest Blog Posts items Loop Item:
-                        type: sys-reserved-loop
-                        variables:
-                          connectedData: /Apus Blog Posts/entries
+              _pattern: 0a093cb2-0fa4-451d-9c8a-5e1a86461235
+              _dataResources:
+                Posts:
+                  type: blogPostList
+                  variables:
+                    limit: '3'
+                    offset: '0'
+                    orderBy: created_at_DESC
+                    contentTypes: blogPost
+                    orderByValue: created_at_DESC
+          heading:
+            - _id: 3d0fef0e-b106-46a5-b989-9de81b56f1e7
+              type: heading
               parameters:
-                columns:
-                  type: number
-                  value: '3'
+                title:
+                  type: text
+                  value: Latest posts
+      - _id: 71e55be6-46d7-4aa0-ada7-815764be116a
+        type: sectionContainer
+        slots:
+          content:
+            - _id: e8a00954-f250-4111-af09-b5f1453fb473
+              type: gridContainer
+              _pattern: 0a093cb2-0fa4-451d-9c8a-5e1a86461235
+              _dataResources:
+                Posts:
+                  type: blogPostList
+                  variables:
+                    limit: '9'
+                    offset: '3'
+                    orderBy: created_at_DESC
+                    contentTypes: blogPost
+                    orderByValue: created_at_DESC
+          heading:
+            - _id: d51005ec-c3fb-4006-a0aa-fea445b8402d
+              type: heading
+              parameters:
+                theme:
+                  type: select
+                  value: dark
+                title:
+                  type: text
+                  value: Other posts
+        parameters:
+          theme:
+            type: select
+            value: dark
   _dataResources:
     Blog Post:
       type: blogPost
@@ -124,12 +184,12 @@ composition:
         entryIds: 1SyaYV2LFE6SNs3CcpVwql
         contentTypeId: BlogPost
     Apus Blog Posts:
-      type: blogPostListAutogenerated
+      type: blogPostList
       variables:
         limit: '10'
         offset: '0'
         contentTypes: blogPost
         orderByValue: created_at_ASC
 created: '2023-04-28T16:37:42.575106+00:00'
-modified: '2023-08-04T19:45:38.823751+00:00'
+modified: '2023-11-13T22:01:34.204878+00:00'
 pattern: false

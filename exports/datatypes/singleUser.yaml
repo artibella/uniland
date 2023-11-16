@@ -1,0 +1,19 @@
+id: singleUser
+displayName: Single User
+ttl: 30
+path: /
+custom:
+  proposedName: ''
+method: GET
+purgeKey: 0739cca6-7aaf-49aa-b503-fbb3d3ee1911
+archetype: default
+variables:
+  seed:
+    type: text
+    default: uniland
+    helpText: Some string to ensure the same user is returned
+parameters:
+  - key: seed
+    value: ${seed}
+dataSourceId: randomUserApi
+allowedOnComponents: []

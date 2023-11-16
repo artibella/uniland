@@ -32,6 +32,7 @@ slots:
       - brick
       - quoteBlock
       - accordion
+      - testimonialBlock
     inheritAllowedComponents: false
 defaults:
   type: gridContainer
@@ -41,4 +42,4 @@ defaults:
       value: '2'
 canBeComposition: false
 created: '2022-12-15T14:08:25.921759+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-11-03T14:48:56.299214+00:00'

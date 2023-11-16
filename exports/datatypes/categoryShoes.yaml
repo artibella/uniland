@@ -1,0 +1,29 @@
+id: categoryShoes
+displayName: 'Category: Shoes'
+ttl: 30
+body: ''
+path: /staticdata
+custom:
+  json:
+    _id: e6f50e7a-f01d-4a18-8c9d-9683d37b40e3
+    type: canvasProductCategory
+    _name: Shoes
+    _slug: shoes
+    parameters:
+      name:
+        type: text
+        value: Shoes
+      image:
+        type: image
+        value: ${#jptr:/Product Collection/data/collection/image/url}
+    _dataResources:
+      Product Collection:
+        type: collectionByHandle
+        variables:
+          handle: shoes
+  proposedName: Shoes
+method: GET
+purgeKey: e9176385-35c8-47d5-bf23-70015f794995
+archetype: staticData
+dataSourceId: fakeCanvas
+allowedOnComponents: []

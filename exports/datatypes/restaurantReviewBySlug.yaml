@@ -1,46 +1,26 @@
 id: restaurantReviewBySlug
 displayName: Restaurant Review by Slug
 ttl: 30
-path: /content_types/${content_type_uid}/entries
+path: /content_types/${contentTypeUid}/entries
 custom:
   imagePath: featured_image.url
-  searchFieldIds:
-    - url
-  allowContentTypeUids:
-    - restaurant_review
+  entriesFieldId: url
+  allowContentTypeUid: restaurant_review
 method: GET
-purgeKey: 0be3260f-870a-49be-b0a3-4068ac732366
-archetype: queryEntry
+purgeKey: f84693a0-0e6d-42a4-90e7-bdd84715bdee
+archetype: entriesByField
 variables:
-  asc:
-    type: text
-    default: ''
-    displayName: Order by asc
-  desc:
-    type: text
-    default: ''
-    displayName: Order by desc
-  limit:
-    type: text
-    default: '5'
-    displayName: Limit
   query:
     type: text
-    default: ''
+    default: '{ "uid": { "$in": [ "" ] } }'
     displayName: Query
-  content_type_uid:
+  contentTypeUid:
     type: text
     default: restaurant_review
     displayName: Entry Type
 parameters:
   - key: query
     value: ${query}
-  - key: limit
-    value: ${limit}
-  - key: asc
-    value: ${asc}
-  - key: desc
-    value: ${desc}
   - key: include[]
     value: restaurants
   - key: include[]
@@ -67,8 +47,5 @@ parameters:
     value: related_reviews.related_reviews.authors
   - key: include[]
     value: related_reviews.related_reviews.related_reviews
-longTermCache:
-  enabled: false
-  ttlInHours: 24
 dataSourceId: unifood
 allowedOnComponents: []

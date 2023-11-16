@@ -15,13 +15,12 @@ variables:
 parameters:
   - key: query
     value: >-
-      { product(handle: "${handle}") { id title description availableForSale
-      productType handle collections(first: 3) { edges { node { id title
-      description handle image { url width height altText id } } } }
-      featuredImage { id url } variants(first: 3) { edges { cursor node { id
-      title image { url } price { amount currencyCode } } } } }}
-longTermCache:
-  enabled: false
-  ttlInHours: 24
+      { product(handle: "${handle}") { id title description handle
+      availableForSale options {      name values } featuredImage { id url }
+      images(first:50) { edges { node { altText url id } } } collections(first:
+      50) { totalCount edges { node { handle id title description image {
+      altText url } } } } variants(first: 100){ edges{ node { id title barcode
+      price { amount currencyCode } compareAtPrice{ amount currencyCode } image
+      { id altText url width height } } } } }}
 dataSourceId: mockShop
 allowedOnComponents: []

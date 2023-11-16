@@ -1,0 +1,1243 @@
+id: productMensTShirt
+displayName: 'Product: Mens T-Shirt'
+ttl: 30
+body: ''
+path: /staticdata
+custom:
+  json:
+    state: 64
+    created: '2023-08-24T11:41:38.353299+00:00'
+    pattern: false
+    modified: '2023-08-24T11:46:58.665138+00:00'
+    projectId: 14df26fb-4bdc-4d17-b35c-8320c8d5cdd9
+    composition:
+      _id: 7b63e327-096d-49cf-88de-038b19fe25f9
+      type: canvasProduct
+      _name: T-Shirt-mens
+      _slug: mens-tshirt
+      slots:
+        assets:
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt02.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt03.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt01.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt02.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt03.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt01.jpg?v=1675455410
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt02.jpg?v=1675455429
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt03.jpg?v=1675455429
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt01.jpg?v=1675455429
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt02.jpg?v=1675455429
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt03.jpg?v=1675455429
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt01.jpg?v=1675455426
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt02.jpg?v=1675455426
+          - type: imageBlock
+            parameters:
+              altText:
+                type: text
+                value: Men's T-shirt
+              imageUrl:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt03.jpg?v=1675455426
+        variants:
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Small / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932126742
+              name:
+                type: text
+                value: Small / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Small / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43695837839382
+              name:
+                type: text
+                value: Small / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Small / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932159510
+              name:
+                type: text
+                value: Small / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Small / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt01.jpg?v=1675455429
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932192278
+              name:
+                type: text
+                value: Small / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Small / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt01.jpg?v=1675455426
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932225046
+              name:
+                type: text
+                value: Small / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Medium / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932257814
+              name:
+                type: text
+                value: Medium / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Medium / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43695837872150
+              name:
+                type: text
+                value: Medium / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Medium / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932290582
+              name:
+                type: text
+                value: Medium / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Medium / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt01.jpg?v=1675455429
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932323350
+              name:
+                type: text
+                value: Medium / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Medium / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt01.jpg?v=1675455426
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932356118
+              name:
+                type: text
+                value: Medium / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Large / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932388886
+              name:
+                type: text
+                value: Large / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Large / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43695837904918
+              name:
+                type: text
+                value: Large / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Large / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932421654
+              name:
+                type: text
+                value: Large / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Large / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt01.jpg?v=1675455429
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932454422
+              name:
+                type: text
+                value: Large / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: Large / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt01.jpg?v=1675455426
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932487190
+              name:
+                type: text
+                value: Large / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: X-Large / Green
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932519958
+              name:
+                type: text
+                value: X-Large / Green
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: X-Large / Olive
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/ClayTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43695837937686
+              name:
+                type: text
+                value: X-Large / Olive
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: X-Large / Ocean
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/OceanTshirt01.jpg?v=1675455410
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932552726
+              name:
+                type: text
+                value: X-Large / Ocean
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: X-Large / Purple
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/PurpleTshirt01.jpg?v=1675455429
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932585494
+              name:
+                type: text
+                value: X-Large / Purple
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductVariant
+            slots:
+              size:
+                - type: canvasProductSize
+                  parameters:
+                    name:
+                      type: text
+                      value: X-Large / Red
+              images:
+                - type: imageBlock
+                  parameters:
+                    imageUrl:
+                      type: image
+                      value: >-
+                        https://cdn.shopify.com/s/files/1/0688/1755/1382/products/RedTshirt01.jpg?v=1675455426
+            parameters:
+              code:
+                type: text
+                value: gid://shopify/ProductVariant/43696932618262
+              name:
+                type: text
+                value: X-Large / Red
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Crafted from organic cotton, this classic T-shirt
+                              features a relaxed fit, crew neckline and timeless
+                              look. Enjoy the breathable comfort of 100% organic
+                              cotton.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+        categories:
+          - type: canvasProductCategory
+            parameters:
+              name:
+                type: text
+                value: Men
+              image:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_a_neatly_arranged_photo_of_mens_clothes_t-shirt_gray_hoodie__c5a4ebe4-ccb1-4d94-ae56-a1b33b4e71d9_1.png?v=1675456349
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: ''
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+          - type: canvasProductCategory
+            parameters:
+              name:
+                type: text
+                value: Tops
+              image:
+                type: image
+                value: >-
+                  https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_three_pairs_of_neatly_arranged_men_and_womens_running_shoes._f4121e54-2c8a-4ad2-b366-355c0cc4348d_6.png?v=1675467128
+              description:
+                type: richText
+                value:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: ''
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: null
+                    direction: null
+      parameters:
+        namie:
+          type: text
+          value: Men's T-shirt
+        reference:
+          type: text
+          value: gid://shopify/Product/7982902771734
+        description:
+          type: richText
+          value:
+            root:
+              type: root
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Crafted from organic cotton, this classic T-shirt
+                        features a relaxed fit, crew neckline and timeless look.
+                        Enjoy the breathable comfort of 100% organic cotton.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: null
+              direction: null
+        primaryImage:
+          type: image
+          value: >-
+            https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+  proposedName: JSON Data
+method: GET
+purgeKey: 3163de84-80b6-4378-a8e1-75983c4deaef
+archetype: staticData
+dataSourceId: fakeCanvas
+allowedOnComponents: []

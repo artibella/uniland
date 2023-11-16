@@ -3,10 +3,6 @@ composition:
   _id: 786faa4e-bb64-4891-a6a6-ddd4f4805d8c
   _slug: /
   type: page
-  parameters:
-    title:
-      type: text
-      value: ${#jptr:/Hello copy/entry/fields/value/value}
   slots:
     hero:
       - _id: 882f6224-7fb8-4a16-845a-5c0024f71489
@@ -22,10 +18,10 @@ composition:
                     parameters:
                       title:
                         type: text
-                        value: ${#jptr:/Hello copy/entry/fields/value/value}
+                        value: 'Welcome to '
                       tagName:
                         type: select
-                        value: h4
+                        value: h1
                       titleRichText:
                         type: richText
                         value:
@@ -63,22 +59,29 @@ composition:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                      showEditorialLine:
+                        type: checkbox
+                        value: true
               parameters:
                 body:
                   type: text
-                  value: |+
-                    Uniland is an example landing page built with Uniform.dev
+                  value: >+
+                    ${#jptr:/Microcopy  Content/entry/fields/value/value} is an
+                    example landing page built with Uniform.dev 
 
                 title:
                   type: text
-                  value: ${#jptr:/Hello copy/entry/fields/value/value}
+                  value: >-
+                    Welcome to ${#jptr:/Microcopy 
+                    Content/entry/fields/value/value}
                 $pzCrit:
                   type: $pzCrit
                   value:
                     crit:
                       - l: berlinVisitor
-                        op: +
-                    name: ''
+                        r: 0
+                        op: '>'
+                    name: hero-de
                 imageFit:
                   type: select
                   value: contain
@@ -101,9 +104,8 @@ composition:
               parameters:
                 body:
                   type: text
-                  value: |+
+                  value: |
                     Uniland is an example landing page built with Uniform.dev
-
                 imageFit:
                   type: select
                   value: contain
@@ -116,84 +118,210 @@ composition:
             type: text
             value: home-hero
     sections:
-      - _id: 17689f98-394e-4e33-989f-892b6b79b6f1
-        type: sectionContainer
+      - _id: 659c3e4c-c814-442a-963c-0036e8c6becc
+        type: $localization
         slots:
-          content:
-            - _id: 1ceecd0f-27b1-4b75-891c-e54d64269ad7
-              type: twoColumns
+          localized:
+            - _id: 1a38c3ac-5ff8-4698-8f52-917f9647a05b
+              type: sectionContainer
               slots:
-                leftContent:
-                  - _id: c8d29df6-44f5-44cf-bea1-5a1956d5c7f6
-                    type: textBlock
+                content:
+                  - _id: 1ceecd0f-27b1-4b75-891c-e54d64269ad7
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: c8d29df6-44f5-44cf-bea1-5a1956d5c7f6
+                          type: textBlock
+                          parameters:
+                            title:
+                              type: text
+                              value: Learn and innovate—outpace your competition!
+                            locale:
+                              type: localeSelect
+                              value: en-US
+                            richText:
+                              type: richText
+                              value:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            When change happens and you need to add
+                                            new channels or features to meet it, you
+                                            can’t afford to be held back by tools or
+                                            begin a slow and expensive replatforming
+                                            process. 
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            With Uniform, you can add, remove, or
+                                            adapt services as necessary to innovate,
+                                            optimize, and stay ahead of the market
+                                            for the long term because there’s no
+                                            glue-code to take apart and rebuild
+                                            manually. Uniform Mesh configures every
+                                            integration so you’re never late to the
+                                            game.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                  direction: ltr
+                      rightContent:
+                        - _id: 71c0b166-4424-4ea0-bc15-0d3899e7eee7
+                          type: imageBlock
+                          parameters:
+                            imageFit:
+                              type: select
+                              value: cover
+                            imageUrl:
+                              type: image
+                              value: >-
+                                https://images.ctfassets.net/9ku1oyd4k3wo/1UMcMlqEeNUDHrjSoJoZJN/179e8f399e5fa8f01537fe420355d558/Home_Hero_Innovate_1.svg
                     parameters:
-                      title:
-                        type: text
-                        value: Learn and innovate—outpace your competition
-                      richText:
-                        type: richText
-                        value:
-                          root:
-                            type: root
-                            format: ''
-                            indent: 0
-                            version: 1
-                            children:
-                              - type: paragraph
-                                format: ''
-                                indent: 0
-                                version: 1
-                                children:
-                                  - mode: normal
-                                    text: >-
-                                      When change happens and you need to add
-                                      new channels or features to meet it, you
-                                      can’t afford to be held back by tools or
-                                      begin a slow and expensive replatforming
-                                      process. With Uniform, you can add,
-                                      remove, or adapt services as necessary to
-                                      innovate, optimize, and stay ahead of the
-                                      market for the long term because there’s
-                                      no glue-code to take apart and rebuild
-                                      manually. Uniform Mesh configures every
-                                      integration so you’re never late to the
-                                      game.
-                                    type: text
-                                    style: ''
-                                    detail: 0
-                                    format: 0
-                                    version: 1
-                                direction: ltr
-                            direction: ltr
-                rightContent:
-                  - _id: 71c0b166-4424-4ea0-bc15-0d3899e7eee7
-                    type: imageBlock
-                    parameters:
-                      image:
-                        type: image
-                        value: >-
-                          https://images.ctfassets.net/9ku1oyd4k3wo/1UMcMlqEeNUDHrjSoJoZJN/179e8f399e5fa8f01537fe420355d558/Home_Hero_Innovate_1.svg
-                      imageFit:
+                      layout:
                         type: select
-                        value: cover
-                      imageUrl:
-                        type: text
-                        value: >-
-                          https://images.ctfassets.net/9ku1oyd4k3wo/1UMcMlqEeNUDHrjSoJoZJN/179e8f399e5fa8f01537fe420355d558/Home_Hero_Innovate_1.svg
+                        value: split-two-one
+                      locale:
+                        type: localeSelect
+                        value: en-US
+                      gapSize:
+                        type: select
+                        value: large
+                      leftColumnVerticalAlignment:
+                        type: select
+                        value: center
               parameters:
-                layout:
+                theme:
                   type: select
-                  value: split-two-one
-                gapSize:
+                  value: spring
+                locale:
+                  type: localeSelect
+                  value: en-US
+            - _id: 9599db0e-def4-4975-bf0c-113079623c29
+              type: sectionContainer
+              slots:
+                content:
+                  - _id: 990b6900-7784-4cc9-9124-aed9cedd769a
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: 393117d5-aa3d-4cd1-8d5e-42be9c627e28
+                          type: textBlock
+                          parameters:
+                            title:
+                              type: text
+                              value: >-
+                                Lernen und innovativ sein - schneller sein als
+                                die Konkurrenz!
+                            locale:
+                              type: localeSelect
+                              value: de-DE
+                            richText:
+                              type: richText
+                              value:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Wenn sich etwas ändert und Sie neue
+                                            Kanäle oder Funktionen hinzufügen
+                                            müssen, um dem gerecht zu werden, können
+                                            Sie es sich nicht leisten, durch Tools
+                                            aufgehalten zu werden oder einen
+                                            langsamen und teuren
+                                            Replatforming-Prozess zu beginnen. 
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Mit Uniform können Sie Dienste nach
+                                            Bedarf hinzufügen, entfernen oder
+                                            anpassen, um zu innovieren, zu
+                                            optimieren und dem Markt langfristig
+                                            einen Schritt voraus zu sein, da es
+                                            keinen Klebecode gibt, den Sie manuell
+                                            auseinandernehmen und neu aufbauen
+                                            müssen. Uniform Mesh konfiguriert jede
+                                            Integration, so dass Sie nie zu spät ins
+                                            Spiel kommen.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                  direction: ltr
+                      rightContent:
+                        - _id: 367cf27b-7863-4004-820c-27b70c551474
+                          type: imageBlock
+                          parameters:
+                            imageFit:
+                              type: select
+                              value: cover
+                            imageUrl:
+                              type: image
+                              value: >-
+                                https://images.ctfassets.net/9ku1oyd4k3wo/1UMcMlqEeNUDHrjSoJoZJN/179e8f399e5fa8f01537fe420355d558/Home_Hero_Innovate_1.svg
+                    parameters:
+                      layout:
+                        type: select
+                        value: split-two-one
+                      locale:
+                        type: localeSelect
+                        value: en-US
+                      gapSize:
+                        type: select
+                        value: large
+                      leftColumnVerticalAlignment:
+                        type: select
+                        value: center
+              parameters:
+                theme:
                   type: select
-                  value: large
-                leftColumnVerticalAlignment:
-                  type: select
-                  value: center
-        parameters:
-          theme:
-            type: select
-            value: spring
+                  value: mango
+                locale:
+                  type: localeSelect
+                  value: de-DE
       - _id: d35e7ff3-d7be-47c7-9c82-0dad741a8182
         type: sectionContainer
         slots:
@@ -215,7 +343,7 @@ composition:
                         type: select
                         value: ''
                       imageUrl:
-                        type: text
+                        type: image
                         value: >-
                           https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1200,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/55tDP2HiuMeLsT4uhULiBd/832dd50645fe2543a0c77b65fc5be240/Home_Hero_Component_Library_2.jpg
                       aspectRatio:
@@ -235,7 +363,7 @@ composition:
                         type: text
                         value: Connect your design components
                       imageUrl:
-                        type: text
+                        type: image
                         value: >-
                           https://images.ctfassets.net/9ku1oyd4k3wo/6IvNenQ4nbLAZjYGVhPjfK/b07c397a0f5c7db6473617b321e93024/Icon_Import.svg
                       imageWidth:
@@ -252,18 +380,43 @@ composition:
                     parameters:
                       body:
                         type: text
-                        value: >+
-                          Connecting front-end components and variations to
-                          Uniform only takes minutes, after which business users
-                          can assemble digital experiences for any channel
-                          without developer support - either with an existing
-                          design system or a new look. Just choose the
-                          components that help tell your story, add the content
-                          from a connected service, then publish to any channel.
+                        value: |+
 
                       title:
                         type: text
                         value: Connect your design components
+                      richText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >
+                                      Connecting front-end components and
+                                      variations to Uniform only takes minutes,
+                                      after which business users can assemble
+                                      digital experiences for any channel
+                                      without developer support - either with an
+                                      existing design system or a new look. Just
+                                      choose the components that help tell your
+                                      story, add the content from a connected
+                                      service, then publish to any channel.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                       textAlign:
                         type: select
                         value: ''
@@ -300,7 +453,7 @@ composition:
                         type: text
                         value: Icon +
                       imageUrl:
-                        type: text
+                        type: image
                         value: >-
                           https://images.ctfassets.net/9ku1oyd4k3wo/4jERsKHcSzCD3f0J3IQ6J8/85338cfe6631e7c18b5f68c50fe829bb/Icon_Create.svg
                       imageWidth:
@@ -357,7 +510,7 @@ composition:
                         type: text
                         value: Empower marketers
                       imageUrl:
-                        type: text
+                        type: image
                         value: >-
                           //images.ctfassets.net/9ku1oyd4k3wo/1dmhwIgHeSdfJu9JZ3JyIK/84a04c0afd138871b5ba5bbb260a5e6e/Hero_Canvas.jpg
                       imageWidth:
@@ -396,7 +549,7 @@ composition:
                         type: select
                         value: ''
                       imageUrl:
-                        type: text
+                        type: image
                         value: >-
                           https://images.ctfassets.net/9ku1oyd4k3wo/7C4QIikWjOcBahtJDwa5Rn/f3f545aefb89fbb37b2ad0934fff539e/Home_Hero_Speed_1.jpg
                       aspectRatio:
@@ -416,7 +569,7 @@ composition:
                         type: text
                         value: Icon speed
                       imageUrl:
-                        type: text
+                        type: image
                         value: >-
                           https://images.ctfassets.net/9ku1oyd4k3wo/2RNxUM1EMZQrhGYkCKOBm/611af48a3a519a386b499c3c8d097276/Icon_Speed.svg
                       imageWidth:
@@ -496,35 +649,6 @@ composition:
                 rightColumnHorizontalAlignment:
                   type: select
                   value: start
-        parameters:
-          theme:
-            type: select
-            value: ''
-      - _id: c1a5fdf1-d27a-4260-b21e-fe785df31121
-        type: sectionContainer
-        slots:
-          content:
-            - _id: 24de9ea6-fd88-40da-9483-335b7b447c39
-              type: quoteBlock
-              parameters:
-                quote:
-                  type: text
-                  value: >-
-                    One good thing about music, when it hits you, you feel no
-                    pain.
-                theme:
-                  type: select
-                  value: spring
-                author:
-                  type: text
-                  value: Bob Marley
-                source:
-                  type: text
-                  value: Babylon by bus
-        parameters:
-          theme:
-            type: select
-            value: spring
       - _id: 319a2b41-3ea7-41f4-953e-9effac5640d4
         type: sectionContainer
         slots:
@@ -581,6 +705,9 @@ composition:
                       title:
                         type: text
                         value: Quote 2
+                      isActive:
+                        type: checkbox
+                        value: true
                   - _id: eef1fede-3ed6-4724-96a4-3ce57d4a6472
                     type: tabPanel
                     slots:
@@ -652,21 +779,346 @@ composition:
         parameters:
           theme:
             type: select
+            value: spring
+      - _id: 64044509-9a41-4fb0-b8dd-ab08bd706c89
+        type: sectionContainer
+        slots:
+          content:
+            - _id: ae599138-cb26-4c07-b0bb-ca4ffb58c19f
+              type: accordion
+              slots:
+                items:
+                  - _id: 1560275b-1347-42a4-88b5-8875f9e13441
+                    type: accordionItem
+                    slots:
+                      content:
+                        - _id: 0fe81ec1-ff79-4f79-be7f-d226638f5e72
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              value:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Connecting front-end components and
+                                            variations to Uniform only takes
+                                            minutes, after which business users can
+                                            assemble digital experiences for any
+                                            channel without developer support -
+                                            either with an existing design system or
+                                            a new look. Just choose the components
+                                            that help tell your story, add the
+                                            content from a connected service, then
+                                            publish to any channel.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                  direction: ltr
+                    parameters:
+                      title:
+                        type: text
+                        value: Connect your design components
+                      isActive:
+                        type: checkbox
+                        value: true
+                  - _id: 994ec292-b449-4f7e-b9e2-647af6ab978c
+                    type: accordionItem
+                    slots:
+                      content:
+                        - _id: 78023d37-5c7e-490e-a881-ad30bcb65e6c
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              value:
+                                root:
+                                  type: root
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Headless tools make life slow and
+                                            complex for business users, who need to
+                                            jump between countless tools and tabs,
+                                            click through various levels of content,
+                                            and “publish and pray” without effective
+                                            previews. 
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                    - type: paragraph
+                                      format: ''
+                                      indent: 0
+                                      version: 1
+                                      children:
+                                        - mode: normal
+                                          text: >-
+                                            Uniform DXC eliminates these daily
+                                            stresses. Marketers, merchandisers, and
+                                            other business teams can use Canvas to
+                                            create immersive experiences with no
+                                            coding and instantly preview their
+                                            changes. That means business teams can
+                                            independently publish without support
+                                            from developers, who are then free to
+                                            focus on building new features.
+                                          type: text
+                                          style: ''
+                                          detail: 0
+                                          format: 0
+                                          version: 1
+                                      direction: ltr
+                                  direction: ltr
+                    parameters:
+                      title:
+                        type: text
+                        value: Empower Marketers with Canvas
+              parameters:
+                icon:
+                  type: select
+                  value: plus
+                groupName:
+                  type: text
+                  value: group1
+                internalName:
+                  type: text
+                  value: Test accordion
+        parameters:
+          theme:
+            type: select
+            value: mango
+      - _id: ae6fe7bc-308d-4921-8ad8-9330e772e570
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 7f3b6113-0f53-4e78-9ca5-ed906ef41712
+              type: logos
+              parameters:
+                align:
+                  type: select
+                  value: center
+                logos:
+                  type: $block
+                  value:
+                    - _id: 24057311-8023-419a-969e-9b63f1107f84
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                              url: https://img.logoipsum.com/220.svg
+                              title: Logo 2
+                              source: custom-url
+                        name:
+                          type: text
+                          value: Company 1
+                    - _id: a3bdd71b-48e9-4b87-b348-61b9511c610c
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                              url: https://img.logoipsum.com/263.svg
+                              title: Company 2
+                              source: custom-url
+                        name:
+                          type: text
+                          value: Company 2
+                    - _id: 31764992-7acb-4700-8daa-b73d5dd04990
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                              url: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                              type: image
+                              title: logoipsum-285.svg
+                              width: 186
+                              height: 41
+                              source: uniform-assets
+                              mediaType: image/svg+xml
+                              description: ''
+                        name:
+                          type: text
+                          value: Company 5
+                    - _id: e15335a7-a825-472f-9f2a-654f36511c3b
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                              url: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                              type: image
+                              title: logoipsum-242.svg
+                              width: 150
+                              height: 57
+                              source: uniform-assets
+                              mediaType: image/svg+xml
+                              description: ''
+                        name:
+                          type: text
+                          value: Company 4
+                    - _id: 913c375d-db6b-4d8e-9ee9-8ceeccd09e78
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: 39fb768e-5174-47fe-9816-8846d955ce8f
+                              url: https://img.logoipsum.com/288.svg
+                              source: custom-url
+                        name:
+                          type: text
+                          value: Company 3
+                    - _id: 73dec981-fcd3-4b4b-a5fc-de430f38c1b4
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                              url: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                              type: image
+                              title: logoipsum-264.svg
+                              width: 170
+                              height: 41
+                              source: uniform-assets
+                              mediaType: image/svg+xml
+                              description: ''
+                        name:
+                          type: text
+                          value: Company 6
+                    - _id: ed890743-cf83-4d5b-8e1b-538e9417b0ff
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                              url: https://img.logoipsum.com/221.svg
+                              title: Logo 2
+                              source: custom-url
+                        name:
+                          type: text
+                          value: Company 7
+                title:
+                  type: text
+                  value: Trusted by our customers and partners
+                logosPerRow:
+                  type: number
+                  value: '4'
+        parameters:
+          theme:
+            type: select
             value: light
+      - _id: 11754546-ada3-4633-a8a3-0139185b4f59
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 9f0cbb85-9903-41d4-b93f-e1f279dc6829
+              type: gridContainer
+              slots:
+                items:
+                  - _id: 7a5371bc-a9ab-4a10-a28a-993565887651
+                    type: card
+                    parameters:
+                      body:
+                        type: text
+                        value: This is my card
+                      image:
+                        type: text
+                        value: >-
+                          ${#jptr:/Blog Post
+                          Content/entry/fields/postImage/value}
+                  - _id: c0dbda3f-1c15-476e-9ca0-b7f05acf7bf1
+                    type: card
+                    parameters:
+                      body:
+                        type: text
+                        value: ${#jptr:/Recipe Content/entry/subtitle}
+                      image:
+                        type: text
+                        value: ${#jptr:/Recipe Content/entry/featuredimage/url}
+                      title:
+                        type: text
+                        value: ${#jptr:/Recipe Content/entry/title}
+              parameters:
+                columns:
+                  type: number
+                  value: '2'
+          heading:
+            - _id: 9c3009e5-8042-494c-a70b-bd09985e5769
+              type: heading
+              parameters:
+                theme:
+                  type: select
+                  value: dark
+                title:
+                  type: text
+                  value: Demo
+        parameters:
+          theme:
+            type: select
+            value: dark
+          title:
+            type: text
+            value: Demo
   _dataResources:
     Hello copy:
-      type: microcopyAutogenerated
+      type: microcopy
       variables:
         entryId: 968d7787-e1a4-41e3-b93b-58db7da4b9f7
     Hero image:
       type: pexelsSearch
       variables:
         query: Berlin
+    Recipe Content:
+      type: recipeContentstack
+      variables:
+        query: ''
+        locale: ''
+        include: ''
+        entry_uid: bltbc48227d876af7c0
+        content_type_uid: recipe
     Blog Post Content:
       type: blogPost
       variables:
-        locale: ''
-        entryIds: 5s7dA7G0EsxFQiMtokyHME
+        entryId: 3a782d5d-88aa-49be-8711-a12ae38b0653
+    Microcopy  Content:
+      type: microcopy
+      variables:
+        entryId: ae188464-fe6c-4e4c-9e0c-1e34db5292d3
   _overrides:
     6bb326e8-3657-4d93-b82e-867f1c29f33d|376c1f3a-a487-4799-b3b7-f93c539ebaf1:
       parameters:
@@ -697,14 +1149,37 @@ composition:
                   version: 1
                   children:
                     - mode: normal
+                      text: 'Instead of '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: spending weeks
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' or months connecting CMS, commerce, DAM, search, analytics, legacy services, etc., just add your API keys to Uniform Mesh and start converting leads or purchases. '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: paragraph
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
                       text: >-
-                        Instead of spending weeks or months connecting CMS,
-                        commerce, DAM, search, analytics, legacy services, etc.,
-                        just add your API keys to Uniform Mesh and start
-                        converting leads or purchases. Beyond making
-                        replatforming faster and cheaper, Uniform DXCP also
-                        extends your value from legacy tools by improving their
-                        performance and usability.
+                        Beyond making replatforming faster and cheaper, Uniform
+                        DXCP also extends your value from legacy tools by
+                        improving their performance and usability.
                       type: text
                       style: ''
                       detail: 0
@@ -716,5 +1191,5 @@ composition:
           type: select
           value: left
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2023-08-11T10:43:57.742926+00:00'
+modified: '2023-11-13T21:55:01.373284+00:00'
 pattern: false

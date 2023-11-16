@@ -1,0 +1,35 @@
+id: composition
+displayName: composition
+ttl: 30
+path: /composition
+custom:
+  proposedName: composition
+method: GET
+purgeKey: 4dea4e19-c7e8-4980-803b-20bea5c20810
+archetype: default
+variables:
+  slug:
+    type: text
+    default: canvas-sneakers
+    helpText: Slug of Composition to fetch
+parameters:
+  - key: diagnostics
+    value: 'false'
+  - key: limit
+    value: '100'
+  - key: projectId
+    value: 14df26fb-4bdc-4d17-b35c-8320c8d5cdd9
+  - key: skipEnhance
+    value: 'false'
+  - key: skipPatternResolution
+    value: 'false'
+  - key: slug
+    value: canvas-sneakers
+  - key: state
+    value: '64'
+  - key: withComponentIDs
+    value: 'false'
+  - key: withUIStatus
+    value: 'false'
+dataSourceId: canvasEdgeCompositions
+allowedOnComponents: []
