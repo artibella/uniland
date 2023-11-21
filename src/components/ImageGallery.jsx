@@ -11,7 +11,13 @@ const renderImages = function (images, variant) {
   );
   const imageClasses = 'h-auto max-w-full rounded-lg';
 
-  return images.map(({ id, url, title, description, width, height }) => {
+  return images.map((image) => {
+    // get values from asset
+    const id = image.fields?.id?.value || '';
+    const url = image.fields?.url?.value || '';
+    const title = image.fields?.title?.value || '';
+    const description = image.fields?.description?.value || '';
+
     return (
       <figure className={figureClasses} key={id}>
         <img

@@ -16,10 +16,11 @@ const renderLogos = function (logos, variant) {
     if (!asset) {
       return null;
     }
-
+    const assetId = assets.fields?.id?.value || '';
+    const assetUrl = assets.fields?.url?.value || ''
     return (
-      <figure className={figureClasses} key={asset.id}>
-        <img src={asset.url} alt={name} className={imageClasses} />
+      <figure className={figureClasses} key={assetId}>
+        <img src={assetUrl} alt={name} className={imageClasses} />
       </figure>
     );
   });
