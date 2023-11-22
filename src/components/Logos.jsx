@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import Heading from './Heading';
 import { UniformSlot } from '@uniformdev/canvas-react';
+import { convertAssetToProps } from '../lib/utils/convertFieldsToProps';
 
 const renderLogos = function (logos, variant) {
   const figureClasses = classNames(
@@ -16,10 +17,14 @@ const renderLogos = function (logos, variant) {
     if (!asset) {
       return null;
     }
-
+        // get values from asset
+    const assetProps = convertAssetToProps(asset);
+    const assetId = assetProps.id || '';
+    const assetUrl = assetProps.url || '';
+    
     return (
-      <figure className={figureClasses} key={asset.id}>
-        <img src={asset.url} alt={name} className={imageClasses} />
+      <figure className={figureClasses} key={assetId}>
+        <img src={assetUrl} alt={name} className={imageClasses} />
       </figure>
     );
   });

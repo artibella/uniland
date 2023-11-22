@@ -1,5 +1,6 @@
 import classNames from 'classnames';
 import Image from 'next/image';
+import { convertAssetToProps } from '../lib/utils/convertFieldsToProps';
 
 const renderImages = function (images, variant) {
   const figureClasses = classNames(
@@ -11,7 +12,11 @@ const renderImages = function (images, variant) {
   );
   const imageClasses = 'h-auto max-w-full rounded-lg';
 
-  return images.map(({ id, url, title, description, width, height }) => {
+  return images.map((image) => {
+    // get values from asset
+    const assetProps = convertAssetToProps(image);
+    const { id = '', url = '', title = '', description = ''} = assetProps;
+
     return (
       <figure className={figureClasses} key={id}>
         <img
