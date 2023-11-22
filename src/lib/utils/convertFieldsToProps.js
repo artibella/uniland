@@ -18,14 +18,14 @@ export function convertFieldsToProps(item, type = 'item') {
   return renderComponentProps;
 }
 
-export function convertAssetToProps(item, type = 'asset') {
-  return convertFieldsToProps(item, type);
+export function convertAssetToProps(item) {
+  return convertFieldsToProps(item, 'asset');
 }
 
-export function convertBlockToProps(item, type = 'block') {
-  return convertFieldsToProps(item, type);
+export function convertBlockToProps(item) {
+  return convertFieldsToProps(item, 'block');
 }
 
-export function convertEntryToProps(item, type = 'entry') {
-  return convertFieldsToProps(item, type);
+export function convertEntryToProps(item) {
+  return convertFieldsToProps(item, 'entry');
 }
