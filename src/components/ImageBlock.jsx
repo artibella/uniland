@@ -1,8 +1,9 @@
 import classNames from 'classnames';
-import Image from "next/legacy/image";
+import { convertAssetToProps } from '../lib/utils/convertFieldsToProps';
 
 export default function ImageBlock({
   imageUrl = '',
+  image = [],
   altText = '',
   caption = '',
   imageWidth = '',
@@ -67,12 +68,22 @@ export default function ImageBlock({
     { 'bg-ice-50': backgroundStyle === 'ice' }
   );
 
+  // decide which image to render
+  const asset = image && image.length ? image[0] : undefined;
+  let assetUrl;
+  if (asset) {
+    const assetProps = convertAssetToProps(asset);
+    assetUrl = assetProps.url;
+  }
+
+  const selectedImage = assetUrl || imageUrl || null;
+
   return (
     <div className="image-block block">
-      {imageUrl && (
+      {selectedImage && (
         <figure className={figureClasses}>
           <img
-            src={imageUrl}
+            src={selectedImage}
             alt={altText || caption}
             className={imageClasses}
           />
