@@ -21,8 +21,16 @@ export default function DynamicComposition({ composition }) {
 }
 
 export const getServerSideProps = withUniformGetServerSideProps({
-  requestOptions: {
-    diagnostics: true,
+  requestOptions: (context) => {    
+    return {
+      diagnostics: process.env.NODE_ENV === 'development',
+      locale: context.locale ?? context.defaultLocale
+    }
+  },
+  modifyPath: (path, context) => {
+    const locale = context.locale ?? context.defaultLocale;
+    const localizedPath = `/${locale}${path}`;
+    return localizedPath;
   },
   preview: process.env.NODE_ENV === 'development',
 
