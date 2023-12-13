@@ -1,0 +1,504 @@
+composition:
+  _name: Modular article
+  _id: 88d20845-326b-467d-871a-ca61d5380414
+  _slug: modular-article
+  type: page
+  slots:
+    sections:
+      - _id: 61a74640-7927-4be5-88e5-5cca08921e46
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 9e33e444-1c2a-48e1-9bbc-114d0e4c49a9
+              type: articleBlock
+              slots:
+                content:
+                  - _id: 9e3136e5-2094-4551-b7c9-4e58d6d4378b
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "To deliver\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - link:
+                                      path: >-
+                                        https://www.uniform.dev/blogs/create-omnichannel-experiences-at-the-speed-of-market
+                                      type: url
+                                    type: link
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: omnichannel experiences
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 8
+                                        version: 1
+                                    direction: ltr
+                                  - mode: normal
+                                    text: "\_as fast as possible, you need a marketer-first solution that restores marketing autonomy in producing and launching experiences, and offers quick access to key tools inside\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - link:
+                                      path: >-
+                                        https://www.uniform.dev/blogs/why-visual-tools-are-essential-for-enterprise-marketers
+                                      type: url
+                                    type: link
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: a visual interface
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 8
+                                        version: 1
+                                    direction: ltr
+                                  - mode: normal
+                                    text: ".\_Read on to learn how a streamlined, experience-first solution, the\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - link:
+                                      path: >-
+                                        https://www.uniform.dev/what-is-visual-workspace
+                                      type: url
+                                    type: link
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: visual workspace
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 8
+                                        version: 1
+                                    direction: ltr
+                                  - mode: normal
+                                    text: >-
+                                      , marshals the talents of enterprise teams
+                                      along with the boundless capabilities of
+                                      content, data, AI, and technology.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children: []
+                                direction: ltr
+                            direction: ltr
+                  - _id: b89e795b-44b5-4149-bee9-485ca3b4e862
+                    type: imageBlock
+                    parameters:
+                      caption:
+                        type: text
+                        value: Visual workspace
+                      imageFit:
+                        type: select
+                        value: cover
+                      imageUrl:
+                        type: image
+                        value: >-
+                          https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_640,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/fi1QCeRACkYHuffBxf9rl/368f03428377902975c7894ba46fc15b/01_05.png
+                      imageWidth:
+                        type: select
+                        value: width-half
+                      borderRadius:
+                        type: select
+                        value: default
+                  - _id: 2d249ed4-d432-4101-9f18-7610a0d07497
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        value:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children: []
+                                direction: ltr
+                              - tag: h2
+                                type: heading
+                                format: start
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "One tab for creating, testing, and publishing experiences\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "With numerous teams and divisions composed of individuals working inside their own unique systems, creating multiple sources of truth, finding content in enterprises can be labyrinthine for marketers. Creatives lose precious time navigating these siloed systems in search of current copy and data.The visual workspace eliminates organizational silos by centralizing access to enterprise-wide content and data, and assembling all of your essential tools inside a single front-end experience solution. Instead of switching from one tab to another, your tools—generative AI, A/B testing, personalization, and more—are found in one window alongside usable content.With access to the full range of your organization’s content, digital teams can:\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - tag: ul
+                                type: list
+                                start: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: listitem
+                                    value: 1
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: "Close the distance between omnichannel experiences and the content that power them, regardless of where that content is stored.\_"
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 2
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: "Pull and share from the collective data, improving communication and cross-collaboration, and removing confusion and inconsistencies from digital production.\_"
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 3
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: "Update and publish cross-channel experiences faster and more seamlessly, boosting your marketing efforts.\_"
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                listType: bullet
+                                direction: ltr
+                              - tag: h2
+                                type: heading
+                                format: start
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Leverage all content without duplication
+                                      or migration
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "Digital experiences are designed to appear effortless and cohesive. However, a single experience draws content from various sources, including content management systems (CMSes), product catalogs, and digital asset management (DAM) solutions.\_\_As your company grows, so does the amount of content marketers accumulate over time—assets that become difficult to maintain and, frequently, out-of-sync with editorial and brand style guidelines.Inside the visual workspace, you create experiences using pre-built, no-code templates that are easily adaptable and reusable across hundreds or even thousands of web pages, sites, and platforms. By blending branded components, including copy, images, video, and product detail descriptions from your CMS, product information system, commerce, and data from other sources, you’re able to launch experiences independently without developer involvement.\_Suddenly, creating a landing page no longer requires manual copying and pasting or long wait times in the developer backlog. As a marketer, you have greater control over presentation and scale, and engineers have more bandwidth to support innovative projects rather than marketing requests.\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - tag: h2
+                                type: heading
+                                format: start
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: B.Y.O. AI tools
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "From ChatGPT to Bard, generative AI has proven revolutionary in producing audio, text, video, images, and other content based on user-given prompts. It’s also a cutting-edge feature that helps you expedite and simplify content creation and deployment.One key advantage of the visual workspace is that it’s AI-agnostic, which means you can connect your preferred AI services to generate and edit AI-sourced content on the fly. With integrations handled on the backend, you can focus on meeting deadlines and keeping your brand competitive.There are many use cases for using generative AI to amplify the impact of your omnichannel experiences and engagement with diverse audiences:\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - tag: ul
+                                type: list
+                                start: 1
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: listitem
+                                    value: 1
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: >-
+                                          Create text for webpage headlines and
+                                          subheadings
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 2
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: "Generate images and illustrations based on keywords\_"
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 3
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: "Supplement copy based on news articles and stories\_"
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 4
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: >-
+                                          Personalize promotions for specific
+                                          target audiences
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                  - type: listitem
+                                    value: 5
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: >-
+                                          Transform product descriptions into
+                                          omnichannel content
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 0
+                                        version: 1
+                                    direction: ltr
+                                listType: bullet
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "With access to AI assistance inside the visual workspace, you have more control over your content creation and less tab switching when building lightning-fast experiences.\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - tag: h2
+                                type: heading
+                                format: start
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Powerful personalization using clicks, not
+                                      code
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "Your customers are accustomed to brands providing them with tailored experiences that cater to their needs, interests, and language. If you want to capture their attention and remain competitive, it’s critical to deliver the right products and services to customers where they are, when they need it most.\_In addition to consolidating experience creation inside one interface, the visual workspace enables you to offer variants of design and messaging based on its audience. Further optimize the experience with data-driven confidence and AI-honed content to ensure you’re reaching the right people with the most compelling offers.\_With just a few clicks, the visual workspace lets you craft, preview, and propagate personalized content across your sites and channels based on intent signals and site behavior.\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - tag: h2
+                                type: heading
+                                format: start
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: "Take advantage of next evolution in omnichannel experience management\_\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - link:
+                                      path: >-
+                                        https://www.uniform.dev/what-is-visual-workspace
+                                      type: url
+                                    type: link
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Uniform’s Visual Workspace
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 8
+                                        version: 1
+                                    direction: ltr
+                                  - mode: normal
+                                    text: "\_is the industry’s first front-end experience solution that unifies generative AI, A/B testing, personalization features, and access to company-wide content in a single experience-first solution. Purpose-built and marketer-first, the visual workspace keeps content creation and deployment in the hands of marketers so engineers can focus on innovation.\_Ready to get started today?\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                  - link:
+                                      path: https://www.uniform.dev/demo
+                                      type: url
+                                    type: link
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - mode: normal
+                                        text: Contact us for a demo
+                                        type: text
+                                        style: ''
+                                        detail: 0
+                                        format: 8
+                                        version: 1
+                                    direction: ltr
+                                  - mode: normal
+                                    text: "\_to discover how the visual workspace can help you achieve a faster time to market.\_"
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+          heading:
+            - _id: 3171625f-b3bc-49ed-95c4-90e995d5bf8a
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: What’s inside a visual workspace?
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+created: '2023-10-25T14:08:39.338023+00:00'
+modified: '2023-10-25T14:24:24.378631+00:00'
+pattern: false

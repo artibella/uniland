@@ -58,10 +58,12 @@ slots:
       - accordion
       - imageGalleryBlock
       - logos
+      - articleBlock
+      - testimonialBlock
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.760427+00:00'
-updated: '2023-10-10T12:20:17.851031+00:00'
+updated: '2023-11-03T14:48:25.463772+00:00'

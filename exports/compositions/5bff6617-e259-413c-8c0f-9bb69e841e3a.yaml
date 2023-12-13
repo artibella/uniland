@@ -1,0 +1,75 @@
+composition:
+  _name: Restaurants
+  _id: 5bff6617-e259-413c-8c0f-9bb69e841e3a
+  _slug: restaurants
+  type: page
+  slots:
+    sections:
+      - _id: 88384463-9ede-4289-8955-9d8019959f9e
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 5e8d0287-bb5b-4771-8d01-71ce1c8921c1
+              type: gridContainer
+              slots:
+                items:
+                  - _id: 5ebce723-3ed4-4d7c-8a7e-85383d6fe3c3
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: b753388f-5a04-46aa-b86a-406716dd3472
+                          type: card
+                          parameters:
+                            body:
+                              type: text
+                              value: >-
+                                ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/address/value}
+
+                                ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/zipCode/value}
+                                ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/city/value}
+
+                                Tel: ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/phone/value/path}
+                            image:
+                              type: text
+                              value: >-
+                                ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/logo/value/0/fields/url/value}
+                            title:
+                              type: text
+                              value: >-
+                                ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/name/value}
+                            byline:
+                              type: text
+                              value: >-
+                                ${#jptr:/Restaurants entries Loop
+                                Item/entry/fields/city/value}
+                    _dataResources:
+                      Restaurants entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Restaurants/entries
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+          heading:
+            - _id: 96d3d469-ed7c-4e38-ba59-aff58bd00fda
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: Explore restaurants
+  _dataResources:
+    Restaurants:
+      type: restaurantList
+      variables:
+        locale: ${locale}
+        contentTypes: restaurant
+created: '2023-12-12T14:10:41.115739+00:00'
+modified: '2023-12-12T14:18:16.952201+00:00'
+pattern: false

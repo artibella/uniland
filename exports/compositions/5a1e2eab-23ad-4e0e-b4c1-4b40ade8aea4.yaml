@@ -1,0 +1,489 @@
+composition:
+  _name: Assets demo
+  _id: 5a1e2eab-23ad-4e0e-b4c1-4b40ade8aea4
+  _slug: assets-demo
+  type: page
+  slots:
+    hero:
+      - _id: 382220e7-dba4-4480-8f8f-e35060d9f0a1
+        type: hero
+        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
+        _dataResources:
+          Product by handle Content:
+            type: productByHandle
+            variables:
+              handle: canvas-sneakers
+    sections:
+      - _id: 5826ad84-5404-4c5f-a5b9-91d8bd5c6c04
+        type: sectionContainer
+        slots:
+          content:
+            - _id: bfd1431b-7d54-4d6d-ba97-2dc074a72e5e
+              type: imageGalleryBlock
+              variant: masonry
+              parameters:
+                images:
+                  type: asset
+                  value:
+                    - _id: fb83daa0-8c01-44ec-a327-dcbeafeb4ed4
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: fb83daa0-8c01-44ec-a327-dcbeafeb4ed4
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/FS1dbiPWTjuAFqXZWIYp8w-greg-johnson-u2ULCTV8KKw-unsplash.jpg
+                          type: text
+                        size:
+                          value: 484093
+                          type: number
+                        title:
+                          type: text
+                          value: greg-johnson-u2ULCTV8KKw-unsplash.jpg
+                        width:
+                          value: 1920
+                          type: number
+                        height:
+                          value: 2523
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        description:
+                          type: text
+                          value: Lightning
+                      _source: uniform-assets
+                    - _id: f84d966d-385c-4088-b4cc-1c06786be57e
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 192aa37e-802f-485e-98be-4c2168e5f5d7
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vw6kLLjPSracZA2LZMSOjg-the-best-slow-cooked-bolognese-sauce-recipe-hero-03_1-3bf4f3401fa84c828f68071df496ddd3.webp
+                          type: text
+                        title:
+                          type: text
+                          value: The best slow cooked sauce Bolognese
+                        description:
+                          type: text
+                          value: ''
+                        mediaType:
+                          value: image/webp
+                          type: text
+                        size:
+                          value: 215262
+                          type: number
+                        width:
+                          value: 1500
+                          type: number
+                        height:
+                          value: 1125
+                          type: number
+                      _source: uniform-assets
+                    - _id: d2cd9025-5a95-472e-8aac-01f93892465d
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: d2cd9025-5a95-472e-8aac-01f93892465d
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gr6q_R4OQ5mcySl-s2iTOA-re-oliveira-C9iIB99YV4I-unsplash.jpg
+                          type: text
+                        size:
+                          value: 168520
+                          type: number
+                        title:
+                          type: text
+                          value: re-oliveira-C9iIB99YV4I-unsplash.jpg
+                        width:
+                          value: 2400
+                          type: number
+                        height:
+                          value: 1600
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        description:
+                          type: text
+                          value: ''
+                      _source: uniform-assets
+                    - _id: f84ce641-1ac9-4163-9da2-a3de9557b8e8
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: f84ce641-1ac9-4163-9da2-a3de9557b8e8
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/hAsIUmWcRl-5Nk48pL77ow-RedTshirt01.webp
+                          type: text
+                        size:
+                          value: 50588
+                          type: number
+                        title:
+                          type: text
+                          value: RedTshirt01.webp
+                        width:
+                          value: 1445
+                          type: number
+                        height:
+                          value: 1445
+                          type: number
+                        mediaType:
+                          value: image/webp
+                          type: text
+                        description:
+                          type: text
+                          value: ''
+                      _source: uniform-assets
+                    - _id: fd0750fa-952d-4604-9903-89cca2dcd491
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: fd0750fa-952d-4604-9903-89cca2dcd491
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/l7p8egMQRh6ue4fEeTWZ1w-perfectcup_article.jpg
+                          type: text
+                        size:
+                          value: 198090
+                          type: number
+                        title:
+                          type: text
+                          value: perfectcup_article.jpg
+                        width:
+                          value: 1704
+                          type: number
+                        height:
+                          value: 1074
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        description:
+                          type: text
+                          value: ''
+                      _source: uniform-assets
+                    - _id: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/z-xYqYKTT3mWVbp2b_JLmA-GreenTshirt01.webp
+                          type: text
+                        size:
+                          value: 49550
+                          type: number
+                        title:
+                          type: text
+                          value: GreenTshirt01.webp
+                        width:
+                          value: 1445
+                          type: number
+                        height:
+                          value: 1445
+                          type: number
+                        mediaType:
+                          value: image/webp
+                          type: text
+                        description:
+                          type: text
+                          value: ''
+                      _source: uniform-assets
+                      _overrides:
+                        fields:
+                          title:
+                            type: text
+                            value: Green shirt *
+                    - _id: 0a78ba88-b84a-4b9c-acc5-03e8ed82718e
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 0a78ba88-b84a-4b9c-acc5-03e8ed82718e
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/EpQ3JW3RQeiMbJFDw2lQfg-tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
+                          type: text
+                        size:
+                          value: 1626946
+                          type: number
+                        title:
+                          type: text
+                          value: tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
+                        width:
+                          value: 2400
+                          type: number
+                        height:
+                          value: 3600
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        description:
+                          type: text
+                          value: ''
+                      _source: uniform-assets
+                    - _id: 0c3a7a1e-0d31-4e19-8a7d-020a99f17482
+                      type: image
+                      fields:
+                        id:
+                          type: text
+                          value: 0c3a7a1e-0d31-4e19-8a7d-020a99f17482
+                        url:
+                          value: >-
+                            https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/6yfTe-n4SbGiEIMSOUFB8w-eberhard-grossgasteiger-BsOWuFy9GIM-unsplash.jpg
+                          type: text
+                        size:
+                          value: 659223
+                          type: number
+                        title:
+                          type: text
+                          value: eberhard-grossgasteiger-BsOWuFy9GIM-unsplash.jpg
+                        width:
+                          value: 1920
+                          type: number
+                        height:
+                          value: 1280
+                          type: number
+                        mediaType:
+                          value: image/jpeg
+                          type: text
+                        description:
+                          type: text
+                          value: ''
+                      _source: uniform-assets
+      - _id: 6c084526-2d9f-4c2f-a063-e4154cf6202a
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 98067abd-08a3-40f7-a73d-4292fd4061f2
+              type: logos
+              parameters:
+                align:
+                  type: select
+                  value: left
+                logos:
+                  type: $block
+                  value:
+                    - _id: 366905c0-3ea8-4301-b8e8-a6ccf4bcdd1e
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                  type: text
+                                size:
+                                  value: 4691
+                                  type: number
+                                title:
+                                  type: text
+                                  value: logoipsum-264.svg
+                                width:
+                                  value: 170
+                                  type: number
+                                height:
+                                  value: 41
+                                  type: number
+                                mediaType:
+                                  value: image/svg+xml
+                                  type: text
+                                description:
+                                  type: text
+                                  value: ''
+                              _source: uniform-assets
+                        name:
+                          type: text
+                          value: Company 1
+                    - _id: a83f3477-3a0d-4b58-bef3-3dc7b8fe2d42
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                  type: text
+                                size:
+                                  value: 4227
+                                  type: number
+                                title:
+                                  type: text
+                                  value: logoipsum-242.svg
+                                width:
+                                  value: 150
+                                  type: number
+                                height:
+                                  value: 57
+                                  type: number
+                                mediaType:
+                                  value: image/svg+xml
+                                  type: text
+                                description:
+                                  type: text
+                                  value: ''
+                              _source: uniform-assets
+                        name:
+                          type: text
+                          value: Company 2
+                    - _id: e5cff4ff-0bef-4da3-a44c-0698e6f27adf
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                  type: text
+                                size:
+                                  value: 6602
+                                  type: number
+                                title:
+                                  type: text
+                                  value: logoipsum-285.svg
+                                width:
+                                  value: 186
+                                  type: number
+                                height:
+                                  value: 41
+                                  type: number
+                                mediaType:
+                                  value: image/svg+xml
+                                  type: text
+                                description:
+                                  type: text
+                                  value: ''
+                              _source: uniform-assets
+                        name:
+                          type: text
+                          value: Company 3
+                    - _id: ab074806-a127-4177-b2f8-cfd62f755fde
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - _id: a9516f15-1f3f-4000-8205-864ad40d0728
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: a9516f15-1f3f-4000-8205-864ad40d0728
+                                url:
+                                  value: >-
+                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/tpBOOKOyT325xIlB22tw9Q-logoipsum-219.svg
+                                  type: text
+                                size:
+                                  value: 5658
+                                  type: number
+                                title:
+                                  type: text
+                                  value: logoipsum-219.svg
+                                width:
+                                  value: 152
+                                  type: number
+                                height:
+                                  value: 19
+                                  type: number
+                                mediaType:
+                                  value: image/svg+xml
+                                  type: text
+                                description:
+                                  type: text
+                                  value: ''
+                              _source: uniform-assets
+                        name:
+                          type: text
+                          value: Company 4
+                    - _id: a27c7012-5e70-4a06-b2c9-a1af5aa49b9c
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - _id: fd2785bd-0bcd-42d5-beae-1e4cad1958be
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: fd2785bd-0bcd-42d5-beae-1e4cad1958be
+                                url:
+                                  type: text
+                                  value: https://img.logoipsum.com/288.svg
+                              _source: custom-url
+                        name:
+                          type: text
+                          value: Company 5
+                    - _id: 97495085-2da5-4b2f-b0f2-cfce39333455
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          value:
+                            - _id: e515f038-8284-427c-b253-2feb2bdd33c1
+                              type: image
+                              fields:
+                                id:
+                                  type: text
+                                  value: e515f038-8284-427c-b253-2feb2bdd33c1
+                                url:
+                                  type: text
+                                  value: https://img.logoipsum.com/286.svg
+                              _source: custom-url
+                        name:
+                          type: text
+                          value: Company 6
+                title:
+                  type: text
+                  value: Our customers
+                logosPerRow:
+                  type: number
+                  value: '3'
+  _dataResources:
+    Berlin photos:
+      type: pexelsSearch
+      variables:
+        query: Berlin
+  _overrides:
+    382220e7-dba4-4480-8f8f-e35060d9f0a1|430eea25-5964-4666-a0bb-50e148f5ae70:
+      parameters:
+        title:
+          type: text
+          value: >-
+            Hot right now: ${#jptr:/Product by handle
+            Content/data/product/title}
+created: '2023-10-09T14:30:34.28457+00:00'
+modified: '2023-11-22T12:20:36.915931+00:00'
+pattern: false

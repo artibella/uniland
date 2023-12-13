@@ -33,8 +33,11 @@ slots:
       - quoteBlock
       - accordion
       - imageGalleryBlock
+      - articleBlock
+      - testimonialBlock
+      - twoColumns
     inheritAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.582753+00:00'
-updated: '2023-10-09T14:29:32.419778+00:00'
+updated: '2023-11-21T17:38:12.747319+00:00'

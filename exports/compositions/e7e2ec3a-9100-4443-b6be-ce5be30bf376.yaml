@@ -1,0 +1,39 @@
+composition:
+  _name: Integration Brick
+  _id: e7e2ec3a-9100-4443-b6be-ce5be30bf376
+  type: brick
+  parameters:
+    theme:
+      type: select
+      value: white
+    paddingSize:
+      type: select
+      value: lg
+    borderRadius:
+      type: select
+      value: 2xl
+    verticalAlignment:
+      type: select
+      value: center
+    horizontalAlignment:
+      type: select
+      value: center
+  slots:
+    content:
+      - _id: b7dbc19c-42b0-4c36-adb6-90a5a2c4f424
+        type: imageBlock
+        parameters:
+          imageUrl:
+            type: image
+            value: ${#jptr:/Integration Content/fields/image/fields/file/url}
+  _dataResources:
+    Integration Content:
+      type: integration
+      variables:
+        locale: ''
+        entryIds: 5La0MgvKRUqq1dJ89L2fjg
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+created: '2023-10-31T10:17:52.574855+00:00'
+modified: '2023-10-31T10:18:51.753419+00:00'
+pattern: true

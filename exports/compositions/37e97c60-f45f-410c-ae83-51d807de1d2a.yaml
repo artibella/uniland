@@ -1,0 +1,30 @@
+composition:
+  _name: Blog post badge
+  _id: 37e97c60-f45f-410c-ae83-51d807de1d2a
+  type: badge
+  parameters:
+    link:
+      type: link
+      value:
+        path: /blog/${#jptr:/Blog Post/entry/_slug}
+        type: projectMapNode
+        nodeId: d947bbe8-7fe2-44e1-a628-d15557c43e42
+        projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+        dynamicInputValues:
+          slug: ${#jptr:/Blog Post/entry/_slug}
+    size:
+      type: select
+      value: lg
+    label:
+      type: text
+      value: ${#jptr:/Blog Post/entry/fields/title/value}
+  _dataResources:
+    Blog Post:
+      type: blogPostBySlug
+      variables:
+        slug: apus-apus-the-swift-bird
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+created: '2023-10-05T12:31:57.300513+00:00'
+modified: '2023-10-05T12:31:57.300513+00:00'
+pattern: true
