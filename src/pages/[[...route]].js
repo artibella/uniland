@@ -1,9 +1,7 @@
 import React from 'react';
 import Layout from '../layout';
 import {
-  enhance, localize,
-  CANVAS_DRAFT_STATE,
-  CANVAS_PUBLISHED_STATE,
+  enhance
 } from '@uniformdev/canvas';
 import { getEnhancers } from '../lib/enhancers/enhancers';
 import { compositionRenderer } from '../compositions/compositionRenderer';
@@ -24,12 +22,12 @@ export const getServerSideProps = withUniformGetServerSideProps({
   requestOptions: (context) => {    
     return {
       diagnostics: process.env.NODE_ENV === 'development',
-      locale: context.locale ?? context.defaultLocale
+      // locale: context.locale ?? context.defaultLocale
     }
   },
   modifyPath: (path, context) => {
     const locale = context.locale ?? context.defaultLocale;
-    const localizedPath = `/${locale}${path}`;
+    const localizedPath = `/${locale}${path}`.replace(/\/$/, "");
     return localizedPath;
   },
   preview: process.env.NODE_ENV === 'development',
@@ -46,19 +44,19 @@ export const getServerSideProps = withUniformGetServerSideProps({
     }
     const composition = routeResponse.compositionApiResponse.composition;
     
-    // localize composition
-    const defaultLocale = context.defaultLocale ?? 'en-US';
-    const currentLocale = context.locale ?? defaultLocale;
+    // // localize composition
+    // const defaultLocale = context.defaultLocale ?? 'en-US';
+    // const currentLocale = context.locale ?? defaultLocale;
 
-    localize({
-      composition,
-      locale: ({ locales }) => {
-        if (Object.keys(locales).includes(currentLocale)) {
-          return currentLocale;
-        }
-        return defaultLocale;
-      }
-    });
+    // localize({
+    //   composition,
+    //   locale: ({ locales }) => {
+    //     if (Object.keys(locales).includes(currentLocale)) {
+    //       return currentLocale;
+    //     }
+    //     return defaultLocale;
+    //   }
+    // });
 
     // enhance composition
     await enhance({ composition, enhancers: getEnhancers(), context });
