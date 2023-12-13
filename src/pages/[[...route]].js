@@ -22,7 +22,7 @@ export const getServerSideProps = withUniformGetServerSideProps({
   requestOptions: (context) => {    
     return {
       diagnostics: process.env.NODE_ENV === 'development',
-      // locale: context.locale ?? context.defaultLocale
+      locale: context.locale ?? context.defaultLocale
     }
   },
   modifyPath: (path, context) => {
