@@ -15,8 +15,8 @@ const config = {
     path: 'https://res.cloudinary.com/contentops/image/fetch',
   },
   i18n: {
-    locales: ['en-US', 'de-DE', 'da'],
-    defaultLocale: 'en-US',
+    locales: ['default', 'en-US', 'de-DE', 'da'],
+    defaultLocale: 'default',
     localeDetection: false,
   },
   publicRuntimeConfig: {

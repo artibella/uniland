@@ -14,20 +14,14 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: unresolved
-                  connectedData:
-                    syntax: jptr
-                    pointer: /Collection/data/collection/title
+                  value: ${#jptr:/Collection/data/collection/title}
                 tagName:
                   type: select
                   value: h1
         parameters:
           body:
             type: text
-            value: unresolved
-            connectedData:
-              syntax: jptr
-              pointer: /Collection by ID/data/collection/description
+            value: ${#jptr:/Collection/data/collection/description}
           title:
             type: text
             value: Featured products
@@ -36,10 +30,7 @@ composition:
             value: cover
           imageUrl:
             type: text
-            value: unresolved
-            connectedData:
-              syntax: jptr
-              pointer: /Collection/data/collection/image/url
+            value: ${#jptr:/Collection/data/collection/image/url}
     sections:
       - _id: 27dccee0-a23a-4625-a143-1f03480d759f
         type: sectionContainer
@@ -55,21 +46,36 @@ composition:
                       body:
                         - _id: 30b9de50-69af-4dec-9de5-a8b4a339974b
                           type: card
+                          slots:
+                            actions:
+                              - _id: a25fb1b9-6741-4e9a-adc3-e0541ea853a9
+                                type: callToAction
+                                parameters:
+                                  title:
+                                    type: text
+                                    value: View more
+                                  internalLink:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        /shop/${#jptr:/Collection edges Loop
+                                        Item/node/handle}
+                                      type: projectMapNode
+                                      nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+                                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                                      dynamicInputValues:
+                                        product: >-
+                                          ${#jptr:/Collection edges Loop
+                                          Item/node/handle}
                           parameters:
                             image:
                               type: text
-                              value: unresolved
-                              connectedData:
-                                syntax: jptr
-                                pointer: >-
-                                  /Collection edges Loop
-                                  Item/node/featuredImage/url
+                              value: >-
+                                ${#jptr:/Collection edges Loop
+                                Item/node/featuredImage/url}
                             title:
                               type: text
-                              value: unresolved
-                              connectedData:
-                                syntax: jptr
-                                pointer: /Collection edges Loop Item/node/title
+                              value: ${#jptr:/Collection edges Loop Item/node/title}
                     _dataResources:
                       Collection edges Loop Item:
                         type: sys-reserved-loop
@@ -85,9 +91,8 @@ composition:
       variables:
         handle: ${handle}
         collectionID: ''
-    Collection by ID:
-      type: collectionById
-      variables: {}
+  _locales:
+    - en-US
 created: '2023-05-16T09:04:47.137556+00:00'
-modified: '2023-05-16T13:10:22.125097+00:00'
+modified: '2023-12-12T13:02:01.172504+00:00'
 pattern: false

@@ -9,6 +9,12 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
   - id: imageUrl
     name: Image URL
     type: image
@@ -182,4 +188,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:26.5631+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-11-23T13:17:35.910097+00:00'
