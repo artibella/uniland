@@ -23,7 +23,7 @@ export default function Accordion({ component }) {
   // }, [selectedComponentReference]);
 
   return (
-    <div className="accordion-container">
+    <div className="accordion-container border-t-2 border-aqua-900">
       {items.length ? <UniformSlot name="items" /> : null}
     </div>
   );
