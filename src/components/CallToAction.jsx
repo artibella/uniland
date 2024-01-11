@@ -8,7 +8,7 @@ const renderPrimaryCta = (title, link, openInNewTab) => {
       <Link
         href={link}
         className="flex w-full items-center justify-center rounded-md border border-transparent bg-mango px-8 py-3 text-base font-medium text-aqua-900 hover:bg-mango-200 md:py-4 md:px-10 md:text-lg"
-        target={openInNewTab ? '_blank' : '_self'}
+        target={openInNewTab ? '_blank' : '_self'} locale={false}
       >
         <UniformText parameterId="title" placeholder="Button text" as="span" />
       </Link>
