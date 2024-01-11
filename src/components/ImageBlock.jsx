@@ -14,7 +14,7 @@ export default function ImageBlock({
   backgroundStyle = '',
 }) {
   const imageClasses = classNames(
-    'image block w-full h-auto',
+    'image block h-auto',
     // image width
     { 'w-4': imageWidth === 'icon-sm' },
     { 'w-6': imageWidth === 'icon' },
