@@ -10,9 +10,12 @@ export default function Pagination({
   offset = 0,
   targetUrl = undefined,
 }) {
-  const prevOffset = parseInt(offset) - 1 > 0 ? parseInt(offset) - 1 : 0;
+  const offsetInt = parseInt(offset);
+  const sizeInt = parseInt(size);
+  const prevOffset = offsetInt - sizeInt >= 1 ? offsetInt - sizeInt : 1;
   // TODO: total handling
-  const nextOffset = parseInt(offset) + size;
+  const nextOffset = 1 + offsetInt + sizeInt;
+  console.log('next offset = ', nextOffset);
   const prevLink = `${targetUrl.path}?${sizeParam}=${size}&${offsetParam}=${prevOffset}`;
   const nextLink = `${targetUrl.path}?${sizeParam}=${size}&${offsetParam}=${nextOffset}`;
   return (

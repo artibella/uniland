@@ -11,18 +11,16 @@ export default function GenericCard({
 }) {
   return (
     <Card className="bg-white hover:-translate-y-2 transition-transform ease-in-out delay-150 duration-300">
-      {image && (
-        <Card.Image src={image} alt={title} />
-      )}  
+      {image && <Card.Image src={image} alt={title} />}
       <Card.Body>
         {byline && (
-          <Badge variant="outline" className="block">
+          <Badge variant="outline" className="block capitalize">
             {byline}
           </Badge>
         )}
         <Card.Title
           tag="h4"
-          className="text-xl hover:underline hover:underline-offset-1"
+          className="text-xl hover:underline hover:underline-offset-1 capitalize"
         >
           <UniformText
             parameterId="title"

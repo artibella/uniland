@@ -26,7 +26,7 @@ export default function Heading({
   const id = slugify(title);
 
   const baseHeadingClasses = classNames(
-    'tracking-tight',
+    'tracking-tight capitalize',
     // text alignment
     { 'text-left': align === 'left' },
     { 'text-center': align === 'center' },
@@ -48,7 +48,7 @@ export default function Heading({
   const headingClasses = classNames(
     baseHeadingClasses,
     'font-bold',
-    { 'font-serif': tagName.match(/h[1-3]/) },    
+    { 'font-serif': tagName.match(/h[1-3]/) },
     { 'text-4xl md:text-7xl': tagName === 'h1' },
     { 'text-3xl md:text-6xl': tagName === 'h2' },
     { 'text-3xl md:text-4xl': tagName === 'h3' },
@@ -60,7 +60,7 @@ export default function Heading({
   const bylineClasses = classNames(
     baseHeadingClasses,
     'block',
-    { 'font-serif': tagName.match(/h[1-3]/) },    
+    { 'font-serif': tagName.match(/h[1-3]/) },
     { 'text-lg md:text-2xl': tagName === 'h1' },
     { 'text-lg md:text-xl': tagName === 'h2' },
     { 'text-base': tagName === 'h3' },
