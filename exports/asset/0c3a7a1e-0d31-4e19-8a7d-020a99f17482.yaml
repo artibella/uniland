@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 0c3a7a1e-0d31-4e19-8a7d-020a99f17482
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: eberhard-grossgasteiger-BsOWuFy9GIM-unsplash.jpg
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: 0c3a7a1e-0d31-4e19-8a7d-020a99f17482
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/6yfTe-n4SbGiEIMSOUFB8w-eberhard-grossgasteiger-BsOWuFy9GIM-unsplash.jpg
+      type: text
+    size:
+      value: 659223
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 1280
+      type: number
+    custom: {}
+created: '2023-10-09T15:09:13.913544+00:00'
+modified: '2023-10-09T15:09:13.913544+00:00'

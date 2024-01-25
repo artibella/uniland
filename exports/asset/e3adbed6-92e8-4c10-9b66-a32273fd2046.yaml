@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e3adbed6-92e8-4c10-9b66-a32273fd2046
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: logoipsum-219.svg
+    file:
+      type: file
+      value: 42219514-dbee-4160-9554-3c0f8f8b16b7
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/5_lKZQw9SAuxt8E73gN3bA-logoipsum-219.svg
+      type: text
+    size:
+      value: 5658
+      type: number
+    width:
+      value: 152
+      type: number
+    height:
+      value: 19
+      type: number
+    custom: {}
+created: '2023-11-03T14:52:12.939027+00:00'
+modified: '2023-11-03T14:52:12.939027+00:00'

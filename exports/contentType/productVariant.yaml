@@ -1,0 +1,71 @@
+id: productVariant
+name: Product Variant
+created: '2023-08-23T12:54:56.099402+00:00'
+updated: '2023-12-14T19:48:01.568301+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: code
+    name: Code
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: featuredImage
+    name: Featured Image
+    type: image
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: price
+    name: Price
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: available
+    name: Available
+    type: checkbox
+    helpText: ''
+    typeConfig: null
+entryName: name
+description: ''
+icon: shopping-cart
+type: block
+permissions: []

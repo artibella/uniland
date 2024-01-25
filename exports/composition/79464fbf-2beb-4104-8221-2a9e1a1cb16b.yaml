@@ -1,0 +1,189 @@
+composition:
+  _name: Inserter demo
+  _id: 79464fbf-2beb-4104-8221-2a9e1a1cb16b
+  _slug: inserter-demo
+  type: page
+  slots:
+    hero:
+      - _id: c790cef7-0637-4fd3-874b-32905b585139
+        type: hero
+        slots:
+          ctas:
+            - _id: >-
+                c790cef7-0637-4fd3-874b-32905b585139|d75dda5d-4bef-4a4e-a2cd-2e420c55864a
+              type: callToAction
+              parameters:
+                link:
+                  type: text
+                  value: ${#jptr:/Product by handle Content/data/product/handle}
+                title:
+                  type: text
+                  value: View details
+                linkPrefix:
+                  type: text
+                  value: /shop/
+              _overridability:
+                parameters:
+                  link: 'yes'
+                  title: 'yes'
+                  linkPrefix: 'yes'
+                  internalLink: 'yes'
+                  openInNewTab: 'yes'
+            - _id: e5098c83-1150-4f40-a0c2-03ff04fcdda0
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  value: Shop now
+                internalLink:
+                  type: link
+                  value:
+                    path: /:locale/shop
+                    type: projectMapNode
+                    nodeId: 7156797a-41ca-42b3-a62a-8aecebe461df
+                    projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+          heading:
+            - _id: >-
+                c790cef7-0637-4fd3-874b-32905b585139|430eea25-5964-4666-a0bb-50e148f5ae70
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: ${#jptr:/Product by handle Content/data/product/title}
+                byline:
+                  type: text
+                  value: Featured product
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+              _overridability:
+                parameters:
+                  align: 'yes'
+                  theme: 'no'
+                  title: 'yes'
+                  byline: 'yes'
+                  tagName: 'no'
+                  titleHtml: 'yes'
+                  titleRichText: 'yes'
+                  showEditorialLine: 'yes'
+                  group_formattingOptions: 'yes'
+        parameters:
+          body:
+            type: text
+            value: ${#jptr:/Product by handle Content/data/product/description}
+          title:
+            type: text
+            value: ${#jptr:/Product by handle Content/data/product/title}
+          imageFit:
+            type: select
+            value: cover
+          imageUrl:
+            type: text
+            value: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+          imageAltText:
+            type: text
+            value: ${#jptr:/Product by handle Content/data/product/title}
+        _overridability:
+          parameters:
+            body: 'yes'
+            title: 'yes'
+            imageFit: 'yes'
+            imageUrl: 'yes'
+            imageAltText: 'yes'
+    sections:
+      - _id: 45d9dce9-9bd4-46e5-8d90-3ebd19ba15f4
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 6dccb2c8-a707-44da-a5fe-e3904ee3f6aa
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 8bcccde0-315d-4ba0-b421-63564cc463d0
+                    type: textBlock
+                    parameters:
+                      body:
+                        type: text
+                        value: Here is some text
+                rightContent:
+                  - _id: 05cdacb4-c9ab-4c2b-8d6d-8e1717bc8a07
+                    type: imageBlock
+                    parameters:
+                      imageUrl:
+                        type: text
+                        value: >-
+                          ${#jptr:/Product by handle
+                          Content/data/product/featuredImage/url}
+          heading:
+            - _id: f58ce5db-6d96-4175-aa4a-67502ae59949
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: Headline 1
+                byline:
+                  type: text
+                  value: Byline
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+        parameters:
+          theme:
+            type: select
+            value: light
+      - _id: 0b2fc599-dee9-4158-8dc2-c6549b27b672
+        type: sectionContainer
+        slots:
+          content:
+            - _id: b21aef52-3925-428f-892f-b4862d0a81fa
+              type: gridContainer
+              slots:
+                items:
+                  - _id: f369b944-a1c6-45fc-a339-aad66c39f517
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: bf782e62-38db-4c63-87e2-49a5f9a5dd78
+                          type: card
+                          parameters:
+                            image:
+                              type: text
+                              value: >-
+                                ${#jptr:/Pexels Search Content photos Loop
+                                Item/src/large}
+                            title:
+                              type: text
+                              value: >-
+                                ${#jptr:/Pexels Search Content photos Loop
+                                Item/alt}
+                    _dataResources:
+                      Pexels Search Content photos Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Pexels Search Content/photos
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+        parameters:
+          theme:
+            type: select
+            value: dark
+  _dataResources:
+    Pexels Search Content:
+      type: pexelsSearch
+      variables: {}
+    Product by handle Content:
+      type: productByHandle
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+created: '2023-08-07T10:52:47.4342+00:00'
+modified: '2023-08-07T14:40:30.318401+00:00'
+pattern: false

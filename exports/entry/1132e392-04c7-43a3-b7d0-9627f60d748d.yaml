@@ -1,0 +1,320 @@
+created: '2023-11-01T12:44:24.362418+00:00'
+modified: '2023-12-12T13:39:27.408336+00:00'
+pattern: false
+entry:
+  _id: 1132e392-04c7-43a3-b7d0-9627f60d748d
+  _name: 5 Guys Berlin Ku'Damm
+  _slug: 5-guys-berlin-kudamm
+  type: restaurant
+  fields:
+    city:
+      type: text
+      value: Berlin
+    logo:
+      type: asset
+      value:
+        - _id: b7960a57-958c-4d28-859b-5377d55b9579
+          type: image
+          fields:
+            id:
+              type: text
+              value: 3f1ca8c3-0fb2-486d-9464-3f9e643a2e49
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/drvk3qzxTdyqAAxhVwgV4Q-image.png
+              type: text
+            file:
+              type: file
+              value: e6d5a3a6-d0da-4248-b2a6-abaf7c4e7c63
+            size:
+              value: 113178
+              type: number
+            title:
+              type: text
+              value: 5 Guys Logo
+            width:
+              value: 866
+              type: number
+            height:
+              value: 650
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    name:
+      type: text
+      value: 5 Guys Berlin Ku'Damm
+    phone:
+      type: link
+      value:
+        path: '00493092250491'
+        type: tel
+    address:
+      type: text
+      value: Alexanderplatz 2
+    zipCode:
+      type: text
+      value: '10178'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Willkommen bei Five Guys Berlin Ku'Damm in Berlin. Wir sind
+                    der Meinung, du solltest exakt das bekommen, was du möchtest
+                    - es geht schließlich um dein Essen. Deshalb gibt es bei uns
+                    mehr als 250.000 Kombinationsmöglichkeiten für Burger, Hot
+                    Dogs und Sandwiches. Und nicht zu vergessen: Du hast auch
+                    1.000 verschiedene Möglichkeiten, deinen Milkshake
+                    zusammenzustellen.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - mode: normal
+                  text: >-
+                    Unsere beliebten Fries werden im "Boardwalk-Style"
+                    zubereitet.Was das heißt? Sie werden täglich vor Ort frisch
+                    handgeschnitten und im Anschluss in 100% Erdnussöl
+                    frittiert. Du kannst zwischen Fries im Five Guys Style
+                    (naturbelassen) oder Cajun Style (spicy!) wählen. Komm
+                    vorbei - wir freuen uns schon auf dich!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    openingHours:
+      type: $block
+      value:
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Monday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Tuesday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Wednesday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Thursday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Friday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Saturday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+        - type: openingHours
+          fields:
+            day:
+              type: text
+              value: Sunday
+            closingTime:
+              type: text
+              value: '23:00'
+            openingTime:
+              type: text
+              value: '11:00'
+    orderOptions:
+      type: $block
+      value:
+        - type: logo
+          fields:
+            logo:
+              type: asset
+              value:
+                - _id: 619d86e8-48ea-4ba8-9dd8-e2b168f6e994
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 619d86e8-48ea-4ba8-9dd8-e2b168f6e994
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/GaDu2krPTumqs9GEss2Ayw-lieferando.png
+                      type: text
+                    size:
+                      value: 2387
+                      type: number
+                    title:
+                      type: text
+                      value: lieferando.png
+                    width:
+                      value: 164
+                      type: number
+                    height:
+                      value: 52
+                      type: number
+                    mediaType:
+                      value: image/png
+                      type: text
+                    description:
+                      type: text
+                      value: ''
+                  _source: uniform-assets
+            name:
+              type: text
+              value: Lieferando
+            website:
+              type: link
+              value:
+                path: https://www.lieferando.de/five-guys-berlin-alexanderplatz
+                type: url
+        - type: logo
+          fields:
+            logo:
+              type: asset
+              value:
+                - _id: 763d5c23-7e3c-4d23-89db-386e48a4e78d
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: 763d5c23-7e3c-4d23-89db-386e48a4e78d
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/f6tOVgY4TQKzX2Hcn1zOTg-wolt.webp
+                      type: text
+                    size:
+                      value: 1274
+                      type: number
+                    title:
+                      type: text
+                      value: wolt.webp
+                    width:
+                      value: 164
+                      type: number
+                    height:
+                      value: 52
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                    description:
+                      type: text
+                      value: ''
+                  _source: uniform-assets
+            name:
+              type: text
+              value: Wolt
+            website:
+              type: link
+              value:
+                path: https://wolt.com/de/deu/berlin/restaurant/five-guys-mitte
+                type: url
+        - type: logo
+          fields:
+            logo:
+              type: asset
+              value:
+                - _id: d5bb8276-0129-43d0-928f-e33d8d4d05fb
+                  type: image
+                  fields:
+                    id:
+                      type: text
+                      value: d5bb8276-0129-43d0-928f-e33d8d4d05fb
+                    url:
+                      value: >-
+                        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/Y79kCAm6SsKpgFfA1rj3Pg-ubereats.webp
+                      type: text
+                    size:
+                      value: 1788
+                      type: number
+                    title:
+                      type: text
+                      value: ubereats.webp
+                    width:
+                      value: 164
+                      type: number
+                    height:
+                      value: 52
+                      type: number
+                    mediaType:
+                      value: image/webp
+                      type: text
+                    description:
+                      type: text
+                      value: ''
+                  _source: uniform-assets
+            name:
+              type: text
+              value: Uber Eats
+            website:
+              type: link
+              value:
+                path: >-
+                  http://www.ubereats.com/store/five-guys-berlin-alexanderplatz/v14XA6jiUZ6QnLHdkn-O8g/
+                type: url
+    googleMapsLink:
+      type: link
+      value:
+        path: https://maps.google.com/maps?cid=7319193908177114471
+        type: url

@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: ed618651-81b7-4552-8d05-f6c4f2ca75b0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: fernando-andrade-_P76trHTWDE-unsplash.jpg
+    file:
+      type: file
+      value: bbc1e0f4-d022-4c2c-b1ca-796be8b6ca98
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/4hkqfrUTTvicKXNRT7aKVw-fernando-andrade-_P76trHTWDE-unsplash.jpg
+      type: text
+    size:
+      value: 2156861
+      type: number
+    width:
+      value: 2742
+      type: number
+    height:
+      value: 2742
+      type: number
+    custom: {}
+created: '2023-12-12T14:29:42.085771+00:00'
+modified: '2023-12-12T14:29:42.085771+00:00'

@@ -1,0 +1,17 @@
+created: '2024-01-11T15:16:05.445372+00:00'
+modified: '2024-01-11T15:16:30.87438+00:00'
+pattern: false
+entry:
+  _id: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
+  _name: Puffer
+  _slug: puffer
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: puffer
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

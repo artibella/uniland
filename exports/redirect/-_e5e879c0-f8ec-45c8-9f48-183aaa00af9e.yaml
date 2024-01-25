@@ -1,0 +1,11 @@
+id: e5e879c0-f8ec-45c8-9f48-183aaa00af9e
+sourceUrl: /demo-2/*
+sourceRetainQuerystring: true
+targetUrl: /demo/:splat
+targetStatusCode: 301
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: false

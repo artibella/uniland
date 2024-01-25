@@ -1,0 +1,105 @@
+composition:
+  _name: Post
+  _id: b1b7a479-a76d-4fe2-8b9d-e7ba34236d1c
+  _slug: ':post'
+  type: page
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Post/entry/fields/title/value}
+  slots:
+    sections:
+      - _id: 421f0595-c222-47ee-816b-5b105436b93b
+        type: sectionContainer
+        slots:
+          content:
+            - _id: c103f686-3ce0-45e2-a56a-d2e85cd29c1e
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 055c3308-f3f3-43d8-bd4e-8b2848539979
+                    type: heading
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          de-DE: ${#jptr:/Post/entry/fields/title/value}
+                          en-US: ${#jptr:/Post/entry/fields/title/value}
+                      titleRichText:
+                        type: richText
+                        locales:
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: variable
+                                      version: 1
+                                      reference: '#jptr:/Post/entry/fields/title/value'
+                                  direction: null
+                              direction: null
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: variable
+                                      version: 1
+                                      reference: '#jptr:/Post/entry/fields/title/value'
+                                  direction: null
+                              direction: null
+                rightContent:
+                  - _id: 4a7736ec-4318-44cd-ad40-ebc129bf7784
+                    type: imageBlock
+                    parameters:
+                      imageUrl:
+                        type: image
+                        value: ${#jptr:/Post/entry/fields/postImage/value}
+              parameters:
+                layout:
+                  type: select
+                  value: split-two-one
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+            - _id: f7adf8db-43f9-4b04-b9fd-e157cf06b372
+              type: textBlock
+              parameters:
+                richText:
+                  type: richText
+                  locales:
+                    de-DE: ${#jptr:/Post/entry/fields/postBody/value}
+                    en-US: ${#jptr:/Post/entry/fields/postBody/value}
+                textAlign:
+                  type: select
+                  value: left
+                externalRichText:
+                  type: json
+                  locales:
+                    de-DE: ${#jptr:/Post/items/0/fields/content}
+                    en-US: ${#jptr:/Post/items/0/fields/content}
+  _dataResources:
+    Post:
+      type: blogPostBySlug
+      variables:
+        slug: ${slug}
+  _locales:
+    - en-US
+    - de-DE
+created: '2023-05-22T22:39:10.655331+00:00'
+modified: '2023-12-14T10:02:37.187474+00:00'
+pattern: false

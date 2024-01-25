@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: contributorList
+name: Contributor list
+icon: user-list
+parameters:
+  - id: byline
+    name: Byline
+    type: text
+    helpText: 'Indicate the contribution style: e.g. "Written by"'
+    typeConfig: null
+useTeamPermissions: true
+slots:
+  - id: contributors
+    name: Contributors
+    allowedComponents:
+      - contributor
+      - $loop
+    inheritAllowedComponents: false
+canBeComposition: false
+created: '2022-12-15T14:08:26.952149+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

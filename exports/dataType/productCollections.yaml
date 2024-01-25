@@ -1,0 +1,17 @@
+id: productCollections
+displayName: Product collections
+ttl: 30
+path: /multiple
+custom:
+  proposedName: Multiple Product collection
+  allowedContentTypes:
+    - productCollection
+method: GET
+purgeKey: dc55ffbc-77af-417a-b606-77615e6598a0
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

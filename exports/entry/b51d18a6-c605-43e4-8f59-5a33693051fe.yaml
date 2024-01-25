@@ -1,0 +1,59 @@
+created: '2024-01-04T14:00:15.760355+00:00'
+modified: '2024-01-05T20:40:35.968422+00:00'
+pattern: true
+entry:
+  _id: b51d18a6-c605-43e4-8f59-5a33693051fe
+  _name: Integrations Pattern
+  _slug: test-content-type-pattern
+  type: testContentType
+  fields:
+    body:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Integration/fields/description'
+                direction: null
+            direction: null
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Integration/fields/title}
+    imageUrl:
+      type: image
+      locales:
+        en-US: https:${#jptr:/Integration/fields/image/fields/file/url}
+  _dataResources:
+    Integration:
+      type: integration
+      variables:
+        locale: ''
+        entryIds: 5La0MgvKRUqq1dJ89L2fjg
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    parameters:
+      body: 'yes'
+      link: 'yes'
+      media: 'yes'
+      title: 'yes'
+      rating: 'yes'
+      enabled: 'yes'
+      imageUrl: 'no'
+      priority: 'yes'
+      settings: 'yes'
+      activeSince: 'yes'

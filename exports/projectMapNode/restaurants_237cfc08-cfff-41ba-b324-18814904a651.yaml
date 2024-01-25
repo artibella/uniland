@@ -1,0 +1,9 @@
+id: 237cfc08-cfff-41ba-b324-18814904a651
+name: Restaurants
+type: composition
+data: {}
+order: 500
+path: /:locale/reviews/restaurants
+compositionId: 5bff6617-e259-413c-8c0f-9bb69e841e3a
+pathSegment: restaurants
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

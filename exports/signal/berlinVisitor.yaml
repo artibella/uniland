@@ -1,0 +1,27 @@
+id: berlinVisitor
+name: Berlin visitor
+cap: 100
+crit:
+  op: '|'
+  type: G
+  clauses:
+    - key: vc-city
+      type: QK
+      match:
+        cs: false
+        op: '~'
+        rhs: Berlin
+    - type: QS
+      match:
+        cs: false
+        op: '='
+        rhs: berlin
+      queryName: city
+    - path:
+        cs: false
+        op: '~'
+        rhs: berlin
+      type: PV
+dur: p
+description: ''
+str: 50

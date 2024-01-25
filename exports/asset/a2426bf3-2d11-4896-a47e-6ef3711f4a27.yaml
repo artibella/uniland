@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a2426bf3-2d11-4896-a47e-6ef3711f4a27
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Hero_Integrate.svg
+    file:
+      type: file
+      value: f0db2198-bf37-49d3-b4bc-c7bd1f1ea16c
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/UMGWma2ITAGEqb3BQnOQeQ-Hero_Integrate.svg
+      type: text
+    size:
+      value: 6954
+      type: number
+    width:
+      value: 613
+      type: number
+    height:
+      value: 656
+      type: number
+    custom: {}
+created: '2023-11-23T13:54:36.653283+00:00'
+modified: '2023-11-23T13:54:36.653283+00:00'

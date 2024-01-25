@@ -1,0 +1,24 @@
+id: collections
+displayName: Collections
+ttl: 30
+path: ''
+custom:
+  proposedName: ''
+method: GET
+purgeKey: 39c8ee5d-fa4c-4614-91ec-4becb059c456
+archetype: default
+variables:
+  amount:
+    type: text
+    default: '10'
+    helpText: Number of collections
+parameters:
+  - key: query
+    value: >-
+      { collections(first: ${amount}) { edges { cursor node { id handle title
+      description image { id url } descriptionHtml seo { title description }
+      products(first:3){ edges{ node { title handle description featuredImage{
+      url altText } priceRange{ minVariantPrice{ amount currencyCode }
+      maxVariantPrice{ amount currencyCode } } } } } } } }}
+dataSourceId: mockShop
+allowedOnComponents: []

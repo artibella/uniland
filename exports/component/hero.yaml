@@ -1,0 +1,72 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: hero
+name: Hero
+icon: rectangle-rounded
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: body
+    name: Body
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: '3'
+    localizable: true
+  - id: imageUrl
+    name: Image URL
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: imageAltText
+    name: Image Alt Text
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: imageFit
+    name: Image fit
+    type: select
+    helpText: >-
+      Specify how the image should scaled within its container (see
+      https://tailwindcss.com/docs/object-fit)
+    typeConfig:
+      options:
+        - text: Cover
+          value: cover
+        - text: Contain
+          value: contain
+        - text: Fill
+          value: fill
+        - text: Scale down
+          value: scale-down
+        - text: None
+          value: none
+    localizable: true
+categoryId: 08bd6561-61eb-4cbf-8826-f10fd75bcab6
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691488613/Uniland/components/default-hero.png
+useTeamPermissions: true
+slots:
+  - id: heading
+    name: Heading
+    maxComponents: 1
+    minComponents: 0
+    allowedComponents:
+      - heading
+    inheritAllowedComponents: false
+  - id: ctas
+    name: CTAs
+    allowedComponents:
+      - callToAction
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2022-12-15T14:08:26.050869+00:00'
+updated: '2023-12-13T12:01:38.405726+00:00'

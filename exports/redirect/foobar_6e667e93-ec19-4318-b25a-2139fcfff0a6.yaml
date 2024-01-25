@@ -1,0 +1,12 @@
+id: 6e667e93-ec19-4318-b25a-2139fcfff0a6
+sourceUrl: /foobar
+sourceRetainQuerystring: true
+targetUrl: https://uniland-staging.vercel.app/:locale/demos
+targetStatusCode: 301
+targetProjectMapNodeId: afcba36b-3d99-4d66-9d99-556fa8cc9dfe
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: false

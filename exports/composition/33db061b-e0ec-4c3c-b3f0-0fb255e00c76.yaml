@@ -1,0 +1,91 @@
+composition:
+  _name: Summer Specials
+  _id: 33db061b-e0ec-4c3c-b3f0-0fb255e00c76
+  _slug: ':collection-copy-copy'
+  type: page
+  slots:
+    hero:
+      - _id: 0feb8074-8095-40d7-b354-fd44b638a725
+        type: hero
+        slots:
+          heading:
+            - _id: 7723a6c1-ac46-4cbd-9db2-082425f8923a
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Hot outfits for the summer
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            locales:
+              en-US: >-
+                Explore our curated summer collections that will make some heads
+                turn
+          title:
+            type: text
+            locales:
+              en-US: Featured products
+          imageFit:
+            type: select
+            locales:
+              en-US: contain
+          imageUrl:
+            type: text
+            locales:
+              en-US: ${#jptr:/Pexels Search Content/photos/0/src/large}
+    sections:
+      - _id: 27dccee0-a23a-4625-a143-1f03480d759f
+        type: sectionContainer
+        slots:
+          content:
+            - _id: fd2de59b-b38b-4e81-b2e5-35f0e20123b1
+              type: gridContainer
+              slots:
+                items:
+                  - _id: aba0ec22-3442-48f2-b2c6-31a60ceae27a
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 30b9de50-69af-4dec-9de5-a8b4a339974b
+                          type: card
+                          parameters:
+                            image:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Collection edges Loop
+                                  Item/node/featuredImage/url}
+                            title:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Collection edges Loop
+                                  Item/node/title}
+                    _dataResources:
+                      Collection edges Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Collection/data/collection/products/edges
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables:
+        collectionID: ''
+    Pexels Search Content:
+      type: pexelsSearch
+      variables:
+        query: fashion summer
+  _locales:
+    - en-US
+created: '2023-05-16T13:15:10.130761+00:00'
+modified: '2024-01-05T11:13:09.559461+00:00'
+pattern: false

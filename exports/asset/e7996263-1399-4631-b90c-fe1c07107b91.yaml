@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e7996263-1399-4631-b90c-fe1c07107b91
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: Home_Hero_Innovate_1.svg
+    file:
+      type: file
+      value: cf7699a9-e44c-4faf-8256-1964da91d766
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/xVdWRMw5S-aEnxpAXyZXOA-Home_Hero_Innovate_1.svg
+      type: text
+    size:
+      value: 21403
+      type: number
+    width:
+      value: 549
+      type: number
+    height:
+      value: 642
+      type: number
+    custom: {}
+created: '2023-10-24T13:04:19.949699+00:00'
+modified: '2023-10-24T13:04:19.949699+00:00'

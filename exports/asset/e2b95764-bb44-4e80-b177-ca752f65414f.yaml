@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: e2b95764-bb44-4e80-b177-ca752f65414f
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: RedTshirt01.webp
+    file:
+      type: file
+      value: 5526237e-12b1-4884-9729-7e297024ea7a
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/syXzRAoHTxOyQIvPHkTo2A-RedTshirt01.webp
+      type: text
+    size:
+      value: 50588
+      type: number
+    width:
+      value: 1445
+      type: number
+    height:
+      value: 1445
+      type: number
+    custom: {}
+created: '2023-11-15T17:20:15.137064+00:00'
+modified: '2023-11-15T17:20:15.137064+00:00'

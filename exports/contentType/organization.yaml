@@ -1,0 +1,74 @@
+id: organization
+name: Organization
+created: '2023-11-09T15:29:28.503947+00:00'
+updated: '2023-11-09T15:31:21.578354+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: group_address
+    name: Address
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - streetAddress
+        - postalCode
+        - addressLocality
+  - id: streetAddress
+    name: Street address
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: postalCode
+    name: Postal Code
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: addressLocality
+    name: Address Locality
+    type: text
+    helpText: City or Region description
+    typeConfig: null
+  - id: email
+    name: Email
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: false
+        projectMapNode: false
+  - id: telephone
+    name: Telephone
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        url: false
+        email: false
+        projectMapNode: false
+  - id: url
+    name: URL
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+entryName: name
+description: Organization according to Schema.org
+icon: home
+type: contentType
+permissions: []

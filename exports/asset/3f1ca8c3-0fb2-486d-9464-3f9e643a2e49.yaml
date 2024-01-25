@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 3f1ca8c3-0fb2-486d-9464-3f9e643a2e49
+  _name: image.png
+  fields:
+    title:
+      type: text
+      value: 5 Guys Logo
+    file:
+      type: file
+      value: e6d5a3a6-d0da-4248-b2a6-abaf7c4e7c63
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/drvk3qzxTdyqAAxhVwgV4Q-image.png
+      type: text
+    size:
+      value: 113178
+      type: number
+    width:
+      value: 866
+      type: number
+    height:
+      value: 650
+      type: number
+    custom: {}
+created: '2023-12-12T13:37:49.731072+00:00'
+modified: '2023-12-12T13:38:36.31029+00:00'

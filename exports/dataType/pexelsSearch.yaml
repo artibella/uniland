@@ -1,0 +1,23 @@
+id: pexelsSearch
+displayName: Pexels Search
+body: ''
+path: /search
+method: GET
+purgeKey: 2feeca5a-5fe3-441e-9ce6-6cc87ae33fa6
+archetype: default
+variables:
+  query:
+    type: text
+    default: food
+    helpText: Search term
+  orientation:
+    type: text
+    default: landscape
+    helpText: Desired photo orientation (landscape, portrait or square)
+parameters:
+  - key: query
+    value: ${query}
+  - key: orientation
+    value: ${orientation}
+dataSourceId: pexels
+allowedOnComponents: []

@@ -1,0 +1,9 @@
+id: 08fc2422-e621-435e-b328-2d7b5bbfa04a
+name: Assets demo
+type: composition
+data: {}
+order: 200
+path: /:locale/demos/assets-demo
+compositionId: 5a1e2eab-23ad-4e0e-b4c1-4b40ade8aea4
+pathSegment: assets-demo
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

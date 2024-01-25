@@ -1,0 +1,114 @@
+composition:
+  _name: Product Hero
+  _id: fad6acf9-aa5e-4fca-8429-b843de447846
+  type: hero
+  parameters:
+    body:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Product by handle Content/data/product/description}
+        en-US: ${#jptr:/Product by handle Content/data/product/description}
+    title:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Product by handle Content/data/product/title}
+        en-US: ${#jptr:/Product by handle Content/data/product/title}
+    imageFit:
+      type: select
+      locales:
+        de-DE: cover
+        en-US: cover
+    imageUrl:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+        en-US: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+    imageAltText:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Product by handle Content/data/product/title}
+        en-US: ${#jptr:/Product by handle Content/data/product/title}
+  slots:
+    ctas:
+      - _id: d75dda5d-4bef-4a4e-a2cd-2e420c55864a
+        type: callToAction
+        variant: primary
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: 'Jetzt entdecken '
+              en-US: View details
+          internalLink:
+            type: link
+            value:
+              path: >-
+                /${locale}/shop/${#jptr:/Product by handle
+                Content/data/product/handle}
+              type: projectMapNode
+              nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+              projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+              dynamicInputValues:
+                locale: ${locale}
+                product: ${#jptr:/Product by handle Content/data/product/handle}
+        _overridability:
+          variants: true
+          parameters:
+            link: 'yes'
+            title: 'yes'
+            linkPrefix: 'yes'
+            internalLink: 'yes'
+            openInNewTab: 'yes'
+    heading:
+      - _id: 430eea25-5964-4666-a0bb-50e148f5ae70
+        type: heading
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Product by handle Content/data/product/title}
+              en-US: ${#jptr:/Product by handle Content/data/product/title}
+          byline:
+            type: text
+            locales:
+              en-US: Featured product
+          tagName:
+            type: select
+            value: h1
+          showEditorialLine:
+            type: checkbox
+            value: true
+        _overridability:
+          parameters:
+            align: 'yes'
+            theme: 'no'
+            title: 'yes'
+            byline: 'yes'
+            tagName: 'no'
+            titleHtml: 'yes'
+            titleRichText: 'yes'
+            showEditorialLine: 'yes'
+            group_formattingOptions: 'yes'
+  _dataResources:
+    Product by handle Content:
+      type: productByHandle
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      body: 'yes'
+      title: 'yes'
+      imageFit: 'yes'
+      imageUrl: 'yes'
+      imageAltText: 'yes'
+  _locales:
+    - en-US
+    - de-DE
+created: '2023-07-26T07:49:12.884031+00:00'
+modified: '2024-01-09T13:53:25.026221+00:00'
+pattern: true
+description: Use this hero to feature a product from Mock Shop
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691407678/Uniland/components/product-hero.png
+categoryId: 08bd6561-61eb-4cbf-8826-f10fd75bcab6

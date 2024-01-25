@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: d2cd9025-5a95-472e-8aac-01f93892465d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: re-oliveira-C9iIB99YV4I-unsplash.jpg
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: d2cd9025-5a95-472e-8aac-01f93892465d
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gr6q_R4OQ5mcySl-s2iTOA-re-oliveira-C9iIB99YV4I-unsplash.jpg
+      type: text
+    size:
+      value: 168520
+      type: number
+    width:
+      value: 2400
+      type: number
+    height:
+      value: 1600
+      type: number
+    custom: {}
+created: '2023-10-09T15:08:43.251475+00:00'
+modified: '2023-10-09T15:08:43.251475+00:00'

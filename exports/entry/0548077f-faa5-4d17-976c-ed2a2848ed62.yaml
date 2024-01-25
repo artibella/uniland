@@ -1,0 +1,464 @@
+created: '2023-09-07T12:16:54.531029+00:00'
+modified: '2023-10-23T11:22:12.98029+00:00'
+pattern: false
+entry:
+  _id: 0548077f-faa5-4d17-976c-ed2a2848ed62
+  _name: 'Modernizing your composable stack: a guide for marketers'
+  _slug: modernizing-your-composable-stack-a-guide-for-marketers
+  type: blogPost
+  fields:
+    date:
+      type: text
+      value: '2023-08-09'
+    tags:
+      type: $block
+      value:
+        - type: tag
+          fields:
+            name:
+              type: select
+              value: Featured
+        - type: tag
+          fields:
+            name:
+              type: select
+              value: News
+    title:
+      type: text
+      value: 'Modernizing your composable stack: a guide for marketers'
+    author:
+      type: text
+      value: Mark Demeny
+    postBody:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Chief marketing officers of 2023 have a difficult task ahead as more marketing functions shift to digital channels and yet competitors can access the same tools and inorganic traffic. Meanwhile, teams struggle with retention due to the inability of outdated marketing technology—the same tools that only a few years ago promised to be the long-term answer—to keep up with performance expectations.Well, there’s good news and bad news. The bad news is that you can’t just stick your head in the sand and hope that the problem will go away. The good news is that you can implement a fix with a composable approach, which is far easier than it used to be, involving no expensive and multiyear\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/switching-vendors-for-digital-architectures-without-replatforming
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: replatforming
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_efforts. Instead, you can easily change systems or, through\_ API-centric services, migrate to another one or leave the existing systems in place.Before you start, take the following six steps:"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "1. Assess the positives of your current strategy\_in terms of technology and processes.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "You’ll likely find many things, such as design systems and content models, that are actually working well. Hence, instead of starting from square one, identify your resources and wins. Find out if your current solution delivers on its promises. If not, what are the gaps? If so, what has changed in your objectives?\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 2. Locate the pain points.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Determine the major roadblocks that are preventing your team
+                    from meeting its goals. Answer these questions:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Is it the need to modernize the front end to improve
+                        performance and agility—and keep your front-end
+                        developers happy?
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: "Is it authoring-related challenges that prevent your team from regularly publishing compelling and targeted content?\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Has your current platform acquired so much negative
+                        baggage that your team just wants it gone?
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "3. Evaluate the composable solutions.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Look into the composable solutions vendors have to offer. Based on SaaS, most solutions offer an extremely flexible and efficient evaluation process and nonproduction PoC options, accompanied by free accounts and full documentation. You might be pleasantly surprised that this phase is far easier than when you last undertook a similar effort, enabling you to assess more tools and go faster and deeper than you expect.\_The most common wins would be cost control, agility in development processes, flexibility in vendors, and a reliable resolution for your unique problems.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: "4. Build the business case.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: "Nail down what you aim to gain and what it takes to get there. In general, since you pay for only what you use and often on less expensive subscription terms, the business case might be cost control or more effective campaigns that can be created and deployed faster.In certain scenarios, you might need to revisit the business case for your last\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/blogs/composable-dxp-faq
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: digital experience platform (DXP)
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_project. In case of claimed but unrealized gains, balance out that ledger by focusing on the successful—but perhaps unaccounted for—organizational changes. Be sure to factor in winners, such as design systems, content models, and cross-team workflows, into the plan and business case.In the event of executive skepticism about composable investments, which is probably justified, you can mitigate that by pointing out that you can get far into a composable-approach evaluation for free. Whereas a DXP investment was a leap of faith based on vendor promises, an adoption of\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: composable architecture
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_is the opposite, with teams being able to hold rigorous self-evaluation with little vendor or sales involvement."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "5. Develop a migration plan.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Two common approaches apply to migration:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: "Refactor individual elements of the existing stack in increments. For example, in an early phase, leave your existing\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - link:
+                        path: https://uniform.dev/cms
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: CMS
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - mode: normal
+                      text: "\_in place but move the front end, personalization, and commerce to composable vendors.\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: "Add new systems alongside and slowly migrate individual sites and use cases.\_"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Either way, Uniform offers a comprehensive, agile process
+                    with minimal disruption and risk.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 6. Minimize the impacts
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "In the past, since it could make or break a transformation effort, change management had to be extremely well thought-out. That’s the double-edged sword of waterfall processes.A composable approach lends itself to agile and incremental changes. By making smaller ones, you implement faster and learn as you go. Instead of a long RFP through which you decide on a single vendor, you can try multiple vendors that offer the composable and SaaS approach. A wise choice is the Uniform\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/what-is-digital-experience-composition
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Digital Experience Composition Platform (DXCP)
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", which makes swapping in underlying technologies fast even late in the process.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/demo
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Request a free demo
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_today!"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      value: >-
+        In 2023, CMOs face challenges as marketing shifts to digital channels
+        and competitors gain access to the same tools. Outdated marketing
+        technology hinders retention. The good news is a composable approach can
+        solve these issues without costly replatforming efforts.
+    postImage:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_384,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/7adfL5pDajpScpnusliCMp/e8adbac70f044c56d80e67d741400e58/Blog_header_I_How_your_marketing_org_can_modernize_your_stack.png

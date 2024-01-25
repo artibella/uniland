@@ -1,0 +1,8 @@
+id: 4e5b7e7f-0ce9-49e9-97d6-9c246ced9770
+name: monsters
+type: placeholder
+data: {}
+order: 300
+path: /:locale/compendium/:game/monsters
+pathSegment: monsters
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

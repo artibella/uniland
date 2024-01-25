@@ -1,0 +1,22 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: navigation
+name: Navigation
+icon: list-tree
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+useTeamPermissions: true
+slots:
+  - id: items
+    name: Items
+    allowedComponents:
+      - navigationItem
+    inheritAllowedComponents: false
+canBeComposition: false
+created: '2022-12-15T14:08:27.124951+00:00'
+updated: '2023-09-08T13:59:27.908887+00:00'

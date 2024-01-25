@@ -1,0 +1,36 @@
+id: logo
+name: Logo
+created: '2023-10-10T12:04:35.493086+00:00'
+updated: '2023-12-14T19:47:33.233817+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: Select a logo file
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: website
+    name: Website
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+        projectMapNode: false
+entryName: name
+description: ''
+icon: awards
+type: block
+permissions: []

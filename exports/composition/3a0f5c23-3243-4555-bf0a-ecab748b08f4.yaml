@@ -1,0 +1,98 @@
+composition:
+  _name: Collection by Handle
+  _id: 3a0f5c23-3243-4555-bf0a-ecab748b08f4
+  _slug: ':collection-copy'
+  type: page
+  slots:
+    hero:
+      - _id: 0feb8074-8095-40d7-b354-fd44b638a725
+        type: hero
+        slots:
+          heading:
+            - _id: 7723a6c1-ac46-4cbd-9db2-082425f8923a
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: ${#jptr:/Collection/data/collection/title}
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            value: ${#jptr:/Collection/data/collection/description}
+          title:
+            type: text
+            value: Featured products
+          imageFit:
+            type: select
+            value: cover
+          imageUrl:
+            type: text
+            value: ${#jptr:/Collection/data/collection/image/url}
+    sections:
+      - _id: 27dccee0-a23a-4625-a143-1f03480d759f
+        type: sectionContainer
+        slots:
+          content:
+            - _id: fd2de59b-b38b-4e81-b2e5-35f0e20123b1
+              type: gridContainer
+              slots:
+                items:
+                  - _id: aba0ec22-3442-48f2-b2c6-31a60ceae27a
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 30b9de50-69af-4dec-9de5-a8b4a339974b
+                          type: card
+                          slots:
+                            actions:
+                              - _id: a25fb1b9-6741-4e9a-adc3-e0541ea853a9
+                                type: callToAction
+                                parameters:
+                                  title:
+                                    type: text
+                                    value: View more
+                                  internalLink:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        /:locale/shop/${#jptr:/Collection edges
+                                        Loop Item/node/handle}
+                                      type: projectMapNode
+                                      nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+                                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                                      dynamicInputValues:
+                                        product: >-
+                                          ${#jptr:/Collection edges Loop
+                                          Item/node/handle}
+                          parameters:
+                            image:
+                              type: text
+                              value: >-
+                                ${#jptr:/Collection edges Loop
+                                Item/node/featuredImage/url}
+                            title:
+                              type: text
+                              value: ${#jptr:/Collection edges Loop Item/node/title}
+                    _dataResources:
+                      Collection edges Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Collection/data/collection/products/edges
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables:
+        handle: ${handle}
+        collectionID: ''
+  _locales:
+    - en-US
+created: '2023-05-16T09:04:47.137556+00:00'
+modified: '2023-12-12T13:02:01.172504+00:00'
+pattern: false

@@ -1,0 +1,10 @@
+id: bfc85f85-020b-4e3b-9704-b83bbbff9234
+name: Monster
+type: composition
+data:
+  previewValue: moblin
+order: 600
+path: /:locale/compendium/:game/monsters/:entry
+compositionId: 64cc05ee-918d-4097-8777-7ec560098344
+pathSegment: ':entry'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

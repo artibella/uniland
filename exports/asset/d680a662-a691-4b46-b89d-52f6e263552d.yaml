@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d680a662-a691-4b46-b89d-52f6e263552d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
+    file:
+      type: file
+      value: 5a240a8f-00b4-45d5-90f4-add88d1a4aa7
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/Cm6BjggURX25M-7Y0VBATg-tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
+      type: text
+    size:
+      value: 1626946
+      type: number
+    width:
+      value: 2400
+      type: number
+    height:
+      value: 3600
+      type: number
+    custom: {}
+created: '2023-11-15T17:20:15.36073+00:00'
+modified: '2023-11-15T17:20:15.36073+00:00'

@@ -1,0 +1,9 @@
+id: 66d81881-fef2-41df-b57f-1c6e0403923e
+name: Compendium
+type: composition
+data: {}
+order: 850
+path: /:locale/compendium
+compositionId: f8f88970-88c4-439f-83dc-f715d2e5007d
+pathSegment: compendium
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

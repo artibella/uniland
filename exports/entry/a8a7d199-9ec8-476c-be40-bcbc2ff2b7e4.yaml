@@ -1,0 +1,237 @@
+created: '2023-06-30T14:51:39.39133+00:00'
+modified: '2023-06-30T15:31:25.898118+00:00'
+pattern: false
+entry:
+  _id: a8a7d199-9ec8-476c-be40-bcbc2ff2b7e4
+  _name: 'Vercel Webinar: Living on the edge'
+  type: event
+  fields:
+    image:
+      type: image
+      value: >-
+        https://media.licdn.com/dms/image/D4E1EAQFGxsad8M1CSw/event-background-image-crop_720_1280/0/1686912915865?e=1688742000&v=beta&t=ouv4uiQ3rlvTfvvNbo4RTMXkjz7ve6p3dmBMSz_Fn34
+    title:
+      type: text
+      value: Living on the edge | Delivering dynamic content faster
+    endDate:
+      type: text
+      value: '2023-06-29'
+    endTime:
+      type: text
+      value: '18:00'
+    eventType:
+      type: select
+      value: webinar
+    startDate:
+      type: text
+      value: '2023-06-29'
+    startTime:
+      type: text
+      value: '17:00'
+    teaserText:
+      type: text
+      value: >-
+        The edge may sound like a dangerous place, but today it’s the key to
+        empowering builders to deliver dynamic content faster.
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The edge may sound like a dangerous place, but today it’s
+                    the key to empowering builders to deliver dynamic content
+                    faster.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - mode: normal
+                  text: 'On June 29, join '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.linkedin.com/in/ACoAAAPE3NAB3bA7Stifem4zc0Q422btybZj_BY
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Malte Ubl
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', CTO of '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.linkedin.com/company/vercel/
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Vercel
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.linkedin.com/in/ACoAAAEDtrkBdqJhOjbg0I7FKfHY4BjDobwMQ78
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Alex Shyba
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', CTO of '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.linkedin.com/company/uniformdev/
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Uniform
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , as they demystify the questions surrounding edge content
+                    delivery and showcase its potential in a live demo.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - type: linebreak
+                  version: 1
+                - mode: normal
+                  text: 'You’ll learn:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        What delivering at the edge means for your web
+                        experiences
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        How modern dev tools are empowering marketers with
+                        headless and Jamstack tools
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: How to put the theory into practice in a live demo
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+          direction: ltr
+    internalName:
+      type: text
+      value: 'Vercel Webinar: Living on the edge'

@@ -1,0 +1,67 @@
+composition:
+  _name: Regions
+  _id: 0ae7e96c-9998-49e5-bce4-248a417567a0
+  _slug: regions
+  type: page
+  slots:
+    sections:
+      - _id: 6ccb7c39-3d0a-422d-b5c9-2960b0dc5827
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 54bdf0c9-f2d4-40a4-b44d-bae5c4ede3a6
+              type: gridContainer
+              slots:
+                items:
+                  - _id: f7fa388a-92d7-48eb-a6a5-3e34b337a2a2
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: e57c83bf-f399-4267-81cc-6f5788eb397e
+                          type: card
+                          slots:
+                            actions:
+                              - _id: 14c9a9f5-4d56-46ad-bcc1-0719fb9642d5
+                                type: callToAction
+                                parameters:
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: View region
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                en-US: ${#jptr:/Regions data Loop Item/name}
+                    _dataResources:
+                      Regions data Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Regions/data
+              parameters:
+                columns:
+                  type: number
+                  value: '2'
+          heading:
+            - _id: 6450e960-ce64-43ab-9c28-6fc2587bbcbf
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: All regions
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+  _dataResources:
+    Regions:
+      type: allRegions
+      variables: {}
+  _locales:
+    - en-US
+created: '2024-01-12T10:54:08.663335+00:00'
+modified: '2024-01-12T10:57:07.466303+00:00'
+pattern: false

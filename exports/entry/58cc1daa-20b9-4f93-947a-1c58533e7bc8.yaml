@@ -1,0 +1,35 @@
+created: '2023-06-30T15:31:54.782+00:00'
+modified: '2023-07-20T12:50:05.690484+00:00'
+pattern: false
+entry:
+  _id: 58cc1daa-20b9-4f93-947a-1c58533e7bc8
+  _name: Ultimate makeover. Make an existing Sitecore solution...
+  _slug: ultimate-makeover-make-an-existing-sitecore-solution
+  type: event
+  fields:
+    link:
+      type: link
+      value:
+        path: >-
+          https://www.linkedin.com/events/ultimatemakeover-makeanexisting7075503215097561088
+        type: url
+    image:
+      type: image
+      value: >-
+        https://media.licdn.com/dms/image/D4E24AQFViYDaA22crQ/feedshare-live-thumbnail_high/0/1687442417681?e=1688745600&v=beta&t=vuxrGa1k8e1MhfO6vq771phlI8-eAcNResD7jM3lu7g
+    title:
+      type: text
+      value: >-
+        Ultimate makeover. Make an existing Sitecore solution modern and
+        composable
+    eventType:
+      type: select
+      value: webinar
+    teaserText:
+      type: text
+      value: What Legacy? A uniform Live stream series.
+    internalName:
+      type: text
+      value: >-
+        Ultimate makeover. Make an existing Sitecore solution modern and
+        composable

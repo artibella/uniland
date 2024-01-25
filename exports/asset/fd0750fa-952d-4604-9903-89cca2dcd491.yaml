@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: fd0750fa-952d-4604-9903-89cca2dcd491
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: perfectcup_article.jpg
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: fd0750fa-952d-4604-9903-89cca2dcd491
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/l7p8egMQRh6ue4fEeTWZ1w-perfectcup_article.jpg
+      type: text
+    size:
+      value: 198090
+      type: number
+    width:
+      value: 1704
+      type: number
+    height:
+      value: 1074
+      type: number
+    custom: {}
+created: '2023-10-09T14:58:14.356513+00:00'
+modified: '2023-10-09T14:58:14.356513+00:00'

@@ -1,0 +1,116 @@
+id: testContentType
+name: Test Content type
+created: '2024-01-04T14:00:09.069138+00:00'
+updated: '2024-01-04T14:00:09.069138+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: body
+    name: Body
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: priority
+    name: Priority
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: low
+          value: low
+        - text: medium
+          value: medium
+        - text: high
+          value: high
+        - text: highest
+          value: highest
+    localizable: false
+  - id: rating
+    name: Rating
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '5'
+      min: '0'
+    localizable: true
+  - id: activeSince
+    name: Active since
+    type: date
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: enabled
+    name: Enabled
+    type: checkbox
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: imageUrl
+    name: Image URL
+    type: image
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: settings
+    name: Settings
+    type: json
+    helpText: ''
+    typeConfig: {}
+    localizable: false
+  - id: media
+    name: Media
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: true
+  - id: tags
+    name: Tags
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - taxonomyBlock
+        - $loop
+entryName: title
+description: Delete me after testing
+icon: trash
+type: contentType
+permissions: []

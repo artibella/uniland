@@ -1,0 +1,23 @@
+id: entriesByCategory
+displayName: Entries by category
+ttl: 30
+path: /compendium/category/${category}
+custom:
+  proposedName: compendium/category/${category}
+method: GET
+purgeKey: 89dfff52-830d-4afb-b890-4b30ffa8e65f
+archetype: default
+variables:
+  game:
+    type: text
+    default: botw
+    helpText: 'Which Zelda game: valid values are "botw", "totk"'
+  category:
+    type: text
+    default: ''
+    helpText: 'Allowed values: monsters, creatures, equipment, materials, treasure'
+parameters:
+  - key: game
+    value: ${game}
+dataSourceId: hyruleCompendiumApi
+allowedOnComponents: []

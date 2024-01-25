@@ -1,0 +1,521 @@
+created: '2023-11-14T12:23:43.888852+00:00'
+modified: '2023-11-14T12:27:29.288189+00:00'
+pattern: false
+entry:
+  _id: 8b060eb7-b21e-496d-b876-579a3ed5aac6
+  _name: Why visual tools are essential for enterprise marketers
+  _slug: visual-tools-are-essential-for-enterprise-marketers
+  type: blogPost
+  fields:
+    date:
+      type: text
+      value: '2023-09-26'
+    title:
+      type: text
+      value: Why visual tools are essential for enterprise marketers
+    author:
+      type: text
+      value: Darren Guarnaccia
+    postBody:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "As an enterprise marketer, you rely on a few dedicated tools to build high-performing experiences in an omnichannel world. Yet, creating these experiences often requires multiple overlapping platforms, bridging disconnected storage systems, and adding lots of code on the backend to glue it together. Over\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://contentmarketinginstitute.com/articles/enterprise-marketers-challenges-opportunities-research
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 40 percent
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_of enterprise marketers acknowledge that technology integration is a major challenge."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Once the experience is built, it is published live blindly
+                    because their experience-building tools lack the
+                    functionality to preview the creation prior. This results in
+                    additional cycles played out live as the digit team
+                    collectively works to get it right.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    With so many obstacles along the digital production process,
+                    launching and scaling effective campaigns rarely comes at
+                    the speed the market demands.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    And it all begins with marketers, who are visual creators by
+                    nature. They are accustomed to working in visual mediums,
+                    experimenting and perfecting before any content sees the
+                    light of day.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    To overcome these technical and workflow challenges to
+                    launch key engagements at lightning speed, marketing teams
+                    need to adopt a modern, visual-first workspace that offers
+                    native tools and access to content data company-wide.Here
+                    are three reasons why a visual tool is critical to empower
+                    digital teams and win customers with unforgettable brand
+                    experiences.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - link:
+                    path: >-
+                      https://www.uniform.dev/blogs/why-visual-tools-are-essential-for-enterprise-marketers#visual-tools-help-marketers-achieve-speed-to-market
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Visual tools help marketers achieve speed to market
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "When it comes to converting quality leads and revealing new opportunities, speed is key.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.mckinsey.com/industries/retail/our-insights/retails-need-for-speed-unlocking-value-in-omnichannel-delivery
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Research
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_shows that a fast\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/which-digital-experience-architecture-is-right-for-your-business
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: omnichannel experience
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_is crucial for keeping pace with industry competitors and customers’ desire for instant gratification.For most enterprises there is friction along the path to market. Perhaps your team is stuck with\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/mach-versus-monolithic-suites
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: rigid, outdated solutions
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_that can no longer keep up with rapidly changing customer demands.Or, they are overwhelmed by the complexity of backend systems and require developer support–delaying all projects as resources are shifted to support the website.Visual-first technology will help you work faster by enabling you to:"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Speed the launch of campaigns by removing code from
+                        production workflows.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Freely create and experiment within defined brand
+                        guidelines.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Have the bandwidth to focus on delivering quickly,
+                        meeting deadlines, and keeping the brand competitive.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Intuitive visual platforms unlock your creativity and
+                    potential, enabling you to keep projects on track, ensure
+                    cross-channel channel consistency, and respond to market
+                    demands.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - link:
+                    path: >-
+                      https://www.uniform.dev/blogs/why-visual-tools-are-essential-for-enterprise-marketers#visual-tools-can-unify-access-to-content-and-data-across-the-enterprise
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Visual tools can unify access to content and data across
+                        the enterprise
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Enterprise teams are wasting valuable time chasing down content that is scattered and siloed across multiple storage systems. A frustrating loss of time when your brand needs speed to be competitive.What if your workspace gave you direct access to the full range of your organization's content? Instead of logging into multiple systems, worsening the problem by downloading and duplicating files, you are able to visually compose experiences inside an interface where content from anywhere is a click away, regardless of where it is stored.The first\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/what-is-visual-workspace
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: visual workspace
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_to be released does just this. It gives you in-platform access to decentralized data and content, helping you break down silos, save time, and stay focused at the heart of the digital production process."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - link:
+                    path: >-
+                      https://www.uniform.dev/blogs/why-visual-tools-are-essential-for-enterprise-marketers#visual-tools-support-digital-teams-that-must-do-more-with-less
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Visual tools support digital teams that must do more
+                        with less
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "In the uncertainty of today’s market, digital teams grapple with tight budgets, less personnel, and spiking competition — all while creating experiences that break through the noise to meet ever-increasing sales goals. It’s no surprise you crave back-end cohesion, purpose-built tools, and speed-sensitive workflows.We marketers thrive in hands-on visual mediums that encourage experimentation. We need complete control of our brand’s look and feel. The new\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/what-is-visual-workspace
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: visual workspace
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_offers both: designing experiences with brand-ready components like building blocks, while previewing the results in real time.With the right tool, you gain more autonomy over campaign creation and publishing. That, in turn, frees developers from writing code for marketing efforts, giving you the space to do what you do best: create personalized, data-driven experiences that go live without technical support."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - link:
+                    path: >-
+                      https://www.uniform.dev/blogs/why-visual-tools-are-essential-for-enterprise-marketers#the-benefits-of-a-visual-workspace-are-within-reach
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: The benefits of a visual workspace are within reach
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Having the right visual tools in place is a win-win
+                    situation for marketing teams, IT, and the enterprise as a
+                    whole. A centralized workspace will help you reach your
+                    corporate goals, accelerate brand engagement, and be
+                    proactive instead of reactive to changing customer
+                    expectations.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/demo
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Schedule a free demo
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_now to explore Uniform’s visual tools and discover how to optimize your martech stack."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      value: >-
+        As an enterprise marketer, you rely on a few dedicated tools to build
+        high-performing experiences in an omnichannel world. Yet, creating these
+        experiences often requires multiple overlapping platforms, bridging
+        disconnected storage systems, and adding lots of code on the backend to
+        glue it together
+    postImage:
+      type: image
+      value: >-
+        https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_768,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/6J25M9oLbTeNprBucNWr0a/25995c5ddc218f9f9a99c6cd97920171/Asset_2.png

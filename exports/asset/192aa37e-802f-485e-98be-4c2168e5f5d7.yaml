@@ -1,0 +1,34 @@
+asset:
+  type: image
+  _id: 192aa37e-802f-485e-98be-4c2168e5f5d7
+  _name: >-
+    the-best-slow-cooked-bolognese-sauce-recipe-hero-03_1-3bf4f3401fa84c828f68071df496ddd3.webp
+  fields:
+    title:
+      type: text
+      value: The best slow cooked sauce Bolognese
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: 192aa37e-802f-485e-98be-4c2168e5f5d7
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vw6kLLjPSracZA2LZMSOjg-the-best-slow-cooked-bolognese-sauce-recipe-hero-03_1-3bf4f3401fa84c828f68071df496ddd3.webp
+      type: text
+    size:
+      value: 215262
+      type: number
+    width:
+      value: 1500
+      type: number
+    height:
+      value: 1125
+      type: number
+    custom: {}
+created: '2023-10-09T14:59:06.832221+00:00'
+modified: '2023-11-22T12:13:00.365779+00:00'

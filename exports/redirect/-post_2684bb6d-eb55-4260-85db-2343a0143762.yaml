@@ -1,0 +1,11 @@
+id: 2684bb6d-eb55-4260-85db-2343a0143762
+sourceUrl: /news/:post
+sourceRetainQuerystring: true
+targetUrl: /blog/:post
+targetStatusCode: 301
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: false

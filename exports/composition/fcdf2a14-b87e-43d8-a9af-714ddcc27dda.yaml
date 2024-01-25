@@ -1,0 +1,107 @@
+composition:
+  _name: Recipes
+  _id: fcdf2a14-b87e-43d8-a9af-714ddcc27dda
+  _slug: recipes
+  type: page
+  slots:
+    hero:
+      - _id: 555ba95c-8b9f-481e-96da-41fca8706134
+        type: hero
+        slots:
+          heading:
+            - _id: 2025cf24-f19c-49d7-8031-3c77fa06f3f2
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: ${#jptr:/Hero Recipe/entry/fields/name/value}
+                byline:
+                  type: text
+                  value: Recipe of the day
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+        parameters:
+          body:
+            type: text
+            value: ${#jptr:/Hero Recipe/entry/fields/subtitle/value}
+          imageFit:
+            type: select
+            value: contain
+          imageUrl:
+            type: text
+            value: >-
+              ${#jptr:/Hero
+              Recipe/entry/fields/featuredImage/value/0/fields/url/value}
+    sections:
+      - _id: c84a48a4-e820-4eb7-9056-3f7ad0afd71a
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 0eddb43e-4290-4815-9c55-4ef6f0157f3e
+              type: gridContainer
+              slots:
+                items:
+                  - _id: c4cf08c1-4408-4855-a588-f2dfd1f38cf9
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: f8606d9a-bc35-4371-b1e9-adffbf027529
+                          type: card
+                          parameters:
+                            body:
+                              type: text
+                              value: >-
+                                ${#jptr:/Recipe List Content entries Loop
+                                Item/entry/fields/subtitle/value}
+                            image:
+                              type: text
+                              value: >-
+                                ${#jptr:/Recipe List Content entries Loop
+                                Item/entry/fields/featuredImage/value/0/fields/url/value}
+                            title:
+                              type: text
+                              value: >-
+                                ${#jptr:/Recipe List Content entries Loop
+                                Item/entry/fields/name/value}
+                    _dataResources:
+                      Recipe List Content entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Recipe List Content/entries
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+          heading:
+            - _id: 1a74b7b7-a1e0-4351-b59a-dfd47465049e
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  value: Join the Pizza Party 🍕!
+                tagName:
+                  type: select
+                  value: h2
+        parameters:
+          theme:
+            type: select
+            value: mango
+  _dataResources:
+    Hero Recipe:
+      type: recipe
+      variables:
+        entryId: 687994c6-6f80-4446-9f4a-0e575d70b3b6
+    Recipe List Content:
+      type: recipeList
+      variables:
+        orderBy: created_at_DESC
+        contentTypes: recipe
+  _locales:
+    - en-US
+created: '2023-10-27T14:30:34.264021+00:00'
+modified: '2023-12-13T11:39:04.643779+00:00'
+pattern: false

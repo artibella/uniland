@@ -1,0 +1,52 @@
+id: integration
+displayName: Integration
+ttl: 30
+path: /entries?${filters}
+custom:
+  include: 5
+  imagePath: icon
+  allowContentTypeIds:
+    - integration
+  enableFilterByLocale: true
+  enableAdvancedFilters: false
+method: GET
+purgeKey: 18a6ca1f-5c0c-4b5c-ba9d-87770d8dbea4
+archetype: singleEntry
+variables:
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  order:
+    type: text
+    default: ''
+    displayName: Order
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  filters:
+    type: text
+    default: ''
+    displayName: Filters
+  keyword:
+    type: text
+    default: ''
+    displayName: Search Text
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+  contentTypeId:
+    type: text
+    default: ''
+    displayName: Content Type
+parameters:
+  - key: include
+    value: '5'
+  - key: locale
+    value: ${locale}
+  - key: sys.id[in]
+    value: ${entryIds}
+dataSourceId: uniformWebsite
+allowedOnComponents: []

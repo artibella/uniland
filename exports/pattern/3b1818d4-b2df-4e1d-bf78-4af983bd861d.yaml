@@ -1,0 +1,58 @@
+composition:
+  _name: Round image
+  _id: 3b1818d4-b2df-4e1d-bf78-4af983bd861d
+  type: imageBlock
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: b2197973-4ac1-41b1-8c56-54066b54a562
+          type: image
+          fields:
+            id:
+              type: text
+              value: https://randomuser.me/api/portraits/women/55.jpg
+            url:
+              type: text
+              value: >-
+                https://res.cloudinary.com/content-ops/image/fetch/v1701872951/https://randomuser.me/api/portraits/women/55.jpg
+            size:
+              type: number
+              value: 5383
+            title:
+              type: text
+              value: ''
+            width:
+              type: number
+              value: 128
+            height:
+              type: number
+              value: 128
+          _source: cloudinary-bfc659af-e8b0-4e5a-b75e-b44dc65d67f6
+    imageFit:
+      type: select
+      value: cover
+    aspectRatio:
+      type: select
+      value: square
+    borderRadius:
+      type: select
+      value: full
+  _overridability:
+    parameters:
+      image: 'yes'
+      title: 'yes'
+      altText: 'no'
+      caption: 'no'
+      imageFit: 'yes'
+      imageUrl: 'no'
+      imageWidth: 'yes'
+      aspectRatio: 'yes'
+      borderRadius: 'yes'
+      imagePosition: 'yes'
+      backgroundStyle: 'yes'
+  _locales:
+    - en-US
+created: '2024-01-10T08:43:37.119242+00:00'
+modified: '2024-01-10T08:43:37.119242+00:00'
+pattern: true

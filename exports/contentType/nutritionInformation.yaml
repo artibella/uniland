@@ -1,0 +1,59 @@
+id: nutritionInformation
+name: Nutrition Information
+created: '2023-10-11T11:52:44.160187+00:00'
+updated: '2023-10-11T12:58:55.635753+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: type
+    name: Type
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Calories
+          value: calories
+        - text: Carbohydrate
+          value: carbohydrate
+        - text: Cholesterol
+          value: cholesterol
+        - text: Fat
+          value: fat
+        - text: Fiber
+          value: fiber
+        - text: Protein
+          value: protein
+        - text: Saturated Fat
+          value: saturatedFat
+        - text: Sodium
+          value: sodium
+        - text: Trans Fat
+          value: transFat
+        - text: Unsaturated Fat
+          value: unsaturatedFat
+        - text: Sugar
+          value: sugar
+  - id: amount
+    name: Amount
+    type: number
+    helpText: ''
+    typeConfig:
+      decimal: true
+  - id: unit
+    name: Unit
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Gramm
+          value: g
+        - text: Kilo Joule
+          value: kJ
+        - text: Milligram
+          value: mg
+entryName: type
+description: Nutrition information per serving for calories, carbs, protein, etc.
+icon: chart
+type: block
+permissions: []

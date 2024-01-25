@@ -1,0 +1,14 @@
+id: blogPost
+displayName: Blog Post
+ttl: 30
+path: /multiple
+custom: {}
+method: GET
+purgeKey: 4b649181-f11c-4391-9314-abe13e87262a
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

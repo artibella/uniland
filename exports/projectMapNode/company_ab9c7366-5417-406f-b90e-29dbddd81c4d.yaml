@@ -1,0 +1,8 @@
+id: ab9c7366-5417-406f-b90e-29dbddd81c4d
+name: Company
+type: placeholder
+data: {}
+order: 650
+path: /:locale/company
+pathSegment: company
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

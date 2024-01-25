@@ -1,0 +1,11 @@
+id: allRegions
+displayName: All Regions
+ttl: 30
+path: /regions/all
+custom:
+  proposedName: regions/all
+method: GET
+purgeKey: 490b2ad6-66ce-44e8-80e6-d159d62b177f
+archetype: default
+dataSourceId: hyruleCompendiumApi
+allowedOnComponents: []

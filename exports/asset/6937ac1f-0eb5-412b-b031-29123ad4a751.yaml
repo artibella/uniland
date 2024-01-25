@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 6937ac1f-0eb5-412b-b031-29123ad4a751
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: image.png
+    file:
+      type: file
+      value: fb068195-90a1-4b4c-8105-e065034980ce
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/rBMptmGKRY-899JsREeOLw-image.png
+      type: text
+    size:
+      value: 988266
+      type: number
+    width:
+      value: 1500
+      type: number
+    height:
+      value: 1000
+      type: number
+    custom: {}
+created: '2023-10-27T14:14:25.408296+00:00'
+modified: '2023-10-27T14:14:25.408296+00:00'

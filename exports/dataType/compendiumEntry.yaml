@@ -1,0 +1,24 @@
+id: compendiumEntry
+displayName: Compendium Entry
+ttl: 30
+path: /compendium/entry/${Entry}
+custom:
+  proposedName: compendium/entry/${Entry}
+method: GET
+purgeKey: a6fe7d2c-195c-4def-a788-86e0e5e06596
+archetype: default
+variables:
+  game:
+    type: text
+    default: botw
+    helpText: 'Which Zelda game: valid values are "botw", "totk"'
+  Entry:
+    type: text
+    default: ''
+    helpText: Name or ID of entry to fetch
+parameters:
+  - key: game
+    value: ${game}
+    omitIfEmpty: true
+dataSourceId: hyruleCompendiumApi
+allowedOnComponents: []

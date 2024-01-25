@@ -1,0 +1,9 @@
+id: 7156797a-41ca-42b3-a62a-8aecebe461df
+name: Shop
+type: composition
+data: {}
+order: 250
+path: /:locale/shop
+compositionId: 159cec9e-0eda-460f-bc32-bfdd6ce748b5
+pathSegment: shop
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

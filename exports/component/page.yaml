@@ -1,0 +1,40 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: page
+name: Page
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+description: A generic page type which has a hero and a single content slot
+useTeamPermissions: true
+slots:
+  - id: hero
+    name: Hero
+    maxComponents: 1
+    allowedComponents:
+      - $personalization
+      - $test
+      - $localization
+      - hero
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: sections
+    name: Sections
+    allowedComponents:
+      - $personalization
+      - $test
+      - $localization
+      - $loop
+      - sectionContainer
+      - hero
+      - conditionalContainer
+    inheritAllowedComponents: false
+titleParameter: title
+canBeComposition: true
+created: '2022-12-15T14:08:27.337946+00:00'
+updated: '2024-01-15T18:57:14.944117+00:00'

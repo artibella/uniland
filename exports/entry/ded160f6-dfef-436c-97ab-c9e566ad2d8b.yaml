@@ -1,0 +1,15 @@
+created: '2023-11-09T15:33:14.806399+00:00'
+modified: '2023-11-09T15:34:02.425096+00:00'
+pattern: false
+entry:
+  _id: ded160f6-dfef-436c-97ab-c9e566ad2d8b
+  _name: Uniform Systems Inc
+  _slug: new-entry-organization
+  type: organization
+  fields:
+    logo:
+      type: asset
+      value: []
+    name:
+      type: text
+      value: Uniform Systems Inc

@@ -1,0 +1,36 @@
+created: '2023-12-05T10:04:36.314841+00:00'
+modified: '2023-12-05T10:09:03.056453+00:00'
+pattern: false
+entry:
+  _id: 9ea65198-cf1d-4195-be2b-cf89053648a8
+  _name: Featured
+  _slug: featured
+  type: productCollection
+  fields:
+    name:
+      type: text
+      value: ${#jptr:/Collection/data/collection/title}
+    image:
+      type: asset
+      value:
+        - _id: 899ccc4f-874b-4550-9571-b8c4930fc561
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Collection/data/collection/image/url}
+            title:
+              type: text
+              value: ${#jptr:/Collection/data/collection/title}
+            description:
+              type: text
+              value: ${#jptr:/Collection/data/collection/title}
+          _source: custom-url
+    reference:
+      type: text
+      value: ${#jptr:/Collection/data/collection/id}
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables: {}
+  _thumbnail: ${#jptr:/Collection/data/collection/image/url}

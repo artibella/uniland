@@ -1,0 +1,498 @@
+created: '2023-10-11T12:33:31.375818+00:00'
+modified: '2023-10-11T15:47:10.824697+00:00'
+pattern: false
+entry:
+  _id: 7b367a19-5f74-4add-8e8b-6a444b33e09f
+  _name: Cheeses Pizza
+  _slug: chesses-pizza
+  type: recipe
+  fields:
+    name:
+      type: text
+      value: Cheeses Pizza
+    intro:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+          direction: null
+    subtitle:
+      type: text
+      value: Cacio e pepe meets pizza
+    sourceUrl:
+      type: link
+      value:
+        path: https://cooking.nytimes.com/recipes/1016232-cheeses-pizza
+        type: url
+    difficulty:
+      type: select
+      value: medium
+    cookingTime:
+      type: text
+      value: 15 minutes
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This is a pizza reimagining of the classic '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Roman pasta dish cacio e pepe
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , pasta served with only cheese and black pepper. It came to
+                    The Times from the kitchens of Roberta’s restaurant in
+                    Brooklyn, a pizzeria and lifestyle collective that occupies
+                    a number of buildings and lots in a far corner of the
+                    Bushwick neighborhood.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Cream slicks the dough, and a mixture of mozzarella and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: tangy taleggio
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' tops it. A '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: shocking
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ' amount of freshly ground black pepper follows that application and, after the pizza is cooked, a shower of grated Parmesan. A drizzle of honey over the top would not be blasphemy.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - type: recipeIngredient
+          fields:
+            name:
+              type: text
+              value: 1 12-inch round of pizza dough, stretched
+            amount:
+              type: number
+              value: '1'
+            ingredientText:
+              type: text
+              value: 12-inch round of pizza dough
+        - type: recipeIngredient
+          fields:
+            name:
+              type: text
+              value: 4 teaspoons heavy cream
+            unit:
+              type: select
+              value: tsp
+            amount:
+              type: number
+              value: '4'
+            ingredientText:
+              type: text
+              value: heavy cream
+        - type: recipeIngredient
+          fields:
+            name:
+              type: text
+              value: 2 ounces fresh mozzarella
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '2'
+            ingredientText:
+              type: text
+              value: mozzarella
+            ingredientPrefix:
+              type: text
+              value: fresh
+        - type: recipeIngredient
+          fields:
+            name:
+              type: text
+              value: 1 ½ ounces fresh taleggio
+            unit:
+              type: select
+              value: oz
+            amountText:
+              type: text
+              value: 1 ½
+            ingredientText:
+              type: text
+              value: taleggio
+            ingredientPrefix:
+              type: text
+              value: fresh
+        - type: recipeIngredient
+          fields:
+            name:
+              type: text
+              value: Ground black pepper
+            ingredientText:
+              type: text
+              value: black pepper
+        - type: recipeIngredient
+          fields:
+            name:
+              type: text
+              value: 1 ounce Parmesan, finely grated
+            unit:
+              type: select
+              value: oz
+            amount:
+              type: number
+              value: '1'
+            ingredientText:
+              type: text
+              value: Parmesan
+            ingredientSuffix:
+              type: text
+              value: finely grated
+    ratingCount:
+      type: number
+      value: '918'
+    ratingValue:
+      type: number
+      value: '5'
+    recipeYield:
+      type: text
+      value: 1 pizza
+    instructions:
+      type: $block
+      value:
+        - type: howtoStep
+          fields:
+            name:
+              type: text
+              value: Step 1
+            description:
+              type: richText
+              value:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Place a pizza stone or tiles on the middle rack of
+                            your oven and turn heat to its highest setting. Let
+                            it heat for at least an hour.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+        - type: howtoStep
+          fields:
+            name:
+              type: text
+              value: Step 2
+            description:
+              type: richText
+              value:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Drizzle the cream over the stretched dough. Break
+                            the mozzarella into large pieces and gently place
+                            these on the dough. Break the taleggio into pieces
+                            and do the same. Grind an exceptional amount of
+                            black pepper onto the surface of the pie,
+                            approximately 8 to 10 grinds.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+        - type: howtoStep
+          fields:
+            name:
+              type: text
+              value: Step 3
+            description:
+              type: richText
+              value:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Using a pizza peel, pick up the pie and slide it
+                            onto the heated stone or tiles in the oven. Bake
+                            until the crust is golden brown and the cheese is
+                            bubbling, approximately 4 to 8 minutes
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+        - type: howtoStep
+          fields:
+            name:
+              type: text
+              value: Step 4
+            description:
+              type: richText
+              value:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Scatter the Parmesan over the pizza and serve
+                            immediately.
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: c90b8e60-554d-455d-8587-598981811514
+          _source: uniform-assets
+          type: image
+          fields:
+            id:
+              type: text
+              value: c90b8e60-554d-455d-8587-598981811514
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ZMUgX3yWSH6xn747gdGnRA-image.png
+              type: text
+            title:
+              type: text
+              value: image.png
+            width:
+              value: 600
+              type: number
+            height:
+              value: 412
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+            description:
+              type: text
+              value: ''
+            size:
+              value: 591759
+              type: number
+    nutritionFacts:
+      type: $block
+      value:
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: calories
+            amount:
+              type: number
+              value: '549'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '23'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: saturatedFat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '13'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: transFat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '0'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: unsaturatedFat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '8'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: carbohydrate
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '59'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: protein
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '26'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fiber
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '3'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: sodium
+            unit:
+              type: select
+              value: mg
+            amount:
+              type: number
+              value: '1255'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: sugar
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '2'
+    preparationTime:
+      type: text
+      value: 1 hour to heat oven
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ZMUgX3yWSH6xn747gdGnRA-image.png

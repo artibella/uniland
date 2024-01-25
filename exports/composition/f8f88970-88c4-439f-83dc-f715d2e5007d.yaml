@@ -1,0 +1,438 @@
+composition:
+  _name: Compendium
+  _id: f8f88970-88c4-439f-83dc-f715d2e5007d
+  _slug: compendium
+  type: page
+  slots:
+    hero:
+      - _id: 965b0a90-5662-4b7b-82a9-bf513b08622d
+        type: hero
+        slots:
+          heading:
+            - _id: fd80e274-726b-4cd8-9a4d-8f7325d74f11
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Hyrule Compendium
+                    en-US: Hyrule Compendium
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+        parameters:
+          imageFit:
+            type: select
+            locales:
+              en-US: scale-down
+          imageUrl:
+            type: text
+            locales:
+              en-US: >-
+                https://gadhagod.github.io/Hyrule-Compendium-API/assets/light_logo.png
+    sections:
+      - _id: ea2e9062-bde1-4b18-bc59-118546cb8a67
+        type: sectionContainer
+        slots:
+          content:
+            - _id: d5bfe920-af33-48ab-9a5e-6c2d82efe91b
+              type: linkList
+              slots:
+                items:
+                  - _id: 145e324f-4cc1-4c78-a6d2-ab071fd4e892
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: creatures
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: creatures
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Tiere
+                          en-US: Creatures
+                      description:
+                        type: text
+                        locales:
+                          de-DE: Alle Tiere und Kreaturen
+                          en-US: All the creatures - big and small
+                  - _id: 936a33b2-b443-4178-8da4-6b55c5bef43e
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: monsters
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: monsters
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Monster
+                          en-US: Monsters
+                      description:
+                        type: text
+                        locales:
+                          de-DE: alle Monster - egal ob groß oder kein
+                          en-US: All the monsters - big and small
+                  - _id: e0c04ab6-36a5-41af-9936-678c6ff09d7b
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: materials
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: materials
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Gegenstände
+                          en-US: Materials
+                      description:
+                        type: text
+                        locales:
+                          de-DE: alles was man so braucht
+                          en-US: Stuff that you can use
+                  - _id: 8517d79c-4ff8-460a-a69b-1d1ea96ba993
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: equipment
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: equipment
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Waffen & Ausrüstung
+                          en-US: Weapons
+                      description:
+                        type: text
+                        locales:
+                          de-DE: >-
+                            Schwerter, Schilder, Speere, Pfeil und Bogen und
+                            mehr
+                          en-US: Swords, shields, arrows and more
+                  - _id: b3505f1a-1273-426c-93f9-abe59bfeef42
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: treasure
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: botw
+                              locale: ${locale}
+                              category: treasure
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Schätze
+                          en-US: Treasure
+                      description:
+                        type: text
+                        locales:
+                          de-DE: alles was dich bereichert
+                          en-US: everyone likes loot
+          heading:
+            - _id: ad719889-e796-4edd-ade2-8e0720e3920c
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke BOTW
+                    en-US: Browse BOTW categories
+                tagName:
+                  type: select
+                  value: h2
+        parameters:
+          theme:
+            type: select
+            locales:
+              de-DE: spring
+              en-US: spring
+      - _id: 50b43fb2-10ca-4a8e-986d-5f61460a73e0
+        type: sectionContainer
+        slots:
+          content:
+            - _id: a9b7847b-f1c2-46a0-889f-ca1f6f3e5905
+              type: linkList
+              slots:
+                items:
+                  - _id: 111fb115-e107-4cb3-b819-c8768390c114
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: creatures
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: creatures
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Tiere
+                          en-US: Creatures
+                      description:
+                        type: text
+                        locales:
+                          de-DE: Alle Tiere und Kreaturen
+                          en-US: All the creatures - big and small
+                  - _id: 176c248b-bc7a-4e89-8e6e-422b19f2e5eb
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: monsters
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: monsters
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Monster
+                          en-US: Monsters
+                      description:
+                        type: text
+                        locales:
+                          de-DE: alle Monster - egal ob groß oder kein
+                          en-US: All the monsters - big and small
+                  - _id: 2ab67ea6-4d2f-4f46-a765-51cf4f16a45a
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: materials
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: materials
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Gegenstände
+                          en-US: Materials
+                      description:
+                        type: text
+                        locales:
+                          de-DE: alles was man so braucht
+                          en-US: Stuff that you can use
+                  - _id: 43d65737-641b-48e6-9b3d-95f3bbcba7e8
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: equipment
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: equipment
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Waffen & Ausrüstung
+                          en-US: Weapons
+                      description:
+                        type: text
+                        locales:
+                          de-DE: >-
+                            Schwerter, Schilder, Speere, Pfeil und Bogen und
+                            mehr
+                          en-US: Swords, shields, arrows and more
+                  - _id: 13209a6f-9cb8-43bf-b8e5-17adb3572305
+                    type: linkListItem
+                    parameters:
+                      link:
+                        type: link
+                        locales:
+                          de-DE:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: treasure
+                          en-US:
+                            path: /:locale/compendium/:category
+                            type: projectMapNode
+                            nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                            dynamicInputValues:
+                              game: totk
+                              locale: ${locale}
+                              category: treasure
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Schätze
+                          en-US: Treasure
+                      description:
+                        type: text
+                        locales:
+                          de-DE: alles was dich bereichert
+                          en-US: everyone likes loot
+          heading:
+            - _id: efdc3d86-cfc8-4d0a-851e-d3a9bc56e46f
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Entdecke TotK
+                    en-US: Browse TOTK categories
+                tagName:
+                  type: select
+                  value: h2
+        parameters:
+          theme:
+            type: select
+            locales:
+              de-DE: ice
+              en-US: ice
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-12T11:20:55.950926+00:00'
+modified: '2024-01-16T12:37:19.440285+00:00'
+pattern: false

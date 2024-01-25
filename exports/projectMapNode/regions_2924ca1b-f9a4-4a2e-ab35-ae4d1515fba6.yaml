@@ -1,0 +1,9 @@
+id: 2924ca1b-f9a4-4a2e-ab35-ae4d1515fba6
+name: Regions
+type: composition
+data: {}
+order: 500
+path: /:locale/compendium/regions
+compositionId: 0ae7e96c-9998-49e5-bce4-248a417567a0
+pathSegment: regions
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

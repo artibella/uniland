@@ -1,0 +1,7 @@
+id: berliner
+name: Berliner
+description: ''
+type: 0
+inputs:
+  - dim: berlinVisitor
+    sign: +

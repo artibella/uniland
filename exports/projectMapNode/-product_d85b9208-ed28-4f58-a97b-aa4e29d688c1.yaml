@@ -1,0 +1,9 @@
+id: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+name: Product Detail
+type: composition
+data: {}
+order: 200
+path: /:locale/shop/:product
+compositionId: 04605194-09dd-46ab-bace-1219ed6975d3
+pathSegment: ':product'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

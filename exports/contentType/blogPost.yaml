@@ -1,0 +1,115 @@
+id: blogPost
+name: Blog Post
+created: '2023-05-25T12:26:42.445534+00:00'
+updated: '2023-12-13T16:38:23.474056+00:00'
+slugSettings:
+  unique: 'no'
+  required: 'yes'
+  regularExpression: ''
+  regularExpressionMessage: ''
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: postImage
+    name: Post image
+    type: image
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: group_content
+    name: Content
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - postBody
+        - postContent
+  - id: postBody
+    name: Post Body
+    type: richText
+    helpText: for simple blog posts use this field
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: postContent
+    name: Post Content
+    type: $block
+    helpText: for posts that require more flexibility on the content
+    typeConfig:
+      allowedTypes:
+        - imageBlock
+        - textBlock
+        - mattTest
+  - id: group_postMetadata
+    name: Post metadata
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - author
+        - date
+        - tags
+        - postCategory
+  - id: author
+    name: Author
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: date
+    name: Date
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: tags
+    name: Tags
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - tag
+        - $loop
+  - id: postCategory
+    name: Post Category
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - taxonomyBlock
+entryName: title
+description: A content type of a simple blog post
+icon: file-document
+type: contentType
+permissions: []

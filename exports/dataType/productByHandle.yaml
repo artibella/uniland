@@ -1,0 +1,26 @@
+id: productByHandle
+displayName: Product by handle
+ttl: 30
+path: ''
+custom:
+  proposedName: ''
+method: GET
+purgeKey: 830c1079-de47-4730-b892-042df8760a03
+archetype: default
+variables:
+  handle:
+    type: text
+    default: men-crewneck
+    helpText: URL slug of the product
+parameters:
+  - key: query
+    value: >-
+      { product(handle: "${handle}") { id title description handle
+      availableForSale options {      name values } featuredImage { id url }
+      images(first:50) { edges { node { altText url id } } } collections(first:
+      50) { totalCount edges { node { handle id title description image {
+      altText url } } } } variants(first: 100){ edges{ node { id title barcode
+      price { amount currencyCode } compareAtPrice{ amount currencyCode } image
+      { id altText url width height } } } } }}
+dataSourceId: mockShop
+allowedOnComponents: []

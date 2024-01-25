@@ -1,0 +1,275 @@
+composition:
+  _name: Blog
+  _id: 7aa3141e-e8ed-4361-a392-42542d7d1e23
+  _slug: blog
+  type: page
+  slots:
+    hero:
+      - _id: b34049b6-0f23-4579-84af-2a42e62dda78
+        type: $localization
+        slots:
+          localized:
+            - _id: 0091459a-2b7d-48d6-a153-60ea0d577f67
+              type: hero
+              slots:
+                heading:
+                  - _id: ca37671e-674f-40b1-bba2-5b99feda19c5
+                    type: heading
+                    parameters:
+                      align:
+                        type: select
+                        value: left
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Uniland blog
+                          en-US: Uniland blog
+                      byline:
+                        type: text
+                        locales:
+                          de-DE: Extra extra
+                          en-US: Extra extra
+                      tagName:
+                        type: select
+                        value: h1
+                      titleRichText:
+                        type: richText
+                        locales:
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: 'Uniland '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: blog
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 10
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: 'Uniland '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: blog
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 10
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+              parameters:
+                locale:
+                  type: localeSelect
+                  value: en-US
+            - _id: 41d21fad-f380-4337-b0b8-3b0916686953
+              type: hero
+              slots:
+                heading:
+                  - _id: 2a92ec51-1c16-4cdc-b82e-a6fafc31e4e5
+                    type: heading
+                    parameters:
+                      align:
+                        type: select
+                        value: left
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Uniland blog
+                          en-US: Uniland blog
+                      byline:
+                        type: text
+                        locales:
+                          de-DE: 'Jetzt neu:'
+                          en-US: 'Jetzt neu:'
+                      tagName:
+                        type: select
+                        value: h1
+                      titleRichText:
+                        type: richText
+                        locales:
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Der Uniland B
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: log
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 10
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: Der Uniland B
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: log
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 10
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+              parameters:
+                body:
+                  type: text
+                  locales:
+                    de-DE: Jetzt auch auf Deutsch 🇩🇪
+                    en-US: Jetzt auch auf Deutsch 🇩🇪
+                locale:
+                  type: localeSelect
+                  value: de-DE
+                imageUrl:
+                  type: text
+                  locales:
+                    de-DE: >-
+                      https://images.unsplash.com/photo-1580746240442-47de5d7e4c7b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                    en-US: >-
+                      https://images.unsplash.com/photo-1580746240442-47de5d7e4c7b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+    sections:
+      - _id: 396d14dc-7e84-4a3c-bc61-d02ead556393
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 177dcef3-c05a-4eb7-b5ee-195e8fb55a6d
+              type: gridContainer
+              _pattern: 0a093cb2-0fa4-451d-9c8a-5e1a86461235
+              _dataResources:
+                Posts:
+                  type: blogPostList
+                  variables:
+                    limit: '3'
+                    offset: '0'
+                    orderBy: created_at_DESC
+                    contentTypes: blogPost
+                    orderByValue: created_at_DESC
+          heading:
+            - _id: 3d0fef0e-b106-46a5-b989-9de81b56f1e7
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Aktuelle Blog Posts
+                    en-US: Latest posts
+      - _id: 71e55be6-46d7-4aa0-ada7-815764be116a
+        type: sectionContainer
+        slots:
+          content:
+            - _id: e8a00954-f250-4111-af09-b5f1453fb473
+              type: gridContainer
+              _pattern: 0a093cb2-0fa4-451d-9c8a-5e1a86461235
+              _dataResources:
+                Posts:
+                  type: blogPostList
+                  variables:
+                    limit: '9'
+                    offset: '3'
+                    orderBy: created_at_DESC
+                    contentTypes: blogPost
+                    orderByValue: created_at_DESC
+          heading:
+            - _id: d51005ec-c3fb-4006-a0aa-fea445b8402d
+              type: heading
+              parameters:
+                theme:
+                  type: select
+                  value: dark
+                title:
+                  type: text
+                  locales:
+                    de-DE: Other posts
+                    en-US: Other posts
+        parameters:
+          theme:
+            type: select
+            locales:
+              de-DE: dark
+              en-US: dark
+  _dataResources:
+    Blog Post:
+      type: blogPost
+      variables:
+        entryId: 5fd38b4a-f35d-471f-a789-3b37b0b9005c
+        entryIds: 1SyaYV2LFE6SNs3CcpVwql
+        contentTypeId: BlogPost
+    Apus Blog Posts:
+      type: blogPostList
+      variables:
+        limit: '10'
+        offset: '0'
+        contentTypes: blogPost
+        orderByValue: created_at_ASC
+  _locales:
+    - en-US
+    - de-DE
+created: '2023-04-28T16:37:42.575106+00:00'
+modified: '2023-12-13T16:36:25.156946+00:00'
+pattern: false

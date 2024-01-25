@@ -1,0 +1,99 @@
+composition:
+  _name: Integrations
+  _id: e0f6974d-8ee3-4a83-85a7-469791358188
+  _slug: integrations
+  type: page
+  slots:
+    sections:
+      - _id: 7f3314f6-7777-4871-8a8f-547c7c9d9257
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 56e95948-33ab-4195-be3e-2e190db248dd
+              type: gridContainer
+              slots:
+                items:
+                  - _id: f6f7713c-e080-49a0-938c-970d2afc4e43
+                    type: card
+                    _pattern: d663c4d1-9383-40b6-96a9-25052fc28e55
+                    _dataResources:
+                      Integration:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 5lnN2LwkTryS4XlOYvVGp3
+                  - _id: e0e4aee0-88d3-4c22-b6aa-ca20c49d8bcb
+                    type: card
+                    _pattern: d663c4d1-9383-40b6-96a9-25052fc28e55
+                    _dataResources:
+                      Integration:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 25lxtgEPg25ClF40aXjj4w
+                  - _id: 510be920-0746-42a8-9918-3173d14ec2e5
+                    type: card
+                    _pattern: d663c4d1-9383-40b6-96a9-25052fc28e55
+                    _dataResources:
+                      Integration:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 38u5echub33ADcVH0pDy7c
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+      - _id: f5d50a2f-ee76-4d05-af82-69b6a1a6312a
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 072d943a-41a3-4716-b81d-1b41f445a465
+              type: gridContainer
+              slots:
+                items:
+                  - _id: a7c5718e-21cc-404f-a8e9-b2b428f90cb2
+                    type: brick
+                    _pattern: e7e2ec3a-9100-4443-b6be-ce5be30bf376
+                    _dataResources:
+                      Integration Content:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 5lnN2LwkTryS4XlOYvVGp3
+                  - _id: 25b2a8a6-f826-44c1-b8af-0fae72c12c9c
+                    type: brick
+                    _pattern: e7e2ec3a-9100-4443-b6be-ce5be30bf376
+                    _dataResources:
+                      Integration Content:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: 6IqV1lyiAdGXjS3m1Zn56K
+                  - _id: 90922d26-8622-413e-8862-7701cd865335
+                    type: brick
+                    _pattern: e7e2ec3a-9100-4443-b6be-ce5be30bf376
+                    _dataResources:
+                      Integration Content:
+                        type: integration
+                        variables:
+                          locale: ''
+                          entryIds: h0gNcjbsC0nYPzJZNmmuC
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+        parameters:
+          theme:
+            type: select
+            value: dark
+  _dataResources: {}
+  _overrides:
+    510be920-0746-42a8-9918-3173d14ec2e5:
+      parameters:
+        image:
+          type: text
+          value: https:${#jptr:/Integration/fields/icon/fields/file/url}
+created: '2023-01-04T19:02:46.123358+00:00'
+modified: '2023-10-31T10:36:40.713654+00:00'
+pattern: false

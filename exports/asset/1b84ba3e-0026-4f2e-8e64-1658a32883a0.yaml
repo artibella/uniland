@@ -1,0 +1,31 @@
+asset:
+  type: image
+  _id: 1b84ba3e-0026-4f2e-8e64-1658a32883a0
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: >-
+        Simply-Recipes-Homemade-Pizza-METHOD-08-beae00ddf31646af8a2549d10cc5ec8c.webp
+    file:
+      type: file
+      value: c4c1a9b4-01c1-4394-a4c2-1931766e3c2e
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/escpwxRoTqaXJTBGzPp0dA-Simply-Recipes-Homemade-Pizza-METHOD-08-beae00ddf31646af8a2549d10cc5ec8c.webp
+      type: text
+    size:
+      value: 104166
+      type: number
+    width:
+      value: 1500
+      type: number
+    height:
+      value: 1000
+      type: number
+    custom: {}
+created: '2023-10-27T14:22:33.764355+00:00'
+modified: '2023-10-27T14:22:33.764355+00:00'

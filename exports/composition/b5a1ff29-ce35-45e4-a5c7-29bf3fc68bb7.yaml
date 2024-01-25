@@ -1,0 +1,84 @@
+composition:
+  _name: Entry
+  _id: b5a1ff29-ce35-45e4-a5c7-29bf3fc68bb7
+  _slug: entry
+  type: page
+  slots:
+    hero:
+      - _id: 2c600b79-174a-4bd9-bef0-00a084c4495d
+        type: hero
+        slots:
+          ctas:
+            - _id: 538af1b7-8cf6-455f-9060-c3750bf70f1e
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: 'Zurück zu: ${#jptr:/Entry/data/category}'
+                    en-US: Back to ${#jptr:/Entry/data/category}
+                internalLink:
+                  type: link
+                  value:
+                    path: >-
+                      /${locale}/compendium/${game}/${#jptr:/Entry/data/category}
+                    type: projectMapNode
+                    nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                    projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                    dynamicInputValues:
+                      game: ${game}
+                      locale: ${locale}
+                      category: ${#jptr:/Entry/data/category}
+          heading:
+            - _id: ab2b712f-40a5-4488-8662-4469d9796c8b
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: 'Alles über: ${#jptr:/Entry/data/name}'
+                    en-US: 'Facts about: ${#jptr:/Entry/data/name}'
+                byline:
+                  type: text
+                  locales:
+                    de-DE: 'Kategorie: ${#jptr:/Entry/data/category}'
+                    en-US: 'Category: ${#jptr:/Entry/data/category}'
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+        parameters:
+          body:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Entry/data/description}
+              en-US: ${#jptr:/Entry/data/description}
+          title:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Entry/data/name}
+              en-US: ${#jptr:/Entry/data/name}
+          imageFit:
+            type: select
+            locales:
+              de-DE: scale-down
+              en-US: scale-down
+          imageUrl:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Entry/data/image}
+              en-US: ${#jptr:/Entry/data/image}
+  _dataResources:
+    Entry:
+      type: compendiumEntry
+      variables:
+        game: ${game}
+        Entry: ${entry}
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-12T11:10:58.238719+00:00'
+modified: '2024-01-12T14:57:25.414945+00:00'
+pattern: false

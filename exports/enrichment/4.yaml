@@ -1,0 +1,6 @@
+id: '4'
+name: Berlin
+cap: 500
+values:
+  - id: '1'
+    value: berlin

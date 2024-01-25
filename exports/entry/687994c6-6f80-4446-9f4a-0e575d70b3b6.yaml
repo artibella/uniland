@@ -1,0 +1,2728 @@
+created: '2023-10-27T13:36:14.480904+00:00'
+modified: '2024-01-03T16:02:45.125497+00:00'
+pattern: false
+entry:
+  _id: 687994c6-6f80-4446-9f4a-0e575d70b3b6
+  _name: Homemade Pizza & Pizza Dough
+  _slug: homemade-pizza
+  type: recipe
+  fields:
+    name:
+      type: text
+      value: Homemade Pizza & Pizza Dough
+    intro:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    What to do when your 8-year old nephew comes to visit? Make
+                    pizza, of course!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Well, not of course, actually. I didn't think of it until we
+                    exhausted Sorry, Monopoly, and gin rummy. But it did turn
+                    out to be a brilliant idea as my father had just received a
+                    baking stone for Christmas, and my nephew loves pizza.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Family Pizza Time
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    I told him if he helped me make it I would talk about him on
+                    my website and he would be famous. That seemed to get his
+                    attention. He thought the dough was "slimy and gross" but he
+                    loved picking his own toppings, and the finished product was
+                    "awesome".
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: My Favorite Pizza Dough Recipe
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The following method I patched together from recipes in both\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/0743246268/ref=as_li_ss_tl?ie=UTF8&tag=simplyrecip02-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0743246268
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Joy of Cooking
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_and Cook's Illustrated's\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.amazon.com/gp/product/0936184744/ref=as_li_ss_tl?ie=UTF8&tag=simplyrecip02-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0936184744
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: The Best Recipe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    . The pizza dough recipe makes enough dough for two 10 to 12
+                    inch pizzas.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Next time I'll be a bit more patient with stretching out the
+                    dough so I can get it even thinner.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: The Best Flour for Homemade Pizza Dough
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Bread flour is\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.simplyrecipes.com/your-guide-to-flour-how-it-s-made-wheat-grain-types-and-how-protein-content-affects-baking-5208494
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: the best flour
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_for homemade pizza dough. You can use all-purpose flour instead of the bread flour called for in the recipe, but bread flour is higher in gluten than all-purpose flour and will make a crispier crust for your pizza."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    media:
+      type: asset
+      value: []
+    notes:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Is It Better To Let the Dough Rise Overnight?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    You don’t have to let your pizza dough rise overnight – or
+                    up to 48 hours – in the refrigerator, but if you do, it will
+                    develop more flavor and air bubbles that will puff up when
+                    the pizza is cooked. (Some people fight over the slices with
+                    air bubbles.) Make sure to take the dough out of the
+                    refrigerator an hour before using it to bring it to room
+                    temperature.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - type: linebreak
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Pizzas With Raw Ingredients
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    There are some toppings that should be cooked first before
+                    topping a pizza because they won’t cook fully before the
+                    pizza is done cooking. Raw meat should be fully cooked
+                    before adding it as a topping. Any vegetables that you don’t
+                    want to be raw on the cooked pizza such as onions, peppers,
+                    broccoli, or mushrooms should be sautéed first.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Make-Ahead and Freezing Instructions
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    After the pizza dough has risen, you can freeze it to use
+                    later. Divide the dough in half (or the portion sizes you
+                    will be using to make your pizzas). Place on parchment paper
+                    or a lightly floured dish and place, uncovered, in the
+                    freezer for 15 to 20 minutes. Remove from the freezer and
+                    place in individual freezer bags, removing as much air as
+                    you can from the bags. Return to the freezer and store for
+                    up to 3 months.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Thaw the pizza dough in the refrigerator overnight or for 5
+                    to 6 hours. Then let the dough sit at room temperature for
+                    30 minutes before stretching it out in the next steps.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - type: linebreak
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Throw a Pizza Party!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://www.simplyrecipes.com/recipes/spicy_sausage_pizza/
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Spicy Sausage Pizza
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://www.simplyrecipes.com/recipes/meat_lovers_sheet_pan_pizza/
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Meat Lovers’ Sheet Pan Pizza
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://www.simplyrecipes.com/recipes/easy_summer_vegetable_pizzas/
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Easy Summer Vegetable Pizzas
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Homemade Pepperoni Pizza
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://www.simplyrecipes.com/recipes/cauliflower_sheet_pan_pizza/
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Sheet Pan Pizza with Roasted Cauliflower and Greens
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      value: >-
+        Make perfect pizza at home with this classic homemade pizza recipe,
+        including a pizza dough recipe, topping suggestions, and step-by-step
+        instructions with photos.
+    sourceUrl:
+      type: link
+      value:
+        path: https://www.simplyrecipes.com/recipes/homemade_pizza/
+        type: url
+    totalTime:
+      type: text
+      value: 2 hrs 30 mins
+    difficulty:
+      type: select
+      value: medium
+    cookingTime:
+      type: text
+      value: 30 mins
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'This is a pizza reimagining of the classic '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Roman pasta dish cacio e pepe
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , pasta served with only cheese and black pepper. It came to
+                    The Times from the kitchens of Roberta’s restaurant in
+                    Brooklyn, a pizzeria and lifestyle collective that occupies
+                    a number of buildings and lots in a far corner of the
+                    Bushwick neighborhood.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Cream slicks the dough, and a mixture of mozzarella and '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: tangy taleggio
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' tops it. A '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: shocking
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ' amount of freshly ground black pepper follows that application and, after the pizza is cooked, a shower of grated Parmesan. A drizzle of honey over the top would not be blasphemy.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - type: recipeIngredientSet
+          fields:
+            name:
+              type: text
+              locales:
+                de-DE: For the pizza dough
+                en-US: For the pizza dough
+            ingredients:
+              type: $block
+              value:
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 1 1/2 cups (355 ml) warm water (105°F-115°F)
+                        en-US: 1 1/2 cups (355 ml) warm water (105°F-115°F)
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 1 package (2 1/4 teaspoons) active dry yeast
+                        en-US: 1 package (2 1/4 teaspoons) active dry yeast
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 3 3/4 cups (490g) bread flour
+                        en-US: 3 3/4 cups (490g) bread flour
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          2 tablespoons extra virgin olive oil (omit if cooking
+                          pizza in a wood-fired pizza oven)
+                        en-US: >-
+                          2 tablespoons extra virgin olive oil (omit if cooking
+                          pizza in a wood-fired pizza oven)
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 2 teaspoons kosher salt
+                        en-US: 2 teaspoons kosher salt
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 1 teaspoon sugar
+                        en-US: 1 teaspoon sugar
+        - type: recipeIngredientSet
+          fields:
+            name:
+              type: text
+              locales:
+                de-DE: For making the pizza and toppings
+                en-US: For making the pizza and toppings
+            ingredients:
+              type: $block
+              value:
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Extra virgin olive oil
+                        en-US: Extra virgin olive oil
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          Cornmeal (to help slide the pizza onto the pizza
+                          stone)
+                        en-US: >-
+                          Cornmeal (to help slide the pizza onto the pizza
+                          stone)
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Tomato sauce (smooth or pureed)
+                        en-US: Tomato sauce (smooth or pureed)
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Firm mozzarella cheese, grated
+                        en-US: Firm mozzarella cheese, grated
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          Fresh soft mozzarella cheese, separated into small
+                          clumps
+                        en-US: >-
+                          Fresh soft mozzarella cheese, separated into small
+                          clumps
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Fontina cheese, grated
+                        en-US: Fontina cheese, grated
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Parmesan cheese, grated
+                        en-US: Parmesan cheese, grated
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Feta cheese, crumbled
+                        en-US: Feta cheese, crumbled
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          Mushrooms, very thinly sliced if raw, otherwise first
+                          sautéed
+                        en-US: >-
+                          Mushrooms, very thinly sliced if raw, otherwise first
+                          sautéed
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          Bell peppers, stems and seeds removed, very thinly
+                          sliced
+                        en-US: >-
+                          Bell peppers, stems and seeds removed, very thinly
+                          sliced
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Italian pepperoncini, thinly sliced
+                        en-US: Italian pepperoncini, thinly sliced
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Italian sausage, cooked ahead and crumbled
+                        en-US: Italian sausage, cooked ahead and crumbled
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Sliced black olives
+                        en-US: Sliced black olives
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Chopped fresh basil
+                        en-US: Chopped fresh basil
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          Baby arugula, tossed in a little olive oil, added as
+                          pizza comes out of the oven
+                        en-US: >-
+                          Baby arugula, tossed in a little olive oil, added as
+                          pizza comes out of the oven
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Pesto
+                        en-US: Pesto
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Pepperoni, thinly sliced
+                        en-US: Pepperoni, thinly sliced
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Onions, thinly sliced raw or caramelized
+                        en-US: Onions, thinly sliced raw or caramelized
+                - type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Ham, thinly sliced
+                        en-US: Ham, thinly sliced
+    ratingCount:
+      type: number
+      value: '84'
+    ratingValue:
+      type: number
+      value: '5'
+    recipeYield:
+      type: text
+      value: 2 10-inch pizzas
+    restingTime:
+      type: text
+      value: 90 mins
+    instructions:
+      type: $block
+      value:
+        - type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                de-DE: Für den Pizzateig
+                en-US: For the pizza dough
+            steps:
+              type: $block
+              value:
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 'Proof the yeast:'
+                        en-US: 'Proof the yeast:'
+                    images:
+                      type: asset
+                      value: []
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place the warm water in the large bowl of
+                                      a heavy duty stand mixer. Sprinkle the
+                                      yeast over the warm water and let it sit
+                                      for 5 minutes until the yeast is
+                                      dissolved.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      After 5 minutes stir if the yeast hasn't
+                                      dissolved completely. The yeast should
+                                      begin to foam or bloom, indicating that
+                                      the yeast is still active and alive.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      (Note that if you are using "instant
+                                      yeast" instead of "active yeast", no
+                                      proofing is required. Just add to the
+                                      flour in the next step.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place the warm water in the large bowl of
+                                      a heavy duty stand mixer. Sprinkle the
+                                      yeast over the warm water and let it sit
+                                      for 5 minutes until the yeast is
+                                      dissolved.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      After 5 minutes stir if the yeast hasn't
+                                      dissolved completely. The yeast should
+                                      begin to foam or bloom, indicating that
+                                      the yeast is still active and alive.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      (Note that if you are using "instant
+                                      yeast" instead of "active yeast", no
+                                      proofing is required. Just add to the
+                                      flour in the next step.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Make and knead the pizza dough
+                        en-US: Make and knead the pizza dough
+                    images:
+                      type: asset
+                      value:
+                        - _id: 238ce1b7-ff8f-4086-a8a1-e86f59cd7567
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 238ce1b7-ff8f-4086-a8a1-e86f59cd7567
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/H7969aAySxG-x0k_FtW2lA-Simply-Recipes-Homemade-Pizza-METHOD-04-afecb1b8853b4ed7a7ad27ad53d5b627.webp
+                              type: text
+                            size:
+                              value: 45044
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-04-afecb1b8853b4ed7a7ad27ad53d5b627.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Add the flour, salt, sugar, and olive oil,
+                                      and using the mixing paddle attachment,
+                                      mix on low speed for a minute. Then
+                                      replace the mixing paddle with the dough
+                                      hook attachment.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Knead the pizza dough on low to medium
+                                      speed using the dough hook about 7-10
+                                      minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If you don't have a mixer, you can mix the
+                                      ingredients together and knead them by
+                                      hand.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      The dough should be a little sticky, or
+                                      tacky to the touch. If it's too wet,
+                                      sprinkle in a little more flour.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Add the flour, salt, sugar, and olive oil,
+                                      and using the mixing paddle attachment,
+                                      mix on low speed for a minute. Then
+                                      replace the mixing paddle with the dough
+                                      hook attachment.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Knead the pizza dough on low to medium
+                                      speed using the dough hook about 7-10
+                                      minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If you don't have a mixer, you can mix the
+                                      ingredients together and knead them by
+                                      hand.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      The dough should be a little sticky, or
+                                      tacky to the touch. If it's too wet,
+                                      sprinkle in a little more flour.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: 'Let the dough rise:'
+                        en-US: 'Let the dough rise:'
+                    images:
+                      type: asset
+                      value:
+                        - _id: 84244184-d8d1-407f-a9e3-e2c4e4b6da47
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 84244184-d8d1-407f-a9e3-e2c4e4b6da47
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/QtrMScERTP6ksH40JOT0eA-Simply-Recipes-Homemade-Pizza-METHOD-02-2e578a3570c446d6b6bfa937b1551d1d.webp
+                              type: text
+                            size:
+                              value: 27512
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-02-2e578a3570c446d6b6bfa937b1551d1d.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spread a thin layer of olive oil over the
+                                      inside of a large bowl. Place the pizza
+                                      dough in the bowl and turn it around so
+                                      that it gets coated with the oil.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      At this point you can choose how long you
+                                      want the dough to ferment and rise. A slow
+                                      fermentation (24 hours in the fridge) will
+                                      result in more complex flavors in the
+                                      dough. A quick fermentation (1 1/2 hours
+                                      in a warm place) will allow the dough to
+                                      rise sufficiently to work with.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Cover the dough with plastic wrap.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      For a quick rise, place the dough in a
+                                      warm place (75°F to 85°F) for 1 1/2 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      For a medium rise, place the dough in a
+                                      regular room temperature place (your
+                                      kitchen counter will do fine) for 8 hours.
+                                      For a longer rise, chill the dough in the
+                                      refrigerator for 24 hours (no more than 48
+                                      hours).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      The longer the rise (to a point) the
+                                      better the flavor the crust will have.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spread a thin layer of olive oil over the
+                                      inside of a large bowl. Place the pizza
+                                      dough in the bowl and turn it around so
+                                      that it gets coated with the oil.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      At this point you can choose how long you
+                                      want the dough to ferment and rise. A slow
+                                      fermentation (24 hours in the fridge) will
+                                      result in more complex flavors in the
+                                      dough. A quick fermentation (1 1/2 hours
+                                      in a warm place) will allow the dough to
+                                      rise sufficiently to work with.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Cover the dough with plastic wrap.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      For a quick rise, place the dough in a
+                                      warm place (75°F to 85°F) for 1 1/2 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      For a medium rise, place the dough in a
+                                      regular room temperature place (your
+                                      kitchen counter will do fine) for 8 hours.
+                                      For a longer rise, chill the dough in the
+                                      refrigerator for 24 hours (no more than 48
+                                      hours).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      The longer the rise (to a point) the
+                                      better the flavor the crust will have.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+        - type: howtoSection
+          fields:
+            name:
+              type: text
+              locales:
+                de-DE: Die Pizza zubereiten
+                en-US: Preparing the pizza
+            steps:
+              type: $block
+              value:
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Den Pizzastein vorheizen (oder das Backblech)
+                        en-US: Den Pizzastein vorheizen (oder das Backblech)
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place a pizza stone on a rack in the lower
+                                      third of your oven. Preheat the oven to
+                                      475°F for at least 30 minutes, preferably
+                                      an hour. If you don't have a pizza stone,
+                                      you can use a pizza pan or a thick baking
+                                      sheet; you need something that will not
+                                      warp at high temperatures.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place a pizza stone on a rack in the lower
+                                      third of your oven. Preheat the oven to
+                                      475°F for at least 30 minutes, preferably
+                                      an hour. If you don't have a pizza stone,
+                                      you can use a pizza pan or a thick baking
+                                      sheet; you need something that will not
+                                      warp at high temperatures.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Den Teig in 2 Bälle teilen
+                        en-US: Den Teig in 2 Bälle teilen
+                    images:
+                      type: asset
+                      value:
+                        - _id: 2420b576-08d1-44cc-9810-8685dfceadce
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 2420b576-08d1-44cc-9810-8685dfceadce
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/K-SWE9ZHQCGQGhvCeIVVyg-Simply-Recipes-Homemade-Pizza-METHOD-05-178cab1ba4834b2d8218897f6b148db4.webp
+                              type: text
+                            size:
+                              value: 121430
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-05-178cab1ba4834b2d8218897f6b148db4.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Remove the plastic cover from the dough.
+                                      Dust your hands with flour and push the
+                                      dough down so it deflates a bit. Divide
+                                      the dough in half.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Form 2 round balls of dough. Place each in
+                                      its own bowl, cover with plastic and let
+                                      sit for 15 minutes (or up to 2 hours).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Remove the plastic cover from the dough.
+                                      Dust your hands with flour and push the
+                                      dough down so it deflates a bit. Divide
+                                      the dough in half.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Form 2 round balls of dough. Place each in
+                                      its own bowl, cover with plastic and let
+                                      sit for 15 minutes (or up to 2 hours).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Pizzabeläge vorbereiten
+                        en-US: Pizzabeläge vorbereiten
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare your desired toppings. Note that
+                                      you are not going to want to load up each
+                                      pizza with a lot of toppings as the crust
+                                      will end up not crisp that way.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      About a third a cup each of tomato sauce
+                                      and cheese would be sufficient for one
+                                      pizza. One to two mushrooms thinly sliced
+                                      will cover a pizza.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare your desired toppings. Note that
+                                      you are not going to want to load up each
+                                      pizza with a lot of toppings as the crust
+                                      will end up not crisp that way.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      About a third a cup each of tomato sauce
+                                      and cheese would be sufficient for one
+                                      pizza. One to two mushrooms thinly sliced
+                                      will cover a pizza.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Den Teigball in eine Kreisform ausrollen
+                        en-US: Den Teigball in eine Kreisform ausrollen
+                    images:
+                      type: asset
+                      value:
+                        - _id: 9d68331c-2b28-4356-95a4-403b7d225907
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 9d68331c-2b28-4356-95a4-403b7d225907
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/BzZkuE81SUCKKAR9TmhuOg-Simply-Recipes-Homemade-Pizza-METHOD-06-53b2f52cf4794d019ff87880956dd837.webp
+                              type: text
+                            size:
+                              value: 74870
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-06-53b2f52cf4794d019ff87880956dd837.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                        - _id: 56ea8f1d-b9e7-4e1b-bf77-b00bf8f1ca86
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 56ea8f1d-b9e7-4e1b-bf77-b00bf8f1ca86
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/Zz6Y_H_MTxenTOgsoUbamg-Simply-Recipes-Homemade-Pizza-METHOD-07-3dc438ef59684b398936445098f6715a.webp
+                              type: text
+                            size:
+                              value: 144662
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-07-3dc438ef59684b398936445098f6715a.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Working one ball of dough at a time, take
+                                      one ball of dough and flatten it with your
+                                      hands on a lightly floured work surface.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Starting at the center and working
+                                      outwards, use your fingertips to press the
+                                      dough to 1/2-inch thick. Turn and stretch
+                                      the dough until it will not stretch
+                                      further.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Let the dough relax 5 minutes and then
+                                      continue to stretch it until it reaches
+                                      the desired diameter—10 to 12 inches.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Treat the dough gently!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      You can also hold up the edges of the
+                                      dough with your fingers, letting the dough
+                                      hang and stretch, while working around the
+                                      edges of the dough.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If a hole appears in your dough, place the
+                                      dough on a floured surface and push the
+                                      dough back together to seal the hole.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Use your palm to flatten the edge of the
+                                      dough where it is thicker. Pinch the edges
+                                      if you want to form a lip.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Working one ball of dough at a time, take
+                                      one ball of dough and flatten it with your
+                                      hands on a lightly floured work surface.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Starting at the center and working
+                                      outwards, use your fingertips to press the
+                                      dough to 1/2-inch thick. Turn and stretch
+                                      the dough until it will not stretch
+                                      further.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Let the dough relax 5 minutes and then
+                                      continue to stretch it until it reaches
+                                      the desired diameter—10 to 12 inches.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Treat the dough gently!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      You can also hold up the edges of the
+                                      dough with your fingers, letting the dough
+                                      hang and stretch, while working around the
+                                      edges of the dough.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If a hole appears in your dough, place the
+                                      dough on a floured surface and push the
+                                      dough back together to seal the hole.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Use your palm to flatten the edge of the
+                                      dough where it is thicker. Pinch the edges
+                                      if you want to form a lip.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Den Teig mit Olivenöl bestreichen
+                        en-US: Den Teig mit Olivenöl bestreichen
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Use your fingertips to press down and make
+                                      dents along the surface of the dough to
+                                      prevent bubbling. Brush the top of the
+                                      dough with olive oil (to prevent it from
+                                      getting soggy from the toppings). Let rest
+                                      another 10 to 15 minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Repeat with the second ball of dough.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Use your fingertips to press down and make
+                                      dents along the surface of the dough to
+                                      prevent bubbling. Brush the top of the
+                                      dough with olive oil (to prevent it from
+                                      getting soggy from the toppings). Let rest
+                                      another 10 to 15 minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Repeat with the second ball of dough.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: >-
+                          Pizzastein oder Backblech mit Maismehl bestreuen und
+                          Pizzateig drauflegen
+                        en-US: >-
+                          Pizzastein oder Backblech mit Maismehl bestreuen und
+                          Pizzateig drauflegen
+                    images:
+                      type: asset
+                      value:
+                        - _id: 1b84ba3e-0026-4f2e-8e64-1658a32883a0
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 1b84ba3e-0026-4f2e-8e64-1658a32883a0
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/escpwxRoTqaXJTBGzPp0dA-Simply-Recipes-Homemade-Pizza-METHOD-08-beae00ddf31646af8a2549d10cc5ec8c.webp
+                              type: text
+                            size:
+                              value: 104166
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-08-beae00ddf31646af8a2549d10cc5ec8c.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Lightly sprinkle your pizza peel (or flat
+                                      baking sheet) with cornmeal. (The corn
+                                      meal will act as little ball bearings to
+                                      help move the pizza from the pizza peel
+                                      into the oven.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer one prepared flattened dough to
+                                      the pizza peel.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If the dough has lost its shape in the
+                                      transfer, lightly shape it to the desired
+                                      dimensions.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Lightly sprinkle your pizza peel (or flat
+                                      baking sheet) with cornmeal. (The corn
+                                      meal will act as little ball bearings to
+                                      help move the pizza from the pizza peel
+                                      into the oven.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer one prepared flattened dough to
+                                      the pizza peel.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If the dough has lost its shape in the
+                                      transfer, lightly shape it to the desired
+                                      dimensions.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Tomaten verteilen und mit Zutaten belegen
+                        en-US: Tomaten verteilen und mit Zutaten belegen
+                    images:
+                      type: asset
+                      value:
+                        - _id: c1de7561-9cbf-495a-96cf-a78feaf6e143
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: c1de7561-9cbf-495a-96cf-a78feaf6e143
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/UtzhQ9kOQo6L6uj9WJ0f3g-Simply-Recipes-Homemade-Pizza-METHOD-09-d9e43b77b1844cca8defe6f9e56e181d.webp
+                              type: text
+                            size:
+                              value: 124372
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-09-d9e43b77b1844cca8defe6f9e56e181d.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spoon on the tomato sauce, sprinkle with
+                                      cheese, and place your desired toppings on
+                                      the pizza. Be careful not to overload the
+                                      pizza with too many toppings, or your
+                                      pizza will be soggy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spoon on the tomato sauce, sprinkle with
+                                      cheese, and place your desired toppings on
+                                      the pizza. Be careful not to overload the
+                                      pizza with too many toppings, or your
+                                      pizza will be soggy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Pizza in den Ofen schieben
+                        en-US: Pizza in den Ofen schieben
+                    images:
+                      type: asset
+                      value:
+                        - _id: 2a0e9000-7fd7-4b20-b0b1-c870b6e9f1e8
+                          type: image
+                          fields:
+                            id:
+                              type: text
+                              value: 2a0e9000-7fd7-4b20-b0b1-c870b6e9f1e8
+                            url:
+                              value: >-
+                                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/bnUXgpI3StCPz2AlyS8Crg-Simply-Recipes-Homemade-Pizza-METHOD-10-01f70ecc84ea4a63bb5a723e5a027a09.webp
+                              type: text
+                            size:
+                              value: 100876
+                              type: number
+                            title:
+                              type: text
+                              value: >-
+                                Simply-Recipes-Homemade-Pizza-METHOD-10-01f70ecc84ea4a63bb5a723e5a027a09.webp
+                            width:
+                              value: 1500
+                              type: number
+                            height:
+                              value: 1000
+                              type: number
+                            mediaType:
+                              value: image/webp
+                              type: text
+                            description:
+                              type: text
+                              value: ''
+                          _source: uniform-assets
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Sprinkle some cornmeal on the baking stone
+                                      in the oven (watch your hands, the oven is
+                                      hot!). Gently shake the peel to see if the
+                                      dough will easily slide, if not, gently
+                                      lift up the edges of the pizza and add a
+                                      bit more cornmeal.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Slide the pizza off of the peel and onto
+                                      the baking stone in the oven.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Sprinkle some cornmeal on the baking stone
+                                      in the oven (watch your hands, the oven is
+                                      hot!). Gently shake the peel to see if the
+                                      dough will easily slide, if not, gently
+                                      lift up the edges of the pizza and add a
+                                      bit more cornmeal.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Slide the pizza off of the peel and onto
+                                      the baking stone in the oven.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                - type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        de-DE: Backen
+                        en-US: Backen
+                    description:
+                      type: richText
+                      locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bake pizza in the 475°F oven, one at a
+                                      time, until the crust is browned and the
+                                      cheese is golden, about 10 to 15 minutes.
+                                      If you want, toward the end of the cooking
+                                      time you can sprinkle on a little more
+                                      cheese.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bake pizza in the 475°F oven, one at a
+                                      time, until the crust is browned and the
+                                      cheese is golden, about 10 to 15 minutes.
+                                      If you want, toward the end of the cooking
+                                      time you can sprinkle on a little more
+                                      cheese.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: c89052c4-4130-41a0-ab90-e56770e173aa
+          type: image
+          fields:
+            id:
+              type: text
+              value: 74c85821-b488-445b-8cb7-868517ebda4a
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/oQUYRDFpTGycHO9UNNL-kQ-image.png
+              type: text
+            file:
+              type: file
+              value: 20bf0de3-d8fb-4b08-87db-e9b7106866a6
+            size:
+              value: 2451667
+              type: number
+            title:
+              type: text
+              value: Homemade Pizza
+            width:
+              value: 1500
+              type: number
+            height:
+              value: 1001
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+    nutritionFacts:
+      type: $block
+      value:
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: calories
+            amount:
+              type: number
+              value: '322'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '4'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: saturatedFat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '1'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: unsaturatedFat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '8'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: carbohydrate
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '61'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: protein
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '10'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fiber
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '2'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: sodium
+            unit:
+              type: select
+              value: mg
+            amount:
+              type: number
+              value: '710'
+        - type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: sugar
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '1'
+    preparationTime:
+      type: text
+      value: 30 mins
+  _locales:
+    - en-US
+    - de-DE
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/oQUYRDFpTGycHO9UNNL-kQ-image.png

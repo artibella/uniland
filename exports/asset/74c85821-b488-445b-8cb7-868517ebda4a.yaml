@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 74c85821-b488-445b-8cb7-868517ebda4a
+  _name: image.png
+  fields:
+    title:
+      type: text
+      value: Homemade Pizza
+    file:
+      type: file
+      value: 20bf0de3-d8fb-4b08-87db-e9b7106866a6
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/oQUYRDFpTGycHO9UNNL-kQ-image.png
+      type: text
+    size:
+      value: 2451667
+      type: number
+    width:
+      value: 1500
+      type: number
+    height:
+      value: 1001
+      type: number
+    custom: {}
+created: '2023-10-27T13:41:19.349738+00:00'
+modified: '2023-12-13T11:16:52.441593+00:00'

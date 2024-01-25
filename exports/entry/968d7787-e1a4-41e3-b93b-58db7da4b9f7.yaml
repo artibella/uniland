@@ -1,0 +1,17 @@
+created: '2023-06-23T08:33:19.151632+00:00'
+modified: '2023-07-04T14:02:41.522222+00:00'
+pattern: false
+entry:
+  _id: 968d7787-e1a4-41e3-b93b-58db7da4b9f7
+  _name: home.welcome
+  type: microcopy
+  fields:
+    key:
+      type: text
+      value: home.welcome
+    value:
+      type: text
+      value: Welcome to Uniland!!!
+    platform:
+      type: select
+      value: web

@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: logoipsum-242.svg
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+      type: text
+    size:
+      value: 4227
+      type: number
+    width:
+      value: 150
+      type: number
+    height:
+      value: 57
+      type: number
+    custom: {}
+created: '2023-10-10T15:14:08.837424+00:00'
+modified: '2023-10-10T15:14:08.837424+00:00'

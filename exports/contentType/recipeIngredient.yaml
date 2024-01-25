@@ -1,0 +1,109 @@
+id: recipeIngredient
+name: Recipe ingredient
+created: '2023-10-11T12:05:24.588228+00:00'
+updated: '2023-12-14T19:45:20.056522+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: group_amountInfo
+    name: Amount info
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - amount
+        - amountText
+        - unit
+  - id: amount
+    name: Amount
+    type: number
+    helpText: ''
+    typeConfig:
+      decimal: true
+  - id: amountText
+    name: Amount text
+    type: text
+    helpText: Use this if the amount is not a number (e.g. 2/3 cups)
+    typeConfig: null
+    localizable: true
+  - id: unit
+    name: Unit
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: cup
+          value: c
+        - text: gram
+          value: g
+        - text: milligram
+          value: mg
+        - text: kilo gram
+          value: kg
+        - text: teaspoon
+          value: tsp
+        - text: tablespoon
+          value: tbsp
+        - text: pint
+          value: pt
+        - text: quart
+          value: qt
+        - text: ounce
+          value: oz
+        - text: pound
+          value: lb
+        - text: milliliter
+          value: ml
+        - text: liter
+          value: l
+        - text: gallon
+          value: gal
+  - id: group_ingredientInfo
+    name: Ingredient info
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - ingredientPrefix
+        - ingredientText
+        - ingredientSuffix
+        - isMainIngredient
+  - id: ingredientPrefix
+    name: Ingredient prefix
+    type: text
+    helpText: >-
+      If you need to specify the ingredient with a prefix. Shown after the
+      amount (e.g. 4 large eggs, fresh apples)
+    typeConfig: null
+    localizable: true
+  - id: ingredientText
+    name: Ingredient text
+    type: text
+    helpText: >-
+      used as an override for the ingredient name (e.g. thyme sprig where
+      ingredient is only called "thyme")
+    typeConfig: null
+    localizable: true
+  - id: ingredientSuffix
+    name: Ingredient suffix
+    type: text
+    helpText: used for additional info for the ingredient (e.g. "finely chopped")
+    typeConfig: null
+    localizable: true
+  - id: isMainIngredient
+    name: Is main ingredient
+    type: checkbox
+    helpText: ''
+    typeConfig: null
+entryName: name
+description: Ingredients and amount needed for a specific recipe
+icon: bowl
+type: block
+permissions: []

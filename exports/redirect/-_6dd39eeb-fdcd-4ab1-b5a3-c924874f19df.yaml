@@ -1,0 +1,10 @@
+id: 6dd39eeb-fdcd-4ab1-b5a3-c924874f19df
+sourceUrl: /assets/*
+sourceRetainQuerystring: true
+targetUrl: /demo/:splat
+targetStatusCode: 301
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: false

@@ -1,0 +1,12 @@
+id: 767cedcd-f7a1-4889-a6dc-7fbf403abf9f
+sourceUrl: /shop/collections/summer-specials
+sourceRetainQuerystring: true
+targetUrl: https://uniland-staging.vercel.app/:locale/shop/collections/summer-sale
+targetStatusCode: 301
+targetProjectMapNodeId: 4383d0ba-6635-4ba1-b253-4deb4550709a
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

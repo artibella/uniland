@@ -1,0 +1,8 @@
+id: 3eba2b84-a715-4af5-bf6a-3bb9eaa28a0e
+name: city
+type: placeholder
+data: {}
+order: 300
+path: /:locale/demos/city
+pathSegment: city
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

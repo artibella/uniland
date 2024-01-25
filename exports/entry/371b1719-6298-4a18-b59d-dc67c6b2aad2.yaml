@@ -1,0 +1,132 @@
+created: '2023-10-28T13:31:09.722692+00:00'
+modified: '2023-12-05T10:16:31.582785+00:00'
+pattern: false
+entry:
+  _id: 371b1719-6298-4a18-b59d-dc67c6b2aad2
+  _name: Hoodie
+  _slug: hoodie
+  type: product
+  fields:
+    name:
+      type: text
+      value: '${#jptr:/Product by handle Content/data/product/title} '
+    variants:
+      type: $block
+      value:
+        - type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - type: productVariant
+                  fields:
+                    code:
+                      type: text
+                      value: ${#jptr:/Product Variant/node/id}
+                    name:
+                      type: text
+                      value: ${#jptr:/Product Variant/node/title}
+                    price:
+                      type: text
+                      value: >-
+                        ${#jptr:/Product Variant/node/price/amount}
+                        ${#jptr:/Product Variant/node/price/currencyCode}
+                    featuredImage:
+                      type: image
+                      value: ${#jptr:/Product Variant/node/image/url}
+          _dataResources:
+            Product Variant:
+              type: sys-reserved-loop
+              variables:
+                connectedData: /Product by handle Content/data/product/variants/edges
+    reference:
+      type: text
+      value: ${#jptr:/Product by handle Content/data/product/id}
+    collections:
+      type: $block
+      value:
+        - type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - type: taxonomyBlock
+                  fields:
+                    id:
+                      type: text
+                      value: >-
+                        ${#jptr:/Product collections Content entries Loop
+                        Item/entry/fields/reference/value}
+                    url:
+                      type: link
+                      value:
+                        path: >-
+                          /:locale/shop/collections/${#jptr:/Product collections
+                          Content entries Loop Item/entry/_slug}
+                        type: projectMapNode
+                        nodeId: 05eb23ca-be6a-4f43-9d31-41f9c10f6dd6
+                        projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                        dynamicInputValues:
+                          handle: >-
+                            ${#jptr:/Product collections Content entries Loop
+                            Item/entry/_slug}
+                    name:
+                      type: text
+                      value: >-
+                        ${#jptr:/Product collections Content entries Loop
+                        Item/entry/fields/name/value}
+                    slug:
+                      type: text
+                      value: >-
+                        ${#jptr:/Product collections Content entries Loop
+                        Item/entry/_slug}
+                    image:
+                      type: asset
+                      value:
+                        - _id: 2d395117-cb9f-44a1-8ee7-2f93335b079e
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: >-
+                                ${#jptr:/Product collections Content entries
+                                Loop
+                                Item/entry/fields/image/value/0/fields/url/value}
+                          _source: custom-url
+          _dataResources:
+            Product collections Content entries Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: /Product collections Content/entries
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: variable
+                  version: 1
+                  reference: '#jptr:/Product by handle Content/data/product/description'
+              direction: null
+          direction: null
+    featuredImage:
+      type: image
+      value: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+  _dataResources:
+    Product by handle Content:
+      type: productByHandle
+      variables:
+        handle: hoodie
+    Product collections Content:
+      type: productCollections
+      variables:
+        entryIds: >-
+          9ea65198-cf1d-4195-be2b-cf89053648a8,b5e90a68-5f20-4b3e-9fea-1b04190bb1e4

@@ -1,0 +1,13 @@
+id: bec1ba98-4fdb-412d-92fe-e348bdc713d3
+name: Blog
+type: composition
+data:
+  queryStrings:
+    - name: offset
+      value: '0'
+      helpText: ''
+order: 350
+path: /:locale/blog
+compositionId: 7aa3141e-e8ed-4361-a392-42542d7d1e23
+pathSegment: blog
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

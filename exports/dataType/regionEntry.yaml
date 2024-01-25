@@ -1,0 +1,16 @@
+id: regionEntry
+displayName: Region Entry
+ttl: 30
+path: /regions/${Region}
+custom:
+  proposedName: regions/${Region}
+method: GET
+purgeKey: abb254c6-458c-4a3d-905f-9fd2e140d801
+archetype: default
+variables:
+  Region:
+    type: text
+    default: ''
+    helpText: Region name to fetch (e.g. "eldin")
+dataSourceId: hyruleCompendiumApi
+allowedOnComponents: []

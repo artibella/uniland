@@ -1,0 +1,730 @@
+created: '2023-06-30T18:57:04.16525+00:00'
+modified: '2023-08-04T19:50:24.412591+00:00'
+pattern: false
+entry:
+  _id: 6ad2daf2-9794-415c-b091-a2d8c67f2392
+  _name: Digital-experience architectures and the rise of
+  _slug: digital-experience-architectures-and-the-rise-of
+  type: blogPost
+  fields:
+    title:
+      type: text
+      value: Digital-experience architectures and the rise of composability
+    postBody:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Headless, composable, or monolith? At times, it’s hard to
+                    make head or tail of those buzzwords that describe how
+                    brands adapt and scale digital experiences. Filling the gap
+                    are 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/what-is-digital-experience-composition
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: digital experience composition platforms (DXCPs)
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , which offer a sound approach for navigating today’s
+                    changing technologies and building a future-proof stack.At a
+                    recent DX Cafe session, 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.youtube.com/watch?v=tDAVv1VwHgU
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: The Future of Digital Experiences
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 10
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', hosted by Matthew McQueeny of '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://konabos.com/
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Konabos
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , I explained the concept of digital-experience
+                    architectures, the reasons why composable is trending
+                    mainstream, and other related topics. Following are the
+                    highlights.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why composability is the next frontier for monoliths
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Even though traditional standalone applications, called '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: monoliths
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , have dominated the enterprise software industry for
+                    decades, brands are transitioning to composable from
+                    tightly-coupled monoliths, which are difficult to customize
+                    and ill-suited for resolving business problems.As 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/blogs/composable-architecture
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: composability
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' continues to gain popularity, traditional vendors are “decomposing” their systems into '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/mach-versus-monolithic-suites
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: all-in-one suites
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' with headless capabilities. That model offers significant benefits:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Instead of being forced to conform to a
+                        one-size-fits-all approach, businesses can choose
+                        modular components that cater to their desired
+                        capabilities and fulfill their needs.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Businesses have one procurement cycle and one
+                        contract—an out-of-box perk that helps them go to market
+                        quickly.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'However, there are two drawbacks:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Monoliths/All-in-one suites play nicely with other
+                        modules in their ecosystem, but integration with
+                        third-party tools is slow and expensive.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Companies lose the flexibility and freedom of selecting
+                        best-of-need tools that work well in 
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/harnessing-the-benefits-of-search-and-composable-architecture
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: search
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 8
+                          version: 1
+                      direction: ltr
+                    - mode: normal
+                      text: ', '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/personalization/tactical-personalization-the-right-content-to-the-right-consumers
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: personalization
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 8
+                          version: 1
+                      direction: ltr
+                    - mode: normal
+                      text: ', and '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/composable-architecture/composable-commerce
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: commerce
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 8
+                          version: 1
+                      direction: ltr
+                    - mode: normal
+                      text: .
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In reality, therefore, all-in-one vendors fall short of true
+                    composability.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Why marketing and content practitioners remain wary of
+                    headless
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Organizations going composable are best served by
+                    cloud-based 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/headless-versus-composable-everything-you-need-to-know
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: headless
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' tools, which they can plug and play with their composable architecture. Among headless technology’s key advantages are—'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Omnichannel delivery.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Because headless separates the front-end presentation layer from the back-end’s content management system (CMS), brands can easily and seamlessly reuse content across channels and touchpoints.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Flexibility.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' Freed from the constraints of legacy systems with limited programming languages, brands gain tremendous flexibility in selecting front-end frameworks and best-of-breed solutions that meet ever-changing business demands.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Nonetheless, despite the fanfare around headless, tooling
+                    for marketers and content creators lags far behind. Missing
+                    is the visual interface that enables marketers to build
+                    channel-specific experiences, shifting authoring control to
+                    technical teams. In the end, marketers are disempowered, and
+                    developers are inundated with IT requests that divert time
+                    away from strategic projects and innovations.Uniform DXCP is
+                    built to accommodate the needs of all the teams that create
+                    digital experiences, from engineering to marketing to
+                    merchandising. By connecting content sources to a visual
+                    workspace, marketing and content practioners can quickly
+                    assemble experiences from headless and legacy tools 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: 'without '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: developer support.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why the path to MACH is an intricate one
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    MACH, which stands for Microservices, API-first,
+                    cloud-based, and headless, has defined the standards for
+                    building a “best-of-breed” tech stack. A 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/which-digital-experience-architecture-is-right-for-your-business
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: composable MACH architecture
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' yields the modularity and flexibility of composable systems while enabling teams to quickly iterate and adapt to customer expectations.However, some organizations set out to build a composable MACH architecture, only to end up with a '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/composable-architecture/the-mach-monolith
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: composed MACH monolith
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' weighed down by glue code. Even though composability is an underlying concept of MACH architecture, cobbling together headless tools into a composable stack doesn’t equal MACH. Moreover, those same tools might not be API-first or publicly accessible outside a vendor’s platform.Ultimately, MACH architecture must comprise well-articulated, defined microservices that can manage your platform’s entire infrastructure. With MACH-certified vendors like Uniform, you can plug and play MACH technologies and headless solutions into an agile, high-performance stack that avoids tech debt and the high cost of building and maintaining custom integration code.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    How Uniform bridges the gap among legacy, headless, and
+                    composable
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    For businesses migrating from a traditional legacy system,
+                    adopting a composable MACH architecture is the next step for
+                    experience creation and delivery, but the move can be
+                    complicated by the fast-evolving digital landscape and the
+                    effort required to transform organizational mindset. Brands
+                    also need help choosing the right tools for composable,
+                    which is a challenging exercise in a multivendor
+                    environment.Uniform has the answers. During the 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://uniform.dev/blogs/headless-cms/choosing-a-modern-cms
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: evaluation process
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , Uniform guides brands in validating vendor technology and
+                    the approach for building experiences and involving
+                    stakeholders. Additionally, Uniform DXCP offers vendor
+                    neutrality, enabling organizations to run a proof of concept
+                    so as to test, learn, and decide which technologies deliver
+                    the best consumer experience. As a result, digital
+                    experience composition not only affords teams the freedom to
+                    work with the tools they love, but also gives them
+                    remarkable flexibility and scalability in doing their job.To
+                    learn more about the future of digital experience and the
+                    emergence of DXCPs, watch the full session below.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - link:
+                    path: https://www.youtube.com/watch?v=tDAVv1VwHgU
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: https://www.youtube.com/watch?v=tDAVv1VwHgU
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 8
+                      version: 1
+                  direction: ltr
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      value: >-
+        An explanation of composable architectures and the ways in which digital
+        experience composition platforms (DXCPs) help businesses future-proof
+        their stack.
+    postImage:
+      type: image
+      value: >-
+        https://images.ctfassets.net/9ku1oyd4k3wo/2WUuHY9e2L3FVThAg1alH2/8007ce88287dbb289c1e4cb5f91e8ffd/Blog_header_DXArchitectures.png

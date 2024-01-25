@@ -1,0 +1,15 @@
+created: '2023-07-05T08:59:09.303471+00:00'
+modified: '2023-12-05T10:10:53.051608+00:00'
+pattern: false
+entry:
+  _id: 74071c77-f87f-45be-988a-740045818760
+  _name: cta.subscribe
+  _slug: ctasubscribe
+  type: microcopy
+  fields:
+    key:
+      type: text
+      value: cta.subscribe
+    value:
+      type: text
+      value: Subscribe

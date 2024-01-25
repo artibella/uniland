@@ -1,0 +1,15 @@
+created: '2023-08-01T09:08:51.206225+00:00'
+modified: '2023-08-15T13:51:14.035783+00:00'
+pattern: false
+entry:
+  _id: ae188464-fe6c-4e4c-9e0c-1e34db5292d3
+  _name: brand.name
+  _slug: brandname
+  type: microcopy
+  fields:
+    key:
+      type: text
+      value: brand.name
+    value:
+      type: text
+      value: Uniland™

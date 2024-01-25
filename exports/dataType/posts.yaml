@@ -1,0 +1,57 @@
+id: posts
+displayName: Posts
+ttl: 30
+body: ''
+path: /entries?${filters}${contentTypeQuery}
+custom:
+  include: '10'
+  imagePath: featuredImage
+  searchField:
+    id: fields.title
+    type: Symbol
+  includeFields: []
+  allowContentTypeIds:
+    - BlogPost
+  enableFilterByLocale: true
+  enableAdvancedFilters: true
+method: GET
+purgeKey: 264bb356-8ea5-48f7-9829-21a7a251b565
+archetype: queryEntry
+variables:
+  limit:
+    type: text
+    default: '5'
+    displayName: Limit
+  order:
+    type: text
+    default: ''
+    displayName: Order
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  filters:
+    type: text
+    default: ''
+    displayName: Filters
+  keyword:
+    type: text
+    default: ''
+    displayName: Search Text
+  contentTypeQuery:
+    type: text
+    default: ''
+    displayName: Content Type
+parameters:
+  - key: include
+    value: '10'
+  - key: locale
+    value: ${locale}
+  - key: order
+    value: ${order}
+  - key: fields.title[match]
+    value: ${keyword}
+  - key: limit
+    value: ${limit}
+dataSourceId: uniformWebsite
+allowedOnComponents: []

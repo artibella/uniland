@@ -1,0 +1,8 @@
+id: 9646ac16-b4b1-4d99-97e2-81642cf9ecbc
+name: Blog category
+type: placeholder
+data: {}
+order: 400
+path: /:locale/blog/category/:category
+pathSegment: ':category'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

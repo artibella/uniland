@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: c90b8e60-554d-455d-8587-598981811514
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: image.png
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: c90b8e60-554d-455d-8587-598981811514
+    mediaType:
+      value: image/png
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ZMUgX3yWSH6xn747gdGnRA-image.png
+      type: text
+    size:
+      value: 591759
+      type: number
+    width:
+      value: 600
+      type: number
+    height:
+      value: 412
+      type: number
+    custom: {}
+created: '2023-10-11T12:45:19.36168+00:00'
+modified: '2023-10-11T12:45:19.36168+00:00'

@@ -1,0 +1,60 @@
+composition:
+  _name: Restaurant Review Hero
+  _id: 23bf4845-3154-4b7b-b655-0649f2b28f50
+  type: hero
+  parameters:
+    body:
+      type: text
+      value: ${#jptr:/Restaurant Review by Slug Content/entries/0/teaser_text}
+    title:
+      type: text
+      value: ${#jptr:/Restaurant Review by Slug Content/entries/0/title}
+    imageUrl:
+      type: text
+      value: ${#jptr:/Restaurant Review by Slug Content/entries/0/featured_image/url}
+    imageAltText:
+      type: text
+      value: ${#jptr:/Restaurant Review by Slug Content/entries/0/title}
+  slots:
+    heading:
+      - _id: f2a70558-af31-4ecc-b17e-f227bc3fe82f
+        type: heading
+        parameters:
+          title:
+            type: text
+            value: ${#jptr:/Restaurant Review by Slug Content/entries/0/title}
+          byline:
+            type: text
+            value: >-
+              Rating: ${#jptr:/Restaurant Review by Slug
+              Content/entries/0/rating}
+          tagName:
+            type: select
+            value: h1
+          showEditorialLine:
+            type: checkbox
+            value: true
+  _dataResources:
+    Restaurant Review by Slug Content:
+      type: restaurantReviewBySlug
+      variables:
+        query: '{ "url": "yakitori-totto" }'
+        locale: ''
+        entriesValue: yakitori-totto
+        contentTypeUid: restaurant_review
+      isPatternParameter: true
+      ignorePatternParameterDefault: false
+  _overridability:
+    parameters:
+      body: 'yes'
+      title: 'yes'
+      imageFit: 'yes'
+      imageUrl: 'yes'
+      imageAltText: 'yes'
+created: '2023-08-06T15:05:49.477454+00:00'
+modified: '2023-08-20T14:52:40.615014+00:00'
+pattern: true
+description: Use this hero for restaurant reviews which are managed in Contentstack
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691488419/Uniland/components/restaurant-review-hero.png
+categoryId: 08bd6561-61eb-4cbf-8826-f10fd75bcab6

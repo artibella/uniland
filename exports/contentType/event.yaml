@@ -1,0 +1,176 @@
+id: event
+name: Event
+created: '2023-06-30T14:48:17.043272+00:00'
+updated: '2023-09-18T10:16:12.472032+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: internalName
+    name: Internal name
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: teaserText
+    name: Teaser text
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+  - id: eventType
+    name: Event type
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Webinar
+          value: webinar
+        - text: Conference
+          value: conference
+        - text: Meetup
+          value: meetup
+  - id: image
+    name: Image
+    type: image
+    helpText: ''
+    typeConfig: null
+  - id: link
+    name: LInk
+    type: link
+    helpText: ''
+    typeConfig: null
+  - id: group_eventDates
+    name: Event dates
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - startDate
+        - startTime
+        - endDate
+        - endTime
+  - id: startDate
+    name: Start date
+    type: text
+    helpText: Enter a date in YYYY-mm-dd format
+    typeConfig:
+      regex: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$
+      regexMessage: Enter a date in YYYY-mm-dd format
+  - id: startTime
+    name: Start time
+    type: text
+    helpText: Enter a time in 24-hour format (e.g. 20:15)
+    typeConfig:
+      regex: ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$
+      regexMessage: Enter a time in 24-hour format (hh:mm)
+  - id: endDate
+    name: End date
+    type: text
+    helpText: Enter a date in YYYY-mm-dd format
+    typeConfig:
+      regex: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$
+      regexMessage: Enter a date in YYYY-mm-dd format
+  - id: endTime
+    name: End time
+    type: text
+    helpText: Enter a time in 24-hour format (e.g. 20:15)
+    typeConfig:
+      regex: ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$
+      regexMessage: Enter a time in 24-hour format (hh:mm)
+  - id: group_eventLocation
+    name: Event location
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - location
+        - address
+        - attendanceMode
+        - virtualLocation
+  - id: location
+    name: Location
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: address
+    name: Address
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+  - id: virtualLocation
+    name: Virtual location
+    type: link
+    helpText: ''
+    typeConfig: null
+  - id: attendanceMode
+    name: Attendance mode
+    type: select
+    helpText: Indicates whether event occurs online, offline, or a mix
+    typeConfig:
+      options:
+        - text: Online
+          value: online
+        - text: Offline
+          value: offline
+        - text: Mixed
+          value: mixed
+entryName: internalName
+description: ''
+icon: file-document
+type: contentType
+permissions: []

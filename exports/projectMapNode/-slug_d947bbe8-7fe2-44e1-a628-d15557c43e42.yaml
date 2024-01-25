@@ -1,0 +1,10 @@
+id: d947bbe8-7fe2-44e1-a628-d15557c43e42
+name: Post
+type: composition
+data:
+  previewValue: apus-apus-the-swift-bird
+order: 200
+path: /:locale/blog/:slug
+compositionId: b1b7a479-a76d-4fe2-8b9d-e7ba34236d1c
+pathSegment: ':slug'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

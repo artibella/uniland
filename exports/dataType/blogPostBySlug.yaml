@@ -1,0 +1,18 @@
+id: blogPostBySlug
+displayName: Blog Post by Slug
+ttl: 30
+body: ''
+path: /single-by-slug
+custom:
+  proposedName: Blog Post
+  allowedContentTypes:
+    - blogPost
+method: GET
+purgeKey: 91d5b344-f590-417c-9f45-3f567bb70a82
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

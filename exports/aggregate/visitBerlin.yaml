@@ -1,0 +1,7 @@
+id: visitBerlin
+name: Visit Berlin
+description: ''
+type: 1
+inputs:
+  - dim: berlinVisitor
+    sign: +

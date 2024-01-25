@@ -1,0 +1,8 @@
+id: 66ddfa5c-9c1b-46a4-a11f-f5ecd564d101
+name: Reviews
+type: placeholder
+data: {}
+order: 750
+path: /:locale/reviews
+pathSegment: reviews
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

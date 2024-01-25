@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: GreenTshirt01.webp
+    description:
+      type: text
+      value: ''
+    file:
+      type: file
+      value: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/z-xYqYKTT3mWVbp2b_JLmA-GreenTshirt01.webp
+      type: text
+    size:
+      value: 49550
+      type: number
+    width:
+      value: 1445
+      type: number
+    height:
+      value: 1445
+      type: number
+    custom: {}
+created: '2023-10-09T14:33:37.331358+00:00'
+modified: '2023-10-09T14:33:37.331358+00:00'

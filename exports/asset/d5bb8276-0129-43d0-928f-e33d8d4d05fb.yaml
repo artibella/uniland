@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: d5bb8276-0129-43d0-928f-e33d8d4d05fb
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: ubereats.webp
+    file:
+      type: file
+      value: eada129c-a483-4fa2-bded-58bd4b395526
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/Y79kCAm6SsKpgFfA1rj3Pg-ubereats.webp
+      type: text
+    size:
+      value: 1788
+      type: number
+    width:
+      value: 164
+      type: number
+    height:
+      value: 52
+      type: number
+    custom: {}
+created: '2023-11-01T12:39:47.58081+00:00'
+modified: '2023-11-01T12:39:47.58081+00:00'

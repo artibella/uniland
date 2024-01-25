@@ -1,0 +1,9 @@
+id: e6137294-9144-41ff-9170-605319ee531c
+name: Game Version
+type: placeholder
+data:
+  previewValue: totk
+order: 300
+path: /:locale/compendium/:game
+pathSegment: ':game'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

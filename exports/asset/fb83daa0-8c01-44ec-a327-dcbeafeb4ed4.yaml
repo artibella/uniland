@@ -1,0 +1,33 @@
+asset:
+  type: image
+  _id: fb83daa0-8c01-44ec-a327-dcbeafeb4ed4
+  _name: greg-johnson-u2ULCTV8KKw-unsplash.jpg
+  fields:
+    title:
+      type: text
+      value: greg-johnson-u2ULCTV8KKw-unsplash.jpg
+    description:
+      type: text
+      value: Lightning
+    file:
+      type: file
+      value: fb83daa0-8c01-44ec-a327-dcbeafeb4ed4
+    mediaType:
+      value: image/jpeg
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/FS1dbiPWTjuAFqXZWIYp8w-greg-johnson-u2ULCTV8KKw-unsplash.jpg
+      type: text
+    size:
+      value: 484093
+      type: number
+    width:
+      value: 1920
+      type: number
+    height:
+      value: 2523
+      type: number
+    custom: {}
+created: '2023-10-09T15:08:17.179506+00:00'
+modified: '2023-10-30T13:35:56.096948+00:00'

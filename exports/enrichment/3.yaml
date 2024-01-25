@@ -1,0 +1,8 @@
+id: '3'
+name: Technology
+cap: 100
+values:
+  - id: int
+    value: Integrations
+  - id: shop
+    value: Shop

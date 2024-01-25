@@ -1,0 +1,22 @@
+composition:
+  _name: About us hello
+  _id: 64ba41b5-ae11-49b3-99ea-97a5a81cddc3
+  type: page
+  slots:
+    hero:
+      - _id: f75c5553-e5ac-418a-8537-178761740c71
+        type: hero
+        slots:
+          heading:
+            - _id: 4468e891-de70-4657-9a12-1c4cc8dabc2d
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: About us
+  _locales:
+    - en-US
+created: '2023-03-09T12:26:54.237186+00:00'
+modified: '2023-12-13T18:33:54.009222+00:00'
+pattern: false

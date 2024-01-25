@@ -1,0 +1,56 @@
+created: '2024-01-04T12:33:38.327001+00:00'
+modified: '2024-01-04T13:05:28.206727+00:00'
+pattern: false
+entry:
+  _id: bcee5f90-7f9e-441d-85b9-b54bca6d5ada
+  _name: Pumpkin pie
+  _slug: pumpkin-pie
+  type: recipe
+  fields:
+    name:
+      type: text
+      value: Pumpkin pie
+    subtitle:
+      type: text
+      value: >-
+        The Ultimate Pumpkin Pie Recipe That Will Have You Coming Back for
+        Seconds!
+    publishDate:
+      type: date
+      value: '2024-01-04'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 369cc640-a963-4ee4-a230-b376c2957c45
+          type: image
+          fields:
+            id:
+              type: text
+              value: 674a2c6f-df4f-49b9-9ea3-44310fa9333a
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vr7mkOrvTCuacqdivv45yA-AI-generated-image-for-Featured-image
+              type: text
+            file:
+              type: file
+              value: 2e9398f9-16bf-4439-bb67-1d9cf1c098d1
+            size:
+              value: 72617
+              type: number
+            title:
+              type: text
+              value: AI-generated-image-for-Featured-image
+            width:
+              value: 1024
+              type: number
+            height:
+              value: 1024
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
+  _locales:
+    - en-US
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vr7mkOrvTCuacqdivv45yA-AI-generated-image-for-Featured-image

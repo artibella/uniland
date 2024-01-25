@@ -1,0 +1,9 @@
+id: 2229f552-dcc3-4762-9dd7-b054b976e391
+name: Some page
+type: composition
+data: {}
+order: 800
+path: /:locale/company/some-page
+compositionId: 6d9383fe-c0e6-4f65-b512-eb5eb1f9848d
+pathSegment: some-page
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

@@ -1,0 +1,41 @@
+id: howto
+name: HowTo
+created: '2023-10-25T11:59:57.535992+00:00'
+updated: '2023-10-25T11:59:57.535992+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: steps
+    name: Steps
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - howtoSection
+        - howtoStep
+  - id: totalTime
+    name: Total time
+    type: number
+    helpText: total time for executing the HowTo in minues
+    typeConfig: null
+entryName: name
+description: A generic article format for tutorials or other step-based instructions
+icon: bulb
+type: contentType
+permissions: []

@@ -1,0 +1,12 @@
+id: c37af20b-ea42-4df0-9883-38b5d74c93ca
+sourceUrl: /company/jobs
+sourceRetainQuerystring: true
+targetUrl: https://uniland-staging.vercel.app/:locale/company/carreers
+targetStatusCode: 301
+targetProjectMapNodeId: 12e73671-cf38-4efc-bdf0-6966bb199f56
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

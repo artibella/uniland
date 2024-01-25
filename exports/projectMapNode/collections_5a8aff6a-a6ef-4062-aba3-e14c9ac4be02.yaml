@@ -1,0 +1,9 @@
+id: 5a8aff6a-a6ef-4062-aba3-e14c9ac4be02
+name: Collections
+type: composition
+data: {}
+order: 300
+path: /:locale/shop/collections
+compositionId: b576c989-f482-4909-a55c-54962e911972
+pathSegment: collections
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

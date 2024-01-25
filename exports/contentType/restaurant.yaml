@@ -1,0 +1,118 @@
+id: restaurant
+name: Restaurant
+created: '2023-11-01T11:00:22.94999+00:00'
+updated: '2023-12-12T13:37:32.43331+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: logo
+    name: Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: true
+  - id: image
+    name: Image
+    type: image
+    helpText: ''
+    typeConfig: null
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+  - id: group_address
+    name: Address
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - address
+        - zipCode
+        - city
+        - phone
+        - googleMapsLink
+  - id: address
+    name: Address
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: zipCode
+    name: Zip Code
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: city
+    name: City
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: phone
+    name: Phone
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        url: false
+        email: false
+        projectMapNode: false
+  - id: googleMapsLink
+    name: Google Maps Link
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+        projectMapNode: false
+  - id: openingHours
+    name: Opening Hours
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - openingHours
+        - $loop
+  - id: orderOptions
+    name: Order Options
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - logo
+entryName: name
+description: ''
+icon: pin
+type: contentType
+permissions: []

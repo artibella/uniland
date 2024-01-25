@@ -1,0 +1,12 @@
+id: 3fc50d57-cb4c-4bcc-993c-1a414f71b984
+sourceUrl: /shop/Categories
+sourceRetainQuerystring: true
+targetUrl: https://uniland-staging.vercel.app/:locale/shop/categories
+targetStatusCode: 301
+targetProjectMapNodeId: 85a51285-d076-4821-86ce-f790662b420b
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

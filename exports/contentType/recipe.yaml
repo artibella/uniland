@@ -1,0 +1,237 @@
+id: recipe
+name: Recipe
+created: '2023-10-11T11:33:51.958828+00:00'
+updated: '2024-01-24T13:30:43.100769+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig:
+      required: true
+  - id: subtitle
+    name: Subtitle
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: publishDate
+    name: Publish date
+    type: date
+    helpText: ''
+    typeConfig: null
+  - id: intro
+    name: Intro
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+  - id: featuredImage
+    name: Featured image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: false
+  - id: media
+    name: Media
+    type: asset
+    helpText: ''
+    typeConfig:
+      min: 0
+  - id: notes
+    name: Notes
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+  - id: group_cookingTimes
+    name: Cooking times
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - preparationTime
+        - cookingTime
+        - restingTime
+        - totalTime
+  - id: preparationTime
+    name: Preparation time
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: cookingTime
+    name: Cooking time
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: restingTime
+    name: Resting time
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: totalTime
+    name: Total time
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: recipeYield
+    name: Recipe Yield
+    type: text
+    helpText: ''
+    typeConfig: null
+  - id: instructions
+    name: Instructions
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - howtoStep
+        - howtoSection
+        - $loop
+  - id: ingredients
+    name: Ingredients
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - recipeIngredient
+        - recipeIngredientSet
+        - $loop
+  - id: nutritionFacts
+    name: Nutrition facts
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - nutritionInformation
+        - $loop
+  - id: group_aggregateRating
+    name: Aggregate rating
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - ratingValue
+        - ratingCount
+  - id: ratingValue
+    name: Rating Value
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '5'
+      min: '1'
+      decimal: true
+      decimalPlaces: '1'
+  - id: ratingCount
+    name: Rating Count
+    type: number
+    helpText: ''
+    typeConfig: null
+  - id: difficulty
+    name: Difficulty
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Beginner
+          value: easy
+        - text: Hobby Cook
+          value: medium
+        - text: Chef
+          value: advanced
+  - id: sourceUrl
+    name: Source URL
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+        projectMapNode: false
+entryName: name
+thumbnailField: featuredImage
+description: >
+  A set of instructions for preparing a particular dish, including a list of the
+  ingredients required.
+icon: bowl
+type: contentType
+permissions: []

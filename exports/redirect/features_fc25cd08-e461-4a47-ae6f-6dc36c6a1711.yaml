@@ -1,0 +1,12 @@
+id: fc25cd08-e461-4a47-ae6f-6dc36c6a1711
+sourceUrl: /features
+sourceRetainQuerystring: true
+targetUrl: https://uniland-staging.vercel.app/:locale/integrations
+targetStatusCode: 301
+targetProjectMapNodeId: e0bd9838-5ef5-4d18-b06b-4bc8313f4d5e
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: false

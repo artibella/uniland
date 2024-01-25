@@ -1,0 +1,152 @@
+composition:
+  _name: Category
+  _id: 25846713-436a-4adf-b35a-256d45a9e673
+  _slug: compendium-category
+  type: page
+  slots:
+    sections:
+      - _id: 7fe1261d-0370-4443-a7bf-3e8e593aca88
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 7f33b294-7866-4250-b841-4588cdc3774d
+              type: gridContainer
+              slots:
+                items:
+                  - _id: 0ceab05b-2566-454c-b403-038c53525598
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: ae80aa85-a0ce-460e-887a-594d411a290f
+                          type: card
+                          slots:
+                            actions:
+                              - _id: 51fe15f2-c7f3-4912-a059-af49c19f05e4
+                                type: callToAction
+                                parameters:
+                                  title:
+                                    type: text
+                                    locales:
+                                      de-DE: Learn more
+                                      en-US: Learn more
+                                  internalLink:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        /${locale}/compendium/${game}/${category}/${#jptr:/Entries
+                                        data Loop Item/name}
+                                      type: projectMapNode
+                                      nodeId: 71600ccf-1d34-4001-8f8f-661c56d6a1bc
+                                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                                      dynamicInputValues:
+                                        game: ${game}
+                                        entry: ${#jptr:/Entries data Loop Item/name}
+                                        locale: ${locale}
+                                        category: ${category}
+                          parameters:
+                            image:
+                              type: text
+                              locales:
+                                de-DE: >-
+                                  https://botw-compendium.herokuapp.com/api/v3/compendium/entry/${#jptr:/Entries
+                                  data Loop Item/name}/image
+                                en-US: >-
+                                  https://botw-compendium.herokuapp.com/api/v3/compendium/entry/${#jptr:/Entries
+                                  data Loop Item/name}/image
+                            title:
+                              type: text
+                              locales:
+                                de-DE: ${#jptr:/Entries data Loop Item/name}
+                                en-US: ${#jptr:/Entries data Loop Item/name}
+                    _dataResources:
+                      Entries data Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          skip: '0'
+                          limit: '0'
+                          connectedData: /Entries/data
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+            - _id: 26bb9789-e207-44f6-b3ab-48d6b7186ec4
+              type: pagination
+              parameters:
+                name:
+                  type: text
+                  locales:
+                    de-DE: Pagination
+                    en-US: Pagination
+                size:
+                  type: number
+                  value: ${size}
+                offset:
+                  type: number
+                  value: ${offset}
+                nextLabel:
+                  type: text
+                  locales:
+                    de-DE: Next
+                    en-US: Next
+                prevLabel:
+                  type: text
+                  locales:
+                    de-DE: Prev
+                    en-US: Prev
+                sizeParam:
+                  type: text
+                  value: size
+                targetUrl:
+                  type: link
+                  locales:
+                    de-DE:
+                      path: /:locale/compendium/:game/:category
+                      type: projectMapNode
+                      nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                      dynamicInputValues:
+                        game: ${game}
+                        locale: ${locale}
+                    en-US:
+                      path: /:locale/compendium/:game/:category
+                      type: projectMapNode
+                      nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                      dynamicInputValues:
+                        game: ${game}
+                        locale: ${locale}
+                offsetParam:
+                  type: text
+                  value: offset
+          heading:
+            - _id: 9d9bc936-a6ec-48f4-8556-8ff4e212980e
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: ${#jptr:/Entries/data/0/category}
+                    en-US: ${#jptr:/Entries/data/0/category}
+                byline:
+                  type: text
+                  locales:
+                    de-DE: Compendium
+                    en-US: "Compendium\_(${game})"
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+  _dataResources:
+    Entries:
+      type: entriesByCategory
+      variables:
+        game: ${game}
+        category: ${category}
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-12T10:57:39.326245+00:00'
+modified: '2024-01-12T17:28:42.296645+00:00'
+pattern: false

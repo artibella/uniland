@@ -1,0 +1,17 @@
+created: '2023-12-14T15:54:17.526293+00:00'
+modified: '2023-12-14T15:54:30.758117+00:00'
+pattern: false
+entry:
+  _id: 424b8839-548f-4bf7-8283-e0a40827c3fc
+  _name: Clear Sunnies
+  _slug: clear-sunnies
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: clear-sunnies
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

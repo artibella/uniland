@@ -1,0 +1,22 @@
+id: collectionByHandle
+displayName: Collection by Handle
+ttl: 30
+path: ''
+custom:
+  proposedName: ''
+method: GET
+purgeKey: 84cffb37-b6c3-4f4b-a56e-473d3cdbeaa8
+archetype: default
+variables:
+  handle:
+    type: text
+    default: featured
+    helpText: URL slug of collection
+parameters:
+  - key: query
+    value: >-
+      { collection(handle: "${handle}") { id handle title description image { id
+      url } products(first: 20) { edges { node { id title handle description
+      featuredImage { id url } } } } }}
+dataSourceId: mockShop
+allowedOnComponents: []

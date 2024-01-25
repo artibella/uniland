@@ -1,0 +1,17 @@
+id: 3e660606-f991-4185-9e36-5d357cd27d80
+name: Category
+type: composition
+data:
+  previewValue: creatures
+  queryStrings:
+    - name: size
+      value: '10'
+      helpText: ''
+    - name: offset
+      value: '0'
+      helpText: ''
+order: 200
+path: /:locale/compendium/:game/:category
+compositionId: 25846713-436a-4adf-b35a-256d45a9e673
+pathSegment: ':category'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

@@ -1,0 +1,990 @@
+created: '2023-06-30T18:50:43.24011+00:00'
+modified: '2023-10-04T15:02:35.74361+00:00'
+pattern: false
+entry:
+  _id: b4f2e149-8cba-4e65-b4c9-4a405cfc6f62
+  _name: Why digital experience composition is the future
+  _slug: from-dxp-to-headless-to-composable-to-dxc
+  type: blogPost
+  fields:
+    title:
+      type: text
+      value: Why digital experience composition is the future
+    postBody:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    DXPs had great success by building tools that enabled
+                    business teams to build personalized digital experiences.
+                    However, for developers, those platforms were a time sink,
+                    forcing them to become experts in proprietary technologies
+                    and constraining their ability to innovate.Despite their
+                    modernization efforts, DXP vendors failed to adapt to market
+                    changes as headless-technology vendors emerged with a
+                    different vision of how digital experiences should be built
+                    and who should control the process.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Headless gained popularity
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Headless technologies went in the opposite direction: open
+                    APIs and outstanding tools for developers but a nightmare
+                    for business users. Suddenly, marketers and merchandisers
+                    had to jump between tools and request developer support for
+                    even routine tasks. All too often, marketers’ requests were
+                    trapped in the developer backlog.Still, the significant
+                    gains offered by headless made the trade-offs worthwhile.
+                    Brands could deliver experience at such high speed that
+                    their SEO ranking soared. Not only did more conversions
+                    result, but brands also became more agile, capable of
+                    responding quickly to changing business needs.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Composable was born
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Headless led to composable, whereby brands build a stack
+                    based on their needs instead of buying a bloated DXP suite.
+                    In response, vendors in the monolithic DXP and headless
+                    arenas called themselves composable almost overnight.The
+                    theory makes a lot of sense but, In practice, composable is
+                    very difficult to do well. Many brands are stuck with tools
+                    that are connected by endless custom glue code that’s slow
+                    to build and expensive to maintain. Some organizations have
+                    tried to overcome those issues with agency accelerators, but
+                    in reality that just means they’re stuck in the agency’s
+                    glue rather than their own. Even though that might speed up
+                    short-term delivery, the long-term lock-in issue still
+                    exists and is potentially even worse. As I like to say,
+                    “Composable tools don’t compose themselves.” Both DXP and
+                    headless encompass three serious issues:
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Time-consuming implementation and expensive stacks
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Slow response to changes in strategy
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Unhappy users who don’t like their tools
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In today’s hypercompetitive market, brands can’t afford to
+                    spend time on workarounds, and of course they don’t want
+                    experts to quit because they’re sick of using tools they
+                    hate.Business teams and development teams end up in conflict
+                    with each other, competing for tools that work for one but
+                    not the other. This is the reality in the industry, as we
+                    see any time we talk about a purchasing process is either
+                    “marketing-led” or “developer-led.”
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: But that’s not right!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    For the business to thrive, both business and developer
+                    teams must be empowered. That was what we set out to do when
+                    we founded Uniform.[![DXC ebook Banner
+                    Image](https://res.cloudinary.com/uniformdev/image/upload/w_700,c_fill,f_auto,q_auto,dpr_2.0/marketing/blog/DXC_Ebook_Blogbanner.png)](https://uniform.dev/resources/unlock-composability-with-dxc)
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Digital experience composition came into play
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'At its founding, Uniform had two key goals:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        To build a platform that allows developers to select the
+                        best framework for their job and account for rapid
+                        innovation. For example, JavaScript, Next.js, and Nuxt
+                        lead the way as I write this, but Sveltekit and Astro
+                        might be trending next year. We wanted developers to
+                        have 
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - mode: normal
+                      text: the power of choice
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: ' and use the best tools for the job, not what someone decided years ago was right for them.'
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        To free business users from the developer backlog,
+                        enabling them to build fast digital experiences and
+                        realize the DXP vision without being constrained by
+                        rigid, sluggish websites.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Earlier this year, to our delight, Gartner recognized what
+                    we were doing as part of the industry movement and defined 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/what-is-digital-experience-composition
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: digital experience composition
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' as a category with three layers:'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Composable integration, '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        through which you can snap in the technologies from your
+                        stack and, when it’s time for replacement, simply remove
+                        them and add new ones with no need for costly 
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/composable-architecture/switching-vendors-for-digital-architectures-without-replatforming
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: replatforming
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - mode: normal
+                      text: .
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Experience builder, '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        which is what separates digital experience composition
+                        from an API aggregator, giving back business users the
+                        visibility and control of what they’re building.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: 'Front-end orchestration, '
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 1
+                      version: 1
+                    - mode: normal
+                      text: >-
+                        where your design system works, decoupled from all
+                        sources and gaining efficiency by being able to assemble
+                        content from various components—with total freedom of
+                        framework selection.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In a composed solution, the composable API orchestration and
+                    front-end layer are connected by glue code, removing so much
+                    of the flexibility and ability to innovate that makes a
+                    tangible difference to business outcomes. This problem is
+                    even worse in large, complex stacks, where the number of
+                    integrations between tools gets exponential.With digital
+                    experience composition's no-code orchestration layer, your
+                    marketers and other business users can compose digital
+                    experiences based on your design system, your underlying
+                    technologies, and the content business teams create—without
+                    involving developers at all.publishedWhat is digital
+                    experience composition?Together, those layers are where
+                    business teams and developers intersect. Developers can add
+                    components in the top layer and map them to sources from the
+                    bottom layer. Business teams are free to use those
+                    components for any experience. The result is lightning-fast
+                    compositions for any channel in the context of the visitors’
+                    in-the-moment intent.Uniform digital experience composition
+                    platform (DXCP) makes that vision a reality. It’s so easy to
+                    adapt your stack to meet changing business needs that it
+                    doesn’t go stale. In fact, as you build a more sustainable
+                    platform, your stack’s value rises as you can easily
+                    incorporate new technologies to take advantage of
+                    innovations and learnings faster than your competitors.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: New version of Uniform DXCP is now available
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: 'Today, we are releasing '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: major updates to Uniform DXCP
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' with exciting new capabilities.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: A more visual Uniform Canvas
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    At its initial release, Uniform Canvas functioned as a
+                    no-code, experience-orchestration layer for business users
+                    to easily create and manage compositions: pages, emails,
+                    apps. It had the convenience of a page-builder, but with
+                    true omnichannel functionality.The new 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/canvas
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Uniform Canvas
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    m.dev/canvas includes an integrated and responsive multi
+                    source live preview so that business users can fully engage
+                    with the context of what they are building, accelerating
+                    their digital experience delivery.publishedUniform Visual
+                    Canvas
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Structure management in Project Map
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    A major request from our partners has been to structure the
+                    underlying technologies so that large sites or apps become
+                    more intuitive to users.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Project Map
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' brings hierarchy-management capability to Uniform Canvas, transforming composability at scale without compromising the underlying tools. This structure makes it much easier to visualize an experience, locate key content, and give them ownership over their area of a digital experience. That’s especially relevant at enterprise scales, where headless tools’ lack of structure has been a major barrier to adoption.publishedUniform Project Map'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h3
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Superpowered integrations
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    We’ve boosted our Mesh integrations, making it even faster
+                    to connect and build with Uniform before going to market.
+                    With a few clicks, you can connect, for example, a review
+                    API to products, or location data to a point of interest.
+                    The new integrations include 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: edgehancers.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' As you might have guessed from the name, they '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: enhance
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' performance by delivering content to the CDN '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: edge
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: ' from any source out of the box. That means that users worldwide get the best possible experience and that SEO performance is greatly enhanced.These new integrations also include surgical cache invalidation, which enables content updates to go live instantaneously after publication. If you’ve ever spoken to a marketer who has pushed a typo to the company homepage, you’ll know how valuable this feature is.All the new features are available through '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: 'DXCP Catalyst, '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: our white-glove support program
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: ', '
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+                - mode: normal
+                  text: >-
+                    to our current and new enterprise customers, as well as
+                    select partners; and will come to our free tier in 2023. To
+                    add the features to your Uniform projects, get in touch with
+                    our team.If you’re new to Uniform and want to understand
+                    more about what our DXCP solution can do for you, click the 
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://uniform.dev/demo
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Request Demo
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 9
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ' button at the top of this page.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: More about digital experience composition
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/what-is-digital-experience-composition
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: What is digital experience composition?
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/digital-experience-composition-dxc/explaining-dxc-and-its-benefits-to-marketers
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            What is digital experience composition and why
+                            should marketers care?
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/digital-experience-composition-dxc/from-dxp-to-headless-to-composable-to-dxc
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Why digital experience composition is the future
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 4
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/digital-experience-composition-dxc/why-the-rush-to-composable-is-not-paying-off-for-marketers
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Why the rush to composable is not paying off for
+                            marketers
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 5
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/digital-experience-composition-dxc/tame-the-martech-chaos-with-dxc-and-mach
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Tame the martech chaos with digital experience
+                            composition and MACH
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 6
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/digital-experience-composition-dxc/orchestrating-composable-systems-harmonizes-team-workflows
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Bring harmony to digital teams by orchestrating
+                            composable systems
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 7
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://uniform.dev/blogs/digital-experience-composition-dxc/are-digital-experience-solutions-truly-composable-or-just-composed
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: >-
+                            Are digital experience solutions truly composable or
+                            just composed?
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+                - type: listitem
+                  value: 8
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - link:
+                        path: >-
+                          https://www.linkedin.com/pulse/demystifying-digital-experience-composition-lars-birkholm-petersen/
+                        type: url
+                      type: link
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Demystifying digital experience composition
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      value: Why digital experience composition is the future
+    postImage:
+      type: image
+      value: >-
+        https://images.ctfassets.net/9ku1oyd4k3wo/1z6IvHbTudCUqGf1WDssPg/6717b1f849bab83937b355b330175ceb/BlogHeader__Why_DXC_is_the_future.png

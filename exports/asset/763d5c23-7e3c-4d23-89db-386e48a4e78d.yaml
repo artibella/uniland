@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 763d5c23-7e3c-4d23-89db-386e48a4e78d
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: wolt.webp
+    file:
+      type: file
+      value: 9a5941ab-8cca-4133-8780-477cbfd69d53
+    mediaType:
+      value: image/webp
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/f6tOVgY4TQKzX2Hcn1zOTg-wolt.webp
+      type: text
+    size:
+      value: 1274
+      type: number
+    width:
+      value: 164
+      type: number
+    height:
+      value: 52
+      type: number
+    custom: {}
+created: '2023-11-01T12:37:00.018946+00:00'
+modified: '2023-11-01T12:37:00.018946+00:00'

@@ -1,0 +1,39 @@
+id: imageBlock
+name: Image Block
+created: '2023-10-25T08:29:37.941001+00:00'
+updated: '2023-12-14T19:48:58.768507+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+      min: 0
+    localizable: true
+  - id: imageAlignment
+    name: Image Alignment
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Left
+          value: left
+        - text: Center
+          value: center
+        - text: Right
+          value: right
+entryName: title
+description: ''
+icon: image
+type: block
+permissions: []

@@ -1,0 +1,10 @@
+id: 05eb23ca-be6a-4f43-9d31-41f9c10f6dd6
+name: Collection
+type: composition
+data:
+  previewValue: mens
+order: 600
+path: /:locale/shop/collections/:handle
+compositionId: 3a0f5c23-3243-4555-bf0a-ecab748b08f4
+pathSegment: ':handle'
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
