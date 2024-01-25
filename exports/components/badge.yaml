@@ -9,6 +9,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: size
     name: Size
     type: select
@@ -57,7 +58,7 @@ slots: []
 titleParameter: label
 canBeComposition: false
 created: '2022-12-15T14:08:25.552011+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-13T11:57:08.198983+00:00'
 variants:
   - id: outline
     name: outline

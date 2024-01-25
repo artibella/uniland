@@ -9,6 +9,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: theme
     name: Theme
     type: select
@@ -25,6 +26,7 @@ parameters:
           value: ice
         - text: Mango
           value: mango
+    localizable: true
 categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
 description: Create a themed top-level section of a page
 useTeamPermissions: true
@@ -60,10 +62,12 @@ slots:
       - logos
       - articleBlock
       - testimonialBlock
+      - pagination
+      - badge
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.760427+00:00'
-updated: '2023-11-03T14:48:25.463772+00:00'
+updated: '2024-01-12T16:17:01.990342+00:00'

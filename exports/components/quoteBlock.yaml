@@ -9,21 +9,25 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: quote
     name: Quote
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: author
     name: Author
     type: text
     helpText: Author or person that made the quote
     typeConfig: null
+    localizable: true
   - id: source
     name: Source
     type: text
     helpText: Source of quote (e.g. book, film)
     typeConfig: null
+    localizable: true
   - id: theme
     name: Theme
     type: select
@@ -46,4 +50,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2023-02-06T10:50:27.050352+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-13T12:10:28.514733+00:00'

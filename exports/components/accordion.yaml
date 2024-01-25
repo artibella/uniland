@@ -18,6 +18,7 @@ parameters:
     typeConfig:
       regex: ^[a-zA-Z0-9]+$
       regexMessage: Only letters and numbers are allowed
+    localizable: true
   - id: icon
     name: Icon
     type: select
@@ -57,4 +58,4 @@ slots:
 titleParameter: internalName
 canBeComposition: false
 created: '2023-08-21T09:27:14.311015+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-13T11:57:31.302224+00:00'

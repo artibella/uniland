@@ -9,11 +9,13 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: linkPrefix
     name: Link prefix
     type: text
     helpText: 'Used for dynamic pages: append any prefix for the link field'
     typeConfig: null
+    localizable: true
   - id: link
     name: Link
     type: text
@@ -37,7 +39,7 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:25.748367+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-13T11:59:33.454039+00:00'
 variants:
   - id: default
     name: Default

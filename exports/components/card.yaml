@@ -9,22 +9,26 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: byline
     name: Byline
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: image
     name: Image
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: body
     name: Body
     type: text
     helpText: ''
     typeConfig:
       multiline: true
+    localizable: true
 categoryId: 7c7c6ecc-9368-4cb5-92b4-7b4d25dbf457
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1691416931/Uniland/components/card.png
@@ -38,4 +42,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.014521+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-14T19:59:00.658171+00:00'

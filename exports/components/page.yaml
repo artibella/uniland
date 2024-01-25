@@ -34,20 +34,7 @@ slots:
       - hero
       - conditionalContainer
     inheritAllowedComponents: false
-defaults:
-  type: page
-  slots:
-    hero:
-      - type: hero
-        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
-        _overridability:
-          parameters:
-            body: 'yes'
-            title: 'yes'
-            imageFit: 'yes'
-            imageUrl: 'yes'
-            imageAltText: 'yes'
 titleParameter: title
 canBeComposition: true
 created: '2022-12-15T14:08:27.337946+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2024-01-15T18:57:14.944117+00:00'

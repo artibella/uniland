@@ -10,6 +10,7 @@ parameters:
     helpText: ''
     typeConfig:
       multiline: false
+    localizable: true
   - id: body
     name: Body
     type: text
@@ -17,6 +18,7 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '10'
+    localizable: true
   - id: richText
     name: Rich text
     type: richText
@@ -46,6 +48,7 @@ parameters:
           - code
           - superscript
           - subscript
+    localizable: true
   - id: group_externalContent
     name: External Content
     type: group
@@ -58,6 +61,7 @@ parameters:
     type: json
     helpText: Rich text JSON coming from another CMS
     typeConfig: {}
+    localizable: true
   - id: group_textStyling
     name: Text styling
     type: group
@@ -100,4 +104,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.903269+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-13T12:13:01.45938+00:00'

@@ -9,6 +9,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
 categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
 description: Modular slot-based article builder
 useTeamPermissions: true
@@ -27,4 +28,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2023-10-25T08:21:22.715496+00:00'
-updated: '2023-10-25T14:01:25.874171+00:00'
+updated: '2023-12-13T11:57:52.172287+00:00'

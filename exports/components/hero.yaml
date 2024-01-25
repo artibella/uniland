@@ -9,6 +9,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: body
     name: Body
     type: text
@@ -16,16 +17,19 @@ parameters:
     typeConfig:
       multiline: true
       linesCount: '3'
+    localizable: true
   - id: imageUrl
     name: Image URL
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: imageAltText
     name: Image Alt Text
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: imageFit
     name: Image fit
     type: select
@@ -44,6 +48,7 @@ parameters:
           value: scale-down
         - text: None
           value: none
+    localizable: true
 categoryId: 08bd6561-61eb-4cbf-8826-f10fd75bcab6
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1691488613/Uniland/components/default-hero.png
@@ -64,4 +69,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:26.050869+00:00'
-updated: '2023-09-08T13:59:27.908887+00:00'
+updated: '2023-12-13T12:01:38.405726+00:00'

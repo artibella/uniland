@@ -14,6 +14,7 @@ parameters:
     type: text
     helpText: Public title to show on the brick
     typeConfig: null
+    localizable: true
   - id: group_layoutSettings
     name: Layout settings
     type: group
@@ -43,6 +44,7 @@ parameters:
           value: spring
         - text: Ice
           value: ice
+    localizable: true
   - id: verticalAlignment
     name: Vertical alignment of content
     type: select
@@ -174,6 +176,7 @@ parameters:
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: backgroundImageFit
     name: Background Image fit
     type: select
@@ -240,4 +243,4 @@ slots:
 titleParameter: internalName
 canBeComposition: false
 created: '2023-01-19T10:12:31.391729+00:00'
-updated: '2023-10-09T14:29:16.040741+00:00'
+updated: '2023-12-13T11:59:04.944797+00:00'

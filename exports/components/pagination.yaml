@@ -1,0 +1,66 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: pagination
+name: Pagination
+icon: play-track-next-r
+parameters:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: prevLabel
+    name: Previous label
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: nextLabel
+    name: Next label
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: targetUrl
+    name: Target URL
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
+    localizable: true
+  - id: sizeParam
+    name: Size parameter
+    type: text
+    helpText: GET param for page size
+    typeConfig: null
+    localizable: false
+  - id: size
+    name: Size
+    type: number
+    helpText: ''
+    typeConfig:
+      min: '1'
+    localizable: false
+  - id: offset
+    name: Offset
+    type: number
+    helpText: ''
+    typeConfig:
+      min: '0'
+    localizable: false
+  - id: offsetParam
+    name: Offset parameter
+    type: text
+    helpText: GET parameter for offset
+    typeConfig: null
+    localizable: false
+description: simple pagination component for dynamic pages
+useTeamPermissions: true
+slots: []
+titleParameter: name
+canBeComposition: false
+created: '2024-01-12T12:46:27.467084+00:00'
+updated: '2024-01-12T12:46:27.467084+00:00'
