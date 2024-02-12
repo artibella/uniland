@@ -3,17 +3,17 @@ import Heading from './Heading';
 import classNames from 'classnames';
 
 const renderImage = (imageUrl, imageFit, title) => {
-  const objectFit = !imageFit.length ? 'cover' : imageFit;
+  const objectFit = !imageFit.length ? 'contain' : imageFit;
   const imageClasses = classNames(
-    'h-56 sm:h-72 md:h-96 lg:h-full',
-    'w-full lg:w-full',
-    `lg:object-${objectFit}`
+    'h-56 sm:h-72 md:h-full',
+
+    `object-${objectFit}`
   );
 
   return (
     <>
       {imageUrl && imageUrl.length && (
-        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+        <div className="md:absolute md:inset-y-0 md:right-0 md:w-1/2">
           <img className={imageClasses} src={imageUrl} alt={title} />
         </div>
       )}
@@ -35,9 +35,9 @@ export default function GenericHero({
   return (
     <div className="relative overflow-hidden bg-white">
       <div className="mx-auto max-w-7xl">
-        <div className="relative z-10 bg-white py-8 sm:py-16 md:py-20 lg:py-28 xl:py-32 lg:w-full lg:max-w-2xl">
+        <div className="relative z-10 bg-white py-8 sm:py-16 md:py-20 lg:py-28 xl:py-32 md:max-w-xl lg:max-w-2xl">
           <div className="mx-auto mt-10 px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-            <div className="text-center lg:text-left">
+            <div className="text-center md:text-left">
               {useDefaultHeading ? (
                 <Heading title={title} tagName="h2" />
               ) : (
