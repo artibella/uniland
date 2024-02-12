@@ -1,0 +1,100 @@
+composition:
+  _name: Blog Brick
+  _id: af8eb5be-641c-430c-a35e-7daea9244d2c
+  type: brick
+  parameters:
+    theme:
+      type: select
+      locales:
+        en-US: white
+    marginSize:
+      type: select
+      value: xl
+    aspectRatio:
+      type: select
+      value: video
+    borderRadius:
+      type: select
+      value: 2xl
+    internalName:
+      type: text
+      value: 'Blog post card: ${#jptr:/Post/entries/0/entry/fields/title/value}'
+    backgroundType:
+      type: select
+      value: image
+    backgroundImage:
+      type: text
+      locales:
+        en-US: ${#jptr:/Post/entries/0/entry/fields/postImage/value}
+    verticalAlignment:
+      type: select
+      value: end
+    backgroundImageFit:
+      type: select
+      value: contain
+    backgroundPosition:
+      type: select
+      value: top
+    horizontalAlignment:
+      type: select
+      value: center
+  slots:
+    content:
+      - _id: c80e15ae-2e18-43f0-ba5d-f4a9fd252f81
+        type: heading
+        parameters:
+          align:
+            type: select
+            value: center
+          theme:
+            type: select
+            value: dark
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Post/entries/0/entry/fields/title/value}
+          byline:
+            type: text
+            locales:
+              en-US: Blog post
+          tagName:
+            type: select
+            value: h2
+        _overridability:
+          parameters:
+            align: 'no'
+            theme: 'yes'
+            title: 'yes'
+            byline: 'yes'
+            tagName: 'no'
+            titleHtml: 'no'
+            titleRichText: 'no'
+            showEditorialLine: 'yes'
+  _dataResources:
+    Post:
+      type: blogPost
+      variables:
+        locale: ${locale}
+        entryIds: cd898149-9b7c-4854-b9c2-2157d1aaf4b2
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      theme: 'yes'
+      title: 'no'
+      marginSize: 'no'
+      aspectRatio: 'no'
+      paddingSize: 'no'
+      borderRadius: 'no'
+      internalName: 'no'
+      backgroundType: 'no'
+      backgroundImage: 'yes'
+      verticalAlignment: 'no'
+      backgroundImageFit: 'yes'
+      backgroundPosition: 'yes'
+      horizontalAlignment: 'no'
+  _locales:
+    - en-US
+created: '2024-02-09T15:27:25.006071+00:00'
+modified: '2024-02-09T15:40:17.239581+00:00'
+pattern: true

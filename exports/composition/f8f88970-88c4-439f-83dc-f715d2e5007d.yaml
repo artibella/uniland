@@ -49,7 +49,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/creatures
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -58,7 +58,7 @@ composition:
                               locale: ${locale}
                               category: creatures
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/creatures
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -83,7 +83,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/monsters
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -92,7 +92,7 @@ composition:
                               locale: ${locale}
                               category: monsters
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/monsters
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -117,7 +117,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/materials
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -126,7 +126,7 @@ composition:
                               locale: ${locale}
                               category: materials
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/materials
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -151,7 +151,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/equipment
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -160,7 +160,7 @@ composition:
                               locale: ${locale}
                               category: equipment
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/equipment
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -187,7 +187,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/treasure
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -196,7 +196,7 @@ composition:
                               locale: ${locale}
                               category: treasure
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/botw/treasure
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -247,7 +247,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/creatures
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -256,7 +256,7 @@ composition:
                               locale: ${locale}
                               category: creatures
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/creatures
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -281,7 +281,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/monsters
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -290,7 +290,7 @@ composition:
                               locale: ${locale}
                               category: monsters
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/monsters
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -315,7 +315,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/materials
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -324,7 +324,7 @@ composition:
                               locale: ${locale}
                               category: materials
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/materials
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -349,7 +349,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/equipment
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -358,7 +358,7 @@ composition:
                               locale: ${locale}
                               category: equipment
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/equipment
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -385,7 +385,7 @@ composition:
                         type: link
                         locales:
                           de-DE:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/treasure
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -394,7 +394,7 @@ composition:
                               locale: ${locale}
                               category: treasure
                           en-US:
-                            path: /:locale/compendium/:category
+                            path: /${locale}/compendium/totk/treasure
                             type: projectMapNode
                             nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

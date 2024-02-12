@@ -70,7 +70,6 @@ entry:
       type: asset
       locales:
         en-US: []
-      value: []
   _dataResources:
     Product by handle Content:
       type: productByHandle

@@ -1,7 +1,7 @@
 composition:
   _name: Monster
   _id: 64cc05ee-918d-4097-8777-7ec560098344
-  _slug: entry-copy
+  _slug: monster detail
   type: page
   slots:
     hero:
@@ -121,7 +121,7 @@ composition:
                       title:
                         type: text
                         locales:
-                          de-DE: 'Lässt fallen:'
+                          de-DE: 'Gegenstände:'
                           en-US: 'Drops items:'
                       tagName:
                         type: select
@@ -170,5 +170,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-12T15:39:53.475749+00:00'
-modified: '2024-01-12T17:04:06.108304+00:00'
+modified: '2024-02-12T12:03:39.757693+00:00'
 pattern: false

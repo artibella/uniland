@@ -57,10 +57,11 @@ slots:
   - id: heading
     name: Heading
     maxComponents: 1
-    minComponents: 0
     allowedComponents:
       - heading
+    allowAllComponents: false
     inheritAllowedComponents: false
+    patternsInAllowedComponents: false
   - id: ctas
     name: CTAs
     allowedComponents:
@@ -69,4 +70,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:26.050869+00:00'
-updated: '2023-12-13T12:01:38.405726+00:00'
+updated: '2024-02-12T11:58:23.013561+00:00'

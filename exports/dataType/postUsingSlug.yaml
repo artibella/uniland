@@ -3,9 +3,12 @@ displayName: Post using Slug
 ttl: 30
 path: /entries
 custom:
+  include: 6
+  imagePath: featuredImage
   slugField: fields.slug
   displayField: nameInternal
   contentTypeId: BlogPost
+  includeFields: []
   enableFilterByLocale: false
 method: GET
 purgeKey: e20d5908-e4fd-48fa-b492-7c93363ce22c
@@ -29,12 +32,13 @@ variables:
     displayName: Content Type
 parameters:
   - key: include
-    value: '2'
+    value: '6'
   - key: ${slugField}
     value: ${slug}
   - key: content_type
     value: ${contentType}
   - key: locale
     value: ${locale}
+    omitIfEmpty: true
 dataSourceId: uniformWebsite
 allowedOnComponents: []

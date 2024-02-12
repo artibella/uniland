@@ -1,9 +1,12 @@
 id: product
 name: Product
 created: '2023-06-30T14:25:25.628227+00:00'
-updated: '2024-01-24T13:34:03.66426+00:00'
+updated: '2024-02-09T13:01:17.574074+00:00'
 slugSettings:
+  unique: local
   required: 'no'
+  regularExpression: ''
+  regularExpressionMessage: ''
 useTeamPermissions: true
 fields:
   - id: name
@@ -12,11 +15,14 @@ fields:
     helpText: ''
     typeConfig: null
     localizable: true
-  - id: reference
-    name: Reference
+  - id: teaserText
+    name: Teaser Text
     type: text
     helpText: ''
-    typeConfig: null
+    typeConfig:
+      multiline: true
+      linesCount: 2
+    localizable: true
   - id: description
     name: Description
     type: richText
@@ -47,6 +53,14 @@ fields:
           - superscript
           - subscript
     localizable: true
+  - id: group_media
+    name: Media
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - featuredImage
+        - images
   - id: featuredImage
     name: Featured Image
     type: asset
@@ -61,14 +75,20 @@ fields:
     typeConfig:
       min: 0
     localizable: true
-  - id: variants
-    name: Variants
-    type: $block
-    helpText: ''
+  - id: group_productSettings
+    name: Product settings
+    type: group
     typeConfig:
-      allowedTypes:
-        - productVariant
-        - $loop
+      collapsed: false
+      childrenParams:
+        - reference
+        - collections
+        - variants
+  - id: reference
+    name: Reference
+    type: text
+    helpText: ''
+    typeConfig: null
   - id: collections
     name: Collections
     type: $block
@@ -76,6 +96,14 @@ fields:
     typeConfig:
       allowedTypes:
         - taxonomyBlock
+        - $loop
+  - id: variants
+    name: Variants
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - productVariant
         - $loop
 entryName: name
 thumbnailField: featuredImage

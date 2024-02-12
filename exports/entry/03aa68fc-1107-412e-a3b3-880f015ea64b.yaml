@@ -1,14 +1,15 @@
-created: '2023-12-14T13:16:25.423818+00:00'
-modified: '2024-02-09T12:48:03.698806+00:00'
+created: '2024-02-09T12:51:34.82032+00:00'
+modified: '2024-02-09T12:51:34.82032+00:00'
 pattern: true
 entry:
-  _id: d8d95a48-8853-40fa-a102-318c496e9c1c
-  _name: Mockshop Product
-  _slug: product-pattern
+  _id: 03aa68fc-1107-412e-a3b3-880f015ea64b
+  _name: Mockshop Product (copy)
+  _slug: mockshop-product-copy
   type: product
   fields:
     name:
       type: text
+      value: undefined (copy)
       locales:
         en-US: ${#jptr:/Product/data/product/title}
     images:

@@ -1,0 +1,8 @@
+id: 0456b15e-5a3e-4bcd-b8a3-9c4f7e622c99
+name: Equipment
+type: placeholder
+data: {}
+order: 400
+path: /:locale/compendium/:game/equipment
+pathSegment: equipment
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

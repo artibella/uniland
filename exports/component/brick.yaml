@@ -239,8 +239,9 @@ slots:
       - $loop
       - quoteBlock
       - imageGalleryBlock
+      - heading
     inheritAllowedComponents: false
 titleParameter: internalName
 canBeComposition: false
 created: '2023-01-19T10:12:31.391729+00:00'
-updated: '2023-12-13T11:59:04.944797+00:00'
+updated: '2024-02-09T15:31:02.370537+00:00'

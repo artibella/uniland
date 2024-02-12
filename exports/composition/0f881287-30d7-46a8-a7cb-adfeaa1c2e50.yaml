@@ -1,0 +1,295 @@
+composition:
+  _name: Equipment detail
+  _id: 0f881287-30d7-46a8-a7cb-adfeaa1c2e50
+  _slug: equipment-detail
+  type: page
+  slots:
+    hero:
+      - _id: 2c600b79-174a-4bd9-bef0-00a084c4495d
+        type: hero
+        slots:
+          ctas:
+            - _id: 538af1b7-8cf6-455f-9060-c3750bf70f1e
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Zurück zu ${#jptr:/Entry/data/category}
+                    en-US: Back to ${#jptr:/Entry/data/category}
+                internalLink:
+                  type: link
+                  value:
+                    path: >-
+                      /${locale}/compendium/${game}/${#jptr:/Entry/data/category}
+                    type: projectMapNode
+                    nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
+                    projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                    dynamicInputValues:
+                      game: ${game}
+                      locale: ${locale}
+                      category: ${#jptr:/Entry/data/category}
+          heading:
+            - _id: ab2b712f-40a5-4488-8662-4469d9796c8b
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: 'Fakten über: ${#jptr:/Entry/data/name}'
+                    en-US: 'Facts about: ${#jptr:/Entry/data/name}'
+                byline:
+                  type: text
+                  locales:
+                    de-DE: 'Kategorie: ${#jptr:/Entry/data/category}'
+                    en-US: 'Category: ${#jptr:/Entry/data/category}'
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+        parameters:
+          body:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Entry/data/description}
+              en-US: ${#jptr:/Entry/data/description}
+          title:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Entry/data/name}
+              en-US: ${#jptr:/Entry/data/name}
+          imageFit:
+            type: select
+            locales:
+              de-DE: scale-down
+              en-US: scale-down
+          imageUrl:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Entry/data/image}
+              en-US: ${#jptr:/Entry/data/image}
+    sections:
+      - _id: 325a4372-8eca-462f-99d4-f2651bc8344a
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 58e6d952-80a4-4ece-977d-13ff4bc7b405
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 42a13720-7d60-4097-9190-a4ecc7a09d8a
+                    type: heading
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          de-DE: 'Zu finden in:'
+                          en-US: 'Usually found in:'
+                      tagName:
+                        type: select
+                        value: h3
+                  - _id: fe99c132-e1e4-4f22-b03a-5a9406bc37fc
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 8cd9e8bd-6e7b-4fa7-91f6-97be549fab9a
+                          type: badge
+                          variant: outline
+                          parameters:
+                            size:
+                              type: select
+                              value: lg
+                            color:
+                              type: select
+                              value: 'primary '
+                            label:
+                              type: text
+                              locales:
+                                de-DE: ${#jptr:/Entry common_locations Loop Item}
+                                en-US: ${#jptr:/Entry common_locations Loop Item}
+                    _dataResources:
+                      Entry common_locations Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Entry/data/common_locations
+                rightContent:
+                  - _id: ad078f9b-0d4d-48cd-abb8-7436aaa30192
+                    type: heading
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Eigenschaften
+                          en-US: Properties
+                      tagName:
+                        type: select
+                        value: h3
+                  - _id: 3639089f-6b6f-498b-8979-aa88da217b95
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: '⚔️ '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: 'Attack power:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: '#jptr:/Entry/data/properties/attack'
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: '🛡️ '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: 'Defense power:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: '#jptr:/Entry/data/properties/defense'
+                                  direction: ltr
+                              direction: ltr
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: '⚔️ '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: 'Attack power:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: '#jptr:/Entry/data/properties/attack'
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: '🛡️ '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: 'Defense power:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: '#jptr:/Entry/data/properties/defense'
+                                  direction: ltr
+                              direction: ltr
+              parameters:
+                leftColumnVerticalAlignment:
+                  type: select
+                  value: start
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: start
+                leftColumnHorizontalAlignment:
+                  type: select
+                  value: center
+                rightColumnHorizontalAlignment:
+                  type: select
+                  value: center
+  _dataResources:
+    Entry:
+      type: compendiumEntry
+      variables:
+        game: ${game}
+        Entry: ${Equipment}
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-01-26T10:22:39.653724+00:00'
+modified: '2024-01-29T12:42:50.407324+00:00'
+pattern: false
