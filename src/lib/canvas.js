@@ -1,5 +1,6 @@
 import {
   CanvasClient,
+  ContentClient,
   CANVAS_PUBLISHED_STATE,
   CANVAS_DRAFT_STATE,
 } from '@uniformdev/canvas';
@@ -14,6 +15,13 @@ const {
 } = getConfig();
 
 export const canvasClient = new CanvasClient({
+  apiKey: canvasApiKey,
+  projectId: projectId,
+  apiHost: canvasApiHost,
+  edgeApiHost: canvasEdgeApiHost,
+});
+
+export const contentClient = new ContentClient({
   apiKey: canvasApiKey,
   projectId: projectId,
   apiHost: canvasApiHost,
