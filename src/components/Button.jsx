@@ -68,8 +68,8 @@ const renderButton = ({
 };
 
 export default function Button(props) {
-  const { title = '', link = {}, openInNewTab = false, component } = props;
-  const variant = component.variant || '';
+  const { title = '', link = {}, openInNewTab = false, component = {} } = props;
+  const variant = component?.variant || '';
   const url = link.path?.length ? link.path : '#';
 
   const buttonProps = {

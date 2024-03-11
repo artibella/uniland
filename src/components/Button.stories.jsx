@@ -6,25 +6,25 @@ import Button from './Button';
 export default {
   title: 'Actions/Button',
   component: Button,
-  argTypes: {
-    startIcon: {
-      control: false,
-    },
-    endIcon: {
-      control: false,
-    },
-  },
+  // argTypes: {
+  //   startIcon: {
+  //     control: false,
+  //   },
+  //   endIcon: {
+  //     control: false,
+  //   },
+  // },
 };
 
 export const Default = args => {
-  return <Button {...args}>Button</Button>;
+  return <Button {...args} />;
 };
 
 export const BrandColors = args => {
   return (
     <div className="flex items-center gap-2">
-      <Button {...args}>Default</Button>
-      <Button {...args} color="neutral">
+      <Button {...args} title="Default" />
+      {/* <Button {...args} color="neutral">
         Neutral
       </Button>
       <Button {...args} color="primary">
@@ -38,15 +38,16 @@ export const BrandColors = args => {
       </Button>
       <Button {...args} color="ghost">
         Ghost
-      </Button>
-      <Button {...args} variant="link">
+      </Button> */}
+      {/* <Button {...args} variant="link">
         Link
-      </Button>
+      </Button> */}
     </div>
   );
 };
 BrandColors.args = {};
 
+/*
 export const ActiveButtons = args => {
   return (
     <div className="flex items-center gap-2">
@@ -393,3 +394,4 @@ LinkButton.args = {
   rel: 'noopener',
   href: 'https://daisyui.com/',
 };
+*/
