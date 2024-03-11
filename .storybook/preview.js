@@ -1,22 +1,25 @@
 import '../src/styles/globals.css';
-import * as NextImage from 'next/image';
+import '../src/styles/page.css';
+import { sourceSerif, inter } from '../src/lib/fonts';
 
-const OriginalNextImage = NextImage.default;
-
-Object.defineProperty(NextImage, 'default', {
-  configurable: true,
-  value: (props) => <OriginalNextImage {...props} unoptimized />,
-});
-
-export const parameters = {
-  actions: { argTypesRegex: '^on[A-Z].*' },
-  controls: {
-    matchers: {
-      color: /(background|color)$/i,
-      date: /Date$/,
+/** @type { import('@storybook/react').Preview } */
+const preview = {
+  parameters: {
+    actions: { argTypesRegex: '^on[A-Z].*' },
+    controls: {
+      matchers: {
+        color: /(background|color)$/i,
+        date: /Date$/i,
+      },
     },
   },
-  previewTabs: {
-    'storybook/docs/panel': { index: -1 },
-  },
+  decorators: [
+    Story => (
+      <main className={`${sourceSerif.variable} ${inter.variable} font-sans`}>
+        <Story />
+      </main>
+    ),
+  ],
 };
+
+export default preview;

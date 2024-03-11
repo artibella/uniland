@@ -5,19 +5,7 @@ import '../styles/page.css';
 // import components
 import initComponents from '../components';
 // import fonts
-import { Source_Serif_4, Inter } from 'next/font/google';
-
-const sourceSerif = Source_Serif_4({
-  weight: ['400', '700'],
-  style: ['normal', 'italic'],
-  subsets: ['latin'],
-  variable: '--font-source-serif-4',
-});
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter',
-});
+import { sourceSerif, inter } from '../lib/fonts';
 
 // register and load components
 initComponents();

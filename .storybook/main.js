@@ -1,47 +1,44 @@
-// .storybook/main.js
-
-const path = require('path');
-
-module.exports = {
-  stories: ['../src/**/*.stories.mdx', '../src/**/*.stories.@(js|jsx|ts|tsx)'],
-
-  /** Expose public folder to storybook as static */
-  staticDirs: ['../public'],
-
+/** @type { import('@storybook/nextjs').StorybookConfig } */
+const config = {
+  stories: ['../src/**/*.mdx', '../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
+    '@storybook/addon-onboarding',
+    '@storybook/addon-interactions',
     '@storybook/addon-styling-webpack',
+    ({
+      name: "@storybook/addon-styling-webpack",
+
+      options: {
+        rules: [{
+      test: /\.css$/,
+      sideEffects: true,
+      use: [
+          require.resolve("style-loader"),
+          {
+              loader: require.resolve("css-loader"),
+              options: {
+                  
+                  importLoaders: 1,
+              },
+          },{
+    loader: require.resolve("postcss-loader"),
+    options: {
+    implementation: require.resolve("postcss"),
+    },
+    },
+      ],
+    },],
+      }
+    })
   ],
-
-  webpackFinal: config => {
-    /**
-     * Add support for alias-imports
-     * @see https://github.com/storybookjs/storybook/issues/11989#issuecomment-715524391
-     */
-    config.resolve.alias = {
-      ...config.resolve?.alias,
-      '@': [path.resolve(__dirname, '../src/'), path.resolve(__dirname, '../')],
-    };
-
-    /**
-     * Fixes font import with /
-     * @see https://github.com/storybookjs/storybook/issues/12844#issuecomment-867544160
-     */
-    config.resolve.roots = [
-      path.resolve(__dirname, '../public'),
-      'node_modules',
-    ];
-
-    return config;
-  },
-
-  docs: {
-    autodocs: true,
-  },
-
   framework: {
     name: '@storybook/nextjs',
     options: {},
   },
+  docs: {
+    autodocs: 'tag',
+  },
 };
+export default config;
