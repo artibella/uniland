@@ -23,6 +23,7 @@ import AccordionItem from './AccordionItem';
 import ImageGallery from './ImageGallery';
 import Logos from './Logos';
 import Pagination from './Pagination';
+import Button from './Button';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -49,6 +50,7 @@ const ComponentsMap = {
   imageGalleryBlock: ImageGallery,
   logos: Logos,
   pagination: Pagination,
+  button: Button,
 };
 
 const initComponents = () => {
