@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 const { fontFamily } = require('tailwindcss/defaultTheme');
+const { nextui } = require('@nextui-org/react');
 
 module.exports = {
   content: [
@@ -8,6 +9,7 @@ module.exports = {
     './src/compositions/**/*.{js,ts,jsx,tsx}',
     'node_modules/daisyui/dist/**/*.js',
     'node_modules/react-daisyui/dist/**/*.js',
+    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
   safelist: [
     {
@@ -24,6 +26,10 @@ module.exports = {
     },
     {
       pattern: /(text|justify|align|items|object)-./,
+      variants: ['sm', 'md', 'lg', 'hover', 'group-hover'],
+    },
+    {
+      pattern: /(light|dark|mango|ice|spring)/,
       variants: ['sm', 'md', 'lg', 'hover', 'group-hover'],
     },
   ],
@@ -93,5 +99,59 @@ module.exports = {
       },
     ],
   },
-  plugins: [require('daisyui'), require('@tailwindcss/typography')],
+  plugins: [
+    nextui({
+      themes: {
+        mango: {
+          extend: 'light',
+          colors: {
+            background: '#FFD803',
+            foreground: '#2D334A',
+            primary: {
+              50: '#FFF9D5',
+              100: '#FFF0A1',
+              200: '#FFE86C',
+              300: '#FFE038',
+              400: '#FFD803',
+              500: '#EBC703',
+              600: '#D8B703',
+              700: '#C4A602',
+              800: '#B19502',
+              900: '#9D8402',
+              DEFAULT: '#FFD803',
+              foreground: '#2D334A',
+            },
+            focus: '#F182F6',
+          },
+          layout: {},
+        },
+        ice: {
+          extend: 'light',
+          colors: {
+            background: '#BAE8E8',
+            foreground: '#2D334A',
+            primary: {
+              50: '#E3F6F5',
+              100: '#D8F3F1',
+              200: '#CEEFEE',
+              300: '#C4ECEB',
+              400: '#BAE8E8',
+              500: '#A1D7D7',
+              600: '#89C6C6',
+              700: '#74B5B5',
+              800: '#60A4A4',
+              900: '#4E9494',
+              DEFAULT: '#BAE8E8',
+              foreground: '#2D334A',
+            },
+            focus: '#F182F6',
+          },
+          layout: {},
+        },
+      },
+    }),
+    require('daisyui'),
+    require('@tailwindcss/typography'),
+  ],
+  darkMode: 'class',
 };
