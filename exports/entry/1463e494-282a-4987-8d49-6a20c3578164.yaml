@@ -1,0 +1,19 @@
+created: '2024-04-03T19:39:52.94981+00:00'
+modified: '2024-04-03T19:40:02.581714+00:00'
+pattern: false
+entry:
+  _id: 1463e494-282a-4987-8d49-6a20c3578164
+  _name: 'Kill Bill: Vol. 2'
+  _slug: kill-bill-vol-2
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNmFiYmJmN2QtNWQwMi00MzliLThiOWMtZjQxNGRhZTQ1MjgyXkEyXkFqcGdeQXVyNzQ1ODk3MTQ@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0378194
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

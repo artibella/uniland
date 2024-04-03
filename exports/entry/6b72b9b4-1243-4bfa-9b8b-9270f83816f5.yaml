@@ -1,0 +1,574 @@
+created: '2024-04-03T19:15:19.500519+00:00'
+modified: '2024-04-03T20:04:44.954244+00:00'
+pattern: false
+entry:
+  _id: 6b72b9b4-1243-4bfa-9b8b-9270f83816f5
+  _name: Spaghetti Puttanesca (Spaghetti With Capers, Olives, and
+  _slug: spaghetti-puttanesca-spaghetti-with-capers-olives-and
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/W1MmsWrnzfNha5fbhnA6z5-NzYE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__02__20160221-puttanesca-pasta-week-23-79f83e0ada164858800aa5e175fb90a7.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: 'Spaghetti Puttanesca (Spaghetti With Capers, Olives, and Anchovies) '
+        it-IT: Spaghetti Puttanesca
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          Pasta that packs an aromatic punch, thanks to garlic, anchovies,
+          capers, and olives
+        it-IT: >-
+          Pasta che racchiude un pugno aromatico, grazie ad aglio, acciughe,
+          capperi e olive
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Something about late-summer weather really makes me want to cook dishes requiring minimal time, effort, and cleanup, whether that's\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/spaghetti-cacio-e-pepe-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: cacio e pepe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_or\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/fast-easy-pasta-blistered-cherry-tomato-sauce-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: pasta with cherry tomato sauce
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    . Let's add spaghetti puttanesca to the list. The modern,
+                    classic Southern Italian pasta dish, flavored with garlic,
+                    anchovies, capers, olives, and tomatoes, is one of my
+                    favorite eat-it-by-myself meals—it's made 100% from pantry
+                    staples, it packs a powerful flavor punch, and, let's be
+                    honest, you probably don't want to hang out with someone
+                    who's been eating anchovies and garlic, even if you've been
+                    partaking of the same.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Weeknight Puttanesca Starts With Garlic Oil
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "A pasta sauce that cooks in less time than it takes to boil the pasta is a weeknight savior. In Rome, that might be\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/pasta-carbonara-sauce-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: carbonara
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_or\_cacio e pepe. Head further south, and you'll find puttanesca."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    "Puttanesca" literally translates to "in the style of
+                    prostitutes," supposedly because the pungent aromas of
+                    garlic, anchovies, capers, and olives tossed with pasta were
+                    how Neapolitan sex workers would lead customers to their
+                    doors. This is one of those stories that seems, in the words
+                    of Douglas Adams, apocryphal or at least wildly inaccurate.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The first step in pasta puttanesca is very similar to\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/spaghetti-aglio-olio-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: "pasta with\_aglio e olio\_(garlic and olive oil)"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    : flavoring plenty of good extra-virgin olive oil by slowly
+                    sizzling garlic and chili flakes in it. Puttanesca ups the
+                    pungency factor a few notches by adding anchovies to that
+                    mix. You can either thinly slice or finely chop the garlic,
+                    depending on your mood—honestly, I use both ways equally
+                    often—but the anchovies should be chopped quite finely so
+                    that they dissolve into the oil as they cook.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Puttanesca Sauce Is All About Proper Prep
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Normally, I'm all for using the garlic press, the
+                    Microplane, or the grater to mince garlic rapidly for dishes
+                    in which it will be only briefly cooked with other
+                    ingredients. But for a dish like this, for which you want to
+                    really deeply flavor the oil from the get-go, garlic that is
+                    pressed or grated ends up burning well before it can infuse
+                    the oil.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "In our guide on\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/how-to-buy-and-prepare-anchovies
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: buying and preparing anchovies
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ",\_we mentioned that in some applications—particularly those in which anchovy fillets will be served mostly intact, like a\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/nicoise-salad-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Niçoise salad
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    —whole anchovies packed in salt are preferable. But for
+                    applications in which the anchovies are going to be
+                    dissolved, oil-packed fillets will do just fine. That's what
+                    I use here.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Chopping the capers and olives is probably the most difficult part of the prep for this dish, and I admit it can be a little tedious the first few times you try—those things just don't like to sit still! But follow our\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/knife-skills-how-to-chop-capers-and-olives
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: knife skills guide to chopping capers and olives
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', and you should have no issues.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Once the garlic and anchovies have had a bit of time to get
+                    to know each other and the garlic starts to take on a slight
+                    tan, in go the olives and capers. The tomatoes should go
+                    into the pan immediately after. This will instantly stop the
+                    garlic and anchovies from over-browning (you don't want them
+                    to turn bitter). I use canned San Marzano tomatoes that I
+                    break up by squeezing them between my fingers in a bowl,
+                    resulting in a nice mix of purée and juicy chunks, then
+                    bring the whole thing to a simmer.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: A Low-Water Boil and Saucy Finish for Better Spaghetti
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Meanwhile, I get the spaghetti cooking, using a 12-inch
+                    skillet or a sauté pan; there's no need to waste energy,
+                    time, and water bringing a huge pot to a boil (especially in
+                    water-strapped California). In fact, the dish comes out even
+                    better with the low-water method of pasta cooking, as it
+                    increases the concentration of starch in the water, which
+                    will help the sauce thicken and cling to the noodles later
+                    on.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "To finish the pasta, you'll want to fish your spaghetti out a little early and\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/the-right-way-to-sauce-pasta
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: transfer it to the simmering sauce to finish cooking
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ". This will improve the flavor of the pasta itself and it'll enter what\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/daniel-gritzer-5118638
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Daniel
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_refers to as \"pasta bullet time.\" That is, the pasta finishes cooking drastically slower in the sauce than in the straight-up water, which gives you finer control over hitting that perfect al dente mark."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    One other thing you will want to do is make sure to add a
+                    few spoonfuls of that starchy pasta cooking water in order
+                    to help the sauce come together. When you first add the
+                    spaghetti to the pan of sauce, it'll look loose and watery.
+                    But simmer it hard for a moment while tossing, stirring, and
+                    adding pasta water to keep it moist, and the sauce will
+                    tighten right up, coating each strand of spaghetti in a thin
+                    sheen of flavor.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Some purists may claim that cheese has no place in puttanesca. I claim that there is a seat reserved at the table for cheese in every conceivable gathering known to man. Once the sauce is properly emulsified, I add a handful of finely grated Pecorino Romano—Parmesan would also work fine here if that's what you've got. A little bit of minced fresh parsley, some salt and pepper (go easy on the salt, since the other ingredients already add a ton), a final drizzle of extra-virgin olive oil for some fresh, grassy flavor, and our work is done.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "On days when I feel like turning this\_primo piatto\_into a full-on meal, I'll stir in a can of good-quality olive oil–packed tuna. The flavors meld perfectly with everything else going on in the pan."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    There's no need to stand on ceremony here. This is a quick
+                    dish that tastes great served or eaten directly out of the
+                    pan you cooked it in, but plates and extra grated cheese are
+                    a nice touch.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "But, truth be told, puttanesca tastes best when your senses have been slightly impaired and the whole thing is sloppy, there's more than a bit too much sauce (both on the pasta and on my camera), and the spaghetti is slightly overcooked.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Man
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ', does it hit the spot.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    publishDate:
+      type: date
+      value: '2024-02-09'
+    featuredImage:
+      type: asset
+      value:
+        - _id: e7025971-6652-4a8a-9fae-a33f0fe91307
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/W1MmsWrnzfNha5fbhnA6z5-NzYE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__02__20160221-puttanesca-pasta-week-23-79f83e0ada164858800aa5e175fb90a7.jpg
+          _source: custom-url
+  _locales:
+    - en-US
+    - it-IT

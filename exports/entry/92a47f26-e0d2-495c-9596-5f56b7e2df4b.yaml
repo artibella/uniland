@@ -1,0 +1,49 @@
+created: '2024-04-03T19:15:21.030775+00:00'
+modified: '2024-04-03T19:15:21.030775+00:00'
+pattern: false
+entry:
+  _id: 92a47f26-e0d2-495c-9596-5f56b7e2df4b
+  _name: 'Static: Princess Mononoke'
+  _slug: static-princess-mononoke
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNTZkYmI0MmEtNGFlZC00OWZjLWFjMmItMjk1OWZkOWJiZGVjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg
+  type: movie
+  fields:
+    plot:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Plot}
+    image:
+      type: asset
+      value:
+        - _id: ed4a1732-7539-4c8c-a66e-dc638491145f
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://m.media-amazon.com/images/M/MV5BNTZkYmI0MmEtNGFlZC00OWZjLWFjMmItMjk1OWZkOWJiZGVjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg
+          _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: 'Static: ${#jptr:/Movie/Title}'
+    poster:
+      type: asset
+      locales:
+        en-US:
+          - _id: 277eea7b-9b28-4ca6-8d09-0cab294bcf71
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://m.media-amazon.com/images/M/MV5BNTZkYmI0MmEtNGFlZC00OWZjLWFjMmItMjk1OWZkOWJiZGVjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg
+            _source: custom-url
+  _dataResources:
+    Movie:
+      type: movieSearchByImdb
+      variables:
+        IMDb ID: tt0119698
+  _locales:
+    - en-US

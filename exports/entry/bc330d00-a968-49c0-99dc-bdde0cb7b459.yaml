@@ -1,0 +1,19 @@
+created: '2024-04-03T19:54:38.942117+00:00'
+modified: '2024-04-03T19:54:53.335364+00:00'
+pattern: false
+entry:
+  _id: bc330d00-a968-49c0-99dc-bdde0cb7b459
+  _name: A Clockwork Orange
+  _slug: a-clockwork-orange
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0066921
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

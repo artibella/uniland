@@ -1,10 +1,12 @@
 created: '2023-11-03T14:15:31.953305+00:00'
-modified: '2024-01-03T16:05:04.594147+00:00'
+modified: '2024-04-03T19:15:06.522844+00:00'
 pattern: false
 entry:
   _id: 494618cb-7c90-4f49-9606-6fbdd83ca8e9
   _name: Men's T-shirt
   _slug: mens-t-shirt
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
   type: product
   fields:
     name:
@@ -14,12 +16,14 @@ entry:
     variants:
       type: $block
       value:
-        - type: $loop
+        - _id: d9cd73ae-0c2d-467c-92ff-ebf8245a0c1c
+          type: $loop
           fields:
             body:
               type: $block
               value:
-                - type: productVariant
+                - _id: 8bb1e99d-8706-491e-922d-579b71f24adc
+                  type: productVariant
                   fields:
                     code:
                       type: text

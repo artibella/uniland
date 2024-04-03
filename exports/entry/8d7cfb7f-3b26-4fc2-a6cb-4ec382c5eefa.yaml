@@ -1,10 +1,12 @@
 created: '2024-01-11T15:16:05.445372+00:00'
-modified: '2024-01-11T15:16:30.87438+00:00'
+modified: '2024-04-03T19:15:16.580875+00:00'
 pattern: false
 entry:
   _id: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
   _name: Puffer
   _slug: puffer
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenPuffer01.jpg?v=1675455329
   type: product
   fields: {}
   _dataResources:

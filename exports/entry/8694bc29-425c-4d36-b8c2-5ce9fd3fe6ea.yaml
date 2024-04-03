@@ -1,0 +1,78 @@
+created: '2024-04-03T19:14:54.482647+00:00'
+modified: '2024-04-03T19:14:54.482647+00:00'
+pattern: false
+entry:
+  _id: 8694bc29-425c-4d36-b8c2-5ce9fd3fe6ea
+  _name: 'Draft: Pasta ala Norma'
+  _slug: draft-pasta-ala-norma
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/xIkKfd6ko_jkx_IBFvXivk_vhWA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2013__01__20210121_Pasta-Norma_LizClayman-16-96d59b641438455ea7cf48936da13c06.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: 'Draft: Pasta ala Norma'
+    intro:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: TODO
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      locales:
+        en-US: TODO
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: TODO
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: ca5ba152-0886-47fc-9da5-8725c04278d7
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/xIkKfd6ko_jkx_IBFvXivk_vhWA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2013__01__20210121_Pasta-Norma_LizClayman-16-96d59b641438455ea7cf48936da13c06.jpg
+          _source: custom-url
+  _locales:
+    - en-US

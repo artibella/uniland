@@ -1,0 +1,87 @@
+id: rating
+name: Rating
+created: '2024-04-03T19:14:08.70227+00:00'
+updated: '2024-04-03T19:14:08.70227+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: ratingValue
+    name: Rating Value
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: group_ratingSettings
+    name: Rating settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - ratingCount
+        - reviewCount
+        - bestRating
+        - worstRating
+  - id: ratingCount
+    name: Rating Count
+    type: number
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: reviewCount
+    name: Review Count
+    type: number
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: bestRating
+    name: Best rating
+    type: number
+    helpText: The highest value allowed in this rating system. If omitted, 5 is assumed.
+    typeConfig: null
+    localizable: false
+  - id: worstRating
+    name: Worst rating
+    type: number
+    helpText: The lowest value allowed in this rating system. If omitted, 1 is assumed.
+    typeConfig: null
+    localizable: false
+  - id: group_sourceOrAuthor
+    name: Source or author
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - source
+        - sourceLogo
+        - sourceUrl
+  - id: source
+    name: Source
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: sourceLogo
+    name: Source Logo
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: false
+  - id: sourceUrl
+    name: Source Website
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: true
+        projectMapNode: true
+    localizable: true
+entryName: ratingValue
+description: >-
+  Generic block to manage ratings. Inspired by
+  https://schema.org/AggregateRating
+icon: awards
+type: block
+permissions: []

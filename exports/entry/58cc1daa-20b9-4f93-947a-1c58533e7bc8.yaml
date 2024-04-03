@@ -1,10 +1,10 @@
 created: '2023-06-30T15:31:54.782+00:00'
-modified: '2023-07-20T12:50:05.690484+00:00'
+modified: '2024-04-03T19:14:50.093164+00:00'
 pattern: false
 entry:
   _id: 58cc1daa-20b9-4f93-947a-1c58533e7bc8
-  _name: Ultimate makeover. Make an existing Sitecore solution...
-  _slug: ultimate-makeover-make-an-existing-sitecore-solution
+  _name: Definitive makeover. Make an existing Sitecore solution...
+  _slug: rifacimento-definitivo-rendi-moderna-e-componibile-una
   type: event
   fields:
     link:
@@ -20,16 +20,42 @@ entry:
     title:
       type: text
       value: >-
-        Ultimate makeover. Make an existing Sitecore solution modern and
+        Definitive makeover. Make an existing Sitecore solution modern and
         composable
     eventType:
       type: select
       value: webinar
     teaserText:
       type: text
-      value: What Legacy? A uniform Live stream series.
+      value: What legacy? A uniform live streaming series.
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Test
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
     internalName:
       type: text
       value: >-
-        Ultimate makeover. Make an existing Sitecore solution modern and
+        Definitive makeover. Make an existing Sitecore solution modern and
         composable
+  _locales:
+    - it-IT
+    - en-US

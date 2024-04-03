@@ -1,0 +1,397 @@
+created: '2024-04-03T19:15:09.947841+00:00'
+modified: '2024-04-03T20:05:36.26454+00:00'
+pattern: false
+entry:
+  _id: 01942394-694a-4f4d-9a24-7fa8095cc01b
+  _name: Pasta Alla Zozzona (Rigatoni With Sausage, Guanciale, and...
+  _slug: pasta-alla-zozzona-rigatoni-with-sausage-guanciale-and
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/gnElI9V5E78BATb6HJvDo8E_jpo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210215-pasta-Zozzona-sasha-marx-16-59557302cf0d4ab88a647dbfd38ca7f8.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Pasta Alla Zozzona (Rigatoni With Sausage, Guanciale, and Egg Yolks)
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          Rigatoni alla zozzona is the decadent pasta mash-up of Roman
+          amatriciana and carbonara, with a sausage twist.
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Amatriciana meets carbonara, with a sausage cameo. That's
+                    the best way to describe rigatoni alla zozzona, the "dirty"
+                    Roman pasta collab you should get acquainted with. With
+                    crisp guanciale, juicy sausage, onion, and tomato simmered
+                    in rendered pork fat, this dish dials up the decadence,
+                    which is saying something for a cuisine that's not exactly
+                    known for light fare. Tossed with al dente rigatoni, it all
+                    gets a glossy glow-up with an off-heat addition of egg yolks
+                    and Pecorino Romano. If you ever need proof that Italian
+                    cooking isn't always about subtlety and restraint, pasta all
+                    zozzona is the ultimate receipt.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    In the realm of Eternal City–primi, zozzona is not
+                    established canon like the big four (
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/spaghetti-cacio-e-pepe-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: cacio e pepe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ",\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/pasta-alla-gricia
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: gricia
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ",\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/pasta-carbonara-sauce-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: carbonara
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", and\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/bucatini-pasta-amatriciana-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: amatriciana
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    ). Unlike those dishes, you won't find zozzona on the menu
+                    in every trattoria in the center of the capital, where less
+                    popular but equally fantastic pastas like rigatoni con la
+                    pajata (a tomato-based sauce featuring tender, milky
+                    intestines from un-weaned calves) are more likely to make an
+                    appearance, highlighting the city's love of quinto-quarto
+                    (the butcher's "fifth quarter" of an animal, or offal)
+                    cooking.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Zozzona isn't a dish that I grew up eating in Rome; in fact,
+                    when I first posted a picture of an early in-development
+                    iteration of this recipe to Instagram, a few of my Roman
+                    friends sent me messages that amounted to, "Huh,
+                    interesting, I've never had that but it sounds pretty
+                    great." So how could this supposedly Roman pasta be such an
+                    unknown to Romans? Well, it turns out that it's a dish from
+                    the outskirts of town.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The Castelli Romani, referred to as just the Castelli
+                    (castles) by Romans, is a historically agrarian area a few
+                    miles southeast of Rome, in and around Lake Albano. It
+                    comprises towns known for wine production (Frascati) and
+                    pork (porchetta from Ariccia is the gold standard in the
+                    Lazio region). Pasta alla zozzona is the kind of dish you
+                    would find at a fraschetta, a no-frills tavern-style
+                    establishment even more casual than an hostaria* or
+                    trattoria, where kitchens turn out a handful of dishes to
+                    pair with the local wine. The main ingredients of zozzona—
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/cured-pork-explainer
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: guanciale
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", sausage, eggs, Pecorino, and\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/italian-passata-gives-you-fresh-tomato-flavor-all-year-long
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: passata
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "—are all pantry staples in the area, and ones that people often have left over from making batches of carbonara, cacio e pepe, and amatriciana. The spirit of zozzona is\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: >-
+                    why not throw them all together and make something
+                    over-the-top delicious?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: "\_In this way, it shares an ethos with Korean\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/korean-food-types-of-soups-stews-jjigae-guk-tang#toc-budae-jjigae
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: budae jjigae
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ', or Mexican campechano tacos.'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    *This is the Roman dialect spelling of “osteria.” Both are
+                    used in and around the city.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "While Italian cooking is famous for adhering to traditions and rules, there are plenty of dishes like pasta alla zozzona that joyously fly in the face of convention. The very term \"zozzona\" celebrates and embraces how outrageous this pasta is: In Roman dialect, \"zozza/o\" is a term for \"dirty,\" that can have a negative connotation, or be used as a backhanded compliment. In one of the most famous scenes from Alberto Sordi's film\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Un Americano a Roma
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: "\_(An American in Rome), the Roman comedian, cosplaying as an American right after the city is liberated by the Allies,\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.youtube.com/watch?v=kSAAxPNO3Ak
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        sits down to a meal of what he envisions as American
+                        fare
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    : a slice of bread spread with yogurt, mustard, and jam,
+                    washed down with a glass of milk. He tries it and
+                    immediately spits it out, exclaiming "Ammazza che zozzeria"
+                    (jeez what a dirty mess), and then digs into a plate of
+                    leftover pasta instead. Rigatoni alla zozzona is a dirty
+                    mess, in the best possible way.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+          direction: ltr
+    publishDate:
+      type: date
+      value: '2024-03-08'
+    featuredImage:
+      type: asset
+      value:
+        - _id: b0816ea4-c654-424e-8fdb-0858d7553926
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/gnElI9V5E78BATb6HJvDo8E_jpo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210215-pasta-Zozzona-sasha-marx-16-59557302cf0d4ab88a647dbfd38ca7f8.jpg
+          _source: custom-url
+  _locales:
+    - en-US

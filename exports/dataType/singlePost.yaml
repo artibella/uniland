@@ -1,0 +1,33 @@
+id: singlePost
+displayName: Single Post
+ttl: 30
+path: /entries
+custom:
+  include: 5
+  includeFields: []
+  allowContentTypeIds:
+    - BlogPost
+  enableFilterByLocale: true
+  enableAdvancedFilters: false
+method: GET
+purgeKey: 55e10152-6937-410a-bb30-2bf8b9a804ac
+archetype: singleEntry
+variables:
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+parameters:
+  - key: include
+    value: '5'
+  - key: locale
+    value: ${locale}
+    omitIfEmpty: true
+  - key: sys.id[in]
+    value: ${entryIds}
+dataSourceId: uniformWebsite
+allowedOnComponents: []

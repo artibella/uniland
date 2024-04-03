@@ -1,9 +1,10 @@
 created: '2023-06-30T14:51:39.39133+00:00'
-modified: '2023-06-30T15:31:25.898118+00:00'
+modified: '2024-04-03T19:15:25.98399+00:00'
 pattern: false
 entry:
   _id: a8a7d199-9ec8-476c-be40-bcbc2ff2b7e4
   _name: 'Vercel Webinar: Living on the edge'
+  _slug: vercel-webinar-living-on-the-edge
   type: event
   fields:
     image:

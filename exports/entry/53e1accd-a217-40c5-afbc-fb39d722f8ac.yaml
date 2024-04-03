@@ -1,0 +1,39 @@
+created: '2024-04-03T19:14:45.306645+00:00'
+modified: '2024-04-03T19:14:45.306645+00:00'
+pattern: false
+entry:
+  _id: 53e1accd-a217-40c5-afbc-fb39d722f8ac
+  _name: Bucatini All' Amatriciana (Spicy Italian Pasta)
+  _slug: bucatini-all-amatriciana-spicy-italian-pasta
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        de-DE: Bucatini All' Amatriciana (Würzige italienische Pasta)
+        en-US: Bucatini All' Amatriciana (Spicy Italian Pasta)
+        it-IT: Bucatini All' Amatriciana
+    subtitle:
+      type: text
+      locales:
+        de-DE: >-
+          Dieses Bucatini all' Amatriciana-Rezept ist ein würziges italienisches
+          Nudelgericht, serviert mit einer feurigen Amatriciana-Sauce aus
+          Tomaten, rotem Pfeffer und Guanciale. Es ist der Traum eines jeden
+          scharfen Pasta-Liebhabers.
+        en-US: >-
+          This Bucatini all' Amatriciana recipe is a spicy Italian dish of pasta
+          served with a fiery amatriciana sauce of tomatoes, red pepper and
+          guanciale. It's a spicy pasta lover's dream.
+        it-IT: >-
+          Questa ricetta dei Bucatini all'Amatriciana è un piccante piatto di
+          pasta italiano servito con una piccante salsa all'amatriciana di
+          pomodori, peperoncino e guanciale. È il sogno di ogni amante della
+          pasta piccante.
+    featuredImage:
+      type: asset
+      value: []
+  _locales:
+    - it-IT
+    - en-US
+    - de-DE

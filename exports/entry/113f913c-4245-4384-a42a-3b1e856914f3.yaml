@@ -1,0 +1,31 @@
+created: '2024-04-03T19:14:38.884867+00:00'
+modified: '2024-04-03T19:14:38.884867+00:00'
+pattern: false
+entry:
+  _id: 113f913c-4245-4384-a42a-3b1e856914f3
+  _name: Assassin's Spaghetti (a.k.a. Burnt Spaghetti)
+  _slug: assassins-spaghetti
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Assassin's Spaghetti (a.k.a. Burnt Spaghetti)
+        it-IT: Spaghetti All’assassina (a.k.a. Spaghetti Bruciati)
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          The pasta is cooked 'risotto style' in a spicy tomato sauce. The final
+          result is slightly burnt, crispy caramelized spaghetti with an intense
+          spicy tomato flavor.
+        it-IT: >-
+          La pasta è cotta "in stile risotto" in una salsa di pomodoro piccante.
+          Il risultato finale sono spaghetti caramellati, leggermente
+          bruciacchiati e croccanti, dall'intenso sapore piccante di pomodoro.
+    featuredImage:
+      type: asset
+      value: []
+  _locales:
+    - en-US
+    - it-IT

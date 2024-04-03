@@ -1,0 +1,18 @@
+created: '2024-04-03T19:15:26.752308+00:00'
+modified: '2024-04-03T20:03:38.417783+00:00'
+pattern: false
+entry:
+  _id: 569664c3-0336-4aed-a30d-a8704fe34fb5
+  _name: What’s next for headless CMSes
+  _slug: whats-next-for-headless-cmses
+  type: blogPost
+  fields: {}
+  _dataResources:
+    Contentful Blog Post:
+      type: singlePost
+      variables:
+        locale: ${locale}
+        entryIds: 6QuOHPQbyYFmAYStRCshIi
+  _locales:
+    - en-US
+  _pattern: 53ebd983-3a9d-4f7d-912c-8640c615c717

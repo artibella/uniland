@@ -1,10 +1,12 @@
 created: '2023-12-14T19:09:58.724787+00:00'
-modified: '2023-12-14T19:37:19.873875+00:00'
+modified: '2024-04-03T19:15:02.581716+00:00'
 pattern: false
 entry:
   _id: 36af3cc9-d1c0-42ee-87ad-d216a1fbcecd
   _name: Hoodie
   _slug: hoodie
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenHoodie01.jpg?v=1675455175
   type: product
   fields: {}
   _dataResources:
@@ -15,45 +17,4 @@ entry:
   _locales:
     - en-US
     - de-DE
-  _overrides:
-    36af3cc9-d1c0-42ee-87ad-d216a1fbcecd:
-      parameters:
-        name:
-          type: text
-          locales:
-            de-DE: ${#jptr:/Product/data/product/title}
-        description:
-          type: richText
-          locales:
-            de-DE:
-              root:
-                type: root
-                format: ''
-                indent: 0
-                version: 1
-                children:
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - type: variable
-                        version: 1
-                        reference: '#jptr:/Product/data/product/description'
-                    direction: null
-                direction: null
-        featuredImage:
-          type: asset
-          locales:
-            de-DE:
-              - _id: b6e31e59-5b0d-423b-99f3-17e3b212a4fc
-                type: image
-                fields:
-                  url:
-                    type: text
-                    value: ${#jptr:/Product/data/product/featuredImage/url}
-                  title:
-                    type: text
-                    value: ${#jptr:/Product/data/product/title}
-                _source: custom-url
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

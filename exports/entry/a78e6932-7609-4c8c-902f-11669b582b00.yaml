@@ -1,0 +1,19 @@
+created: '2024-04-03T19:40:54.964851+00:00'
+modified: '2024-04-03T19:41:16.566661+00:00'
+pattern: false
+entry:
+  _id: a78e6932-7609-4c8c-902f-11669b582b00
+  _name: 'Kill Bill: Vol. 1'
+  _slug: kill-bill-vol-1
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNzM3NDFhYTAtYmU5Mi00NGRmLTljYjgtMDkyODQ4MjNkMGY2XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0266697
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

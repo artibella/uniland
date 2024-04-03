@@ -1,0 +1,31 @@
+created: '2024-04-03T19:14:54.02892+00:00'
+modified: '2024-04-03T19:14:54.02892+00:00'
+pattern: false
+entry:
+  _id: aac04592-470c-40af-93bb-1b41c0cd1ba0
+  _name: 'Draft: Oven-Baked Lasagna'
+  _slug: oven-baked-lasagna
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: 'Draft: Oven-Baked Lasagna'
+        it-IT: Lasagne al Forno
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          This Small Batch Lasagna recipe is saucy, cheesy and easy to throw
+          together. Oven-ready noodles are stacked between 4 layers of meat
+          sauce, mozzarella and creamy ricotta.
+        it-IT: >-
+          Questa ricetta di lasagne in piccoli lotti è impertinente, formaggio e
+          facile da mettere insieme. Le tagliatelle pronte al forno sono
+          impilate tra 4 strati di ragù, mozzarella e ricotta cremosa.
+    featuredImage:
+      type: asset
+      value: []
+  _locales:
+    - en-US
+    - it-IT

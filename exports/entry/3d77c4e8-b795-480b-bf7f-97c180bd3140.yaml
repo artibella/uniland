@@ -1,0 +1,19 @@
+created: '2024-04-03T19:53:01.220822+00:00'
+modified: '2024-04-03T19:53:10.886996+00:00'
+pattern: false
+entry:
+  _id: 3d77c4e8-b795-480b-bf7f-97c180bd3140
+  _name: Batman Returns
+  _slug: batman-returns
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BOGZmYzVkMmItM2NiOS00MDI3LWI4ZWQtMTg0YWZkODRkMmViXkEyXkFqcGdeQXVyODY0NzcxNw@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0103776
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

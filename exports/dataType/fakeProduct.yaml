@@ -1,0 +1,58 @@
+id: fakeProduct
+displayName: Product
+ttl: 30
+path: /api/products/get-by-ids
+custom:
+  proposedName: Product
+  selectedCategoryIds: []
+  selectedDisplayField: name
+method: GET
+purgeKey: aa2e3c45-cfd2-4e3f-97cb-52b01138dba4
+archetype: singleProduct
+variables:
+  page:
+    type: text
+    default: '1'
+    displayName: Page
+  limit:
+    type: text
+    default: ''
+    displayName: Limit
+  keyword:
+    type: text
+    default: ''
+    displayName: Keyword
+  sortField:
+    type: text
+    default: ''
+    displayName: Sort Field
+  categoryId:
+    type: text
+    default: ''
+    displayName: Category Id
+  productIds:
+    type: text
+    default: ''
+    helpText: Array of product ids
+    displayName: Product Ids
+  sortDirection:
+    type: text
+    default: ''
+    displayName: Sort Direction
+parameters:
+  - key: id
+    value: ${productIds}
+  - key: categoryId
+    value: ${categoryId}
+  - key: keyword
+    value: ${keyword}
+  - key: sortField
+    value: ${sortField}
+  - key: sortDirection
+    value: ${sortDirection}
+  - key: limit
+    value: ${limit}
+  - key: page
+    value: ${page}
+dataSourceId: fakeCommerce
+allowedOnComponents: []

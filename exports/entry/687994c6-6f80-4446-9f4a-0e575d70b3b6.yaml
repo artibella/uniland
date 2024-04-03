@@ -1,15 +1,19 @@
 created: '2023-10-27T13:36:14.480904+00:00'
-modified: '2024-01-03T16:02:45.125497+00:00'
+modified: '2024-04-03T19:15:01.599658+00:00'
 pattern: false
 entry:
   _id: 687994c6-6f80-4446-9f4a-0e575d70b3b6
-  _name: Homemade Pizza & Pizza Dough
+  _name: Homemade pizza
   _slug: homemade-pizza
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/oQUYRDFpTGycHO9UNNL-kQ-image.png
   type: recipe
   fields:
     name:
       type: text
-      value: Homemade Pizza & Pizza Dough
+      locales:
+        de-DE: Hausgemachte Pizza
+        en-US: Homemade pizza
     intro:
       type: richText
       value:
@@ -513,10 +517,9 @@ entry:
           direction: ltr
     subtitle:
       type: text
-      value: >-
-        Make perfect pizza at home with this classic homemade pizza recipe,
-        including a pizza dough recipe, topping suggestions, and step-by-step
-        instructions with photos.
+      locales:
+        de-DE: Make perfect pizza at home with this classic homemade pizza recipe
+        en-US: Make perfect pizza at home with this classic homemade pizza recipe
     sourceUrl:
       type: link
       value:
@@ -617,7 +620,8 @@ entry:
     ingredients:
       type: $block
       value:
-        - type: recipeIngredientSet
+        - _id: bf7b9a65-7a4b-4546-a627-443f36b45230
+          type: recipeIngredientSet
           fields:
             name:
               type: text
@@ -627,28 +631,32 @@ entry:
             ingredients:
               type: $block
               value:
-                - type: recipeIngredient
+                - _id: 7e6582e5-1a02-4e69-8c29-4ba7db8f7a5d
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: 1 1/2 cups (355 ml) warm water (105°F-115°F)
                         en-US: 1 1/2 cups (355 ml) warm water (105°F-115°F)
-                - type: recipeIngredient
+                - _id: 71ab5090-86d6-4c18-b0a4-44a4ab95acc6
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: 1 package (2 1/4 teaspoons) active dry yeast
                         en-US: 1 package (2 1/4 teaspoons) active dry yeast
-                - type: recipeIngredient
+                - _id: 4cf4ecca-f7a3-45a6-a60d-6df41182f730
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: 3 3/4 cups (490g) bread flour
                         en-US: 3 3/4 cups (490g) bread flour
-                - type: recipeIngredient
+                - _id: 3a9c6fa4-e648-4ebb-b41e-235296ef3860
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -659,21 +667,24 @@ entry:
                         en-US: >-
                           2 tablespoons extra virgin olive oil (omit if cooking
                           pizza in a wood-fired pizza oven)
-                - type: recipeIngredient
+                - _id: 01065500-f1d5-4bc3-b77d-84ad27ec3d5d
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: 2 teaspoons kosher salt
                         en-US: 2 teaspoons kosher salt
-                - type: recipeIngredient
+                - _id: 07cd27b7-d93e-455e-8342-dfac4918633a
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: 1 teaspoon sugar
                         en-US: 1 teaspoon sugar
-        - type: recipeIngredientSet
+        - _id: f67b1738-58c8-486a-8d1b-c12f215c68d7
+          type: recipeIngredientSet
           fields:
             name:
               type: text
@@ -683,14 +694,16 @@ entry:
             ingredients:
               type: $block
               value:
-                - type: recipeIngredient
+                - _id: 2ad477d7-6d66-4f7c-91bd-8458458b8f76
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Extra virgin olive oil
                         en-US: Extra virgin olive oil
-                - type: recipeIngredient
+                - _id: be789bd7-bf92-4eb2-b56c-822cba681d44
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -701,21 +714,24 @@ entry:
                         en-US: >-
                           Cornmeal (to help slide the pizza onto the pizza
                           stone)
-                - type: recipeIngredient
+                - _id: 038796ab-19d9-4307-8e2a-43c87a7b9186
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Tomato sauce (smooth or pureed)
                         en-US: Tomato sauce (smooth or pureed)
-                - type: recipeIngredient
+                - _id: 3b5c9fa6-7961-418f-94e8-2ea019b4f2ba
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Firm mozzarella cheese, grated
                         en-US: Firm mozzarella cheese, grated
-                - type: recipeIngredient
+                - _id: bb46b86d-b894-4b31-8428-4315c87405ed
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -726,28 +742,32 @@ entry:
                         en-US: >-
                           Fresh soft mozzarella cheese, separated into small
                           clumps
-                - type: recipeIngredient
+                - _id: 8d9d4cf7-14c2-4da2-acb5-b8221afd8cfd
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Fontina cheese, grated
                         en-US: Fontina cheese, grated
-                - type: recipeIngredient
+                - _id: 1b53c4ef-f95f-42ab-8d8b-ce1ea5d0ab65
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Parmesan cheese, grated
                         en-US: Parmesan cheese, grated
-                - type: recipeIngredient
+                - _id: b60d1fda-6a6a-4486-bdc8-c1940560df64
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Feta cheese, crumbled
                         en-US: Feta cheese, crumbled
-                - type: recipeIngredient
+                - _id: 08975bbf-0bd2-4e96-847a-277b99918913
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -758,7 +778,8 @@ entry:
                         en-US: >-
                           Mushrooms, very thinly sliced if raw, otherwise first
                           sautéed
-                - type: recipeIngredient
+                - _id: 5c86082a-d3f1-4c4b-99e2-fada6b659d70
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -769,35 +790,40 @@ entry:
                         en-US: >-
                           Bell peppers, stems and seeds removed, very thinly
                           sliced
-                - type: recipeIngredient
+                - _id: d4dcdb5f-7f51-47e6-8a12-886487b94ac7
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Italian pepperoncini, thinly sliced
                         en-US: Italian pepperoncini, thinly sliced
-                - type: recipeIngredient
+                - _id: 275a2626-001a-48f4-bc5b-e91e76cfa904
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Italian sausage, cooked ahead and crumbled
                         en-US: Italian sausage, cooked ahead and crumbled
-                - type: recipeIngredient
+                - _id: 2c38deae-28ee-4442-b1d5-9263d38d6be4
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Sliced black olives
                         en-US: Sliced black olives
-                - type: recipeIngredient
+                - _id: 93845a21-5051-4717-a8cb-5c096adaa017
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Chopped fresh basil
                         en-US: Chopped fresh basil
-                - type: recipeIngredient
+                - _id: 799eda29-6879-4904-a29b-c131eba1dd98
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -808,28 +834,32 @@ entry:
                         en-US: >-
                           Baby arugula, tossed in a little olive oil, added as
                           pizza comes out of the oven
-                - type: recipeIngredient
+                - _id: e1e1ad2f-3a3b-45f2-a69f-a9def1db1493
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Pesto
                         en-US: Pesto
-                - type: recipeIngredient
+                - _id: a0da20ae-4caf-49dc-ac71-23cecc24ea95
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Pepperoni, thinly sliced
                         en-US: Pepperoni, thinly sliced
-                - type: recipeIngredient
+                - _id: 9b70f9dd-78e8-4b2d-937b-bad7501b4196
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
                       locales:
                         de-DE: Onions, thinly sliced raw or caramelized
                         en-US: Onions, thinly sliced raw or caramelized
-                - type: recipeIngredient
+                - _id: b4bf7773-4875-4a6e-90a1-139c41b887b7
+                  type: recipeIngredient
                   fields:
                     name:
                       type: text
@@ -841,7 +871,7 @@ entry:
       value: '84'
     ratingValue:
       type: number
-      value: '5'
+      value: '4.2'
     recipeYield:
       type: text
       value: 2 10-inch pizzas
@@ -851,7 +881,8 @@ entry:
     instructions:
       type: $block
       value:
-        - type: howtoSection
+        - _id: 43c99020-3240-4cce-834d-715cf5562d08
+          type: howtoSection
           fields:
             name:
               type: text
@@ -861,7 +892,8 @@ entry:
             steps:
               type: $block
               value:
-                - type: howtoStep
+                - _id: 14a47b3d-ede6-4772-9e35-a5fe573f84e6
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -994,7 +1026,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 1974eae9-587c-426a-81ca-0df1e11e2893
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -1185,7 +1218,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 0caef57a-1a8d-48d5-8b8c-704f679936fd
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -1442,7 +1476,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-        - type: howtoSection
+        - _id: bc3514d8-1f24-43a8-bdfe-9ec169d69aee
+          type: howtoSection
           fields:
             name:
               type: text
@@ -1452,7 +1487,8 @@ entry:
             steps:
               type: $block
               value:
-                - type: howtoStep
+                - _id: 2d3003a9-f997-4843-aad9-c9505410d09c
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -1518,7 +1554,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 8afeee7a-12f3-446c-88a5-8eb3f30315a0
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -1643,7 +1680,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: c2d7a292-209c-40f4-b558-ad34ca2f6475
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -1737,7 +1775,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 939db281-5af3-4831-ae9b-462f9d94ac36
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -2050,7 +2089,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 997085ed-09ff-4429-b6b9-7203415094d1
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -2140,7 +2180,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 25b4d8ce-1ab9-431a-9f0e-d6adcb62a949
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -2301,7 +2342,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: cecf1af9-1700-4a69-aeb0-f709d8b73951
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -2396,7 +2438,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 44bd923d-7c41-47a8-807d-ca9595e508b3
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -2523,7 +2566,8 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
-                - type: howtoStep
+                - _id: 9ca74a7c-bc7a-4563-b6d6-a7b4434d97f2
+                  type: howtoStep
                   fields:
                     name:
                       type: text
@@ -2622,7 +2666,8 @@ entry:
     nutritionFacts:
       type: $block
       value:
-        - type: nutritionInformation
+        - _id: d3aa64da-e9e4-4ea1-ab1e-e833081c2ead
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2630,7 +2675,8 @@ entry:
             amount:
               type: number
               value: '322'
-        - type: nutritionInformation
+        - _id: 206c6cdf-aa30-40af-acb3-e5ba636189dd
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2641,7 +2687,8 @@ entry:
             amount:
               type: number
               value: '4'
-        - type: nutritionInformation
+        - _id: 1e7bae53-d411-41ee-83f8-03897050620d
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2652,7 +2699,8 @@ entry:
             amount:
               type: number
               value: '1'
-        - type: nutritionInformation
+        - _id: 908bd836-6546-4c7c-82e7-056716d87493
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2663,7 +2711,8 @@ entry:
             amount:
               type: number
               value: '8'
-        - type: nutritionInformation
+        - _id: 798f58ee-fe8f-475e-859b-0685e5cb7cff
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2674,7 +2723,8 @@ entry:
             amount:
               type: number
               value: '61'
-        - type: nutritionInformation
+        - _id: 86435633-f6f4-4ecb-99ea-26c86dde1843
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2685,7 +2735,8 @@ entry:
             amount:
               type: number
               value: '10'
-        - type: nutritionInformation
+        - _id: 3373f101-ca95-4126-91af-e167594149ff
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2696,7 +2747,8 @@ entry:
             amount:
               type: number
               value: '2'
-        - type: nutritionInformation
+        - _id: 5ee2a68c-3dcc-4df8-bc7f-44826dcc72f8
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2707,7 +2759,8 @@ entry:
             amount:
               type: number
               value: '710'
-        - type: nutritionInformation
+        - _id: 0b2506c3-e901-44e1-8746-bb57f2ba8f72
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -2724,5 +2777,3 @@ entry:
   _locales:
     - en-US
     - de-DE
-  _thumbnail: >-
-    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/oQUYRDFpTGycHO9UNNL-kQ-image.png

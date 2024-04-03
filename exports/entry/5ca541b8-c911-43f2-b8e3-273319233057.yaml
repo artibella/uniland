@@ -1,10 +1,12 @@
 created: '2023-12-12T13:30:56.172733+00:00'
-modified: '2023-12-12T13:38:10.829384+00:00'
+modified: '2024-04-03T19:14:34.640583+00:00'
 pattern: false
 entry:
   _id: 5ca541b8-c911-43f2-b8e3-273319233057
   _name: 5 Guys Ramstein Air Base
   _slug: 5-guys-ramstein-airbase
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/drvk3qzxTdyqAAxhVwgV4Q-image.png
   type: restaurant
   fields:
     city:
@@ -42,11 +44,6 @@ entry:
               value: image/png
               type: text
           _source: uniform-assets
-          _overrides:
-            fields:
-              title:
-                type: text
-                value: image.png
     name:
       type: text
       value: 5 Guys Ramstein Air Base
@@ -111,7 +108,8 @@ entry:
     openingHours:
       type: $block
       value:
-        - type: openingHours
+        - _id: fb1bf0af-d263-449d-a91d-f7a8a80cc20e
+          type: openingHours
           fields:
             day:
               type: text
@@ -122,7 +120,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 86c9de63-a9f3-4dcc-aed2-25db70feef52
+          type: openingHours
           fields:
             day:
               type: text
@@ -133,7 +132,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 0cc43ccd-2345-410f-8b1a-7a293ba16a87
+          type: openingHours
           fields:
             day:
               type: text
@@ -144,7 +144,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 924b3461-8782-4bcf-acf3-09800096a75a
+          type: openingHours
           fields:
             day:
               type: text
@@ -155,7 +156,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: e7ac215a-c820-48a8-bb36-2fb6b32c6ef5
+          type: openingHours
           fields:
             day:
               type: text
@@ -166,7 +168,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 95ad14f8-dd66-4063-b75f-5c870c152d8e
+          type: openingHours
           fields:
             day:
               type: text
@@ -177,7 +180,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 186e247f-7458-4b70-a639-c905c79d63fb
+          type: openingHours
           fields:
             day:
               type: text
@@ -191,7 +195,8 @@ entry:
     orderOptions:
       type: $block
       value:
-        - type: logo
+        - _id: dcecd1cc-9f3d-4d9f-ad70-b432c07ac2c7
+          type: logo
           fields:
             logo:
               type: asset
@@ -233,7 +238,8 @@ entry:
               value:
                 path: https://www.lieferando.de/five-guys-berlin-alexanderplatz
                 type: url
-        - type: logo
+        - _id: 850d6e22-ff3c-4dfd-8ae7-c9b32a0f6b25
+          type: logo
           fields:
             logo:
               type: asset
@@ -275,7 +281,8 @@ entry:
               value:
                 path: https://wolt.com/de/deu/berlin/restaurant/five-guys-mitte
                 type: url
-        - type: logo
+        - _id: 866b0ab7-58fd-4735-8b37-432a2eacf87d
+          type: logo
           fields:
             logo:
               type: asset

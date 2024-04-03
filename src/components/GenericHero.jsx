@@ -41,7 +41,7 @@ export default function GenericHero({
               {useDefaultHeading ? (
                 <Heading title={title} tagName="h2" />
               ) : (
-                <UniformSlot name="heading" emptyPlaceholder={null} />
+                <UniformSlot name="heading" />
               )}
               <div className="hero-body">
                 <UniformText
@@ -52,7 +52,7 @@ export default function GenericHero({
               </div>
 
               <div className="hero-actions sm:inline-flex items-center justify-center gap-4 mt-8 lg:mt-12 text-center lg:text-left">
-                <UniformSlot name="ctas" emptyPlaceholder={null} />
+                <UniformSlot name="ctas" />
               </div>
             </div>
           </div>

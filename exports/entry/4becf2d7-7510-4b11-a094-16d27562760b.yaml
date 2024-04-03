@@ -1,0 +1,275 @@
+created: '2024-04-03T19:15:09.517597+00:00'
+modified: '2024-04-03T20:05:42.840828+00:00'
+pattern: false
+entry:
+  _id: 4becf2d7-7510-4b11-a094-16d27562760b
+  _name: Pasta alla Norcina (Creamy Pasta With Sausage)
+  _slug: pasta-alla-norcina-creamy-pasta-with-sausage
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/d2uBNUCb5hZzvVklC7Syw40s7mk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-norcina-pasta-sasha-marx-20-1996bc45c3f5404998679f1dd96b7260.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        de-DE: TODO Pasta alla Norcina (Creamy Pasta With Sausage)
+        en-US: Pasta alla Norcina (Creamy Pasta With Sausage)
+    subtitle:
+      type: text
+      locales:
+        de-DE: >-
+          TODO An easy homemade pork sausage is the key to this creamy, hearty
+          Umbrian pasta.
+        en-US: >-
+          An easy homemade pork sausage is the key to this creamy, hearty
+          Umbrian pasta.
+    sourceUrl:
+      type: link
+      value:
+        path: >-
+          https://www.seriouseats.com/pasta-alla-norcina-creamy-pasta-with-sausage
+        type: url
+    totalTime:
+      type: text
+      value: '90'
+    cookingTime:
+      type: text
+      value: '25'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The Umbrian town of Norcia is famous for its pork, and it has a rich tradition of sausage- and salumi-making. So much so that butcher shops all over Italy that specialize in fresh and cured pork products like\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/salumi-guide-italian-cured-meats-salami-prosciutto
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: salami, prosciutti, pancetta, and guanciale
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_are known as \"norcinerie.\" Located at the foot of the Sibylline Mountains, Norcia has the perfect cool and humid climate conditions for meat-curing and, in the fall, truffle hunting. These two local specialties come together in pasta alla norcina: pasta dressed in a rich and creamy sauce studded with juicy sausage, traditionally finished with a showering of shaved black truffles."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Of course, we aren't about to start developing recipes that\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: require
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: "\_expensive fresh truffles (and we don't recommend using synthetic truffle oil). This pasta is excellent without them, and it's commonly served when the tubers aren't in season. In any case, this dish is really about the Norcia-style sausage used in the sauce, and the best way to recreate that flavor is by making the sausage yourself."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: What Is Norcia-Style Sausage?
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Unlike "Italian" sausage commonly available in the States,
+                    the salsiccia di Norcia used in pasta alla norcina isn't
+                    seasoned with intensely aromatic fennel seeds or red pepper
+                    flakes. It's a milder sausage, made with garlic, white wine,
+                    salt, pepper, and, sometimes, a touch of grated nutmeg. It's
+                    cool-weather sausage, not summer cookout links. Now, before
+                    anyone gets worked up and turned off by the seemingly
+                    daunting project of scratch-made sausage, hold on! We're not
+                    asking you to spend days seasoning, grinding, and stuffing
+                    meat into casings.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    For this recipe, I settled on a shortcut method: you
+                    aggressively mix store-bought ground pork with seasonings by
+                    hand (or in a stand mixer if you prefer to bust out the
+                    heavy machinery) to develop the myosin protein, which binds
+                    the meat, giving sausage its characteristic tacky and sticky
+                    texture. Pop the mix in the fridge for as little as an hour
+                    and up to a couple of days to allow the seasonings to take
+                    hold, and then you're cleared for pasta takeoff. If you
+                    still aren't convinced about the payoff of scratch-made
+                    sausage, this recipe will still work fine with store-bought
+                    links, and I've provided instructions for using them as
+                    well. I conducted side-by-side tests during recipe
+                    development, and while I strongly prefer the homemade
+                    sausage version, my tasting panel of one (my wife) enjoyed
+                    both iterations.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Making the Pasta Dish
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "The cooking process for the dish couldn't be easier. You form the sausage mixture into patties (for easier flipping), brown them on one side in a skillet, flip them over, add chopped onion to the pan, break the sausage up into small pieces and cook until the onion is softened. Deglaze the pan with white wine, add cream, and then simmer it down to a saucy consistency. While that's happening, you cook pasta in boiling water until it's almost done, then add the noodles to the sauce along with a healthy splash of starchy pasta cooking water for a high-heat, glossy, saucy finish. Like other dairy-rich pastas with meaty morsels, you can make this dish with both dried, short, tubular pastas like penne or rigatoni, or with long, fresh,\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/fresh-egg-pasta
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: egg-dough pasta
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_like tagliatelle or fettuccine. And because it's so hearty, the twelve ounces of pasta called for in the recipe is more than enough for four servings."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When the pasta comes off the heat, you shower it with
+                    Pecorino Romano, freshly ground black pepper, and grated
+                    nutmeg. It's meant to be a rich dish, and while it may be
+                    tempting to sneak in some brightness with fresh herbs or a
+                    splash of acidity, those ingredients would distract from and
+                    dull the flavor of the sausage. And, of course, if you're in
+                    a celebratory mood or you just happen to have them around
+                    (good for you!), you can go all out with a black truffle
+                    finishing move. But rest assured you'll be plenty satisfied
+                    without them.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    publishDate:
+      type: date
+      value: '2022-07-07'
+    recipeYield:
+      type: text
+      value: 4 servings
+    restingTime:
+      type: text
+      value: '60'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 7b3b69e8-dd3b-45d8-8f18-7982f45c3b52
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/d2uBNUCb5hZzvVklC7Syw40s7mk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-norcina-pasta-sasha-marx-20-1996bc45c3f5404998679f1dd96b7260.jpg
+          _source: custom-url
+    preparationTime:
+      type: text
+      value: '5'
+  _locales:
+    - en-US
+    - de-DE

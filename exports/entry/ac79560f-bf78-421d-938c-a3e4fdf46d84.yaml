@@ -1,0 +1,19 @@
+created: '2024-04-03T19:32:04.881818+00:00'
+modified: '2024-04-03T19:32:19.634628+00:00'
+pattern: false
+entry:
+  _id: ac79560f-bf78-421d-938c-a3e4fdf46d84
+  _name: Spirited Away
+  _slug: spirited-away
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0245429
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

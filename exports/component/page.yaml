@@ -34,7 +34,59 @@ slots:
       - hero
       - conditionalContainer
     inheritAllowedComponents: false
+defaults:
+  type: page
+  slots:
+    pageFooter:
+      - type: footer
+        _pattern: 319639e9-4bac-4fb3-8f0b-19088c969fcb
+    pageHeader:
+      - type: header
+        _pattern: e46c8336-acfd-43e8-ac59-8be8f4c33b7d
+    pageContent:
+      - type: hero
+        variant: backgroundImage
+        parameters:
+          image:
+            type: image
+            value: >-
+              https://res.cloudinary.com/uniform-demos/image/upload/v1692276482/csk-marketing/Rectangle_7_2_uupdjo_wm94da.webp
+          title:
+            type: text
+            value: Page Title
+          paddingTop:
+            type: select
+            value: None
+          titleStyle:
+            type: tp-title-style-parameter
+            value: h1
+          description:
+            type: text
+            value: Some page description
+          eyebrowText:
+            type: text
+            value: eyebrow text
+          paddingBottom:
+            type: select
+            value: None
+          containerVariant:
+            type: select
+            value: fluidContent
+          textColorVariant:
+            type: select
+            value: Light
+      - type: breadcrumbs
+        parameters:
+          separator:
+            type: select
+            value: chevron
+          colorStyle:
+            type: tp-color-style-parameter
+            value: primary
+          displayRootNode:
+            type: checkbox
+            value: true
 titleParameter: title
 canBeComposition: true
 created: '2022-12-15T14:08:27.337946+00:00'
-updated: '2024-01-15T18:57:14.944117+00:00'
+updated: '2024-04-03T19:09:44.391778+00:00'

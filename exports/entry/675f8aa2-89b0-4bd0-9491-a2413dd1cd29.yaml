@@ -1,0 +1,19 @@
+created: '2024-04-03T19:31:13.140869+00:00'
+modified: '2024-04-03T19:31:29.359088+00:00'
+pattern: false
+entry:
+  _id: 675f8aa2-89b0-4bd0-9491-a2413dd1cd29
+  _name: The Boy and the Heron
+  _slug: the-boy-and-the-heron
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BZjZkNThjNTMtOGU0Ni00ZDliLThmNGUtZmMxNWQ3YzAxZTQ1XkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt6587046
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

@@ -1,0 +1,19 @@
+created: '2024-04-03T19:37:06.97821+00:00'
+modified: '2024-04-03T19:37:21.437746+00:00'
+pattern: false
+entry:
+  _id: 713ab52b-46c5-40f9-9b61-b8535860a96c
+  _name: Ponyo
+  _slug: ponyo
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BOTc3YmM3N2QtODZkMC00ZDE5LThjMTQtYTljN2Y1YTYwYWJkXkEyXkFqcGdeQXVyODEzNjM5OTQ@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0876563
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

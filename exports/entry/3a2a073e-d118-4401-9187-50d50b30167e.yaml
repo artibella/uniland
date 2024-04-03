@@ -1,9 +1,10 @@
 created: '2023-06-30T15:13:43.897246+00:00'
-modified: '2023-07-10T14:30:28.924715+00:00'
+modified: '2024-04-03T19:14:48.608329+00:00'
 pattern: false
 entry:
   _id: 3a2a073e-d118-4401-9187-50d50b30167e
   _name: Composable Experiences with Salesforce B2B Commerce
+  _slug: composable-experiences-with-salesforce-b2b-commerce
   type: event
   fields:
     link:

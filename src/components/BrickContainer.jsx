@@ -4,7 +4,7 @@ import Brick from './Brick';
 export default function BrickContainer(props) {
   return (
     <Brick {...props}>
-      <UniformSlot name="content" emptyPlaceholder={null} />
+      <UniformSlot name="content" />
     </Brick>
   );
 }

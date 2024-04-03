@@ -1,39 +1,47 @@
 created: '2023-10-28T13:31:09.722692+00:00'
-modified: '2023-12-05T10:16:31.582785+00:00'
+modified: '2024-04-03T19:15:20.587976+00:00'
 pattern: false
 entry:
   _id: 371b1719-6298-4a18-b59d-dc67c6b2aad2
-  _name: Hoodie
-  _slug: hoodie
+  _name: Static Hoodie
+  _slug: static-hoodie
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenHoodie01.jpg?v=1675455175
   type: product
   fields:
     name:
       type: text
-      value: '${#jptr:/Product by handle Content/data/product/title} '
+      locales:
+        en-US: 'Static ${#jptr:/Product by handle Content/data/product/title} '
     variants:
       type: $block
       value:
-        - type: $loop
+        - _id: 5b6f720e-4cc3-4d99-9307-da986b49c38f
+          type: $loop
           fields:
             body:
               type: $block
               value:
-                - type: productVariant
+                - _id: 389592fa-eb89-4def-822b-3c39185ea80b
+                  type: productVariant
                   fields:
                     code:
                       type: text
                       value: ${#jptr:/Product Variant/node/id}
                     name:
                       type: text
-                      value: ${#jptr:/Product Variant/node/title}
+                      locales:
+                        en-US: ${#jptr:/Product Variant/node/title}
                     price:
                       type: text
-                      value: >-
-                        ${#jptr:/Product Variant/node/price/amount}
-                        ${#jptr:/Product Variant/node/price/currencyCode}
+                      locales:
+                        en-US: >-
+                          ${#jptr:/Product Variant/node/price/amount}
+                          ${#jptr:/Product Variant/node/price/currencyCode}
                     featuredImage:
                       type: image
-                      value: ${#jptr:/Product Variant/node/image/url}
+                      locales:
+                        en-US: ${#jptr:/Product Variant/node/image/url}
           _dataResources:
             Product Variant:
               type: sys-reserved-loop
@@ -42,15 +50,21 @@ entry:
     reference:
       type: text
       value: ${#jptr:/Product by handle Content/data/product/id}
+    teaserText:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product by handle Content/data/product/description}
     collections:
       type: $block
       value:
-        - type: $loop
+        - _id: a1dfc7b2-c098-4ae4-b523-661c91ff4fe3
+          type: $loop
           fields:
             body:
               type: $block
               value:
-                - type: taxonomyBlock
+                - _id: a76d3639-d77f-456c-90f5-f82ad2657d03
+                  type: taxonomyBlock
                   fields:
                     id:
                       type: text
@@ -72,9 +86,10 @@ entry:
                             Item/entry/_slug}
                     name:
                       type: text
-                      value: >-
-                        ${#jptr:/Product collections Content entries Loop
-                        Item/entry/fields/name/value}
+                      locales:
+                        en-US: >-
+                          ${#jptr:/Product collections Content entries Loop
+                          Item/entry/fields/name/value}
                     slug:
                       type: text
                       value: >-
@@ -82,17 +97,18 @@ entry:
                         Item/entry/_slug}
                     image:
                       type: asset
-                      value:
-                        - _id: 2d395117-cb9f-44a1-8ee7-2f93335b079e
-                          type: image
-                          fields:
-                            url:
-                              type: text
-                              value: >-
-                                ${#jptr:/Product collections Content entries
-                                Loop
-                                Item/entry/fields/image/value/0/fields/url/value}
-                          _source: custom-url
+                      locales:
+                        en-US:
+                          - _id: 2d395117-cb9f-44a1-8ee7-2f93335b079e
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  ${#jptr:/Product collections Content entries
+                                  Loop
+                                  Item/entry/fields/image/value/0/fields/url/value}
+                            _source: custom-url
           _dataResources:
             Product collections Content entries Loop Item:
               type: sys-reserved-loop
@@ -100,26 +116,28 @@ entry:
                 connectedData: /Product collections Content/entries
     description:
       type: richText
-      value:
-        root:
-          type: root
-          format: ''
-          indent: 0
-          version: 1
-          children:
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - type: variable
-                  version: 1
-                  reference: '#jptr:/Product by handle Content/data/product/description'
-              direction: null
-          direction: null
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Product by handle Content/data/product/description'
+                direction: null
+            direction: null
     featuredImage:
-      type: image
-      value: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+      type: asset
+      locales:
+        en-US: []
   _dataResources:
     Product by handle Content:
       type: productByHandle
@@ -130,3 +148,5 @@ entry:
       variables:
         entryIds: >-
           9ea65198-cf1d-4195-be2b-cf89053648a8,b5e90a68-5f20-4b3e-9fea-1b04190bb1e4
+  _locales:
+    - en-US

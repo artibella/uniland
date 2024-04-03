@@ -1,10 +1,12 @@
 created: '2023-12-14T15:54:17.526293+00:00'
-modified: '2023-12-14T15:54:30.758117+00:00'
+modified: '2024-04-03T19:14:48.242915+00:00'
 pattern: false
 entry:
   _id: 424b8839-548f-4bf7-8283-e0a40827c3fc
   _name: Clear Sunnies
   _slug: clear-sunnies
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/Seethroughsunnies.jpg?v=1675447537
   type: product
   fields: {}
   _dataResources:

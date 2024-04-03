@@ -1,9 +1,10 @@
 created: '2023-07-05T08:58:39.804752+00:00'
-modified: '2023-07-05T08:59:00.528216+00:00'
+modified: '2024-04-03T19:14:49.065858+00:00'
 pattern: false
 entry:
   _id: 98685634-6f7f-4d9a-91d8-856166de20e8
   _name: cta.addToCart
+  _slug: ctaaddtocart
   type: microcopy
   fields:
     key:

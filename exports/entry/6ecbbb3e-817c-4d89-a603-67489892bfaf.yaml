@@ -1,0 +1,866 @@
+created: '2024-04-03T19:14:24.788729+00:00'
+modified: '2024-04-03T19:14:24.788729+00:00'
+pattern: false
+entry:
+  _id: 6ecbbb3e-817c-4d89-a603-67489892bfaf
+  _name: 3 paths to reining in your Headless CMS costs
+  _slug: 3-paths-to-reining-in-your-headless-cms-costs
+  _thumbnail: >-
+    https://images.ctfassets.net/9ku1oyd4k3wo/45noIzQMQdsRRM1wQZDDfK/f1fe6a1cae0f94d205fffb55245b9e0f/01_6-13.png
+  type: blogPost
+  fields:
+    date:
+      type: date
+      value: '2024-02-21'
+    image:
+      type: asset
+      locales:
+        de-DE:
+          - _id: 35de52ce-425d-429c-b1d6-80608067aebd
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/9ku1oyd4k3wo/45noIzQMQdsRRM1wQZDDfK/f1fe6a1cae0f94d205fffb55245b9e0f/01_6-13.png
+              title:
+                type: text
+                value: Illustration headless CMS costs
+            _source: custom-url
+        en-US:
+          - _id: 35de52ce-425d-429c-b1d6-80608067aebd
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/9ku1oyd4k3wo/45noIzQMQdsRRM1wQZDDfK/f1fe6a1cae0f94d205fffb55245b9e0f/01_6-13.png
+              title:
+                type: text
+                value: Illustration headless CMS costs
+            _source: custom-url
+    title:
+      type: text
+      locales:
+        de-DE: 3 Wege ihre headless CMS Kosten unter Kontrolle zu bringen
+        en-US: 3 paths to reining in your Headless CMS costs
+    author:
+      type: text
+      value: Lars Birkholm Petersen
+    postBody:
+      type: richText
+      locales:
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Understanding the variable costs associated with your '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /features/content-management
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: headless Content Management Systems (CMS)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: " is crucial in optimizing for future budget, resources, and direction. For businesses new to the architecture and without a proven agency at the helm, associated fees and investments can climb precipitously and unexpectedly based on critical structural decisions.\_While several factors impact costs, a few in particular can become unpredictable and quickly increase the license for your CMS.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Content types
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Content type is an important variable in licensing fees
+                      and can ultimately have one of the biggest impacts on your
+                      running costs.A content type in the headless CMS
+                      represents a piece of content you want to write. Teams
+                      generally begin by creating one content type per
+                      presentation component, e.g. there is a hero content type
+                      for the hero, and a call to action (CTA) content type for
+                      the CTA.For teams just beginning with a headless CMS, it
+                      can be difficult to know how many content types will be
+                      needed. An educated guess will be made; however, the added
+                      cost incurred if the underestimate is significant can be
+                      as much as 2x the cost of the CMS–a lesson learned far too
+                      late.In addition, mapping content types to presentation
+                      components–a practice recommended by headless CMS
+                      vendors–can be a dangerous path, as you are essentially
+                      locking content into individual components in a single
+                      channel and specific content structure. This makes it
+                      difficult to reuse content outside of that specific
+                      component (e.g. it is for the website only, not
+                      omnichannel by default).If you manage design decisions
+                      inside of your CMS–for example, component display variants
+                      where a user can select multiple variations of a design’s
+                      content–each option is essentially a content type. Another
+                      culprit impacting your volume of content types.Sometimes
+                      teams are forced to use content types in unpredictable
+                      ways in order to create a usable system for content
+                      authors. Circumstances where a need that initially
+                      appeared to be handled by one content type, may ultimately
+                      require multiple.These situations artificially increase
+                      the number of content types used and become around 70-80%
+                      of 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /blogs/all-you-need-to-know-about-content-modeling
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: the content model
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' itself. Combined with the types you need to represent the content you originally planned, and your license is now approaching a custom tier.You can reduce the number of content types significantly and avoid overages by structuring them for broader use: creating types to represent presentation-free semantic content (like Recipes, Events, Product Information), and using this preplanned structure to better predict volume prior to contracting.In terms of the tech stack as a whole, another best practice for minimizing content types is to channel all design decisions through the platform that manages your digital experience, such as '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /what-is-visual-workspace
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: a visual workspace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: .
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Projects
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'A project in a headless CMS is the specific '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /blogs/content-modeling-best-practices
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: content model associated with content types
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ". Vendors have different names for projects, such as spaces, stacks, and datasets.Vendor contracts begin with a specific number of projects and each project has a set amount of content types. For example, a website can consist of one or more projects depending on how it is structured. Projects are added as the website grows, often done in an effort to reduce overall complexity. Each additional project adds another set of content types, allowing architects to better organize the website across multiple projects (e.g. by channel, by device, by sections of the website).\_The danger occurs as the digital entity you are supporting evolves over time, and you find your structure has expanded to more projects than originally contracted, forcing the license toward a more expensive tier than budgeted for.\_Adding projects can keep the number of content types per project low, thus managing content type-related costs; however, you are still paying for multiple projects. Conversely, packing more into a project forces tough choices between content type overages and user complexity.The balance lies in strategic planning. For instance, instead of separating channels by project, you could combine channels into a single project using technology like "
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /visual-workspace
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: the visual workspace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ". This would effectively reduce the number of projects, avoid duplicative content types, and\_empower your marketers to build content streamlined for omnichannel distribution.In short, mapping to structures as opposed to presentation components (as noted previously) and making presentation components omnichannel can keep project volume economical."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Coding for frontend presentation
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Another opportunity for cost savings when implementing a headless CMS: minimize the amount of code that connects the CMS content types to the front-end presentation components, which needs to be written and maintained in perpetuity.The goal is to separate the logic for accessing and reading data in the CMS from the front-end application that displays that data. Much like how a headless CMS separates the content from the front-end application. This allows you to use a no-code solution to implement the data access logic.\_In marketing terms, no more waiting on sprints for your development team to figure out how to bring your digital experiences to life.Your company would save money by:\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          not having to write and maintain the data access code
+                          in the first place
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "reducing development resources dedicated to marketing campaigns\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          and, ultimately, by shortening the amount of time it
+                          takes to get to market
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Affordability lies in planning
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Without an upfront strategy for structural organization,
+                      or to reduce ongoing reliance on development resources,
+                      brands can find their CMS costs soaring as they attempt to
+                      scale a structure that was inadvertently fashioned to
+                      expand license fees and development costs alongside.
+                      Addressing business needs while planning an organizational
+                      structure that avoids these pitfalls is key to avoiding
+                      painful surprises year over year.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /visual-workspace
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: The Uniform Visual Workspace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' helps enterprises address all of these factors, from controlling post-implementation development costs to providing content organization that is experience-first, marketer-centric, and budget-friendly. '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /demo
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Schedule a demo
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' if you’d like to learn more.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Understanding the variable costs associated with your '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /features/content-management
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: headless Content Management Systems (CMS)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: " is crucial in optimizing for future budget, resources, and direction. For businesses new to the architecture and without a proven agency at the helm, associated fees and investments can climb precipitously and unexpectedly based on critical structural decisions.\_While several factors impact costs, a few in particular can become unpredictable and quickly increase the license for your CMS.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Content types
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Content type is an important variable in licensing fees
+                      and can ultimately have one of the biggest impacts on your
+                      running costs.A content type in the headless CMS
+                      represents a piece of content you want to write. Teams
+                      generally begin by creating one content type per
+                      presentation component, e.g. there is a hero content type
+                      for the hero, and a call to action (CTA) content type for
+                      the CTA.For teams just beginning with a headless CMS, it
+                      can be difficult to know how many content types will be
+                      needed. An educated guess will be made; however, the added
+                      cost incurred if the underestimate is significant can be
+                      as much as 2x the cost of the CMS–a lesson learned far too
+                      late.In addition, mapping content types to presentation
+                      components–a practice recommended by headless CMS
+                      vendors–can be a dangerous path, as you are essentially
+                      locking content into individual components in a single
+                      channel and specific content structure. This makes it
+                      difficult to reuse content outside of that specific
+                      component (e.g. it is for the website only, not
+                      omnichannel by default).If you manage design decisions
+                      inside of your CMS–for example, component display variants
+                      where a user can select multiple variations of a design’s
+                      content–each option is essentially a content type. Another
+                      culprit impacting your volume of content types.Sometimes
+                      teams are forced to use content types in unpredictable
+                      ways in order to create a usable system for content
+                      authors. Circumstances where a need that initially
+                      appeared to be handled by one content type, may ultimately
+                      require multiple.These situations artificially increase
+                      the number of content types used and become around 70-80%
+                      of 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /blogs/all-you-need-to-know-about-content-modeling
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: the content model
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' itself. Combined with the types you need to represent the content you originally planned, and your license is now approaching a custom tier.You can reduce the number of content types significantly and avoid overages by structuring them for broader use: creating types to represent presentation-free semantic content (like Recipes, Events, Product Information), and using this preplanned structure to better predict volume prior to contracting.In terms of the tech stack as a whole, another best practice for minimizing content types is to channel all design decisions through the platform that manages your digital experience, such as '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /what-is-visual-workspace
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: a visual workspace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: .
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Projects
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'A project in a headless CMS is the specific '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /blogs/content-modeling-best-practices
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: content model associated with content types
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ". Vendors have different names for projects, such as spaces, stacks, and datasets.Vendor contracts begin with a specific number of projects and each project has a set amount of content types. For example, a website can consist of one or more projects depending on how it is structured. Projects are added as the website grows, often done in an effort to reduce overall complexity. Each additional project adds another set of content types, allowing architects to better organize the website across multiple projects (e.g. by channel, by device, by sections of the website).\_The danger occurs as the digital entity you are supporting evolves over time, and you find your structure has expanded to more projects than originally contracted, forcing the license toward a more expensive tier than budgeted for.\_Adding projects can keep the number of content types per project low, thus managing content type-related costs; however, you are still paying for multiple projects. Conversely, packing more into a project forces tough choices between content type overages and user complexity.The balance lies in strategic planning. For instance, instead of separating channels by project, you could combine channels into a single project using technology like "
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /visual-workspace
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: the visual workspace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ". This would effectively reduce the number of projects, avoid duplicative content types, and\_empower your marketers to build content streamlined for omnichannel distribution.In short, mapping to structures as opposed to presentation components (as noted previously) and making presentation components omnichannel can keep project volume economical."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Coding for frontend presentation
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Another opportunity for cost savings when implementing a headless CMS: minimize the amount of code that connects the CMS content types to the front-end presentation components, which needs to be written and maintained in perpetuity.The goal is to separate the logic for accessing and reading data in the CMS from the front-end application that displays that data. Much like how a headless CMS separates the content from the front-end application. This allows you to use a no-code solution to implement the data access logic.\_In marketing terms, no more waiting on sprints for your development team to figure out how to bring your digital experiences to life.Your company would save money by:\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          not having to write and maintain the data access code
+                          in the first place
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "reducing development resources dedicated to marketing campaigns\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          and, ultimately, by shortening the amount of time it
+                          takes to get to market
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Affordability lies in planning
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Without an upfront strategy for structural organization,
+                      or to reduce ongoing reliance on development resources,
+                      brands can find their CMS costs soaring as they attempt to
+                      scale a structure that was inadvertently fashioned to
+                      expand license fees and development costs alongside.
+                      Addressing business needs while planning an organizational
+                      structure that avoids these pitfalls is key to avoiding
+                      painful surprises year over year.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /visual-workspace
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: The Uniform Visual Workspace
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' helps enterprises address all of these factors, from controlling post-implementation development costs to providing content organization that is experience-first, marketer-centric, and budget-friendly. '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: /demo
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Schedule a demo
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' if you’d like to learn more.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        de-DE: >-
+          Understanding the variable costs associated with a headless Content
+          Management Systems is crucial in optimizing for future budget,
+          resources, and direction.
+        en-US: >-
+          Understanding the variable costs associated with a headless Content
+          Management Systems is crucial in optimizing for future budget,
+          resources, and direction.
+    postImage:
+      type: image
+      locales:
+        de-DE: >-
+          https://images.ctfassets.net/9ku1oyd4k3wo/45noIzQMQdsRRM1wQZDDfK/f1fe6a1cae0f94d205fffb55245b9e0f/01_6-13.png
+        en-US: >-
+          https://images.ctfassets.net/9ku1oyd4k3wo/45noIzQMQdsRRM1wQZDDfK/f1fe6a1cae0f94d205fffb55245b9e0f/01_6-13.png
+    postCategory:
+      type: $block
+      value:
+        - _id: 6626c1dd-9e76-4c32-998d-386b8c7d237e
+          type: taxonomyBlock
+          fields:
+            name:
+              type: text
+              locales:
+                de-DE: Content modeling
+                en-US: Content modeling
+            slug:
+              type: text
+              value: content-modeling
+        - _id: e330c471-0be5-43f6-b47c-b02d79debd92
+          type: taxonomyBlock
+          fields:
+            name:
+              type: text
+              locales:
+                de-DE: Headless CMS
+                en-US: Headless CMS
+            slug:
+              type: text
+              value: headless-cms
+  _locales:
+    - en-US
+    - de-DE

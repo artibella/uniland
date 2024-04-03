@@ -1,0 +1,19 @@
+created: '2024-04-03T19:55:27.725521+00:00'
+modified: '2024-04-03T19:56:01.538779+00:00'
+pattern: false
+entry:
+  _id: 314e37d1-c78e-4a81-ad1c-7a98b7d4c4aa
+  _name: '2001: A Space Odyssey'
+  _slug: 2001-a-space-odyssey
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMmNlYzRiNDctZWNhMi00MzI4LThkZTctMTUzMmZkMmFmNThmXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0062622
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

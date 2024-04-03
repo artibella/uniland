@@ -1,0 +1,1054 @@
+created: '2024-04-03T19:15:09.046102+00:00'
+modified: '2024-04-03T20:05:49.57491+00:00'
+pattern: false
+entry:
+  _id: b9299780-32bf-441c-a523-fa9d17e6ef49
+  _name: Pasta Ai Quattro Formaggi
+  _slug: pasta-ai-quattro-formaggi
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/1BrVd6Vi1l2tnjRcv0oQkDmEHz0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-7-598e2a8f8a5349d3aef56f683b1369b6.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Pasta Ai Quattro Formaggi
+        it-IT: Pasta Ai Quattro Formaggi
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          Choose your four cheeses wisely for this bold, well-rounded, deeply
+          flavorful, multi-layered, and complex cheesy pasta.
+        it-IT: >-
+          Scegli saggiamente i tuoi quattro formaggi per questa pasta di
+          formaggio audace, rotonda, profondamente saporita, multistrato e
+          complessa.
+    sourceUrl:
+      type: link
+      value:
+        path: https://www.seriouseats.com/pasta-ai-quattro-formaggi
+        type: url
+    difficulty:
+      type: select
+      value: medium
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    When making pasta ai quattro formaggi, Italy's answer to mac
+                    and cheese, the question that immediately comes up is: which
+                    four cheeses should I use? I've never been able to find a
+                    definitive answer. I've poked around the Italian corners of
+                    the internet, looked in books, and asked some friends, and
+                    most of the answers are specific to the pizza topping with
+                    the same name, not the pasta.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "I don't recall ever having eaten it when I was living in Italy and working on farms there, but I asked\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/sasha-marx-5118985
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Sasha
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", who grew up in Rome, if he had any sense of the pasta's popularity. \"In my experience, it’s less of a restaurant dish, and more of an at-home pantry pasta like\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/pasta-al-tonno-5135115
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: pasta al tonno
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , but one that makes the kids happy à la mac and cheese."
+                    You gotta love a country where casually having four decadent
+                    cheeses on-hand at all times is assumed to be the norm.*
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "*At least in the North of Italy this is the case, something I delighted in nightly on the Piedmont farm I worked on for nearly a year. The habit of so much household cheese, I should note, is responsible for this\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/cheese-pie-tart-quiche-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: cheese-scraps quiche
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 2
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_I learned on that same farm."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Choosing the Cheeses
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Back to those four cheeses: There's no one rule. For the
+                    pizza rendition, fresh fior di latte (cow's milk mozzarella)
+                    and gorgonzola dolce (the creamy, spreadable kind) are
+                    almost always in attendance, but the other two shift around
+                    a bit. Popular choices include an Alpine cheese like
+                    Fontina, Swiss, or Gruyère that are good for melting; aged
+                    ones for fine grating like Parmigiano-Reggiano or Pecorino
+                    Romano; a smoked cheese like Provola affumicata; or a creamy
+                    spreader like Robiola.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Most versions of the four-cheese pasta track similarly,
+                    though with one major adjustment: leave the mozzarella out
+                    of the equation. It melts well on a pizza, offering its
+                    characteristic milky stretch, but fails for exactly that
+                    same reason when the goal is to build a smooth and creamy
+                    cheese sauce for pasta.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "In place of the mozzarella, many recipes use Taleggio, which, as Sasha has demonstrated before with his\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/charred-broccoli-with-taleggio-cheese-sauce-and-gremolata
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: killer grown-up broccoli with cheese recipe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , is one hell of a melter, requiring no help at all from
+                    common cheese-sauce additives like flour to maintain a
+                    smooth, grease-free emulsion when heated in milk or cream.
+                    Taleggio has the added benefit of bringing some serious
+                    funky flavor to the cheese foursome, something that milky
+                    mozzarella, as much as I love it, can't pretend to do.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "With Taleggio forming the cheesy-sauce base, the next step is to build in layers of flavor and texture. The Alpine cheeses already mentioned, being\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/the-science-of-melting-cheese
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: good melters
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_in their own right, are a logical choice, especially once there's a creamy base to melt them into. They add nuttier, sweeter, butterier, and earthier notes to the sauce, especially the more flavorful ones like a good Gruyère or real Italian Fontina."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    After that, the remaining cheeses most likely to go into the
+                    sauce are, just like the pizza, blue gorgonzola dolce—one of
+                    my all-time favorite cheeses, and one that's so eager to
+                    melt it starts flowing at room temp—and a finely grated aged
+                    Parmesan, a pasta classic that would be an insult to leave
+                    out.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Tips for Substituting Cheese Varieties
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Of course, you're welcome replace any of these with
+                    like-minded cheeses. Taleggio got too much funk for you? Try
+                    another natural melter like Stracchino or Robiola. Want a
+                    sharper punch than what Parm offers? Reach for Pecorino
+                    Romano instead. A blue like gorgonzola not to your taste? I
+                    honestly can't think of a good substitute for this one, so
+                    you'll either have to double up on one of the other
+                    categories, or cut it out entirely and call the dish Pasta
+                    ai Tre Formaggi instead.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    I mix the gorgonzola in last, so that it doesn't fully melt
+                    and little bits of it cling to the finished pasta (if it all
+                    melts, though, that's fine too). If you do replace the blue
+                    with a different type of cheese, just be sure to incorporate
+                    it at the appropriate time in the process, either along with
+                    the Taleggio, if it's a second melty spreader, or when
+                    whisking in the Alpine cheese, if you're doubling up on
+                    that.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    No matter which four cheeses you end up choosing, quattro
+                    formaggi is at its best when you layer cheeses of different
+                    textures and flavors, making good on the recipe name's
+                    boastful promise. After all, no one wants a four-cheese
+                    pasta that tastes one-note.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: null
+          direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: 26de54bb-3829-41ab-8d8a-d6fe083b5359
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1 cup (240ml) heavy cream
+                it-IT: 1 cup (240ml) heavy cream
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '1'
+            ingredientText:
+              type: text
+              locales:
+                en-US: heavy cream
+                it-IT: heavy cream
+        - _id: 1cdc610d-3964-4b5f-b7ba-6d29a3655478
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 2 sprigs fresh thyme
+                it-IT: 2 sprigs fresh thyme
+            amount:
+              type: number
+              value: '2'
+            amountText:
+              type: text
+              locales:
+                en-US: 2 sprigs
+                it-IT: 2 sprigs
+            ingredientText:
+              type: text
+              locales:
+                en-US: thyme
+                it-IT: thyme
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: fresh
+                it-IT: fresh
+        - _id: 05b6d645-dca2-49f8-978c-c3ab9d25a8c5
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1 medium garlic clove, lightly smashed
+                it-IT: 1 medium garlic clove, lightly smashed
+            amount:
+              type: number
+              value: '1'
+            ingredientText:
+              type: text
+              locales:
+                en-US: garlic
+                it-IT: garlic
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: medium
+                it-IT: medium
+            ingredientSuffix:
+              type: text
+              locales:
+                en-US: lightly smashed
+                it-IT: lightly smashed
+        - _id: 073465ee-1570-4833-bc23-607a34a7b703
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  1/4 to 1/2 teaspoon freshly ground black pepper (depending on
+                  how peppery you want it)
+                it-IT: >-
+                  1/4 to 1/2 teaspoon freshly ground black pepper (depending on
+                  how peppery you want it)
+            amountText:
+              type: text
+              locales:
+                en-US: '1/4 to 1/2 teaspoon '
+                it-IT: '1/4 to 1/2 teaspoon '
+            ingredientText:
+              type: text
+              locales:
+                en-US: 'black pepper '
+                it-IT: 'black pepper '
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: 'freshly ground '
+                it-IT: 'freshly ground '
+            ingredientSuffix:
+              type: text
+              locales:
+                en-US: (depending on how peppery you want it)
+                it-IT: (depending on how peppery you want it)
+        - _id: 5c1493c8-db60-4dc5-a561-148dbe9c566d
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  3 ounces (85g) rind-free Taleggio, cut into roughly 1-inch
+                  chunks (about 1/2 cup)
+                it-IT: >-
+                  3 ounces (85g) rind-free Taleggio, cut into roughly 1-inch
+                  chunks (about 1/2 cup)
+        - _id: ba95992b-de93-4975-906d-4bb86ca0ff2e
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  3 ounces (85g) grated Gruyère or Fontina (about 1 loosely
+                  packed cup)
+                it-IT: >-
+                  3 ounces (85g) grated Gruyère or Fontina (about 1 loosely
+                  packed cup)
+        - _id: 41aebdd8-2bda-4e71-ae12-a07a25e3a3fd
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  1 1/2 ounces (40g, about 1/2 cup) finely grated
+                  Parmigiano-Reggiano, plus more for serving
+                it-IT: >-
+                  1 1/2 ounces (40g, about 1/2 cup) finely grated
+                  Parmigiano-Reggiano, plus more for serving
+        - _id: 570a7948-112b-4f3a-bb1b-0ddf0d5f55ce
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Kosher salt
+                it-IT: Kosher salt
+        - _id: 193e888a-c0ab-485d-b9c1-0684842af8a6
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1 pound (450g) dried fusilli, penne, or other short pasta
+                it-IT: 1 pound (450g) dried fusilli, penne, or other short pasta
+        - _id: 9ce992e4-4e7b-42d2-9db5-7aff7aac7bda
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  3 ounces (85g) gorgonzola dolce, broken into roughly 1-inch
+                  pieces (about 3/4 cup)
+                it-IT: >-
+                  3 ounces (85g) gorgonzola dolce, broken into roughly 1-inch
+                  pieces (about 3/4 cup)
+    publishDate:
+      type: date
+      value: '2024-01-09'
+    ratingCount:
+      type: number
+      value: '20'
+    ratingValue:
+      type: number
+      value: '5'
+    instructions:
+      type: $block
+      value:
+        - _id: 715910e0-3b44-45ba-b03d-339fc8e963e4
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 7d1a471d-a84a-4161-9050-bb74fa37cb87
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/0KTCeC05aWJnDE5SFY4UoFDWgxc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-1cb39f96a9904911868e2be2d4ee99cf.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              In a 3-quart saucepan, saucier, or other medium
+                              pot, combine cream with thyme, garlic, and black
+                              pepper. Bring to a simmer over medium heat,
+                              stirring and scraping the bottom of the pan with a
+                              flexible spatula to prevent scorching, then remove
+                              from heat and let steep 5 minutes. Remove and
+                              discard garlic and thyme.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                it-IT:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              In a 3-quart saucepan, saucier, or other medium
+                              pot, combine cream with thyme, garlic, and black
+                              pepper. Bring to a simmer over medium heat,
+                              stirring and scraping the bottom of the pan with a
+                              flexible spatula to prevent scorching, then remove
+                              from heat and let steep 5 minutes. Remove and
+                              discard garlic and thyme.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: e7c3bd5f-453c-4c45-9129-b52e8f7f0521
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: fbed538b-735b-4a1c-8f13-1d4371d9f654
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/8tc3XrB3zv-ADOj_SX5Wm3qUPqo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-2-d96da415108543009a7f6ee2e7581480.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Return infused cream to low heat and add Taleggio,
+                              whisking constantly until Taleggio is fully
+                              melted.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                it-IT:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Return infused cream to low heat and add Taleggio,
+                              whisking constantly until Taleggio is fully
+                              melted.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 12b0c658-23e7-44e0-9e3d-e8b39fb6fefa
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: dada9490-a26f-4308-83d2-87afb514b528
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/pnw7utT3fD240PBBeapF7Hf7YjA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-step4-84bfc887654b49c099a1e77cd2291c1a.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Add grated Gruyère (or Fontina) and continue to
+                              whisk until fully melted and a smooth sauce forms.
+                              Whisk in Parmigiano-Reggiano cheese. Keep warm.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                it-IT:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Add grated Gruyère (or Fontina) and continue to
+                              whisk until fully melted and a smooth sauce forms.
+                              Whisk in Parmigiano-Reggiano cheese. Keep warm.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 17cda0e1-1951-45bf-a6b9-91460c99d73f
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 41a6a2da-90ce-4346-91b3-5ec65b393a9f
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/KoIcbAUS1u2LXHNeXYdsdJbiIK4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-5-9df58ee35dcd469cb1e6c988ddd25f69.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Meanwhile, in a pot of salted boiling water, cook
+                              pasta until al dente. Using a spider skimmer,
+                              transfer pasta to cheese sauce; alternatively,
+                              strain pasta in a colander, making sure to first
+                              reserve 1 cup (240ml) pasta-cooking water. Add 1/4
+                              cup (60ml) pasta-cooking water to pasta and sauce
+                              and, working over medium-low heat, stir gently
+                              until pasta is coated in a creamy glaze. If sauce
+                              becomes too thick, add more pasta water, 1
+                              tablespoon (15ml) at a time, to loosen to proper
+                              glazing consistency. Season with salt to taste.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                it-IT:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Meanwhile, in a pot of salted boiling water, cook
+                              pasta until al dente. Using a spider skimmer,
+                              transfer pasta to cheese sauce; alternatively,
+                              strain pasta in a colander, making sure to first
+                              reserve 1 cup (240ml) pasta-cooking water. Add 1/4
+                              cup (60ml) pasta-cooking water to pasta and sauce
+                              and, working over medium-low heat, stir gently
+                              until pasta is coated in a creamy glaze. If sauce
+                              becomes too thick, add more pasta water, 1
+                              tablespoon (15ml) at a time, to loosen to proper
+                              glazing consistency. Season with salt to taste.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: e4cd9ebe-4909-4b7b-8f5d-3278a23f5530
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: d65aefb1-1b06-4578-a542-a64ac6d4af35
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/bKM48l0BVxOvEfokxPFcT_Ub2t4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-6-4aec2e2cc1ad46318c8892b6579442bd.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Remove from heat and stir in gorgonzola; it may
+                              completely melt into the sauce, but it's fine
+                              (arguably even desirable) if some pieces remain
+                              mostly intact.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                it-IT:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Remove from heat and stir in gorgonzola; it may
+                              completely melt into the sauce, but it's fine
+                              (arguably even desirable) if some pieces remain
+                              mostly intact.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 0e20857e-8153-4167-aaa2-64618066cc6f
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 80afe739-3b02-4e4d-83f1-7efadf90c020
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/VG0_VIdmkuo8nHtcWb3V7RWB3rU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-10-115f582260b74d98b3d0f6508bff14e8.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Serve right away, passing more grated
+                              Parmigiano-Reggiano at the table.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                it-IT:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Serve right away, passing more grated
+                              Parmigiano-Reggiano at the table.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: e006bc5a-0e73-47ac-99ab-8412e86a2987
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/1BrVd6Vi1l2tnjRcv0oQkDmEHz0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__02__20210204-quattro-formaggi-four-cheese-pasta-sauce-daniel-gritzer-7-598e2a8f8a5349d3aef56f683b1369b6.jpg
+          _source: custom-url
+    nutritionFacts:
+      type: $block
+      value:
+        - _id: 05074947-a676-4339-bfaa-494e2e3affda
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: calories
+            amount:
+              type: number
+              value: '900'
+        - _id: c7c45418-da6e-418a-af3e-dd289450002b
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '45'
+        - _id: c0b9d49e-b907-4aa7-9ae5-c13dac4a44eb
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: carbohydrate
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '88'
+        - _id: a0adb662-b140-4112-b2f5-4f7c5236dd10
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: protein
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '34'
+  _locales:
+    - en-US
+    - it-IT

@@ -1,15 +1,19 @@
 created: '2023-10-11T12:33:31.375818+00:00'
-modified: '2023-10-11T15:47:10.824697+00:00'
+modified: '2024-04-03T19:14:47.805556+00:00'
 pattern: false
 entry:
   _id: 7b367a19-5f74-4add-8e8b-6a444b33e09f
   _name: Cheeses Pizza
-  _slug: chesses-pizza
+  _slug: cheeses-pizza
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ZMUgX3yWSH6xn747gdGnRA-image.png
   type: recipe
   fields:
     name:
       type: text
-      value: Cheeses Pizza
+      locales:
+        de-DE: Käse Pizza
+        en-US: Cheeses Pizza
     intro:
       type: richText
       value:
@@ -28,7 +32,9 @@ entry:
           direction: null
     subtitle:
       type: text
-      value: Cacio e pepe meets pizza
+      locales:
+        de-DE: Cacio e pepe als Pizza umgesetzt
+        en-US: Cacio e pepe meets pizza
     sourceUrl:
       type: link
       value:
@@ -36,7 +42,7 @@ entry:
         type: url
     difficulty:
       type: select
-      value: medium
+      value: easy
     cookingTime:
       type: text
       value: 15 minutes
@@ -126,22 +132,30 @@ entry:
     ingredients:
       type: $block
       value:
-        - type: recipeIngredient
+        - _id: 3b656c04-a609-44ff-8c97-49e0949e02df
+          type: recipeIngredient
           fields:
             name:
               type: text
-              value: 1 12-inch round of pizza dough, stretched
+              locales:
+                de-DE: 1 12-inch round of pizza dough, stretched
+                en-US: 1 12-inch round of pizza dough, stretched
             amount:
               type: number
               value: '1'
             ingredientText:
               type: text
-              value: 12-inch round of pizza dough
-        - type: recipeIngredient
+              locales:
+                de-DE: 12-inch round of pizza dough
+                en-US: 12-inch round of pizza dough
+        - _id: c69aefce-430a-4309-a31c-8a3a6d8ea796
+          type: recipeIngredient
           fields:
             name:
               type: text
-              value: 4 teaspoons heavy cream
+              locales:
+                de-DE: 4 teaspoons heavy cream
+                en-US: 4 teaspoons heavy cream
             unit:
               type: select
               value: tsp
@@ -150,12 +164,17 @@ entry:
               value: '4'
             ingredientText:
               type: text
-              value: heavy cream
-        - type: recipeIngredient
+              locales:
+                de-DE: heavy cream
+                en-US: heavy cream
+        - _id: d8f8a7f3-c5a0-45a7-a363-60330f1de508
+          type: recipeIngredient
           fields:
             name:
               type: text
-              value: 2 ounces fresh mozzarella
+              locales:
+                de-DE: 2 ounces fresh mozzarella
+                en-US: 2 ounces fresh mozzarella
             unit:
               type: select
               value: oz
@@ -164,40 +183,61 @@ entry:
               value: '2'
             ingredientText:
               type: text
-              value: mozzarella
+              locales:
+                de-DE: mozzarella
+                en-US: mozzarella
             ingredientPrefix:
               type: text
-              value: fresh
-        - type: recipeIngredient
+              locales:
+                de-DE: fresh
+                en-US: fresh
+        - _id: 5c005b22-3376-47c7-bfdd-79353e0705ef
+          type: recipeIngredient
           fields:
             name:
               type: text
-              value: 1 ½ ounces fresh taleggio
+              locales:
+                de-DE: 1 ½ ounces fresh taleggio
+                en-US: 1 ½ ounces fresh taleggio
             unit:
               type: select
               value: oz
             amountText:
               type: text
-              value: 1 ½
+              locales:
+                de-DE: 1 ½
+                en-US: 1 ½
             ingredientText:
               type: text
-              value: taleggio
+              locales:
+                de-DE: taleggio
+                en-US: taleggio
             ingredientPrefix:
               type: text
-              value: fresh
-        - type: recipeIngredient
+              locales:
+                de-DE: fresh
+                en-US: fresh
+        - _id: d4ad62d1-3d8b-46dc-8a57-23f49a19f249
+          type: recipeIngredient
           fields:
             name:
               type: text
-              value: Ground black pepper
+              locales:
+                de-DE: Ground black pepper
+                en-US: Ground black pepper
             ingredientText:
               type: text
-              value: black pepper
-        - type: recipeIngredient
+              locales:
+                de-DE: black pepper
+                en-US: black pepper
+        - _id: 78b20f96-3b68-4364-a0d3-f9d905bd7333
+          type: recipeIngredient
           fields:
             name:
               type: text
-              value: 1 ounce Parmesan, finely grated
+              locales:
+                de-DE: 1 ounce Parmesan, finely grated
+                en-US: 1 ounce Parmesan, finely grated
             unit:
               type: select
               value: oz
@@ -206,10 +246,17 @@ entry:
               value: '1'
             ingredientText:
               type: text
-              value: Parmesan
+              locales:
+                de-DE: Parmesan
+                en-US: Parmesan
             ingredientSuffix:
               type: text
-              value: finely grated
+              locales:
+                de-DE: finely grated
+                en-US: finely grated
+    publishDate:
+      type: date
+      value: '2023-11-10'
     ratingCount:
       type: number
       value: '918'
@@ -222,138 +269,252 @@ entry:
     instructions:
       type: $block
       value:
-        - type: howtoStep
+        - _id: 0c449551-5b4a-4ce1-bf54-fa069f897eca
+          type: howtoStep
           fields:
             name:
               type: text
-              value: Step 1
+              locales:
+                de-DE: Step 1
+                en-US: Step 1
             description:
               type: richText
-              value:
-                root:
-                  type: root
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - type: paragraph
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: >-
-                            Place a pizza stone or tiles on the middle rack of
-                            your oven and turn heat to its highest setting. Let
-                            it heat for at least an hour.
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-        - type: howtoStep
+              locales:
+                de-DE:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Place a pizza stone or tiles on the middle rack of
+                              your oven and turn heat to its highest setting.
+                              Let it heat for at least an hour.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Place a pizza stone or tiles on the middle rack of
+                              your oven and turn heat to its highest setting.
+                              Let it heat for at least an hour.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: fd1a8be3-1eb8-49f8-b2c2-c8ec786d5cd4
+          type: howtoStep
           fields:
             name:
               type: text
-              value: Step 2
+              locales:
+                de-DE: Step 2
+                en-US: Step 2
             description:
               type: richText
-              value:
-                root:
-                  type: root
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - type: paragraph
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: >-
-                            Drizzle the cream over the stretched dough. Break
-                            the mozzarella into large pieces and gently place
-                            these on the dough. Break the taleggio into pieces
-                            and do the same. Grind an exceptional amount of
-                            black pepper onto the surface of the pie,
-                            approximately 8 to 10 grinds.
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-        - type: howtoStep
+              locales:
+                de-DE:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Drizzle the cream over the stretched dough. Break
+                              the mozzarella into large pieces and gently place
+                              these on the dough. Break the taleggio into pieces
+                              and do the same. Grind an exceptional amount of
+                              black pepper onto the surface of the pie,
+                              approximately 8 to 10 grinds.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Drizzle the cream over the stretched dough. Break
+                              the mozzarella into large pieces and gently place
+                              these on the dough. Break the taleggio into pieces
+                              and do the same. Grind an exceptional amount of
+                              black pepper onto the surface of the pie,
+                              approximately 8 to 10 grinds.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 6cc69b65-a249-4573-857d-842e2fd1d4fc
+          type: howtoStep
           fields:
             name:
               type: text
-              value: Step 3
+              locales:
+                de-DE: Step 3
+                en-US: Step 3
             description:
               type: richText
-              value:
-                root:
-                  type: root
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - type: paragraph
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: >-
-                            Using a pizza peel, pick up the pie and slide it
-                            onto the heated stone or tiles in the oven. Bake
-                            until the crust is golden brown and the cheese is
-                            bubbling, approximately 4 to 8 minutes
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-        - type: howtoStep
+              locales:
+                de-DE:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Using a pizza peel, pick up the pie and slide it
+                              onto the heated stone or tiles in the oven. Bake
+                              until the crust is golden brown and the cheese is
+                              bubbling, approximately 4 to 8 minutes
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Using a pizza peel, pick up the pie and slide it
+                              onto the heated stone or tiles in the oven. Bake
+                              until the crust is golden brown and the cheese is
+                              bubbling, approximately 4 to 8 minutes
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 6d7a1f9b-eff4-40c8-b44b-a3b30f59af3f
+          type: howtoStep
           fields:
             name:
               type: text
-              value: Step 4
+              locales:
+                de-DE: Step 4
+                en-US: Step 4
             description:
               type: richText
-              value:
-                root:
-                  type: root
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - type: paragraph
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: >-
-                            Scatter the Parmesan over the pizza and serve
-                            immediately.
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
+              locales:
+                de-DE:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Scatter the Parmesan over the pizza and serve
+                              immediately.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Scatter the Parmesan over the pizza and serve
+                              immediately.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
     featuredImage:
       type: asset
       value:
         - _id: c90b8e60-554d-455d-8587-598981811514
-          _source: uniform-assets
           type: image
           fields:
             id:
@@ -363,6 +524,9 @@ entry:
               value: >-
                 https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ZMUgX3yWSH6xn747gdGnRA-image.png
               type: text
+            size:
+              value: 591759
+              type: number
             title:
               type: text
               value: image.png
@@ -378,13 +542,12 @@ entry:
             description:
               type: text
               value: ''
-            size:
-              value: 591759
-              type: number
+          _source: uniform-assets
     nutritionFacts:
       type: $block
       value:
-        - type: nutritionInformation
+        - _id: 2527a320-f82c-474d-abbb-2eb5ece62694
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -392,7 +555,8 @@ entry:
             amount:
               type: number
               value: '549'
-        - type: nutritionInformation
+        - _id: 2eec1106-dbb4-47e5-a436-71d626d4f2c8
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -403,7 +567,8 @@ entry:
             amount:
               type: number
               value: '23'
-        - type: nutritionInformation
+        - _id: 4bbc6c43-3f6e-4fb1-b983-eedad7854fe7
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -414,7 +579,8 @@ entry:
             amount:
               type: number
               value: '13'
-        - type: nutritionInformation
+        - _id: ae440343-af88-4a75-bb5a-42199cc02662
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -425,7 +591,8 @@ entry:
             amount:
               type: number
               value: '0'
-        - type: nutritionInformation
+        - _id: 07998a24-3cb1-42ce-b735-3bb206222d6e
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -436,7 +603,8 @@ entry:
             amount:
               type: number
               value: '8'
-        - type: nutritionInformation
+        - _id: 62b75f87-5eb4-4fe8-b49f-02312fcf6e0d
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -447,7 +615,8 @@ entry:
             amount:
               type: number
               value: '59'
-        - type: nutritionInformation
+        - _id: 73e766ea-8ecd-4deb-b602-320a861465c1
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -458,7 +627,8 @@ entry:
             amount:
               type: number
               value: '26'
-        - type: nutritionInformation
+        - _id: 623c8710-26f2-40bc-bfbf-5b13d11a616d
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -469,7 +639,8 @@ entry:
             amount:
               type: number
               value: '3'
-        - type: nutritionInformation
+        - _id: 40fa2bc0-042e-40e3-b8a7-027d46184c0d
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -480,7 +651,8 @@ entry:
             amount:
               type: number
               value: '1255'
-        - type: nutritionInformation
+        - _id: cd7c5f31-8391-4a7d-bf60-79af12f36d1d
+          type: nutritionInformation
           fields:
             type:
               type: select
@@ -494,5 +666,6 @@ entry:
     preparationTime:
       type: text
       value: 1 hour to heat oven
-  _thumbnail: >-
-    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ZMUgX3yWSH6xn747gdGnRA-image.png
+  _locales:
+    - en-US
+    - de-DE

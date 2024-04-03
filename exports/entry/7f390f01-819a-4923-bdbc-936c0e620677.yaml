@@ -1,0 +1,185 @@
+created: '2024-04-03T19:15:23.042128+00:00'
+modified: '2024-04-03T19:59:14.584235+00:00'
+pattern: false
+entry:
+  _id: 7f390f01-819a-4923-bdbc-936c0e620677
+  _name: 'Static: Red T-shirt'
+  _slug: static-red-t-shirt
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/syXzRAoHTxOyQIvPHkTo2A-RedTshirt01.webp
+  type: product
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: 'Static: Red T-shirt'
+    variants:
+      type: $block
+      value:
+        - _id: f3016161-e7d3-4b60-805e-0d6b687b9b84
+          type: productVariant
+          fields:
+            code:
+              type: text
+              value: v-1
+            name:
+              type: text
+              locales:
+                en-US: Small
+            price:
+              type: text
+              locales:
+                en-US: '99'
+            available:
+              type: checkbox
+              value: true
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Small size
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 4552449f-3097-4e7b-a70c-7e07eb05d5e5
+          type: productVariant
+          fields:
+            code:
+              type: text
+              value: m
+            name:
+              type: text
+              locales:
+                en-US: Medium
+            price:
+              type: text
+              locales:
+                en-US: '99'
+            available:
+              type: checkbox
+              value: true
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Small size
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+    reference:
+      type: text
+      value: gid://t-red-1
+    teaserText:
+      type: text
+      locales:
+        en-US: This is a red t-shirt that is as casual as it get
+    collections:
+      type: $block
+      value:
+        - _id: 3a038b8d-c7e0-40dc-aa7a-1d2eca075d85
+          type: taxonomyBlock
+          fields:
+            id:
+              type: text
+              value: mens
+            name:
+              type: text
+              locales:
+                en-US: Mens
+            slug:
+              type: text
+              value: mens
+            description:
+              type: text
+              value: Mens products
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: This is a red t-shirt that is as casual as it get
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 3e333af1-008c-406c-a8f9-4bc2597dd270
+            type: image
+            fields:
+              id:
+                type: text
+                value: e2b95764-bb44-4e80-b177-ca752f65414f
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/syXzRAoHTxOyQIvPHkTo2A-RedTshirt01.webp
+                type: text
+              file:
+                type: file
+                value: 5526237e-12b1-4884-9729-7e297024ea7a
+              size:
+                value: 50588
+                type: number
+              title:
+                type: text
+                value: RedTshirt01.webp
+              width:
+                value: 1445
+                type: number
+              height:
+                value: 1445
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
+  _locales:
+    - en-US

@@ -1,0 +1,17 @@
+created: '2024-04-03T19:15:05.857674+00:00'
+modified: '2024-04-03T19:46:11.355418+00:00'
+pattern: false
+entry:
+  _id: e03ef009-a639-4b68-964c-6b9aa5094905
+  _name: Men's Crewneck
+  _slug: mens-crewneck
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenMenscrew01.jpg?v=1675454919
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+  _locales:
+    - en-US
+  _pattern: a5c5d276-3eec-47fd-84be-8bc0752557ef

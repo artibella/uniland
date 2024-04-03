@@ -1,7 +1,7 @@
 id: recipe
 name: Recipe
 created: '2023-10-11T11:33:51.958828+00:00'
-updated: '2024-01-24T13:30:43.100769+00:00'
+updated: '2024-04-03T19:14:09.019784+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -12,11 +12,13 @@ fields:
     helpText: ''
     typeConfig:
       required: true
+    localizable: true
   - id: subtitle
     name: Subtitle
     type: text
     helpText: ''
     typeConfig: null
+    localizable: true
   - id: publishDate
     name: Publish date
     type: date

@@ -1,5 +1,5 @@
 created: '2023-11-01T12:32:26.411203+00:00'
-modified: '2023-12-12T13:39:16.483721+00:00'
+modified: '2024-04-03T19:14:28.651659+00:00'
 pattern: false
 entry:
   _id: 957a5cbb-9633-464e-b466-a9fafbf66af6
@@ -106,7 +106,8 @@ entry:
     openingHours:
       type: $block
       value:
-        - type: openingHours
+        - _id: 55ad1661-e0b9-4901-acf6-47ccf59b66ce
+          type: openingHours
           fields:
             day:
               type: text
@@ -117,7 +118,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 5dd01ea3-dfb2-48fd-8f0d-5ee5004c2575
+          type: openingHours
           fields:
             day:
               type: text
@@ -128,7 +130,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: eb608c6d-39bd-480d-ab4b-0c99a25d9557
+          type: openingHours
           fields:
             day:
               type: text
@@ -139,7 +142,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: ba9323a3-92ef-4e34-9e8c-2102776bf697
+          type: openingHours
           fields:
             day:
               type: text
@@ -150,7 +154,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 96383ac0-cb46-4a6d-b63f-bf48e1e98320
+          type: openingHours
           fields:
             day:
               type: text
@@ -161,7 +166,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: f2155b97-ed28-49fd-b806-859efabb8c4a
+          type: openingHours
           fields:
             day:
               type: text
@@ -172,7 +178,8 @@ entry:
             openingTime:
               type: text
               value: '11:00'
-        - type: openingHours
+        - _id: 63fb0b28-4196-4fa6-9adc-858fd912c819
+          type: openingHours
           fields:
             day:
               type: text
@@ -186,7 +193,8 @@ entry:
     orderOptions:
       type: $block
       value:
-        - type: logo
+        - _id: f7b6f9e7-f9ad-4e67-a8ed-ac3bda313969
+          type: logo
           fields:
             logo:
               type: asset
@@ -228,7 +236,8 @@ entry:
               value:
                 path: https://www.lieferando.de/five-guys-berlin-alexanderplatz
                 type: url
-        - type: logo
+        - _id: 297899c0-de60-4134-9b11-a275af651758
+          type: logo
           fields:
             logo:
               type: asset
@@ -270,7 +279,8 @@ entry:
               value:
                 path: https://wolt.com/de/deu/berlin/restaurant/five-guys-mitte
                 type: url
-        - type: logo
+        - _id: e01136bd-cfce-4f4b-b87c-7e58926a96a1
+          type: logo
           fields:
             logo:
               type: asset

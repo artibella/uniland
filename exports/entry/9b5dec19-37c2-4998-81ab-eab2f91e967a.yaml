@@ -1,0 +1,23 @@
+created: '2024-04-03T19:15:02.940987+00:00'
+modified: '2024-04-03T19:56:30.557098+00:00'
+pattern: false
+entry:
+  _id: 9b5dec19-37c2-4998-81ab-eab2f91e967a
+  _name: Medium Roast Coffee
+  _slug: medium-roast-coffee
+  _thumbnail: >-
+    https://res.cloudinary.com/uniform-demos/image/upload/v1692273260/products/medium-roast-coffee-81-1_jvv1jh_vu6o73.jpg
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: fakeProduct
+      variables:
+        productIds: '81'
+    Fake Product Content:
+      type: fakeProduct
+      variables:
+        productIds: '131'
+  _locales:
+    - en-US
+  _pattern: a5c5d276-3eec-47fd-84be-8bc0752557ef

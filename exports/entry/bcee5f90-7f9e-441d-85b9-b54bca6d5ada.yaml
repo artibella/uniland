@@ -1,10 +1,12 @@
 created: '2024-01-04T12:33:38.327001+00:00'
-modified: '2024-01-04T13:05:28.206727+00:00'
+modified: '2024-04-03T19:15:17.396978+00:00'
 pattern: false
 entry:
   _id: bcee5f90-7f9e-441d-85b9-b54bca6d5ada
   _name: Pumpkin pie
   _slug: pumpkin-pie
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/8HJ1hRq6JvjrhEPDvCbCyXFMhCA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__10__20151017-smooth-pumpkin-pie-vicky-wasik-1-fd7c776cfa804f39a7e91807790ac1c4.jpg
   type: recipe
   fields:
     name:
@@ -15,42 +17,28 @@ entry:
       value: >-
         The Ultimate Pumpkin Pie Recipe That Will Have You Coming Back for
         Seconds!
+    difficulty:
+      type: select
+      value: medium
     publishDate:
       type: date
       value: '2024-01-04'
+    ratingCount:
+      type: number
+      value: '1'
+    ratingValue:
+      type: number
+      value: '2'
     featuredImage:
       type: asset
       value:
-        - _id: 369cc640-a963-4ee4-a230-b376c2957c45
+        - _id: e3a20429-53fc-4c10-91a6-6a18091a3342
           type: image
           fields:
-            id:
-              type: text
-              value: 674a2c6f-df4f-49b9-9ea3-44310fa9333a
             url:
+              type: text
               value: >-
-                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vr7mkOrvTCuacqdivv45yA-AI-generated-image-for-Featured-image
-              type: text
-            file:
-              type: file
-              value: 2e9398f9-16bf-4439-bb67-1d9cf1c098d1
-            size:
-              value: 72617
-              type: number
-            title:
-              type: text
-              value: AI-generated-image-for-Featured-image
-            width:
-              value: 1024
-              type: number
-            height:
-              value: 1024
-              type: number
-            mediaType:
-              value: image/png
-              type: text
-          _source: uniform-assets
+                https://www.seriouseats.com/thmb/8HJ1hRq6JvjrhEPDvCbCyXFMhCA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__10__20151017-smooth-pumpkin-pie-vicky-wasik-1-fd7c776cfa804f39a7e91807790ac1c4.jpg
+          _source: custom-url
   _locales:
     - en-US
-  _thumbnail: >-
-    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vr7mkOrvTCuacqdivv45yA-AI-generated-image-for-Featured-image

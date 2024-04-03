@@ -1,0 +1,19 @@
+created: '2024-04-03T19:29:59.5224+00:00'
+modified: '2024-04-03T19:30:10.014021+00:00'
+pattern: false
+entry:
+  _id: 09eea38d-c215-4c51-a1e0-752f67ba31ee
+  _name: The Shining
+  _slug: the-shining
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BZWFlYmY2MGEtZjVkYS00YzU4LTg0YjQtYzY1ZGE3NTA5NGQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0081505
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

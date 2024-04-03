@@ -1,0 +1,53 @@
+id: movie
+displayName: Movie
+ttl: 30
+path: /
+custom:
+  proposedName: Movie
+method: GET
+purgeKey: 606989b8-bd60-49c7-b0e1-14f21d6b69d5
+archetype: movie
+variables:
+  plot:
+    type: string
+    default: ''
+    helpText: Format of the plot. Use "short" or "full"
+    displayName: Plot format
+  type:
+    type: string
+    default: ''
+    helpText: Type of the movie. Use "movie", "series", or "episode"
+    displayName: Type
+  year:
+    type: string
+    default: ''
+    helpText: Year the movie was released.
+    displayName: Year
+  title:
+    type: string
+    default: ''
+    helpText: Title of the movie to fetch. Use "The Social Network" for example.
+    displayName: Title
+  imdbID:
+    type: string
+    default: ''
+    helpText: IMDB ID of the movie to fetch. Use "tt1285016" for example.
+    displayName: IMDb ID
+parameters:
+  - key: t
+    value: ${title}
+    omitIfEmpty: true
+  - key: i
+    value: ${imdbID}
+    omitIfEmpty: true
+  - key: type
+    value: ${type}
+    omitIfEmpty: true
+  - key: 'y'
+    value: ${year}
+    omitIfEmpty: true
+  - key: plot
+    value: ${plot}
+    omitIfEmpty: true
+dataSourceId: omdb
+allowedOnComponents: []

@@ -1,0 +1,19 @@
+created: '2024-04-03T19:39:02.41404+00:00'
+modified: '2024-04-03T19:39:13.240467+00:00'
+pattern: false
+entry:
+  _id: 43f16f62-5c61-4d75-a442-5d7e370b029f
+  _name: My Neighbor Totoro
+  _slug: my-neighbor-totoro
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BYzJjMTYyMjQtZDI0My00ZjE2LTkyNGYtOTllNGQxNDMyZjE0XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0096283
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

@@ -1,7 +1,7 @@
 id: logo
 name: Logo
 created: '2023-10-10T12:04:35.493086+00:00'
-updated: '2023-12-14T19:47:33.233817+00:00'
+updated: '2024-04-03T19:14:05.338358+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -29,6 +29,13 @@ fields:
         tel: false
         email: false
         projectMapNode: false
+  - id: myBlocks
+    name: My Blocks
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - tag
 entryName: name
 description: ''
 icon: awards

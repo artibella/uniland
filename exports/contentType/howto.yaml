@@ -1,8 +1,9 @@
 id: howto
 name: HowTo
 created: '2023-10-25T11:59:57.535992+00:00'
-updated: '2023-10-25T11:59:57.535992+00:00'
-slugSettings: {}
+updated: '2024-04-03T19:14:03.203626+00:00'
+slugSettings:
+  required: 'no'
 useTeamPermissions: true
 fields:
   - id: name

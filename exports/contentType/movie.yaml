@@ -1,0 +1,210 @@
+id: movie
+name: Movie
+created: '2024-04-03T19:14:05.99894+00:00'
+updated: '2024-04-03T19:14:05.99894+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: poster
+    name: Poster
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: false
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig:
+      max: 1
+    localizable: false
+  - id: plot
+    name: Plot
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: abstract
+    name: Abstract
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: group_movieMetadata
+    name: Movie metadata
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - type
+        - genre
+        - runtime
+        - inLanguage
+        - countryOfOrigin
+        - rated
+        - imdbID
+        - releaseDate
+        - dvdReleaseDate
+        - website
+  - id: type
+    name: Type
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Movie
+          value: movie
+        - text: Series
+          value: series
+        - text: Episode
+          value: episode
+    localizable: false
+  - id: genre
+    name: Genre
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: runtime
+    name: Runtime
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: inLanguage
+    name: Language
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: countryOfOrigin
+    name: Country
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: rated
+    name: Rated
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: imdbID
+    name: IMDB ID
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: releaseDate
+    name: Release date
+    type: date
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: dvdReleaseDate
+    name: DVD Release date
+    type: date
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: website
+    name: Website
+    type: link
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: group_people
+    name: Cast & Crew
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - director
+        - writer
+        - actors
+  - id: director
+    name: Director
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: writer
+    name: Writer
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: actors
+    name: Actors
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: group_ratingsPerception
+    name: Ratings & Perception
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - boxOfficeIncome
+        - imdbRating
+        - imdbVotes
+        - ratings
+        - metascore
+        - awards
+  - id: boxOfficeIncome
+    name: Box Office Income
+    type: text
+    helpText: How much money did the movie make in box offices?
+    typeConfig: null
+    localizable: true
+  - id: imdbRating
+    name: IMDB Rating
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: imdbVotes
+    name: IMDb Votes
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: ratings
+    name: Ratings
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - $loop
+        - rating
+  - id: metascore
+    name: Metascore
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: awards
+    name: Awards
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+entryName: title
+thumbnailField: poster
+description: ''
+icon: tv
+type: contentType
+permissions: []

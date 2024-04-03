@@ -1,0 +1,19 @@
+created: '2024-04-03T19:46:57.947096+00:00'
+modified: '2024-04-03T19:47:12.55926+00:00'
+pattern: false
+entry:
+  _id: 4971baaf-c591-4303-a42c-89839c898c9b
+  _name: Grindhouse
+  _slug: grindhouse
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMjA0MzExNzc3MV5BMl5BanBnXkFtZTcwODAxMzM0MQ@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0462322
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

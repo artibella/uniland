@@ -1,0 +1,19 @@
+created: '2024-04-03T19:37:50.31677+00:00'
+modified: '2024-04-03T19:38:12.298173+00:00'
+pattern: false
+entry:
+  _id: 3693f30f-8dd0-4632-80d7-c4cb992616de
+  _name: Pom Poko
+  _slug: pom-poko
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BYjBkODU2MjEtMjRhZi00M2M2LTg4ZjgtMGM0NjFiZTdjMzZhXkEyXkFqcGdeQXVyMjc2Nzg5OTQ@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0110008
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

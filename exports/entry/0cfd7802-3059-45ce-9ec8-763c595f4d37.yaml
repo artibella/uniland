@@ -1,0 +1,19 @@
+created: '2024-04-03T19:33:51.668424+00:00'
+modified: '2024-04-03T19:34:04.553662+00:00'
+pattern: false
+entry:
+  _id: 0cfd7802-3059-45ce-9ec8-763c595f4d37
+  _name: Pulp Fiction
+  _slug: pulp-fiction
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0110912
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

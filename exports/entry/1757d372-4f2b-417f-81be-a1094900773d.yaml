@@ -1,5 +1,5 @@
 created: '2023-11-14T12:18:17.314598+00:00'
-modified: '2023-11-14T12:18:56.371604+00:00'
+modified: '2024-04-03T19:14:36.229163+00:00'
 pattern: false
 entry:
   _id: 1757d372-4f2b-417f-81be-a1094900773d
@@ -26,7 +26,8 @@ entry:
     postContent:
       type: $block
       value:
-        - type: textBlock
+        - _id: 12f880fe-b138-498c-8d5e-22d08a7b8222
+          type: textBlock
           fields:
             body:
               type: richText
@@ -125,12 +126,14 @@ entry:
                           version: 1
                       direction: ltr
                   direction: ltr
-        - type: imageBlock
+        - _id: 8b5c9561-0652-41ee-9c7c-5235b8e404fa
+          type: imageBlock
           fields:
             image:
               type: asset
               value: []
-        - type: textBlock
+        - _id: cefdafdf-acfb-4e70-b83f-29e657958007
+          type: textBlock
           fields:
             body:
               type: richText

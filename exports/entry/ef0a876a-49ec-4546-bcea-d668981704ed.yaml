@@ -1,0 +1,1067 @@
+created: '2024-04-03T19:14:51.090124+00:00'
+modified: '2024-04-03T19:14:51.090124+00:00'
+pattern: false
+entry:
+  _id: ef0a876a-49ec-4546-bcea-d668981704ed
+  _name: Digital asset management for marketing
+  _slug: digital-asset-management-for-marketing
+  _thumbnail: >-
+    https://images.ctfassets.net/9ku1oyd4k3wo/4rlkoey3hXyj3qYN9iou51/d85e3325531e5274956b5eecad0fcf5c/DAM_Digital_asset_management_for_marketing.png
+  type: blogPost
+  fields:
+    date:
+      type: date
+      value: '2024-01-25'
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 5b278aa5-8f6a-4efb-b730-69880d28e160
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/9ku1oyd4k3wo/4rlkoey3hXyj3qYN9iou51/d85e3325531e5274956b5eecad0fcf5c/DAM_Digital_asset_management_for_marketing.png
+              title:
+                type: text
+                value: DAM for Marketing
+            _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: Digital asset management for marketing
+    author:
+      type: text
+      value: Uniform
+    postBody:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'As an integral part of seamless collaboration, '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://uniform.dev/digital-asset-management/digital-asset-management
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: digital asset management (DAM)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' organizes the taxonomy and storage of your brand’s most valuable assets for optimal team-wide efficiency and customer service, with the most remarkable use cases in marketing.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: What is DAM in marketing?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The internal and external collaboration that marketing
+                      requires is the perfect stage on which cutting-edge DAM
+                      platforms can shine because marketing-oriented DAM
+                      software organizes, stores, manages, and distributes a
+                      company’s digital library. Among the marketing assets are
+                      the
+                      following:GIFsImagesVideosInfographicsebooksWhitepapersEmail
+                      marketingBlogsSocial mediaARVR3DHere are two key benefits:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Marketing teams can manage and share essential
+                          assets—such as those that relate to branding and
+                          messaging—company-wide, streamlining and enhancing the
+                          process of analyzing and repurposing content across
+                          teams, platforms, and campaigns.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Internal and external stakeholders alike can collaborate at an unprecedented level and speed to deliver world-class digital experiences. Effective use of DAM in marketing in conjunction with other tools can supercharge promotional efforts and vault you ahead of your competition.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: How can marketing teams leverage DAM software?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - link:
+                      path: https://uniform.dev/digital-asset-management/types
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Multiple types of DAM
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: " frameworks and configurations are available. Be sure to adopt and customize your DAM software to meet your needs. The tactics below are well worth recommending.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Organizing and storing digital assets
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'DAM platforms offer '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: 'unlimited '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      storage for brand assets, keeping files in one central
+                      location. As your library grows, you can add storage, as
+                      appropriate.Additionally, with DAM software, you can
+                      establish unique identifiers like metadata, taxonomy, and
+                      tags, which render assets findable pronto through your DAM
+                      platform’s search capability. Teams can then quickly
+                      locate the files they need when they need them.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Managing brand guidelines
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "A central storage location spells brand consistency in voice, reputation, and integrity. You can remove from your DAM platform assets that are outdated or incongruous with brand identity. Alternatively, identify them as “retired.”\_As a result:"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Marketing managers are assured that team members’ output is always on brand.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Marketers can conveniently and confidently repurpose brand content.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Other teams can count on on-brand content for their
+                          projects, upholding the company’s reputation and
+                          ascertaining brand uniformity.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Forging collaborations and workflow
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "DAM platforms allow teams simultaneous access to files stored there. Managers can set permissions on them, granting access to only those with a need for the files.Anyone with access to the DAM-stored files can edit, annotate, or comment, which facilitates collaboration with external contractors or agencies on projects.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Streamlining content creations
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      DAM platforms being instrumental in forging easier and
+                      more effective collaboration and integration with other
+                      project-management tools results in a streamlined and
+                      optimized marketing-production process:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Team members—writers, editors, graphic designers—can
+                          partner with one another to produce and review content
+                          in record time.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Once a project is a wrap, since its files are already
+                          stored in a DAM network, you can effortlessly publish
+                          the related content through the CMS integrated with
+                          your DAM platform.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Enhancing the consumer experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Today’s consumers encounter brands at numerous touch points across different platforms. Thanks to DAM software, companies can maintain consistent branding and messaging throughout their customer’s journey, boasting marketing teams’ efficiency and personalizing experiences for the target audience.\_To pull that off, you need a tool that brings everything together in concert with your DAM platform. "
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/mesh
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Uniform
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: " integrates flawlessly with DAM software, orchestrates the digital-experience-composition layers, and delivers content across channels.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: What are the key DAM features for marketers?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Several notable '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/digital-asset-management/benefits
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: DAM benefits
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: " are marketing-friendly game changers, as described below. When evaluating DAM platforms, keep an eye out for them.\_publishedWhat are the key DAM features for marketers?"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: User-friendly interface
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Since most marketers are nontechnical professionals, the
+                      DAM software you choose must be intuitive enough for them
+                      to quickly learn and put to use. Look for these
+                      user-oriented features:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Search filters with which teams can fine-tune queries, making it a breeze to find assets teams cannot locate instantly.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Standard operating procedures (SOPs) for categorizing and tagging assets.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "A customizable interface, including intuitive system and hierarchical file structures through which you can configure your DAM platform for your needs.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Integration with other tools
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A marketing team is only as powerful as its tools, which
+                      become more potent if they integrate with your tech stack.
+                      Note these major benefits:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Access to more trackable data.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: More accessible and secure content.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: More brand consistency.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Rise in productivity.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Most DAM platforms can integrate by sharing links,
+                      proffering out-of-the-box merges, and using APIs. See that
+                      your DAM software offers multiple ways to connect to
+                      external tools—or, at the very least, an extensive library
+                      of integration partners. In the case of APIs, verify that
+                      they are extensible ones that can evolve along with your
+                      business.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Flexible sharing
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In addition to marketers, your projects might require
+                      contributions from other internal teams and external
+                      vendors, all of whom must access files. Ensure the
+                      following:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The related files can be shared among stakeholders
+                          without hiccups.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: "Permission controls are in place to enforce cybersecurity and are flexible enough to support collaboration and file sharing.\_"
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Platform architecture
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Harnessing DAM’s advantages starts with setting up an
+                      architecture that mirrors your website infrastructure.
+                      That way, internal stakeholders who need file access can
+                      readily come to grips with what they’re looking at and how
+                      it fits into the overall content. That instant sense of
+                      control and comfort on the part of the teams is priceless.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      What are the best practices for implementing DAM in
+                      marketing?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Before starting the implementation process, take these '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://uniform.dev/digital-asset-management/dam-best-practices
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: DAM best practices
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ':'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Solicit agreement from all teams on business needs and
+                          goals.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Devise a plan for data migration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Find a DAM platform you can customize and use in a way
+                          that best suits 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: your team
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: .
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Streamline your content process and library with the
+                          DAM platform’s reporting and analytics tools.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Above all, confirm that your DAM platform can integrate
+                      with your martech tools. To learn how to consolidate and
+                      use all your marketing tools, including your DAM software,
+                      in one place, 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/demo
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: schedule a free demo
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' of '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://uniform.dev/what-is-digital-experience-composition
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Uniform Digital Experience Composition Platform (DXCP)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      . You’ll be amazed at how syncing all your essential tools
+                      in one easy-to-use platform can spiff up marketing
+                      efforts.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          How to effectively manage digital assets and optimize marketing
+          efforts with digital asset management (DAM) solutions from Uniform
+          DXCP.
+    postImage:
+      type: image
+      locales:
+        en-US: >-
+          https://images.ctfassets.net/9ku1oyd4k3wo/4rlkoey3hXyj3qYN9iou51/d85e3325531e5274956b5eecad0fcf5c/DAM_Digital_asset_management_for_marketing.png
+    postCategory:
+      type: $block
+      value:
+        - _id: 6f54f751-04db-425b-ad62-98f2ff554811
+          type: taxonomyBlock
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Digital asset management (DAM)
+            slug:
+              type: text
+              value: dam
+  _locales:
+    - en-US

@@ -1,0 +1,304 @@
+created: '2024-04-03T19:15:18.920678+00:00'
+modified: '2024-04-03T20:04:58.155939+00:00'
+pattern: false
+entry:
+  _id: 817fb075-a09c-447d-9d21-f0eeff9f9202
+  _name: Spaghetti Aglio e Olio (Pasta in Garlic and Oil Sauce)
+  _slug: spaghetti-aglio-e-olio-pasta-in-garlic-and-oil-sauce
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/6jH2FH9pZYtVAWUrKHxgiiEGnPA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20160219-pasta-aglio-olio-vicky-wasik-8-1f312e17a6744973a9550a5bfcaf98c1.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        da-DK: Spaghetti Aglio e Olio (Pasta in Garlic and Oil Sauce)
+        it-IT: Spaghetti Aglio e Olio (Pasta in Garlic and Oil Sauce)
+    subtitle:
+      type: text
+      locales:
+        da-DK: Det lyder for simpelt til at være godt, men det er blandt de bedste.
+        it-IT: Sembra troppo semplice per essere buono, ma è tra i migliori.
+    totalTime:
+      type: text
+      value: '10'
+    cookingTime:
+      type: text
+      value: '10'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "If there were a pasta bible, the first line would read, \"In the beginning, God created aglio e olio.\" Historically, that line wouldn't really be accurate, since the evidence doesn't support the idea that garlic (aglio) and oil (olio) were the original accompaniments to pasta. But\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: structurally
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: "—and by that I mean the way most pasta sauces today are cooked—aglio and olio are almost always the first step. From arrabbiata to marinara, alle vongole to puttanesca, each sauce begins by gently cooking garlic in oil. Even pesto,\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/pesto-pasta-potatoes-green-beans-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: which is never cooked
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", has at its base\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/best-pesto-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: a purée of garlic suspended in oil
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The beautiful thing about those two building blocks is that
+                    not only are they essential components of so many other
+                    sauces, but they also make one of the greatest pasta sauces
+                    all on their own. Aglio e olio, I think it's safe to claim,
+                    is the simplest pantry-staples-only pasta sauce in the
+                    entire Italian canon. You don't even need cheese—in fact,
+                    some would argue cheese isn't a welcome addition. If you
+                    have spaghetti, garlic, salt, and oil, you can make this
+                    pasta right now.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Given its ease, you'd think aglio e olio would be a much
+                    more widely known pasta sauce. In Italy, it is. Most
+                    Italians I've met get misty-eyed when they speak of it,
+                    recalling childhoods full of after-school bowls of aglio e
+                    olio whipped up by their beloved mammas. In the United
+                    States, though, it's not on most people's radar, despite
+                    this country's deep pasta obsession—which is a shame.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Making it couldn't be easier, though it still requires
+                    attention to the basic method for finishing almost any pasta
+                    dish. It starts by gently cooking garlic in a skillet with
+                    olive oil until it's very lightly golden. I often add a
+                    pinch of red pepper flakes, which technically makes the dish
+                    aglio, olio, e peperoncino. They add a pleasant, warm heat
+                    without overcomplicating the basic garlic-and-oil flavor.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    While the garlic quietly sizzles, the pasta should be
+                    boiling away in a separate pot of salted water. (
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/how-salty-should-pasta-water-be
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Not salty like the sea
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , which is 3% salinity; 1%, or roughly one tablespoon per
+                    quart or liter of water, is about all you want.) You need
+                    only enough water to sufficiently cover the pasta and give
+                    it some room to move around. That can mean a large pot with
+                    the pasta dropped in vertically, or a wide, large skillet
+                    with the pasta on its side.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    As soon as the pasta is just shy of al dente, transfer it to
+                    the skillet with the garlic and oil. Then add a few
+                    tablespoons of the pasta water and cook it all together over
+                    high heat, stirring and tossing rapidly, to emulsify the oil
+                    with the starchy pasta water.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    It's ready when the sauce reduces to a creamy coating on the
+                    noodles. If you over-reduce it and the sauce becomes too
+                    oily, you can always add a little more pasta water to get it
+                    back where you want it. A drizzle of fresh olive oil
+                    reintroduces its uncooked, fruity flavor.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    If you're dead set on adding grated cheese, this would be
+                    the time to do it, though I'd encourage at least trying it
+                    without first. I'll sometimes add a little minced parsley if
+                    I have some on hand, but even that is optional.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Take a bite, and let there be light.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    publishDate:
+      type: date
+      value: '2022-06-09'
+    recipeYield:
+      type: text
+      value: 4 servings
+    featuredImage:
+      type: asset
+      value:
+        - _id: 1f3d4288-46e5-4209-8d3d-b489bf2122bf
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/6jH2FH9pZYtVAWUrKHxgiiEGnPA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20160219-pasta-aglio-olio-vicky-wasik-8-1f312e17a6744973a9550a5bfcaf98c1.jpg
+          _source: custom-url
+  _locales:
+    - it-IT
+    - da-DK

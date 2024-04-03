@@ -1,0 +1,19 @@
+created: '2024-04-03T19:28:59.078442+00:00'
+modified: '2024-04-03T19:29:12.442852+00:00'
+pattern: false
+entry:
+  _id: b0c370e4-15df-45f4-95a8-01c9814db90d
+  _name: The Wind Rises
+  _slug: the-wind-rises
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMTU4NDg0MzkzNV5BMl5BanBnXkFtZTgwODA3Mzc1MDE@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt2013293
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

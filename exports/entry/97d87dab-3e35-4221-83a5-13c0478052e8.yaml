@@ -1,10 +1,12 @@
 created: '2023-12-14T15:53:39.660973+00:00'
-modified: '2023-12-14T15:54:07.407381+00:00'
+modified: '2024-04-03T19:14:42.36336+00:00'
 pattern: false
 entry:
   _id: 97d87dab-3e35-4221-83a5-13c0478052e8
   _name: Black Sunnies
   _slug: black-sunnies
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/Blacksunnies.jpg?v=1675447388
   type: product
   fields: {}
   _dataResources:

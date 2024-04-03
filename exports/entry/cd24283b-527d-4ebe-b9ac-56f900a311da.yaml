@@ -1,0 +1,19 @@
+created: '2024-04-03T19:32:47.651494+00:00'
+modified: '2024-04-03T19:32:59.280621+00:00'
+pattern: false
+entry:
+  _id: cd24283b-527d-4ebe-b9ac-56f900a311da
+  _name: Reservoir Dogs
+  _slug: reservoir-dogs
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BZmExNmEwYWItYmQzOS00YjA5LTk2MjktZjEyZDE1Y2QxNjA1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0105236
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

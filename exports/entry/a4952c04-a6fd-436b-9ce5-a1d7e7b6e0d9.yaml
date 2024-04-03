@@ -1,0 +1,651 @@
+created: '2024-04-03T19:15:10.865408+00:00'
+modified: '2024-04-03T20:05:14.482139+00:00'
+pattern: false
+entry:
+  _id: a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9
+  _name: Pasta Cacio e Uova (Neapolitan Pasta With Eggs and Cheese)
+  _slug: pasta-cacio-e-uova-neapolitan-pasta-with-eggs-and-cheese
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/7HKn2xoqIG_kPNnWDUFSrEEhMd4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-11-0d2b7d5cbe1146f893553541f191b7d4.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Pasta Cacio e Uova (Neapolitan Pasta With Eggs and Cheese)
+    notes:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - tag: h3
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Why it works
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: ul
+              type: list
+              start: 1
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - type: listitem
+                  value: 1
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Throwing an additional yolk in with the whole eggs
+                        increases the overall creaminess without exaggerating
+                        the egginess.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 2
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        The hot pasta cooking water and the residual heat from
+                        the toasted pasta indirectly and gently cook the eggs
+                        without scrambling them.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - type: listitem
+                  value: 3
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: >-
+                        Just a little garlic gives flavor depth to this quick
+                        and simple dish.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              listType: bullet
+              direction: ltr
+          direction: ltr
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          Eggs and cheese come together to form this silky, meatless Neapolitan
+          sauce.
+    sourceUrl:
+      type: link
+      value:
+        path: https://www.seriouseats.com/pasta-cacio-e-uovo-vegetarian-carbonara
+        type: url
+    totalTime:
+      type: text
+      value: '35'
+    difficulty:
+      type: select
+      value: easy
+    cookingTime:
+      type: text
+      value: '30'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Pasta cacio e uova, or cas' e ova in Neapolitan dialect, is
+                    a simple Campanian dish that can be most easily summarized
+                    as "meatless carbonara." Like carbonara, cas' e ova features
+                    a silky, temperature-sensitive sauce made with eggs and a
+                    mixture of grated Parmigiano-Reggiano and Pecorino Romano
+                    that coats al dente dried pasta. There's no crispy guanciale
+                    in this dish, although the pasta is traditionally tossed
+                    with a little garlic-infused pork fat; strutto (lard) is a
+                    staple in Neapolitan cooking, but you can easily keep this
+                    dish vegetarian by using butter or olive oil. The resulting
+                    dish is lighter and brighter than carbonara, while still
+                    being rich and satisfying.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Word of advice: As is the case with most regional Italian
+                    cuisine conversations, proceed with caution when comparing
+                    the culinary traditions of Naples and Rome. Noting
+                    similarities won't get you in hot water, but be prepared for
+                    a spirited debate. Also, this dish is not to be confused
+                    with pallotte cacio e ove, meatless Abbruzzese
+                    cheese-and-egg "meatballs" simmered in tomato sauce.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "To achieve a smooth, creamy egg-and-cheese sauce, we follow the same basic procedure as our\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/pasta-carbonara-sauce-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: carbonara recipe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    . Start by whisking together a combination of whole eggs and
+                    yolks (flipping the script by using more whole eggs than
+                    yolks gives the sauce a slightly looser and glossier
+                    texture) with the two grated cheeses in a large heatproof
+                    bowl. Then, in a skillet, lightly brown a couple cloves of
+                    garlic in butter (or your fat of choice). Remove the cloves
+                    and add al dente pasta to the pan, tossing and stirring to
+                    coat it well in the garlic-infused butter before
+                    transferring it to the bowl with the egg and cheese mixture,
+                    along with a large ladleful of starchy cooking water. Using
+                    the undrained pasta-cooking pot allows us to harness the
+                    heat and create a makeshift double broiler to gently cook
+                    the eggs without scrambling them.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    With constant stirring and tossing, the eggs tighten up just
+                    enough to form a silky sauce. I like to finish the dish with
+                    a handful of chopped parsley for a little freshness to cut
+                    through the richness of the eggs and cheese. Next time
+                    you're out of guanciale or pancetta, but in the mood for
+                    carbonara, don't despair! Make cas' e ova instead.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    ingredients:
+      type: $block
+      value:
+        - _id: e1e5267a-3a8e-44f7-9db9-a38fe2eabea3
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 2 large eggs (110g), plus 1 large egg yolk (15g)
+        - _id: 16c8e24b-9033-42fb-9626-ec2d282d5f0b
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 2 ounces (60g) finely grated Pecorino Romano
+        - _id: 9d89ef8f-cd35-474c-b58e-663b6eb018f1
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 2 ounces (60g) finely grated Parmigiano-Reggiano
+        - _id: 11ebb412-7a64-4443-b162-6daa74daf8cf
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1/4 teaspoon freshly ground black pepper
+        - _id: fb41fde8-cca7-40b1-a63b-6e58b86fdf3f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  2 tablespoons (30g) unsalted butter, extra-virgin olive oil,
+                  or lard (see note)
+        - _id: 1f152b1f-e7ae-43aa-96d9-08bce3106ccc
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 2 medium garlic cloves (10g), lightly crushed
+        - _id: d860e915-b0fb-4853-b401-7ad5e54a43e7
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Kosher salt
+        - _id: 74b500f0-5e44-4f0c-a450-3a84d76be822
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  12 ounces (340g) dried small tubular pasta such as tubetti,
+                  mezze maniche, maccheroncini, or mezzi rigatoni (see note)
+        - _id: b895ef98-eca7-4cd7-a25a-f0edcf8a3ef2
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: >-
+                  1 loosely packed cup (1/2 ounce; 15g) fresh parsley leaves and
+                  tender stems, finely chopped (optional)
+    publishDate:
+      type: date
+      value: '2024-01-16'
+    ratingCount:
+      type: number
+      value: '100'
+    ratingValue:
+      type: number
+      value: '4.9'
+    recipeYield:
+      type: text
+      value: 4 servings
+    instructions:
+      type: $block
+      value:
+        - _id: cc13cc09-08ed-4da7-bebb-ae1dbbae6726
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 2fdc2d98-ff82-4133-af0c-611a42cf4219
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/c9vapBxnC0CEpcfj0F52xV3tae0=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-step1-6d656e377d4d445abb07e38a0e975b45.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              In a large heatproof mixing bowl, whisk together
+                              whole eggs and yolk, Pecorino Romano,
+                              Parmigiano-Reggiano, and black pepper. Set aside.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 74c98438-06aa-447a-b75e-1bdfff81b560
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 3d203fe3-6ad7-4f5a-aa45-6d5b755f0871
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/qZbVkDpE13C4sY2v62s91kzMQ1M=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-3-4ee50b642d8d4be6afa6d2bfd13b2868.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              In a large skillet, melt butter over medium heat.
+                              Add garlic and cook, stirring and turning cloves
+                              occasionally, until garlic begins to soften and
+                              turn pale golden, about 3 minutes. Turn off heat.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 36752070-0d96-4292-adab-a8ec0c47b918
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 05dde26a-155b-4f1e-bb1b-e5a1e53c7486
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/hfbAtsGMs5J38KHExj_p5HYCal8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-4-d0668a8618844041b08457e22717417d.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Meanwhile, in a pot of salted boiling water, cook
+                              pasta until al dente. Right before pasta finishes
+                              cooking, remove garlic cloves from skillet and
+                              discard. Using a spider skimmer, transfer pasta to
+                              skillet; be sure not to drain boiling pasta
+                              cooking water, and reduce heat to a simmer.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: b9647117-9edb-4ea9-b04d-bf566d004f28
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: b1267578-5bed-439c-9c6d-dc52a79a8848
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/KcEw3saewSDKJka3XXlLn8BEtZo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-step4-ebe67f0e547140f995b64cee9ced5af8.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Stir and toss pasta rapidly in skillet to evenly
+                              coat with butter, then transfer to bowl with egg
+                              and cheese mixture, using a rubber spatula to
+                              scrape all of the butter into the bowl. Add 3/4
+                              cup (180ml) of reserved pasta cooking water to
+                              bowl, and stir to thoroughly combine.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: 23e4f20e-6fec-43c5-80b7-a6cfc0627206
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 87a92352-51dc-40a4-a183-e0b1897ca30f
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/23NIxrFqH0vUN4hmpnUsjXHOFF8=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-7-17da3edd97864e44b585ac76a0aed4b3.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Set bowl over pot of simmering pasta cooking water
+                              (making sure bottom of bowl does not touch water)
+                              and cook, stirring and scraping down sides of bowl
+                              constantly with a rubber spatula, until sauce
+                              thickens to a creamy, silky consistency and leaves
+                              trails as you stir, about 1 minute, adding more
+                              pasta cooking water in 1 tablespoon (15ml)
+                              increments as needed to adjust consistency of the
+                              sauce.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+        - _id: d9f5483e-7538-4048-affc-99a99f2bed6c
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 848d23e2-a1ff-4391-95e5-07755c9f376d
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/ouoCOf3e_v5pLJyvJC5iEyvwrXg=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-12-b75259de30614c2aad621d0f5ef55d89.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Remove bowl from heat, add parsley (if using), and
+                              stir to combine. Season with salt to taste. Divide
+                              between warmed serving bowls, and serve.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 4e1507b8-3046-4108-aff6-b565529e0a70
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/7HKn2xoqIG_kPNnWDUFSrEEhMd4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-11-0d2b7d5cbe1146f893553541f191b7d4.jpg
+          _source: custom-url
+    nutritionFacts:
+      type: $block
+      value:
+        - _id: 345e1a58-0678-4639-900e-01b7bbb53280
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: calories
+            amount:
+              type: number
+              value: '548'
+        - _id: 81e2dd5a-fbc7-42e9-a7c1-e1770e59355a
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '19'
+        - _id: 5345bde9-0b7a-442b-b4f1-58a4ad61cd60
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: carbohydrate
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '67'
+        - _id: fa95ed3c-8a08-462d-8bf9-a8f581fbeaf7
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: protein
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '25'
+    preparationTime:
+      type: text
+      value: '5'
+  _locales:
+    - en-US

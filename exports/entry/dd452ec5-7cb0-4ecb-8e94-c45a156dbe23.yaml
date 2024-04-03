@@ -1,9 +1,0 @@
-created: '2024-01-05T13:58:23.409669+00:00'
-modified: '2024-01-05T13:58:23.409669+00:00'
-pattern: false
-entry:
-  _id: dd452ec5-7cb0-4ecb-8e94-c45a156dbe23
-  _name: 'New entry: Test Content type'
-  _slug: new-entry-test-content-type
-  type: testContentType
-  fields: {}

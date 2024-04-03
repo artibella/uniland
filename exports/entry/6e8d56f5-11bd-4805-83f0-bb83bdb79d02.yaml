@@ -1,0 +1,435 @@
+created: '2024-04-03T19:15:10.40502+00:00'
+modified: '2024-04-03T20:05:21.115699+00:00'
+pattern: false
+entry:
+  _id: 6e8d56f5-11bd-4805-83f0-bb83bdb79d02
+  _name: Pasta al limone
+  _slug: pasta-al-limone
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/TizOLEGAFjVSWMhemd2MhkWAfdc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2017__12__20171206-pasta-alla-limone-vicky-wasik-13-042287072d9146d084f7eb29e23c400b.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Pasta al limone
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          Bright and fragrant citrus finds its way into this comforting bowl of
+          spaghetti.
+    totalTime:
+      type: text
+      value: '35'
+    difficulty:
+      type: select
+      value: easy
+    cookingTime:
+      type: text
+      value: '15'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "There's a taxonomy of pasta sauces that exists in my mind. Trace the branches to the top, and you arrive at what I think of as the mother pasta sauces. From those, almost all the other sauces are derived, at least in a technical sense if not necessarily a historical one. One important branch is the family of tomato sauces, to which\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/the-best-slow-cooked-italian-american-tomato-sauce-red-sauce-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: a basic marinara
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ",\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/spaghetti-puttanesca-pasta-week-capers-olives-anchovies-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: briny puttanesca
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", and\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/penne-pasta-arrabbiata-sauce-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: "spicy\_arrabbiata"
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_all belong. Then there are the oil-based sauces, the most basic of which is\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/spaghetti-aglio-olio-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: aglio e olio
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "; add clams and white wine to it, and you basically have\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/spaghetti-pasta-alle-vongole-clams-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: alle vongole
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ". Next in line are butter sauces, which can be as simple as the famous\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/fettuccine-alfredo-sauce-italian-pasta-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: fettuccine Alfredo
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ". That sauce, in its original form, is nothing more than butter emulsified with grated Parmigiano-Reggiano cheese. Add lemon zest and juice to Alfredo sauce, and you have this dish, spaghetti\_al limone—spaghetti with lemon."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    If you've never heard of a fruit sauce for pasta before,
+                    this may strike you as a strange idea. To me, it's one of
+                    the best winter pasta dishes, though it can work at any time
+                    of year, since lemons, which peak in the coldest months, are
+                    available year-round. It's quick and easy, coming together
+                    with just a handful of ingredients, mostly pantry staples.
+                    And it strikes a perfect balance between stomach-warming
+                    richness, with all the cheese and butter, and a bright,
+                    sunny blast of lemon. It's like sunlight shining on snow.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: A Sauce That Lets the Lemon Shine
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Recipes vary a bit. Some use only zest for the lemon
+                    component; others incorporate some juice as well. Some add
+                    cream to the mixture; others build the sauce with just
+                    butter and cheese. I tested all these variables, even though
+                    my colleagues and I were pretty confident that the cream
+                    version would win out. We were wrong.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "In retrospect, I should have known better. Back when I was working on my\_classic Roman fettuccine Alfredo recipe, I ran the same test, comparing a more traditional, no-cream recipe to the cream-spiked kind that's more common with American versions. Side by side, there was no contest: The cream may sound like a good idea, but it does nothing but cover up the lemony flavor of the more pared-down sauce. (This is in line with what Stella has found when working with lemon and cream in her recipes. Dairy mutes lemon flavor, which is why she opts for coconut milk in her\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/lemon-blueberry-scones-vegan-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: lemon scones recipe
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: .)
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    And so it is with spaghetti al limone. All my tasters and I
+                    expected to like the lemony cream sauce more, but we changed
+                    our minds as soon as we sampled the cream-free version, the
+                    lemon cutting through it with high-pitched clarity.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Bringing It All Together
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Making pasta al limone boils down to a few key details, all
+                    of them identical to my recommendations for the Roman
+                    Alfredo sauce. Start by melting butter in a skillet, adding
+                    grated lemon zest and minced garlic to infuse it with
+                    flavor. Then cook the pasta in a medium pot of boiling
+                    salted water. (Contrary to the most common advice, less
+                    water is better, as it becomes starchier than a large amount
+                    of water would.) You can use dried pasta, but a satiny
+                    butter sauce like this pairs better with fresh noodles. When
+                    it's done, reserve some of the starchy pasta water, then
+                    drain the pasta and add it to the melted butter.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Pour in some of that reserved starchy water, and stir and toss to form a creamy, emulsified sauce. You can read more about the technique in my article on\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/does-pasta-water-really-make-difference
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: why adding starchy water to pasta sauce makes it better
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Next, toss in grated Parmigiano-Reggiano cheese to thicken
+                    and enrich the sauce. If it gets too dry and tight, just
+                    loosen it with a little more of the reserved pasta water. As
+                    a finishing touch, add as much fresh lemon juice as you
+                    like—this is strictly a matter of personal preference. A
+                    smaller dose will add a subtle tart counterpoint to all the
+                    richness, while allowing the aromatic oils from the lemon
+                    zest to remain prominent. More juice will punch up that
+                    brightness and also steal some of the spotlight from the
+                    zest. There's no right or wrong answer there, just slightly
+                    different children from the same mother sauce.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+          direction: ltr
+    publishDate:
+      type: date
+      value: '2023-10-01'
+    ratingCount:
+      type: number
+      value: '80'
+    ratingValue:
+      type: number
+      value: '4.2'
+    recipeYield:
+      type: text
+      value: '4'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 29a392b8-bd42-42d7-b3e3-f69f994e7fa8
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/TizOLEGAFjVSWMhemd2MhkWAfdc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2017__12__20171206-pasta-alla-limone-vicky-wasik-13-042287072d9146d084f7eb29e23c400b.jpg
+            title:
+              type: text
+              value: Pasta al Limone
+          _source: custom-url
+    preparationTime:
+      type: text
+      value: '20'
+  _locales:
+    - en-US

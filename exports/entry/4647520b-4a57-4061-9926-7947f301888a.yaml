@@ -1,0 +1,19 @@
+created: '2024-04-03T19:43:09.130889+00:00'
+modified: '2024-04-03T19:43:23.493257+00:00'
+pattern: false
+entry:
+  _id: 4647520b-4a57-4061-9926-7947f301888a
+  _name: Howl's Moving Castle
+  _slug: howls-moving-castle
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0347149
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

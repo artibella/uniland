@@ -1,10 +1,12 @@
 created: '2023-12-05T10:40:47.067549+00:00'
-modified: '2023-12-05T10:41:25.399594+00:00'
+modified: '2024-04-03T19:14:35.35737+00:00'
 pattern: false
 entry:
   _id: c89d6669-503d-43e5-8331-455003606f22
   _name: Accessories
   _slug: accessories
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_black_sport_bag_containing_sport_accessories_one_towel_one_w_ef3e1828-4bde-4d7f-a6bf-e7abae4961e8.png?v=1675462987
   type: productCollection
   fields:
     name:
@@ -53,4 +55,3 @@ entry:
       type: collectionByHandle
       variables:
         handle: accessories
-  _thumbnail: ${#jptr:/Collection/data/collection/image/url}

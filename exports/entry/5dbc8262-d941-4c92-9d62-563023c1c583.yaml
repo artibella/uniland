@@ -1,0 +1,19 @@
+created: '2024-04-03T19:30:35.162975+00:00'
+modified: '2024-04-03T19:30:47.739309+00:00'
+pattern: false
+entry:
+  _id: 5dbc8262-d941-4c92-9d62-563023c1c583
+  _name: The Godfather Part III
+  _slug: the-godfather-part-iii
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNWFlYWY2YjYtNjdhNi00MzVlLTg2MTMtMWExNzg4NmM5NmEzXkEyXkFqcGdeQXVyMDk5Mzc5MQ@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0099674
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

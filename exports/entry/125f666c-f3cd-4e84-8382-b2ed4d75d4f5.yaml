@@ -1,0 +1,19 @@
+created: '2024-04-03T19:41:39.5098+00:00'
+modified: '2024-04-03T19:41:53.302288+00:00'
+pattern: false
+entry:
+  _id: 125f666c-f3cd-4e84-8382-b2ed4d75d4f5
+  _name: Jackie Brown
+  _slug: jackie-brown
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNmY5ODRmYTItNWU0Ni00MWE3LTgyYzUtYjZlN2Q5YTcyM2NmXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0119396
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c
