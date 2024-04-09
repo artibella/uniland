@@ -6,15 +6,19 @@ composition:
     body:
       type: text
       locales:
+        de-DE: >-
+          ${#jptr:/Product/entry/fields/description/value/root/children/0/children/0/text}
         en-US: >-
           ${#jptr:/Product/entry/fields/description/value/root/children/0/children/0/text}
     image:
       type: text
       locales:
+        de-DE: ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
         en-US: ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
     title:
       type: text
       locales:
+        de-DE: ${#jptr:/Product/entry/fields/name/value}
         en-US: ${#jptr:/Product/entry/fields/name/value}
     byline:
       type: text
@@ -28,6 +32,7 @@ composition:
           title:
             type: text
             locales:
+              de-DE: Buy now
               en-US: Buy now
           internalLink:
             type: link
@@ -50,7 +55,7 @@ composition:
     Product:
       type: product
       variables:
-        locale: ${locale}
+        locale: ${locale},en-US
         entryId: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
       isPatternParameter: true
       ignorePatternParameterDefault: true
@@ -62,8 +67,9 @@ composition:
       byline: 'yes'
   _locales:
     - en-US
+    - de-DE
 created: '2024-02-09T12:54:52.565481+00:00'
-modified: '2024-02-09T12:58:57.750244+00:00'
+modified: '2024-04-08T11:44:11.440285+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1691416770/Uniland/components/product-card.png

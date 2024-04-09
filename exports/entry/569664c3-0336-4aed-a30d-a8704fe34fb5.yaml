@@ -1,10 +1,12 @@
 created: '2024-04-03T19:15:26.752308+00:00'
-modified: '2024-04-03T20:03:38.417783+00:00'
+modified: '2024-04-08T10:59:16.691953+00:00'
 pattern: false
 entry:
   _id: 569664c3-0336-4aed-a30d-a8704fe34fb5
   _name: What’s next for headless CMSes
   _slug: whats-next-for-headless-cmses
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/odkcACpk9ksPtv8IWoaHw/1445c1217017dc43444635c9d30b10c6/BlogHeader__What-s_next_for_Headless_CMS.png
   type: blogPost
   fields: {}
   _dataResources:

@@ -14,59 +14,6 @@ composition:
             variables:
               handle: canvas-sneakers
     sections:
-      - _id: 385ee79c-e641-4713-967c-2548a762348b
-        type: sectionContainer
-        slots:
-          content:
-            - _id: 991c1357-2ea4-4f46-9255-3b238f3e43db
-              type: gridContainer
-              slots:
-                items:
-                  - _id: 172092d7-a7c9-434d-aab7-d7e73339f53d
-                    type: card
-                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-                    _dataResources:
-                      Product:
-                        type: productByHandle
-                        variables:
-                          handle: slides
-                  - _id: 869c7eb8-d388-44db-bd16-f9d7b0131560
-                    type: card
-                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-                    _dataResources:
-                      Product:
-                        type: productByHandle
-                        variables:
-                          handle: black-sunnies
-                  - _id: 4dbd7673-cf93-4c05-91b2-58441e98c44d
-                    type: card
-                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-                    _dataResources:
-                      Product:
-                        type: productByHandle
-                        variables:
-                          handle: hoodie
-                  - _id: 1d871f45-a6c7-4428-b071-9bc624ae5947
-                    type: card
-                    _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-                    _dataResources:
-                      Product:
-                        type: productByHandle
-                        variables:
-                          handle: clear-sunnies
-              parameters:
-                columns:
-                  type: number
-                  value: '2'
-          heading:
-            - _id: 731f46c1-ab15-4b05-ae82-bd9b17f74e35
-              type: heading
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    de-DE: Latest arrivals
-                    en-US: Latest arrivals
       - _id: 2b20d8ec-7cc5-4939-8848-558829fcebfc
         type: sectionContainer
         _pattern: ecab3ea5-2141-4ae1-8223-dcac8028aba0
@@ -94,36 +41,75 @@ composition:
           type: text
           locales:
             de-DE: ${#jptr:/Product by handle Content/data/product/title}
-    172092d7-a7c9-434d-aab7-d7e73339f53d|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
-    1d871f45-a6c7-4428-b071-9bc624ae5947|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
+    2b20d8ec-7cc5-4939-8848-558829fcebfc|b24f190a-0c6e-4483-88a2-aa40b08d5393:
+      slots:
+        $slotSectionItems:
+          - _id: f2d19b29-3cea-42de-ba2e-f8560b3ee1c9
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 424b8839-548f-4bf7-8283-e0a40827c3fc
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+          - _id: 30e7853c-fc76-4517-8e75-5e4e814b8cf5
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 634ca3d2-5344-4eeb-b2b4-00d9fedcc3b0
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+          - _id: 038a9b35-cc2b-492f-8bfa-73d17f4a88d8
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+          - _id: 4bd426c5-97bb-4f1c-822a-d424d3dee522
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 7f390f01-819a-4923-bdbc-936c0e620677
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
     2b20d8ec-7cc5-4939-8848-558829fcebfc|c62e41c3-2d39-4d01-8823-be94b7295667:
       parameters:
         title:
           type: text
           locales:
             de-DE: Featured products
-    4dbd7673-cf93-4c05-91b2-58441e98c44d|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
-    869c7eb8-d388-44db-bd16-f9d7b0131560|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
     9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd|430eea25-5964-4666-a0bb-50e148f5ae70:
       parameters:
         title:
@@ -136,33 +122,9 @@ composition:
             de-DE: Jetzt im Angebot
     9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd|d75dda5d-4bef-4a4e-a2cd-2e420c55864a:
       variant: error
-    2b20d8ec-7cc5-4939-8848-558829fcebfc|30eb0dbe-5631-49da-b9c7-e28bd76fd275|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
-    2b20d8ec-7cc5-4939-8848-558829fcebfc|5cf89c57-5703-4a2c-8583-05342cbc4a6e|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
-    2b20d8ec-7cc5-4939-8848-558829fcebfc|8c17b3d1-324d-4fdd-8643-75152093976b|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
-    2b20d8ec-7cc5-4939-8848-558829fcebfc|8c75b8c1-b0b2-4f44-bd51-fd2b2ee4d7dd|676f878c-5e13-46f7-830b-80fdb0af61f4:
-      parameters:
-        title:
-          type: text
-          locales:
-            de-DE: Buy now
   _locales:
     - en-US
     - de-DE
 created: '2023-08-06T15:41:30.053601+00:00'
-modified: '2024-01-09T14:07:56.269534+00:00'
+modified: '2024-04-08T11:45:59.405628+00:00'
 pattern: false

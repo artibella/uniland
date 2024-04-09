@@ -8,37 +8,24 @@ composition:
         type: gridContainer
         slots:
           items:
-            - _id: 5cf89c57-5703-4a2c-8583-05342cbc4a6e
-              type: card
-              _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-              _dataResources:
-                Product:
-                  type: productByHandle
-                  variables:
-                    handle: canvas-sneakers
-            - _id: 8c75b8c1-b0b2-4f44-bd51-fd2b2ee4d7dd
-              type: card
-              _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-              _dataResources:
-                Product:
-                  type: productByHandle
-                  variables: {}
-            - _id: 8c17b3d1-324d-4fdd-8643-75152093976b
-              type: card
-              _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-              _dataResources:
-                Product:
-                  type: productByHandle
-                  variables:
-                    handle: hoodie
-            - _id: 30eb0dbe-5631-49da-b9c7-e28bd76fd275
-              type: card
-              _pattern: 8c469fb6-69f7-4b36-878c-126f97c46abc
-              _dataResources:
-                Product:
-                  type: productByHandle
-                  variables:
-                    handle: frontpack
+            - _id: b24f190a-0c6e-4483-88a2-aa40b08d5393
+              type: $slotSection
+              parameters:
+                max:
+                  type: text
+                  value: 12
+                name:
+                  type: text
+                  value: Featured Products
+                specific:
+                  type: array
+                  value:
+                    - $p:23d39c7a-9d92-4116-8649-c7a8db19834c
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
         parameters:
           columns:
             type: number
@@ -49,7 +36,9 @@ composition:
         parameters:
           title:
             type: text
-            value: Featured products
+            locales:
+              de-DE: Featured products
+              en-US: Featured products
         _overridability:
           parameters:
             align: 'yes'
@@ -60,6 +49,9 @@ composition:
             titleHtml: 'yes'
             titleRichText: 'yes'
             showEditorialLine: 'yes'
+  _locales:
+    - en-US
+    - de-DE
 created: '2023-08-23T10:01:00.997579+00:00'
-modified: '2023-08-29T16:49:05.483122+00:00'
+modified: '2024-04-08T11:42:21.613101+00:00'
 pattern: true
