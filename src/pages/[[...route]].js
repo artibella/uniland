@@ -24,7 +24,6 @@ export const getServerSideProps = withUniformGetServerSideProps({
     };
   },
   modifyPath: (path, context) => {
-    console.log('🔗 ', path, context);
     const locale = context.locale ?? context.defaultLocale;
     const localizedPath = `/${locale}${path}`.replace(/\/$/, '');
     return localizedPath;
