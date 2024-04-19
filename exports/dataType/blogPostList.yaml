@@ -14,10 +14,13 @@ archetype: queryEntries
 variables:
   limit:
     type: text
-    default: '10'
+    default: '20'
   offset:
     type: text
     default: '0'
+  filters:
+    type: text
+    default: '{}'
   orderBy:
     type: text
     default: ''

@@ -14,10 +14,14 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: ${#jptr:/Hero Recipe/entry/fields/name/value}
+                  locales:
+                    de-DE: ${#jptr:/Hero Recipe/entry/fields/name/value}
+                    en-US: ${#jptr:/Hero Recipe/entry/fields/name/value}
                 byline:
                   type: text
-                  value: Recipe of the day
+                  locales:
+                    de-DE: Recipe of the day
+                    en-US: Recipe of the day
                 tagName:
                   type: select
                   value: h1
@@ -27,15 +31,23 @@ composition:
         parameters:
           body:
             type: text
-            value: ${#jptr:/Hero Recipe/entry/fields/subtitle/value}
+            locales:
+              de-DE: ${#jptr:/Hero Recipe/entry/fields/subtitle/value}
+              en-US: ${#jptr:/Hero Recipe/entry/fields/subtitle/value}
           imageFit:
             type: select
-            value: contain
+            locales:
+              de-DE: contain
+              en-US: contain
           imageUrl:
             type: text
-            value: >-
-              ${#jptr:/Hero
-              Recipe/entry/fields/featuredImage/value/0/fields/url/value}
+            locales:
+              de-DE: >-
+                ${#jptr:/Hero
+                Recipe/entry/fields/featuredImage/value/0/fields/url/value}
+              en-US: >-
+                ${#jptr:/Hero
+                Recipe/entry/fields/featuredImage/value/0/fields/url/value}
     sections:
       - _id: c84a48a4-e820-4eb7-9056-3f7ad0afd71a
         type: sectionContainer
@@ -54,19 +66,31 @@ composition:
                           parameters:
                             body:
                               type: text
-                              value: >-
-                                ${#jptr:/Recipe List Content entries Loop
-                                Item/entry/fields/subtitle/value}
+                              locales:
+                                de-DE: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/subtitle/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/subtitle/value}
                             image:
                               type: text
-                              value: >-
-                                ${#jptr:/Recipe List Content entries Loop
-                                Item/entry/fields/featuredImage/value/0/fields/url/value}
+                              locales:
+                                de-DE: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/featuredImage/value/0/fields/url/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/featuredImage/value/0/fields/url/value}
                             title:
                               type: text
-                              value: >-
-                                ${#jptr:/Recipe List Content entries Loop
-                                Item/entry/fields/name/value}
+                              locales:
+                                de-DE: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe List Content entries Loop
+                                  Item/entry/fields/name/value}
                     _dataResources:
                       Recipe List Content entries Loop Item:
                         type: sys-reserved-loop
@@ -82,26 +106,34 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: Join the Pizza Party 🍕!
+                  locales:
+                    de-DE: Pizza für alle!
+                    en-US: Join the Pizza Party 🍕!
                 tagName:
                   type: select
                   value: h2
         parameters:
           theme:
             type: select
-            value: mango
+            locales:
+              de-DE: mango
+              en-US: mango
   _dataResources:
     Hero Recipe:
       type: recipe
       variables:
-        entryId: 687994c6-6f80-4446-9f4a-0e575d70b3b6
+        locale: ${locale},en-US
+        entryId: 6b72b9b4-1243-4bfa-9b8b-9270f83816f5
     Recipe List Content:
       type: recipeList
       variables:
+        locale: ${locale}
+        filters: '{"type[eq]":"recipe","fields.name[match]":"pizza"}'
         orderBy: created_at_DESC
         contentTypes: recipe
   _locales:
     - en-US
+    - de-DE
 created: '2023-10-27T14:30:34.264021+00:00'
-modified: '2023-12-13T11:39:04.643779+00:00'
+modified: '2024-04-12T16:22:08.537862+00:00'
 pattern: false

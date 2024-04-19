@@ -1,6 +1,7 @@
 id: blogPost
 displayName: Blog Post
 ttl: 30
+body: ''
 path: /multiple
 custom: {}
 method: GET

@@ -10,6 +10,8 @@ parameters:
     helpText: ''
     typeConfig: null
 description: A generic page type which has a hero and a single content slot
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1713287667/Uniland/components/page.png
 useTeamPermissions: true
 slots:
   - id: hero
@@ -89,4 +91,7 @@ defaults:
 titleParameter: title
 canBeComposition: true
 created: '2022-12-15T14:08:27.337946+00:00'
-updated: '2024-04-03T19:09:44.391778+00:00'
+updated: '2024-04-16T17:16:05.390488+00:00'
+variants:
+  - id: rainbow
+    name: Rainbow

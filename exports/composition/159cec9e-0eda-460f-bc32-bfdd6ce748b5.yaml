@@ -17,6 +17,19 @@ composition:
       - _id: 2b20d8ec-7cc5-4939-8848-558829fcebfc
         type: sectionContainer
         _pattern: ecab3ea5-2141-4ae1-8223-dcac8028aba0
+      - _id: 5854ad01-202d-448f-aa41-1c35542d5bd0
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 899b609b-3a00-416c-bf23-b00eb560295f
+              type: accordion
+              _pattern: 6b2e4acd-7af9-45cf-b7e6-24db9375a70f
+              _dataResources:
+                Product Content:
+                  type: product
+                  variables:
+                    locale: ${locale}
+                    entryId: 7e1a38bc-6898-41a1-b069-fea427f6a55c
   _overrides:
     9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd:
       parameters:
@@ -110,6 +123,24 @@ composition:
           type: text
           locales:
             de-DE: Featured products
+    899b609b-3a00-416c-bf23-b00eb560295f|9964f4c0-ff62-4788-ad3b-987ee6eb1966:
+      slots:
+        $slotSectionItems:
+          - _id: 52993e19-3646-495c-b23e-bfb74103a126
+            type: accordionItem
+            slots:
+              content:
+                - _id: 79a3d03a-2d7e-45a6-9aee-3b6e3c785bf2
+                  type: textBlock
+                  parameters:
+                    body:
+                      type: text
+                      locales:
+                        en-US: pricing info
+            parameters:
+              title:
+                type: text
+                value: Pricing
     9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd|430eea25-5964-4666-a0bb-50e148f5ae70:
       parameters:
         title:
@@ -126,5 +157,5 @@ composition:
     - en-US
     - de-DE
 created: '2023-08-06T15:41:30.053601+00:00'
-modified: '2024-04-08T11:45:59.405628+00:00'
+modified: '2024-04-17T09:38:45.066016+00:00'
 pattern: false

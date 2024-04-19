@@ -1,0 +1,69 @@
+composition:
+  _name: Product accordion
+  _id: 6b2e4acd-7af9-45cf-b7e6-24db9375a70f
+  type: accordion
+  slots:
+    items:
+      - _id: 9e118630-0413-439a-a4e0-5ee1f13f6951
+        type: accordionItem
+        slots:
+          content:
+            - _id: 09b81b61-83c6-4c41-949b-95b0ef581d67
+              type: textBlock
+              parameters:
+                body:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Product Content/entry/fields/teaserText/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            value: Description
+        _overridability:
+          hideLockedParameters: true
+      - _id: 17d1ae9e-27e1-43de-b130-a1b8ce067a44
+        type: accordionItem
+        slots:
+          content:
+            - _id: 0e6929ce-be36-43ce-88e3-41e7c40d5aab
+              type: $slotSection
+              parameters:
+                name:
+                  type: text
+                  value: Product specs
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            value: Specifications
+        _overridability:
+          hideLockedParameters: true
+      - _id: 9964f4c0-ff62-4788-ad3b-987ee6eb1966
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Custom sections
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product Content:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-04-17T09:16:47.079249+00:00'
+modified: '2024-04-17T09:35:01.542206+00:00'
+pattern: true

@@ -1,9 +1,13 @@
 id: b6a293b6-8c87-4ef6-9fe3-3f6149b79c5f
 name: Recipes
-type: composition
-data: {}
 order: 0
 path: /:locale/demos/recipes
-compositionId: fcdf2a14-b87e-43d8-a9af-714ddcc27dda
+type: composition
 pathSegment: recipes
+data: {}
+compositionId: fcdf2a14-b87e-43d8-a9af-714ddcc27dda
+locales:
+  de-DE:
+    name: Rezepte
+    pathSegment: rezepte
 projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

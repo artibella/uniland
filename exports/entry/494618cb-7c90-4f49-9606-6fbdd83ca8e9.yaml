@@ -1,12 +1,12 @@
 created: '2023-11-03T14:15:31.953305+00:00'
-modified: '2024-04-03T19:15:06.522844+00:00'
+modified: '2024-04-15T15:37:44.001819+00:00'
 pattern: false
 entry:
   _id: 494618cb-7c90-4f49-9606-6fbdd83ca8e9
   _name: Men's T-shirt
   _slug: mens-t-shirt
   _thumbnail: >-
-    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenTshirt01.jpg?v=1675455410
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/XmGn1tQKRZGKd86hTgHduQ-GreenTshirt01.webp
   type: product
   fields:
     name:
@@ -73,7 +73,36 @@ entry:
     featuredImage:
       type: asset
       locales:
-        en-US: []
+        en-US:
+          - _id: 252c8647-97fe-4493-bfbd-024ec11fbf20
+            type: image
+            fields:
+              id:
+                type: text
+                value: 8313a4ce-6981-4861-bf40-c4158403e7ae
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/XmGn1tQKRZGKd86hTgHduQ-GreenTshirt01.webp
+                type: text
+              file:
+                type: file
+                value: 3d37d004-84ce-4384-a8e2-6f22aec9b67a
+              size:
+                value: 49550
+                type: number
+              title:
+                type: text
+                value: GreenTshirt01.webp
+              width:
+                value: 1445
+                type: number
+              height:
+                value: 1445
+                type: number
+              mediaType:
+                value: image/webp
+                type: text
+            _source: uniform-assets
   _dataResources:
     Product by handle Content:
       type: productByHandle
