@@ -1,0 +1,19 @@
+created: '2024-04-26T09:44:46.59497+00:00'
+modified: '2024-04-26T09:45:08.430839+00:00'
+pattern: false
+entry:
+  _id: 60f845d3-2585-471d-8bd5-a5be86673b8f
+  _name: 'Star Wars: Episode VII - The Force Awakens'
+  _slug: star-wars-episode-vii-the-force-awakens
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt2488496
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

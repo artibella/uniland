@@ -1,0 +1,153 @@
+created: '2023-12-14T13:16:25.423818+00:00'
+modified: '2024-04-09T10:57:04.442123+00:00'
+pattern: true
+entry:
+  _id: d8d95a48-8853-40fa-a102-318c496e9c1c
+  _name: Mockshop Product
+  _slug: product-pattern
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenMenscrew01.jpg?v=1675454919
+  type: product
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/data/product/title}
+    images:
+      type: asset
+      locales:
+        en-US: []
+    variants:
+      type: $block
+      value:
+        - _id: 256e1ca7-7991-48d6-a2a5-f2a90cfe64c1
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 7f7c7e39-e534-4ef6-ad7e-6fbf3286c1e3
+                  type: productVariant
+                  fields:
+                    code:
+                      type: text
+                      value: ${#jptr:/Product edges Loop Item/node/id}
+                    name:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Product edges Loop Item/node/title}
+                    price:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Product edges Loop Item/node/price/amount}
+                    featuredImage:
+                      type: image
+                      locales:
+                        en-US: ${#jptr:/Product edges Loop Item/node/image/url}
+          _dataResources:
+            Product edges Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: /Product/data/product/variants/edges
+    reference:
+      type: text
+      value: ${#jptr:/Product/data/product/id}
+    teaserText:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/data/product/description}
+    collections:
+      type: $block
+      value:
+        - _id: 75624ee0-319c-4a2b-b584-be3b8707f827
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: cdb5e229-fc8e-43ca-a847-46163b714910
+                  type: taxonomyBlock
+                  fields:
+                    id:
+                      type: text
+                      value: ${#jptr:/Product edges Loop Item/node/id}
+                    name:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Product edges Loop Item/node/title}
+                    slug:
+                      type: text
+                      value: ${#jptr:/Product edges Loop Item/node/handle}
+                    image:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: d69115cf-58de-47e3-bded-dc9adada0e67
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  ${#jptr:/Product edges Loop
+                                  Item/node/image/url}
+                              title:
+                                type: text
+                                value: ${#jptr:/Product edges Loop Item/node/title}
+                            _source: custom-url
+          _dataResources:
+            Product edges Loop Item:
+              type: sys-reserved-loop
+              variables:
+                limit: '0'
+                connectedData: /Product/data/product/collections/edges
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Product/data/product/description'
+                direction: null
+            direction: null
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: b6e31e59-5b0d-423b-99f3-17e3b212a4fc
+            type: image
+            fields:
+              url:
+                type: text
+                value: ${#jptr:/Product/data/product/featuredImage/url}
+              title:
+                type: text
+                value: ${#jptr:/Product/data/product/title}
+            _source: custom-url
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    parameters:
+      name: 'yes'
+      images: 'yes'
+      reference: 'no'
+      teaserText: 'yes'
+      description: 'no'
+      featuredImage: 'yes'
+    hideLockedParameters: true

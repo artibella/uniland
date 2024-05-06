@@ -1,0 +1,66 @@
+composition:
+  _name: Featured products section (static)
+  _id: ecab3ea5-2141-4ae1-8223-dcac8028aba0
+  type: sectionContainer
+  slots:
+    content:
+      - _id: 85df3890-3cbf-4876-854c-e3f64d5154c6
+        type: gridContainer
+        slots:
+          items:
+            - _id: b24f190a-0c6e-4483-88a2-aa40b08d5393
+              type: $slotSection
+              parameters:
+                max:
+                  type: text
+                  value: 12
+                name:
+                  type: text
+                  value: Featured Products
+                specific:
+                  type: array
+                  value:
+                    - $p:23d39c7a-9d92-4116-8649-c7a8db19834c
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          columns:
+            type: number
+            value: '3'
+        _overridability:
+          parameters:
+            columns: 'yes'
+          hideLockedParameters: true
+    heading:
+      - _id: c62e41c3-2d39-4d01-8823-be94b7295667
+        type: heading
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: Featured products
+              en-US: Featured products
+        _overridability:
+          parameters:
+            align: 'no'
+            theme: 'no'
+            title: 'yes'
+            byline: 'no'
+            tagName: 'no'
+            titleHtml: 'no'
+            titleRichText: 'no'
+            showEditorialLine: 'no'
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      theme: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2023-08-23T10:01:00.997579+00:00'
+modified: '2024-05-06T15:52:19.973256+00:00'
+pattern: true

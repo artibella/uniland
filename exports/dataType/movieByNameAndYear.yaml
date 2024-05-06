@@ -1,0 +1,54 @@
+id: movieByNameAndYear
+displayName: Movie by name and year
+ttl: 30
+body: >-
+  {"query":"query ($movie:String!, $year:String!) {\n  movie(input: {\n   
+  title: $movie,\n    year: $year\n  }) {\n    url\n    title\n   
+  productImage\n    summary\n    numOfCriticReviews\n   
+  numOfMixedCriticReviews\n    numOfPositiveCriticReviews\n   
+  numOfNegativeCriticReviews\n    criticScore\n    rating\n    runtime\n   
+  director\n    cast\n    releaseDate\n\n 
+  }\n}","variables":{"year":"${year}","movie":"${movie}"}}
+path: ''
+custom:
+  query: |-
+    query ($movie:String!, $year:String!) {
+      movie(input: {
+        title: $movie,
+        year: $year
+      }) {
+        url
+        title
+        productImage
+        summary
+        numOfCriticReviews
+        numOfMixedCriticReviews
+        numOfPositiveCriticReviews
+        numOfNegativeCriticReviews
+        criticScore
+        rating
+        runtime
+        director
+        cast
+        releaseDate
+
+      }
+    }
+  method: POST
+  operationName: ''
+method: POST
+purgeKey: e70539e2-89ef-4c97-8094-967b10656a14
+archetype: default
+variables:
+  year:
+    type: text
+    default: ''
+    helpText: Release year of the movie
+    displayName: Year
+  movie:
+    type: text
+    default: ''
+    displayName: Name of movie
+parameters: []
+dataSourceId: metacriticGraphql
+allowedOnComponents: []

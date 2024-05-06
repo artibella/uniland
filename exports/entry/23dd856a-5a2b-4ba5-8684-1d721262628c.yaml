@@ -1,0 +1,19 @@
+created: '2024-04-26T09:34:46.950663+00:00'
+modified: '2024-04-26T09:35:17.57545+00:00'
+pattern: false
+entry:
+  _id: 23dd856a-5a2b-4ba5-8684-1d721262628c
+  _name: 'The Lord of the Rings: The Two Towers'
+  _slug: the-lord-of-the-rings-the-two-towers
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BZGMxZTdjZmYtMmE2Ni00ZTdkLWI5NTgtNjlmMjBiNzU2MmI5XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0167261
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

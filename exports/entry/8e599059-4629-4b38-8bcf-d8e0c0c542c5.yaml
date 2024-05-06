@@ -1,0 +1,19 @@
+created: '2024-04-26T09:41:42.569111+00:00'
+modified: '2024-04-26T09:41:59.185669+00:00'
+pattern: false
+entry:
+  _id: 8e599059-4629-4b38-8bcf-d8e0c0c542c5
+  _name: 'Ghost in the Shell: Stand Alone Complex'
+  _slug: ghost-in-the-shell-stand-alone-complex
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNzYzYzAzOWMtZjliYy00OWQ3LTllZDMtNTM1YWY3NDhjOTIwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0346314
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

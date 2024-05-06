@@ -1,0 +1,55 @@
+composition:
+  _name: Collection card
+  _id: 03c66665-31a7-4904-8953-b5a4771ef9d1
+  type: card
+  parameters:
+    body:
+      type: text
+      value: ${#jptr:/Collection by Handle Content/data/collection/description}
+    image:
+      type: text
+      value: ${#jptr:/Collection by Handle Content/data/collection/image/url}
+    title:
+      type: text
+      value: ${#jptr:/Collection by Handle Content/data/collection/title}
+  slots:
+    actions:
+      - _id: 2aba90d8-3092-467b-82a1-a62d72d34650
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            value: Show products
+          internalLink:
+            type: link
+            value:
+              path: >-
+                /:locale/shop/collections/${#jptr:/Collection by Handle
+                Content/data/collection/handle}
+              type: projectMapNode
+              nodeId: 05eb23ca-be6a-4f43-9d31-41f9c10f6dd6
+              projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+              dynamicInputValues:
+                handle: ${#jptr:/Collection by Handle Content/data/collection/handle}
+        _overridability:
+          parameters:
+            link: 'yes'
+            title: 'yes'
+            linkPrefix: 'yes'
+            internalLink: 'yes'
+            openInNewTab: 'yes'
+  _dataResources:
+    Collection by Handle Content:
+      type: collectionByHandle
+      variables: {}
+      isPatternParameter: true
+  _overridability:
+    parameters:
+      body: 'yes'
+      image: 'yes'
+      title: 'yes'
+      byline: 'yes'
+created: '2023-05-26T17:41:33.43862+00:00'
+modified: '2024-04-03T19:09:52.869294+00:00'
+pattern: true
+description: A card showing a single product collection

@@ -1,0 +1,41 @@
+id: gameByName
+displayName: Game by Name
+ttl: 30
+body: >-
+  {"query":"query {\n  game(input: {\n    title: \"Resident Evil 2\",\n   
+  platform: \"PlayStation 4\"\n  }) {\n    url\n    title\n    platform\n   
+  criticScore\n    releaseDate\n    developer\n    publisher\n    genres\n   
+  numOfCriticReviews\n    numOfPositiveCriticReviews\n   
+  numOfMixedCriticReviews\n    numOfNegativeCriticReviews\n    productImage\n 
+  }\n}"}
+path: ''
+custom:
+  query: |-
+    query {
+      game(input: {
+        title: "Resident Evil 2",
+        platform: "PlayStation 4"
+      }) {
+        url
+        title
+        platform
+        criticScore
+        releaseDate
+        developer
+        publisher
+        genres
+        numOfCriticReviews
+        numOfPositiveCriticReviews
+        numOfMixedCriticReviews
+        numOfNegativeCriticReviews
+        productImage
+      }
+    }
+  method: POST
+  operationName: ''
+method: POST
+purgeKey: 7aff199c-e650-4b54-af60-f165d117e636
+archetype: default
+parameters: []
+dataSourceId: metacriticGraphql
+allowedOnComponents: []

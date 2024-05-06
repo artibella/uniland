@@ -1,0 +1,19 @@
+created: '2024-04-26T09:42:22.725036+00:00'
+modified: '2024-04-26T09:43:22.344586+00:00'
+pattern: false
+entry:
+  _id: 4910dea6-5079-4c27-9b4d-6a10e802c376
+  _name: 'Star Wars: Episode IV - A New Hope'
+  _slug: star-wars-episode-iv-a-new-hope
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0076759
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

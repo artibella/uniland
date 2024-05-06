@@ -1,0 +1,19 @@
+created: '2024-04-26T09:24:39.879598+00:00'
+modified: '2024-04-26T09:25:00.999646+00:00'
+pattern: false
+entry:
+  _id: a3dcbe78-4489-4214-bdd1-7245e7c22f99
+  _name: Once Upon a Time... in Hollywood
+  _slug: once-upon-a-time-in-hollywood
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BOTg4ZTNkZmUtMzNlZi00YmFjLTk1MmUtNWQwNTM0YjcyNTNkXkEyXkFqcGdeQXVyNjg2NjQwMDQ@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt7131622
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

@@ -1,0 +1,68 @@
+composition:
+  _name: Mockshop Product Card
+  _id: 8c469fb6-69f7-4b36-878c-126f97c46abc
+  type: card
+  parameters:
+    body:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/data/product/description}
+    image:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/data/product/featuredImage/url}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/data/product/title}
+    byline:
+      type: text
+      locales:
+        en-US: >-
+          Category:
+          ${#jptr:/Product/data/product/collections/edges/0/node/title}
+  slots:
+    actions:
+      - _id: 676f878c-5e13-46f7-830b-80fdb0af61f4
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Buy now
+          internalLink:
+            type: link
+            value:
+              path: /${locale}/shop/${#jptr:/Product/data/product/handle}
+              type: projectMapNode
+              nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+              projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+              dynamicInputValues:
+                locale: ${locale}
+                product: ${#jptr:/Product/data/product/handle}
+        _overridability:
+          parameters:
+            link: 'no'
+            title: 'yes'
+            linkPrefix: 'no'
+            internalLink: 'no'
+            openInNewTab: 'no'
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      body: 'yes'
+      image: 'yes'
+      title: 'yes'
+      byline: 'yes'
+  _locales:
+    - en-US
+created: '2023-03-06T13:32:21.644682+00:00'
+modified: '2024-04-03T19:09:53.04977+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691416770/Uniland/components/product-card.png

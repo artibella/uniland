@@ -1,0 +1,97 @@
+composition:
+  _name: Search Result
+  _id: 4b331a1b-07bd-4ef0-a410-b8af704a77a3
+  _slug: ':search'
+  type: page
+  slots:
+    sections:
+      - _id: 6f362147-4473-4445-afec-feb7a622131f
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 75dcd024-def1-4b15-ab2b-bf61b1562045
+              type: gridContainer
+              slots:
+                items:
+                  - _id: f29f628d-8790-4203-8b10-2704298c5b14
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: e5497f10-3503-41da-9b2b-a43ac1c500f1
+                          type: card
+                          parameters:
+                            body:
+                              type: text
+                              locales:
+                                de-DE: >-
+                                  ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/subtitle/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/subtitle/value}
+                            image:
+                              type: text
+                              locales:
+                                de-DE: >-
+                                  ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/featuredImage/value/0/fields/url/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/featuredImage/value/0/fields/url/value}
+                            title:
+                              type: text
+                              locales:
+                                de-DE: >-
+                                  ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/name/value}
+                                en-US: >-
+                                  ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/name/value}
+                            byline:
+                              type: text
+                              locales:
+                                de-DE: >-
+                                  Rating: ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/ratingValue/value}
+                                en-US: >-
+                                  Rating: ${#jptr:/Recipe Results entries Loop
+                                  Item/entry/fields/ratingValue/value}
+                    _dataResources:
+                      Recipe Results entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: /Recipe Results/entries
+              parameters:
+                columns:
+                  type: number
+                  value: '2'
+          heading:
+            - _id: 1aaff527-fc8a-410a-81e1-c163ff5777f3
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: Search results for "${search}"
+                    en-US: Search results for "${search}"
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+  _dataResources:
+    Recipe Results:
+      type: recipeList
+      variables:
+        locale: ${locale}
+        filters: >-
+          {"type[eq]":"recipe","fields.name[match]":"${search}","locale[eq]":"${locale}"}
+        orderBy: fields.ratingValue_DESC
+        contentTypes: recipe
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-04-24T11:42:04.721185+00:00'
+modified: '2024-04-24T11:52:01.333715+00:00'
+pattern: false

@@ -1,0 +1,75 @@
+composition:
+  _name: Entry Product Card
+  _id: 23d39c7a-9d92-4116-8649-c7a8db19834c
+  type: card
+  parameters:
+    body:
+      type: text
+      locales:
+        de-DE: >-
+          ${#jptr:/Product/entry/fields/description/value/root/children/0/children/0/text}
+        en-US: >-
+          ${#jptr:/Product/entry/fields/description/value/root/children/0/children/0/text}
+    image:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
+        en-US: ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
+    title:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Product/entry/fields/name/value}
+        en-US: ${#jptr:/Product/entry/fields/name/value}
+    byline:
+      type: text
+      locales:
+        en-US: 'Category: '
+  slots:
+    actions:
+      - _id: 676f878c-5e13-46f7-830b-80fdb0af61f4
+        type: callToAction
+        parameters:
+          title:
+            type: text
+            locales:
+              de-DE: Buy now
+              en-US: Buy now
+          internalLink:
+            type: link
+            value:
+              path: /${locale}/shop/${#jptr:/Product/data/product/handle}
+              type: projectMapNode
+              nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+              projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+              dynamicInputValues:
+                locale: ${locale}
+                product: ${#jptr:/Product/data/product/handle}
+        _overridability:
+          parameters:
+            link: 'no'
+            title: 'yes'
+            linkPrefix: 'no'
+            internalLink: 'no'
+            openInNewTab: 'no'
+  _dataResources:
+    Product:
+      type: product
+      variables:
+        locale: ${locale},en-US
+        entryId: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      body: 'yes'
+      image: 'yes'
+      title: 'yes'
+      byline: 'yes'
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-02-09T12:54:52.565481+00:00'
+modified: '2024-04-08T11:44:11.440285+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691416770/Uniland/components/product-card.png

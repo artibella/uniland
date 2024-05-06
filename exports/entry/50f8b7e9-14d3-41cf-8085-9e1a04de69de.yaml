@@ -1,0 +1,19 @@
+created: '2024-04-26T09:29:27.274931+00:00'
+modified: '2024-04-26T09:29:50.787444+00:00'
+pattern: false
+entry:
+  _id: 50f8b7e9-14d3-41cf-8085-9e1a04de69de
+  _name: Death Proof
+  _slug: death-proof
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BYTdmZmY3Y2QtNjU5NC00OGUxLTg3MWQtMmE2ODM5Mzg3MzcyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt1028528
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

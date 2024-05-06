@@ -1,0 +1,19 @@
+created: '2024-04-26T09:45:14.683062+00:00'
+modified: '2024-04-26T09:45:37.420671+00:00'
+pattern: false
+entry:
+  _id: 0f5679f4-d15f-444c-af0c-cf9c28862134
+  _name: 'Star Wars: Episode I - The Phantom Menace'
+  _slug: star-wars-episode-i-the-phantom-menace
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0120915
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

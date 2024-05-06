@@ -1,0 +1,19 @@
+created: '2024-04-26T09:46:15.200088+00:00'
+modified: '2024-04-26T09:46:38.502007+00:00'
+pattern: false
+entry:
+  _id: 97d1933a-5a46-4aba-b13c-c98cdf78ef92
+  _name: 'Star Wars: Episode II - Attack of the Clones'
+  _slug: star-wars-episode-ii-attack-of-the-clones
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0121765
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

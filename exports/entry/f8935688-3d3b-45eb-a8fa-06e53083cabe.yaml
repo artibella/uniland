@@ -1,0 +1,19 @@
+created: '2024-04-26T09:38:47.344626+00:00'
+modified: '2024-04-26T09:39:48.120724+00:00'
+pattern: false
+entry:
+  _id: f8935688-3d3b-45eb-a8fa-06e53083cabe
+  _name: Seven Samurai
+  _slug: seven-samurai
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNTkwY2I5NWMtMjNlNi00ZThjLWI4NzQtNDI4M2I4OGM1YjAzXkEyXkFqcGdeQXVyNzYxODE3NTQ@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0047478
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

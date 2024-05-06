@@ -1,0 +1,93 @@
+created: '2024-02-28T14:25:47.647877+00:00'
+modified: '2024-04-08T10:59:05.280462+00:00'
+pattern: true
+entry:
+  _id: 53ebd983-3a9d-4f7d-912c-8640c615c717
+  _name: Contentful Post
+  _slug: blog-post-pattern
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/2bn6CN4eFqNW4kjb9tvEzJ/2f59f09cefa5fe2416e125d89f84d37c/4096x2048_twitter_3.png
+  type: blogPost
+  fields:
+    tags:
+      type: $block
+      value: []
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: ecb40a20-ddb7-43dd-b30e-5834c59d90c5
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https:${#jptr:/Contentful Blog
+                  Post/fields/featuredImage/fields/file/url}
+            _source: custom-url
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Contentful Blog Post/fields/title}
+    author:
+      type: text
+      value: ${#jptr:/Contentful Blog Post/fields/author/fields/authorName}
+    postJson:
+      type: json
+      value: ${#jptr:/Contentful Blog Post/fields/content}
+    subtitle:
+      type: text
+      locales:
+        en-US: ${#jptr:/Contentful Blog Post/fields/metaData/fields/description}
+    postImage:
+      type: image
+      locales:
+        en-US: >-
+          https:${#jptr:/Contentful Blog
+          Post/fields/featuredImage/fields/file/url}
+    postCategory:
+      type: $block
+      value:
+        - _id: 7592a8cd-ff65-46b3-a5fc-e4ecf1e9b372
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 843eb543-2082-4a8d-be4a-a2260a35cb2d
+                  type: taxonomyBlock
+                  fields:
+                    url:
+                      type: link
+                      value:
+                        path: >-
+                          /${locale}/blog/category/${#jptr:/Categories Loop
+                          Item/fields/slug}
+                        type: projectMapNode
+                        nodeId: 9646ac16-b4b1-4d99-97e2-81642cf9ecbc
+                        projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                        dynamicInputValues:
+                          locale: ${locale}
+                          category: ${#jptr:/Categories Loop Item/fields/slug}
+                    name:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Categories Loop Item/fields/category}
+                    slug:
+                      type: text
+                      value: ${#jptr:/Categories Loop Item/fields/slug}
+          _dataResources:
+            Categories Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: /Contentful Blog Post/fields/categories
+  _dataResources:
+    Contentful Blog Post:
+      type: singlePost
+      variables:
+        locale: ${locale}
+        entryIds: 5k8iUAYG5dm8gjUP1dEgOU
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US

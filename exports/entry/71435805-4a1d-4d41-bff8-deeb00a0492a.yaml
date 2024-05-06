@@ -1,0 +1,19 @@
+created: '2024-04-26T09:23:21.305907+00:00'
+modified: '2024-04-26T09:23:44.561433+00:00'
+pattern: false
+entry:
+  _id: 71435805-4a1d-4d41-bff8-deeb00a0492a
+  _name: The Hateful Eight
+  _slug: the-hateful-eight
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt3460252
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

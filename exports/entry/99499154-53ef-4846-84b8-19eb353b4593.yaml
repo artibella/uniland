@@ -1,0 +1,19 @@
+created: '2024-04-26T09:41:12.20215+00:00'
+modified: '2024-04-26T09:41:32.440641+00:00'
+pattern: false
+entry:
+  _id: 99499154-53ef-4846-84b8-19eb353b4593
+  _name: 'Ghost in the Shell 2: Innocence'
+  _slug: ghost-in-the-shell-2-innocence
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BZjlkYWVlMjQtMGY3Zi00MWYxLTkxYTItODBkNGUyOWJjMjhjXkEyXkFqcGdeQXVyMTIyNzY1NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0347246
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

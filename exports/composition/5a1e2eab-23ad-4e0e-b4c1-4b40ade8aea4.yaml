@@ -64,24 +64,24 @@ composition:
                           value: >-
                             https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/vw6kLLjPSracZA2LZMSOjg-the-best-slow-cooked-bolognese-sauce-recipe-hero-03_1-3bf4f3401fa84c828f68071df496ddd3.webp
                           type: text
-                        title:
-                          type: text
-                          value: The best slow cooked sauce Bolognese
-                        description:
-                          type: text
-                          value: ''
-                        mediaType:
-                          value: image/webp
-                          type: text
                         size:
                           value: 215262
                           type: number
+                        title:
+                          type: text
+                          value: The best slow cooked sauce Bolognese
                         width:
                           value: 1500
                           type: number
                         height:
                           value: 1125
                           type: number
+                        mediaType:
+                          value: image/webp
+                          type: text
+                        description:
+                          type: text
+                          value: ''
                       _source: uniform-assets
                     - _id: d2cd9025-5a95-472e-8aac-01f93892465d
                       type: image
@@ -262,6 +262,18 @@ composition:
                           type: text
                           value: ''
                       _source: uniform-assets
+            - _id: 5c402dac-f1d3-40ca-ad7e-5a3377912113
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 8763ad3c-498d-4364-8b48-e25f6f89b066
+                    type: imageBlock
+                    _pattern: 3b1818d4-b2df-4e1d-bf78-4af983bd861d
+        parameters:
+          theme:
+            type: select
+            locales:
+              en-US: dark
       - _id: 6c084526-2d9f-4c2f-a063-e4154cf6202a
         type: sectionContainer
         slots:
@@ -280,191 +292,203 @@ composition:
                       fields:
                         logo:
                           type: asset
-                          value:
-                            - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: f8dc1787-1570-4cb2-8757-5e85a40401b2
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
-                                  type: text
-                                size:
-                                  value: 4691
-                                  type: number
-                                title:
-                                  type: text
-                                  value: logoipsum-264.svg
-                                width:
-                                  value: 170
-                                  type: number
-                                height:
-                                  value: 41
-                                  type: number
-                                mediaType:
-                                  value: image/svg+xml
-                                  type: text
-                                description:
-                                  type: text
-                                  value: ''
-                              _source: uniform-assets
+                          locales:
+                            en-US:
+                              - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                    type: text
+                                  size:
+                                    value: 4691
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-264.svg
+                                  width:
+                                    value: 170
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
                         name:
                           type: text
-                          value: Company 1
+                          locales:
+                            en-US: Company 1
                     - _id: a83f3477-3a0d-4b58-bef3-3dc7b8fe2d42
                       type: logo
                       fields:
                         logo:
                           type: asset
-                          value:
-                            - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
-                                  type: text
-                                size:
-                                  value: 4227
-                                  type: number
-                                title:
-                                  type: text
-                                  value: logoipsum-242.svg
-                                width:
-                                  value: 150
-                                  type: number
-                                height:
-                                  value: 57
-                                  type: number
-                                mediaType:
-                                  value: image/svg+xml
-                                  type: text
-                                description:
-                                  type: text
-                                  value: ''
-                              _source: uniform-assets
+                          locales:
+                            en-US:
+                              - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                    type: text
+                                  size:
+                                    value: 4227
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-242.svg
+                                  width:
+                                    value: 150
+                                    type: number
+                                  height:
+                                    value: 57
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
                         name:
                           type: text
-                          value: Company 2
+                          locales:
+                            en-US: Company 2
                     - _id: e5cff4ff-0bef-4da3-a44c-0698e6f27adf
                       type: logo
                       fields:
                         logo:
                           type: asset
-                          value:
-                            - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: 02436b24-44a0-4c0b-be6d-1b4f15863034
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
-                                  type: text
-                                size:
-                                  value: 6602
-                                  type: number
-                                title:
-                                  type: text
-                                  value: logoipsum-285.svg
-                                width:
-                                  value: 186
-                                  type: number
-                                height:
-                                  value: 41
-                                  type: number
-                                mediaType:
-                                  value: image/svg+xml
-                                  type: text
-                                description:
-                                  type: text
-                                  value: ''
-                              _source: uniform-assets
+                          locales:
+                            en-US:
+                              - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                    type: text
+                                  size:
+                                    value: 6602
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-285.svg
+                                  width:
+                                    value: 186
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
                         name:
                           type: text
-                          value: Company 3
+                          locales:
+                            en-US: Company 3
                     - _id: ab074806-a127-4177-b2f8-cfd62f755fde
                       type: logo
                       fields:
                         logo:
                           type: asset
-                          value:
-                            - _id: a9516f15-1f3f-4000-8205-864ad40d0728
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: a9516f15-1f3f-4000-8205-864ad40d0728
-                                url:
-                                  value: >-
-                                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/tpBOOKOyT325xIlB22tw9Q-logoipsum-219.svg
-                                  type: text
-                                size:
-                                  value: 5658
-                                  type: number
-                                title:
-                                  type: text
-                                  value: logoipsum-219.svg
-                                width:
-                                  value: 152
-                                  type: number
-                                height:
-                                  value: 19
-                                  type: number
-                                mediaType:
-                                  value: image/svg+xml
-                                  type: text
-                                description:
-                                  type: text
-                                  value: ''
-                              _source: uniform-assets
+                          locales:
+                            en-US:
+                              - _id: a9516f15-1f3f-4000-8205-864ad40d0728
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: a9516f15-1f3f-4000-8205-864ad40d0728
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/tpBOOKOyT325xIlB22tw9Q-logoipsum-219.svg
+                                    type: text
+                                  size:
+                                    value: 5658
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-219.svg
+                                  width:
+                                    value: 152
+                                    type: number
+                                  height:
+                                    value: 19
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
                         name:
                           type: text
-                          value: Company 4
+                          locales:
+                            en-US: Company 4
                     - _id: a27c7012-5e70-4a06-b2c9-a1af5aa49b9c
                       type: logo
                       fields:
                         logo:
                           type: asset
-                          value:
-                            - _id: fd2785bd-0bcd-42d5-beae-1e4cad1958be
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: fd2785bd-0bcd-42d5-beae-1e4cad1958be
-                                url:
-                                  type: text
-                                  value: https://img.logoipsum.com/288.svg
-                              _source: custom-url
+                          locales:
+                            en-US:
+                              - _id: fd2785bd-0bcd-42d5-beae-1e4cad1958be
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: fd2785bd-0bcd-42d5-beae-1e4cad1958be
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/288.svg
+                                _source: custom-url
                         name:
                           type: text
-                          value: Company 5
+                          locales:
+                            en-US: Company 5
                     - _id: 97495085-2da5-4b2f-b0f2-cfce39333455
                       type: logo
                       fields:
                         logo:
                           type: asset
-                          value:
-                            - _id: e515f038-8284-427c-b253-2feb2bdd33c1
-                              type: image
-                              fields:
-                                id:
-                                  type: text
-                                  value: e515f038-8284-427c-b253-2feb2bdd33c1
-                                url:
-                                  type: text
-                                  value: https://img.logoipsum.com/286.svg
-                              _source: custom-url
+                          locales:
+                            en-US:
+                              - _id: e515f038-8284-427c-b253-2feb2bdd33c1
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: e515f038-8284-427c-b253-2feb2bdd33c1
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/286.svg
+                                _source: custom-url
                         name:
                           type: text
-                          value: Company 6
+                          locales:
+                            en-US: Company 6
                 title:
                   type: text
                   value: Our customers
@@ -477,13 +501,50 @@ composition:
       variables:
         query: Berlin
   _overrides:
+    8763ad3c-498d-4364-8b48-e25f6f89b066:
+      parameters:
+        image:
+          type: asset
+          value:
+            - _id: b3dea6fb-4381-4ac9-b081-4e7777129645
+              type: image
+              fields:
+                id:
+                  type: text
+                  value: edc0334f-85a5-446b-a081-e3596a18f977
+                url:
+                  type: text
+                  value: >-
+                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/40XmylKrQMaKcgBpL9MrJA-AI-generated-image-for-Image
+                file:
+                  type: file
+                  value: d0f257eb-821e-4893-ae6c-c18d172d4a9e
+                size:
+                  type: number
+                  value: 199732
+                title:
+                  type: text
+                  value: AI-generated-image-for-Image
+                width:
+                  type: number
+                  value: 1024
+                height:
+                  type: number
+                  value: 1024
+                mediaType:
+                  type: text
+                  value: image/png
+              _source: uniform-assets
     382220e7-dba4-4480-8f8f-e35060d9f0a1|430eea25-5964-4666-a0bb-50e148f5ae70:
       parameters:
         title:
           type: text
-          value: >-
-            Hot right now: ${#jptr:/Product by handle
-            Content/data/product/title}
+          locales:
+            en-US: >-
+              Hot right now: ${#jptr:/Product by handle
+              Content/data/product/title}
+  _locales:
+    - en-US
 created: '2023-10-09T14:30:34.28457+00:00'
-modified: '2023-11-22T12:20:36.915931+00:00'
+modified: '2024-05-06T15:21:42.46386+00:00'
 pattern: false

@@ -1,0 +1,19 @@
+created: '2024-04-26T09:17:52.973211+00:00'
+modified: '2024-04-26T09:18:12.780515+00:00'
+pattern: false
+entry:
+  _id: dbcda8e5-cfce-4a6e-b14b-867cf4fa2d69
+  _name: The Godfather
+  _slug: the-godfather
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0068646
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

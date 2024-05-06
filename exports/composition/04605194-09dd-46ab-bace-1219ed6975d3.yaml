@@ -14,58 +14,72 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: ${#jptr:/Product by handle Content/data/product/title}
+                  locales:
+                    en-US: >-
+                      ${#jptr:/Product by handle
+                      Content/data/product/title:fa=a:fl=e}
                 tagName:
                   type: select
                   value: h1
         parameters:
           body:
             type: text
-            value: ${#jptr:/Product by handle Content/data/product/description}
+            locales:
+              en-US: ${#jptr:/Product by handle Content/data/product/description}
           imageFit:
             type: select
-            value: cover
+            locales:
+              en-US: cover
           imageUrl:
             type: text
-            value: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+            locales:
+              en-US: >-
+                ${#jptr:/Product by handle
+                Content/data/product/featuredImage/url}
     sections:
-      - _id: 17641aeb-6d93-4550-9df0-1733bcf91066
-        type: sectionContainer
-        slots:
-          content:
-            - _id: 658ba53d-02e3-4ad6-aeb7-932ec89369f4
-              type: brick
       - _id: fad3d313-0004-4750-bc44-be6ba9af5c01
         type: sectionContainer
         slots:
           content:
-            - _id: 97e0557b-7401-453f-bf04-8a5a6adf8d33
-              type: $loop
+            - _id: 9a1ba762-29cc-4324-839d-c2617bf774db
+              type: gridContainer
               slots:
-                body:
-                  - _id: e9b001d4-5a12-4fc5-b63e-5b86369040de
-                    type: card
-                    parameters:
-                      image:
-                        type: text
-                        value: >-
-                          ${#jptr:/Product by handle Content edges Loop
-                          Item/node/image/url}
-                      title:
-                        type: text
-                        value: >-
-                          ${#jptr:/Product by handle Content edges Loop
-                          Item/node/title}
-              _dataResources:
-                Product by handle Content edges Loop Item:
-                  type: sys-reserved-loop
-                  variables:
-                    connectedData: /Product by handle Content/data/product/collections/edges
+                items:
+                  - _id: 97e0557b-7401-453f-bf04-8a5a6adf8d33
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: e9b001d4-5a12-4fc5-b63e-5b86369040de
+                          type: card
+                          parameters:
+                            image:
+                              type: text
+                              locales:
+                                en-US: ${#jptr:/Product Loop Item/node/image/url}
+                            title:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product Loop
+                                  Item/node/title:fa=c:fl=i}
+                    _dataResources:
+                      Product Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: >-
+                            /Product by handle
+                            Content/data/product/collections/edges
+              parameters:
+                columns:
+                  type: number
+                  value: '2'
   _dataResources:
     Product by handle Content:
       type: productByHandle
       variables:
         handle: ${product}
+  _locales:
+    - en-US
 created: '2023-06-07T08:49:36.736468+00:00'
-modified: '2023-10-19T13:59:37.378373+00:00'
+modified: '2024-05-06T15:50:06.894352+00:00'
 pattern: false

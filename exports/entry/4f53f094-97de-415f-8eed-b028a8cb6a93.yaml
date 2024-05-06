@@ -1,0 +1,19 @@
+created: '2024-04-26T09:30:46.113374+00:00'
+modified: '2024-04-26T09:31:07.313998+00:00'
+pattern: false
+entry:
+  _id: 4f53f094-97de-415f-8eed-b028a8cb6a93
+  _name: Oppenheimer
+  _slug: oppenheimer
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMDBmYTZjNjUtN2M1MS00MTQ2LTk2ODgtNzc2M2QyZGE5NTVjXkEyXkFqcGdeQXVyNzAwMjU2MTY@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt15398776
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

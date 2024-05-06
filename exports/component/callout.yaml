@@ -1,0 +1,45 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: callout
+name: Callout
+icon: info
+parameters:
+  - id: name
+    name: Internal name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: title
+    name: Title
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
+description: Callout banner for infos, warnings or errors
+useTeamPermissions: true
+slots:
+  - id: content
+    name: Content
+    allowedComponents:
+      - textBlock
+      - $personalization
+      - $localization
+      - $test
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: name
+canBeComposition: false
+created: '2024-04-29T08:28:29.121348+00:00'
+updated: '2024-04-29T08:28:29.121348+00:00'
+variants:
+  - id: default
+    name: Default
+  - id: info
+    name: Info
+  - id: warning
+    name: Warning
+  - id: error
+    name: Error

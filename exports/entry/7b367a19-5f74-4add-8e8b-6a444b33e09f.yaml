@@ -1,5 +1,5 @@
 created: '2023-10-11T12:33:31.375818+00:00'
-modified: '2024-04-03T19:14:47.805556+00:00'
+modified: '2024-04-17T14:52:16.270413+00:00'
 pattern: false
 entry:
   _id: 7b367a19-5f74-4add-8e8b-6a444b33e09f
@@ -43,6 +43,9 @@ entry:
     difficulty:
       type: select
       value: easy
+    isFeatured:
+      type: checkbox
+      value: true
     cookingTime:
       type: text
       value: 15 minutes

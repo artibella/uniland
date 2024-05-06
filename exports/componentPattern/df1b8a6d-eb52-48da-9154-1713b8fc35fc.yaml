@@ -1,0 +1,144 @@
+composition:
+  _name: 'Two Columns: Icon with Text, Image'
+  _id: df1b8a6d-eb52-48da-9154-1713b8fc35fc
+  type: twoColumns
+  parameters:
+    layout:
+      type: select
+      value: split-50-50
+    gapSize:
+      type: select
+      value: medium
+    leftColumnVerticalAlignment:
+      type: select
+      value: center
+    rightColumnVerticalAlignment:
+      type: select
+      value: center
+    leftColumnHorizontalAlignment:
+      type: select
+      value: start
+    rightColumnHorizontalAlignment:
+      type: select
+      value: start
+  slots:
+    leftContent:
+      - _id: 7f69c1da-5b5b-4ae0-a104-1c708bc3a88d
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 1
+          name:
+            type: text
+            value: Icon
+          specific:
+            type: array
+            value:
+              - imageBlock
+              - $p:aa5562b7-afad-46ab-bdde-91c7ec36053b
+              - $p:a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+      - _id: 5a4653f8-b7ab-45a8-8e1a-121bc15c2997
+        type: textBlock
+        parameters:
+          richText:
+            type: richText
+            locales:
+              en-US:
+                root:
+                  type: root
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - tag: h3
+                      type: heading
+                      format: left
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: <Edit headline>
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                    - type: paragraph
+                      format: ''
+                      indent: 0
+                      version: 1
+                      children:
+                        - mode: normal
+                          text: Insert text here
+                          type: text
+                          style: ''
+                          detail: 0
+                          format: 0
+                          version: 1
+                      direction: ltr
+                  direction: ltr
+          textAlign:
+            type: select
+            value: left
+        _overridability:
+          parameters:
+            body: 'yes'
+            theme: 'no'
+            title: 'no'
+            richText: 'yes'
+            textAlign: 'no'
+            externalRichText: 'yes'
+            group_textStyling: 'yes'
+            group_externalContent: 'yes'
+    rightContent:
+      - _id: 08bd29bf-dc77-4b14-9f63-8da2086de260
+        type: $slotSection
+        parameters:
+          max:
+            type: text
+            value: 1
+          min:
+            type: text
+            value: ''
+          name:
+            type: text
+            value: Image
+          specific:
+            type: array
+            value:
+              - $p:3b1818d4-b2df-4e1d-bf78-4af983bd861d
+              - imageBlock
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      title: 'no'
+      layout: 'yes'
+      gapSize: 'yes'
+      leftColumn: 'yes'
+      rightColumn: 'yes'
+      layoutSettings: 'yes'
+      mobileReverseOrder: 'no'
+      leftColumnVerticalAlignment: 'no'
+      rightColumnVerticalAlignment: 'no'
+      leftColumnHorizontalAlignment: 'no'
+      rightColumnHorizontalAlignment: 'no'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2023-07-11T08:43:58.302679+00:00'
+modified: '2024-05-06T15:36:28.335909+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1691418721/Uniland/components/text-image-two-columns.png
+categoryId: 91f990da-3be3-4559-add7-7580b0108e7c

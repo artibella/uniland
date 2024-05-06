@@ -1,0 +1,19 @@
+created: '2024-04-26T09:47:45.199415+00:00'
+modified: '2024-04-26T09:48:13.575466+00:00'
+pattern: false
+entry:
+  _id: f13e977e-c595-4193-acca-58b9bdd96b04
+  _name: 'Star Wars: Episode VIII - The Last Jedi'
+  _slug: star-wars-episode-viii-the-last-jedi
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt2527336
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

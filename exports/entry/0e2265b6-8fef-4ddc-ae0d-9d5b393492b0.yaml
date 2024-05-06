@@ -1,0 +1,19 @@
+created: '2024-04-26T09:39:56.07253+00:00'
+modified: '2024-04-26T09:40:20.155969+00:00'
+pattern: false
+entry:
+  _id: 0e2265b6-8fef-4ddc-ae0d-9d5b393492b0
+  _name: Ghost in the Shell
+  _slug: ghost-in-the-shell
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BYWRiYjQyOGItNzQ1Mi00MGI1LWE3NjItNTg1ZDQwNjUwNDM2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0113568
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

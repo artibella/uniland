@@ -426,23 +426,7 @@ composition:
                 rightContent:
                   - _id: 682d2f58-36d1-4b98-9fb9-fd2c9edc6749
                     type: imageBlock
-                    parameters:
-                      altText:
-                        type: text
-                        value: Connect your design components
-                      imageUrl:
-                        type: image
-                        value: >-
-                          https://images.ctfassets.net/9ku1oyd4k3wo/6IvNenQ4nbLAZjYGVhPjfK/b07c397a0f5c7db6473617b321e93024/Icon_Import.svg
-                      imageWidth:
-                        type: select
-                        value: icon-xl
-                      aspectRatio:
-                        type: select
-                        value: auto
-                      backgroundStyle:
-                        type: select
-                        value: ''
+                    _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
                   - _id: 8b987e67-95e6-4bec-8412-238cf6821e01
                     type: textBlock
                     parameters:
@@ -1360,24 +1344,24 @@ composition:
                                     type: text
                                     value: 02436b24-44a0-4c0b-be6d-1b4f15863034
                                   url:
-                                    type: text
                                     value: >-
                                       https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                    type: text
                                   size:
-                                    type: number
                                     value: 6602
+                                    type: number
                                   title:
                                     type: text
                                     value: logoipsum-285.svg
                                   width:
-                                    type: number
                                     value: 186
-                                  height:
                                     type: number
+                                  height:
                                     value: 41
+                                    type: number
                                   mediaType:
-                                    type: text
                                     value: image/svg+xml
+                                    type: text
                                   description:
                                     type: text
                                     value: ''
@@ -1390,24 +1374,24 @@ composition:
                                     type: text
                                     value: 02436b24-44a0-4c0b-be6d-1b4f15863034
                                   url:
-                                    type: text
                                     value: >-
                                       https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                    type: text
                                   size:
-                                    type: number
                                     value: 6602
+                                    type: number
                                   title:
                                     type: text
                                     value: logoipsum-285.svg
                                   width:
-                                    type: number
                                     value: 186
-                                  height:
                                     type: number
+                                  height:
                                     value: 41
+                                    type: number
                                   mediaType:
-                                    type: text
                                     value: image/svg+xml
+                                    type: text
                                   description:
                                     type: text
                                     value: ''
@@ -1432,24 +1416,24 @@ composition:
                                     type: text
                                     value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
                                   url:
-                                    type: text
                                     value: >-
                                       https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                    type: text
                                   size:
-                                    type: number
                                     value: 4227
+                                    type: number
                                   title:
                                     type: text
                                     value: logoipsum-242.svg
                                   width:
-                                    type: number
                                     value: 150
-                                  height:
                                     type: number
+                                  height:
                                     value: 57
+                                    type: number
                                   mediaType:
-                                    type: text
                                     value: image/svg+xml
+                                    type: text
                                   description:
                                     type: text
                                     value: ''
@@ -1462,24 +1446,24 @@ composition:
                                     type: text
                                     value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
                                   url:
-                                    type: text
                                     value: >-
                                       https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                    type: text
                                   size:
-                                    type: number
                                     value: 4227
+                                    type: number
                                   title:
                                     type: text
                                     value: logoipsum-242.svg
                                   width:
-                                    type: number
                                     value: 150
-                                  height:
                                     type: number
+                                  height:
                                     value: 57
+                                    type: number
                                   mediaType:
-                                    type: text
                                     value: image/svg+xml
+                                    type: text
                                   description:
                                     type: text
                                     value: ''
@@ -1538,24 +1522,24 @@ composition:
                                     type: text
                                     value: f8dc1787-1570-4cb2-8757-5e85a40401b2
                                   url:
-                                    type: text
                                     value: >-
                                       https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                    type: text
                                   size:
-                                    type: number
                                     value: 4691
+                                    type: number
                                   title:
                                     type: text
                                     value: logoipsum-264.svg
                                   width:
-                                    type: number
                                     value: 170
-                                  height:
                                     type: number
+                                  height:
                                     value: 41
+                                    type: number
                                   mediaType:
-                                    type: text
                                     value: image/svg+xml
+                                    type: text
                                   description:
                                     type: text
                                     value: ''
@@ -1568,24 +1552,24 @@ composition:
                                     type: text
                                     value: f8dc1787-1570-4cb2-8757-5e85a40401b2
                                   url:
-                                    type: text
                                     value: >-
                                       https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                    type: text
                                   size:
-                                    type: number
                                     value: 4691
+                                    type: number
                                   title:
                                     type: text
                                     value: logoipsum-264.svg
                                   width:
-                                    type: number
                                     value: 170
-                                  height:
                                     type: number
+                                  height:
                                     value: 41
+                                    type: number
                                   mediaType:
-                                    type: text
                                     value: image/svg+xml
+                                    type: text
                                   description:
                                     type: text
                                     value: ''
@@ -1743,31 +1727,36 @@ composition:
       variables:
         entryId: ae188464-fe6c-4e4c-9e0c-1e34db5292d3
   _overrides:
-    6bb326e8-3657-4d93-b82e-867f1c29f33d|376c1f3a-a487-4799-b3b7-f93c539ebaf1:
+    b2b7d8f6-c6b2-4073-bef0-e2f68dd65d7d:
       parameters:
         image:
           type: asset
           value:
-            - _id: 68e52799-c64f-4912-980e-d6bffbe083b7
+            - _id: 38e540ee-e4d8-40ab-b7cd-e0433665050e
               type: image
               fields:
-                id:
-                  type: text
-                  value: a2426bf3-2d11-4896-a47e-6ef3711f4a27
                 url:
                   type: text
                   value: >-
-                    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/UMGWma2ITAGEqb3BQnOQeQ-Hero_Integrate.svg
-                title:
-                  type: text
-                  value: Hero_Integrate.svg
-              _source: uniform-assets
-        altText:
-          type: text
-          value: Composable
-        imageUrl:
-          type: text
-          value: null
+                    https://res.cloudinary.com/uniformdev/image/upload/v1/uniformdev/home/create
+              _source: custom-url
+    6bb326e8-3657-4d93-b82e-867f1c29f33d|08bd29bf-dc77-4b14-9f63-8da2086de260:
+      slots:
+        $slotSectionItems:
+          - _id: 6684a6cc-0296-4065-9c6a-ea39388a9bef
+            type: imageBlock
+            parameters:
+              image:
+                type: asset
+                value:
+                  - _id: 687fc650-3ccb-42e1-8cba-ad03d4f39d79
+                    type: image
+                    fields:
+                      url:
+                        type: text
+                        value: >-
+                          https://www.uniform.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Funiformdev%2Fimage%2Fupload%2Fv1%2Funiformdev%2FHomepage_Heroes_Q1_2023_Empower&w=1024&q=75
+                    _source: custom-url
     6bb326e8-3657-4d93-b82e-867f1c29f33d|5a4653f8-b7ab-45a8-8e1a-121bc15c2997:
       parameters:
         title:
@@ -1883,9 +1872,20 @@ composition:
         textAlign:
           type: select
           value: left
+    6bb326e8-3657-4d93-b82e-867f1c29f33d|7f69c1da-5b5b-4ae0-a104-1c708bc3a88d:
+      slots:
+        $slotSectionItems:
+          - _id: b2b7d8f6-c6b2-4073-bef0-e2f68dd65d7d
+            type: imageBlock
+            _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
+            _overridability:
+              parameters:
+                image: 'yes'
+                altText: 'yes'
+              hideLockedParameters: true
   _locales:
     - en-US
     - de-DE
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2024-01-25T09:32:10.948084+00:00'
+modified: '2024-05-06T15:39:09.570059+00:00'
 pattern: false

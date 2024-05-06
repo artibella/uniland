@@ -206,6 +206,7 @@ composition:
                   type: blogPostList
                   variables:
                     limit: '3'
+                    locale: ${locale}
                     offset: '0'
                     orderBy: created_at_DESC
                     contentTypes: blogPost
@@ -231,7 +232,9 @@ composition:
                   type: blogPostList
                   variables:
                     limit: '9'
+                    locale: ${locale}
                     offset: '3'
+                    filters: '{"type[eq]":"blogPost"}'
                     orderBy: created_at_DESC
                     contentTypes: blogPost
                     orderByValue: created_at_DESC
@@ -271,5 +274,5 @@ composition:
     - en-US
     - de-DE
 created: '2023-04-28T16:37:42.575106+00:00'
-modified: '2023-12-13T16:36:25.156946+00:00'
+modified: '2024-04-24T11:39:36.122004+00:00'
 pattern: false

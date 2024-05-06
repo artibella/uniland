@@ -1,0 +1,19 @@
+created: '2024-04-26T09:46:44.435192+00:00'
+modified: '2024-04-26T09:46:59.708867+00:00'
+pattern: false
+entry:
+  _id: af8ba1e1-0db4-4ecc-b96f-f8eddddd7ce4
+  _name: 'Star Wars: Episode III - Revenge of the Sith'
+  _slug: star-wars-episode-iii-revenge-of-the-sith
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0121766
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

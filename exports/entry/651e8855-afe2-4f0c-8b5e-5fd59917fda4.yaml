@@ -1,0 +1,19 @@
+created: '2024-04-26T09:34:11.100941+00:00'
+modified: '2024-04-26T09:34:27.659736+00:00'
+pattern: false
+entry:
+  _id: 651e8855-afe2-4f0c-8b5e-5fd59917fda4
+  _name: 'The Lord of the Rings: The Fellowship of the Ring'
+  _slug: the-lord-of-the-rings-the-fellowship-of-the-ring
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0120737
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

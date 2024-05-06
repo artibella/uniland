@@ -1,0 +1,9 @@
+created: '2024-04-17T14:08:29.593211+00:00'
+modified: '2024-04-17T14:08:29.593211+00:00'
+pattern: false
+entry:
+  _id: e19f942a-e84f-46eb-baad-955060c96406
+  _name: 'New entry: Recipe'
+  _slug: new-entry-recipe
+  type: recipe
+  fields: {}

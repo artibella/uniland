@@ -1,0 +1,28 @@
+composition:
+  _name: Add to Cart CTA
+  _id: 61b3ed78-effc-4ed6-8475-facd49b4cd8b
+  type: callToAction
+  parameters:
+    title:
+      type: text
+      locales:
+        en-US: Add to cart
+    internalLink:
+      type: link
+      value:
+        path: /${locale}/shop
+        type: projectMapNode
+        nodeId: 7156797a-41ca-42b3-a62a-8aecebe461df
+        projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+        dynamicInputValues:
+          locale: ${locale}
+  _overridability:
+    parameters:
+      title: 'yes'
+      internalLink: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-04-23T08:38:40.160433+00:00'
+modified: '2024-04-23T08:41:00.753471+00:00'
+pattern: true

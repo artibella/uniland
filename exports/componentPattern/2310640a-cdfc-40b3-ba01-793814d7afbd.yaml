@@ -1,0 +1,142 @@
+composition:
+  _name: City weather section
+  _id: 2310640a-cdfc-40b3-ba01-793814d7afbd
+  type: sectionContainer
+  parameters:
+    theme:
+      type: select
+      value: ice
+  slots:
+    content:
+      - _id: 1fab79bb-a634-4f6b-bca5-1cc184fc9927
+        type: twoColumns
+        slots:
+          leftContent:
+            - _id: e3655b07-3871-47f3-8d23-b7a53580e226
+              type: heading
+              parameters:
+                align:
+                  type: select
+                  value: center
+                title:
+                  type: text
+                  value: ${#jptr:/City weather Content/main/temp}°
+                byline:
+                  type: text
+                  value: Temperature
+                tagName:
+                  type: select
+                  value: h1
+              _overridability:
+                parameters:
+                  align: 'yes'
+                  theme: 'yes'
+                  title: 'yes'
+                  byline: 'yes'
+                  tagName: 'yes'
+                  titleHtml: 'yes'
+                  titleRichText: 'yes'
+                  showEditorialLine: 'yes'
+            - _id: 2af24507-6565-4cde-bb2a-c00bf3f48470
+              type: imageBlock
+              parameters:
+                altText:
+                  type: text
+                  value: ${#jptr:/City weather Content/weather/0/description}
+                imageUrl:
+                  type: text
+                  value: >-
+                    http://openweathermap.org/img/wn/${#jptr:/City weather
+                    Content/weather/0/icon}@2x.png
+              _overridability:
+                parameters:
+                  image: 'yes'
+                  title: 'yes'
+                  altText: 'yes'
+                  caption: 'yes'
+                  imageFit: 'yes'
+                  imageUrl: 'yes'
+                  imageWidth: 'yes'
+                  aspectRatio: 'yes'
+                  borderRadius: 'yes'
+                  imagePosition: 'yes'
+                  backgroundStyle: 'yes'
+          rightContent:
+            - _id: c68b4cff-dbcb-45a4-aab9-c4103f24d64c
+              type: heading
+              parameters:
+                align:
+                  type: select
+                  value: center
+                title:
+                  type: text
+                  value: ${#jptr:/City weather Content/main/humidity}%
+                byline:
+                  type: text
+                  value: Humidity
+                tagName:
+                  type: select
+                  value: h1
+              _overridability:
+                parameters:
+                  align: 'yes'
+                  theme: 'yes'
+                  title: 'yes'
+                  byline: 'yes'
+                  tagName: 'yes'
+                  titleHtml: 'yes'
+                  titleRichText: 'yes'
+                  showEditorialLine: 'yes'
+        parameters:
+          leftColumnHorizontalAlignment:
+            type: select
+            value: center
+          rightColumnHorizontalAlignment:
+            type: select
+            value: center
+        _overridability:
+          parameters:
+            title: 'yes'
+            layout: 'yes'
+            gapSize: 'yes'
+            mobileReverseOrder: 'yes'
+            leftColumnVerticalAlignment: 'yes'
+            rightColumnVerticalAlignment: 'yes'
+            leftColumnHorizontalAlignment: 'yes'
+            rightColumnHorizontalAlignment: 'yes'
+    heading:
+      - _id: 5624cc52-079a-4988-b46a-9086de7dc469
+        type: heading
+        parameters:
+          align:
+            type: select
+            value: center
+          title:
+            type: text
+            value: "Weather check for\_${#jptr:/City weather Content/name}"
+          tagName:
+            type: select
+            value: h3
+        _overridability:
+          parameters:
+            align: 'yes'
+            theme: 'yes'
+            title: 'yes'
+            byline: 'yes'
+            tagName: 'yes'
+            titleHtml: 'yes'
+            titleRichText: 'yes'
+            showEditorialLine: 'yes'
+  _dataResources:
+    City weather Content:
+      type: cityWeather
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    parameters:
+      theme: 'yes'
+      title: 'yes'
+created: '2023-08-23T09:02:42.626651+00:00'
+modified: '2023-08-23T09:32:07.61297+00:00'
+pattern: true

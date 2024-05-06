@@ -1,7 +1,7 @@
 composition:
   _name: Summer Specials
   _id: 33db061b-e0ec-4c3c-b3f0-0fb255e00c76
-  _slug: ':collection-copy-copy'
+  _slug: summer-specials
   type: page
   slots:
     hero:
@@ -87,5 +87,5 @@ composition:
   _locales:
     - en-US
 created: '2023-05-16T13:15:10.130761+00:00'
-modified: '2024-01-05T11:13:09.559461+00:00'
+modified: '2024-05-06T10:55:05.789485+00:00'
 pattern: false

@@ -1,0 +1,19 @@
+created: '2024-04-26T09:37:57.925402+00:00'
+modified: '2024-04-26T09:38:07.438138+00:00'
+pattern: false
+entry:
+  _id: 5255d0e5-6366-4c4b-bed2-9017c1a065c5
+  _name: The Good, the Bad and the Ugly
+  _slug: the-good-the-bad-and-the-ugly
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNjJlYmNkZGItM2NhYy00MjlmLTk5NmQtNjg1NmM2ODU4OTMwXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0060196
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

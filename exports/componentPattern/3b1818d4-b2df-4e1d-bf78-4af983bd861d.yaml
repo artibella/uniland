@@ -1,0 +1,43 @@
+composition:
+  _name: Round image
+  _id: 3b1818d4-b2df-4e1d-bf78-4af983bd861d
+  type: imageBlock
+  parameters:
+    image:
+      type: asset
+      value:
+        - _id: f098dc8d-52d8-426c-b0b8-522b2261ca41
+          type: image
+          fields:
+            url:
+              type: text
+              value: https://placehold.it/200x200
+          _source: custom-url
+    imageFit:
+      type: select
+      value: cover
+    aspectRatio:
+      type: select
+      value: square
+    borderRadius:
+      type: select
+      value: full
+  _overridability:
+    parameters:
+      image: 'yes'
+      title: 'no'
+      altText: 'yes'
+      caption: 'yes'
+      imageFit: 'yes'
+      imageUrl: 'no'
+      imageWidth: 'yes'
+      aspectRatio: 'no'
+      borderRadius: 'no'
+      imagePosition: 'yes'
+      backgroundStyle: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-01-10T08:43:37.119242+00:00'
+modified: '2024-05-06T14:53:47.045678+00:00'
+pattern: true

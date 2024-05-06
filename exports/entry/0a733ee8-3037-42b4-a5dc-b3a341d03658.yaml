@@ -1,0 +1,19 @@
+created: '2024-04-26T09:44:02.210518+00:00'
+modified: '2024-04-26T09:44:17.141543+00:00'
+pattern: false
+entry:
+  _id: 0a733ee8-3037-42b4-a5dc-b3a341d03658
+  _name: 'Star Wars: Episode V - The Empire Strikes Back'
+  _slug: star-wars-episode-v-the-empire-strikes-back
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0080684
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

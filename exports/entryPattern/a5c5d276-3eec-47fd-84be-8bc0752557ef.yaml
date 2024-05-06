@@ -1,0 +1,82 @@
+created: '2024-02-09T11:07:44.869811+00:00'
+modified: '2024-05-06T13:53:57.134072+00:00'
+pattern: true
+entry:
+  _id: a5c5d276-3eec-47fd-84be-8bc0752557ef
+  _name: FakeCommerce Product
+  _slug: fake-commerce-product
+  _thumbnail: >-
+    https://res.cloudinary.com/uniform-demos/image/upload/v1692273194/products/light-roast-coffee-80-1_mqiwln_sevusg.jpg
+  type: product
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/0/name}
+    images:
+      type: asset
+      locales:
+        en-US: []
+    variants:
+      type: $block
+      value: []
+    reference:
+      type: text
+      value: ${#jptr:/Product/0/id}
+    teaserText:
+      type: text
+      locales:
+        en-US: ${#jptr:/Product/0/description}
+    collections:
+      type: $block
+      value: []
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Product/0/description'
+                direction: null
+            direction: null
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: b6e31e59-5b0d-423b-99f3-17e3b212a4fc
+            type: image
+            fields:
+              url:
+                type: text
+                value: ${#jptr:/Product/0/images/0/url}
+              title:
+                type: text
+                value: ${#jptr:/Product/0/name}
+            _source: custom-url
+  _dataResources:
+    Product:
+      type: fakeProduct
+      variables:
+        productIds: '80'
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    parameters:
+      name: 'yes'
+      images: 'yes'
+      reference: 'yes'
+      description: 'yes'
+      featuredImage: 'yes'

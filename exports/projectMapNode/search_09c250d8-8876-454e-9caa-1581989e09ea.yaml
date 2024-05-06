@@ -1,0 +1,8 @@
+id: 09c250d8-8876-454e-9caa-1581989e09ea
+name: search
+order: 500
+path: /:locale/demos/recipes/search
+type: placeholder
+pathSegment: search
+data: {}
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

@@ -1,0 +1,19 @@
+created: '2024-04-26T09:19:06.593864+00:00'
+modified: '2024-04-26T09:19:22.6903+00:00'
+pattern: false
+entry:
+  _id: 7d469f39-75a7-4418-af3c-18ce254c3fc0
+  _name: The Godfather Part II
+  _slug: the-godfather-part-ii
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0071562
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

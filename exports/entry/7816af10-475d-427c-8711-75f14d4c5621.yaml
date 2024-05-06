@@ -1,0 +1,19 @@
+created: '2024-04-26T09:33:20.596871+00:00'
+modified: '2024-04-26T09:33:32.423066+00:00'
+pattern: false
+entry:
+  _id: 7816af10-475d-427c-8711-75f14d4c5621
+  _name: 'The Lord of the Rings: The Return of the King'
+  _slug: the-lord-of-the-rings-the-return-of-the-king
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0167260
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

@@ -1,5 +1,5 @@
 created: '2024-04-03T19:14:54.482647+00:00'
-modified: '2024-04-03T19:14:54.482647+00:00'
+modified: '2024-04-17T14:25:01.610145+00:00'
 pattern: false
 entry:
   _id: 8694bc29-425c-4d36-b8c2-5ce9fd3fe6ea
@@ -40,6 +40,9 @@ entry:
       type: text
       locales:
         en-US: TODO
+    difficulty:
+      type: select
+      value: advanced
     description:
       type: richText
       value:

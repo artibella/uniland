@@ -1,0 +1,131 @@
+created: '2024-04-03T19:21:16.570872+00:00'
+modified: '2024-04-03T19:27:38.264606+00:00'
+pattern: true
+entry:
+  _id: 4315b653-79ae-433c-9191-c105a687329c
+  _name: OMBD Movie
+  _slug: movie-pattern
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+  type: movie
+  fields:
+    plot:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Plot}
+    type:
+      type: select
+      value: ${#jptr:/Movie/Type}
+    genre:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Genre}
+    rated:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Rated}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Title}
+    actors:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Actors}
+    awards:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Awards}
+    imdbID:
+      type: text
+      value: ${#jptr:/Movie/imdbID}
+    poster:
+      type: asset
+      value:
+        - _id: 04f543a9-5238-4cae-9ccd-068d203ddef3
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Movie/Poster}
+          _source: custom-url
+    writer:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Writer}
+    ratings:
+      type: $block
+      value:
+        - _id: 97291229-e277-4186-be56-fa3887e581e5
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: bdaae70e-26b1-4fe8-b07c-4415dc9dc6e2
+                  type: rating
+                  fields:
+                    source:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Movie Ratings Loop Item/Source}
+                    ratingValue:
+                      type: text
+                      value: ${#jptr:/Movie Ratings Loop Item/Value}
+          _dataResources:
+            Movie Ratings Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: /Movie/Ratings
+    runtime:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Runtime}
+    abstract:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Plot}
+    director:
+      type: text
+      value: ${#jptr:/Movie/Director}
+    imdbVotes:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/imdbVotes}
+    metascore:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Metascore}
+    imdbRating:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/imdbRating}
+    inLanguage:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Language}
+    releaseDate:
+      type: date
+      value: ${#jptr:/Movie/isoReleased}
+    dvdReleaseDate:
+      type: date
+      value: ${#jptr:/Movie/isoDVD}
+    boxOfficeIncome:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/BoxOffice}
+    countryOfOrigin:
+      type: text
+      locales:
+        en-US: ${#jptr:/Movie/Country}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0110912
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    hideLockedParameters: true

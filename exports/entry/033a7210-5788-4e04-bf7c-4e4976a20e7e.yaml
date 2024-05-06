@@ -1,0 +1,19 @@
+created: '2024-04-26T09:44:29.321871+00:00'
+modified: '2024-04-26T09:44:41.695625+00:00'
+pattern: false
+entry:
+  _id: 033a7210-5788-4e04-bf7c-4e4976a20e7e
+  _name: 'Star Wars: Episode VI - Return of the Jedi'
+  _slug: star-wars-episode-vi-return-of-the-jedi
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0086190
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c
