@@ -6,7 +6,8 @@ const config: CLIConfiguration = {
       locale: {},
       category: {},
       component: {},
-      pattern: { publish: true },
+      componentPattern: { publish: true },
+      entryPattern: { publish: true },
       composition: { publish: true },
       dataType: {},
       projectMapDefinition: {},
@@ -18,7 +19,7 @@ const config: CLIConfiguration = {
       quirk: {},
       enrichment: {},
       aggregate: {},
-      signal: {}
+      signal: {},
     },
     directory: './exports',
     format: 'yaml',
