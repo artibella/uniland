@@ -46,14 +46,15 @@ export async function getStaticProps() {
     .getEntries({
       filters: {
         type: { eq: 'recipe' },
-        'fields.difficulty': { in: ['easy', 'medium'] },
+        // 'fields.difficulty': { in: ['easy', 'medium'] },
       },
+      locale: 'en-US',
       search: 'pizza',
-      skipDataResolution: true,
       limit: 20,
       orderBy: 'fields.ratingValue_DESC',
     })
     .then(recipes => {
+      console.log('recipes', recipes);
       return recipes.entries;
     });
 
