@@ -1,0 +1,51 @@
+created: '2024-05-08T22:19:20.749374+00:00'
+modified: '2024-05-09T00:36:23.087316+00:00'
+pattern: true
+entry:
+  _id: 0049b1ef-ae16-4643-967b-4d3964b1d3ed
+  _name: Partner
+  _slug: organization-pattern
+  _thumbnail: >-
+    //images.ctfassets.net/wixnju9zmprr/7mw2RDUeNuVkj1i13gbt8q/53dd9287646da0348b332bf769919989/kruso-Gul.png
+  type: organization
+  fields:
+    url:
+      type: link
+      value:
+        path: ${#jptr:/Partner/fields/link}
+        type: url
+    logo:
+      type: asset
+      value:
+        - _id: 80a503d2-2565-488b-8d94-25bdb67ea4d7
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Partner/fields/logo/fields/file/url}
+          _source: custom-url
+    name:
+      type: text
+      value: ${#jptr:/Partner/fields/title}
+  _dataResources:
+    Partner:
+      type: partner
+      variables:
+        locale: ''
+        entryIds: 4Se1RI4BSFCCvPFO9szKLP
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - de-DE
+    - en-US
+  _overridability:
+    parameters:
+      url: 'yes'
+      logo: 'yes'
+      name: 'yes'
+      email: 'yes'
+      telephone: 'yes'
+      postalCode: 'no'
+      streetAddress: 'no'
+      addressLocality: 'no'
+    hideLockedParameters: true

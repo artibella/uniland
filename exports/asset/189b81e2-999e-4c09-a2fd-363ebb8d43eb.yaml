@@ -1,11 +1,11 @@
 asset:
   type: image
   _id: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
-  _name: ''
+  _name: GreenTshirt01.webp
   fields:
     title:
       type: text
-      value: GreenTshirt01.webp
+      value: Green Tshirt
     description:
       type: text
       value: ''
@@ -30,4 +30,4 @@ asset:
       type: number
     custom: {}
 created: '2023-10-09T14:33:37.331358+00:00'
-modified: '2023-10-09T14:33:37.331358+00:00'
+modified: '2024-05-08T18:26:13.480798+00:00'

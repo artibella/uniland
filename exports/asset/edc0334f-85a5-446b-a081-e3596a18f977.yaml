@@ -1,7 +1,7 @@
 asset:
   type: image
   _id: edc0334f-85a5-446b-a081-e3596a18f977
-  _name: ''
+  _name: AI-generated-image-for-Image
   fields:
     title:
       type: text
@@ -27,4 +27,4 @@ asset:
       type: number
     custom: {}
 created: '2024-01-04T12:32:46.213971+00:00'
-modified: '2024-01-04T12:32:46.213971+00:00'
+modified: '2024-05-08T18:23:00.710876+00:00'

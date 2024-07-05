@@ -1,12 +1,12 @@
 created: '2023-11-03T14:15:31.953305+00:00'
-modified: '2024-04-15T15:37:44.001819+00:00'
+modified: '2024-05-08T18:26:35.236286+00:00'
 pattern: false
 entry:
   _id: 494618cb-7c90-4f49-9606-6fbdd83ca8e9
   _name: Men's T-shirt
   _slug: mens-t-shirt
   _thumbnail: >-
-    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/XmGn1tQKRZGKd86hTgHduQ-GreenTshirt01.webp
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/z-xYqYKTT3mWVbp2b_JLmA-GreenTshirt01.webp
   type: product
   fields:
     name:
@@ -74,25 +74,25 @@ entry:
       type: asset
       locales:
         en-US:
-          - _id: 252c8647-97fe-4493-bfbd-024ec11fbf20
+          - _id: 149b2e08-1452-40eb-b041-ac077554d4b9
             type: image
             fields:
               id:
                 type: text
-                value: 8313a4ce-6981-4861-bf40-c4158403e7ae
+                value: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
               url:
                 value: >-
-                  https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/XmGn1tQKRZGKd86hTgHduQ-GreenTshirt01.webp
+                  https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/z-xYqYKTT3mWVbp2b_JLmA-GreenTshirt01.webp
                 type: text
               file:
                 type: file
-                value: 3d37d004-84ce-4384-a8e2-6f22aec9b67a
+                value: 189b81e2-999e-4c09-a2fd-363ebb8d43eb
               size:
                 value: 49550
                 type: number
               title:
                 type: text
-                value: GreenTshirt01.webp
+                value: Green Tshirt
               width:
                 value: 1445
                 type: number
@@ -102,6 +102,9 @@ entry:
               mediaType:
                 value: image/webp
                 type: text
+              description:
+                type: text
+                value: ''
             _source: uniform-assets
   _dataResources:
     Product by handle Content:

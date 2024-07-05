@@ -1,5 +1,5 @@
 created: '2023-06-30T15:13:43.897246+00:00'
-modified: '2024-04-03T19:14:48.608329+00:00'
+modified: '2024-07-04T14:52:58.902399+00:00'
 pattern: false
 entry:
   _id: 3a2a073e-d118-4401-9187-50d50b30167e
@@ -7,6 +7,11 @@ entry:
   _slug: composable-experiences-with-salesforce-b2b-commerce
   type: event
   fields:
+    end:
+      type: datetime
+      value:
+        datetime: '2023-06-23T17:00:00.000Z'
+        timeZone: America/Los_Angeles
     link:
       type: link
       value:
@@ -17,24 +22,17 @@ entry:
       type: image
       value: >-
         https://media.licdn.com/dms/image/D4E1EAQHUDQJJQR3k_Q/event-background-image-crop_720_1280/0/1686209179348?e=1688745600&v=beta&t=3LjpDjKskE-7cf8OYMjxhsBd6LTCAJHz_fcq9acSjQc
+    start:
+      type: datetime
+      value:
+        datetime: '2023-06-23T16:00:00.000Z'
+        timeZone: America/Los_Angeles
     title:
       type: text
       value: Composable Experiences with Salesforce B2B Commerce
-    endDate:
-      type: text
-      value: '2023-06-23'
-    endTime:
-      type: text
-      value: '18:00'
     eventType:
       type: select
       value: webinar
-    startDate:
-      type: text
-      value: '2023-06-22'
-    startTime:
-      type: text
-      value: '17:00'
     description:
       type: richText
       value:
@@ -169,3 +167,5 @@ entry:
     attendanceMode:
       type: select
       value: online
+  _locales:
+    - en-US

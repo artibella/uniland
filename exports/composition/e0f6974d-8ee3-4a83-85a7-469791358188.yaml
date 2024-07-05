@@ -4,6 +4,50 @@ composition:
   _slug: integrations
   type: page
   slots:
+    hero:
+      - _id: 806c785b-29e7-4e15-a729-3cafb37fe069
+        type: hero
+        slots:
+          ctas:
+            - _id: c8e43efd-785b-494b-8c2f-5b22da401033
+              type: callToAction
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: View website
+                internalLink:
+                  type: link
+                  value:
+                    path: ${#jptr:/Partner/entry/fields/url/value/path}
+                    type: url
+          heading:
+            - _id: e73c730a-b92d-403c-9d2e-6cf0924c00ef
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Partner/entry/fields/name/value}
+                byline:
+                  type: text
+                  locales:
+                    en-US: Featured partner
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+        parameters:
+          imageFit:
+            type: select
+            locales:
+              en-US: scale-down
+          imageUrl:
+            type: text
+            locales:
+              en-US: ${#jptr:/Partner/entry/fields/logo/value/0/fields/url/value}
     sections:
       - _id: 7f3314f6-7777-4871-8a8f-547c7c9d9257
         type: sectionContainer
@@ -86,14 +130,29 @@ composition:
         parameters:
           theme:
             type: select
-            value: dark
-  _dataResources: {}
+            locales:
+              en-US: dark
+  _dataResources:
+    Partner:
+      type: organization
+      variables:
+        locale: ${locale}
+        entryId: ae514960-ed3f-4c42-bf38-275d9e38b0a9
+    Selected Partners:
+      type: selectedOrganizations
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          ae514960-ed3f-4c42-bf38-275d9e38b0a9,b143bd9b-3e50-4ef1-bfac-4d7a802a9675
   _overrides:
     510be920-0746-42a8-9918-3173d14ec2e5:
       parameters:
         image:
           type: text
-          value: https:${#jptr:/Integration/fields/icon/fields/file/url}
+          locales:
+            en-US: https:${#jptr:/Integration/fields/icon/fields/file/url}
+  _locales:
+    - en-US
 created: '2023-01-04T19:02:46.123358+00:00'
-modified: '2023-10-31T10:36:40.713654+00:00'
+modified: '2024-05-08T22:47:54.158753+00:00'
 pattern: false

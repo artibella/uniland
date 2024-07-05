@@ -1,17 +1,18 @@
-id: blogPost
-displayName: Blog Post
+id: movieContent
+displayName: Movie
 ttl: 30
+body: ''
 path: /single
 custom:
-  proposedName: Blog Post
+  proposedName: Movie
   allowedContentTypes:
-    - blogPost
+    - movie
 method: GET
-purgeKey: 4b649181-f11c-4391-9314-abe13e87262a
+purgeKey: 1051273c-ca35-40d5-bff3-d80d21cb6bc6
 archetype: singleEntry
 variables:
   entryId:
     type: text
     default: ''
-dataSourceId: uniformContent
+dataSourceId: uniland
 allowedOnComponents: []

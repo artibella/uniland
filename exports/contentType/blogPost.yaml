@@ -1,13 +1,14 @@
 id: blogPost
 name: Blog Post
 created: '2023-05-25T12:26:42.445534+00:00'
-updated: '2024-04-03T19:14:01.925307+00:00'
+updated: '2024-05-17T09:15:01.482372+00:00'
 slugSettings:
   unique: 'no'
   required: 'yes'
   regularExpression: ''
   regularExpressionMessage: ''
-useTeamPermissions: true
+useTeamPermissions: false
+workflowId: e8bf1a00-bd6b-4f7f-9bb4-609994957c1f
 fields:
   - id: title
     name: Title
@@ -129,4 +130,40 @@ thumbnailField: image
 description: A content type of a simple blog post
 icon: file-document
 type: contentType
-permissions: []
+permissions:
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: read
+    state: 0
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: read
+    state: 64
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: write
+    state: 0
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: write
+    state: 64
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: create
+    state: 0
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: create
+    state: 64
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: delete
+    state: 0
+  - roleId: 546097cd-9189-45be-8c07-87633f997da8
+    permission: delete
+    state: 64
+  - roleId: 05e14931-3aa0-4fb3-afa4-822f00cd8539
+    permission: read
+    state: 0
+  - roleId: 05e14931-3aa0-4fb3-afa4-822f00cd8539
+    permission: read
+    state: 64
+  - roleId: 05e14931-3aa0-4fb3-afa4-822f00cd8539
+    permission: write
+    state: 0
+  - roleId: 05e14931-3aa0-4fb3-afa4-822f00cd8539
+    permission: write
+    state: 64

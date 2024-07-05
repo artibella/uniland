@@ -3,15 +3,24 @@ composition:
   _id: 8137751c-c178-4b53-80a8-25f36770a99e
   type: card
   parameters:
+    body:
+      type: text
+      locales:
+        en-US: ${#jptr:/Blog Post/entry/fields/subtitle/value:fa=p}
     image:
       type: text
-      value: ${#jptr:/Blog Post/entry/fields/postImage/value}
+      locales:
+        en-US: >-
+          ${#jptr:/Blog
+          Post/entry/fields/postImage/value:fd=https\;//images.unsplash.com/photo-1542435503-956c469947f6?q\+80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D}
     title:
       type: text
-      value: ${#jptr:/Blog Post/entry/fields/title/value}
+      locales:
+        en-US: ${#jptr:/Blog Post/entry/fields/title/value}
     byline:
       type: text
-      value: ${#jptr:/Blog Post/entry/_author}
+      locales:
+        en-US: ${#jptr:/Blog Post/entry/_author}
   slots:
     actions:
       - _id: 3b6c0e08-e10b-40b3-ac7f-9c2a1a6ad0bc
@@ -19,7 +28,8 @@ composition:
         parameters:
           title:
             type: text
-            value: Read post
+            locales:
+              en-US: Read post
           internalLink:
             type: link
             value:
@@ -33,11 +43,17 @@ composition:
     Blog Post:
       type: blogPost
       variables:
-        entryId: 3e79e06e-aacf-4589-8ab4-c1f43ae9c89c
+        locale: ${locale}
+        entryId: ed578198-613c-436a-bb2a-baa31a81e9aa
+        entryIds: >-
+          569664c3-0336-4aed-a30d-a8704fe34fb5,ed578198-613c-436a-bb2a-baa31a81e9aa
       isPatternParameter: true
       ignorePatternParameterDefault: true
+  _locales:
+    - en-US
 created: '2023-05-22T22:18:41.279517+00:00'
-modified: '2023-08-07T14:07:42.432561+00:00'
+modified: '2024-06-06T09:37:01.203328+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1691416931/Uniland/components/card.png
+categoryId: 7c7c6ecc-9368-4cb5-92b4-7b4d25dbf457

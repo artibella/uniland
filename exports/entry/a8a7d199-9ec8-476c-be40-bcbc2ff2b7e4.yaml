@@ -1,5 +1,5 @@
 created: '2023-06-30T14:51:39.39133+00:00'
-modified: '2024-04-03T19:15:25.98399+00:00'
+modified: '2024-07-01T15:57:40.780571+00:00'
 pattern: false
 entry:
   _id: a8a7d199-9ec8-476c-be40-bcbc2ff2b7e4
@@ -11,24 +11,17 @@ entry:
       type: image
       value: >-
         https://media.licdn.com/dms/image/D4E1EAQFGxsad8M1CSw/event-background-image-crop_720_1280/0/1686912915865?e=1688742000&v=beta&t=ouv4uiQ3rlvTfvvNbo4RTMXkjz7ve6p3dmBMSz_Fn34
+    start:
+      type: datetime
+      value:
+        datetime: '2023-06-29T15:00:00.000Z'
+        timeZone: Europe/Vienna
     title:
       type: text
       value: Living on the edge | Delivering dynamic content faster
-    endDate:
-      type: text
-      value: '2023-06-29'
-    endTime:
-      type: text
-      value: '18:00'
     eventType:
       type: select
       value: webinar
-    startDate:
-      type: text
-      value: '2023-06-29'
-    startTime:
-      type: text
-      value: '17:00'
     teaserText:
       type: text
       value: >-
@@ -236,3 +229,5 @@ entry:
     internalName:
       type: text
       value: 'Vercel Webinar: Living on the edge'
+  _locales:
+    - en-US

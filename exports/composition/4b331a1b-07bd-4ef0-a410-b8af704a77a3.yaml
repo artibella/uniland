@@ -85,13 +85,13 @@ composition:
       type: recipeList
       variables:
         locale: ${locale}
-        filters: >-
-          {"type[eq]":"recipe","fields.name[match]":"${search}","locale[eq]":"${locale}"}
-        orderBy: fields.ratingValue_DESC
+        search: ${search}
+        filters: '{"type[eq]":"recipe","locale[eq]":"${locale}"}'
+        orderBy: fields.publishDate_DESC
         contentTypes: recipe
   _locales:
     - en-US
     - de-DE
 created: '2024-04-24T11:42:04.721185+00:00'
-modified: '2024-04-24T11:52:01.333715+00:00'
+modified: '2024-06-07T12:40:08.426389+00:00'
 pattern: false

@@ -1,7 +1,7 @@
 id: recipe
 name: Recipe
 created: '2023-10-11T11:33:51.958828+00:00'
-updated: '2024-04-17T14:51:40.654454+00:00'
+updated: '2024-05-14T13:03:10.237913+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -234,6 +234,23 @@ fields:
     type: checkbox
     helpText: ''
     typeConfig: null
+    localizable: false
+  - id: mealType
+    name: Meal type
+    type: multi-select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Breakfast
+          value: breakfast
+        - text: Lunch
+          value: lunch
+        - text: Dinner
+          value: dinner
+        - text: Snack
+          value: snack
+        - text: Brunch
+          value: brunch
     localizable: false
 entryName: name
 thumbnailField: featuredImage

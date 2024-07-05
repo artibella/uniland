@@ -6,76 +6,66 @@ composition:
   parameters:
     title:
       type: text
-      value: ${#jptr:/Post/entry/fields/title/value}
+      value: 'Blog post: ${#jptr:/Post/entry/fields/title/value:fa=a:fl=e}'
+    description:
+      type: text
+      locales:
+        de-DE: ${#jptr:/Post/entry/fields/subtitle/value:fl=i}
+        en-US: ${#jptr:/Post/entry/fields/subtitle/value:fl=i}
   slots:
+    hero:
+      - _id: 74218462-5c15-4dc8-8e98-cd2d1ec7dd94
+        type: hero
+        slots:
+          heading:
+            - _id: e7ca7e5a-1919-425f-9cd3-74ca88c85613
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    de-DE: ${#jptr:/Post/entry/fields/title/value}
+                    en-US: ${#jptr:/Post/entry/fields/title/value}
+                byline:
+                  type: text
+                  locales:
+                    de-DE: Von ${#jptr:/Post/entry/fields/author/value:fa=p:fl=i}
+                    en-US: By ${#jptr:/Post/entry/fields/author/value:fa=p:fl=i}
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Post/entry/fields/subtitle/value:fl=i}
+              en-US: ${#jptr:/Post/entry/fields/subtitle/value:fl=i}
+          title:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Post/entry/fields/title/value}
+              en-US: ${#jptr:/Post/entry/fields/title/value}
+          imageFit:
+            type: select
+            locales:
+              en-US: contain
+          imageUrl:
+            type: text
+            locales:
+              de-DE: >-
+                ${#jptr:/Post/entry/fields/postImage/value:fl=i:fd=https\;//images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q\+80&w}
+              en-US: >-
+                ${#jptr:/Post/entry/fields/postImage/value:fl=i:fd=https\;//images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q\+80&w}
+          imageAltText:
+            type: text
+            locales:
+              de-DE: ${#jptr:/Post/entry/fields/title/value}
+              en-US: ${#jptr:/Post/entry/fields/title/value}
     sections:
       - _id: 421f0595-c222-47ee-816b-5b105436b93b
         type: sectionContainer
         slots:
           content:
-            - _id: c103f686-3ce0-45e2-a56a-d2e85cd29c1e
-              type: twoColumns
-              slots:
-                leftContent:
-                  - _id: 055c3308-f3f3-43d8-bd4e-8b2848539979
-                    type: heading
-                    parameters:
-                      title:
-                        type: text
-                        locales:
-                          de-DE: ${#jptr:/Post/entry/fields/title/value}
-                          en-US: ${#jptr:/Post/entry/fields/title/value}
-                      titleRichText:
-                        type: richText
-                        locales:
-                          de-DE:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - type: variable
-                                      version: 1
-                                      reference: '#jptr:/Post/entry/fields/title/value'
-                                  direction: null
-                              direction: null
-                          en-US:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - type: variable
-                                      version: 1
-                                      reference: '#jptr:/Post/entry/fields/title/value'
-                                  direction: null
-                              direction: null
-                rightContent:
-                  - _id: 4a7736ec-4318-44cd-ad40-ebc129bf7784
-                    type: imageBlock
-                    parameters:
-                      imageUrl:
-                        type: image
-                        value: ${#jptr:/Post/entry/fields/postImage/value}
-              parameters:
-                layout:
-                  type: select
-                  value: split-two-one
-                rightColumnVerticalAlignment:
-                  type: select
-                  value: center
             - _id: f7adf8db-43f9-4b04-b9fd-e157cf06b372
               type: textBlock
               parameters:
@@ -87,19 +77,15 @@ composition:
                 textAlign:
                   type: select
                   value: left
-                externalRichText:
-                  type: json
-                  locales:
-                    de-DE: ${#jptr:/Post/items/0/fields/content}
-                    en-US: ${#jptr:/Post/items/0/fields/content}
   _dataResources:
     Post:
       type: blogPostBySlug
       variables:
         slug: ${slug}
+        locale: ${locale},en-US
   _locales:
     - en-US
     - de-DE
 created: '2023-05-22T22:39:10.655331+00:00'
-modified: '2023-12-14T10:02:37.187474+00:00'
+modified: '2024-06-06T10:48:40.8822+00:00'
 pattern: false

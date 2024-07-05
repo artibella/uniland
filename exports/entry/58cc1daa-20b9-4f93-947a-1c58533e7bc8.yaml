@@ -1,5 +1,5 @@
 created: '2023-06-30T15:31:54.782+00:00'
-modified: '2024-04-03T19:14:50.093164+00:00'
+modified: '2024-07-01T16:00:50.499188+00:00'
 pattern: false
 entry:
   _id: 58cc1daa-20b9-4f93-947a-1c58533e7bc8
@@ -7,6 +7,11 @@ entry:
   _slug: rifacimento-definitivo-rendi-moderna-e-componibile-una
   type: event
   fields:
+    end:
+      type: datetime
+      value:
+        datetime: '2023-11-08T18:00:00.000Z'
+        timeZone: America/Los_Angeles
     link:
       type: link
       value:
@@ -17,6 +22,11 @@ entry:
       type: image
       value: >-
         https://media.licdn.com/dms/image/D4E24AQFViYDaA22crQ/feedshare-live-thumbnail_high/0/1687442417681?e=1688745600&v=beta&t=vuxrGa1k8e1MhfO6vq771phlI8-eAcNResD7jM3lu7g
+    start:
+      type: datetime
+      value:
+        datetime: '2023-11-08T17:00:00.000Z'
+        timeZone: America/Los_Angeles
     title:
       type: text
       value: >-

@@ -1,0 +1,15 @@
+id: movies
+displayName: movies
+ttl: 30
+path: /movies
+custom:
+  proposedName: movies
+method: GET
+purgeKey: 48e6c1b6-6a92-4d8b-8925-9459e0ea4312
+archetype: default
+variables:
+  Movie ID:
+    type: text
+    default: ''
+dataSourceId: omdbApi
+allowedOnComponents: []

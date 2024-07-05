@@ -185,7 +185,7 @@ composition:
                           type: number
                         title:
                           type: text
-                          value: GreenTshirt01.webp
+                          value: Green Tshirt
                         width:
                           value: 1445
                           type: number

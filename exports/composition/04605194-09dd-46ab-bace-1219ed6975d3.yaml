@@ -5,37 +5,14 @@ composition:
   type: page
   slots:
     hero:
-      - _id: d2e9911f-8dc1-4de5-b47a-7ac84abe49c3
+      - _id: c3d47d37-68a1-49e7-8d33-80404ab5143f
         type: hero
-        slots:
-          heading:
-            - _id: ea5aeb98-6d5d-4920-8834-f69649a63337
-              type: heading
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    en-US: >-
-                      ${#jptr:/Product by handle
-                      Content/data/product/title:fa=a:fl=e}
-                tagName:
-                  type: select
-                  value: h1
-        parameters:
-          body:
-            type: text
-            locales:
-              en-US: ${#jptr:/Product by handle Content/data/product/description}
-          imageFit:
-            type: select
-            locales:
-              en-US: cover
-          imageUrl:
-            type: text
-            locales:
-              en-US: >-
-                ${#jptr:/Product by handle
-                Content/data/product/featuredImage/url}
+        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
+        _dataResources:
+          Product by handle Content:
+            type: productByHandle
+            variables:
+              handle: ${product}
     sections:
       - _id: fad3d313-0004-4750-bc44-be6ba9af5c01
         type: sectionContainer
@@ -45,6 +22,8 @@ composition:
               type: gridContainer
               slots:
                 items:
+                  - _id: c1fce0ac-4b93-431b-98b8-00c49f45f7d2
+                    type: card
                   - _id: 97e0557b-7401-453f-bf04-8a5a6adf8d33
                     type: $loop
                     slots:
@@ -81,5 +60,5 @@ composition:
   _locales:
     - en-US
 created: '2023-06-07T08:49:36.736468+00:00'
-modified: '2024-05-06T15:50:06.894352+00:00'
+modified: '2024-06-17T16:16:22.095938+00:00'
 pattern: false

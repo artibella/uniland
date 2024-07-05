@@ -12,7 +12,7 @@ composition:
       type: text
       locales:
         de-DE: ${#jptr:/Product by handle Content/data/product/title}
-        en-US: ${#jptr:/Product by handle Content/data/product/title}
+        en-US: ${#jptr:/Product by handle Content/data/product/title:fa=c}
     imageFit:
       type: select
       locales:
@@ -72,6 +72,8 @@ composition:
             type: array
             value:
               - callToAction
+              - $localization
+              - $personalization
           groupType:
             type: text
             value: specific
@@ -126,7 +128,7 @@ composition:
     - en-US
     - de-DE
 created: '2023-07-26T07:49:12.884031+00:00'
-modified: '2024-04-29T13:32:12.393534+00:00'
+modified: '2024-06-17T16:16:47.389788+00:00'
 pattern: true
 description: Use this hero to feature a product from Mock Shop
 previewImageUrl: >-

@@ -1,0 +1,34 @@
+id: partner
+displayName: Partner
+ttl: 30
+path: /entries
+custom:
+  include: 4
+  imagePath: logo
+  includeFields: []
+  allowContentTypeIds:
+    - partner
+  enableFilterByLocale: false
+  enableAdvancedFilters: false
+method: GET
+purgeKey: 4bdcc6f9-2dd3-4196-93d9-116469019d49
+archetype: singleEntry
+variables:
+  locale:
+    type: text
+    default: ''
+    displayName: Locale
+  entryIds:
+    type: text
+    default: ''
+    displayName: Entry Ids
+parameters:
+  - key: include
+    value: '4'
+  - key: locale
+    value: ${locale}
+    omitIfEmpty: true
+  - key: sys.id[in]
+    value: ${entryIds}
+dataSourceId: uniformWebsite
+allowedOnComponents: []

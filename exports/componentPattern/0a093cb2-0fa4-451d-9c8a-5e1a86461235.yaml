@@ -42,12 +42,18 @@ composition:
               parameters:
                 image:
                   type: text
-                  value: >-
-                    ${#jptr:/Posts entries Loop
-                    Item/entry/fields/postImage/value}
+                  locales:
+                    de-DE: >-
+                      ${#jptr:/Posts entries Loop
+                      Item/entry/fields/postImage/value}
+                    en-US: >-
+                      ${#jptr:/Posts entries Loop
+                      Item/entry/fields/postImage/value:fl=i:fd=https\;//images.unsplash.com/photo-1542435503-956c469947f6?q\+80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D}
                 title:
                   type: text
-                  value: ${#jptr:/Posts entries Loop Item/entry/fields/title/value}
+                  locales:
+                    de-DE: ${#jptr:/Posts entries Loop Item/entry/fields/title/value}
+                    en-US: ${#jptr:/Posts entries Loop Item/entry/fields/title/value}
               _overridability:
                 parameters:
                   body: 'no'
@@ -75,5 +81,6 @@ composition:
     - en-US
     - de-DE
 created: '2023-10-10T09:02:25.634959+00:00'
-modified: '2024-04-03T19:09:53.331495+00:00'
+modified: '2024-06-06T08:44:07.76006+00:00'
 pattern: true
+categoryId: 7c7c6ecc-9368-4cb5-92b4-7b4d25dbf457

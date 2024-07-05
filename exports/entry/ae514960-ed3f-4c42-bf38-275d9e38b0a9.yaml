@@ -1,0 +1,21 @@
+created: '2024-05-08T22:30:50.609501+00:00'
+modified: '2024-05-08T22:43:19.448242+00:00'
+pattern: false
+entry:
+  _id: ae514960-ed3f-4c42-bf38-275d9e38b0a9
+  _name: Appnovation
+  _slug: appnovation
+  _thumbnail: >-
+    //images.ctfassets.net/wixnju9zmprr/5zCewtCTAsrhTA1iLo1GkS/81dcd5e8e1e8910b0c057c96d6ccb48e/Appnovation-Logo__1_.svg.png
+  type: organization
+  fields: {}
+  _dataResources:
+    Partner:
+      type: partner
+      variables:
+        locale: ''
+        entryIds: 719rX77aTvn32DX4V1dcCW
+  _locales:
+    - de-DE
+    - en-US
+  _pattern: 0049b1ef-ae16-4643-967b-4d3964b1d3ed

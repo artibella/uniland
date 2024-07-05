@@ -1,14 +1,14 @@
-id: blogPostSelection
-displayName: Blog Post Selection
+id: selectedOrganizations
+displayName: Selected Organizations
 ttl: 30
 body: ''
 path: /multiple
 custom:
-  proposedName: Multiple Blog Post
+  proposedName: Multiple Organization
   allowedContentTypes:
-    - blogPost
+    - organization
 method: GET
-purgeKey: 5690d474-9d21-4234-9f2f-316a744d2734
+purgeKey: a3b6fc45-6d8c-4a82-8b28-dfacc3a3d145
 archetype: multipleEntries
 variables:
   entryIds:

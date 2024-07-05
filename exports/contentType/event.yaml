@@ -1,7 +1,7 @@
 id: event
 name: Event
 created: '2023-06-30T14:48:17.043272+00:00'
-updated: '2023-09-18T10:16:12.472032+00:00'
+updated: '2024-07-05T08:55:22.473262+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -77,38 +77,24 @@ fields:
     typeConfig:
       collapsed: false
       childrenParams:
+        - start
         - startDate
         - startTime
+        - end
         - endDate
         - endTime
-  - id: startDate
-    name: Start date
-    type: text
-    helpText: Enter a date in YYYY-mm-dd format
-    typeConfig:
-      regex: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$
-      regexMessage: Enter a date in YYYY-mm-dd format
-  - id: startTime
-    name: Start time
-    type: text
-    helpText: Enter a time in 24-hour format (e.g. 20:15)
-    typeConfig:
-      regex: ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$
-      regexMessage: Enter a time in 24-hour format (hh:mm)
-  - id: endDate
-    name: End date
-    type: text
-    helpText: Enter a date in YYYY-mm-dd format
-    typeConfig:
-      regex: ^\d{4}\-(0[1-9]|1[012])\-(0[1-9]|[12][0-9]|3[01])$
-      regexMessage: Enter a date in YYYY-mm-dd format
-  - id: endTime
-    name: End time
-    type: text
-    helpText: Enter a time in 24-hour format (e.g. 20:15)
-    typeConfig:
-      regex: ^([0-9]|0[0-9]|1[0-9]|2[0-3]):[0-5][0-9]$
-      regexMessage: Enter a time in 24-hour format (hh:mm)
+  - id: start
+    name: Start
+    type: datetime
+    helpText: ''
+    typeConfig: null
+    localizable: false
+  - id: end
+    name: End
+    type: datetime
+    helpText: ''
+    typeConfig: null
+    localizable: false
   - id: group_eventLocation
     name: Event location
     type: group
@@ -117,8 +103,8 @@ fields:
       childrenParams:
         - location
         - address
-        - attendanceMode
         - virtualLocation
+        - attendanceMode
   - id: location
     name: Location
     type: text

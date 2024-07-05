@@ -1,5 +1,5 @@
 created: '2023-10-27T13:36:14.480904+00:00'
-modified: '2024-04-03T19:15:01.599658+00:00'
+modified: '2024-05-14T13:11:40.792863+00:00'
 pattern: false
 entry:
   _id: 687994c6-6f80-4446-9f4a-0e575d70b3b6
@@ -239,7 +239,36 @@ entry:
           direction: ltr
     media:
       type: asset
-      value: []
+      value:
+        - _id: 0e5eec72-ff75-4992-83e7-a02c9b7bca07
+          type: image
+          fields:
+            id:
+              type: text
+              value: 1a82b010-cced-49b2-bf8c-2deb733015f9
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/wnbWJZoYRwWgfVKOxAy4fA-image.png
+              type: text
+            file:
+              type: file
+              value: 46ebd90e-263a-4f31-b37f-1034eeb67a30
+            size:
+              value: 4215251
+              type: number
+            title:
+              type: text
+              value: image.png
+            width:
+              value: 1500
+              type: number
+            height:
+              value: 2250
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
     notes:
       type: richText
       value:
@@ -515,6 +544,12 @@ entry:
               listType: bullet
               direction: ltr
           direction: ltr
+    mealType:
+      type: multi-select
+      value:
+        - lunch
+        - dinner
+        - snack
     subtitle:
       type: text
       locales:

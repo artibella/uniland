@@ -1,0 +1,21 @@
+created: '2024-05-08T22:32:52.59808+00:00'
+modified: '2024-05-08T22:42:59.530044+00:00'
+pattern: false
+entry:
+  _id: b143bd9b-3e50-4ef1-bfac-4d7a802a9675
+  _name: Kruso
+  _slug: kruso
+  _thumbnail: >-
+    //images.ctfassets.net/wixnju9zmprr/7mw2RDUeNuVkj1i13gbt8q/53dd9287646da0348b332bf769919989/kruso-Gul.png
+  type: organization
+  fields: {}
+  _dataResources:
+    Partner:
+      type: partner
+      variables:
+        locale: ''
+        entryIds: 4Se1RI4BSFCCvPFO9szKLP
+  _locales:
+    - de-DE
+    - en-US
+  _pattern: 0049b1ef-ae16-4643-967b-4d3964b1d3ed
