@@ -1,0 +1,58 @@
+id: e8bf1a00-bd6b-4f7f-9bb4-609994957c1f
+name: Blog workflow
+initialStage: 26aca89c-7ee7-4fea-b2a2-6c80c4593897
+stages:
+  26aca89c-7ee7-4fea-b2a2-6c80c4593897:
+    name: Ideation
+    permissions:
+      3d08353a-f4f6-47ba-87a0-eddcec1b3621:
+        write: true
+    transitions:
+      - name: Move to edit
+        to: 351dd4aa-d5eb-4ef0-886f-d572d3d49252
+        permissions:
+          3d08353a-f4f6-47ba-87a0-eddcec1b3621:
+            execute: true
+    icon: bulb
+    order: 0
+  351dd4aa-d5eb-4ef0-886f-d572d3d49252:
+    name: Editing
+    permissions: {}
+    transitions:
+      - name: Submit for approval
+        to: 14d3c9d7-92c9-4269-95ce-bde755865147
+        permissions:
+          3d08353a-f4f6-47ba-87a0-eddcec1b3621:
+            execute: true
+      - name: Put on hold
+        to: 26aca89c-7ee7-4fea-b2a2-6c80c4593897
+        permissions:
+          3d08353a-f4f6-47ba-87a0-eddcec1b3621:
+            execute: true
+    icon: pen
+    order: 1
+  14d3c9d7-92c9-4269-95ce-bde755865147:
+    name: In Review
+    requireValidity: true
+    permissions: {}
+    transitions:
+      - name: Reject
+        to: 351dd4aa-d5eb-4ef0-886f-d572d3d49252
+        permissions: {}
+      - name: Approve
+        to: b5e9620d-32de-4164-978b-d70a618665de
+        permissions:
+          3d08353a-f4f6-47ba-87a0-eddcec1b3621:
+            execute: true
+    icon: sand-clock
+    order: 2
+  b5e9620d-32de-4164-978b-d70a618665de:
+    name: Approved
+    autoPublish: true
+    permissions: {}
+    transitions:
+      - name: Edit
+        to: 351dd4aa-d5eb-4ef0-886f-d572d3d49252
+        permissions: {}
+    icon: check-o
+    order: 3

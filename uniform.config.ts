@@ -20,6 +20,7 @@ const config: CLIConfiguration = {
       enrichment: {},
       aggregate: {},
       signal: {},
+      workflow: {},
     },
     directory: './exports',
     format: 'yaml',
