@@ -16,7 +16,7 @@ const getBackgroundClassesByTheme = theme => {
     { 'bg-green-50': theme === 'spring' },
     { 'bg-mango-400': theme === 'mango' },
     { 'bg-ice-50': theme === 'ice' },
-    { 'bg-white': theme === 'default' }
+    { 'bg-white bg-canvas-grid': theme === 'default' }
   );
 };
 
