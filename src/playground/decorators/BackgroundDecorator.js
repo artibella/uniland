@@ -31,7 +31,7 @@ const getButtonClassesByTheme = theme =>
     'border-solid rounded-lg'
   );
 
-export const BackgroundDecorator = ({ children }) => {
+export const BackgroundDecorator = ({ data, children }) => {
   const [selectedTheme, setSelectedTheme] = useState('Default');
 
   const backgroundClasses = getBackgroundClassesByTheme(selectedTheme);
@@ -40,6 +40,10 @@ export const BackgroundDecorator = ({ children }) => {
     'playground-container',
     backgroundClasses
   );
+
+  const PAGE_TYPES = ['page'];
+  const isCompositionPattern = PAGE_TYPES.includes(data.type);
+  if (isCompositionPattern) return <>{children}</>;
 
   return (
     <div className={containerClasses}>
