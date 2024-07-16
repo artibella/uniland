@@ -26,7 +26,7 @@ export default function Heading({
   const id = slugify(title);
 
   const baseHeadingClasses = classNames(
-    'tracking-tight capitalize',
+    'tracking-tight leading-none dark:text-white',
     // text alignment
     { 'text-left': align === 'left' },
     { 'text-center': align === 'center' },
