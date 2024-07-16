@@ -6,12 +6,16 @@ import {
 import { enhance } from '@uniformdev/canvas';
 import { getEnhancers } from '../lib/enhancers/enhancers';
 import { withUniformGetServerSideProps } from '@uniformdev/canvas-next/route';
+import { useSetViewportQuirk } from '../lib/hooks/useSetViewportQuirk';
 
 export default function DynamicComposition({ composition }) {
   // add enhancer
   const contextualEditingEnhancer = createUniformApiEnhancer({
     apiUrl: '/api/preview',
   });
+
+  // set initial viewport quirk
+  useSetViewportQuirk();
 
   return (
     <UniformComposition
