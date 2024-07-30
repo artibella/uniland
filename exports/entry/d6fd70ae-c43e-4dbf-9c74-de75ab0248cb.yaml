@@ -1,0 +1,19 @@
+created: '2024-07-30T08:06:23.593066+00:00'
+modified: '2024-07-30T08:06:42.783889+00:00'
+pattern: false
+entry:
+  _id: d6fd70ae-c43e-4dbf-9c74-de75ab0248cb
+  _name: Irish
+  _slug: irish
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Irish
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

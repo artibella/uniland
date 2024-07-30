@@ -1,0 +1,43 @@
+created: '2024-07-29T15:58:21.013954+00:00'
+modified: '2024-07-29T15:59:27.283143+00:00'
+pattern: false
+entry:
+  _id: 8e012aae-368f-4f6f-9b13-9aa57f21800a
+  _name: Indian
+  _slug: indian
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/3yE9LS0rHOWMrewpsoxJzW/acf11d92742b7b8eb055a8b84a65f654/11_Popular_Indian_Curries_to_Try_from_Across_the_Country
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Indian
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9a2931f6-bdda-48e4-bc87-e7e21dd77844
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/3yE9LS0rHOWMrewpsoxJzW/acf11d92742b7b8eb055a8b84a65f654/11_Popular_Indian_Curries_to_Try_from_Across_the_Country
+              title:
+                type: text
+                value: Curries
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+    description:
+      type: text
+      locales:
+        en-US: >-
+          The cuisine of India is one of the world's most diverse cuisines,
+          characterized by its sophisticated and subtle use of the many spices,
+          vegetables, grains and fruits grown across India.
+  _locales:
+    - en-US

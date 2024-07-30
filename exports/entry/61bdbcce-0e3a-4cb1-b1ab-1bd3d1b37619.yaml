@@ -1,0 +1,19 @@
+created: '2024-07-30T08:31:38.524974+00:00'
+modified: '2024-07-30T08:31:54.247039+00:00'
+pattern: false
+entry:
+  _id: 61bdbcce-0e3a-4cb1-b1ab-1bd3d1b37619
+  _name: Dutch
+  _slug: dutch
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Dutch
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

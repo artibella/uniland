@@ -1,0 +1,381 @@
+composition:
+  _name: Recipe
+  _id: f8276acb-a4de-43f7-8f45-82f5e158ff72
+  _slug: ':recipe'
+  type: page
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Recipe/entry/fields/name/value} | Uniland Recipes
+  slots:
+    hero:
+      - _id: e6b7b140-aca5-48f8-b13f-1518aa069176
+        type: hero
+        slots:
+          heading:
+            - _id: 63a3eee7-409f-443f-a18c-829aa7494501
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Recipe/entry/fields/name/value}
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            locales:
+              en-US: ${#jptr:/Recipe/entry/fields/subtitle/value}
+          imageFit:
+            type: select
+            locales:
+              en-US: cover
+          imageUrl:
+            type: text
+            locales:
+              en-US: >-
+                ${#jptr:/Recipe/entry/fields/featuredImage/value/0/fields/url/value}
+    sections:
+      - _id: 020786b5-03bd-443a-9c01-67ac02c3acc2
+        type: sectionContainer
+        slots:
+          content:
+            - _id: cb9d98c0-3a29-4181-ab7b-a6e4538c67de
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 768af195-85a3-4580-b4dc-9a81f4f3b164
+                    type: heading
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Nutrition
+                      tagName:
+                        type: select
+                        value: h3
+                  - _id: ef25d8ff-f51e-4b3a-8d9f-85b08a40d83e
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 2f9b81ba-e937-46ff-8671-1c7f753bc741
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - type: variable
+                                            version: 1
+                                            reference: >-
+                                              #jptr:/Recipe value Loop
+                                              Item/fields/type/value
+                                          - mode: normal
+                                            text: ': '
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                          - type: variable
+                                            version: 1
+                                            reference: >-
+                                              #jptr:/Recipe value Loop
+                                              Item/fields/amount/value
+                                        direction: null
+                                    direction: null
+                    _dataResources:
+                      Recipe value Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: '#jptr:/Recipe/entry/fields/nutritionFacts/value:fa=c'
+                rightContent:
+                  - _id: 4df21673-0513-4515-b0f7-c4a11d123f9b
+                    type: heading
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: Time
+                      tagName:
+                        type: select
+                        value: h3
+                  - _id: 4dd3c633-ba8b-4502-b84f-ed3cf8604df7
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: 'Preparation time:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: >-
+                                        #jptr:/Recipe/entry/fields/preparationTime/value:fa=c
+                                  direction: ltr
+                              direction: ltr
+                  - _id: 68bc53ad-1d7d-4b5d-b437-fa7e5c564371
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: 'Cooking time:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: >-
+                                        #jptr:/Recipe/entry/fields/cookingTime/value:fa=c
+                                  direction: ltr
+                              direction: ltr
+                  - _id: 46b650b5-54e3-4ca7-a92b-48b2613c8805
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: 'Resting time:'
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 1
+                                      version: 1
+                                    - mode: normal
+                                      text: ' '
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - type: variable
+                                      version: 1
+                                      reference: >-
+                                        #jptr:/Recipe/entry/fields/restingTime/value:fa=c:fl=i
+                                  direction: ltr
+                              direction: ltr
+      - _id: f6c057cc-4493-413d-a744-fd0fd35e2c9b
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 9a47b660-7727-42d0-8afd-529dfbc5b550
+              type: $loop
+              slots:
+                body:
+                  - _id: b71beb43-d65d-435b-8db2-d527f33a4f6c
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - type: variable
+                                      version: 1
+                                      reference: >-
+                                        #jptr:/Recipe value Loop
+                                        Item/fields/name/value
+                                  direction: null
+                              direction: null
+              _dataResources:
+                Recipe value Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Recipe/entry/fields/ingredients/value:fa=c'
+          heading:
+            - _id: 68da355a-a97a-4e06-89d8-9ea2e723a362
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Ingredients
+                tagName:
+                  type: select
+                  value: h2
+      - _id: 869dfd2a-38a1-4f17-8736-fd1ec3213d73
+        type: sectionContainer
+        slots:
+          content:
+            - _id: cd50fcc5-c8c6-4ec3-a064-fddf9e89ce8f
+              type: $loop
+              slots:
+                body:
+                  - _id: 29a40be7-a721-4c54-8b02-c74c87804a79
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: 542f2aa6-e99e-48fe-b2e6-56c7aca76ce1
+                          type: heading
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Recipe value Loop
+                                  Item/fields/name/value}
+                        - _id: 8ce1c3c7-bd9e-41c8-9450-08431bbadd88
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Recipe value Loop
+                                  Item/fields/description/value}
+                        - _id: 20791f0b-73a0-4d25-a6cc-91ab4da11eed
+                          type: $loop
+                          slots:
+                            body:
+                              - _id: 8fecffb3-72d0-44a5-8c54-df725c1ac9e4
+                                type: textBlock
+                                parameters:
+                                  richText:
+                                    type: richText
+                                    locales:
+                                      en-US:
+                                        root:
+                                          type: root
+                                          format: ''
+                                          indent: 0
+                                          version: 1
+                                          children:
+                                            - tag: h4
+                                              type: heading
+                                              format: ''
+                                              indent: 0
+                                              version: 1
+                                              children:
+                                                - type: variable
+                                                  version: 1
+                                                  reference: >-
+                                                    #jptr:/Recipe value Loop Item steps Loop
+                                                    Item/fields/name/value:fa=c:fl=i
+                                              direction: null
+                                          direction: null
+                              - _id: 04800418-15f3-4fb6-9ba9-92acd7754110
+                                type: textBlock
+                                parameters:
+                                  richText:
+                                    type: richText
+                                    locales:
+                                      en-US: >-
+                                        ${#jptr:/Recipe value Loop Item steps
+                                        Loop Item/fields/description/value}
+                          _dataResources:
+                            Recipe value Loop Item steps Loop Item:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: >-
+                                  #jptr:/Recipe value Loop
+                                  Item/fields/steps/value:fa=c:fl=i
+              _dataResources:
+                Recipe value Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Recipe/entry/fields/instructions/value:fa=c'
+          heading:
+            - _id: c42a7186-7b20-44c6-843a-f2b5d6718364
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Method
+                tagName:
+                  type: select
+                  value: h2
+  _dataResources:
+    Recipe:
+      type: recipeBySlug
+      variables:
+        slug: ${recipe}
+        locale: ${locale}
+  _locales:
+    - en-US
+created: '2024-07-16T08:51:07.431652+00:00'
+modified: '2024-07-16T09:10:50.046592+00:00'
+pattern: false

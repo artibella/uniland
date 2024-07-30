@@ -1,0 +1,19 @@
+created: '2024-07-30T08:11:40.328279+00:00'
+modified: '2024-07-30T08:12:04.542813+00:00'
+pattern: false
+entry:
+  _id: 14ce93b9-7b1e-4997-88bb-ae7a6347d809
+  _name: Hungarian
+  _slug: hungarian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Hungarian
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

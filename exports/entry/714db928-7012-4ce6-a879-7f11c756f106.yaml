@@ -1,0 +1,18 @@
+created: '2024-07-11T10:05:15.317297+00:00'
+modified: '2024-07-11T10:05:15.317297+00:00'
+pattern: false
+entry:
+  _id: 714db928-7012-4ce6-a879-7f11c756f106
+  _name: Algolia
+  _slug: algolia
+  type: organization
+  fields: {}
+  _dataResources:
+    Integration:
+      type: integration
+      variables:
+        locale: ${locale}
+        entryIds: 5La0MgvKRUqq1dJ89L2fjg
+  _locales:
+    - en-US
+  _pattern: 02e233da-df75-4002-ae4f-9b6d5714719e

@@ -1,5 +1,5 @@
 created: '2024-01-04T12:33:38.327001+00:00'
-modified: '2024-04-03T19:15:17.396978+00:00'
+modified: '2024-07-11T10:05:20.047517+00:00'
 pattern: false
 entry:
   _id: bcee5f90-7f9e-441d-85b9-b54bca6d5ada
@@ -11,12 +11,14 @@ entry:
   fields:
     name:
       type: text
-      value: Pumpkin pie
+      locales:
+        en-US: Pumpkin pie
     subtitle:
       type: text
-      value: >-
-        The Ultimate Pumpkin Pie Recipe That Will Have You Coming Back for
-        Seconds!
+      locales:
+        en-US: >-
+          The Ultimate Pumpkin Pie Recipe That Will Have You Coming Back for
+          Seconds!
     difficulty:
       type: select
       value: medium
@@ -40,5 +42,14 @@ entry:
               value: >-
                 https://www.seriouseats.com/thmb/8HJ1hRq6JvjrhEPDvCbCyXFMhCA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__10__20151017-smooth-pumpkin-pie-vicky-wasik-1-fd7c776cfa804f39a7e91807790ac1c4.jpg
           _source: custom-url
+    cookingMethods:
+      type: contentReference
+      value: ${#jptr:/ref-bcee5f90-7f9e-441d-85b9-b54bca6d5ada-cookingMethods}
+  _dataResources:
+    ref-bcee5f90-7f9e-441d-85b9-b54bca6d5ada-cookingMethods:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 43eef4e8-2c8d-4c0e-90a3-c42015af15ae
   _locales:
     - en-US

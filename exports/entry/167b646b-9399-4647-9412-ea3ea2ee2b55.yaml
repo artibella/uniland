@@ -1,0 +1,56 @@
+created: '2024-07-11T10:05:01.297768+00:00'
+modified: '2024-07-11T10:05:01.297768+00:00'
+pattern: false
+entry:
+  _id: 167b646b-9399-4647-9412-ea3ea2ee2b55
+  _name: Roasting
+  _slug: roasting
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1462392435449-542c64fd805d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: cookingMethod
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Roasting
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 04852007-131d-4db5-a902-3f5e84d2295c
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1462392435449-542c64fd805d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              title:
+                type: text
+                value: Roasting
+            _source: custom-url
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "It is very similar to baking as it is done in an oven and has moderate heat exposure for longer periods. The difference is that roasting is a term used for meat, chicken, turkey,\_lamb leg,\_and veggies while baking is used for flour-based goods like cakes, bread, and other desserts."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+  _locales:
+    - en-US

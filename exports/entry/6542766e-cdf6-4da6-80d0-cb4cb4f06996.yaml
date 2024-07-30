@@ -1,0 +1,20 @@
+created: '2024-07-11T10:05:11.681425+00:00'
+modified: '2024-07-24T07:51:59.473108+00:00'
+pattern: false
+entry:
+  _id: 6542766e-cdf6-4da6-80d0-cb4cb4f06996
+  _name: Vercel
+  _slug: vercel
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/60lrm2X8a4Djkli1znXGHA/d828001aea376a6f57d9fc5fe643af58/vercel.svg
+  type: organization
+  fields: {}
+  _dataResources:
+    Integration:
+      type: integration
+      variables:
+        locale: ${locale}
+        entryIds: 5ZLfgitFTIaXSkMSO72yXd
+  _locales:
+    - en-US
+  _pattern: 02e233da-df75-4002-ae4f-9b6d5714719e

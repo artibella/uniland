@@ -1,14 +1,18 @@
 id: product
 displayName: Product
+ttl: 30
 path: /single
 custom:
+  maxDepth: 3
+  proposedName: Product
   allowedContentTypes:
     - product
 method: GET
+purgeKey: 79a41339-38f3-4c90-8754-6e1122df12f8
 archetype: singleEntry
 variables:
   entryId:
     type: text
     default: ''
-dataSourceId: uniland
+dataSourceId: uniformContent
 allowedOnComponents: []

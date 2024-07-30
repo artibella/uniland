@@ -1,0 +1,19 @@
+created: '2024-07-11T10:05:16.600457+00:00'
+modified: '2024-07-29T15:55:52.316936+00:00'
+pattern: false
+entry:
+  _id: 7da277be-785a-4c12-badd-323c4ee97c14
+  _name: Italian
+  _slug: italian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Italian
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

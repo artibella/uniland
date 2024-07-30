@@ -107,8 +107,12 @@ composition:
                             label:
                               type: text
                               locales:
-                                de-DE: ${#jptr:/Entry common_locations Loop Item}
-                                en-US: ${#jptr:/Entry common_locations Loop Item}
+                                de-DE: >-
+                                  ${#jptr:/Entry common_locations Loop
+                                  Item:fa=c}
+                                en-US: >-
+                                  ${#jptr:/Entry common_locations Loop
+                                  Item:fa=c}
                     _dataResources:
                       Entry common_locations Loop Item:
                         type: sys-reserved-loop
@@ -291,5 +295,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-26T10:22:39.653724+00:00'
-modified: '2024-01-29T12:42:50.407324+00:00'
+modified: '2024-07-12T09:02:32.014062+00:00'
 pattern: false

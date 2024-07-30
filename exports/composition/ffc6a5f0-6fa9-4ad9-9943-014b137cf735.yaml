@@ -127,7 +127,7 @@ composition:
                     type: imageBlock
                     parameters:
                       image:
-                        type: image
+                        type: asset
                         value: ${#jptr:/Single User Content/results/0/picture/large}
                       altText:
                         type: text
@@ -135,7 +135,7 @@ composition:
                           ${#jptr:/Single User Content/results/0/name/first}
                           ${#jptr:/Single User Content/results/0/name/last}
                       imageUrl:
-                        type: text
+                        type: image
                         value: ${#jptr:/Single User Content/results/0/picture/large}
                       aspectRatio:
                         type: select
@@ -214,5 +214,5 @@ composition:
       type: multipleUsers
       variables: {}
 created: '2023-02-07T13:44:43.265902+00:00'
-modified: '2023-08-10T09:49:20.095919+00:00'
+modified: '2024-07-11T10:04:45.464149+00:00'
 pattern: false

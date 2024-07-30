@@ -1,0 +1,10 @@
+id: deviceType
+name: Device Type
+description: 'Target different device types: mobile phones, tablet, desktop'
+options:
+  - name: Mobile
+    value: m
+  - name: Tablet
+    value: t
+  - name: Desktop
+    value: d

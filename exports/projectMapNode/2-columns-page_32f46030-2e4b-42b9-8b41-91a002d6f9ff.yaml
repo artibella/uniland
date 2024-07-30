@@ -1,0 +1,9 @@
+id: 32f46030-2e4b-42b9-8b41-91a002d6f9ff
+name: 2-columns page
+order: -200
+path: /:locale/demos/2-columns-page
+type: composition
+pathSegment: 2-columns-page
+data: {}
+compositionId: 2b0e9316-83bc-4d50-936f-5613d89d57c2
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

@@ -1,0 +1,27 @@
+id: dietList
+displayName: Diet List
+path: /query
+custom:
+  allowedContentTypes:
+    - diet
+method: GET
+purgeKey: a808bd6c-a5c2-4618-8b15-1025fae3f1d4
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

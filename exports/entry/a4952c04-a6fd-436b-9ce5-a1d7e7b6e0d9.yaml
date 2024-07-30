@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:10.865408+00:00'
-modified: '2024-04-03T20:05:14.482139+00:00'
+modified: '2024-07-11T10:05:19.104575+00:00'
 pattern: false
 entry:
   _id: a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9
@@ -13,6 +13,9 @@ entry:
       type: text
       locales:
         en-US: Pasta Cacio e Uova (Neapolitan Pasta With Eggs and Cheese)
+    diets:
+      type: contentReference
+      value: ${#jptr:/ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-diets}
     notes:
       type: richText
       value:
@@ -96,6 +99,9 @@ entry:
               listType: bullet
               direction: ltr
           direction: ltr
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cuisines}
     subtitle:
       type: text
       locales:
@@ -596,6 +602,9 @@ entry:
               value: >-
                 https://www.seriouseats.com/thmb/7HKn2xoqIG_kPNnWDUFSrEEhMd4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2021__03__20210309-Cas-e-Ova-pasta-sasha-marx-11-0d2b7d5cbe1146f893553541f191b7d4.jpg
           _source: custom-url
+    cookingMethods:
+      type: contentReference
+      value: ${#jptr:/ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cookingMethods}
     nutritionFacts:
       type: $block
       value:
@@ -647,5 +656,21 @@ entry:
     preparationTime:
       type: text
       value: '5'
+  _dataResources:
+    ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-diets:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 9a585b3d-0c16-4499-b2c3-5994e1d27ec9
+    ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
+    ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cookingMethods:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: b49fa78a-27fd-407f-8f94-840cfea2b064
   _locales:
     - en-US

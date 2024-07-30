@@ -1,0 +1,15 @@
+id: ingredient
+displayName: Ingredient
+path: /single
+custom:
+  allowedContentTypes:
+    - ingredient
+method: GET
+purgeKey: f1d12681-4399-44c6-b748-feaa1b4e2f6e
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

@@ -1,7 +1,7 @@
 id: blogPost
 name: Blog Post
 created: '2023-05-25T12:26:42.445534+00:00'
-updated: '2024-07-05T09:39:05.669602+00:00'
+updated: '2024-07-11T10:04:53.880204+00:00'
 slugSettings:
   unique: 'no'
   required: 'yes'
@@ -88,14 +88,25 @@ fields:
       collapsed: false
       childrenParams:
         - author
+        - authors
         - date
         - tags
-        - postCategory
+        - categories
   - id: author
     name: Author
     type: text
     helpText: ''
     typeConfig: null
+  - id: authors
+    name: Authors
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - person
+        - organization
+    localizable: false
   - id: date
     name: Date
     type: date
@@ -110,14 +121,15 @@ fields:
       allowedTypes:
         - tag
         - $loop
-  - id: postCategory
-    name: Post Category
-    type: $block
+  - id: categories
+    name: Categories
+    type: contentReference
     helpText: ''
     typeConfig:
-      allowedTypes:
-        - taxonomyBlock
-        - $loop
+      isMulti: true
+      allowedContentTypes:
+        - blogCategory
+    localizable: false
 entryName: title
 thumbnailField: image
 description: A content type of a simple blog post

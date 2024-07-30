@@ -1,0 +1,60 @@
+created: '2024-07-11T10:05:20.594967+00:00'
+modified: '2024-07-11T10:05:20.594967+00:00'
+pattern: false
+entry:
+  _id: bd31bf94-be30-46fd-a3cf-4bfd0a84fcb0
+  _name: Frying
+  _slug: frying
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1515931215890-366d3990cf8d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: cookingMethod
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Frying
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: bcd87ab6-40fb-43f4-9c7b-091f92f475a5
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1515931215890-366d3990cf8d?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              title:
+                type: text
+                value: Frying
+            _source: custom-url
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Frying is the process of cooking food in hot fat or oil.
+                      It can be done in a shallow pan or a deep fryer and is
+                      commonly used for items like fries, chicken, and
+                      doughnuts.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+  _locales:
+    - en-US

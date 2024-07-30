@@ -1,0 +1,15 @@
+created: '2024-07-29T15:49:04.532019+00:00'
+modified: '2024-07-29T15:49:15.617568+00:00'
+pattern: false
+entry:
+  _id: 65a58435-30d8-420c-acff-b2365d5e61c5
+  _name: Dip
+  _slug: dip
+  type: dishType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Dip
+  _locales:
+    - en-US

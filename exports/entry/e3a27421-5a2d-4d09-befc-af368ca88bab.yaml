@@ -1,0 +1,15 @@
+created: '2024-07-29T15:53:54.171155+00:00'
+modified: '2024-07-29T15:54:05.560489+00:00'
+pattern: false
+entry:
+  _id: e3a27421-5a2d-4d09-befc-af368ca88bab
+  _name: Snack
+  _slug: snack
+  type: dishType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Snack
+  _locales:
+    - en-US

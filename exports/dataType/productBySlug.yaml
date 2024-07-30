@@ -1,0 +1,18 @@
+id: productBySlug
+displayName: Product by slug
+ttl: 30
+path: /single-by-slug
+custom:
+  maxDepth: 3
+  proposedName: Product
+  allowedContentTypes:
+    - product
+method: GET
+purgeKey: 248ea77a-41f6-42a2-bc91-e37ebff03277
+archetype: singleEntryBySlug
+variables:
+  slug:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

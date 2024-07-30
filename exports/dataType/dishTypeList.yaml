@@ -1,0 +1,27 @@
+id: dishTypeList
+displayName: Dish type List
+path: /query
+custom:
+  allowedContentTypes:
+    - dishType
+method: GET
+purgeKey: d585f414-564d-43b9-8f84-a4308cc54167
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

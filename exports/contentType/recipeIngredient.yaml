@@ -1,7 +1,7 @@
 id: recipeIngredient
 name: Recipe ingredient
 created: '2023-10-11T12:05:24.588228+00:00'
-updated: '2023-12-14T19:45:20.056522+00:00'
+updated: '2024-07-11T10:04:53.472028+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -75,6 +75,7 @@ fields:
         - ingredientText
         - ingredientSuffix
         - isMainIngredient
+        - ingredient
   - id: ingredientPrefix
     name: Ingredient prefix
     type: text
@@ -102,6 +103,14 @@ fields:
     type: checkbox
     helpText: ''
     typeConfig: null
+  - id: ingredient
+    name: Ingredient
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - ingredient
+    localizable: false
 entryName: name
 description: Ingredients and amount needed for a specific recipe
 icon: bowl

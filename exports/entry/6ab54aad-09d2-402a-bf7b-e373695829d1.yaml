@@ -1,0 +1,20 @@
+created: '2024-07-30T08:08:35.122983+00:00'
+modified: '2024-07-30T08:09:43.574944+00:00'
+pattern: false
+entry:
+  _id: 6ab54aad-09d2-402a-bf7b-e373695829d1
+  _name: Scottish
+  _slug: scottish
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Scottish
+    types:
+      type: multi-select
+      value:
+        - National
+        - Regional
+  _locales:
+    - en-US

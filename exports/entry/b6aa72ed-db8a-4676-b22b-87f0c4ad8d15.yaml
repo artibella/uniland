@@ -1,0 +1,34 @@
+created: '2024-07-11T10:05:20.039452+00:00'
+modified: '2024-07-29T13:26:28.984957+00:00'
+pattern: false
+entry:
+  _id: b6aa72ed-db8a-4676-b22b-87f0c4ad8d15
+  _name: Alex Shyba
+  _slug: alex-shyba
+  _thumbnail: >-
+    https://res.cloudinary.com/uniformdev/image/upload/fl_preserve_transparency/v1688991200/uniformdev/media-kit/alex-s.jpg?_s=public-apps
+  type: person
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Alex Shyba
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 387c7684-0e83-4f56-9241-593b08d7ecef
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://res.cloudinary.com/uniformdev/image/upload/fl_preserve_transparency/v1688991200/uniformdev/media-kit/alex-s.jpg?_s=public-apps
+            _source: custom-url
+    jobTitle:
+      type: text
+      locales:
+        en-US: CTO and co-founder of Uniform
+  _dataResources: {}
+  _locales:
+    - en-US

@@ -1,0 +1,42 @@
+created: '2024-07-30T08:33:05.087883+00:00'
+modified: '2024-07-30T08:33:52.01092+00:00'
+pattern: false
+entry:
+  _id: 6cf2e494-e886-47af-819e-b764808e3ff4
+  _name: Austrian
+  _slug: austrian
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/7KzeeFAjaJNwUR1wnsMKIm/df7b217382bac77e23f2a60899b4ea61/Wiener_Schnitzel_at_Gasthaus_Joainig__lightened_.jpg
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Austrian
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: d11091a3-021c-48f7-9e39-7bf7926c43df
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/7KzeeFAjaJNwUR1wnsMKIm/df7b217382bac77e23f2a60899b4ea61/Wiener_Schnitzel_at_Gasthaus_Joainig__lightened_.jpg
+              title:
+                type: text
+                value: Wiener Schnitzel
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+    description:
+      type: text
+      locales:
+        en-US: >-
+          From the classic Wiener Schnitzel to Käsespätzle to Kaiserschmarn,
+          Austria has something to offer for every taste
+  _locales:
+    - en-US

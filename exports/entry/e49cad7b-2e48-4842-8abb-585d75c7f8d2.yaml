@@ -1,0 +1,19 @@
+created: '2024-07-30T08:07:45.452551+00:00'
+modified: '2024-07-30T08:08:07.886465+00:00'
+pattern: false
+entry:
+  _id: e49cad7b-2e48-4842-8abb-585d75c7f8d2
+  _name: Scandinavian
+  _slug: scandinavian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Scandinavian
+    types:
+      type: multi-select
+      value:
+        - Regional
+  _locales:
+    - en-US

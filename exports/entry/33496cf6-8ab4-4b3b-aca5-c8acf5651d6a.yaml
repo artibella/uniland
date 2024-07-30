@@ -1,0 +1,49 @@
+created: '2024-07-11T10:05:04.840392+00:00'
+modified: '2024-07-26T11:12:44.829891+00:00'
+pattern: false
+entry:
+  _id: 33496cf6-8ab4-4b3b-aca5-c8acf5651d6a
+  _name: Vegan
+  _slug: vegan
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/sH7C0-u2TfWn0jAFrrr8Kg-vegetarian.svg
+  type: diet
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Vegan
+    image:
+      type: asset
+      value:
+        - _id: 705c206a-2a38-4db2-bdbc-dddf4a02dbd9
+          type: image
+          fields:
+            id:
+              type: text
+              value: 0f25432f-0455-431a-ad0b-7583a0e1bb6a
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/sH7C0-u2TfWn0jAFrrr8Kg-vegetarian.svg
+              type: text
+            file:
+              type: file
+              value: 0153d024-c85a-4cb4-83a9-881fb041ee22
+            size:
+              value: 1252
+              type: number
+            title:
+              type: text
+              value: vegetarian.svg
+            width:
+              value: 20
+              type: number
+            height:
+              value: 19
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+  _locales:
+    - en-US

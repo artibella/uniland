@@ -1,0 +1,49 @@
+created: '2024-07-29T16:03:00.945738+00:00'
+modified: '2024-07-29T16:04:08.947837+00:00'
+pattern: false
+entry:
+  _id: 5b495b00-df8e-46ab-b235-09cc74b465ce
+  _name: Vietnamese
+  _slug: vietnamese
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/6rqSF5mwEvqyCV5V37BTHR/aa7e00e5ffb1cc74177ebbc6dff24e2e/photo-1576577445504-6af96477db52
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Vietnamese
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 51a7103a-cf15-4ba6-ba1f-fba49e66f40d
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/6rqSF5mwEvqyCV5V37BTHR/aa7e00e5ffb1cc74177ebbc6dff24e2e/photo-1576577445504-6af96477db52
+              title:
+                type: text
+                value: Pho
+              description:
+                type: text
+                value: >-
+                  Photo by <a
+                  href="https://unsplash.com/@marekminor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marek
+                  Minor</a> on <a
+                  href="https://unsplash.com/s/photos/pho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+    description:
+      type: text
+      locales:
+        en-US: >-
+          From Phos to Bhan Mi - the Vietnamese cuisine is a diverse and tasty
+          and you'll come back for second servings
+  _locales:
+    - en-US

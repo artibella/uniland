@@ -1,0 +1,15 @@
+id: season
+displayName: Season
+path: /single
+custom:
+  allowedContentTypes:
+    - season
+method: GET
+purgeKey: d8941fd9-e58e-4513-910e-2d03d8b121c8
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

@@ -1,0 +1,15 @@
+created: '2024-07-29T15:54:32.778096+00:00'
+modified: '2024-07-29T15:55:02.826267+00:00'
+pattern: false
+entry:
+  _id: 4af81e6b-4ff2-421a-ab7e-c64d9ab3b4f2
+  _name: Dessert
+  _slug: dessert
+  type: dishType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Dessert
+  _locales:
+    - en-US

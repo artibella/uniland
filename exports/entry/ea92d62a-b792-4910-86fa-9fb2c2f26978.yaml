@@ -1,0 +1,249 @@
+created: '2024-07-29T12:12:38.411421+00:00'
+modified: '2024-07-29T13:36:06.31279+00:00'
+pattern: false
+entry:
+  _id: ea92d62a-b792-4910-86fa-9fb2c2f26978
+  _name: 'Webinar: Localization at scale'
+  _slug: webinar-localization-at-scale
+  type: event
+  fields:
+    end:
+      type: datetime
+      value:
+        datetime: '2024-10-24T18:00:00.000Z'
+        timeZone: Europe/Berlin
+    image:
+      type: image
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/WMrp-tNmT7GUCOOBHpC1Mw-locale-management-at-scale-ga.png
+    start:
+      type: datetime
+      value:
+        datetime: '2024-10-24T15:00:00.000Z'
+        timeZone: Europe/Berlin
+    title:
+      type: text
+      value: Localization @ Scale Webinar
+    sponsors:
+      type: contentReference
+      value: ${#jptr:/ref-ea92d62a-b792-4910-86fa-9fb2c2f26978-sponsors/entries}
+    eventType:
+      type: select
+      value: webinar
+    teaserText:
+      type: text
+      value: Discover the Exciting New Localization Capabilities of Uniform!
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Uniform’s visual editor — Canvas — is receiving some
+                    exciting visual updates to improve hierarchy, navigation,
+                    and support upcoming feature releases. We also think it just
+                    looks a lot calmer and more pleasant to work with.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Improved Hierarchy
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The header of Canvas has been re-arranged to make it clear
+                    that switching releases will impact everything within the
+                    editor. This also places in a similar location to where
+                    you’ll find releases outside of Canvas.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The visual preview is really the star of our visual preview,
+                    so with this refresh we’ve popped it out with some delicious
+                    drop shadows and given it the visual prominence it deserves.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    These changes to hierarchy also support upcoming features
+                    for visual preview and an even more powerful localization
+                    feature. Stay tuned!
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: New global navigation
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    The Canvas editor is no longer navigating into a cul-de-sac.
+                    The familiar back button is still present (and you can still
+                    use your browser’s back button), but now we have a nav menu.
+                    To save you a few clicks, this single hamburger menu
+                    provides direct access anywhere within the Experience
+                    section of Uniform and top-level access to Optimization,
+                    integrations, and settings.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    This global header now also makes it clearer when what type
+                    of object you’re working on. No longer will there be a pause
+                    to ask: “is this a component pattern or a composition
+                    pattern?” In fact, you’ll see these improvements for all
+                    Canvas editors including composition defaults, workflows,
+                    and entries.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Re-organized project map connection
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 1
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    We found that the “Attached to” field was a bit clumsy, so
+                    this has now been split into a chip showing the current
+                    project map path. Any dynamic inputs in the path will be
+                    resolved using the current preview values.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Dynamic tokens that are available to use are listed
+                    separately, alongside the current locale. This is because
+                    dynamic tokens will soon include more than just project map
+                    dynamic nodes and query strings! As before, clicking on any
+                    chip will allow you to edit the preview values for all of
+                    them.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textFormat: 0
+          direction: ltr
+    internalName:
+      type: text
+      value: 'Webinar: Localization at scale'
+    attendanceMode:
+      type: select
+      value: online
+  _dataResources:
+    ref-ea92d62a-b792-4910-86fa-9fb2c2f26978-sponsors:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ded160f6-dfef-436c-97ab-c9e566ad2d8b
+  _locales:
+    - en-US

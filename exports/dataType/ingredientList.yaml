@@ -1,0 +1,27 @@
+id: ingredientList
+displayName: Ingredient List
+path: /query
+custom:
+  allowedContentTypes:
+    - ingredient
+method: GET
+purgeKey: 1c0a9b39-9e77-4383-be93-cb496c58883e
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

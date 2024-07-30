@@ -1,0 +1,15 @@
+created: '2024-07-11T10:04:59.603087+00:00'
+modified: '2024-07-11T10:04:59.603087+00:00'
+pattern: false
+entry:
+  _id: 0aea1583-2f31-44c8-a5a1-114961bf6f29
+  _name: Winter
+  _slug: winter
+  type: season
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Winter
+  _locales:
+    - en-US

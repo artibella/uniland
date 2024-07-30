@@ -1,0 +1,19 @@
+created: '2024-07-30T08:26:07.540407+00:00'
+modified: '2024-07-30T08:26:23.44557+00:00'
+pattern: false
+entry:
+  _id: 4c6acadb-6add-48c7-a1aa-2f8e4186b2fd
+  _name: Greek
+  _slug: greek
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Greek
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

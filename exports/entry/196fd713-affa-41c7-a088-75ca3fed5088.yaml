@@ -1,0 +1,19 @@
+created: '2024-07-30T08:32:01.411436+00:00'
+modified: '2024-07-30T08:32:18.048129+00:00'
+pattern: false
+entry:
+  _id: 196fd713-affa-41c7-a088-75ca3fed5088
+  _name: Belgian
+  _slug: belgian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Belgian
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

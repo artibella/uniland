@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: a917c454-26ad-4e50-944e-593fcd29912b
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: lactose-free.svg
+    file:
+      type: file
+      value: 70826109-81d0-4fa9-b883-73a0839b12f1
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/bbzys3TERnKbic5MQVodHA-lactose-free.svg
+      type: text
+    size:
+      value: 2390
+      type: number
+    width:
+      value: 27
+      type: number
+    height:
+      value: 27
+      type: number
+    custom: {}
+created: '2024-07-11T10:04:10.102337+00:00'
+modified: '2024-07-11T10:04:10.102337+00:00'

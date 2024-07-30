@@ -1,0 +1,19 @@
+created: '2024-07-30T08:31:12.43014+00:00'
+modified: '2024-07-30T08:31:27.129176+00:00'
+pattern: false
+entry:
+  _id: d73c172d-6d1d-4dbd-b5ba-8078a760e7e5
+  _name: French
+  _slug: french
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: French
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

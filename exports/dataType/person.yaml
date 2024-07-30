@@ -1,0 +1,18 @@
+id: person
+displayName: Person
+ttl: 30
+body: ''
+path: /single
+custom:
+  maxDepth: 3
+  allowedContentTypes:
+    - person
+method: GET
+purgeKey: 322afaff-493f-4425-90ae-b5ca6a979c55
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

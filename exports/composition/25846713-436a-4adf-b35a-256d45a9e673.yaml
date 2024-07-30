@@ -62,8 +62,8 @@ composition:
                       Entries data Loop Item:
                         type: sys-reserved-loop
                         variables:
-                          skip: '0'
-                          limit: '0'
+                          skip: ${offset}
+                          limit: ${size}
                           connectedData: /Entries/data
               parameters:
                 columns:
@@ -108,13 +108,14 @@ composition:
                         game: ${game}
                         locale: ${locale}
                     en-US:
-                      path: /${locale}/compendium/${game}/:category
+                      path: /${locale}/compendium/${game}/${category}
                       type: projectMapNode
                       nodeId: 3e660606-f991-4185-9e36-5d357cd27d80
                       projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
                       dynamicInputValues:
                         game: ${game}
                         locale: ${locale}
+                        category: ${category}
                 offsetParam:
                   type: text
                   value: offset
@@ -148,5 +149,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-12T10:57:39.326245+00:00'
-modified: '2024-01-29T12:47:31.120132+00:00'
+modified: '2024-07-17T13:47:21.417413+00:00'
 pattern: false

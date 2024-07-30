@@ -146,6 +146,7 @@ composition:
         $slotSectionItems:
           - _id: 582f5d03-9f6d-4581-8e67-c27c94230231
             type: callToAction
+            variant: secondary
             parameters:
               title:
                 type: text
@@ -162,10 +163,10 @@ composition:
           locales:
             de-DE: Jetzt im Angebot
     9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd|d75dda5d-4bef-4a4e-a2cd-2e420c55864a:
-      variant: error
+      variant: primary
   _locales:
     - en-US
     - de-DE
 created: '2023-08-06T15:41:30.053601+00:00'
-modified: '2024-05-06T16:14:35.64224+00:00'
+modified: '2024-07-16T10:24:38.712151+00:00'
 pattern: false

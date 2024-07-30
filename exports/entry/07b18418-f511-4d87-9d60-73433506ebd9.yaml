@@ -1,0 +1,46 @@
+created: '2024-07-29T15:59:45.303427+00:00'
+modified: '2024-07-29T16:01:22.549946+00:00'
+pattern: false
+entry:
+  _id: 07b18418-f511-4d87-9d60-73433506ebd9
+  _name: Thai
+  _slug: thai
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/2ImdV3OwHJUVDtm1HVRD21/469c09cf38cb8ce75d0a48ece3471ed7/photo-1455619452474-d2be8b1e70cd
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Thai
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 6a3f46ea-6f7c-4951-952a-3ff3bba6c98d
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/2ImdV3OwHJUVDtm1HVRD21/469c09cf38cb8ce75d0a48ece3471ed7/photo-1455619452474-d2be8b1e70cd
+              title:
+                type: text
+                value: Image of a curry
+              description:
+                type: text
+                value: Photo by emy on Unsplash
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+    description:
+      type: text
+      locales:
+        en-US: >-
+          There is no doubt that Thai food is considered as one of the best
+          cuisines in the world, with a deep variety of flavors from spicy to
+          sweet and sour.
+  _locales:
+    - en-US

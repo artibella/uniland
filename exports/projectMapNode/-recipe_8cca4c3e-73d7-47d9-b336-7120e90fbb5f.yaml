@@ -1,0 +1,10 @@
+id: 8cca4c3e-73d7-47d9-b336-7120e90fbb5f
+name: Recipe
+order: 400
+path: /:locale/demos/recipes/:recipe
+type: composition
+pathSegment: ':recipe'
+data:
+  previewValue: ''
+compositionId: f8276acb-a4de-43f7-8f45-82f5e158ff72
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

@@ -1,0 +1,27 @@
+id: blogCategoryList
+displayName: Blog Category List
+path: /query
+custom:
+  allowedContentTypes:
+    - blogCategory
+method: GET
+purgeKey: d6770019-7e3e-4f1a-ae15-5a2de4765692
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

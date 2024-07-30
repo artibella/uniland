@@ -1,9 +1,9 @@
 id: movieContent
 displayName: Movie
 ttl: 30
-body: ''
 path: /single
 custom:
+  maxDepth: 3
   proposedName: Movie
   allowedContentTypes:
     - movie
@@ -14,5 +14,5 @@ variables:
   entryId:
     type: text
     default: ''
-dataSourceId: uniland
+dataSourceId: uniformContent
 allowedOnComponents: []

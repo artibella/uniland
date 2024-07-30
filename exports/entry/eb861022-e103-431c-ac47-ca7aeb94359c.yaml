@@ -1,0 +1,41 @@
+created: '2024-07-30T08:13:21.990739+00:00'
+modified: '2024-07-30T08:37:03.263082+00:00'
+pattern: false
+entry:
+  _id: eb861022-e103-431c-ac47-ca7aeb94359c
+  _name: Ukrainian
+  _slug: ukrainian
+  _thumbnail: >-
+    https://domesticfits.com/wp-content/uploads/2024/02/ukrainian-food-popular-world-640x427.jpeg
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Ukrainian
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: a162a430-01ff-41f2-a053-3dcbd01f87e0
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://domesticfits.com/wp-content/uploads/2024/02/ukrainian-food-popular-world-640x427.jpeg
+            _source: custom-url
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Ukrainian cuisine is the collection of the various cooking traditions
+          of the people of Ukraine, one of the largest and most populous
+          European countries. It is heavily influenced by the rich dark soil
+          (chornozem) from which its ingredients come, and often involves many
+          components.[1] Traditional Ukrainian dishes often experience a complex
+          heating process – "at first they are fried or boiled, and then stewed
+          or baked. This is the most distinctive feature of Ukrainian
+          cuisine".[2]
+  _locales:
+    - en-US

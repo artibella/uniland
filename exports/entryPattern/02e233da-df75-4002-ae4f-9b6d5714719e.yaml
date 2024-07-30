@@ -1,0 +1,47 @@
+created: '2024-07-11T10:05:26.383415+00:00'
+modified: '2024-07-11T10:05:26.383415+00:00'
+pattern: true
+entry:
+  _id: 02e233da-df75-4002-ae4f-9b6d5714719e
+  _name: Integration Partner
+  _slug: organization-pattern
+  _thumbnail: https:${#jptr:/Integration/fields/image/fields/file/url}
+  type: organization
+  fields:
+    url:
+      type: link
+      value:
+        path: https://vercel.com/home
+        type: url
+    logo:
+      type: asset
+      value:
+        - _id: 78a29e3d-9271-48ff-bf45-09593c526f81
+          type: image
+          fields:
+            url:
+              type: text
+              value: https:${#jptr:/Integration/fields/image/fields/file/url}
+            title:
+              type: text
+              value: ${#jptr:/Integration/fields/title}
+          _source: custom-url
+    name:
+      type: text
+      value: ${#jptr:/Integration/fields/title}
+  _dataResources:
+    Integration:
+      type: integration
+      variables:
+        locale: ${locale}
+        entryIds: 5ZLfgitFTIaXSkMSO72yXd
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    parameters:
+      url: 'yes'
+      logo: 'yes'
+      name: 'yes'
+    hideLockedParameters: true

@@ -1,0 +1,49 @@
+created: '2024-07-11T10:05:22.735347+00:00'
+modified: '2024-07-26T11:12:59.131229+00:00'
+pattern: false
+entry:
+  _id: d10a55c2-0bac-4945-b85e-fbb668f767e4
+  _name: Gluten free
+  _slug: gluten-free
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ER55nRoqSpW098PPtJhAww-glute-free.svg
+  type: diet
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Gluten free
+    image:
+      type: asset
+      value:
+        - _id: 77b6ae5b-bc55-4b67-9ac4-84649d4afb75
+          type: image
+          fields:
+            id:
+              type: text
+              value: 198d1021-6973-4142-b52b-6cb6c0679333
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ER55nRoqSpW098PPtJhAww-glute-free.svg
+              type: text
+            file:
+              type: file
+              value: 6de8ea45-6b0b-45c4-a6a0-faee084e5f4a
+            size:
+              value: 2873
+              type: number
+            title:
+              type: text
+              value: glute-free.svg
+            width:
+              value: 23
+              type: number
+            height:
+              value: 20
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+  _locales:
+    - en-US

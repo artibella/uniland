@@ -1,0 +1,48 @@
+created: '2024-07-29T16:01:30.01721+00:00'
+modified: '2024-07-29T16:02:39.278417+00:00'
+pattern: false
+entry:
+  _id: 4b27a2b7-7af7-4be3-9ec2-a0913f9997b3
+  _name: Chinese
+  _slug: chinese
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/2bQizkRSPB8cy5XG1beKzv/d0a6c3bf87629e88634c13fd90b99d29/pexels-photo-3054690.jpeg
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Chinese
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 51a7103a-cf15-4ba6-ba1f-fba49e66f40d
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/2bQizkRSPB8cy5XG1beKzv/d0a6c3bf87629e88634c13fd90b99d29/pexels-photo-3054690.jpeg
+              title:
+                type: text
+                value: Chinese food
+              description:
+                type: text
+                value: Chinese food being prepared in a Wok
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+        - Regional
+    description:
+      type: text
+      locales:
+        en-US: >-
+          With a long history, unique features, numerous styles, and exquisite
+          cooking, Chinese cuisine is one of the important constituent parts of
+          Chinese culture. Chinese traditional dishes are famous for their
+          color, aroma, taste, meanings, and appearance.
+  _locales:
+    - en-US

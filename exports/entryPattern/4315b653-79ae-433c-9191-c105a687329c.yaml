@@ -1,5 +1,5 @@
 created: '2024-04-03T19:21:16.570872+00:00'
-modified: '2024-04-03T19:27:38.264606+00:00'
+modified: '2024-07-22T16:20:37.894493+00:00'
 pattern: true
 entry:
   _id: 4315b653-79ae-433c-9191-c105a687329c
@@ -109,7 +109,7 @@ entry:
       value: ${#jptr:/Movie/isoReleased}
     dvdReleaseDate:
       type: date
-      value: ${#jptr:/Movie/isoDVD}
+      value: ${#jptr:/Movie/isoDVD:fl=i}
     boxOfficeIncome:
       type: text
       locales:

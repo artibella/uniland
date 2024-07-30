@@ -1,0 +1,19 @@
+created: '2024-07-30T08:26:41.322122+00:00'
+modified: '2024-07-30T08:27:13.423547+00:00'
+pattern: false
+entry:
+  _id: 700533cf-eed1-434e-9235-99c5e9912b11
+  _name: Spanish
+  _slug: spanish
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Spanish
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

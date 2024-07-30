@@ -1,0 +1,27 @@
+id: cuisineList
+displayName: Cuisine List
+path: /query
+custom:
+  allowedContentTypes:
+    - cuisine
+method: GET
+purgeKey: dd7d6c6c-609a-4ffa-8086-8d8eda79eba4
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

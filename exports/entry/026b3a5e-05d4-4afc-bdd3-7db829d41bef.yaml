@@ -1,0 +1,46 @@
+created: '2024-07-29T16:05:43.536167+00:00'
+modified: '2024-07-29T16:06:55.572456+00:00'
+pattern: false
+entry:
+  _id: 026b3a5e-05d4-4afc-bdd3-7db829d41bef
+  _name: Japanese
+  _slug: japanese
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/69OZc5Ejq1DCmin474PuCw/f4f72849bb0bad27c813e9201a4dce72/photo-1617196034796-73dfa7b1fd56
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Japanese
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 51a7103a-cf15-4ba6-ba1f-fba49e66f40d
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/69OZc5Ejq1DCmin474PuCw/f4f72849bb0bad27c813e9201a4dce72/photo-1617196034796-73dfa7b1fd56
+              title:
+                type: text
+                value: Sushi
+              description:
+                type: text
+                value: Some Nigiri sushi on a plate
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+    description:
+      type: text
+      locales:
+        en-US: >-
+          The art of simplicity and perfection for every dish is mastered in
+          Japan. Explore the diverse range of authentic japanese dishes,
+          including sushi, ramen, soba noodles, yakitori, okonomiyaki and more 
+  _locales:
+    - en-US

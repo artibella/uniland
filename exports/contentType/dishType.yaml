@@ -1,0 +1,33 @@
+id: dishType
+name: Dish type
+created: '2024-07-11T10:04:51.498524+00:00'
+updated: '2024-07-11T10:04:51.498524+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: true
+entryName: name
+thumbnailField: image
+description: 'Examples: Main dish, side dish, dip, soup, starter'
+icon: tag
+type: contentType
+permissions: []

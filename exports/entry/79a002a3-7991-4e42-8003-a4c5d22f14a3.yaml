@@ -1,0 +1,15 @@
+created: '2024-07-11T10:05:14.783073+00:00'
+modified: '2024-07-11T10:05:14.783073+00:00'
+pattern: false
+entry:
+  _id: 79a002a3-7991-4e42-8003-a4c5d22f14a3
+  _name: Summer
+  _slug: summer
+  type: season
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Summer
+  _locales:
+    - en-US

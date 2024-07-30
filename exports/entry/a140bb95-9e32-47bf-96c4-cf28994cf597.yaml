@@ -1,0 +1,19 @@
+created: '2024-07-30T08:27:20.881159+00:00'
+modified: '2024-07-30T08:27:50.210863+00:00'
+pattern: false
+entry:
+  _id: a140bb95-9e32-47bf-96c4-cf28994cf597
+  _name: Portugese
+  _slug: portugese
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Portugese
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

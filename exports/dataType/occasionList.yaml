@@ -1,0 +1,27 @@
+id: occasionList
+displayName: Occasion List
+path: /query
+custom:
+  allowedContentTypes:
+    - occasion
+method: GET
+purgeKey: 37687a2d-f358-4c55-a3ee-baf8de1e5447
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

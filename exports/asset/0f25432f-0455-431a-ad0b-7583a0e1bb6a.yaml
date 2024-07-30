@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 0f25432f-0455-431a-ad0b-7583a0e1bb6a
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: vegetarian.svg
+    file:
+      type: file
+      value: 91feb147-0fa6-4919-9221-fb2fc7b892bc
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/sH7C0-u2TfWn0jAFrrr8Kg-vegetarian.svg
+      type: text
+    size:
+      value: 1252
+      type: number
+    width:
+      value: 20
+      type: number
+    height:
+      value: 19
+      type: number
+    custom: {}
+created: '2024-07-11T10:03:53.003819+00:00'
+modified: '2024-07-11T10:03:53.003819+00:00'

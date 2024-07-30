@@ -1,0 +1,19 @@
+created: '2024-07-30T08:34:08.937095+00:00'
+modified: '2024-07-30T08:34:42.450162+00:00'
+pattern: false
+entry:
+  _id: 1ccd4914-3814-435e-9f4d-378f793de760
+  _name: Swiss
+  _slug: swiss
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Swiss
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

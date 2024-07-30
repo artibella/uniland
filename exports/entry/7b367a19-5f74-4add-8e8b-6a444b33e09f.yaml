@@ -1,5 +1,5 @@
 created: '2023-10-11T12:33:31.375818+00:00'
-modified: '2024-04-17T14:52:16.270413+00:00'
+modified: '2024-07-25T14:49:53.626114+00:00'
 pattern: false
 entry:
   _id: 7b367a19-5f74-4add-8e8b-6a444b33e09f
@@ -14,6 +14,9 @@ entry:
       locales:
         de-DE: Käse Pizza
         en-US: Cheeses Pizza
+    diets:
+      type: contentReference
+      value: ${#jptr:/ref-7b367a19-5f74-4add-8e8b-6a444b33e09f-diets/entries}
     intro:
       type: richText
       value:
@@ -30,6 +33,9 @@ entry:
               children: []
               direction: null
           direction: null
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-7b367a19-5f74-4add-8e8b-6a444b33e09f-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -669,6 +675,15 @@ entry:
     preparationTime:
       type: text
       value: 1 hour to heat oven
+  _dataResources:
+    ref-7b367a19-5f74-4add-8e8b-6a444b33e09f-diets:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 9a585b3d-0c16-4499-b2c3-5994e1d27ec9
+    ref-7b367a19-5f74-4add-8e8b-6a444b33e09f-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
   _locales:
     - en-US
     - de-DE

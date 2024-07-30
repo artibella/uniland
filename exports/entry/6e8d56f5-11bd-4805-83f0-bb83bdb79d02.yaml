@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:10.40502+00:00'
-modified: '2024-04-17T14:18:04.765088+00:00'
+modified: '2024-07-29T10:15:03.073541+00:00'
 pattern: false
 entry:
   _id: 6e8d56f5-11bd-4805-83f0-bb83bdb79d02
@@ -14,6 +14,15 @@ entry:
       locales:
         de-DE: Pasta al limone
         en-US: Pasta al limone
+    diets:
+      type: contentReference
+      value: ${#jptr:/ref-6e8d56f5-11bd-4805-83f0-bb83bdb79d02-diets/entries}
+    seasons:
+      type: contentReference
+      value: ${#jptr:/ref-6e8d56f5-11bd-4805-83f0-bb83bdb79d02-seasons/entries}
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-6e8d56f5-11bd-4805-83f0-bb83bdb79d02-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -107,6 +116,20 @@ entry:
     preparationTime:
       type: text
       value: '20'
+  _dataResources:
+    ref-6e8d56f5-11bd-4805-83f0-bb83bdb79d02-diets:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 9a585b3d-0c16-4499-b2c3-5994e1d27ec9
+    ref-6e8d56f5-11bd-4805-83f0-bb83bdb79d02-seasons:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          79a002a3-7991-4e42-8003-a4c5d22f14a3,17192f38-cf77-461f-bb4e-f45a5cce7ca9,09d54f99-500b-434c-afbd-c555772d9b3a
+    ref-6e8d56f5-11bd-4805-83f0-bb83bdb79d02-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
   _locales:
     - en-US
     - de-DE

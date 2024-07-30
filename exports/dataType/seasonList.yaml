@@ -1,0 +1,27 @@
+id: seasonList
+displayName: Season List
+path: /query
+custom:
+  allowedContentTypes:
+    - season
+method: GET
+purgeKey: 2288ba20-0b74-4b53-b0de-357563a69e03
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

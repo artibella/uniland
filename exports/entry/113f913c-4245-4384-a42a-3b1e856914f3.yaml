@@ -1,10 +1,12 @@
 created: '2024-04-03T19:14:38.884867+00:00'
-modified: '2024-04-03T19:14:38.884867+00:00'
+modified: '2024-07-11T10:05:01.060834+00:00'
 pattern: false
 entry:
   _id: 113f913c-4245-4384-a42a-3b1e856914f3
   _name: Assassin's Spaghetti (a.k.a. Burnt Spaghetti)
   _slug: assassins-spaghetti
+  _thumbnail: >-
+    https://www.simplyrecipes.com/thmb/nThVkd7_aRv-o3Vd6EDYw2Lb0BA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Assassins-Spaghetti-LEAD-6-5f40fd14a5514125a4b53406c2909ce2.jpg
   type: recipe
   fields:
     name:
@@ -25,7 +27,15 @@ entry:
           bruciacchiati e croccanti, dall'intenso sapore piccante di pomodoro.
     featuredImage:
       type: asset
-      value: []
+      value:
+        - _id: e274b181-d8ab-473d-938f-5aea56f8fa88
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.simplyrecipes.com/thmb/nThVkd7_aRv-o3Vd6EDYw2Lb0BA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Assassins-Spaghetti-LEAD-6-5f40fd14a5514125a4b53406c2909ce2.jpg
+          _source: custom-url
   _locales:
     - en-US
     - it-IT

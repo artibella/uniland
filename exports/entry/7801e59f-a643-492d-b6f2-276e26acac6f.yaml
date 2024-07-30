@@ -1,0 +1,15 @@
+created: '2024-07-29T15:55:07.866904+00:00'
+modified: '2024-07-29T15:55:17.860025+00:00'
+pattern: false
+entry:
+  _id: 7801e59f-a643-492d-b6f2-276e26acac6f
+  _name: Beverage
+  _slug: beverage
+  type: dishType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Beverage
+  _locales:
+    - en-US

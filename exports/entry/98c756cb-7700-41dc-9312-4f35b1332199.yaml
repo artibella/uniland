@@ -1,0 +1,28 @@
+created: '2024-07-30T08:04:04.302516+00:00'
+modified: '2024-07-30T08:30:52.159189+00:00'
+pattern: false
+entry:
+  _id: 98c756cb-7700-41dc-9312-4f35b1332199
+  _name: European
+  _slug: european
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: European
+    types:
+      type: multi-select
+      value:
+        - Regional
+    childCuisines:
+      type: contentReference
+      value: ${#jptr:/ref-98c756cb-7700-41dc-9312-4f35b1332199-childCuisines/entries}
+  _dataResources:
+    ref-98c756cb-7700-41dc-9312-4f35b1332199-childCuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          c30d6e9c-2d4a-4135-af96-0dd16a4508c7,1a767627-c8bc-4024-8f87-bfe5baa32bbc,fb6b92cc-af58-4d26-8d2c-7df6ca5aad87,0f40cbef-dab5-4b48-aa76-a27ecae3a396
+  _locales:
+    - en-US

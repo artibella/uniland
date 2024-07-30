@@ -1,7 +1,7 @@
 id: organization
 name: Organization
 created: '2023-11-09T15:29:28.503947+00:00'
-updated: '2024-05-08T22:32:18.158223+00:00'
+updated: '2024-07-11T10:04:52.572672+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -11,6 +11,38 @@ fields:
     type: text
     helpText: ''
     typeConfig: null
+  - id: officialName
+    name: Official Name
+    type: text
+    helpText: 'Official name of the company: used for legal content'
+    typeConfig: null
+    localizable: false
+  - id: telephone
+    name: Telephone
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        url: false
+        email: false
+        projectMapNode: false
+  - id: email
+    name: Email
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        url: false
+        projectMapNode: false
+  - id: url
+    name: URL
+    type: link
+    helpText: ''
+    typeConfig:
+      linkTypes:
+        tel: false
+        email: false
   - id: group_address
     name: Address
     type: group
@@ -35,38 +67,21 @@ fields:
     type: text
     helpText: City or Region description
     typeConfig: null
-  - id: email
-    name: Email
-    type: link
-    helpText: ''
-    typeConfig:
-      linkTypes:
-        tel: false
-        url: false
-        projectMapNode: false
-  - id: telephone
-    name: Telephone
-    type: link
-    helpText: ''
-    typeConfig:
-      linkTypes:
-        url: false
-        email: false
-        projectMapNode: false
-  - id: url
-    name: URL
-    type: link
-    helpText: ''
-    typeConfig:
-      linkTypes:
-        tel: false
-        email: false
   - id: logo
     name: Logo
     type: asset
     helpText: ''
     typeConfig:
       max: 1
+  - id: leadershipTeam
+    name: Leadership Team
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - person
+    localizable: false
 entryName: name
 thumbnailField: logo
 description: Organization according to Schema.org

@@ -1,0 +1,57 @@
+id: occasion
+name: Occasion
+created: '2024-07-11T10:04:52.844324+00:00'
+updated: '2024-07-11T10:04:52.844324+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: Image or icon for the season
+    typeConfig:
+      max: 1
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+entryName: name
+thumbnailField: image
+description: 'Occasion for which a recipe is prepared: e.g. BBQ, Christmas, Halloween'
+icon: tag
+type: contentType
+permissions: []

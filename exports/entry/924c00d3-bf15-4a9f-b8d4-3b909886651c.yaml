@@ -1,0 +1,46 @@
+created: '2024-07-29T16:04:23.057925+00:00'
+modified: '2024-07-29T16:05:27.870116+00:00'
+pattern: false
+entry:
+  _id: 924c00d3-bf15-4a9f-b8d4-3b909886651c
+  _name: Korean
+  _slug: korean
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/5x2A7b2q22ML303UwMdBBs/3a531b23ddebf7a3b6bb7251cac92c95/pexels-photo-5773969.jpeg
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Korean
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 51a7103a-cf15-4ba6-ba1f-fba49e66f40d
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/5x2A7b2q22ML303UwMdBBs/3a531b23ddebf7a3b6bb7251cac92c95/pexels-photo-5773969.jpeg
+              title:
+                type: text
+                value: Korean food
+              description:
+                type: text
+                value: Various Korean dishes on a table
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - National
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Korean food is some of the healthiest on earth, with an emphasis on
+          vegetables, meats cooked simply and without much oil, and a near
+          obsession with the fermented vegetable Kimchi.
+  _locales:
+    - en-US

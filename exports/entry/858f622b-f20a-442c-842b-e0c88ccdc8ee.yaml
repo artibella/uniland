@@ -1,0 +1,59 @@
+created: '2024-07-11T10:05:17.349347+00:00'
+modified: '2024-07-11T10:05:17.349347+00:00'
+pattern: false
+entry:
+  _id: 858f622b-f20a-442c-842b-e0c88ccdc8ee
+  _name: Stir fry
+  _slug: stir-fry
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1464500542410-1396074bf230?q=80&w=1023&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: cookingMethod
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Stir fry
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 22fc00ae-f373-4fd9-b96e-e5df371f9e7a
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1464500542410-1396074bf230?q=80&w=1023&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              title:
+                type: text
+                value: Stir fry
+            _source: custom-url
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Stir frying involves cooking food quickly in a small
+                      amount of oil or butter over medium-high heat. It is often
+                      used for vegetables, meat, and fish.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+  _locales:
+    - en-US

@@ -1,0 +1,19 @@
+created: '2024-07-30T08:32:23.077367+00:00'
+modified: '2024-07-30T08:32:42.706207+00:00'
+pattern: false
+entry:
+  _id: 1a249e8c-a55b-428a-be88-a847e612b213
+  _name: German
+  _slug: german
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: German
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

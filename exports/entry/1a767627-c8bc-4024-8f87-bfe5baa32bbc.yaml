@@ -1,0 +1,45 @@
+created: '2024-07-30T08:10:35.15385+00:00'
+modified: '2024-07-30T08:20:26.698352+00:00'
+pattern: false
+entry:
+  _id: 1a767627-c8bc-4024-8f87-bfe5baa32bbc
+  _name: Eastern European
+  _slug: eastern-european
+  _thumbnail: >-
+    https://images.ctfassets.net/ux22f0cna7l9/2L38ymctt7HD1dha20348y/70b3c71e1a78751cb727289411faee2c/pexels-polina-tankilevitch-8599738.jpg
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Eastern European
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 552a33bd-1020-431f-93a5-aafab4dbd879
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/ux22f0cna7l9/2L38ymctt7HD1dha20348y/70b3c71e1a78751cb727289411faee2c/pexels-polina-tankilevitch-8599738.jpg
+              title:
+                type: text
+                value: Borscht
+            _source: custom-url
+    types:
+      type: multi-select
+      value:
+        - Regional
+    childCuisines:
+      type: contentReference
+      value: ${#jptr:/ref-1a767627-c8bc-4024-8f87-bfe5baa32bbc-childCuisines/entries}
+  _dataResources:
+    ref-1a767627-c8bc-4024-8f87-bfe5baa32bbc-childCuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          14ce93b9-7b1e-4997-88bb-ae7a6347d809,9eb5d130-c964-48e8-9485-f49bdf525935,eb861022-e103-431c-ac47-ca7aeb94359c
+  _locales:
+    - en-US

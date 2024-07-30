@@ -1,0 +1,179 @@
+id: ingredient
+name: 🍏 Ingredient
+created: '2024-07-11T10:04:52.198562+00:00'
+updated: '2024-07-11T10:04:52.198562+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: namePlural
+    name: Name (Plural)
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: true
+  - id: description
+    name: Description
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: teaserText
+    name: Teaser text
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
+  - id: 20108ad1-e794-48a9-95f3-40a0ca441016
+    name: Guides
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - buyingGuide
+        - preparationGuide
+        - storageGuides
+        - howtos
+  - id: buyingGuide
+    name: Buying Guide
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: preparationGuide
+    name: Preparation Guide
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: storageGuides
+    name: Storage Guides
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: howtos
+    name: Howtos
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - howto
+    localizable: false
+entryName: name
+thumbnailField: image
+description: Any ingredient that is used in a recipe.
+icon: bowl
+type: contentType
+permissions: []

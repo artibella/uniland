@@ -44,7 +44,7 @@ composition:
                   type: text
                   value: ${#jptr:/City weather Content/weather/0/description}
                 imageUrl:
-                  type: text
+                  type: image
                   value: >-
                     http://openweathermap.org/img/wn/${#jptr:/City weather
                     Content/weather/0/icon}@2x.png
@@ -138,5 +138,5 @@ composition:
       theme: 'yes'
       title: 'yes'
 created: '2023-08-23T09:02:42.626651+00:00'
-modified: '2023-08-23T09:32:07.61297+00:00'
+modified: '2024-07-11T10:04:39.85452+00:00'
 pattern: true

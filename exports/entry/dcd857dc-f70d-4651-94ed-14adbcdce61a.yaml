@@ -1,0 +1,15 @@
+created: '2024-07-29T15:48:10.050101+00:00'
+modified: '2024-07-29T15:48:22.261459+00:00'
+pattern: false
+entry:
+  _id: dcd857dc-f70d-4651-94ed-14adbcdce61a
+  _name: Main dish
+  _slug: main-dish
+  type: dishType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Main dish
+  _locales:
+    - en-US

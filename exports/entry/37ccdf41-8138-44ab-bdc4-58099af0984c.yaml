@@ -1,0 +1,41 @@
+created: '2024-07-11T10:05:02.466795+00:00'
+modified: '2024-07-29T13:25:58.346863+00:00'
+pattern: false
+entry:
+  _id: 37ccdf41-8138-44ab-bdc4-58099af0984c
+  _name: Lars Birkholm Petersen
+  _slug: lars-birkholm-petersen
+  _thumbnail: >-
+    https://www.uniform.dev/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9ku1oyd4k3wo%2FxnakkffQbvVwoxoJ8IuJy%2F708e7e1b11b5d65e71e02736a27a7f82%2Flars_birkholm_petersen.jpg&w=256&q=100
+  type: person
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Lars Birkholm Petersen
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 53135e6e-6c0b-4305-b628-10931cc72360
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://www.uniform.dev/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9ku1oyd4k3wo%2FxnakkffQbvVwoxoJ8IuJy%2F708e7e1b11b5d65e71e02736a27a7f82%2Flars_birkholm_petersen.jpg&w=256&q=100
+            _source: custom-url
+    jobTitle:
+      type: text
+      locales:
+        en-US: CEO and a cofounder
+    worksFor:
+      type: contentReference
+      value: ${#jptr:/ref-37ccdf41-8138-44ab-bdc4-58099af0984c-worksFor/entries/0}
+  _dataResources:
+    ref-37ccdf41-8138-44ab-bdc4-58099af0984c-worksFor:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ded160f6-dfef-436c-97ab-c9e566ad2d8b
+  _locales:
+    - en-US

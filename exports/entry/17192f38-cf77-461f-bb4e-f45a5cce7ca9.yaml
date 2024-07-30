@@ -1,0 +1,15 @@
+created: '2024-07-11T10:05:00.981431+00:00'
+modified: '2024-07-11T10:05:00.981431+00:00'
+pattern: false
+entry:
+  _id: 17192f38-cf77-461f-bb4e-f45a5cce7ca9
+  _name: Spring
+  _slug: spring
+  type: season
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Spring
+  _locales:
+    - en-US

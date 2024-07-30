@@ -1,0 +1,19 @@
+created: '2024-07-30T08:05:10.833658+00:00'
+modified: '2024-07-30T08:05:53.19143+00:00'
+pattern: false
+entry:
+  _id: 6eeaaf28-9b36-4c5a-b57d-b97135bcb708
+  _name: British
+  _slug: british
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: British
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

@@ -1,0 +1,19 @@
+created: '2024-07-30T08:28:38.812255+00:00'
+modified: '2024-07-30T08:28:56.409796+00:00'
+pattern: false
+entry:
+  _id: acd287b8-084e-4dc8-8759-5bc25c9880e5
+  _name: Mediterranean
+  _slug: mediterranean
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Mediterranean
+    types:
+      type: multi-select
+      value:
+        - Regional
+  _locales:
+    - en-US

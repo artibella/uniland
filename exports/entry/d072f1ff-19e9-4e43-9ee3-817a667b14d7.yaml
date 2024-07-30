@@ -1,0 +1,49 @@
+created: '2024-07-11T10:05:22.599314+00:00'
+modified: '2024-07-26T11:13:10.517803+00:00'
+pattern: false
+entry:
+  _id: d072f1ff-19e9-4e43-9ee3-817a667b14d7
+  _name: Lactose free
+  _slug: lactose-free
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/bbzys3TERnKbic5MQVodHA-lactose-free.svg
+  type: diet
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Lactose free
+    image:
+      type: asset
+      value:
+        - _id: c70f0f71-5ffd-459a-9b3b-d9e80fe2bd77
+          type: image
+          fields:
+            id:
+              type: text
+              value: a917c454-26ad-4e50-944e-593fcd29912b
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/bbzys3TERnKbic5MQVodHA-lactose-free.svg
+              type: text
+            file:
+              type: file
+              value: 385b16e4-cfb4-47fd-969f-1226df8dc022
+            size:
+              value: 2390
+              type: number
+            title:
+              type: text
+              value: lactose-free.svg
+            width:
+              value: 27
+              type: number
+            height:
+              value: 27
+              type: number
+            mediaType:
+              value: image/svg+xml
+              type: text
+          _source: uniform-assets
+  _locales:
+    - en-US

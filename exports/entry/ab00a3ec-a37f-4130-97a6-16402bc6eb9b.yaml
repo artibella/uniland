@@ -1,0 +1,20 @@
+created: '2024-07-11T10:05:19.416072+00:00'
+modified: '2024-07-24T07:52:39.857693+00:00'
+pattern: false
+entry:
+  _id: ab00a3ec-a37f-4130-97a6-16402bc6eb9b
+  _name: commercetools
+  _slug: commercetools
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/1SVgFfLddIYEWe8YaHZgDi/0381fb37c6435a90117d5c9d1f0ebd7b/commercetools.png
+  type: organization
+  fields: {}
+  _dataResources:
+    Integration:
+      type: integration
+      variables:
+        locale: ${locale}
+        entryIds: 5pZHwTbVP0rIzvIIFDS02s
+  _locales:
+    - en-US
+  _pattern: 02e233da-df75-4002-ae4f-9b6d5714719e

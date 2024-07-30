@@ -1,0 +1,41 @@
+created: '2024-07-11T10:05:19.861437+00:00'
+modified: '2024-07-29T13:26:51.750486+00:00'
+pattern: false
+entry:
+  _id: b23ff0e4-3c81-49f9-8a3c-484c25e5be8d
+  _name: Darren Guarnaccia
+  _slug: darren-guarnaccia
+  _thumbnail: >-
+    https://www.uniform.dev/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9ku1oyd4k3wo%2F214syx45jCvpil0ulaUseh%2F53ce65fe8be923ea1c500483a67ebab4%2FComposableRoadshow_GuestSpeakers_darrenG.png&w=256&q=100
+  type: person
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Darren Guarnaccia
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 721514a7-d089-4411-af8d-c40ec5426813
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://www.uniform.dev/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9ku1oyd4k3wo%2F214syx45jCvpil0ulaUseh%2F53ce65fe8be923ea1c500483a67ebab4%2FComposableRoadshow_GuestSpeakers_darrenG.png&w=256&q=100
+            _source: custom-url
+    jobTitle:
+      type: text
+      locales:
+        en-US: President of Uniform
+    worksFor:
+      type: contentReference
+      value: ${#jptr:/ref-b23ff0e4-3c81-49f9-8a3c-484c25e5be8d-worksFor/entries/0}
+  _dataResources:
+    ref-b23ff0e4-3c81-49f9-8a3c-484c25e5be8d-worksFor:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ded160f6-dfef-436c-97ab-c9e566ad2d8b
+  _locales:
+    - en-US

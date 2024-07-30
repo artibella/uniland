@@ -1,0 +1,27 @@
+id: personList
+displayName: Person List
+path: /query
+custom:
+  allowedContentTypes:
+    - person
+method: GET
+purgeKey: 11b178a7-0a77-4e2a-89d1-5874406f46d8
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

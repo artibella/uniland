@@ -1,0 +1,38 @@
+composition:
+  _name: Event card
+  _id: 81ceb4d2-280d-42ac-bf65-98024c1271cd
+  type: card
+  parameters:
+    body:
+      type: text
+      locales:
+        en-US: ${#jptr:/Event/entry/fields/teaserText/value}
+    image:
+      type: text
+      locales:
+        en-US: ${#jptr:/Event/entry/fields/image/value}
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Event/entry/fields/title/value}
+    byline:
+      type: text
+      locales:
+        en-US: >-
+          Sponsored by
+          ${#jptr:/Event/entry/fields/sponsors/value/0/entry/fields/name/value:fa=p:fl=i}
+  _dataResources:
+    Event:
+      type: event
+      variables:
+        locale: ${locale}
+        entryId: ea92d62a-b792-4910-86fa-9fb2c2f26978
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-07-29T13:29:55.24423+00:00'
+modified: '2024-07-29T13:58:50.390287+00:00'
+pattern: true

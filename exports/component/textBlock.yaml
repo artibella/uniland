@@ -56,12 +56,28 @@ parameters:
       collapsed: true
       childrenParams:
         - externalRichText
+        - richTextType
   - id: externalRichText
     name: External Rich Text
     type: json
     helpText: Rich text JSON coming from another CMS
     typeConfig: {}
     localizable: true
+  - id: richTextType
+    name: Rich Text Type
+    type: select
+    helpText: Specify the CMS vendor the external data is coming from
+    typeConfig:
+      options:
+        - text: Contentful
+          value: contentful
+        - text: Contentstack
+          value: contentstack
+        - text: DatoCMS
+          value: datocms
+        - text: Kontent.ai
+          value: kontent
+    localizable: false
   - id: group_textStyling
     name: Text styling
     type: group
@@ -104,4 +120,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.903269+00:00'
-updated: '2023-12-13T12:13:01.45938+00:00'
+updated: '2024-07-18T14:00:49.488639+00:00'

@@ -1,5 +1,5 @@
 created: '2023-06-30T15:31:54.782+00:00'
-modified: '2024-07-01T16:00:50.499188+00:00'
+modified: '2024-07-29T10:28:13.225422+00:00'
 pattern: false
 entry:
   _id: 58cc1daa-20b9-4f93-947a-1c58533e7bc8
@@ -66,6 +66,9 @@ entry:
       value: >-
         Definitive makeover. Make an existing Sitecore solution modern and
         composable
+    attendanceMode:
+      type: select
+      value: online
   _locales:
     - it-IT
     - en-US

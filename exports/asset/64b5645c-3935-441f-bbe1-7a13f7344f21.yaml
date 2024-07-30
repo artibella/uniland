@@ -1,0 +1,30 @@
+asset:
+  type: image
+  _id: 64b5645c-3935-441f-bbe1-7a13f7344f21
+  _name: ''
+  fields:
+    title:
+      type: text
+      value: purin.svg
+    file:
+      type: file
+      value: af870846-d38c-43a5-8ef1-2427cc976e16
+    mediaType:
+      value: image/svg+xml
+      type: text
+    url:
+      value: >-
+        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/G7W12U8BQ8OsjX5S1uEOjA-purin.svg
+      type: text
+    size:
+      value: 1216
+      type: number
+    width:
+      value: 21
+      type: number
+    height:
+      value: 22
+      type: number
+    custom: {}
+created: '2024-07-11T10:04:02.918661+00:00'
+modified: '2024-07-11T10:04:02.918661+00:00'

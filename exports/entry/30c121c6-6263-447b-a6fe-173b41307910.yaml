@@ -1,0 +1,15 @@
+created: '2024-07-29T15:53:41.276098+00:00'
+modified: '2024-07-29T15:53:51.503924+00:00'
+pattern: false
+entry:
+  _id: 30c121c6-6263-447b-a6fe-173b41307910
+  _name: Appetizer
+  _slug: appetizer
+  type: dishType
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Appetizer
+  _locales:
+    - en-US

@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:18.920678+00:00'
-modified: '2024-04-03T20:04:58.155939+00:00'
+modified: '2024-07-11T10:05:17.35675+00:00'
 pattern: false
 entry:
   _id: 817fb075-a09c-447d-9d21-f0eeff9f9202
@@ -14,6 +14,9 @@ entry:
       locales:
         da-DK: Spaghetti Aglio e Olio (Pasta in Garlic and Oil Sauce)
         it-IT: Spaghetti Aglio e Olio (Pasta in Garlic and Oil Sauce)
+    diets:
+      type: contentReference
+      value: ${#jptr:/ref-817fb075-a09c-447d-9d21-f0eeff9f9202-diets}
     subtitle:
       type: text
       locales:
@@ -299,6 +302,12 @@ entry:
               value: >-
                 https://www.seriouseats.com/thmb/6jH2FH9pZYtVAWUrKHxgiiEGnPA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__02__20160219-pasta-aglio-olio-vicky-wasik-8-1f312e17a6744973a9550a5bfcaf98c1.jpg
           _source: custom-url
+  _dataResources:
+    ref-817fb075-a09c-447d-9d21-f0eeff9f9202-diets:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 9a585b3d-0c16-4499-b2c3-5994e1d27ec9
   _locales:
     - it-IT
     - da-DK

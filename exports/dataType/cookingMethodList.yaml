@@ -1,0 +1,27 @@
+id: cookingMethodList
+displayName: Cooking method List
+path: /query
+custom:
+  allowedContentTypes:
+    - cookingMethod
+method: GET
+purgeKey: 7708a513-1b85-4524-9a3c-f6dbfa3852ac
+archetype: queryEntries
+variables:
+  limit:
+    type: text
+    default: '20'
+  offset:
+    type: text
+    default: '0'
+  filters:
+    type: text
+    default: '{}'
+  orderBy:
+    type: text
+    default: ''
+  contentTypes:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

@@ -1,0 +1,15 @@
+id: cuisine
+displayName: Cuisine
+path: /single
+custom:
+  allowedContentTypes:
+    - cuisine
+method: GET
+purgeKey: e08cc6f7-efd1-4d4a-9305-ad619d42e3fa
+archetype: singleEntry
+variables:
+  entryId:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

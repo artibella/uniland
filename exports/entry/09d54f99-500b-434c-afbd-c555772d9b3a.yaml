@@ -1,0 +1,15 @@
+created: '2024-07-11T10:04:57.011295+00:00'
+modified: '2024-07-11T10:04:57.011295+00:00'
+pattern: false
+entry:
+  _id: 09d54f99-500b-434c-afbd-c555772d9b3a
+  _name: Fall
+  _slug: fall
+  type: season
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Fall
+  _locales:
+    - en-US

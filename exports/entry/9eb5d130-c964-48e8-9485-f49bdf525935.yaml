@@ -1,0 +1,19 @@
+created: '2024-07-30T08:12:27.142071+00:00'
+modified: '2024-07-30T08:12:54.634656+00:00'
+pattern: false
+entry:
+  _id: 9eb5d130-c964-48e8-9485-f49bdf525935
+  _name: Polish
+  _slug: polish
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Polish
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

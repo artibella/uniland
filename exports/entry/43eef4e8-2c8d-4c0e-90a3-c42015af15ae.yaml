@@ -1,0 +1,59 @@
+created: '2024-07-11T10:05:03.656863+00:00'
+modified: '2024-07-11T10:05:03.656863+00:00'
+pattern: false
+entry:
+  _id: 43eef4e8-2c8d-4c0e-90a3-c42015af15ae
+  _name: Baking
+  _slug: baking
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: cookingMethod
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Baking
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: ff93a06d-8a3b-43fe-b749-acd9e0496b88
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              title:
+                type: text
+                value: Baking
+            _source: custom-url
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Baking involves cooking food using dry heat, typically in
+                      an oven. It is often used for bread, cakes, pastries, and
+                      other desserts.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+  _locales:
+    - en-US

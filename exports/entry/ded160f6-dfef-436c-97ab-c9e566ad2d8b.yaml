@@ -1,15 +1,61 @@
 created: '2023-11-09T15:33:14.806399+00:00'
-modified: '2023-11-09T15:34:02.425096+00:00'
+modified: '2024-07-29T13:27:47.382215+00:00'
 pattern: false
 entry:
   _id: ded160f6-dfef-436c-97ab-c9e566ad2d8b
-  _name: Uniform Systems Inc
-  _slug: new-entry-organization
+  _name: Uniform
+  _slug: uniform
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/-JBOVDYdTUeaul4mCtvtxg-image.png
   type: organization
   fields:
     logo:
       type: asset
-      value: []
+      value:
+        - _id: cc01904d-ff9a-4e14-82df-92a0414d58b8
+          type: image
+          fields:
+            id:
+              type: text
+              value: 048a46f3-dfc5-427f-b54b-db5d9320c5bb
+            url:
+              value: >-
+                https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/-JBOVDYdTUeaul4mCtvtxg-image.png
+              type: text
+            file:
+              type: file
+              value: 3f113707-8684-41e0-bbb1-be6a517c697d
+            size:
+              value: 5820
+              type: number
+            title:
+              type: text
+              value: Uniform logo
+            width:
+              value: 200
+              type: number
+            height:
+              value: 200
+              type: number
+            mediaType:
+              value: image/png
+              type: text
+          _source: uniform-assets
     name:
       type: text
+      value: Uniform
+    officialName:
+      type: text
       value: Uniform Systems Inc
+    leadershipTeam:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-ded160f6-dfef-436c-97ab-c9e566ad2d8b-leadershipTeam/entries}
+  _dataResources:
+    ref-ded160f6-dfef-436c-97ab-c9e566ad2d8b-leadershipTeam:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          37ccdf41-8138-44ab-bdc4-58099af0984c,b6aa72ed-db8a-4676-b22b-87f0c4ad8d15,b23ff0e4-3c81-49f9-8a3c-484c25e5be8d
+  _locales:
+    - en-US

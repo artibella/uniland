@@ -1,0 +1,59 @@
+created: '2024-07-11T10:05:19.798553+00:00'
+modified: '2024-07-11T10:05:19.798553+00:00'
+pattern: false
+entry:
+  _id: b49fa78a-27fd-407f-8f94-840cfea2b064
+  _name: Boiling
+  _slug: boiling
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1676686997059-fb817ebbb2b5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: cookingMethod
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Boiling
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 0c91d8d3-6f49-4590-95ac-a5542d663e5b
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1676686997059-fb817ebbb2b5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+              title:
+                type: text
+                value: Boiling
+            _source: custom-url
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Boiling uses water or broth heated to its boiling point to
+                      cook food. It's a quick method suitable for pasta,
+                      vegetables, and eggs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+  _locales:
+    - en-US

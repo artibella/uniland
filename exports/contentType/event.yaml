@@ -1,7 +1,7 @@
 id: event
 name: Event
 created: '2023-06-30T14:48:17.043272+00:00'
-updated: '2024-07-05T08:55:22.473262+00:00'
+updated: '2024-07-29T13:22:50.20837+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -155,6 +155,15 @@ fields:
           value: offline
         - text: Mixed
           value: mixed
+  - id: sponsors
+    name: Sponsors
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - organization
+    localizable: false
 entryName: internalName
 description: ''
 icon: file-document

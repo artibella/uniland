@@ -1,0 +1,57 @@
+id: cuisine
+name: Cuisine
+created: '2024-07-11T10:04:51.451005+00:00'
+updated: '2024-07-11T10:04:51.451005+00:00'
+slugSettings:
+  required: 'no'
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: description
+    name: Description
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+    localizable: true
+  - id: image
+    name: Image
+    type: asset
+    helpText: ''
+    typeConfig: {}
+    localizable: true
+  - id: types
+    name: Types
+    type: multi-select
+    helpText: Describes what type of cuisine this entry represents
+    typeConfig:
+      options:
+        - text: National
+          value: National
+        - text: Regional
+          value: Regional
+        - text: Religious
+          value: Religious
+        - text: Ethnical
+          value: Ethnical
+    localizable: false
+  - id: childCuisines
+    name: Child cuisines
+    type: contentReference
+    helpText: Describes more specialized child cuisines
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - cuisine
+    localizable: false
+entryName: name
+thumbnailField: image
+description: ''
+icon: bowl
+type: contentType
+permissions: []

@@ -1,0 +1,34 @@
+created: '2024-07-30T08:29:56.047735+00:00'
+modified: '2024-07-30T08:35:04.935164+00:00'
+pattern: false
+entry:
+  _id: 0f40cbef-dab5-4b48-aa76-a27ecae3a396
+  _name: Western European
+  _slug: western-european
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Western European
+    types:
+      type: multi-select
+      value:
+        - Regional
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Recipes and guides from the diverse regions of Western Europe,
+          including France, Germany, Austria, Switzerland, Belgium and more
+    childCuisines:
+      type: contentReference
+      value: ${#jptr:/ref-0f40cbef-dab5-4b48-aa76-a27ecae3a396-childCuisines/entries}
+  _dataResources:
+    ref-0f40cbef-dab5-4b48-aa76-a27ecae3a396-childCuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          d73c172d-6d1d-4dbd-b5ba-8078a760e7e5,61bdbcce-0e3a-4cb1-b1ab-1bd3d1b37619,196fd713-affa-41c7-a088-75ca3fed5088,1a249e8c-a55b-428a-be88-a847e612b213,6cf2e494-e886-47af-819e-b764808e3ff4,1ccd4914-3814-435e-9f4d-378f793de760
+  _locales:
+    - en-US
