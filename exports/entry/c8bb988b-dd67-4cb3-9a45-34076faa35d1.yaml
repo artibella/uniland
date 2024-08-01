@@ -1,0 +1,19 @@
+created: '2024-07-30T13:08:15.356704+00:00'
+modified: '2024-07-30T13:11:39.00436+00:00'
+pattern: false
+entry:
+  _id: c8bb988b-dd67-4cb3-9a45-34076faa35d1
+  _name: Canadian
+  _slug: canadian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Canadian
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

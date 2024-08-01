@@ -1,0 +1,19 @@
+created: '2024-07-30T17:10:35.778279+00:00'
+modified: '2024-07-30T17:10:49.118634+00:00'
+pattern: false
+entry:
+  _id: 38be89c4-8aca-4008-ace2-1527547eb42d
+  _name: Gray Runners
+  _slug: gray-runners
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/Greyrunners.jpg?v=1675447483
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: gray-runners
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

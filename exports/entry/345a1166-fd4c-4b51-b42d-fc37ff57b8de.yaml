@@ -1,0 +1,30 @@
+created: '2024-07-30T17:42:48.258076+00:00'
+modified: '2024-07-30T17:43:31.517474+00:00'
+pattern: false
+entry:
+  _id: 345a1166-fd4c-4b51-b42d-fc37ff57b8de
+  _name: Bottoms
+  _slug: bottoms
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_three_pairs_of_neatly_arranged_men_and_womens_running_shoes._f4121e54-2c8a-4ad2-b366-355c0cc4348d_4.png?v=1675465297
+  type: productCollection
+  fields: {}
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables:
+        handle: bottoms
+    ref-345a1166-fd4c-4b51-b42d-fc37ff57b8de-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          fb926a0d-4e7c-4c32-bf79-a51fbbbacd66,088acb66-5e80-4f6b-87fd-0ee206906793,2ea148ad-6cd9-45ba-a512-0f7fc006a086
+  _locales:
+    - en-US
+  _overrides:
+    345a1166-fd4c-4b51-b42d-fc37ff57b8de:
+      parameters:
+        products:
+          type: contentReference
+          value: ${#jptr:/ref-345a1166-fd4c-4b51-b42d-fc37ff57b8de-products/entries}
+  _pattern: 27198504-f414-4d01-a7ff-662599297465

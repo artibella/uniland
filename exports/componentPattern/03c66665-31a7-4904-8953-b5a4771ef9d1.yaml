@@ -5,13 +5,20 @@ composition:
   parameters:
     body:
       type: text
-      value: ${#jptr:/Collection by Handle Content/data/collection/description}
+      locales:
+        en-US: >-
+          ${#jptr:/Product
+          collection/entry/fields/description/value/root/children/0/children/0/text}
     image:
       type: text
-      value: ${#jptr:/Collection by Handle Content/data/collection/image/url}
+      locales:
+        en-US: >-
+          ${#jptr:/Product
+          collection/entry/fields/image/value/0/fields/url/value}
     title:
       type: text
-      value: ${#jptr:/Collection by Handle Content/data/collection/title}
+      locales:
+        en-US: ${#jptr:/Product collection/entry/fields/name/value}
   slots:
     actions:
       - _id: 2aba90d8-3092-467b-82a1-a62d72d34650
@@ -19,18 +26,20 @@ composition:
         parameters:
           title:
             type: text
-            value: Show products
+            locales:
+              en-US: Show products
           internalLink:
             type: link
             value:
               path: >-
-                /:locale/shop/collections/${#jptr:/Collection by Handle
-                Content/data/collection/handle}
+                /${locale}/shop/collections/${#jptr:/Product
+                collection/entry/_slug}
               type: projectMapNode
               nodeId: 05eb23ca-be6a-4f43-9d31-41f9c10f6dd6
               projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
               dynamicInputValues:
-                handle: ${#jptr:/Collection by Handle Content/data/collection/handle}
+                handle: ${#jptr:/Product collection/entry/_slug}
+                locale: ${locale}
         _overridability:
           parameters:
             link: 'yes'
@@ -39,17 +48,22 @@ composition:
             internalLink: 'yes'
             openInNewTab: 'yes'
   _dataResources:
-    Collection by Handle Content:
-      type: collectionByHandle
-      variables: {}
+    Product collection:
+      type: productCollection
+      variables:
+        locale: ${locale}
+        entryId: cff3e431-1504-4845-a3aa-e1fbe70f5532
       isPatternParameter: true
+      ignorePatternParameterDefault: true
   _overridability:
     parameters:
       body: 'yes'
       image: 'yes'
       title: 'yes'
       byline: 'yes'
+  _locales:
+    - en-US
 created: '2023-05-26T17:41:33.43862+00:00'
-modified: '2024-04-03T19:09:52.869294+00:00'
+modified: '2024-07-30T18:17:11.276836+00:00'
 pattern: true
 description: A card showing a single product collection

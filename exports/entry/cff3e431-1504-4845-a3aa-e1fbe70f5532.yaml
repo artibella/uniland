@@ -1,0 +1,28 @@
+created: '2024-07-30T16:34:01.516527+00:00'
+modified: '2024-07-30T18:42:26.250255+00:00'
+pattern: false
+entry:
+  _id: cff3e431-1504-4845-a3aa-e1fbe70f5532
+  _name: Featured
+  _slug: featured
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/banner-2.png?v=1675462488
+  type: productCollection
+  fields: {}
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+    ref-cff3e431-1504-4845-a3aa-e1fbe70f5532-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          b0ddf1cb-87d6-41a9-aa84-8fc84d2807af,36af3cc9-d1c0-42ee-87ad-d216a1fbcecd,65ca3136-388c-4044-8585-7cce9264cd56,97d87dab-3e35-4221-83a5-13c0478052e8,4af8a2c4-ba9d-4966-bfee-442dd9e00d19,4f6b19cb-233a-4c89-b6ef-f3b017c0aad8,7e1a38bc-6898-41a1-b069-fea427f6a55c,f8963523-81ab-43a2-a536-e029d23204e2,94150d02-6a32-47bb-98e6-381ab88f982e
+  _locales:
+    - en-US
+  _overrides:
+    cff3e431-1504-4845-a3aa-e1fbe70f5532:
+      parameters:
+        products:
+          type: contentReference
+          value: ${#jptr:/ref-cff3e431-1504-4845-a3aa-e1fbe70f5532-products/entries}
+  _pattern: 27198504-f414-4d01-a7ff-662599297465

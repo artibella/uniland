@@ -1,0 +1,19 @@
+created: '2024-07-30T17:17:32.471949+00:00'
+modified: '2024-07-30T17:17:42.901816+00:00'
+pattern: false
+entry:
+  _id: 65ca3136-388c-4044-8585-7cce9264cd56
+  _name: Women's Crewneck
+  _slug: womens-crewneck
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenWomenscrew01.jpg?v=1675453375
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: women-crewneck
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

@@ -1,0 +1,19 @@
+created: '2024-07-30T13:51:55.979969+00:00'
+modified: '2024-07-30T13:52:29.701643+00:00'
+pattern: false
+entry:
+  _id: a614d484-8987-4c07-9fdd-aabd54f5ffb9
+  _name: The Matrix
+  _slug: the-matrix
+  _thumbnail: >-
+    https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg
+  type: movie
+  fields: {}
+  _dataResources:
+    Movie:
+      type: movie
+      variables:
+        imdbID: tt0133093
+  _locales:
+    - en-US
+  _pattern: 4315b653-79ae-433c-9191-c105a687329c

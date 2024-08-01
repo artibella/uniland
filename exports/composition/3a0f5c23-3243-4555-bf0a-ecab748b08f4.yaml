@@ -14,23 +14,32 @@ composition:
               parameters:
                 title:
                   type: text
-                  value: ${#jptr:/Collection/data/collection/title}
+                  locales:
+                    en-US: ${#jptr:/Product collection/entry/fields/name/value}
                 tagName:
                   type: select
                   value: h1
         parameters:
           body:
             type: text
-            value: ${#jptr:/Collection/data/collection/description}
+            locales:
+              en-US: >-
+                ${#jptr:/Product
+                collection/entry/fields/description/value/root/children/0/children/0/text}
           title:
             type: text
-            value: Featured products
+            locales:
+              en-US: Featured products
           imageFit:
             type: select
-            value: cover
+            locales:
+              en-US: cover
           imageUrl:
             type: text
-            value: ${#jptr:/Collection/data/collection/image/url}
+            locales:
+              en-US: >-
+                ${#jptr:/Product
+                collection/entry/fields/image/value/0/fields/url/value}
     sections:
       - _id: 27dccee0-a23a-4625-a143-1f03480d759f
         type: sectionContainer
@@ -53,46 +62,65 @@ composition:
                                 parameters:
                                   title:
                                     type: text
-                                    value: View more
+                                    locales:
+                                      en-US: View more
                                   internalLink:
                                     type: link
                                     value:
                                       path: >-
-                                        /:locale/shop/${#jptr:/Collection edges
-                                        Loop Item/node/handle}
+                                        /${locale}/shop/${#jptr:/Product
+                                        collection value Loop Item/entry/_slug}
                                       type: projectMapNode
                                       nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
                                       projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
                                       dynamicInputValues:
+                                        locale: ${locale}
                                         product: >-
-                                          ${#jptr:/Collection edges Loop
-                                          Item/node/handle}
+                                          ${#jptr:/Product collection value Loop
+                                          Item/entry/_slug}
                           parameters:
+                            body:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product collection value Loop
+                                  Item/entry/fields/teaserText/locales/en-US}
                             image:
                               type: text
-                              value: >-
-                                ${#jptr:/Collection edges Loop
-                                Item/node/featuredImage/url}
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product collection value Loop
+                                  Item/entry/fields/featuredImage/locales/en-US/0/fields/url/value}
                             title:
                               type: text
-                              value: ${#jptr:/Collection edges Loop Item/node/title}
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product collection value Loop
+                                  Item/entry/fields/name/locales/en-US:fa=c}
                     _dataResources:
-                      Collection edges Loop Item:
+                      Product collection value Loop Item:
                         type: sys-reserved-loop
                         variables:
-                          connectedData: /Collection/data/collection/products/edges
+                          connectedData: >-
+                            #jptr:/Product
+                            collection/entry/fields/products/value:fa=c
               parameters:
                 columns:
                   type: number
                   value: '3'
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Product listing
   _dataResources:
-    Collection:
-      type: collectionByHandle
+    Product collection:
+      type: productCollectionBySlug
       variables:
-        handle: ${handle}
-        collectionID: ''
+        slug: ${handle}
+        locale: ${locale}
   _locales:
     - en-US
 created: '2023-05-16T09:04:47.137556+00:00'
-modified: '2023-12-12T13:02:01.172504+00:00'
+modified: '2024-07-30T18:58:26.882556+00:00'
 pattern: false

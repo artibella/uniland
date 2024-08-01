@@ -1,17 +1,17 @@
 composition:
-  _name: Mockshop Product Hero
-  _id: fad6acf9-aa5e-4fca-8429-b843de447846
+  _name: Product Hero
+  _id: c572c2e1-7917-4958-874b-c4aa73db6e3a
   type: hero
   parameters:
     body:
       type: text
       locales:
-        de-DE: ${#jptr:/Product by handle Content/data/product/description}
-        en-US: ${#jptr:/Product by handle Content/data/product/description}
+        de-DE: ${#jptr:/Product Content/entry/fields/teaserText/value}
+        en-US: ${#jptr:/Product Content/entry/fields/teaserText/value}
     title:
       type: text
       locales:
-        de-DE: ${#jptr:/Product by handle Content/data/product/title}
+        de-DE: ${#jptr:/Product by handle Content/data/product/title:fa=c}
         en-US: ${#jptr:/Product by handle Content/data/product/title:fa=c}
     imageFit:
       type: select
@@ -21,13 +21,17 @@ composition:
     imageUrl:
       type: text
       locales:
-        de-DE: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
-        en-US: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
+        de-DE: >-
+          ${#jptr:/Product
+          Content/entry/fields/featuredImage/value/0/fields/url/value}
+        en-US: >-
+          ${#jptr:/Product
+          Content/entry/fields/featuredImage/value/0/fields/url/value}
     imageAltText:
       type: text
       locales:
-        de-DE: ${#jptr:/Product by handle Content/data/product/title}
-        en-US: ${#jptr:/Product by handle Content/data/product/title}
+        de-DE: ${#jptr:/Product by handle Content/data/product/title:fa=c}
+        en-US: ${#jptr:/Product by handle Content/data/product/title:fa=c}
   slots:
     ctas:
       - _id: d75dda5d-4bef-4a4e-a2cd-2e420c55864a
@@ -37,7 +41,7 @@ composition:
           title:
             type: text
             locales:
-              de-DE: 'Jetzt entdecken '
+              de-DE: View details
               en-US: View details
           internalLink:
             type: link
@@ -86,12 +90,8 @@ composition:
           title:
             type: text
             locales:
-              de-DE: ${#jptr:/Product by handle Content/data/product/title}
-              en-US: ${#jptr:/Product by handle Content/data/product/title}
-          byline:
-            type: text
-            locales:
-              en-US: Featured product
+              de-DE: ${#jptr:/Product Content/entry/fields/name/value}
+              en-US: ${#jptr:/Product Content/entry/fields/name/value}
           tagName:
             type: select
             value: h1
@@ -100,10 +100,11 @@ composition:
             value: true
         _overridability:
           parameters:
+            $viz: 'yes'
             align: 'no'
             theme: 'no'
-            title: 'no'
-            byline: 'no'
+            title: 'yes'
+            byline: 'yes'
             tagName: 'no'
             titleHtml: 'no'
             titleRichText: 'no'
@@ -111,6 +112,13 @@ composition:
             group_formattingOptions: 'yes'
           hideLockedParameters: true
   _dataResources:
+    Product Content:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: b0ddf1cb-87d6-41a9-aa84-8fc84d2807af
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
     Product by handle Content:
       type: productByHandle
       variables: {}
@@ -127,8 +135,8 @@ composition:
   _locales:
     - en-US
     - de-DE
-created: '2023-07-26T07:49:12.884031+00:00'
-modified: '2024-07-30T18:47:04.070635+00:00'
+created: '2024-07-30T18:47:12.083007+00:00'
+modified: '2024-07-30T18:50:19.757115+00:00'
 pattern: true
 description: Use this hero to feature a product from Mock Shop
 previewImageUrl: >-

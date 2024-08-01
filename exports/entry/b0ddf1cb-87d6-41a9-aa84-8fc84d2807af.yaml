@@ -1,8 +1,8 @@
-created: '2024-04-03T19:15:05.857674+00:00'
-modified: '2024-04-03T19:46:11.355418+00:00'
+created: '2024-07-30T18:40:12.533605+00:00'
+modified: '2024-07-30T18:40:27.808871+00:00'
 pattern: false
 entry:
-  _id: e03ef009-a639-4b68-964c-6b9aa5094905
+  _id: b0ddf1cb-87d6-41a9-aa84-8fc84d2807af
   _name: Men's Crewneck
   _slug: mens-crewneck
   _thumbnail: >-
@@ -14,4 +14,4 @@ entry:
       type: productByHandle
   _locales:
     - en-US
-  _pattern: a5c5d276-3eec-47fd-84be-8bc0752557ef
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

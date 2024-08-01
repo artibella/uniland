@@ -1,7 +1,7 @@
 id: product
 name: Product
 created: '2023-06-30T14:25:25.628227+00:00'
-updated: '2024-02-09T13:01:17.574074+00:00'
+updated: '2024-07-31T09:09:31.426031+00:00'
 slugSettings:
   unique: local
   required: 'no'
@@ -61,6 +61,8 @@ fields:
       childrenParams:
         - featuredImage
         - images
+        - media
+        - media2
   - id: featuredImage
     name: Featured Image
     type: asset
@@ -75,6 +77,20 @@ fields:
     typeConfig:
       min: 0
     localizable: true
+  - id: media
+    name: Media
+    type: $block
+    helpText: Used for connecting to external media
+    typeConfig:
+      allowedTypes:
+        - $loop
+        - imageBlock
+  - id: media2
+    name: Media2
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes: all
   - id: group_productSettings
     name: Product settings
     type: group

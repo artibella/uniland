@@ -1,5 +1,5 @@
 created: '2023-10-11T12:33:31.375818+00:00'
-modified: '2024-07-25T14:49:53.626114+00:00'
+modified: '2024-07-30T13:49:57.569954+00:00'
 pattern: false
 entry:
   _id: 7b367a19-5f74-4add-8e8b-6a444b33e09f
@@ -683,7 +683,8 @@ entry:
     ref-7b367a19-5f74-4add-8e8b-6a444b33e09f-cuisines:
       type: uniformContentInternalReference
       variables:
-        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
+        entryIds: >-
+          7da277be-785a-4c12-badd-323c4ee97c14,acd287b8-084e-4dc8-8759-5bc25c9880e5
   _locales:
     - en-US
     - de-DE

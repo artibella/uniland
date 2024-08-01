@@ -5,14 +5,30 @@ composition:
   type: page
   slots:
     hero:
-      - _id: c3d47d37-68a1-49e7-8d33-80404ab5143f
+      - _id: 75f5667b-5d8b-4a5e-bdd0-7032a36898af
         type: hero
-        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
-        _dataResources:
-          Product by handle Content:
-            type: productByHandle
-            variables:
-              handle: ${product}
+        slots:
+          heading:
+            - _id: 69c2de07-95bd-494e-8499-a9a2b364c5ca
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Product/entry/fields/name/value}
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product/entry/fields/teaserText/value}
+          imageUrl:
+            type: text
+            locales:
+              en-US: >-
+                ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
     sections:
       - _id: fad3d313-0004-4750-bc44-be6ba9af5c01
         type: sectionContainer
@@ -22,8 +38,6 @@ composition:
               type: gridContainer
               slots:
                 items:
-                  - _id: c1fce0ac-4b93-431b-98b8-00c49f45f7d2
-                    type: card
                   - _id: 97e0557b-7401-453f-bf04-8a5a6adf8d33
                     type: $loop
                     slots:
@@ -45,20 +59,19 @@ composition:
                       Product Loop Item:
                         type: sys-reserved-loop
                         variables:
-                          connectedData: >-
-                            /Product by handle
-                            Content/data/product/collections/edges
+                          connectedData: '#jptr:/Product/entry/fields/images/value:fa=c'
               parameters:
                 columns:
                   type: number
                   value: '2'
   _dataResources:
-    Product by handle Content:
-      type: productByHandle
+    Product:
+      type: productBySlug
       variables:
-        handle: ${product}
+        slug: ${product}
+        locale: ${locale}
   _locales:
     - en-US
 created: '2023-06-07T08:49:36.736468+00:00'
-modified: '2024-06-17T16:16:22.095938+00:00'
+modified: '2024-07-30T18:56:38.231439+00:00'
 pattern: false

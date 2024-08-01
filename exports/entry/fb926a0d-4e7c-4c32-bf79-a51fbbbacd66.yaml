@@ -1,0 +1,19 @@
+created: '2024-07-30T17:13:11.936972+00:00'
+modified: '2024-07-30T17:13:27.470705+00:00'
+pattern: false
+entry:
+  _id: fb926a0d-4e7c-4c32-bf79-a51fbbbacd66
+  _name: Sweatpants
+  _slug: sweatpants
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenSweatpants01.jpg?v=1675455387
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: sweatpants
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

@@ -1,12 +1,12 @@
-created: '2023-12-05T10:09:17.264726+00:00'
-modified: '2024-04-03T19:15:06.183747+00:00'
-pattern: false
+created: '2024-07-30T16:30:04.075971+00:00'
+modified: '2024-07-30T16:33:21.318432+00:00'
+pattern: true
 entry:
-  _id: b5e90a68-5f20-4b3e-9fea-1b04190bb1e4
-  _name: Men
-  _slug: men
+  _id: 27198504-f414-4d01-a7ff-662599297465
+  _name: Mockshop Product collection
+  _slug: product-collection-pattern
   _thumbnail: >-
-    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_a_neatly_arranged_photo_of_mens_clothes_t-shirt_gray_hoodie__c5a4ebe4-ccb1-4d94-ae56-a1b33b4e71d9_1.png?v=1675456349
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/banner-2.png?v=1675462488
   type: productCollection
   fields:
     name:
@@ -15,18 +15,12 @@ entry:
     image:
       type: asset
       value:
-        - _id: 899ccc4f-874b-4550-9571-b8c4930fc561
+        - _id: 0b02d071-9c48-4743-b8bc-f16737183e7f
           type: image
           fields:
             url:
               type: text
               value: ${#jptr:/Collection/data/collection/image/url}
-            title:
-              type: text
-              value: ${#jptr:/Collection/data/collection/title}
-            description:
-              type: text
-              value: ${#jptr:/Collection/data/collection/title}
           _source: custom-url
     reference:
       type: text
@@ -49,9 +43,20 @@ entry:
                   version: 1
                   reference: '#jptr:/Collection/data/collection/description'
               direction: null
+              textFormat: 0
           direction: null
   _dataResources:
     Collection:
       type: collectionByHandle
-      variables:
-        handle: men
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    parameters:
+      name: 'yes'
+      image: 'yes'
+      products: 'yes'
+      reference: 'no'
+      description: 'yes'

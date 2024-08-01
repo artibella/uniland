@@ -1,0 +1,19 @@
+created: '2024-07-30T17:13:38.991136+00:00'
+modified: '2024-07-30T17:16:08.902898+00:00'
+pattern: false
+entry:
+  _id: 088acb66-5e80-4f6b-87fd-0ee206906793
+  _name: Shorts
+  _slug: shorts
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenShorts.jpg?v=1675462426
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: shorts
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

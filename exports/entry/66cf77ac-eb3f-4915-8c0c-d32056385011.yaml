@@ -1,0 +1,19 @@
+created: '2024-07-30T13:06:41.331175+00:00'
+modified: '2024-07-30T13:07:54.825616+00:00'
+pattern: false
+entry:
+  _id: 66cf77ac-eb3f-4915-8c0c-d32056385011
+  _name: US cuisine
+  _slug: us-cuisine
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: US cuisine
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

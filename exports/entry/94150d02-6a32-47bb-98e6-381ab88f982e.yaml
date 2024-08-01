@@ -1,0 +1,19 @@
+created: '2024-07-30T17:18:23.653531+00:00'
+modified: '2024-07-30T17:18:34.678738+00:00'
+pattern: false
+entry:
+  _id: 94150d02-6a32-47bb-98e6-381ab88f982e
+  _name: Women's T-shirt
+  _slug: womens-t-shirt
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenWomensTshirt01.jpg?v=1675463247
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: women-t-shirt
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

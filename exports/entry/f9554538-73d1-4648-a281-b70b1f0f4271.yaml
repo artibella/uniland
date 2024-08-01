@@ -1,0 +1,19 @@
+created: '2024-07-30T17:09:06.172754+00:00'
+modified: '2024-07-30T17:09:40.352975+00:00'
+pattern: false
+entry:
+  _id: f9554538-73d1-4648-a281-b70b1f0f4271
+  _name: Light Puffer
+  _slug: light-puffer
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/green.jpg?v=1675459832
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: light-puffer
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

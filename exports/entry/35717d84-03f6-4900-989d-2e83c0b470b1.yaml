@@ -1,0 +1,30 @@
+created: '2024-07-30T17:48:18.832695+00:00'
+modified: '2024-07-30T17:49:38.719984+00:00'
+pattern: false
+entry:
+  _id: 35717d84-03f6-4900-989d-2e83c0b470b1
+  _name: Unisex
+  _slug: unisex
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_three_pairs_of_neatly_arranged_men_and_womens_running_shoes._f4121e54-2c8a-4ad2-b366-355c0cc4348d_7.png?v=1675467965
+  type: productCollection
+  fields: {}
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables:
+        handle: unisex
+    ref-35717d84-03f6-4900-989d-2e83c0b470b1-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          36af3cc9-d1c0-42ee-87ad-d216a1fbcecd,fb926a0d-4e7c-4c32-bf79-a51fbbbacd66,3648b60f-ef17-4e55-91c1-5805f19adbbf,f9554538-73d1-4648-a281-b70b1f0f4271,8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa,90927f8a-6cd1-483a-9da9-aba9978b10c1,ed73dbea-bcbd-4892-8ec1-72e0ecc802fc,97d87dab-3e35-4221-83a5-13c0478052e8,424b8839-548f-4bf7-8283-e0a40827c3fc,634ca3d2-5344-4eeb-b2b4-00d9fedcc3b0
+  _locales:
+    - en-US
+  _overrides:
+    35717d84-03f6-4900-989d-2e83c0b470b1:
+      parameters:
+        products:
+          type: contentReference
+          value: ${#jptr:/ref-35717d84-03f6-4900-989d-2e83c0b470b1-products/entries}
+  _pattern: 27198504-f414-4d01-a7ff-662599297465

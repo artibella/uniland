@@ -1,0 +1,35 @@
+created: '2024-07-30T17:24:04.128624+00:00'
+modified: '2024-07-30T18:44:18.34712+00:00'
+pattern: false
+entry:
+  _id: 4703dbb6-61f8-429e-bc50-00c1e9c3353f
+  _name: Men
+  _slug: men
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_a_neatly_arranged_photo_of_mens_clothes_t-shirt_gray_hoodie__c5a4ebe4-ccb1-4d94-ae56-a1b33b4e71d9_1.png?v=1675456349
+  type: productCollection
+  fields: {}
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables:
+        handle: men
+    ref-27c63e47-5190-4fa7-b990-7f6fd08dff34-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          7e1a38bc-6898-41a1-b069-fea427f6a55c,97d87dab-3e35-4221-83a5-13c0478052e8,634ca3d2-5344-4eeb-b2b4-00d9fedcc3b0,424b8839-548f-4bf7-8283-e0a40827c3fc
+    ref-4703dbb6-61f8-429e-bc50-00c1e9c3353f-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          36af3cc9-d1c0-42ee-87ad-d216a1fbcecd,b0ddf1cb-87d6-41a9-aa84-8fc84d2807af,494618cb-7c90-4f49-9606-6fbdd83ca8e9,fb926a0d-4e7c-4c32-bf79-a51fbbbacd66,088acb66-5e80-4f6b-87fd-0ee206906793,4af8a2c4-ba9d-4966-bfee-442dd9e00d19,4f6b19cb-233a-4c89-b6ef-f3b017c0aad8,f8963523-81ab-43a2-a536-e029d23204e2,38be89c4-8aca-4008-ace2-1527547eb42d,7e1a38bc-6898-41a1-b069-fea427f6a55c
+  _locales:
+    - en-US
+  _overrides:
+    4703dbb6-61f8-429e-bc50-00c1e9c3353f:
+      parameters:
+        products:
+          type: contentReference
+          value: ${#jptr:/ref-4703dbb6-61f8-429e-bc50-00c1e9c3353f-products/entries}
+  _pattern: 27198504-f414-4d01-a7ff-662599297465

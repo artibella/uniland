@@ -34,11 +34,21 @@ composition:
                   - _id: ea4b1bc3-c906-4f71-a9c0-7bccc2e12a34
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
-                    _dataResources: {}
+                    _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: 3c8120a4-889d-46e8-8295-ead00f02cfb3
                   - _id: cac8d52b-1bf0-4a84-bdb4-274e692dba00
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: 345a1166-fd4c-4b51-b42d-fc37ff57b8de
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -47,6 +57,11 @@ composition:
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: 4703dbb6-61f8-429e-bc50-00c1e9c3353f
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -55,6 +70,11 @@ composition:
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: 4513aa90-6f44-4d79-b20d-78331f098a07
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -63,6 +83,11 @@ composition:
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: 27c63e47-5190-4fa7-b990-7f6fd08dff34
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -71,6 +96,11 @@ composition:
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: c00ac16c-9ddc-458a-9b24-6fb27fbb9b7f
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -79,6 +109,11 @@ composition:
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: cff3e431-1504-4845-a3aa-e1fbe70f5532
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -87,6 +122,11 @@ composition:
                     type: card
                     _pattern: 03c66665-31a7-4904-8953-b5a4771ef9d1
                     _dataResources:
+                      Product collection:
+                        type: productCollection
+                        variables:
+                          locale: ${locale}
+                          entryId: 35717d84-03f6-4900-989d-2e83c0b470b1
                       Collection by Handle Content:
                         type: collectionByHandle
                         variables:
@@ -101,14 +141,6 @@ composition:
             locales:
               en-US: dark
   _overrides:
-    52efa13f-1fc5-4399-a783-3e07049fe93f:
-      parameters:
-        title:
-          type: text
-          locales:
-            en-US: >-
-              Shop ${#jptr:/Collection by Handle
-              Content/data/collection/title}'s clothing
     caa2a232-8144-4c4d-8e1a-523ec7a96c23:
       parameters:
         byline:
@@ -118,5 +150,5 @@ composition:
   _locales:
     - en-US
 created: '2023-05-16T08:10:30.954352+00:00'
-modified: '2024-01-05T11:14:41.596784+00:00'
+modified: '2024-07-30T18:20:16.594247+00:00'
 pattern: false

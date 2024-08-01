@@ -1,5 +1,5 @@
 created: '2023-12-14T13:16:25.423818+00:00'
-modified: '2024-04-09T10:57:04.442123+00:00'
+modified: '2024-07-30T17:05:03.916322+00:00'
 pattern: true
 entry:
   _id: d8d95a48-8853-40fa-a102-318c496e9c1c
@@ -98,7 +98,7 @@ entry:
             Product edges Loop Item:
               type: sys-reserved-loop
               variables:
-                limit: '0'
+                limit: ''
                 connectedData: /Product/data/product/collections/edges
     description:
       type: richText

@@ -1,0 +1,30 @@
+created: '2024-07-30T17:46:57.246513+00:00'
+modified: '2024-07-30T17:47:43.513544+00:00'
+pattern: false
+entry:
+  _id: 4513aa90-6f44-4d79-b20d-78331f098a07
+  _name: Women
+  _slug: women
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/collections/cd_a_neatly_arranged_photo_of_womens_clothes_t-shirt_yoga_pants_1f41a422-4293-4b40-b986-8d514fb2041c_1.png?v=1675456116
+  type: productCollection
+  fields: {}
+  _dataResources:
+    Collection:
+      type: collectionByHandle
+      variables:
+        handle: women
+    ref-4513aa90-6f44-4d79-b20d-78331f098a07-products:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          65ca3136-388c-4044-8585-7cce9264cd56,94150d02-6a32-47bb-98e6-381ab88f982e,f15bae6d-18da-4a6f-b973-29d785ed2630,2ea148ad-6cd9-45ba-a512-0f7fc006a086
+  _locales:
+    - en-US
+  _overrides:
+    4513aa90-6f44-4d79-b20d-78331f098a07:
+      parameters:
+        products:
+          type: contentReference
+          value: ${#jptr:/ref-4513aa90-6f44-4d79-b20d-78331f098a07-products/entries}
+  _pattern: 27198504-f414-4d01-a7ff-662599297465

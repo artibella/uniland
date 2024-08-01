@@ -2,7 +2,7 @@
 $schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
 id: countdown
 name: Countdown
-icon: screen
+icon: alarm
 parameters:
   - id: internalName
     name: Internal name
@@ -17,8 +17,17 @@ parameters:
     typeConfig: null
     localizable: false
 useTeamPermissions: true
-slots: []
+slots:
+  - id: expiredContent
+    name: Expired content
+    allowedComponents:
+      - textBlock
+      - heading
+      - sectionContainer
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
 titleParameter: internalName
 canBeComposition: false
 created: '2024-07-29T10:23:44.359968+00:00'
-updated: '2024-07-29T10:23:44.359968+00:00'
+updated: '2024-07-30T09:49:31.692988+00:00'

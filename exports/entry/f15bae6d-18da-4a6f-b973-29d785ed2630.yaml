@@ -1,0 +1,19 @@
+created: '2024-07-30T17:19:32.353529+00:00'
+modified: '2024-07-30T17:19:44.942011+00:00'
+pattern: false
+entry:
+  _id: f15bae6d-18da-4a6f-b973-29d785ed2630
+  _name: Workout Shirt
+  _slug: workout-shirt
+  _thumbnail: >-
+    https://cdn.shopify.com/s/files/1/0688/1755/1382/products/GreenWorkoutShirt.jpg?v=1675455464
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: productByHandle
+      variables:
+        handle: workout-shirt
+  _locales:
+    - en-US
+  _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

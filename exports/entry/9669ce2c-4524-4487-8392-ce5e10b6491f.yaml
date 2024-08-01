@@ -1,0 +1,19 @@
+created: '2024-07-30T14:16:00.605323+00:00'
+modified: '2024-07-30T14:16:18.300727+00:00'
+pattern: false
+entry:
+  _id: 9669ce2c-4524-4487-8392-ce5e10b6491f
+  _name: Peruvian
+  _slug: peruvian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Peruvian
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US

@@ -1,0 +1,19 @@
+created: '2024-07-30T13:11:53.292993+00:00'
+modified: '2024-07-30T13:12:10.503138+00:00'
+pattern: false
+entry:
+  _id: 1d7f6a1c-9d25-44fa-a925-f6216cdfc0b3
+  _name: Mexican
+  _slug: mexican
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Mexican
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US
