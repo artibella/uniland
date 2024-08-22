@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import slugify from 'slugify';
 import { UniformText, UniformRichTextNode } from '@uniformdev/canvas-react';
+import { isRichTextValueConsideredEmpty } from '@uniformdev/richtext';
 import { UniformRichText } from '@uniformdev/canvas-next';
 
 function TitleRichTextNode({ node, children }) {
@@ -24,6 +25,7 @@ export default function Heading({
   showEditorialLine = false,
 }) {
   const id = slugify(title);
+  const hasRichText = !isRichTextValueConsideredEmpty(titleRichText);
 
   const baseHeadingClasses = classNames(
     'tracking-tight leading-none dark:text-white',
@@ -105,7 +107,7 @@ export default function Heading({
               placeholder=" "
             />
           )}
-          {titleRichText ? (
+          {hasRichText ? (
             <UniformRichText
               className={headingClasses}
               as={tagName}
