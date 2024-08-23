@@ -1,6 +1,7 @@
 id: recipe
 displayName: Recipe
 ttl: 30
+body: ''
 path: /single
 custom:
   maxDepth: 3

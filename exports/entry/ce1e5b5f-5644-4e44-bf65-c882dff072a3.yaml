@@ -1,0 +1,15 @@
+created: '2024-08-07T12:16:08.288354+00:00'
+modified: '2024-08-07T12:16:40.095043+00:00'
+pattern: false
+entry:
+  _id: ce1e5b5f-5644-4e44-bf65-c882dff072a3
+  _name: MACH
+  _slug: mach
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: MACH
+  _locales:
+    - en-US

@@ -84,19 +84,19 @@ composition:
                               locales:
                                 en-US: >-
                                   ${#jptr:/Product collection value Loop
-                                  Item/entry/fields/teaserText/locales/en-US}
+                                  Item/entry/fields/teaserText/value}
                             image:
                               type: text
                               locales:
                                 en-US: >-
                                   ${#jptr:/Product collection value Loop
-                                  Item/entry/fields/featuredImage/locales/en-US/0/fields/url/value}
+                                  Item/entry/fields/featuredImage/value/0/fields/url/value}
                             title:
                               type: text
                               locales:
                                 en-US: >-
                                   ${#jptr:/Product collection value Loop
-                                  Item/entry/fields/name/locales/en-US:fa=c}
+                                  Item/entry/fields/name/value:fa=c}
                     _dataResources:
                       Product collection value Loop Item:
                         type: sys-reserved-loop
@@ -122,5 +122,5 @@ composition:
   _locales:
     - en-US
 created: '2023-05-16T09:04:47.137556+00:00'
-modified: '2024-07-30T18:58:26.882556+00:00'
+modified: '2024-08-02T12:54:53.866137+00:00'
 pattern: false

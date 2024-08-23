@@ -1,0 +1,9 @@
+created: '2024-08-13T13:45:06.293392+00:00'
+modified: '2024-08-13T13:45:06.293392+00:00'
+pattern: true
+entry:
+  _id: 46995fa3-6064-4f51-9399-93428f0c7784
+  _name: Review Pattern
+  _slug: review-pattern
+  type: review
+  fields: {}

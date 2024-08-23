@@ -7,15 +7,15 @@ parameters:
   - id: byline
     name: Byline
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
+    allowConditionalValues: true
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
+    allowConditionalValues: true
   - id: group_alternativeContent
     name: Alternative content
     type: group
@@ -27,7 +27,6 @@ parameters:
   - id: titleRichText
     name: Title Rich Text
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -82,7 +81,6 @@ parameters:
   - id: theme
     name: Theme
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Default
@@ -98,7 +96,6 @@ parameters:
   - id: align
     name: Align
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Left
@@ -107,11 +104,13 @@ parameters:
           value: center
         - text: Right
           value: right
+    allowConditionalValues: true
   - id: showEditorialLine
     name: Show editorial line
     type: checkbox
     helpText: Show a line separator after the heading
     typeConfig: null
+    allowConditionalValues: true
 categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
 description: Generic heading component
 previewImageUrl: >-
@@ -121,4 +120,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2023-03-09T12:30:46.489835+00:00'
-updated: '2024-01-25T09:32:55.721729+00:00'
+updated: '2024-08-19T22:26:06.376619+00:00'

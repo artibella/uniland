@@ -7,20 +7,17 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: true
     localizable: true
   - id: description
     name: Description
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: link
     name: Link
     type: link
-    helpText: ''
     typeConfig: null
     localizable: true
 useTeamPermissions: true

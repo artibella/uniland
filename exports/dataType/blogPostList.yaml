@@ -4,6 +4,7 @@ ttl: 30
 body: ''
 path: /query
 custom:
+  maxDepth: 1
   proposedName: Query Blog Post
   allowedOrderBy: []
   allowedContentTypes:

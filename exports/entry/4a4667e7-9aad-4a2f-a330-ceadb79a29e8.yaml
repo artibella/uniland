@@ -1,0 +1,15 @@
+created: '2024-08-07T12:09:40.248482+00:00'
+modified: '2024-08-07T12:10:16.912165+00:00'
+pattern: false
+entry:
+  _id: 4a4667e7-9aad-4a2f-a330-ceadb79a29e8
+  _name: Experience Operations
+  _slug: experience-operations
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Experience Operations
+  _locales:
+    - en-US

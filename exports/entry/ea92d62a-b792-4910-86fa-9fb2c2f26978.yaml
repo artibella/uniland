@@ -12,10 +12,6 @@ entry:
       value:
         datetime: '2024-10-24T18:00:00.000Z'
         timeZone: Europe/Berlin
-    image:
-      type: image
-      value: >-
-        https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/WMrp-tNmT7GUCOOBHpC1Mw-locale-management-at-scale-ga.png
     start:
       type: datetime
       value:

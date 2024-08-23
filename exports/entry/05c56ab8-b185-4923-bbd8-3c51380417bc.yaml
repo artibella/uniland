@@ -1,0 +1,19 @@
+created: '2024-08-13T15:19:18.584854+00:00'
+modified: '2024-08-13T15:19:49.489626+00:00'
+pattern: false
+entry:
+  _id: 05c56ab8-b185-4923-bbd8-3c51380417bc
+  _name: tomato
+  _slug: tomato
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: tomato
+    namePlural:
+      type: text
+      locales:
+        en-US: tomatos
+  _locales:
+    - en-US

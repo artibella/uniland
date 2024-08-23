@@ -7,7 +7,6 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: theme
@@ -65,10 +64,11 @@ slots:
       - pagination
       - badge
       - countdown
+      - openingHourstest
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.760427+00:00'
-updated: '2024-07-29T10:30:09.932889+00:00'
+updated: '2024-08-02T10:56:35.084401+00:00'

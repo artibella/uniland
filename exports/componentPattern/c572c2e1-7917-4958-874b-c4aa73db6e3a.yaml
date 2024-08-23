@@ -11,8 +11,8 @@ composition:
     title:
       type: text
       locales:
-        de-DE: ${#jptr:/Product by handle Content/data/product/title:fa=c}
-        en-US: ${#jptr:/Product by handle Content/data/product/title:fa=c}
+        de-DE: ${#jptr:/Product Content/entry/fields/name/value}
+        en-US: ${#jptr:/Product Content/entry/fields/name/value}
     imageFit:
       type: select
       locales:
@@ -30,8 +30,8 @@ composition:
     imageAltText:
       type: text
       locales:
-        de-DE: ${#jptr:/Product by handle Content/data/product/title:fa=c}
-        en-US: ${#jptr:/Product by handle Content/data/product/title:fa=c}
+        de-DE: ${#jptr:/Product Content/entry/fields/name/value}
+        en-US: ${#jptr:/Product Content/entry/fields/name/value}
   slots:
     ctas:
       - _id: d75dda5d-4bef-4a4e-a2cd-2e420c55864a
@@ -46,15 +46,13 @@ composition:
           internalLink:
             type: link
             value:
-              path: >-
-                /${locale}/shop/${#jptr:/Product by handle
-                Content/data/product/handle}
+              path: /${locale}/shop/${#jptr:/Product Content/entry/_slug}
               type: projectMapNode
               nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
               projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
               dynamicInputValues:
                 locale: ${locale}
-                product: ${#jptr:/Product by handle Content/data/product/handle}
+                product: ${#jptr:/Product Content/entry/_slug}
         _overridability:
           variants: true
           parameters:
@@ -119,11 +117,6 @@ composition:
         entryId: b0ddf1cb-87d6-41a9-aa84-8fc84d2807af
       isPatternParameter: true
       ignorePatternParameterDefault: true
-    Product by handle Content:
-      type: productByHandle
-      variables: {}
-      isPatternParameter: true
-      ignorePatternParameterDefault: false
   _overridability:
     parameters:
       body: 'no'
@@ -136,7 +129,7 @@ composition:
     - en-US
     - de-DE
 created: '2024-07-30T18:47:12.083007+00:00'
-modified: '2024-07-30T18:50:19.757115+00:00'
+modified: '2024-08-07T17:20:22.012371+00:00'
 pattern: true
 description: Use this hero to feature a product from Mock Shop
 previewImageUrl: >-

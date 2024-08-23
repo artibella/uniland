@@ -5,8 +5,6 @@ entry:
   _id: b49fa78a-27fd-407f-8f94-840cfea2b064
   _name: Boiling
   _slug: boiling
-  _thumbnail: >-
-    https://images.unsplash.com/photo-1676686997059-fb817ebbb2b5?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   type: cookingMethod
   fields:
     name:

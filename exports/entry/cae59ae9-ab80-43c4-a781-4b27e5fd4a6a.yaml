@@ -1,0 +1,15 @@
+created: '2024-08-07T12:17:33.336199+00:00'
+modified: '2024-08-07T12:17:49.126136+00:00'
+pattern: false
+entry:
+  _id: cae59ae9-ab80-43c4-a781-4b27e5fd4a6a
+  _name: Announcement
+  _slug: announcement
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Announcement
+  _locales:
+    - en-US

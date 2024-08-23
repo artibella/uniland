@@ -1,5 +1,5 @@
 created: '2024-07-30T18:40:12.533605+00:00'
-modified: '2024-07-30T18:40:27.808871+00:00'
+modified: '2024-08-02T19:19:16.454176+00:00'
 pattern: false
 entry:
   _id: b0ddf1cb-87d6-41a9-aa84-8fc84d2807af
@@ -11,7 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
+      variables:
+        handle: men-crewneck
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

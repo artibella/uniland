@@ -7,14 +7,12 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       multiline: false
     localizable: true
   - id: body
     name: Body
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
       linesCount: '10'
@@ -22,7 +20,6 @@ parameters:
   - id: richText
     name: Rich text
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -77,7 +74,6 @@ parameters:
           value: datocms
         - text: Kontent.ai
           value: kontent
-    localizable: false
   - id: group_textStyling
     name: Text styling
     type: group
@@ -89,7 +85,6 @@ parameters:
   - id: textAlign
     name: Text align
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Left
@@ -101,7 +96,6 @@ parameters:
   - id: theme
     name: Theme
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Default

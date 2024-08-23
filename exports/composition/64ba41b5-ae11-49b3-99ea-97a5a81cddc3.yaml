@@ -15,8 +15,58 @@ composition:
                   type: text
                   locales:
                     en-US: About us
+    sections:
+      - _id: 3e95c851-1a53-4e45-914b-968e361a2d2f
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 36ec7d10-aebf-447e-9142-24afe67511af
+              type: gridContainer
+              slots:
+                items:
+                  - _id: acd7c857-ba83-4534-8229-75f489b767c2
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 888b3624-f2ac-41aa-8c3c-70ba5b8a21ee
+                          type: card
+                          parameters:
+                            image:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Organization value Loop
+                                  Item/entry/fields/image/locales/en-US/0/fields/url/value}
+                            title:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Organization value Loop
+                                  Item/entry/fields/name/locales/en-US}
+                            byline:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Organization value Loop
+                                  Item/entry/fields/jobTitle/locales/en-US}
+                    _dataResources:
+                      Organization value Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: >-
+                            #jptr:/Organization/entry/fields/leadershipTeam/value:fa=c
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+  _dataResources:
+    Organization:
+      type: organization
+      variables:
+        locale: ${locale}
+        entryId: ded160f6-dfef-436c-97ab-c9e566ad2d8b
   _locales:
     - en-US
 created: '2023-03-09T12:26:54.237186+00:00'
-modified: '2023-12-13T18:33:54.009222+00:00'
+modified: '2024-07-31T14:18:46.107456+00:00'
 pattern: false

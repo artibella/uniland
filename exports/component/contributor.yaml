@@ -7,17 +7,14 @@ parameters:
   - id: name
     name: Name
     type: text
-    helpText: ''
     typeConfig: null
   - id: image
     name: Image
     type: image
-    helpText: ''
     typeConfig: null
   - id: link
     name: Link
     type: link
-    helpText: ''
     typeConfig: null
 useTeamPermissions: true
 slots: []

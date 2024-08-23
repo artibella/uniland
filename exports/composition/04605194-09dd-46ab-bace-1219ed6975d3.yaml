@@ -15,7 +15,55 @@ composition:
                 title:
                   type: text
                   locales:
+                    da-DK: ${#jptr:/Product/entry/fields/name/value}
+                    de-DE: ${#jptr:/Product/entry/fields/name/value}
                     en-US: ${#jptr:/Product/entry/fields/name/value}
+                byline:
+                  type: text
+                  locales:
+                    da-DK: Default
+                    de-DE: Default
+                    en-US: Default
+                  localesConditions:
+                    da-DK:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $dt
+                              value: Sneakers
+                              source: ${#jptr:/Product/entry/fields/name/value}
+                        value: Shoes
+                      - id: 1
+                        when:
+                          clauses: []
+                        value: Default
+                    de-DE:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $dt
+                              value: Sneakers
+                              source: ${#jptr:/Product/entry/fields/name/value}
+                        value: Shoes
+                      - id: 1
+                        when:
+                          clauses: []
+                        value: Default
+                    en-US:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $dt
+                              value: Sneakers
+                              source: ${#jptr:/Product/entry/fields/name/value}
+                        value: Shoes
+                      - id: 1
+                        when:
+                          clauses: []
+                        value: Default
                 tagName:
                   type: select
                   value: h1
@@ -23,10 +71,16 @@ composition:
           body:
             type: text
             locales:
+              da-DK: ${#jptr:/Product/entry/fields/teaserText/value}
+              de-DE: ${#jptr:/Product/entry/fields/teaserText/value}
               en-US: ${#jptr:/Product/entry/fields/teaserText/value}
           imageUrl:
             type: text
             locales:
+              da-DK: >-
+                ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
+              de-DE: >-
+                ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
               en-US: >-
                 ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
     sections:
@@ -42,28 +96,30 @@ composition:
                     type: $loop
                     slots:
                       body:
-                        - _id: e9b001d4-5a12-4fc5-b63e-5b86369040de
-                          type: card
+                        - _id: 41d9f35e-e78d-49d0-95b3-a28c4bc6f333
+                          type: imageBlock
                           parameters:
                             image:
-                              type: text
-                              locales:
-                                en-US: ${#jptr:/Product Loop Item/node/image/url}
-                            title:
-                              type: text
-                              locales:
-                                en-US: >-
-                                  ${#jptr:/Product Loop
-                                  Item/node/title:fa=c:fl=i}
+                              type: asset
+                              value:
+                                - _id: e5cfc4dc-ec6a-498e-b21e-0ad8b3dc3e0c
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/Product Loop
+                                        Item/fields/image/value/0/fields/url/value:fa=c:fl=i}
+                                  _source: custom-url
                     _dataResources:
                       Product Loop Item:
                         type: sys-reserved-loop
                         variables:
-                          connectedData: '#jptr:/Product/entry/fields/images/value:fa=c'
+                          connectedData: '#jptr:/Product/entry/fields/media/value:fa=c'
               parameters:
                 columns:
                   type: number
-                  value: '2'
+                  value: '4'
   _dataResources:
     Product:
       type: productBySlug
@@ -72,6 +128,8 @@ composition:
         locale: ${locale}
   _locales:
     - en-US
+    - de-DE
+    - da-DK
 created: '2023-06-07T08:49:36.736468+00:00'
-modified: '2024-07-30T18:56:38.231439+00:00'
+modified: '2024-08-16T11:49:43.288059+00:00'
 pattern: false

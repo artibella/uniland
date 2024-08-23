@@ -18,10 +18,6 @@ entry:
         path: >-
           https://www.linkedin.com/events/ultimatemakeover-makeanexisting7075503215097561088
         type: url
-    image:
-      type: image
-      value: >-
-        https://media.licdn.com/dms/image/D4E24AQFViYDaA22crQ/feedshare-live-thumbnail_high/0/1687442417681?e=1688745600&v=beta&t=vuxrGa1k8e1MhfO6vq771phlI8-eAcNResD7jM3lu7g
     start:
       type: datetime
       value:

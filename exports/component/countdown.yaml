@@ -7,15 +7,11 @@ parameters:
   - id: internalName
     name: Internal name
     type: text
-    helpText: ''
     typeConfig: null
-    localizable: false
   - id: date
     name: Date
     type: datetime
-    helpText: ''
     typeConfig: null
-    localizable: false
 useTeamPermissions: true
 slots:
   - id: expiredContent

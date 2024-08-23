@@ -7,7 +7,6 @@ parameters:
   - id: label
     name: Label
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: size
@@ -27,7 +26,6 @@ parameters:
   - id: color
     name: Color
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: 'primary '
@@ -49,7 +47,6 @@ parameters:
   - id: link
     name: Link
     type: link
-    helpText: ''
     typeConfig:
       linkTypes:
         tel: false

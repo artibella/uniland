@@ -1,0 +1,783 @@
+created: '2024-08-13T09:23:43.76845+00:00'
+modified: '2024-08-15T16:54:42.713621+00:00'
+pattern: false
+entry:
+  _id: 08791d97-5304-4c4b-be7e-7a8e14c03e16
+  _name: Easy Vegan Pan Pizza
+  _slug: easy-vegan-pan-pizza
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/wKptxLm7yHwmdqVkqUriGSd2CXA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-6-334c5894eecf4c6394206f093c3a61e2.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Easy Vegan Pan Pizza
+    diets:
+      type: contentReference
+      value: ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-diets/entries}
+    intro:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "The base of this pie starts out a lot like the fantastic potato-topped pizza bianca that was once served at\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.sullivanstreetbakery.com/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Sullivan Street Bakery
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      : thin slices of potato shingled on top of a moist pizza
+                      bianca dough, strewn with onions, and drizzled with olive
+                      oil. As it bakes, the potatoes crisp up and the onions
+                      brown, lending some sweetness and a bit of bite to the
+                      affair.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "A sprinkle of rosemary\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: always
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 2
+                    version: 1
+                  - mode: normal
+                    text: "\_works with potatoes, in my opinion."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textFormat: 0
+            direction: ltr
+    media:
+      type: asset
+      value:
+        - _id: 12b266ff-4b59-4f2f-8ca7-b04d9588f438
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/ACWHF4yM64qYA26CztLRR4DsmIk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-5-3-535b2e9507fb4fa389f4177ee5c33634.jpg
+          _source: custom-url
+        - _id: 6ebf915a-c7a2-4ada-98a1-21fdfc057117
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/qWGaTtKD6xbJj28TW8fw0hybnPk=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-beauties-3-4e03117b3b38404e9a2689a93d1a7d4c.jpg
+          _source: custom-url
+    notes:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why It Works
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Using both sliced potatoes and mashed potatoes adds
+                          deep potato flavor and textural contrast.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: left
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Onions, rosemary, and olive oil complement and enhance
+                          the flavor of the potatoes.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+    seasons:
+      type: contentReference
+      value: ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-seasons/entries}
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-cuisines/entries}
+    mealType:
+      type: multi-select
+      value:
+        - lunch
+        - dinner
+        - snack
+    subtitle:
+      type: text
+      locales:
+        en-US: With Potato, Onion, and Rosemary
+    dishTypes:
+      type: contentReference
+      value: ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-dishTypes/entries}
+    sourceUrl:
+      type: link
+      value:
+        path: >-
+          https://www.seriouseats.com/easy-pan-pizza-potato-onion-rosemary-vegan-recipe
+        type: url
+    totalTime:
+      type: text
+      value: '10:30'
+    difficulty:
+      type: select
+      value: medium
+    cookingTime:
+      type: text
+      value: '30'
+    ingredients:
+      type: $block
+      value:
+        - _id: 6e225325-7960-4b33-8c81-d9218e27d27f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1 1/2 pounds store-bought pizza dough
+            amountText:
+              type: text
+              locales:
+                en-US: 1 1/2 pounds store-bought pizza dough
+        - _id: 6f324344-2c6f-4839-83bf-c04f4ad58296
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1 pound (455g) Yukon Gold potatoes (about 3 medium)
+            unit:
+              type: select
+              value: lb
+            amount:
+              type: number
+              value: '1'
+            amountText:
+              type: text
+              locales:
+                en-US: '1 pound (455g) '
+            ingredientText:
+              type: text
+              locales:
+                en-US: Yukon Gold potatoes
+            ingredientSuffix:
+              type: text
+              locales:
+                en-US: about 3 medium
+            isMainIngredient:
+              type: checkbox
+              value: true
+        - _id: 5c479b13-503e-4c4f-ab4c-c7a2521ca228
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Kosher salt
+            ingredientText:
+              type: text
+              locales:
+                en-US: Kosher salt
+        - _id: c034adda-f931-4539-9d3b-14a089bbe48a
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1/2 cup (120ml) extra-virgin olive oil
+            unit:
+              type: select
+              value: c
+            amount:
+              type: number
+              value: '0.5'
+            amountText:
+              type: text
+              locales:
+                en-US: 1/2
+            ingredientText:
+              type: text
+              locales:
+                en-US: olive oil
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: extra-virgin
+        - _id: a2cb1ed4-4286-4ad0-89b6-2460491d9a8f
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 1 small yellow onion (5 ounces; 140g), thinly sliced
+            amount:
+              type: number
+              value: '1'
+            ingredientText:
+              type: text
+              locales:
+                en-US: yellow onion
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: small
+            ingredientSuffix:
+              type: text
+              locales:
+                en-US: (5 ounces; 140g), thinly sliced
+        - _id: 8e27c173-d257-44de-bf5f-1551fe36c5d4
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: 2 tablespoons roughly chopped fresh rosemary leaves
+            unit:
+              type: select
+              value: tbsp
+            amount:
+              type: number
+              value: '2'
+            ingredient:
+              type: contentReference
+              value: >-
+                ${#jptr:/ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-ingredient/entries/0}
+            ingredientText:
+              type: text
+              locales:
+                en-US: rosemary leaves
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: roughly chopped fresh
+            substituteIngredients:
+              type: contentReference
+              value: >-
+                ${#jptr:/ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-substituteIngredients/entries}
+          _dataResources:
+            ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-ingredient:
+              type: uniformContentInternalReference
+              variables:
+                entryIds: 32ed8f5e-0c4d-487f-b9d5-437c1c367b32
+            ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-substituteIngredients:
+              type: uniformContentInternalReference
+              variables:
+                entryIds: >-
+                  18b566a2-58ac-45f0-9d9d-06bb3101905f,1ac4ec08-e437-465e-a5b8-80a2f7bc4eba,32ed8f5e-0c4d-487f-b9d5-437c1c367b32
+        - _id: e97e3560-e49e-4f6c-a297-d92fc93584df
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Freshly ground black pepper
+            ingredientText:
+              type: text
+              locales:
+                en-US: black pepper
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: Freshly ground
+        - _id: 81c49616-37bc-4751-a86a-fcd23181c110
+          type: recipeIngredient
+          fields:
+            ingredient:
+              type: contentReference
+              value: >-
+                ${#jptr:/ref-81c49616-37bc-4751-a86a-fcd23181c110-ingredient/entries/0}
+            substituteIngredients:
+              type: contentReference
+              value: >-
+                ${#jptr:/ref-81c49616-37bc-4751-a86a-fcd23181c110-substituteIngredients/entries}
+          _dataResources:
+            ref-81c49616-37bc-4751-a86a-fcd23181c110-ingredient:
+              type: uniformContentInternalReference
+              variables:
+                entryIds: 32ed8f5e-0c4d-487f-b9d5-437c1c367b32
+            ref-81c49616-37bc-4751-a86a-fcd23181c110-substituteIngredients:
+              type: uniformContentInternalReference
+              variables:
+                entryIds: >-
+                  32ed8f5e-0c4d-487f-b9d5-437c1c367b32,1ac4ec08-e437-465e-a5b8-80a2f7bc4eba,18b566a2-58ac-45f0-9d9d-06bb3101905f
+    publishDate:
+      type: date
+      value: '2024-08-13'
+    recipeYield:
+      type: text
+      value: 4 servings
+    instructions:
+      type: $block
+      value:
+        - _id: bc02a377-cf13-48a1-8008-37c19fd78f44
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: cfb9310e-821b-4c6d-889f-198a8f7ff963
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/DBw5KGttSEld3B47I3GDNlb_Fck=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-1-8911409251354197b9a06e06701c07c4.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Divide dough into two equal balls. Pour 2
+                              tablespoons (30ml) of oil in the bottom of each of
+                              two 10-inch cast iron skillet or round cake pans.
+                              Place 1 ball of dough in each pan and turn to coat
+                              evenly with oil. Using a flat palm, press the
+                              dough around the pan, flattening it slightly and
+                              spreading oil around the entire bottom and edges
+                              of the pan. Cover tightly with plastic wrap and
+                              let the dough sit at room temperature for two
+                              hours. After the first hour, adjust an oven rack
+                              to the lower middle position and preheat oven to
+                              550°F.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textFormat: 0
+                    direction: ltr
+        - _id: 3e3190e8-b1cf-4032-b37e-aa13f7c68530
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: c049c984-6b91-494b-8f3c-2a8bcc61f89b
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/JuiJOnrMQCulhO9dIMbU-HQxjo4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-2-9b175166a0b243018f23fa743248abb4.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              While dough rises, make mashed potatoes. Peel and
+                              roughly dice one potato and cover with salted
+                              water in a medium saucepan. Cook until tender,
+                              about 15 minutes. Drain and pass potato through
+                              ricer, returning to now-empty pot. Add 2
+                              tablespoons (30ml) olive oil, season with salt and
+                              pepper, and fold with a wooden spoon until
+                              incorporated. Set mashed potatoes aside.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textFormat: 0
+                    direction: ltr
+        - _id: 12213477-9a03-4ccf-a331-92bf6bed4e8c
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: b7e27a84-5ce0-4293-962b-cd154e6d478a
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/QNQiW7exlj5iA23KAV-ZFXJ3_Ns=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-3-e24c1219a46d426680320342552270f0.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Meanwhile, using a mandoline, slice remaining two
+                              potatoes into 1/8th-inch thick slices. Transfer
+                              slices to a large bowl filled with water. When all
+                              potatoes are sliced, drain and rinse, then
+                              carefully dry slices in a salad spinner or with
+                              paper towels. Return to bowl, add onions, 2
+                              tablespoons (30ml) olive oil, and rosemary, and
+                              season with salt and pepper. Toss to coat and set
+                              aside.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textFormat: 0
+                    direction: ltr
+        - _id: 3a188825-6914-42c1-97a4-0b9833ae6ffd
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 77001940-e9c6-47e8-9308-c216b10bab6b
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/3NnvjfozEx3uTOQhayBhCPm1uac=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-4-c60f0c8835194c8abc658a484c28a3ac.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              After dough has risen for two hours, dough should
+                              be mostly filling in the pan up to the edges. Use
+                              your fingertips to press it around until it fills
+                              in every corner, popping any large bubbles that
+                              appear. Lift up one edge of the dough to let any
+                              air bubbles underneath escape and repeat, moving
+                              around the dough until there are no air bubbles
+                              left underneath and the dough is evenly spread
+                              around the pan.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textFormat: 0
+                    direction: ltr
+        - _id: 27ae35e9-2b31-41aa-bf66-8b6882ede00f
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 0cf3f89c-c6ad-47da-b8c8-0d53d1320cdf
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/q9g-8F1XEtDwejs7kgFuq8BXIUo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-5-1-05ace77398294589a9caa55efec20dd4.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Layer potatoes slices on top of pizzas, letting
+                              some onion pieces cling to them and shingling them
+                              to make a pretty pattern. Add any remaining onion
+                              slices, rosemary, and drizzle remaining 2
+                              tablespoons oil (30ml) on top of pizzas. Use a
+                              small spoon to add mashed potatoes to top of
+                              pizzas in 1-inch dollops.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textFormat: 0
+                    direction: ltr
+        - _id: 61df030a-6119-4eae-b64c-a2b03536cc3e
+          type: howtoStep
+          fields:
+            images:
+              type: asset
+              value:
+                - _id: 99ef6029-c455-465a-8743-e2166c377180
+                  type: image
+                  fields:
+                    url:
+                      type: text
+                      value: >-
+                        https://www.seriouseats.com/thmb/2ajW0WWD3NWFFCnRx7X-Pr-Cfy4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-6-c8d80c22b16d41e0831a7280adf60918.jpg
+                  _source: custom-url
+            description:
+              type: richText
+              locales:
+                en-US:
+                  root:
+                    type: root
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: paragraph
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Bake until potatoes are browned around the edges,
+                              mashed potatoes are crisp and browned, and bottom
+                              of pizzas is a crisp golden brown, 15 to 20
+                              minutes. Remove from oven and serve immediately.
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                        textFormat: 0
+                    direction: ltr
+    featuredImage:
+      type: asset
+      value:
+        - _id: 4665734d-619f-498a-bf0b-c8b6113ceac4
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/wKptxLm7yHwmdqVkqUriGSd2CXA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/easy-pan-pizza-potato-onion-rosemary-vegan-recipe-Step-6-334c5894eecf4c6394206f093c3a61e2.jpg
+          _source: custom-url
+    cookingMethods:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-cookingMethods/entries}
+    mainIngredient:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-mainIngredient/entries}
+    nutritionFacts:
+      type: $block
+      value:
+        - _id: 5393c798-271a-4cfe-83f2-a503f496b3bd
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: calories
+            amount:
+              type: number
+              value: '795'
+        - _id: e69903ad-6374-4282-a2d5-c34f128c516c
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: fat
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '36'
+        - _id: 0a988cbc-47ce-4a45-a5ff-e3aa2ee83888
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: carbohydrate
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '105'
+        - _id: c567b196-28d4-447a-ae17-495875eff1a4
+          type: nutritionInformation
+          fields:
+            type:
+              type: select
+              value: protein
+            unit:
+              type: select
+              value: g
+            amount:
+              type: number
+              value: '14'
+        - _id: a6e0fed2-a9ad-4ccf-89f5-e1dab2b076b5
+          type: nutritionInformation
+  _dataResources:
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-diets:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 33496cf6-8ab4-4b3b-aca5-c8acf5651d6a
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-seasons:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          79a002a3-7991-4e42-8003-a4c5d22f14a3,17192f38-cf77-461f-bb4e-f45a5cce7ca9,0aea1583-2f31-44c8-a5a1-114961bf6f29,09d54f99-500b-434c-afbd-c555772d9b3a
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          7da277be-785a-4c12-badd-323c4ee97c14,446ea9a3-1138-46e0-b083-f05c028d5360,9669ce2c-4524-4487-8392-ce5e10b6491f
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-dishTypes:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: dcd857dc-f70d-4651-94ed-14adbcdce61a
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-cookingMethods:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 43eef4e8-2c8d-4c0e-90a3-c42015af15ae
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-mainIngredient:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 18b566a2-58ac-45f0-9d9d-06bb3101905f
+  _locales:
+    - en-US

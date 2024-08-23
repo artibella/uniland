@@ -1,5 +1,5 @@
 created: '2024-07-30T17:06:00.079186+00:00'
-modified: '2024-07-30T17:06:28.155652+00:00'
+modified: '2024-08-02T17:31:28.49958+00:00'
 pattern: false
 entry:
   _id: 4f6b19cb-233a-4c89-b6ef-f3b017c0aad8
@@ -11,7 +11,7 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: white-leather-sneakers
   _locales:

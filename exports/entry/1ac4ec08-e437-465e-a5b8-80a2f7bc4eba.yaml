@@ -1,0 +1,33 @@
+created: '2024-08-13T11:24:29.374254+00:00'
+modified: '2024-08-13T11:25:45.465931+00:00'
+pattern: false
+entry:
+  _id: 1ac4ec08-e437-465e-a5b8-80a2f7bc4eba
+  _name: olive oil
+  _slug: olive-oil
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: olive oil
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: c3d88f59-3ab3-4d73-b40a-4407f91aa89b
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?q=80&w=2848&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            _source: custom-url
+    namePlural:
+      type: text
+      locales:
+        en-US: olive oil
+  _locales:
+    - en-US

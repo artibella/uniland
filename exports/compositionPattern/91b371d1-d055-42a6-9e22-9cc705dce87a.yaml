@@ -1,0 +1,62 @@
+composition:
+  _name: 'Page: 2 columns'
+  _id: 91b371d1-d055-42a6-9e22-9cc705dce87a
+  type: page
+  slots:
+    hero:
+      - _id: 6ecdd9d6-691d-4682-98d3-8d39828312b9
+        type: hero
+        slots:
+          heading:
+            - _id: 4ee1f65e-6c60-4805-832e-13aba0eac8cb
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Heading
+              _overridability:
+                hideLockedParameters: true
+        _overridability:
+          hideLockedParameters: true
+    sections:
+      - _id: 381bf876-b812-432a-a03a-3813ad5ca9ab
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 1f759b17-3ca8-4bb9-9ad3-31199dccdd8f
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 726f20a1-4f73-44e0-b1b8-74f080ed7acc
+                    type: $slotSection
+                    parameters:
+                      name:
+                        type: text
+                        value: Left column
+                    _overridability:
+                      hideLockedParameters: true
+                rightContent:
+                  - _id: 7cae5fb1-80a4-4066-900c-7cc28c491a45
+                    type: $slotSection
+                    parameters:
+                      name:
+                        type: text
+                        value: Right column
+                    _overridability:
+                      hideLockedParameters: true
+              _overridability:
+                hideLockedParameters: true
+        _overridability:
+          hideLockedParameters: true
+  _overridability:
+    parameters:
+      $viz: 'yes'
+      title: 'yes'
+      description: 'yes'
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-07-16T10:46:52.0094+00:00'
+modified: '2024-07-18T12:15:49.38798+00:00'
+pattern: true

@@ -216,10 +216,19 @@ composition:
             - _id: 9e253cc7-c860-458c-9d95-152071535a31
               type: heading
               parameters:
+                align:
+                  type: select
+                  value: left
                 title:
                   type: text
                   locales:
                     en-US: Learn and innovate—outpace your competition!
+                tagName:
+                  type: select
+                  value: h2
+                showEditorialLine:
+                  type: checkbox
+                  value: true
         parameters:
           $viz:
             type: $viz
@@ -230,7 +239,7 @@ composition:
             type: select
             locales:
               de-DE: spring
-              en-US: spring
+              en-US: mango
           title:
             type: text
             locales:
@@ -360,6 +369,15 @@ composition:
                       imageFit:
                         type: select
                         value: cover
+                      imageWidth:
+                        type: select
+                        value: width-full
+                      aspectRatio:
+                        type: select
+                        value: square
+                      borderRadius:
+                        type: select
+                        value: full
               parameters:
                 layout:
                   type: select
@@ -369,7 +387,7 @@ composition:
                   value: en-US
                 gapSize:
                   type: select
-                  value: medium
+                  value: xl
                 leftColumnVerticalAlignment:
                   type: select
                   value: center
@@ -389,7 +407,11 @@ composition:
             type: $viz
             value:
               criteria:
-                clauses: []
+                clauses:
+                  - op: is
+                    rule: $qk
+                    value: m
+                    source: deviceType
           theme:
             type: select
             locales:
@@ -544,13 +566,20 @@ composition:
                   - _id: bdd333a8-f5e2-4ace-a028-5290a6eeb33c
                     type: imageBlock
                     parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 8fc26d8e-072a-4085-9682-26e427df86fe
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/4jERsKHcSzCD3f0J3IQ6J8/85338cfe6631e7c18b5f68c50fe829bb/Icon_Create.svg
+                            _source: custom-url
                       altText:
                         type: text
                         value: Icon +
-                      imageUrl:
-                        type: image
-                        value: >-
-                          https://images.ctfassets.net/9ku1oyd4k3wo/4jERsKHcSzCD3f0J3IQ6J8/85338cfe6631e7c18b5f68c50fe829bb/Icon_Create.svg
                       imageWidth:
                         type: select
                         value: icon-xl
@@ -641,13 +670,20 @@ composition:
                   - _id: 8d83c2db-9c61-4953-a6e2-eb8e815f9a4d
                     type: imageBlock
                     parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 53450629-8929-4aad-9d98-fe3400113858
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/1dmhwIgHeSdfJu9JZ3JyIK/84a04c0afd138871b5ba5bbb260a5e6e/Hero_Canvas.jpg
+                            _source: custom-url
                       altText:
                         type: text
                         value: Empower marketers
-                      imageUrl:
-                        type: image
-                        value: >-
-                          //images.ctfassets.net/9ku1oyd4k3wo/1dmhwIgHeSdfJu9JZ3JyIK/84a04c0afd138871b5ba5bbb260a5e6e/Hero_Canvas.jpg
                       imageWidth:
                         type: select
                         value: ''
@@ -677,16 +713,23 @@ composition:
                   - _id: ec59f1ad-84ca-46d3-a366-c3cfdda46b93
                     type: imageBlock
                     parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: f4fcbb5e-a000-44de-afb7-86a2f6b1adc3
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/7C4QIikWjOcBahtJDwa5Rn/f3f545aefb89fbb37b2ad0934fff539e/Home_Hero_Speed_1.jpg
+                            _source: custom-url
                       altText:
                         type: text
                         value: Illustration web core vitals
                       imageFit:
                         type: select
                         value: ''
-                      imageUrl:
-                        type: image
-                        value: >-
-                          https://images.ctfassets.net/9ku1oyd4k3wo/7C4QIikWjOcBahtJDwa5Rn/f3f545aefb89fbb37b2ad0934fff539e/Home_Hero_Speed_1.jpg
                       aspectRatio:
                         type: select
                         value: auto
@@ -700,13 +743,20 @@ composition:
                   - _id: 2bfa7616-e581-450e-b17d-65c3017f2674
                     type: imageBlock
                     parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 6eea40dc-a2fd-4cb5-a4de-96ca254545e5
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/2RNxUM1EMZQrhGYkCKOBm/611af48a3a519a386b499c3c8d097276/Icon_Speed.svg
+                            _source: custom-url
                       altText:
                         type: text
                         value: Icon speed
-                      imageUrl:
-                        type: image
-                        value: >-
-                          https://images.ctfassets.net/9ku1oyd4k3wo/2RNxUM1EMZQrhGYkCKOBm/611af48a3a519a386b499c3c8d097276/Icon_Speed.svg
                       imageWidth:
                         type: select
                         value: icon-lg
@@ -1916,5 +1966,5 @@ composition:
     - en-US
     - de-DE
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2024-07-29T12:12:20.570078+00:00'
+modified: '2024-08-16T14:51:18.982394+00:00'
 pattern: false

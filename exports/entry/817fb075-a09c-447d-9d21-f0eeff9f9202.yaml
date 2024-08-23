@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:18.920678+00:00'
-modified: '2024-07-11T10:05:17.35675+00:00'
+modified: '2024-07-31T15:32:32.214405+00:00'
 pattern: false
 entry:
   _id: 817fb075-a09c-447d-9d21-f0eeff9f9202
@@ -17,6 +17,9 @@ entry:
     diets:
       type: contentReference
       value: ${#jptr:/ref-817fb075-a09c-447d-9d21-f0eeff9f9202-diets}
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-817fb075-a09c-447d-9d21-f0eeff9f9202-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -308,6 +311,10 @@ entry:
       variables:
         locale: ${locale}
         entryIds: 9a585b3d-0c16-4499-b2c3-5994e1d27ec9
+    ref-817fb075-a09c-447d-9d21-f0eeff9f9202-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
   _locales:
     - it-IT
     - da-DK

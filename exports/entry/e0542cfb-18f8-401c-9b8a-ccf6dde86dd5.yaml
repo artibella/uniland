@@ -1,0 +1,15 @@
+created: '2024-08-07T12:24:09.196738+00:00'
+modified: '2024-08-07T12:24:23.072069+00:00'
+pattern: false
+entry:
+  _id: e0542cfb-18f8-401c-9b8a-ccf6dde86dd5
+  _name: CDN
+  _slug: cdn
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: CDN
+  _locales:
+    - en-US

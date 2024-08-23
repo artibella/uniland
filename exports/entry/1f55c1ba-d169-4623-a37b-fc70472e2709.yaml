@@ -1,0 +1,15 @@
+created: '2024-08-07T12:13:42.210339+00:00'
+modified: '2024-08-07T12:14:05.737438+00:00'
+pattern: false
+entry:
+  _id: 1f55c1ba-d169-4623-a37b-fc70472e2709
+  _name: Visual editing
+  _slug: Visual editing
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Visual editing
+  _locales:
+    - en-US

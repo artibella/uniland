@@ -7,12 +7,10 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
   - id: logos
     name: Logos
     type: $block
-    helpText: ''
     typeConfig:
       allowedTypes:
         - $loop
@@ -28,7 +26,6 @@ parameters:
   - id: align
     name: Align
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Left
@@ -38,7 +35,6 @@ parameters:
   - id: logosPerRow
     name: Logos per row
     type: number
-    helpText: ''
     typeConfig:
       max: '10'
       min: '1'

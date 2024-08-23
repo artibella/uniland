@@ -1,7 +1,7 @@
 id: product
 name: Product
 created: '2023-06-30T14:25:25.628227+00:00'
-updated: '2024-07-31T09:09:31.426031+00:00'
+updated: '2024-08-02T17:21:02.86894+00:00'
 slugSettings:
   unique: local
   required: 'no'
@@ -54,7 +54,7 @@ fields:
           - subscript
     localizable: true
   - id: group_media
-    name: Media
+    name: Media assets
     type: group
     typeConfig:
       collapsed: false
@@ -85,12 +85,6 @@ fields:
       allowedTypes:
         - $loop
         - imageBlock
-  - id: media2
-    name: Media2
-    type: $block
-    helpText: ''
-    typeConfig:
-      allowedTypes: all
   - id: group_productSettings
     name: Product settings
     type: group
@@ -100,6 +94,7 @@ fields:
         - reference
         - collections
         - variants
+        - options
   - id: reference
     name: Reference
     type: text
@@ -121,6 +116,14 @@ fields:
       allowedTypes:
         - productVariant
         - $loop
+  - id: options
+    name: Options
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - $loop
+        - productOptions
 entryName: name
 thumbnailField: featuredImage
 description: ''

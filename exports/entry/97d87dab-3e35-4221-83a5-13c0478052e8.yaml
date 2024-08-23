@@ -1,5 +1,5 @@
 created: '2023-12-14T15:53:39.660973+00:00'
-modified: '2024-04-03T19:14:42.36336+00:00'
+modified: '2024-08-02T19:26:12.718725+00:00'
 pattern: false
 entry:
   _id: 97d87dab-3e35-4221-83a5-13c0478052e8
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: black-sunnies
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

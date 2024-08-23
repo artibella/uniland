@@ -1,0 +1,15 @@
+created: '2024-08-07T12:18:34.785452+00:00'
+modified: '2024-08-07T12:18:51.263213+00:00'
+pattern: false
+entry:
+  _id: 56a3b54b-8c5e-480e-8d49-184ece915cf9
+  _name: Performance
+  _slug: performance
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Performance
+  _locales:
+    - en-US

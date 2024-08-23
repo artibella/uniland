@@ -43,6 +43,24 @@ composition:
                   locales:
                     de-DE: 'Kategorie: ${#jptr:/Entry/data/category}'
                     en-US: 'Category: ${#jptr:/Entry/data/category}'
+                  localesConditions:
+                    en-US:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $di
+                              value: creatures
+                              source: category
+                        value: Monsters & Creatures
+                      - id: 1
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $di
+                              value: equipment
+                              source: category
+                        value: Weapons & Equipment
                 tagName:
                   type: select
                   value: h1
@@ -80,5 +98,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-12T11:10:58.238719+00:00'
-modified: '2024-01-12T14:57:25.414945+00:00'
+modified: '2024-08-22T08:35:47.135593+00:00'
 pattern: false

@@ -7,8 +7,7 @@ composition:
     2b0e9316-83bc-4d50-936f-5613d89d57c2|726f20a1-4f73-44e0-b1b8-74f080ed7acc:
       slots:
         $slotSectionItems:
-          - _id: >-
-              2b0e9316-83bc-4d50-936f-5613d89d57c2|bda0761b-3c1e-446d-bf13-117cb4ebaf37
+          - _id: bda0761b-3c1e-446d-bf13-117cb4ebaf37
             type: textBlock
             parameters:
               body:
@@ -18,8 +17,7 @@ composition:
     2b0e9316-83bc-4d50-936f-5613d89d57c2|7cae5fb1-80a4-4066-900c-7cc28c491a45:
       slots:
         $slotSectionItems:
-          - _id: >-
-              2b0e9316-83bc-4d50-936f-5613d89d57c2|fb56954c-ebee-4f95-a7a0-9e9885699c8a
+          - _id: fb56954c-ebee-4f95-a7a0-9e9885699c8a
             type: textBlock
             parameters:
               body:

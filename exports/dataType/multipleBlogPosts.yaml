@@ -1,0 +1,18 @@
+id: multipleBlogPosts
+displayName: Multiple Blog Posts
+ttl: 30
+path: /multiple
+custom:
+  maxDepth: 2
+  proposedName: Multiple Blog Post
+  allowedContentTypes:
+    - blogPost
+method: GET
+purgeKey: 5794dac5-2e04-486e-a66e-20c3dce77835
+archetype: multipleEntries
+variables:
+  entryIds:
+    type: text
+    default: ''
+dataSourceId: uniformContent
+allowedOnComponents: []

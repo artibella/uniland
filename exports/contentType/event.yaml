@@ -1,7 +1,7 @@
 id: event
 name: Event
 created: '2023-06-30T14:48:17.043272+00:00'
-updated: '2024-07-29T13:22:50.20837+00:00'
+updated: '2024-08-13T08:47:54.612686+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -49,28 +49,19 @@ fields:
           - code
           - superscript
           - subscript
-  - id: eventType
-    name: Event type
-    type: select
+  - id: featuredImage
+    name: Featured Image
+    type: asset
     helpText: ''
     typeConfig:
-      options:
-        - text: Webinar
-          value: webinar
-        - text: Conference
-          value: conference
-        - text: Meetup
-          value: meetup
-  - id: image
-    name: Image
-    type: image
-    helpText: ''
-    typeConfig: null
+      max: 1
+    localizable: true
   - id: link
     name: LInk
     type: link
     helpText: ''
     typeConfig: null
+    localizable: false
   - id: group_eventDates
     name: Event dates
     type: group
@@ -78,11 +69,7 @@ fields:
       collapsed: false
       childrenParams:
         - start
-        - startDate
-        - startTime
         - end
-        - endDate
-        - endTime
   - id: start
     name: Start
     type: datetime
@@ -95,6 +82,18 @@ fields:
     helpText: ''
     typeConfig: null
     localizable: false
+  - id: eventType
+    name: Event type
+    type: select
+    helpText: ''
+    typeConfig:
+      options:
+        - text: Webinar
+          value: webinar
+        - text: Conference
+          value: conference
+        - text: Meetup
+          value: meetup
   - id: group_eventLocation
     name: Event location
     type: group
@@ -165,7 +164,8 @@ fields:
         - organization
     localizable: false
 entryName: internalName
+thumbnailField: featuredImage
 description: ''
-icon: file-document
+icon: calendar-today
 type: contentType
 permissions: []

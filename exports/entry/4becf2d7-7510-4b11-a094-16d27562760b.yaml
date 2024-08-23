@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:09.517597+00:00'
-modified: '2024-04-03T20:05:42.840828+00:00'
+modified: '2024-07-31T15:33:35.45851+00:00'
 pattern: false
 entry:
   _id: 4becf2d7-7510-4b11-a094-16d27562760b
@@ -14,6 +14,9 @@ entry:
       locales:
         de-DE: TODO Pasta alla Norcina (Creamy Pasta With Sausage)
         en-US: Pasta alla Norcina (Creamy Pasta With Sausage)
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-4becf2d7-7510-4b11-a094-16d27562760b-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -270,6 +273,11 @@ entry:
     preparationTime:
       type: text
       value: '5'
+  _dataResources:
+    ref-4becf2d7-7510-4b11-a094-16d27562760b-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
   _locales:
     - en-US
     - de-DE

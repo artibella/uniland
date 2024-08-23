@@ -1,0 +1,26 @@
+created: '2024-08-07T17:21:57.062797+00:00'
+modified: '2024-08-07T17:23:20.684379+00:00'
+pattern: false
+entry:
+  _id: 099033eb-2ec7-43e7-9d0c-84e3203bdb88
+  _name: Black Mountain Bistro Burr Coffee Grinder Delux
+  _slug: black-mountain-bistro-burr-coffee-grinder
+  _thumbnail: >-
+    https://res.cloudinary.com/uniform-demos/image/upload/v1692273524/products/black-mountain-bistro-burr-coffee-grinder-114-1_wtupfl_yyx2ts.jpg
+  type: product
+  fields: {}
+  _dataResources:
+    Product:
+      type: fakeProduct
+      variables:
+        productIds: '114'
+  _locales:
+    - en-US
+  _overrides:
+    099033eb-2ec7-43e7-9d0c-84e3203bdb88:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: ${#jptr:/Product/0/name} Delux
+  _pattern: a5c5d276-3eec-47fd-84be-8bc0752557ef

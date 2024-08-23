@@ -1,5 +1,5 @@
 created: '2024-01-11T15:16:05.445372+00:00'
-modified: '2024-04-03T19:15:16.580875+00:00'
+modified: '2024-08-02T19:27:10.482072+00:00'
 pattern: false
 entry:
   _id: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: puffer
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

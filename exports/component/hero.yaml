@@ -7,13 +7,11 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: body
     name: Body
     type: text
-    helpText: ''
     typeConfig:
       multiline: true
       linesCount: '3'
@@ -21,13 +19,11 @@ parameters:
   - id: imageUrl
     name: Image URL
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: imageAltText
     name: Image Alt Text
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: imageFit

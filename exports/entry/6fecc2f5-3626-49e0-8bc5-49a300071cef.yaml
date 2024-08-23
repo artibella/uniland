@@ -1,0 +1,15 @@
+created: '2024-08-07T12:12:59.401855+00:00'
+modified: '2024-08-07T12:13:23.699717+00:00'
+pattern: false
+entry:
+  _id: 6fecc2f5-3626-49e0-8bc5-49a300071cef
+  _name: Generative AI
+  _slug: Generative AI
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Generative AI
+  _locales:
+    - en-US

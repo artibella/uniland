@@ -1,0 +1,15 @@
+created: '2024-08-07T12:20:40.610027+00:00'
+modified: '2024-08-07T12:21:20.581447+00:00'
+pattern: false
+entry:
+  _id: 83aa725c-d6b1-436c-8f1b-f39eadcf7030
+  _name: Headless Commerce
+  _slug: headless-commerce
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Headless Commerce
+  _locales:
+    - en-US

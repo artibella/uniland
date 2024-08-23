@@ -1,5 +1,5 @@
 created: '2024-07-30T16:30:04.075971+00:00'
-modified: '2024-07-30T16:33:21.318432+00:00'
+modified: '2024-08-09T14:37:12.384584+00:00'
 pattern: true
 entry:
   _id: 27198504-f414-4d01-a7ff-662599297465
@@ -45,6 +45,56 @@ entry:
               direction: null
               textFormat: 0
           direction: null
+    externalProducts:
+      type: $block
+      value:
+        - _id: a7d994b1-51d3-4ede-b23f-d46820da154c
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 4ace7028-c32b-419a-8e0e-5a113ec0966b
+                  type: productVariant
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Collection edges Loop Item/node/title}
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Collection edges Loop
+                                      Item/node/description
+                                direction: null
+                                textFormat: 0
+                            direction: null
+                    featuredImage:
+                      type: image
+                      locales:
+                        en-US: >-
+                          ${#jptr:/Collection edges Loop
+                          Item/node/featuredImage/url}
+          _dataResources:
+            Collection edges Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: '#jptr:/Collection/data/collection/products/edges:fa=c'
   _dataResources:
     Collection:
       type: collectionByHandle

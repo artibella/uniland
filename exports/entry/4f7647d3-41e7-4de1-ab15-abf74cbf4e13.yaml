@@ -1,0 +1,15 @@
+created: '2024-08-07T12:15:36.870243+00:00'
+modified: '2024-08-07T12:15:53.405198+00:00'
+pattern: false
+entry:
+  _id: 4f7647d3-41e7-4de1-ab15-abf74cbf4e13
+  _name: Sitecore
+  _slug: sitecore
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Sitecore
+  _locales:
+    - en-US

@@ -7,7 +7,6 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: leftColumn
@@ -21,7 +20,6 @@ parameters:
   - id: leftColumnHorizontalAlignment
     name: 'Left Column: Horizontal Alignment'
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Left
@@ -34,7 +32,6 @@ parameters:
   - id: leftColumnVerticalAlignment
     name: 'Left Column: Vertical Alignment'
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Top
@@ -54,7 +51,6 @@ parameters:
   - id: rightColumnHorizontalAlignment
     name: 'Right Column: Horizontal Alignment'
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Left
@@ -66,7 +62,6 @@ parameters:
   - id: rightColumnVerticalAlignment
     name: 'Right Column: Vertical Alignment'
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Top
@@ -87,7 +82,6 @@ parameters:
   - id: layout
     name: Layout
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: 50-50 split
@@ -159,10 +153,11 @@ slots:
       - heading
       - imageGalleryBlock
       - badge
+      - countdown
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2022-12-19T14:33:55.1508+00:00'
-updated: '2024-01-12T16:42:22.921523+00:00'
+updated: '2024-08-01T08:01:46.460589+00:00'

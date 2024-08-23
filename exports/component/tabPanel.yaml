@@ -14,7 +14,6 @@ parameters:
   - id: isActive
     name: Is Active
     type: checkbox
-    helpText: ''
     typeConfig: null
 useTeamPermissions: true
 slots:
@@ -41,4 +40,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.582753+00:00'
-updated: '2023-12-13T12:10:02.087743+00:00'
+updated: '2024-04-03T19:09:47.028828+00:00'

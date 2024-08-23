@@ -1,0 +1,15 @@
+created: '2024-08-07T12:10:30.300961+00:00'
+modified: '2024-08-07T12:10:49.114867+00:00'
+pattern: false
+entry:
+  _id: 1d610ece-d32f-45b0-b8b8-ebcde6736647
+  _name: Digital asset management
+  _slug: digital-asset-management
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Digital asset management
+  _locales:
+    - en-US

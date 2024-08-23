@@ -1,5 +1,5 @@
 created: '2024-02-09T12:52:30.768226+00:00'
-modified: '2024-04-03T19:14:46.000356+00:00'
+modified: '2024-08-02T17:39:46.52728+00:00'
 pattern: false
 entry:
   _id: 7e1a38bc-6898-41a1-b069-fea427f6a55c
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: canvas-sneakers
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

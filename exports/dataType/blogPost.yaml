@@ -1,8 +1,10 @@
 id: blogPost
 displayName: Blog Post
 ttl: 30
+body: ''
 path: /single
 custom:
+  maxDepth: 3
   proposedName: Blog Post
   allowedContentTypes:
     - blogPost

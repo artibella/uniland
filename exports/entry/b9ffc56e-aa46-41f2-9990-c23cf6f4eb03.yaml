@@ -1,0 +1,15 @@
+created: '2024-08-13T16:56:48.765737+00:00'
+modified: '2024-08-13T16:57:01.342324+00:00'
+pattern: false
+entry:
+  _id: b9ffc56e-aa46-41f2-9990-c23cf6f4eb03
+  _name: Australian
+  _slug: australian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Australian
+  _locales:
+    - en-US

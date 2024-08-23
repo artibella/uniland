@@ -1,0 +1,15 @@
+created: '2024-08-07T12:11:40.060771+00:00'
+modified: '2024-08-07T12:12:52.936855+00:00'
+pattern: false
+entry:
+  _id: 3c11e10d-ba71-46ac-87d0-195840c88904
+  _name: Content modeling
+  _slug: content-modeling
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Content modeling
+  _locales:
+    - en-US

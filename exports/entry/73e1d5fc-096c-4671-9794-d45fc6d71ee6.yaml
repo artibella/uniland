@@ -1,0 +1,15 @@
+created: '2024-08-07T12:15:12.651026+00:00'
+modified: '2024-08-07T12:15:29.081441+00:00'
+pattern: false
+entry:
+  _id: 73e1d5fc-096c-4671-9794-d45fc6d71ee6
+  _name: Information architecture
+  _slug: information-architecture
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Information architecture
+  _locales:
+    - en-US

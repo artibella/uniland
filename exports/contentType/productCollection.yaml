@@ -1,7 +1,7 @@
 id: productCollection
 name: Product collection
 created: '2023-12-05T10:04:09.268635+00:00'
-updated: '2024-07-30T16:35:41.54191+00:00'
+updated: '2024-08-09T14:35:30.870971+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -61,6 +61,14 @@ fields:
       allowedContentTypes:
         - product
     localizable: false
+  - id: externalProducts
+    name: External Products
+    type: $block
+    helpText: ''
+    typeConfig:
+      allowedTypes:
+        - $loop
+        - productVariant
 entryName: name
 thumbnailField: image
 description: ''

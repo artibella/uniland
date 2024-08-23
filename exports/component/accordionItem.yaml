@@ -7,7 +7,6 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
   - id: isActive
     name: Is active
@@ -42,4 +41,4 @@ slots:
 titleParameter: title
 canBeComposition: false
 created: '2023-08-21T09:37:20.536743+00:00'
-updated: '2023-10-25T08:50:47.255281+00:00'
+updated: '2024-05-14T17:09:24.063881+00:00'

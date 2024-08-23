@@ -1,5 +1,5 @@
 created: '2024-07-30T17:10:35.778279+00:00'
-modified: '2024-07-30T17:10:49.118634+00:00'
+modified: '2024-08-02T19:25:37.151238+00:00'
 pattern: false
 entry:
   _id: 38be89c4-8aca-4008-ace2-1527547eb42d
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: gray-runners
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

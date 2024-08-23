@@ -1,0 +1,15 @@
+created: '2024-08-07T12:11:08.340477+00:00'
+modified: '2024-08-07T12:12:12.868375+00:00'
+pattern: false
+entry:
+  _id: 438b8d13-f7a3-4ce5-8ee4-befc83b0b547
+  _name: DXC
+  _slug: digital-experience-composition-dxc
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: DXC
+  _locales:
+    - en-US

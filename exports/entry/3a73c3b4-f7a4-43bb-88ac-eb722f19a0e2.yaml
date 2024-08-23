@@ -1,0 +1,15 @@
+created: '2024-08-07T12:14:30.762895+00:00'
+modified: '2024-08-07T12:14:51.544628+00:00'
+pattern: false
+entry:
+  _id: 3a73c3b4-f7a4-43bb-88ac-eb722f19a0e2
+  _name: Documentation
+  _slug: documentation
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Documentation
+  _locales:
+    - en-US

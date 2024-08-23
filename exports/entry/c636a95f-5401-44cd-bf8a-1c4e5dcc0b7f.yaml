@@ -1,0 +1,15 @@
+created: '2024-08-07T12:24:52.573393+00:00'
+modified: '2024-08-07T12:25:11.560428+00:00'
+pattern: false
+entry:
+  _id: c636a95f-5401-44cd-bf8a-1c4e5dcc0b7f
+  _name: Edge
+  _slug: edge
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Edge
+  _locales:
+    - en-US

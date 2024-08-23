@@ -1,0 +1,20 @@
+created: '2024-08-13T15:06:49.974393+00:00'
+modified: '2024-08-13T15:07:29.849369+00:00'
+pattern: false
+entry:
+  _id: 484d7220-d747-4b8a-a7a5-6e6cc685a705
+  _name: Strapi
+  _slug: strapi
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/6R0dQ8bATdRBwI3O9gmbDK/4f9f5187c05dd9a841327f11551694f2/strapi.svg
+  type: organization
+  fields: {}
+  _dataResources:
+    Integration:
+      type: integration
+      variables:
+        locale: ${locale}
+        entryIds: 2iFbzBFbZ61lsKdFbpWi3z
+  _locales:
+    - en-US
+  _pattern: 02e233da-df75-4002-ae4f-9b6d5714719e

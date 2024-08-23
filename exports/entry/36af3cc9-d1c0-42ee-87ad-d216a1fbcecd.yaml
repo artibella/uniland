@@ -1,5 +1,5 @@
 created: '2023-12-14T19:09:58.724787+00:00'
-modified: '2024-04-03T19:15:02.581716+00:00'
+modified: '2024-08-02T19:27:48.091053+00:00'
 pattern: false
 entry:
   _id: 36af3cc9-d1c0-42ee-87ad-d216a1fbcecd
@@ -11,9 +11,10 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
-      variables:
-        handle: hoodie
+      type: mockshopProductQuery
+      variables: {}
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
     - de-DE

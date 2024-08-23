@@ -1,0 +1,33 @@
+created: '2024-08-13T11:20:53.096799+00:00'
+modified: '2024-08-13T11:22:06.23499+00:00'
+pattern: false
+entry:
+  _id: 18b566a2-58ac-45f0-9d9d-06bb3101905f
+  _name: potato
+  _slug: potato
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: potato
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 698f926f-c04a-4f5c-8162-8ec1dcd4358d
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1518977676601-b53f82aba655?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            _source: custom-url
+    namePlural:
+      type: text
+      locales:
+        en-US: potatoes
+  _locales:
+    - en-US

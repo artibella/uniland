@@ -1,19 +1,34 @@
 created: '2024-07-11T10:05:16.600457+00:00'
-modified: '2024-07-29T15:55:52.316936+00:00'
+modified: '2024-08-12T07:54:27.767988+00:00'
 pattern: false
 entry:
   _id: 7da277be-785a-4c12-badd-323c4ee97c14
   _name: Italian
   _slug: italian
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1498579150354-977475b7ea0b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   type: cuisine
   fields:
     name:
       type: text
       locales:
         en-US: Italian
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 7a9d0f94-046b-44c9-a569-9876b5d0768f
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1498579150354-977475b7ea0b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            _source: custom-url
     types:
       type: multi-select
       value:
         - National
+  _dataResources: {}
   _locales:
     - en-US

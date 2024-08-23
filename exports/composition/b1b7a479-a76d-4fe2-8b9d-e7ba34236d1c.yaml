@@ -30,7 +30,9 @@ composition:
                   type: text
                   locales:
                     de-DE: Von ${#jptr:/Post/entry/fields/author/value:fa=p:fl=i}
-                    en-US: By ${#jptr:/Post/entry/fields/author/value:fa=p:fl=i}
+                    en-US: >-
+                      By
+                      ${#jptr:/Post/entry/fields/authors/value/0/entry/fields/name/value}
                 tagName:
                   type: select
                   value: h1
@@ -77,6 +79,51 @@ composition:
                 textAlign:
                   type: select
                   value: left
+      - _id: 981bfa98-aee5-42aa-b77c-f54de8dc8288
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 6acd16c3-f8c9-4b25-b08b-3cf59fac91f6
+              type: $loop
+              slots:
+                body:
+                  - _id: 59fd5d9b-fe55-47f9-974b-0390831403b1
+                    type: badge
+                    parameters:
+                      link:
+                        type: link
+                        value:
+                          path: >-
+                            /${locale}/blog/category/${#jptr:/Post value Loop
+                            Item/entry/_slug}
+                          type: projectMapNode
+                          nodeId: 9646ac16-b4b1-4d99-97e2-81642cf9ecbc
+                          projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                          dynamicInputValues:
+                            locale: ${locale}
+                            category: ${#jptr:/Post value Loop Item/entry/_slug}
+                      size:
+                        type: select
+                        value: lg
+                      color:
+                        type: select
+                        value: ' secondary '
+                      label:
+                        type: text
+                        locales:
+                          en-US: >-
+                            ${#jptr:/Post value Loop
+                            Item/entry/fields/name/value}
+              _dataResources:
+                Post value Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Post/entry/fields/categories/value:fa=c'
+        parameters:
+          theme:
+            type: select
+            locales:
+              en-US: mango
   _dataResources:
     Post:
       type: blogPostBySlug
@@ -87,5 +134,5 @@ composition:
     - en-US
     - de-DE
 created: '2023-05-22T22:39:10.655331+00:00'
-modified: '2024-06-06T10:48:40.8822+00:00'
+modified: '2024-08-08T12:52:59.082149+00:00'
 pattern: false

@@ -9,6 +9,224 @@ composition:
         type: sectionContainer
         slots:
           content:
+            - _id: fd82e3f2-3f25-4730-911b-a3644e270f7d
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 22805a45-2984-44aa-8738-637d140a3636
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        From the fearsome Lynels, powerful
+                                        centaur-like beasts that test even the
+                                        most skilled players, to the mischievous
+                                        Bokoblins, which attack in groups with
+                                        clubs and spears, each enemy brings
+                                        unique challenges. 
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        The towering Hinox, with their massive
+                                        size and single eye, require strategy to
+                                        defeat, while the elemental Wizzrobes
+                                        use magic to control fire, ice, and
+                                        lightning. 
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        The game also features the dreaded
+                                        Guardians, ancient, spider-like machines
+                                        with devastating lasers. Each monster
+                                        type adds depth to the world of Hyrule,
+                                        making every encounter an exciting test
+                                        of wit and skill.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                              direction: ltr
+                rightContent:
+                  - _id: e57ee8ee-e457-4c15-aad6-bc7a04769cf7
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: c68a2619-073f-4430-9ca0-3c36bcbd6d38
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://www.lifewire.com/thmb/98fkUB60Tp_IGEQt339Ib2mQCNg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/001-be9d97bda6a54705a7056e73ff03750e.jpg
+                            _source: custom-url
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: is
+                          rule: $di
+                          value: botw
+                          source: game
+                        - op: has
+                          rule: $di
+                          value: monsters
+                          source: category
+                layout:
+                  type: select
+                  value: split-two-one
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+            - _id: e6f61bf7-b2ad-4365-8a40-a024cd2d8936
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 5b1ac3fa-001d-4893-8bda-1b723878dc8f
+                    type: textBlock
+                    parameters:
+                      richText:
+                        type: richText
+                        locales:
+                          en-US:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        In "The Legend of Zelda: Breath of the
+                                        Wild," the world is teeming with a
+                                        diverse array of creatures that bring
+                                        life to its vast landscapes. From the
+                                        gentle grazing herds of deer in the lush
+                                        forests to the majestic birds soaring
+                                        through the skies, each region hosts
+                                        unique wildlife. 
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        You might encounter the playful foxes
+                                        darting through the grasslands or catch
+                                        a glimpse of luminous fireflies
+                                        illuminating the night. The game also
+                                        features more mystical creatures, like
+                                        the elusive dragons that glide through
+                                        the skies at dawn and dusk, adding a
+                                        magical touch to the serene environment.
+                                        These creatures, whether mundane or
+                                        magical, contribute to the enchanting
+                                        atmosphere of Hyrule, making exploration
+                                        a truly immersive experience.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                              direction: ltr
+                rightContent:
+                  - _id: b09e7f60-80b1-42b7-b7a7-5a068908b6a6
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 0a9728e3-463d-45c8-9bdd-a176cb67100c
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://www.zeldadungeon.net/wiki/images/3/33/Blupee.jpg
+                            _source: custom-url
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: is
+                          rule: $di
+                          value: botw
+                          source: game
+                        - op: has
+                          rule: $di
+                          value: creatures
+                          source: category
+                layout:
+                  type: select
+                  value: split-two-one
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
             - _id: 7f33b294-7866-4250-b841-4588cdc3774d
               type: gridContainer
               slots:
@@ -69,6 +287,26 @@ composition:
                 columns:
                   type: number
                   value: '3'
+                  conditions:
+                    - id: 0
+                      when:
+                        clauses:
+                          - op: is
+                            rule: $qk
+                            value: m
+                            source: deviceType
+                      value: '1'
+                    - id: 1
+                      when:
+                        clauses:
+                          - op: is
+                            rule: $qk
+                            value: t
+                            source: deviceType
+                      value: '2'
+                customResponsive:
+                  type: checkbox
+                  value: true
             - _id: 26bb9789-e207-44f6-b3ab-48d6b7186ec4
               type: pagination
               parameters:
@@ -128,11 +366,88 @@ composition:
                   locales:
                     de-DE: ${#jptr:/Entries/data/0/category}
                     en-US: ${#jptr:/Entries/data/0/category}
+                  localesConditions:
+                    en-US:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $dt
+                              value: materials
+                              source: ${#jptr:/Entries/data/0/category}
+                        value: Materials
+                      - id: 1
+                        when:
+                          clauses:
+                            - op: has
+                              rule: $dt
+                              value: monsters
+                              source: ${#jptr:/Entries/data/0/category}
+                        value: Monsters
+                      - id: 2
+                        when:
+                          clauses:
+                            - op: is
+                              rule: $dt
+                              value: equipment
+                              source: ${#jptr:/Entries/data/0/category}
+                        value: Equipment
+                      - id: 3
+                        when:
+                          clauses:
+                            - op: is
+                              rule: $dt
+                              value: creatures
+                              source: ${#jptr:/Entries/data/0/category}
+                        value: Creatures
                 byline:
                   type: text
                   locales:
-                    de-DE: Compendium
+                    de-DE: "Compendium\_(${game})"
                     en-US: "Compendium\_(${game})"
+                  localesConditions:
+                    de-DE:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: is
+                              rule: $di
+                              value: botw
+                              source: game
+                        value: 'Compendium: Breath of the Wild (BOTW)'
+                      - id: 1
+                        when:
+                          clauses:
+                            - op: is
+                              rule: $di
+                              value: totk
+                              source: game
+                        value: 'Compendium: Tears of the Kingdom (TOTK)'
+                      - id: 2
+                        when:
+                          clauses: []
+                        value: "Compendium\_(${game})"
+                    en-US:
+                      - id: 0
+                        when:
+                          clauses:
+                            - op: is
+                              rule: $di
+                              value: botw
+                              source: game
+                        value: 'Compendium: Breath of the Wild (BOTW)'
+                      - id: 1
+                        when:
+                          clauses:
+                            - op: is
+                              rule: $di
+                              value: totk
+                              source: game
+                        value: 'Compendium: Tears of the Kingdom (TOTK)'
+                      - id: 2
+                        when:
+                          clauses: []
+                        value: "Compendium\_(${game})"
                 tagName:
                   type: select
                   value: h1
@@ -149,5 +464,5 @@ composition:
     - en-US
     - de-DE
 created: '2024-01-12T10:57:39.326245+00:00'
-modified: '2024-07-17T13:47:21.417413+00:00'
+modified: '2024-08-23T11:33:26.107937+00:00'
 pattern: false

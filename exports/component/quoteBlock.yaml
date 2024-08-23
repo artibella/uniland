@@ -7,13 +7,11 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: quote
     name: Quote
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: author

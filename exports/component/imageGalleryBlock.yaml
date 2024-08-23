@@ -7,12 +7,10 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
   - id: images
     name: Images
     type: asset
-    helpText: ''
     typeConfig:
       min: 0
 categoryId: 91f990da-3be3-4559-add7-7580b0108e7c

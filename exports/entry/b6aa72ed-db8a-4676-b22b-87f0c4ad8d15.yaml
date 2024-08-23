@@ -1,5 +1,5 @@
 created: '2024-07-11T10:05:20.039452+00:00'
-modified: '2024-07-29T13:26:28.984957+00:00'
+modified: '2024-08-13T08:49:38.38138+00:00'
 pattern: false
 entry:
   _id: b6aa72ed-db8a-4676-b22b-87f0c4ad8d15
@@ -25,6 +25,16 @@ entry:
                 value: >-
                   https://res.cloudinary.com/uniformdev/image/upload/fl_preserve_transparency/v1688991200/uniformdev/media-kit/alex-s.jpg?_s=public-apps
             _source: custom-url
+    website:
+      type: link
+      locales:
+        en-US:
+          path: /${locale}/company/about-us
+          type: projectMapNode
+          nodeId: 392ad8ce-e07b-43f7-b722-b56b8b5051bc
+          projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+          dynamicInputValues:
+            locale: ${locale}
     jobTitle:
       type: text
       locales:

@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:10.865408+00:00'
-modified: '2024-07-11T10:05:19.104575+00:00'
+modified: '2024-07-31T15:30:00.70053+00:00'
 pattern: false
 entry:
   _id: a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9
@@ -101,7 +101,7 @@ entry:
           direction: ltr
     cuisines:
       type: contentReference
-      value: ${#jptr:/ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cuisines}
+      value: ${#jptr:/ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -665,7 +665,6 @@ entry:
     ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cuisines:
       type: uniformContentInternalReference
       variables:
-        locale: ${locale}
         entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
     ref-a4952c04-a6fd-436b-9ce5-a1d7e7b6e0d9-cookingMethods:
       type: uniformContentInternalReference

@@ -31,7 +31,6 @@ parameters:
   - id: theme
     name: Theme
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: White
@@ -48,7 +47,6 @@ parameters:
   - id: verticalAlignment
     name: Vertical alignment of content
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Top
@@ -60,7 +58,6 @@ parameters:
   - id: horizontalAlignment
     name: Horizontal alignment of content
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Left
@@ -72,7 +69,6 @@ parameters:
   - id: borderRadius
     name: Border Radius
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -108,7 +104,6 @@ parameters:
   - id: paddingSize
     name: Inner spacing (padding)
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -128,7 +123,6 @@ parameters:
   - id: marginSize
     name: Outer spacing (margin)
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -160,7 +154,6 @@ parameters:
   - id: backgroundType
     name: Background type
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Fill
@@ -174,7 +167,6 @@ parameters:
   - id: backgroundImage
     name: Background Image
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: backgroundImageFit

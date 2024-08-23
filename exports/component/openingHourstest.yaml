@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: openingHourstest
+name: Opening Hours (Test)
+icon: sand-clock
+parameters:
+  - id: internalName
+    name: Internal name
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: openingHours
+    name: Opening Hours
+    type: $block
+    typeConfig:
+      allowedTypes:
+        - openingHours
+        - $loop
+useTeamPermissions: true
+slots: []
+titleParameter: internalName
+canBeComposition: false
+created: '2024-08-02T10:55:48.01779+00:00'
+updated: '2024-08-02T10:55:48.01779+00:00'

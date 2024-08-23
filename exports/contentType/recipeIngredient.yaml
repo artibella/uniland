@@ -1,7 +1,7 @@
 id: recipeIngredient
 name: Recipe ingredient
 created: '2023-10-11T12:05:24.588228+00:00'
-updated: '2024-07-11T10:04:53.472028+00:00'
+updated: '2024-08-13T11:44:35.111439+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -76,6 +76,7 @@ fields:
         - ingredientSuffix
         - isMainIngredient
         - ingredient
+        - substituteIngredients
   - id: ingredientPrefix
     name: Ingredient prefix
     type: text
@@ -108,6 +109,16 @@ fields:
     type: contentReference
     helpText: ''
     typeConfig:
+      allowedContentTypes:
+        - ingredient
+    localizable: false
+  - id: substituteIngredients
+    name: Substitute Ingredients
+    type: contentReference
+    helpText: Ingredients that can be used if recommended one is not available
+    typeConfig:
+      max: 3
+      isMulti: true
       allowedContentTypes:
         - ingredient
     localizable: false

@@ -1,5 +1,5 @@
 created: '2023-12-14T13:16:25.423818+00:00'
-modified: '2024-07-30T17:05:03.916322+00:00'
+modified: '2024-08-02T17:27:11.302045+00:00'
 pattern: true
 entry:
   _id: d8d95a48-8853-40fa-a102-318c496e9c1c
@@ -13,10 +13,86 @@ entry:
       type: text
       locales:
         en-US: ${#jptr:/Product/data/product/title}
+    media:
+      type: $block
+      value:
+        - _id: 0224ff28-b6df-427a-bcc4-59ee7394158b
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 4856185c-e7c0-4e0d-b4c6-55d86286e06c
+                  type: imageBlock
+                  fields:
+                    image:
+                      type: asset
+                      locales:
+                        en-US:
+                          - _id: fe8d5f19-bd6d-4510-8317-d8f16475d902
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: ${#jptr:/Product images Loop/src}
+                            _source: custom-url
+                    title:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Product/data/product/title}
+                    imageAlignment:
+                      type: select
+                      value: left
+          _dataResources:
+            Product images Loop:
+              type: sys-reserved-loop
+              variables:
+                connectedData: '#jptr:/Product/data/product/images/nodes:fa=c'
     images:
       type: asset
       locales:
         en-US: []
+    options:
+      type: $block
+      value:
+        - _id: c5d4df74-cb90-491a-ae24-5fd0d8addcdd
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 0d8435dd-78e7-4ba1-9668-fab75a241d49
+                  type: productOptions
+                  fields:
+                    name:
+                      type: text
+                      value: ${#jptr:/Product options Loop/name}
+                    options:
+                      type: $block
+                      value:
+                        - _id: d791e380-2dac-42db-9358-d1b921e0cf28
+                          type: $loop
+                          fields:
+                            body:
+                              type: $block
+                              value:
+                                - _id: e23d41f4-ef11-4435-b242-1843f35008fb
+                                  type: taxonomyBlock
+                                  fields:
+                                    name:
+                                      type: text
+                                      locales:
+                                        en-US: ${#jptr:/Product options values loop}
+                          _dataResources:
+                            Product options values loop:
+                              type: sys-reserved-loop
+                              variables:
+                                connectedData: '#jptr:/Product options Loop/values:fa=c'
+          _dataResources:
+            Product options Loop:
+              type: sys-reserved-loop
+              variables:
+                connectedData: '#jptr:/Product/data/product/options:fa=c'
     variants:
       type: $block
       value:
@@ -31,24 +107,47 @@ entry:
                   fields:
                     code:
                       type: text
-                      value: ${#jptr:/Product edges Loop Item/node/id}
+                      value: ${#jptr:/Product Variants loop/sku}
                     name:
                       type: text
                       locales:
-                        en-US: ${#jptr:/Product edges Loop Item/node/title}
+                        en-US: ${#jptr:/Product Variants loop/title}
                     price:
                       type: text
                       locales:
-                        en-US: ${#jptr:/Product edges Loop Item/node/price/amount}
+                        en-US: >-
+                          ${#jptr:/Product Variants loop/price/currencyCode}
+                          ${#jptr:/Product Variants loop/price/amount}
+                    available:
+                      type: checkbox
+                      value: ${#jptr:/Product Variants loop/availableForSale}
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children: []
+                                direction: null
+                                textFormat: 0
+                            direction: null
                     featuredImage:
                       type: image
                       locales:
-                        en-US: ${#jptr:/Product edges Loop Item/node/image/url}
+                        en-US: ${#jptr:/Product Variants loop/image/url}
           _dataResources:
-            Product edges Loop Item:
+            Product Variants loop:
               type: sys-reserved-loop
               variables:
-                connectedData: /Product/data/product/variants/edges
+                connectedData: '#jptr:/Product/data/product/variants/nodes:fa=c'
     reference:
       type: text
       value: ${#jptr:/Product/data/product/id}
@@ -70,36 +169,40 @@ entry:
                   fields:
                     id:
                       type: text
-                      value: ${#jptr:/Product edges Loop Item/node/id}
+                      value: ${#jptr:/Product Collection Loop/id}
                     name:
                       type: text
                       locales:
-                        en-US: ${#jptr:/Product edges Loop Item/node/title}
+                        en-US: ${#jptr:/Product Collection Loop/title}
                     slug:
                       type: text
-                      value: ${#jptr:/Product edges Loop Item/node/handle}
+                      value: ${#jptr:/Product Collection Loop/handle}
                     image:
                       type: asset
                       locales:
                         en-US:
-                          - _id: d69115cf-58de-47e3-bded-dc9adada0e67
+                          - _id: 46ec3463-7ca9-409b-a391-928e871179c0
                             type: image
                             fields:
                               url:
                                 type: text
-                                value: >-
-                                  ${#jptr:/Product edges Loop
-                                  Item/node/image/url}
+                                value: ${#jptr:/Product Collection Loop/image/url}
                               title:
                                 type: text
-                                value: ${#jptr:/Product edges Loop Item/node/title}
+                                value: ${#jptr:/Product Collection Loop/title}
+                              description:
+                                type: text
+                                value: ${#jptr:/Product Collection Loop/description}
                             _source: custom-url
+                    description:
+                      type: text
+                      value: ${#jptr:/Product Collection Loop/description}
           _dataResources:
-            Product edges Loop Item:
+            Product Collection Loop:
               type: sys-reserved-loop
               variables:
                 limit: ''
-                connectedData: /Product/data/product/collections/edges
+                connectedData: '#jptr:/Product/data/product/collections/nodes:fa=c'
     description:
       type: richText
       locales:
@@ -129,15 +232,16 @@ entry:
             fields:
               url:
                 type: text
-                value: ${#jptr:/Product/data/product/featuredImage/url}
+                value: ${#jptr:/Product/data/product/featuredImage/src}
               title:
                 type: text
                 value: ${#jptr:/Product/data/product/title}
             _source: custom-url
   _dataResources:
     Product:
-      type: productByHandle
-      variables: {}
+      type: mockshopProductQuery
+      variables:
+        handle: men-crewneck
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _locales:

@@ -5,14 +5,15 @@ composition:
   type: page
   slots:
     hero:
-      - _id: 9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd
+      - _id: c5f53876-739d-46db-9b9b-61ea3b3c2612
         type: hero
-        _pattern: fad6acf9-aa5e-4fca-8429-b843de447846
+        _pattern: c572c2e1-7917-4958-874b-c4aa73db6e3a
         _dataResources:
-          Product by handle Content:
-            type: productByHandle
+          Product Content:
+            type: product
             variables:
-              handle: canvas-sneakers
+              locale: ${locale}
+              entryId: 099033eb-2ec7-43e7-9d0c-84e3203bdb88
     sections:
       - _id: 2b20d8ec-7cc5-4939-8848-558829fcebfc
         type: sectionContainer
@@ -31,29 +32,6 @@ composition:
                     locale: ${locale}
                     entryId: 7e1a38bc-6898-41a1-b069-fea427f6a55c
   _overrides:
-    9b1d3d74-22b5-4af9-8170-ea2bfd27b1dd:
-      parameters:
-        body:
-          type: text
-          locales:
-            de-DE: ${#jptr:/Product by handle Content/data/product/description}
-        title:
-          type: text
-          locales:
-            de-DE: ${#jptr:/Product by handle Content/data/product/title}
-        imageFit:
-          type: select
-          locales:
-            de-DE: scale-down
-            en-US: scale-down
-        imageUrl:
-          type: text
-          locales:
-            de-DE: ${#jptr:/Product by handle Content/data/product/featuredImage/url}
-        imageAltText:
-          type: text
-          locales:
-            de-DE: ${#jptr:/Product by handle Content/data/product/title}
     2b20d8ec-7cc5-4939-8848-558829fcebfc|b24f190a-0c6e-4483-88a2-aa40b08d5393:
       slots:
         $slotSectionItems:
@@ -168,5 +146,5 @@ composition:
     - en-US
     - de-DE
 created: '2023-08-06T15:41:30.053601+00:00'
-modified: '2024-07-16T10:24:38.712151+00:00'
+modified: '2024-08-07T17:49:12.834498+00:00'
 pattern: false

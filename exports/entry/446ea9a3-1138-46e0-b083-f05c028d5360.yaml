@@ -1,0 +1,9 @@
+created: '2024-08-09T11:26:42.709219+00:00'
+modified: '2024-08-09T11:26:42.709219+00:00'
+pattern: false
+entry:
+  _id: 446ea9a3-1138-46e0-b083-f05c028d5360
+  _name: 'New entry: Cuisine'
+  _slug: new-entry-cuisine
+  type: cuisine
+  fields: {}

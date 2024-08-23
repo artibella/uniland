@@ -7,25 +7,21 @@ parameters:
   - id: name
     name: Name
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: prevLabel
     name: Previous label
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: nextLabel
     name: Next label
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: targetUrl
     name: Target URL
     type: link
-    helpText: ''
     typeConfig:
       linkTypes:
         tel: false
@@ -36,27 +32,21 @@ parameters:
     type: text
     helpText: GET param for page size
     typeConfig: null
-    localizable: false
   - id: size
     name: Size
     type: number
-    helpText: ''
     typeConfig:
       min: '1'
-    localizable: false
   - id: offset
     name: Offset
     type: number
-    helpText: ''
     typeConfig:
       min: '0'
-    localizable: false
   - id: offsetParam
     name: Offset parameter
     type: text
     helpText: GET parameter for offset
     typeConfig: null
-    localizable: false
 description: simple pagination component for dynamic pages
 useTeamPermissions: true
 slots: []

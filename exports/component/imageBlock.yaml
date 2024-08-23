@@ -7,18 +7,15 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
   - id: image
     name: Image
     type: asset
-    helpText: ''
     typeConfig:
       max: 1
   - id: imageUrl
     name: Image URL
     type: image
-    helpText: ''
     typeConfig: null
   - id: imageSetting
     name: Image setting
@@ -31,13 +28,11 @@ parameters:
   - id: altText
     name: Alt text
     type: text
-    helpText: ''
     typeConfig:
       required: false
   - id: caption
     name: Caption
     type: text
-    helpText: ''
     typeConfig: null
   - id: imageSizing
     name: Image sizing
@@ -52,7 +47,6 @@ parameters:
   - id: imageWidth
     name: Image width
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Icon small
@@ -139,7 +133,6 @@ parameters:
   - id: borderRadius
     name: Border Radius
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: Small
@@ -169,7 +162,6 @@ parameters:
   - id: backgroundStyle
     name: Background style
     type: select
-    helpText: ''
     typeConfig:
       options:
         - text: White

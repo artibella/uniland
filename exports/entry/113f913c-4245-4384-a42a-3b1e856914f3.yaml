@@ -1,5 +1,5 @@
 created: '2024-04-03T19:14:38.884867+00:00'
-modified: '2024-07-11T10:05:01.060834+00:00'
+modified: '2024-07-31T15:29:03.548086+00:00'
 pattern: false
 entry:
   _id: 113f913c-4245-4384-a42a-3b1e856914f3
@@ -14,6 +14,9 @@ entry:
       locales:
         en-US: Assassin's Spaghetti (a.k.a. Burnt Spaghetti)
         it-IT: Spaghetti All’assassina (a.k.a. Spaghetti Bruciati)
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-113f913c-4245-4384-a42a-3b1e856914f3-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -36,6 +39,11 @@ entry:
               value: >-
                 https://www.simplyrecipes.com/thmb/nThVkd7_aRv-o3Vd6EDYw2Lb0BA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Assassins-Spaghetti-LEAD-6-5f40fd14a5514125a4b53406c2909ce2.jpg
           _source: custom-url
+  _dataResources:
+    ref-113f913c-4245-4384-a42a-3b1e856914f3-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
   _locales:
     - en-US
     - it-IT

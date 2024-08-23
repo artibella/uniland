@@ -1,7 +1,7 @@
 id: recipe
 name: Recipe
 created: '2023-10-11T11:33:51.958828+00:00'
-updated: '2024-07-29T08:54:30.802804+00:00'
+updated: '2024-08-09T12:13:24.020008+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -53,6 +53,7 @@ fields:
           - code
           - superscript
           - subscript
+    localizable: true
   - id: description
     name: Description
     type: richText
@@ -82,6 +83,7 @@ fields:
           - code
           - superscript
           - subscript
+    localizable: true
   - id: featuredImage
     name: Featured image
     type: asset
@@ -125,6 +127,7 @@ fields:
           - code
           - superscript
           - subscript
+    localizable: true
   - id: group_cookingTimes
     name: Cooking times
     type: group
@@ -256,7 +259,7 @@ fields:
     name: Recipe metadata
     type: group
     typeConfig:
-      collapsed: true
+      collapsed: false
       childrenParams:
         - cuisines
         - mainIngredient
@@ -328,13 +331,6 @@ fields:
       isMulti: true
       allowedContentTypes:
         - occasion
-    localizable: false
-  - id: mattTest
-    name: Matt test
-    type: contentReference
-    helpText: ''
-    typeConfig:
-      isMulti: true
     localizable: false
 entryName: name
 thumbnailField: featuredImage

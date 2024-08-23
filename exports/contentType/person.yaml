@@ -1,7 +1,7 @@
 id: person
 name: Person
 created: '2024-07-11T10:04:52.83224+00:00'
-updated: '2024-07-11T10:04:52.83224+00:00'
+updated: '2024-08-13T08:48:51.778348+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -61,6 +61,12 @@ fields:
           - code
           - superscript
           - subscript
+    localizable: true
+  - id: website
+    name: Website
+    type: link
+    helpText: ''
+    typeConfig: null
     localizable: true
 entryName: name
 thumbnailField: image

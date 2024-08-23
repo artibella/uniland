@@ -1,0 +1,197 @@
+id: mockshopProductQuery
+displayName: Mockshop Product Query
+ttl: 30
+body: >-
+  {"query":"  fragment Product on Product {\n    id\n    title\n    vendor\n   
+  handle\n    descriptionHtml\n    description\n    featuredImage {\n     
+  src\n      url\n      altText\n      id\n    }\n    images(first: 10) {\n     
+  nodes {\n        src\n        url\n        id\n        width\n       
+  height\n        altText\n\n      }\n    }\n    collections(first: 10) {\n     
+  nodes {\n        id\n        handle\n        title\n       
+  description\n        image {\n          url\n          altText\n       
+  }\n      }\n    }\n    compareAtPriceRange {\n      minVariantPrice {\n       
+  amount\n        currencyCode\n      }     \n      maxVariantPrice {\n       
+  amount\n        currencyCode\n      }\n    }\n    priceRange {\n     
+  minVariantPrice {\n        amount\n        currencyCode\n      }     \n     
+  maxVariantPrice {\n        amount\n        currencyCode\n      }\n    }\n   
+  options {\n      name\n      values\n    }\n    \n    variants(first: 1)
+  {\n      nodes {\n        ...ProductVariant\n      }\n    }\n    seo {\n     
+  description\n      title\n    }\n  }\n  \n   fragment ProductVariant on
+  ProductVariant {\n    availableForSale\n    compareAtPrice {\n     
+  amount\n      currencyCode\n    }\n    id\n    image {\n     
+  __typename\n      id\n      url\n      altText\n      width\n      height\n   
+  }\n    price {\n      amount\n      currencyCode\n    }\n   
+  storeAvailability(first:10) {\n      nodes {\n        available\n       
+  location {\n          name\n          id\n          address {\n           
+  country\n            address1\n            address2\n           
+  zip\n            latitude\n            longitude\n            formatted\n 
+  \n          }\n        }\n      }\n    }\n    product {\n      title\n     
+  handle\n    }\n    selectedOptions {\n      name\n      value\n    }\n   
+  sku\n    title\n    unitPrice {\n      amount\n      currencyCode\n    }\n 
+  }\n  \n  query Product(\n    $country: CountryCode\n    $handle: String!\n   
+  $language: LanguageCode\n  ) @inContext(country: $country, language:
+  $language) {\n    product(handle: $handle) {\n      ...Product\n    }\n 
+  }","operationName":"Product","variables":{"handle":"${handle}","country":"${country}","language":"${language}"}}
+path: ''
+custom:
+  query: |2-
+      fragment Product on Product {
+        id
+        title
+        vendor
+        handle
+        descriptionHtml
+        description
+        featuredImage {
+          src
+          url
+          altText
+          id
+        }
+        images(first: 10) {
+          nodes {
+            src
+            url
+            id
+            width
+            height
+            altText
+
+          }
+        }
+        collections(first: 10) {
+          nodes {
+            id
+            handle
+            title
+            description
+            image {
+              url
+              altText
+            }
+          }
+        }
+        compareAtPriceRange {
+          minVariantPrice {
+            amount
+            currencyCode
+          }     
+          maxVariantPrice {
+            amount
+            currencyCode
+          }
+        }
+        priceRange {
+          minVariantPrice {
+            amount
+            currencyCode
+          }     
+          maxVariantPrice {
+            amount
+            currencyCode
+          }
+        }
+        options {
+          name
+          values
+        }
+        
+        variants(first: 1) {
+          nodes {
+            ...ProductVariant
+          }
+        }
+        seo {
+          description
+          title
+        }
+      }
+      
+       fragment ProductVariant on ProductVariant {
+        availableForSale
+        compareAtPrice {
+          amount
+          currencyCode
+        }
+        id
+        image {
+          __typename
+          id
+          url
+          altText
+          width
+          height
+        }
+        price {
+          amount
+          currencyCode
+        }
+        storeAvailability(first:10) {
+          nodes {
+            available
+            location {
+              name
+              id
+              address {
+                country
+                address1
+                address2
+                zip
+                latitude
+                longitude
+                formatted
+      
+              }
+            }
+          }
+        }
+        product {
+          title
+          handle
+        }
+        selectedOptions {
+          name
+          value
+        }
+        sku
+        title
+        unitPrice {
+          amount
+          currencyCode
+        }
+      }
+      
+      query Product(
+        $country: CountryCode
+        $handle: String!
+        $language: LanguageCode
+      ) @inContext(country: $country, language: $language) {
+        product(handle: $handle) {
+          ...Product
+        }
+      }
+  method: POST
+  proposedName: Product
+  operationName: Product
+method: POST
+purgeKey: 74166a63-85ef-4362-a0a2-3a8d66f6f56e
+archetype: default
+variables:
+  handle:
+    type: text
+    order: 0
+    default: hoodie
+    displayName: Handle
+  country:
+    type: text
+    order: 1
+    default: US
+    displayName: Country
+  language:
+    type: text
+    order: 2
+    default: EN
+    displayName: Language
+parameters: []
+dataSourceId: mockshopGraphql
+allowedOnComponents: []

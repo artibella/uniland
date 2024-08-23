@@ -1,0 +1,15 @@
+created: '2024-08-07T12:17:56.032155+00:00'
+modified: '2024-08-07T12:18:24.02512+00:00'
+pattern: false
+entry:
+  _id: d2c37f0b-24f8-4a57-91fe-8e72ad94c6d0
+  _name: Composable
+  _slug: composable
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Composable
+  _locales:
+    - en-US

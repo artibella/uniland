@@ -1,5 +1,5 @@
 created: '2023-10-31T09:37:39.736729+00:00'
-modified: '2024-04-03T19:15:14.482817+00:00'
+modified: '2024-08-13T08:29:05.311833+00:00'
 pattern: false
 entry:
   _id: 4a627919-dd77-4eb9-8f7c-2232d0022f67
@@ -14,318 +14,1233 @@ entry:
       locales:
         da-DK: Pepperoni pizza
         de-DE: Pepperoni Pizza
+        en-US: Pepperoni Pizza
         it-IT: Pizza al salame piccante
     intro:
       type: richText
-      value:
-        root:
-          type: root
-          format: ''
-          indent: 0
-          version: 1
-          children:
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    Unlocking the secret to creating the ideal pepperoni pizza
-                    requires more than just ordinary ingredients and basic
-                    kitchen skills. Get ready to take your pizza game to a whole
-                    new level as we unveil the ultimate recipe and techniques to
-                    achieve pizza perfection every time.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-          direction: ltr
+      locales:
+        da-DK:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Unlocking the secret to creating the ideal pepperoni pizza
+                      requires more than just ordinary ingredients and basic
+                      kitchen skills. Get ready to take your pizza game to a
+                      whole new level as we unveil the ultimate recipe and
+                      techniques to achieve pizza perfection every time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Unlocking the secret to creating the ideal pepperoni pizza
+                      requires more than just ordinary ingredients and basic
+                      kitchen skills. Get ready to take your pizza game to a
+                      whole new level as we unveil the ultimate recipe and
+                      techniques to achieve pizza perfection every time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Unlocking the secret to creating the ideal pepperoni pizza
+                      requires more than just ordinary ingredients and basic
+                      kitchen skills. Get ready to take your pizza game to a
+                      whole new level as we unveil the ultimate recipe and
+                      techniques to achieve pizza perfection every time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        it-IT:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Unlocking the secret to creating the ideal pepperoni pizza
+                      requires more than just ordinary ingredients and basic
+                      kitchen skills. Get ready to take your pizza game to a
+                      whole new level as we unveil the ultimate recipe and
+                      techniques to achieve pizza perfection every time.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
     media:
       type: asset
       value: []
     notes:
       type: richText
+      locales:
+        da-DK:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Is It Better To Let the Dough Rise Overnight?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      You don’t have to let your pizza dough rise overnight – or
+                      up to 48 hours – in the refrigerator, but if you do, it
+                      will develop more flavor and air bubbles that will puff up
+                      when the pizza is cooked. (Some people fight over the
+                      slices with air bubbles.) Make sure to take the dough out
+                      of the refrigerator an hour before using it to bring it to
+                      room temperature.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pizzas With Raw Ingredients
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      There are some toppings that should be cooked first before
+                      topping a pizza because they won’t cook fully before the
+                      pizza is done cooking. Raw meat should be fully cooked
+                      before adding it as a topping. Any vegetables that you
+                      don’t want to be raw on the cooked pizza such as onions,
+                      peppers, broccoli, or mushrooms should be sautéed first.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Make-Ahead and Freezing Instructions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      After the pizza dough has risen, you can freeze it to use
+                      later. Divide the dough in half (or the portion sizes you
+                      will be using to make your pizzas). Place on parchment
+                      paper or a lightly floured dish and place, uncovered, in
+                      the freezer for 15 to 20 minutes. Remove from the freezer
+                      and place in individual freezer bags, removing as much air
+                      as you can from the bags. Return to the freezer and store
+                      for up to 3 months.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Thaw the pizza dough in the refrigerator overnight or for
+                      5 to 6 hours. Then let the dough sit at room temperature
+                      for 30 minutes before stretching it out in the next steps.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Throw a Pizza Party!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/spicy_sausage_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Spicy Sausage Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/meat_lovers_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Meat Lovers’ Sheet Pan Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/easy_summer_vegetable_pizzas/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Easy Summer Vegetable Pizzas
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Homemade Pepperoni Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/cauliflower_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Sheet Pan Pizza with Roasted Cauliflower and
+                              Greens
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Is It Better To Let the Dough Rise Overnight?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      You don’t have to let your pizza dough rise overnight – or
+                      up to 48 hours – in the refrigerator, but if you do, it
+                      will develop more flavor and air bubbles that will puff up
+                      when the pizza is cooked. (Some people fight over the
+                      slices with air bubbles.) Make sure to take the dough out
+                      of the refrigerator an hour before using it to bring it to
+                      room temperature.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pizzas With Raw Ingredients
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      There are some toppings that should be cooked first before
+                      topping a pizza because they won’t cook fully before the
+                      pizza is done cooking. Raw meat should be fully cooked
+                      before adding it as a topping. Any vegetables that you
+                      don’t want to be raw on the cooked pizza such as onions,
+                      peppers, broccoli, or mushrooms should be sautéed first.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Make-Ahead and Freezing Instructions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      After the pizza dough has risen, you can freeze it to use
+                      later. Divide the dough in half (or the portion sizes you
+                      will be using to make your pizzas). Place on parchment
+                      paper or a lightly floured dish and place, uncovered, in
+                      the freezer for 15 to 20 minutes. Remove from the freezer
+                      and place in individual freezer bags, removing as much air
+                      as you can from the bags. Return to the freezer and store
+                      for up to 3 months.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Thaw the pizza dough in the refrigerator overnight or for
+                      5 to 6 hours. Then let the dough sit at room temperature
+                      for 30 minutes before stretching it out in the next steps.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Throw a Pizza Party!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/spicy_sausage_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Spicy Sausage Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/meat_lovers_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Meat Lovers’ Sheet Pan Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/easy_summer_vegetable_pizzas/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Easy Summer Vegetable Pizzas
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Homemade Pepperoni Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/cauliflower_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Sheet Pan Pizza with Roasted Cauliflower and
+                              Greens
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Is It Better To Let the Dough Rise Overnight?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      You don’t have to let your pizza dough rise overnight – or
+                      up to 48 hours – in the refrigerator, but if you do, it
+                      will develop more flavor and air bubbles that will puff up
+                      when the pizza is cooked. (Some people fight over the
+                      slices with air bubbles.) Make sure to take the dough out
+                      of the refrigerator an hour before using it to bring it to
+                      room temperature.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pizzas With Raw Ingredients
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      There are some toppings that should be cooked first before
+                      topping a pizza because they won’t cook fully before the
+                      pizza is done cooking. Raw meat should be fully cooked
+                      before adding it as a topping. Any vegetables that you
+                      don’t want to be raw on the cooked pizza such as onions,
+                      peppers, broccoli, or mushrooms should be sautéed first.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Make-Ahead and Freezing Instructions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      After the pizza dough has risen, you can freeze it to use
+                      later. Divide the dough in half (or the portion sizes you
+                      will be using to make your pizzas). Place on parchment
+                      paper or a lightly floured dish and place, uncovered, in
+                      the freezer for 15 to 20 minutes. Remove from the freezer
+                      and place in individual freezer bags, removing as much air
+                      as you can from the bags. Return to the freezer and store
+                      for up to 3 months.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Thaw the pizza dough in the refrigerator overnight or for
+                      5 to 6 hours. Then let the dough sit at room temperature
+                      for 30 minutes before stretching it out in the next steps.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Throw a Pizza Party!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/spicy_sausage_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Spicy Sausage Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/meat_lovers_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Meat Lovers’ Sheet Pan Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/easy_summer_vegetable_pizzas/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Easy Summer Vegetable Pizzas
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Homemade Pepperoni Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/cauliflower_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Sheet Pan Pizza with Roasted Cauliflower and
+                              Greens
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+        it-IT:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Is It Better To Let the Dough Rise Overnight?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      You don’t have to let your pizza dough rise overnight – or
+                      up to 48 hours – in the refrigerator, but if you do, it
+                      will develop more flavor and air bubbles that will puff up
+                      when the pizza is cooked. (Some people fight over the
+                      slices with air bubbles.) Make sure to take the dough out
+                      of the refrigerator an hour before using it to bring it to
+                      room temperature.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pizzas With Raw Ingredients
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      There are some toppings that should be cooked first before
+                      topping a pizza because they won’t cook fully before the
+                      pizza is done cooking. Raw meat should be fully cooked
+                      before adding it as a topping. Any vegetables that you
+                      don’t want to be raw on the cooked pizza such as onions,
+                      peppers, broccoli, or mushrooms should be sautéed first.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Make-Ahead and Freezing Instructions
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      After the pizza dough has risen, you can freeze it to use
+                      later. Divide the dough in half (or the portion sizes you
+                      will be using to make your pizzas). Place on parchment
+                      paper or a lightly floured dish and place, uncovered, in
+                      the freezer for 15 to 20 minutes. Remove from the freezer
+                      and place in individual freezer bags, removing as much air
+                      as you can from the bags. Return to the freezer and store
+                      for up to 3 months.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Thaw the pizza dough in the refrigerator overnight or for
+                      5 to 6 hours. Then let the dough sit at room temperature
+                      for 30 minutes before stretching it out in the next steps.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - type: linebreak
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: left
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Throw a Pizza Party!
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/spicy_sausage_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Spicy Sausage Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/meat_lovers_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Meat Lovers’ Sheet Pan Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/easy_summer_vegetable_pizzas/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Easy Summer Vegetable Pizzas
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Homemade Pepperoni Pizza
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://www.simplyrecipes.com/recipes/cauliflower_sheet_pan_pizza/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: >-
+                              Sheet Pan Pizza with Roasted Cauliflower and
+                              Greens
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 0
+                            version: 1
+                        direction: ltr
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+    mealType:
+      type: multi-select
       value:
-        root:
-          type: root
-          format: ''
-          indent: 0
-          version: 1
-          children:
-            - tag: h2
-              type: heading
-              format: left
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Is It Better To Let the Dough Rise Overnight?
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    You don’t have to let your pizza dough rise overnight – or
-                    up to 48 hours – in the refrigerator, but if you do, it will
-                    develop more flavor and air bubbles that will puff up when
-                    the pizza is cooked. (Some people fight over the slices with
-                    air bubbles.) Make sure to take the dough out of the
-                    refrigerator an hour before using it to bring it to room
-                    temperature.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-                - type: linebreak
-                  version: 1
-              direction: ltr
-            - tag: h2
-              type: heading
-              format: left
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Pizzas With Raw Ingredients
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    There are some toppings that should be cooked first before
-                    topping a pizza because they won’t cook fully before the
-                    pizza is done cooking. Raw meat should be fully cooked
-                    before adding it as a topping. Any vegetables that you don’t
-                    want to be raw on the cooked pizza such as onions, peppers,
-                    broccoli, or mushrooms should be sautéed first.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - tag: h2
-              type: heading
-              format: left
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Make-Ahead and Freezing Instructions
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    After the pizza dough has risen, you can freeze it to use
-                    later. Divide the dough in half (or the portion sizes you
-                    will be using to make your pizzas). Place on parchment paper
-                    or a lightly floured dish and place, uncovered, in the
-                    freezer for 15 to 20 minutes. Remove from the freezer and
-                    place in individual freezer bags, removing as much air as
-                    you can from the bags. Return to the freezer and store for
-                    up to 3 months.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    Thaw the pizza dough in the refrigerator overnight or for 5
-                    to 6 hours. Then let the dough sit at room temperature for
-                    30 minutes before stretching it out in the next steps.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-                - type: linebreak
-                  version: 1
-              direction: ltr
-            - tag: h2
-              type: heading
-              format: left
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Throw a Pizza Party!
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - tag: ul
-              type: list
-              start: 1
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - type: listitem
-                  value: 1
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - link:
-                        path: >-
-                          https://www.simplyrecipes.com/recipes/spicy_sausage_pizza/
-                        type: url
-                      type: link
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: Spicy Sausage Pizza
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-                - type: listitem
-                  value: 2
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - link:
-                        path: >-
-                          https://www.simplyrecipes.com/recipes/meat_lovers_sheet_pan_pizza/
-                        type: url
-                      type: link
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: Meat Lovers’ Sheet Pan Pizza
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-                - type: listitem
-                  value: 3
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - link:
-                        path: >-
-                          https://www.simplyrecipes.com/recipes/easy_summer_vegetable_pizzas/
-                        type: url
-                      type: link
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: Easy Summer Vegetable Pizzas
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-                - type: listitem
-                  value: 4
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - link:
-                        path: >-
-                          https://www.simplyrecipes.com/recipes/homemade_pepperoni_pizza/
-                        type: url
-                      type: link
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: Homemade Pepperoni Pizza
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-                - type: listitem
-                  value: 5
-                  format: ''
-                  indent: 0
-                  version: 1
-                  children:
-                    - link:
-                        path: >-
-                          https://www.simplyrecipes.com/recipes/cauliflower_sheet_pan_pizza/
-                        type: url
-                      type: link
-                      format: ''
-                      indent: 0
-                      version: 1
-                      children:
-                        - mode: normal
-                          text: Sheet Pan Pizza with Roasted Cauliflower and Greens
-                          type: text
-                          style: ''
-                          detail: 0
-                          format: 0
-                          version: 1
-                      direction: ltr
-                  direction: ltr
-              listType: bullet
-              direction: ltr
-          direction: ltr
+        - lunch
+        - dinner
+        - snack
     subtitle:
       type: text
       locales:
         da-DK: 'Knæk koden: Mestring af kunsten med den perfekte pepperoni-pizza'
         de-DE: 'Cracking the Code: Mastering the art of the perfect pepperoni pizza'
+        en-US: 'Cracking the Code: Mastering the art of the perfect pepperoni pizza'
         it-IT: >-
           Decifrare il codice: padroneggiare l'arte della perfetta pizza ai
           peperoni
@@ -345,189 +1260,743 @@ entry:
       value: 30 mins
     description:
       type: richText
-      value:
-        root:
-          type: root
-          format: ''
-          indent: 0
-          version: 1
-          children:
-            - tag: h3
-              type: heading
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: The foundation of flavor
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    In this section, we will delve into the key elements that
-                    set the stage for the perfect pepperoni pizza. From
-                    selecting the finest quality dough and enhancing its taste
-                    with the right combination of herbs and spices, to ensuring
-                    a harmonious balance between the cheese and sauce, we'll
-                    unveil the secrets to creating a flavor-packed foundation
-                    that will leave your taste buds craving for more.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children: []
-              direction: null
-            - tag: h3
-              type: heading
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Pepperoni Pleasure
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    Not all pepperoni is created equal, and in this section, we
-                    will guide you in choosing the finest slices of this beloved
-                    cured meat. Explore the varieties available, learn about the
-                    ideal thickness, and discover how to achieve the perfect
-                    balance of flavors and textures. Plus, we'll reveal a
-                    special technique to enhance the pepperoni's smoky and
-                    savory notes, making it the star of every bite.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children: []
-              direction: null
-            - tag: h3
-              type: heading
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Mastering the Art of Baking
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    The ultimate pepperoni pizza experience lies in achieving a
-                    perfectly crisp yet fluffy crust. In this section, we'll
-                    unlock the secrets to successfully baking your pizza,
-                    including pro tips for achieving the ideal temperature,
-                    methods for creating a restaurant-style crust, and
-                    techniques to ensure the pepperoni is perfectly cooked and
-                    releases its delicious oils onto the pizza.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children: []
-              direction: null
-            - tag: h3
-              type: heading
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: Elevating the Experience
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    While a classic pepperoni pizza is undeniably delicious,
-                    we'll show you how to take it up a notch! Discover creative
-                    additions that complement the pepperoni's flavors and add a
-                    new dimension to your pizza, from caramelized onions and
-                    roasted red peppers to fresh basil and buffalo mozzarella.
-                    We'll also share expert tips on achieving the perfect
-                    cheese-to-pepperoni ratio, guaranteeing an indulgent and
-                    satisfying pizza experience.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-            - type: paragraph
-              format: ''
-              indent: 0
-              version: 1
-              children:
-                - mode: normal
-                  text: >-
-                    Prepare to become the ultimate master of the perfect
-                    pepperoni pizza with our foolproof recipe and techniques.
-                    With the knowledge gained from this guide, you'll
-                    confidently create mouthwatering pizzas that will dazzle
-                    family and friends, leaving them begging for your secret
-                    recipe. Unleash your inner pizzaiolo and prepare to create
-                    pizza magic that will make every mealtime extraordinary.
-                  type: text
-                  style: ''
-                  detail: 0
-                  format: 0
-                  version: 1
-              direction: ltr
-          direction: ltr
+      locales:
+        da-DK:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The foundation of flavor
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In this section, we will delve into the key elements that
+                      set the stage for the perfect pepperoni pizza. From
+                      selecting the finest quality dough and enhancing its taste
+                      with the right combination of herbs and spices, to
+                      ensuring a harmonious balance between the cheese and
+                      sauce, we'll unveil the secrets to creating a
+                      flavor-packed foundation that will leave your taste buds
+                      craving for more.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pepperoni Pleasure
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Not all pepperoni is created equal, and in this section,
+                      we will guide you in choosing the finest slices of this
+                      beloved cured meat. Explore the varieties available, learn
+                      about the ideal thickness, and discover how to achieve the
+                      perfect balance of flavors and textures. Plus, we'll
+                      reveal a special technique to enhance the pepperoni's
+                      smoky and savory notes, making it the star of every bite.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Mastering the Art of Baking
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The ultimate pepperoni pizza experience lies in achieving
+                      a perfectly crisp yet fluffy crust. In this section, we'll
+                      unlock the secrets to successfully baking your pizza,
+                      including pro tips for achieving the ideal temperature,
+                      methods for creating a restaurant-style crust, and
+                      techniques to ensure the pepperoni is perfectly cooked and
+                      releases its delicious oils onto the pizza.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Elevating the Experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      While a classic pepperoni pizza is undeniably delicious,
+                      we'll show you how to take it up a notch! Discover
+                      creative additions that complement the pepperoni's flavors
+                      and add a new dimension to your pizza, from caramelized
+                      onions and roasted red peppers to fresh basil and buffalo
+                      mozzarella. We'll also share expert tips on achieving the
+                      perfect cheese-to-pepperoni ratio, guaranteeing an
+                      indulgent and satisfying pizza experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Prepare to become the ultimate master of the perfect
+                      pepperoni pizza with our foolproof recipe and techniques.
+                      With the knowledge gained from this guide, you'll
+                      confidently create mouthwatering pizzas that will dazzle
+                      family and friends, leaving them begging for your secret
+                      recipe. Unleash your inner pizzaiolo and prepare to create
+                      pizza magic that will make every mealtime extraordinary.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The foundation of flavor
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In this section, we will delve into the key elements that
+                      set the stage for the perfect pepperoni pizza. From
+                      selecting the finest quality dough and enhancing its taste
+                      with the right combination of herbs and spices, to
+                      ensuring a harmonious balance between the cheese and
+                      sauce, we'll unveil the secrets to creating a
+                      flavor-packed foundation that will leave your taste buds
+                      craving for more.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pepperoni Pleasure
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Not all pepperoni is created equal, and in this section,
+                      we will guide you in choosing the finest slices of this
+                      beloved cured meat. Explore the varieties available, learn
+                      about the ideal thickness, and discover how to achieve the
+                      perfect balance of flavors and textures. Plus, we'll
+                      reveal a special technique to enhance the pepperoni's
+                      smoky and savory notes, making it the star of every bite.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Mastering the Art of Baking
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The ultimate pepperoni pizza experience lies in achieving
+                      a perfectly crisp yet fluffy crust. In this section, we'll
+                      unlock the secrets to successfully baking your pizza,
+                      including pro tips for achieving the ideal temperature,
+                      methods for creating a restaurant-style crust, and
+                      techniques to ensure the pepperoni is perfectly cooked and
+                      releases its delicious oils onto the pizza.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Elevating the Experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      While a classic pepperoni pizza is undeniably delicious,
+                      we'll show you how to take it up a notch! Discover
+                      creative additions that complement the pepperoni's flavors
+                      and add a new dimension to your pizza, from caramelized
+                      onions and roasted red peppers to fresh basil and buffalo
+                      mozzarella. We'll also share expert tips on achieving the
+                      perfect cheese-to-pepperoni ratio, guaranteeing an
+                      indulgent and satisfying pizza experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Prepare to become the ultimate master of the perfect
+                      pepperoni pizza with our foolproof recipe and techniques.
+                      With the knowledge gained from this guide, you'll
+                      confidently create mouthwatering pizzas that will dazzle
+                      family and friends, leaving them begging for your secret
+                      recipe. Unleash your inner pizzaiolo and prepare to create
+                      pizza magic that will make every mealtime extraordinary.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The foundation of flavor
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In this section, we will delve into the key elements that
+                      set the stage for the perfect pepperoni pizza. From
+                      selecting the finest quality dough and enhancing its taste
+                      with the right combination of herbs and spices, to
+                      ensuring a harmonious balance between the cheese and
+                      sauce, we'll unveil the secrets to creating a
+                      flavor-packed foundation that will leave your taste buds
+                      craving for more.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pepperoni Pleasure
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Not all pepperoni is created equal, and in this section,
+                      we will guide you in choosing the finest slices of this
+                      beloved cured meat. Explore the varieties available, learn
+                      about the ideal thickness, and discover how to achieve the
+                      perfect balance of flavors and textures. Plus, we'll
+                      reveal a special technique to enhance the pepperoni's
+                      smoky and savory notes, making it the star of every bite.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Mastering the Art of Baking
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The ultimate pepperoni pizza experience lies in achieving
+                      a perfectly crisp yet fluffy crust. In this section, we'll
+                      unlock the secrets to successfully baking your pizza,
+                      including pro tips for achieving the ideal temperature,
+                      methods for creating a restaurant-style crust, and
+                      techniques to ensure the pepperoni is perfectly cooked and
+                      releases its delicious oils onto the pizza.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Elevating the Experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      While a classic pepperoni pizza is undeniably delicious,
+                      we'll show you how to take it up a notch! Discover
+                      creative additions that complement the pepperoni's flavors
+                      and add a new dimension to your pizza, from caramelized
+                      onions and roasted red peppers to fresh basil and buffalo
+                      mozzarella. We'll also share expert tips on achieving the
+                      perfect cheese-to-pepperoni ratio, guaranteeing an
+                      indulgent and satisfying pizza experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Prepare to become the ultimate master of the perfect
+                      pepperoni pizza with our foolproof recipe and techniques.
+                      With the knowledge gained from this guide, you'll
+                      confidently create mouthwatering pizzas that will dazzle
+                      family and friends, leaving them begging for your secret
+                      recipe. Unleash your inner pizzaiolo and prepare to create
+                      pizza magic that will make every mealtime extraordinary.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        it-IT:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: The foundation of flavor
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In this section, we will delve into the key elements that
+                      set the stage for the perfect pepperoni pizza. From
+                      selecting the finest quality dough and enhancing its taste
+                      with the right combination of herbs and spices, to
+                      ensuring a harmonious balance between the cheese and
+                      sauce, we'll unveil the secrets to creating a
+                      flavor-packed foundation that will leave your taste buds
+                      craving for more.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pepperoni Pleasure
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Not all pepperoni is created equal, and in this section,
+                      we will guide you in choosing the finest slices of this
+                      beloved cured meat. Explore the varieties available, learn
+                      about the ideal thickness, and discover how to achieve the
+                      perfect balance of flavors and textures. Plus, we'll
+                      reveal a special technique to enhance the pepperoni's
+                      smoky and savory notes, making it the star of every bite.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Mastering the Art of Baking
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The ultimate pepperoni pizza experience lies in achieving
+                      a perfectly crisp yet fluffy crust. In this section, we'll
+                      unlock the secrets to successfully baking your pizza,
+                      including pro tips for achieving the ideal temperature,
+                      methods for creating a restaurant-style crust, and
+                      techniques to ensure the pepperoni is perfectly cooked and
+                      releases its delicious oils onto the pizza.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children: []
+                direction: null
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Elevating the Experience
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      While a classic pepperoni pizza is undeniably delicious,
+                      we'll show you how to take it up a notch! Discover
+                      creative additions that complement the pepperoni's flavors
+                      and add a new dimension to your pizza, from caramelized
+                      onions and roasted red peppers to fresh basil and buffalo
+                      mozzarella. We'll also share expert tips on achieving the
+                      perfect cheese-to-pepperoni ratio, guaranteeing an
+                      indulgent and satisfying pizza experience.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Prepare to become the ultimate master of the perfect
+                      pepperoni pizza with our foolproof recipe and techniques.
+                      With the knowledge gained from this guide, you'll
+                      confidently create mouthwatering pizzas that will dazzle
+                      family and friends, leaving them begging for your secret
+                      recipe. Unleash your inner pizzaiolo and prepare to create
+                      pizza magic that will make every mealtime extraordinary.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
     ingredients:
       type: $block
       value:
@@ -539,6 +2008,7 @@ entry:
               locales:
                 da-DK: For the pizza dough
                 de-DE: For the pizza dough
+                en-US: For the pizza dough
                 it-IT: For the pizza dough
             ingredients:
               type: $block
@@ -551,6 +2021,7 @@ entry:
                       locales:
                         da-DK: 1 1/2 cups (355 ml) warm water (105°F-115°F)
                         de-DE: 1 1/2 cups (355 ml) warm water (105°F-115°F)
+                        en-US: 1 1/2 cups (355 ml) warm water (105°F-115°F)
                         it-IT: 1 1/2 cups (355 ml) warm water (105°F-115°F)
                 - _id: ee91b130-219c-4587-8017-0346cfe2520e
                   type: recipeIngredient
@@ -560,6 +2031,7 @@ entry:
                       locales:
                         da-DK: 1 package (2 1/4 teaspoons) active dry yeast
                         de-DE: 1 package (2 1/4 teaspoons) active dry yeast
+                        en-US: 1 package (2 1/4 teaspoons) active dry yeast
                         it-IT: 1 package (2 1/4 teaspoons) active dry yeast
                 - _id: b57f68f8-c0f2-411f-8d85-40e5d96414cc
                   type: recipeIngredient
@@ -569,6 +2041,7 @@ entry:
                       locales:
                         da-DK: 3 3/4 cups (490g) bread flour
                         de-DE: 3 3/4 cups (490g) bread flour
+                        en-US: 3 3/4 cups (490g) bread flour
                         it-IT: 3 3/4 cups (490g) bread flour
                 - _id: e92ad59f-cda7-4ba8-9133-8e762d6f709a
                   type: recipeIngredient
@@ -582,6 +2055,9 @@ entry:
                         de-DE: >-
                           2 tablespoons extra virgin olive oil (omit if cooking
                           pizza in a wood-fired pizza oven)
+                        en-US: >-
+                          2 tablespoons extra virgin olive oil (omit if cooking
+                          pizza in a wood-fired pizza oven)
                         it-IT: >-
                           2 tablespoons extra virgin olive oil (omit if cooking
                           pizza in a wood-fired pizza oven)
@@ -593,6 +2069,7 @@ entry:
                       locales:
                         da-DK: 2 teaspoons kosher salt
                         de-DE: 2 teaspoons kosher salt
+                        en-US: 2 teaspoons kosher salt
                         it-IT: 2 teaspoons kosher salt
                 - _id: bf830136-972a-4676-b85f-58272ed3b503
                   type: recipeIngredient
@@ -602,6 +2079,7 @@ entry:
                       locales:
                         da-DK: 1 teaspoon sugar
                         de-DE: 1 teaspoon sugar
+                        en-US: 1 teaspoon sugar
                         it-IT: 1 teaspoon sugar
         - _id: da2029d4-9705-4347-9e0e-c73c7c6af33a
           type: recipeIngredientSet
@@ -611,6 +2089,7 @@ entry:
               locales:
                 da-DK: For making the pizza and toppings
                 de-DE: For making the pizza and toppings
+                en-US: For making the pizza and toppings
                 it-IT: For making the pizza and toppings
             ingredients:
               type: $block
@@ -623,6 +2102,7 @@ entry:
                       locales:
                         da-DK: Extra virgin olive oil
                         de-DE: Extra virgin olive oil
+                        en-US: Extra virgin olive oil
                         it-IT: Extra virgin olive oil
                 - _id: 6f339bf1-3bde-4243-ae96-3ce42e2234d1
                   type: recipeIngredient
@@ -636,6 +2116,9 @@ entry:
                         de-DE: >-
                           Cornmeal (to help slide the pizza onto the pizza
                           stone)
+                        en-US: >-
+                          Cornmeal (to help slide the pizza onto the pizza
+                          stone)
                         it-IT: >-
                           Cornmeal (to help slide the pizza onto the pizza
                           stone)
@@ -647,6 +2130,7 @@ entry:
                       locales:
                         da-DK: Tomato sauce (smooth or pureed)
                         de-DE: Tomato sauce (smooth or pureed)
+                        en-US: Tomato sauce (smooth or pureed)
                         it-IT: Tomato sauce (smooth or pureed)
                 - _id: 3e90af8d-17c1-4851-ac77-0e78945b8ac1
                   type: recipeIngredient
@@ -656,6 +2140,7 @@ entry:
                       locales:
                         da-DK: Firm mozzarella cheese, grated
                         de-DE: Firm mozzarella cheese, grated
+                        en-US: Firm mozzarella cheese, grated
                         it-IT: Firm mozzarella cheese, grated
                 - _id: 7ec8d954-de62-4f5c-b14e-656da545fb71
                   type: recipeIngredient
@@ -669,6 +2154,9 @@ entry:
                         de-DE: >-
                           Fresh soft mozzarella cheese, separated into small
                           clumps
+                        en-US: >-
+                          Fresh soft mozzarella cheese, separated into small
+                          clumps
                         it-IT: >-
                           Fresh soft mozzarella cheese, separated into small
                           clumps
@@ -680,6 +2168,7 @@ entry:
                       locales:
                         da-DK: Parmesan cheese, grated
                         de-DE: Parmesan cheese, grated
+                        en-US: Parmesan cheese, grated
                         it-IT: Parmesan cheese, grated
                 - _id: 1bc19fb3-91a3-4797-bb39-058e303e57b9
                   type: recipeIngredient
@@ -693,6 +2182,9 @@ entry:
                         de-DE: >-
                           Bell peppers, stems and seeds removed, very thinly
                           sliced
+                        en-US: >-
+                          Bell peppers, stems and seeds removed, very thinly
+                          sliced
                         it-IT: >-
                           Bell peppers, stems and seeds removed, very thinly
                           sliced
@@ -704,6 +2196,7 @@ entry:
                       locales:
                         da-DK: Italian pepperoncini, thinly sliced
                         de-DE: Italian pepperoncini, thinly sliced
+                        en-US: Italian pepperoncini, thinly sliced
                         it-IT: Italian pepperoncini, thinly sliced
                 - _id: d9b21258-ecbb-48ce-9df5-d31311e53e1e
                   type: recipeIngredient
@@ -713,6 +2206,7 @@ entry:
                       locales:
                         da-DK: Italian sausage, cooked ahead and crumbled
                         de-DE: Italian sausage, cooked ahead and crumbled
+                        en-US: Italian sausage, cooked ahead and crumbled
                         it-IT: Italian sausage, cooked ahead and crumbled
                 - _id: c1524739-f309-4e07-9a47-59714e4fd491
                   type: recipeIngredient
@@ -722,6 +2216,7 @@ entry:
                       locales:
                         da-DK: Chopped fresh basil
                         de-DE: Chopped fresh basil
+                        en-US: Chopped fresh basil
                         it-IT: Chopped fresh basil
                 - _id: 8666a7c1-e61f-4127-816e-ed056f3e5a73
                   type: recipeIngredient
@@ -731,6 +2226,7 @@ entry:
                       locales:
                         da-DK: Pepperoni, thinly sliced
                         de-DE: Pepperoni, thinly sliced
+                        en-US: Pepperoni, thinly sliced
                         it-IT: Pepperoni, thinly sliced
                 - _id: 52592a2d-caba-425f-85b9-a7e6e96b82ea
                   type: recipeIngredient
@@ -740,6 +2236,7 @@ entry:
                       locales:
                         da-DK: Onions, thinly sliced raw or caramelized
                         de-DE: Onions, thinly sliced raw or caramelized
+                        en-US: Onions, thinly sliced raw or caramelized
                         it-IT: Onions, thinly sliced raw or caramelized
     publishDate:
       type: date
@@ -767,6 +2264,7 @@ entry:
               locales:
                 da-DK: Making the Pizza Dough
                 de-DE: Making the Pizza Dough
+                en-US: Making the Pizza Dough
                 it-IT: Making the Pizza Dough
             steps:
               type: $block
@@ -779,6 +2277,7 @@ entry:
                       locales:
                         da-DK: 'Proof the yeast:'
                         de-DE: 'Proof the yeast:'
+                        en-US: 'Proof the yeast:'
                         it-IT: 'Proof the yeast:'
                     images:
                       type: asset
@@ -906,6 +2405,66 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place the warm water in the large bowl of
+                                      a heavy duty stand mixer. Sprinkle the
+                                      yeast over the warm water and let it sit
+                                      for 5 minutes until the yeast is
+                                      dissolved.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      After 5 minutes stir if the yeast hasn't
+                                      dissolved completely. The yeast should
+                                      begin to foam or bloom, indicating that
+                                      the yeast is still active and alive.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      (Note that if you are using "instant
+                                      yeast" instead of "active yeast", no
+                                      proofing is required. Just add to the
+                                      flour in the next step.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -974,6 +2533,7 @@ entry:
                       locales:
                         da-DK: Make and knead the pizza dough
                         de-DE: Make and knead the pizza dough
+                        en-US: Make and knead the pizza dough
                         it-IT: Make and knead the pizza dough
                     images:
                       type: asset
@@ -1159,6 +2719,80 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Add the flour, salt, sugar, and olive oil,
+                                      and using the mixing paddle attachment,
+                                      mix on low speed for a minute. Then
+                                      replace the mixing paddle with the dough
+                                      hook attachment.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Knead the pizza dough on low to medium
+                                      speed using the dough hook about 7-10
+                                      minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If you don't have a mixer, you can mix the
+                                      ingredients together and knead them by
+                                      hand.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      The dough should be a little sticky, or
+                                      tacky to the touch. If it's too wet,
+                                      sprinkle in a little more flour.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -1241,6 +2875,7 @@ entry:
                       locales:
                         da-DK: 'Let the dough rise:'
                         de-DE: 'Let the dough rise:'
+                        en-US: 'Let the dough rise:'
                         it-IT: 'Let the dough rise:'
                     images:
                       type: asset
@@ -1492,6 +3127,113 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spread a thin layer of olive oil over the
+                                      inside of a large bowl. Place the pizza
+                                      dough in the bowl and turn it around so
+                                      that it gets coated with the oil.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      At this point you can choose how long you
+                                      want the dough to ferment and rise. A slow
+                                      fermentation (24 hours in the fridge) will
+                                      result in more complex flavors in the
+                                      dough. A quick fermentation (1 1/2 hours
+                                      in a warm place) will allow the dough to
+                                      rise sufficiently to work with.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Cover the dough with plastic wrap.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      For a quick rise, place the dough in a
+                                      warm place (75°F to 85°F) for 1 1/2 hours.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      For a medium rise, place the dough in a
+                                      regular room temperature place (your
+                                      kitchen counter will do fine) for 8 hours.
+                                      For a longer rise, chill the dough in the
+                                      refrigerator for 24 hours (no more than 48
+                                      hours).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      The longer the rise (to a point) the
+                                      better the flavor the crust will have.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -1607,6 +3349,7 @@ entry:
               locales:
                 da-DK: Preparing the Pizzas
                 de-DE: Preparing the Pizzas
+                en-US: Preparing the Pizzas
                 it-IT: Preparing the Pizzas
             steps:
               type: $block
@@ -1621,6 +3364,9 @@ entry:
                           Preheat the pizza stone (or pizza pan or baking
                           sheet):
                         de-DE: >-
+                          Preheat the pizza stone (or pizza pan or baking
+                          sheet):
+                        en-US: >-
                           Preheat the pizza stone (or pizza pan or baking
                           sheet):
                         it-IT: >-
@@ -1685,6 +3431,34 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Place a pizza stone on a rack in the lower
+                                      third of your oven. Preheat the oven to
+                                      475°F for at least 30 minutes, preferably
+                                      an hour. If you don't have a pizza stone,
+                                      you can use a pizza pan or a thick baking
+                                      sheet; you need something that will not
+                                      warp at high temperatures.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -1721,6 +3495,7 @@ entry:
                       locales:
                         da-DK: 'Divide the dough into 2 balls:'
                         de-DE: 'Divide the dough into 2 balls:'
+                        en-US: 'Divide the dough into 2 balls:'
                         it-IT: 'Divide the dough into 2 balls:'
                     images:
                       type: asset
@@ -1840,6 +3615,47 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Remove the plastic cover from the dough.
+                                      Dust your hands with flour and push the
+                                      dough down so it deflates a bit. Divide
+                                      the dough in half.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Form 2 round balls of dough. Place each in
+                                      its own bowl, cover with plastic and let
+                                      sit for 15 minutes (or up to 2 hours).
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -1889,6 +3705,7 @@ entry:
                       locales:
                         da-DK: 'Prep the toppings:'
                         de-DE: 'Prep the toppings:'
+                        en-US: 'Prep the toppings:'
                         it-IT: 'Prep the toppings:'
                     description:
                       type: richText
@@ -1936,6 +3753,48 @@ entry:
                                 direction: ltr
                             direction: ltr
                         de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Prepare your desired toppings. Note that
+                                      you are not going to want to load up each
+                                      pizza with a lot of toppings as the crust
+                                      will end up not crisp that way.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      About a third a cup each of tomato sauce
+                                      and cheese would be sufficient for one
+                                      pizza. One to two mushrooms thinly sliced
+                                      will cover a pizza.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
                           root:
                             type: root
                             format: ''
@@ -2027,6 +3886,7 @@ entry:
                       locales:
                         da-DK: 'Flatten the dough ball, and stretch out into a round:'
                         de-DE: 'Flatten the dough ball, and stretch out into a round:'
+                        en-US: 'Flatten the dough ball, and stretch out into a round:'
                         it-IT: 'Flatten the dough ball, and stretch out into a round:'
                     images:
                       type: asset
@@ -2334,6 +4194,126 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Working one ball of dough at a time, take
+                                      one ball of dough and flatten it with your
+                                      hands on a lightly floured work surface.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Starting at the center and working
+                                      outwards, use your fingertips to press the
+                                      dough to 1/2-inch thick. Turn and stretch
+                                      the dough until it will not stretch
+                                      further.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Let the dough relax 5 minutes and then
+                                      continue to stretch it until it reaches
+                                      the desired diameter—10 to 12 inches.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Treat the dough gently!
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      You can also hold up the edges of the
+                                      dough with your fingers, letting the dough
+                                      hang and stretch, while working around the
+                                      edges of the dough.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If a hole appears in your dough, place the
+                                      dough on a floured surface and push the
+                                      dough back together to seal the hole.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Use your palm to flatten the edge of the
+                                      dough where it is thicker. Pinch the edges
+                                      if you want to form a lip.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -2462,6 +4442,7 @@ entry:
                       locales:
                         da-DK: 'Brush the dough top with olive oil:'
                         de-DE: 'Brush the dough top with olive oil:'
+                        en-US: 'Brush the dough top with olive oil:'
                         it-IT: 'Brush the dough top with olive oil:'
                     description:
                       type: richText
@@ -2507,6 +4488,46 @@ entry:
                                 direction: ltr
                             direction: ltr
                         de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Use your fingertips to press down and make
+                                      dents along the surface of the dough to
+                                      prevent bubbling. Brush the top of the
+                                      dough with olive oil (to prevent it from
+                                      getting soggy from the toppings). Let rest
+                                      another 10 to 15 minutes.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: Repeat with the second ball of dough.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
                           root:
                             type: root
                             format: ''
@@ -2596,6 +4617,9 @@ entry:
                           Sprinkle the pizza peel with cornmeal, put flattened
                           dough on top:
                         de-DE: >-
+                          Sprinkle the pizza peel with cornmeal, put flattened
+                          dough on top:
+                        en-US: >-
                           Sprinkle the pizza peel with cornmeal, put flattened
                           dough on top:
                         it-IT: >-
@@ -2751,6 +4775,63 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Lightly sprinkle your pizza peel (or flat
+                                      baking sheet) with cornmeal. (The corn
+                                      meal will act as little ball bearings to
+                                      help move the pizza from the pizza peel
+                                      into the oven.)
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Transfer one prepared flattened dough to
+                                      the pizza peel.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      If the dough has lost its shape in the
+                                      transfer, lightly shape it to the desired
+                                      dimensions.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -2816,6 +4897,7 @@ entry:
                       locales:
                         da-DK: 'Spread with tomato sauce and sprinkle with toppings:'
                         de-DE: 'Spread with tomato sauce and sprinkle with toppings:'
+                        en-US: 'Spread with tomato sauce and sprinkle with toppings:'
                         it-IT: 'Spread with tomato sauce and sprinkle with toppings:'
                     images:
                       type: asset
@@ -2905,6 +4987,32 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Spoon on the tomato sauce, sprinkle with
+                                      cheese, and place your desired toppings on
+                                      the pizza. Be careful not to overload the
+                                      pizza with too many toppings, or your
+                                      pizza will be soggy.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -2939,6 +5047,7 @@ entry:
                       locales:
                         da-DK: 'Slide pizza into the oven:'
                         de-DE: 'Slide pizza into the oven:'
+                        en-US: 'Slide pizza into the oven:'
                         it-IT: 'Slide pizza into the oven:'
                     images:
                       type: asset
@@ -3060,6 +5169,48 @@ entry:
                                     version: 1
                                 direction: ltr
                             direction: ltr
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Sprinkle some cornmeal on the baking stone
+                                      in the oven (watch your hands, the oven is
+                                      hot!). Gently shake the peel to see if the
+                                      dough will easily slide, if not, gently
+                                      lift up the edges of the pizza and add a
+                                      bit more cornmeal.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Slide the pizza off of the peel and onto
+                                      the baking stone in the oven.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
                         it-IT:
                           root:
                             type: root
@@ -3110,6 +5261,7 @@ entry:
                       locales:
                         da-DK: 'Bake:'
                         de-DE: 'Bake:'
+                        en-US: 'Bake:'
                         it-IT: 'Bake:'
                     description:
                       type: richText
@@ -3142,6 +5294,33 @@ entry:
                                 direction: ltr
                             direction: ltr
                         de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - mode: normal
+                                    text: >-
+                                      Bake pizza in the 475°F oven, one at a
+                                      time, until the crust is browned and the
+                                      cheese is golden, about 10 to 15 minutes.
+                                      If you want, toward the end of the cooking
+                                      time you can sprinkle on a little more
+                                      cheese.
+                                    type: text
+                                    style: ''
+                                    detail: 0
+                                    format: 0
+                                    version: 1
+                                direction: ltr
+                            direction: ltr
+                        en-US:
                           root:
                             type: root
                             format: ''
@@ -3342,3 +5521,4 @@ entry:
     - de-DE
     - it-IT
     - da-DK
+    - en-US

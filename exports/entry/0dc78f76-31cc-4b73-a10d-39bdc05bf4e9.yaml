@@ -1,0 +1,27 @@
+created: '2024-08-08T08:28:43.027643+00:00'
+modified: '2024-08-08T08:29:43.062736+00:00'
+pattern: false
+entry:
+  _id: 0dc78f76-31cc-4b73-a10d-39bdc05bf4e9
+  _name: Richard Bausek
+  _slug: richard-bausek
+  type: person
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Richard Bausek
+    jobTitle:
+      type: text
+      locales:
+        en-US: Director of Product Management
+    worksFor:
+      type: contentReference
+      value: ${#jptr:/ref-0dc78f76-31cc-4b73-a10d-39bdc05bf4e9-worksFor/entries/0}
+  _dataResources:
+    ref-0dc78f76-31cc-4b73-a10d-39bdc05bf4e9-worksFor:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ded160f6-dfef-436c-97ab-c9e566ad2d8b
+  _locales:
+    - en-US

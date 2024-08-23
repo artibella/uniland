@@ -1,5 +1,5 @@
 created: '2024-07-30T17:04:01.641606+00:00'
-modified: '2024-07-30T17:05:48.296979+00:00'
+modified: '2024-08-02T17:30:39.993744+00:00'
 pattern: false
 entry:
   _id: 4af8a2c4-ba9d-4966-bfee-442dd9e00d19
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: high-top-sneakers
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

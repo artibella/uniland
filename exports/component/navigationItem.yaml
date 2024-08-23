@@ -7,13 +7,11 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: true
   - id: url
     name: URL
     type: text
-    helpText: ''
     typeConfig:
       required: true
   - id: link

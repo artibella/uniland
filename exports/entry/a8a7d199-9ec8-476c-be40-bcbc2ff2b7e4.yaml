@@ -1,5 +1,5 @@
 created: '2023-06-30T14:51:39.39133+00:00'
-modified: '2024-07-01T15:57:40.780571+00:00'
+modified: '2024-08-09T12:43:45.19053+00:00'
 pattern: false
 entry:
   _id: a8a7d199-9ec8-476c-be40-bcbc2ff2b7e4
@@ -7,10 +7,11 @@ entry:
   _slug: vercel-webinar-living-on-the-edge
   type: event
   fields:
-    image:
-      type: image
-      value: >-
-        https://media.licdn.com/dms/image/D4E1EAQFGxsad8M1CSw/event-background-image-crop_720_1280/0/1686912915865?e=1688742000&v=beta&t=ouv4uiQ3rlvTfvvNbo4RTMXkjz7ve6p3dmBMSz_Fn34
+    end:
+      type: datetime
+      value:
+        datetime: '2023-06-23T16:00:00.000Z'
+        timeZone: Europe/Vienna
     start:
       type: datetime
       value:

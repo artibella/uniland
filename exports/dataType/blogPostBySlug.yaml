@@ -4,6 +4,7 @@ ttl: 30
 body: ''
 path: /single-by-slug
 custom:
+  maxDepth: 3
   proposedName: Blog Post
   allowedContentTypes:
     - blogPost

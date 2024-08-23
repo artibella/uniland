@@ -7,7 +7,6 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig:
       required: true
 useTeamPermissions: true

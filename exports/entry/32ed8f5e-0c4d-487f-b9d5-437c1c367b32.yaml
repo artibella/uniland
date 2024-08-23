@@ -1,0 +1,33 @@
+created: '2024-08-13T11:27:23.777786+00:00'
+modified: '2024-08-13T11:28:19.138099+00:00'
+pattern: false
+entry:
+  _id: 32ed8f5e-0c4d-487f-b9d5-437c1c367b32
+  _name: onion
+  _slug: onion
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1524593564501-fd747698ddf7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: onion
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 3bc20ecf-8c88-45ce-8ecc-fceb9c94d9a1
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1524593564501-fd747698ddf7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            _source: custom-url
+    namePlural:
+      type: text
+      locales:
+        en-US: onions
+  _locales:
+    - en-US

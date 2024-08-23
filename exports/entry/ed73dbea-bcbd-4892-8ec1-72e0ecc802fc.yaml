@@ -1,5 +1,5 @@
 created: '2024-07-30T17:07:03.990416+00:00'
-modified: '2024-07-30T17:07:19.574246+00:00'
+modified: '2024-08-07T17:11:47.205848+00:00'
 pattern: false
 entry:
   _id: ed73dbea-bcbd-4892-8ec1-72e0ecc802fc
@@ -11,9 +11,18 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: frontpack
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
+  _overrides:
+    ed73dbea-bcbd-4892-8ec1-72e0ecc802fc:
+      parameters:
+        name:
+          type: text
+          locales:
+            en-US: ${#jptr:/Product/data/product/title}
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

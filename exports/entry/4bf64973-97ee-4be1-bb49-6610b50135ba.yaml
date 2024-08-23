@@ -1,0 +1,15 @@
+created: '2024-08-07T12:21:41.398284+00:00'
+modified: '2024-08-07T12:22:12.90899+00:00'
+pattern: false
+entry:
+  _id: 4bf64973-97ee-4be1-bb49-6610b50135ba
+  _name: Headless CMS
+  _slug: headless-cms
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Headless CMS
+  _locales:
+    - en-US

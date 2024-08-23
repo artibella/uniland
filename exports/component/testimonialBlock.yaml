@@ -7,7 +7,6 @@ parameters:
   - id: title
     name: Title
     type: text
-    helpText: ''
     typeConfig: null
     localizable: true
   - id: sources
@@ -22,7 +21,6 @@ parameters:
   - id: testimonial
     name: Testimonial
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:

@@ -1,0 +1,15 @@
+created: '2024-08-13T15:06:13.400338+00:00'
+modified: '2024-08-13T15:06:35.222406+00:00'
+pattern: false
+entry:
+  _id: b45b2ee2-3f4d-4f22-8825-da2300b4546d
+  _name: All year
+  _slug: all-year
+  type: season
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: All year
+  _locales:
+    - en-US

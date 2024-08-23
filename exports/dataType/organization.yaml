@@ -1,7 +1,10 @@
 id: organization
 displayName: Organization
+ttl: 30
+body: ''
 path: /single
 custom:
+  maxDepth: 2
   allowedContentTypes:
     - organization
 method: GET

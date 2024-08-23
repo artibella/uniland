@@ -1,0 +1,78 @@
+id: review
+name: Review
+created: '2024-08-13T13:44:49.948389+00:00'
+updated: '2024-08-13T13:44:49.948389+00:00'
+slugSettings: {}
+useTeamPermissions: true
+fields:
+  - id: name
+    name: Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: reviewedProduct
+    name: Reviewed Product
+    type: contentReference
+    helpText: ''
+    typeConfig:
+      allowedContentTypes:
+        - product
+    localizable: false
+  - id: reviewerName
+    name: Reviewer Name
+    type: text
+    helpText: ''
+    typeConfig: null
+    localizable: true
+  - id: quote
+    name: Quote
+    type: richText
+    helpText: ''
+    typeConfig:
+      elements:
+        builtIn:
+          - h1
+          - h2
+          - h3
+          - h4
+          - h5
+          - h6
+          - unorderedList
+          - orderedList
+          - link
+          - quote
+          - code
+          - variable
+      required: false
+      formatting:
+        builtIn:
+          - bold
+          - italic
+          - underline
+          - strikethrough
+          - code
+          - superscript
+          - subscript
+    localizable: true
+  - id: review
+    name: Review
+    type: text
+    helpText: ''
+    typeConfig:
+      multiline: true
+      linesCount: 10
+    localizable: true
+  - id: rating
+    name: Rating
+    type: number
+    helpText: ''
+    typeConfig:
+      max: '5'
+      min: '1'
+    localizable: false
+entryName: name
+description: ''
+icon: voicemail-o
+type: contentType
+permissions: []

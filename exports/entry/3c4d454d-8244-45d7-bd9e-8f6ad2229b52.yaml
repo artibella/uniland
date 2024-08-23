@@ -1,0 +1,15 @@
+created: '2024-08-07T12:18:59.605489+00:00'
+modified: '2024-08-07T12:56:28.029405+00:00'
+pattern: false
+entry:
+  _id: 3c4d454d-8244-45d7-bd9e-8f6ad2229b52
+  _name: Personalization
+  _slug: personalization
+  type: blogCategory
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Personalization
+  _locales:
+    - en-US

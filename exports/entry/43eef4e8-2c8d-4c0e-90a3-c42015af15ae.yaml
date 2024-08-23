@@ -5,8 +5,6 @@ entry:
   _id: 43eef4e8-2c8d-4c0e-90a3-c42015af15ae
   _name: Baking
   _slug: baking
-  _thumbnail: >-
-    https://images.unsplash.com/photo-1532499016263-f2c3e89de9cd?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
   type: cookingMethod
   fields:
     name:

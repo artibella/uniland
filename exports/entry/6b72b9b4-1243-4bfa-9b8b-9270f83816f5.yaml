@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:19.500519+00:00'
-modified: '2024-04-03T20:04:44.954244+00:00'
+modified: '2024-07-31T15:37:25.568602+00:00'
 pattern: false
 entry:
   _id: 6b72b9b4-1243-4bfa-9b8b-9270f83816f5
@@ -14,6 +14,12 @@ entry:
       locales:
         en-US: 'Spaghetti Puttanesca (Spaghetti With Capers, Olives, and Anchovies) '
         it-IT: Spaghetti Puttanesca
+    seasons:
+      type: contentReference
+      value: ${#jptr:/ref-6b72b9b4-1243-4bfa-9b8b-9270f83816f5-seasons/entries}
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-6b72b9b4-1243-4bfa-9b8b-9270f83816f5-cuisines/entries}
     subtitle:
       type: text
       locales:
@@ -569,6 +575,25 @@ entry:
               value: >-
                 https://www.seriouseats.com/thmb/W1MmsWrnzfNha5fbhnA6z5-NzYE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__images__2016__02__20160221-puttanesca-pasta-week-23-79f83e0ada164858800aa5e175fb90a7.jpg
           _source: custom-url
+    cookingMethods:
+      type: contentReference
+      value: >-
+        ${#jptr:/ref-6b72b9b4-1243-4bfa-9b8b-9270f83816f5-cookingMethods/entries}
+  _dataResources:
+    ref-6b72b9b4-1243-4bfa-9b8b-9270f83816f5-seasons:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          79a002a3-7991-4e42-8003-a4c5d22f14a3,17192f38-cf77-461f-bb4e-f45a5cce7ca9,0aea1583-2f31-44c8-a5a1-114961bf6f29,09d54f99-500b-434c-afbd-c555772d9b3a
+    ref-6b72b9b4-1243-4bfa-9b8b-9270f83816f5-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
+    ref-6b72b9b4-1243-4bfa-9b8b-9270f83816f5-cookingMethods:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          bd31bf94-be30-46fd-a3cf-4bfd0a84fcb0,b49fa78a-27fd-407f-8f94-840cfea2b064
   _locales:
     - en-US
     - it-IT

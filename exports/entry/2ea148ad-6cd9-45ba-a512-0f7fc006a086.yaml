@@ -1,5 +1,5 @@
 created: '2024-07-30T17:16:26.793828+00:00'
-modified: '2024-07-30T17:16:37.8528+00:00'
+modified: '2024-08-02T19:23:41.850093+00:00'
 pattern: false
 entry:
   _id: 2ea148ad-6cd9-45ba-a512-0f7fc006a086
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: leggings
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

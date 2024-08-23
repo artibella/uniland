@@ -1,5 +1,5 @@
 created: '2024-07-30T17:11:20.753866+00:00'
-modified: '2024-07-30T17:11:34.373405+00:00'
+modified: '2024-08-02T19:24:29.219159+00:00'
 pattern: false
 entry:
   _id: f8963523-81ab-43a2-a536-e029d23204e2
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: gray-leather-sneakers
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c

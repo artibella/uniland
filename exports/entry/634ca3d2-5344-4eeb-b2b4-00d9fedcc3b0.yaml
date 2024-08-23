@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:18.154412+00:00'
-modified: '2024-04-03T19:40:19.147447+00:00'
+modified: '2024-08-02T19:20:03.601995+00:00'
 pattern: false
 entry:
   _id: 634ca3d2-5344-4eeb-b2b4-00d9fedcc3b0
@@ -11,9 +11,11 @@ entry:
   fields: {}
   _dataResources:
     Product:
-      type: productByHandle
+      type: mockshopProductQuery
       variables:
         handle: slides
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
   _locales:
     - en-US
   _pattern: d8d95a48-8853-40fa-a102-318c496e9c1c
