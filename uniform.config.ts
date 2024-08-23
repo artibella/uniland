@@ -9,6 +9,7 @@ const config: CLIConfiguration = {
       componentPattern: { publish: true },
       entryPattern: { publish: true },
       composition: { publish: true },
+      compositionPattern: { publish: true },
       dataType: {},
       projectMapDefinition: {},
       projectMapNode: {},
