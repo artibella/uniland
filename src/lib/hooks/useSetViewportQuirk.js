@@ -7,8 +7,8 @@ import { useEffect } from 'react';
  */
 
 const BREAKPOINTS = {
-  mobile: 512,
-  tablet: 768,
+  mobile: 640,
+  tablet: 1024,
 };
 
 export function useSetViewportQuirk() {

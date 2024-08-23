@@ -1,16 +1,24 @@
-import classNames from "classnames";
+import classNames from 'classnames';
 
-export default function Grid({ columns = 2, children }) {
+export default function Grid({ columns = 1, isResponsive = true, children }) {
   const gridClasses = classNames(
-    'grid-content', 'md:grid', 'md:grid-gap-4', 'md:grid-cols-2', 'gap-4', 
-    {[`lg:grid-cols-${columns}`] : true}
+    'grid-content',
+    'grid',
+    'md:grid-gap-4',
+    'gap-4',
+    { [`grid-cols-${columns}`]: isResponsive === false }
   );
 
+  const responsiveClasses = classNames(
+    { [`lg:grid-cols-${columns}`]: isResponsive === true },
+    { 'md:grid-cols-2': isResponsive === true }
+  );
+
+  const containerClasses = classNames(gridClasses, responsiveClasses);
+
   return (
-    <div className='grid-container'>
-      <div className={gridClasses}>
-        {children}
-      </div>
+    <div className="grid-container">
+      <div className={containerClasses}>{children}</div>
     </div>
-  )
+  );
 }
