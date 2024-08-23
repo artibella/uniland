@@ -3,6 +3,7 @@ import slugify from 'slugify';
 import Heading from './Heading';
 import Markdown from 'react-markdown';
 import { UniformRichText } from '@uniformdev/canvas-next';
+import { isRichTextValueConsideredEmpty } from '@uniformdev/richtext';
 
 export default function TextBlock({
   title = '',
@@ -13,6 +14,7 @@ export default function TextBlock({
   theme = 'light',
 }) {
   const id = slugify(title);
+  const hasRichText = !isRichTextValueConsideredEmpty(richText);
 
   const blockClasses = classNames(
     'text-block',
@@ -38,7 +40,13 @@ export default function TextBlock({
         </div>
       )}
 
-      <UniformRichText className={bodyClasses} parameterId="richText" />
+      {hasRichText && (
+        <UniformRichText
+          className={bodyClasses}
+          parameterId="richText"
+          placeholder="Add text..."
+        />
+      )}
 
       {externalRichText && (
         <div
