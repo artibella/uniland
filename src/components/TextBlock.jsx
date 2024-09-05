@@ -2,8 +2,26 @@ import classNames from 'classnames';
 import slugify from 'slugify';
 import Heading from './Heading';
 import Markdown from 'react-markdown';
-import { UniformRichText } from '@uniformdev/canvas-next';
+import { UniformRichText, UniformRichTextNode } from '@uniformdev/canvas-next';
 import { isRichTextValueConsideredEmpty } from '@uniformdev/richtext';
+
+function TableCell({ node, children }) {
+  if (node.headerState === 1) {
+    return <th className="bg-gray-100 font-bold text-left">{children}</th>;
+  } else if (node.headerState === 2) {
+    return <th className="bg-gray-100 font-bold text-center">{children}</th>;
+  } else if (node.headerState === 3) {
+    return <th className="bg-gray-100 font-bold text-center">{children}</th>;
+  } else {
+    return <td>{children}</td>;
+  }
+}
+
+function richTextRenderer(node) {
+  if (node.type === 'tablecell') {
+    return TableCell;
+  }
+}
 
 export default function TextBlock({
   title = '',
@@ -45,6 +63,7 @@ export default function TextBlock({
           className={bodyClasses}
           parameterId="richText"
           placeholder="Add text..."
+          resolveRichTextRenderer={richTextRenderer}
         />
       )}
 
