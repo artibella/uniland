@@ -7,36 +7,9 @@ import {
   isRichTextValueConsideredEmpty,
   getRichTextTagFromTableCellHeaderState,
 } from '@uniformdev/richtext';
+import TableCell from '../lib/helpers/richtext/TableCell';
 
-function TableCell({ node, children }) {
-  const HeaderTag = getRichTextTagFromTableCellHeaderState(node.headerState);
-  if (node.headerState === 1) {
-    // row header
-    return (
-      <HeaderTag className="bg-gray-100 font-bold text-left">
-        {children}
-      </HeaderTag>
-    );
-  } else if (node.headerState === 2) {
-    // column header
-    return (
-      <HeaderTag className="bg-gray-100 font-bold text-center">
-        {children}
-      </HeaderTag>
-    );
-  } else if (node.headerState === 3) {
-    // row and column header
-    return (
-      <HeaderTag className="bg-gray-100 font-bold text-center">
-        {children}
-      </HeaderTag>
-    );
-  } else {
-    return <td>{children}</td>;
-  }
-}
-
-function richTextRenderer(node) {
+function resolveRichTextRenderer(node) {
   if (node.type === 'tablecell') {
     return TableCell;
   }
@@ -82,7 +55,7 @@ export default function TextBlock({
           className={bodyClasses}
           parameterId="richText"
           placeholder="Add text..."
-          resolveRichTextRenderer={richTextRenderer}
+          resolveRichTextRenderer={resolveRichTextRenderer}
         />
       )}
 
