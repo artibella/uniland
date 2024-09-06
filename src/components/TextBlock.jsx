@@ -3,10 +3,7 @@ import slugify from 'slugify';
 import Heading from './Heading';
 import Markdown from 'react-markdown';
 import { UniformRichText } from '@uniformdev/canvas-next';
-import {
-  isRichTextValueConsideredEmpty,
-  getRichTextTagFromTableCellHeaderState,
-} from '@uniformdev/richtext';
+import { isRichTextValueConsideredEmpty } from '@uniformdev/richtext';
 import TableCell from '../lib/helpers/richtext/TableCell';
 
 function resolveRichTextRenderer(node) {
