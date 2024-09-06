@@ -2,16 +2,35 @@ import classNames from 'classnames';
 import slugify from 'slugify';
 import Heading from './Heading';
 import Markdown from 'react-markdown';
-import { UniformRichText, UniformRichTextNode } from '@uniformdev/canvas-next';
-import { isRichTextValueConsideredEmpty } from '@uniformdev/richtext';
+import { UniformRichText } from '@uniformdev/canvas-next';
+import {
+  isRichTextValueConsideredEmpty,
+  getRichTextTagFromTableCellHeaderState,
+} from '@uniformdev/richtext';
 
 function TableCell({ node, children }) {
+  const HeaderTag = getRichTextTagFromTableCellHeaderState(node.headerState);
   if (node.headerState === 1) {
-    return <th className="bg-gray-100 font-bold text-left">{children}</th>;
+    // row header
+    return (
+      <HeaderTag className="bg-gray-100 font-bold text-left">
+        {children}
+      </HeaderTag>
+    );
   } else if (node.headerState === 2) {
-    return <th className="bg-gray-100 font-bold text-center">{children}</th>;
+    // column header
+    return (
+      <HeaderTag className="bg-gray-100 font-bold text-center">
+        {children}
+      </HeaderTag>
+    );
   } else if (node.headerState === 3) {
-    return <th className="bg-gray-100 font-bold text-center">{children}</th>;
+    // row and column header
+    return (
+      <HeaderTag className="bg-gray-100 font-bold text-center">
+        {children}
+      </HeaderTag>
+    );
   } else {
     return <td>{children}</td>;
   }
