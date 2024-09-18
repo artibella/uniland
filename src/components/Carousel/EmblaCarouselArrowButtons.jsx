@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import React, { useCallback, useEffect, useState } from 'react';
 
 export const usePrevNextButtons = (emblaApi, onButtonClick) => {
@@ -36,15 +37,20 @@ export const usePrevNextButtons = (emblaApi, onButtonClick) => {
   };
 };
 
+const buttonBaseClasses = classNames([
+  'embla__button',
+  'inline-flex items-center justify-center w-10 h-10 rounded-full bg-white text-gray-800 shadow-md hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-colors duration-200 ease-in-out',
+]);
+
 export const PrevButton = props => {
   const { children, ...restProps } = props;
+  const prevButtonClasses = classNames(
+    'embla__button--prev',
+    buttonBaseClasses
+  );
 
   return (
-    <button
-      className="embla__button embla__button--prev"
-      type="button"
-      {...restProps}
-    >
+    <button className={prevButtonClasses} type="button" {...restProps}>
       <svg className="embla__button__svg" viewBox="0 0 532 532">
         <path
           fill="currentColor"
@@ -58,13 +64,13 @@ export const PrevButton = props => {
 
 export const NextButton = props => {
   const { children, ...restProps } = props;
+  const nextButtonClasses = classNames(
+    'embla__button--next',
+    buttonBaseClasses
+  );
 
   return (
-    <button
-      className="embla__button embla__button--next"
-      type="button"
-      {...restProps}
-    >
+    <button className={nextButtonClasses} type="button" {...restProps}>
       <svg className="embla__button__svg" viewBox="0 0 532 532">
         <path
           fill="currentColor"
