@@ -1,5 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 
+import classNames from 'classnames';
+
 export const useDotButton = emblaApi => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [scrollSnaps, setScrollSnaps] = useState([]);
@@ -38,8 +40,13 @@ export const useDotButton = emblaApi => {
 export const DotButton = props => {
   const { children, ...restProps } = props;
 
+  const dotButtonClasses = classNames([
+    'embla__dot',
+    'inline-flex items-center justify-center w-5 h-5 rounded-full shadow-md', // base styles
+  ]);
+
   return (
-    <button type="button" {...restProps}>
+    <button type="button" className={dotButtonClasses} {...restProps}>
       {children}
     </button>
   );

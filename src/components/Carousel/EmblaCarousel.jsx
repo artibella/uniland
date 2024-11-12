@@ -1,4 +1,5 @@
 import React, { useCallback } from 'react';
+import classNames from 'classnames';
 import { DotButton, useDotButton } from './EmblaCarouselDotButton';
 import {
   PrevButton,
@@ -36,6 +37,11 @@ const EmblaCarousel = props => {
     onNextButtonClick,
   } = usePrevNextButtons(emblaApi, onNavButtonClick);
 
+  const dotContainerClasses = classNames([
+    'embla__dots',
+    'inline-flex items-center justify-center w-5 h-5 rounded-full shadow-md', // base styles
+  ]);
+
   return (
     <section className="embla">
       <div className="embla__viewport" ref={emblaRef}>
@@ -47,8 +53,8 @@ const EmblaCarousel = props => {
           <PrevButton onClick={onPrevButtonClick} disabled={prevBtnDisabled} />
           <NextButton onClick={onNextButtonClick} disabled={nextBtnDisabled} />
         </div>
-
-        <div className="embla__dots">
+        {/* 
+        <div className={dotContainerClasses}>
           {scrollSnaps.map((_, index) => (
             <DotButton
               key={index}
@@ -58,7 +64,7 @@ const EmblaCarousel = props => {
               )}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
