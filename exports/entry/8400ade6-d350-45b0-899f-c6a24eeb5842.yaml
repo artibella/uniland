@@ -1,0 +1,76 @@
+created: '2024-09-18T13:16:24.227854+00:00'
+modified: '2024-09-18T13:28:16.678595+00:00'
+pattern: false
+entry:
+  _id: 8400ade6-d350-45b0-899f-c6a24eeb5842
+  _name: Uniform meetup Berlin 2024
+  _slug: uniform-meetup-berlin-2024
+  _thumbnail: >-
+    https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/-JBOVDYdTUeaul4mCtvtxg-image.png
+  type: event
+  fields:
+    title:
+      type: text
+      value: Uniform meetup in Berlin
+    location:
+      type: text
+      value: Berlin
+    speakers:
+      type: contentReference
+      value: ${#jptr:/ref-8400ade6-d350-45b0-899f-c6a24eeb5842-speakers/entries}
+    eventType:
+      type: select
+      value: meetup
+    teaserText:
+      type: text
+      value: >-
+        Meet the Uniform community from Berlin and learn about exciting new
+        features
+    internalName:
+      type: text
+      value: Uniform meetup Berlin 2024
+    featuredImage:
+      type: asset
+      locales:
+        en-US:
+          - _id: 0c746c54-4d19-4695-891f-10046f7dbd4e
+            type: image
+            fields:
+              id:
+                type: text
+                value: 048a46f3-dfc5-427f-b54b-db5d9320c5bb
+              url:
+                value: >-
+                  https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/-JBOVDYdTUeaul4mCtvtxg-image.png
+                type: text
+              file:
+                type: file
+                value: b8ce96c0-59f6-4866-ac42-2a39e55113fa
+              size:
+                value: 5820
+                type: number
+              title:
+                type: text
+                value: Uniform logo
+              width:
+                value: 200
+                type: number
+              height:
+                value: 200
+                type: number
+              mediaType:
+                value: image/png
+                type: text
+            _source: uniform-assets
+    attendanceMode:
+      type: select
+      value: mixed
+  _dataResources:
+    ref-8400ade6-d350-45b0-899f-c6a24eeb5842-speakers:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          37ccdf41-8138-44ab-bdc4-58099af0984c,b6aa72ed-db8a-4676-b22b-87f0c4ad8d15
+  _locales:
+    - en-US

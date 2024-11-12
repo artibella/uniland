@@ -16,9 +16,18 @@ parameters:
     typeConfig: null
     localizable: true
     allowConditionalValues: true
-  - id: image
+  - id: cardImage
     name: Image
+    type: asset
+    typeConfig:
+      max: 1
+    localizable: true
+    notLocalizedByDefault: true
+    allowConditionalValues: true
+  - id: image
+    name: Image URL
     type: text
+    helpText: 'Deprecated: Use Image parameter instead'
     typeConfig: null
     localizable: true
     allowConditionalValues: true
@@ -40,6 +49,7 @@ slots:
       - callToAction
     inheritAllowedComponents: false
 titleParameter: title
+thumbnailParameter: cardImage
 canBeComposition: false
 created: '2022-12-15T14:08:27.014521+00:00'
-updated: '2024-08-22T08:39:46.230533+00:00'
+updated: '2024-11-12T10:33:47.025544+00:00'

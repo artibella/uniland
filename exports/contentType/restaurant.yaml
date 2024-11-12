@@ -1,7 +1,7 @@
 id: restaurant
 name: Restaurant
 created: '2023-11-01T11:00:22.94999+00:00'
-updated: '2023-12-12T13:37:32.43331+00:00'
+updated: '2024-09-09T14:37:53.652678+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -52,6 +52,13 @@ fields:
           - code
           - superscript
           - subscript
+  - id: cuisines
+    name: Cuisines
+    type: contentReference
+    typeConfig:
+      isMulti: true
+      allowedContentTypes:
+        - cuisine
   - id: group_address
     name: Address
     type: group
@@ -111,6 +118,24 @@ fields:
     typeConfig:
       allowedTypes:
         - logo
+  - id: famousRecipe
+    name: Famous recipe
+    type: contentReference
+    typeConfig:
+      isMulti: false
+      required: false
+      allowedContentTypes:
+        - recipe
+    localizable: true
+  - id: diets
+    name: Diets
+    type: contentReference
+    helpText: This restaurant serves dishes that respect following diets
+    typeConfig:
+      min: 0
+      isMulti: true
+      allowedContentTypes:
+        - diet
 entryName: name
 description: ''
 icon: pin

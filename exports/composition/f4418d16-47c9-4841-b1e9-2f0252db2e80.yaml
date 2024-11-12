@@ -1,0 +1,1988 @@
+composition:
+  _name: Rich text playground
+  _id: f4418d16-47c9-4841-b1e9-2f0252db2e80
+  _slug: rich-text-playground
+  type: page
+  slots:
+    sections:
+      - _id: e12868d0-9fff-41ec-bd15-f3bf38e9abc5
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 144cb4ce-52ca-41d0-bb34-a0f4f2190e39
+              type: textBlock
+              parameters:
+                richText:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h2
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: This is a table example
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children: []
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
+      - _id: b7298fae-dbe5-46f0-9247-743588ca36ec
+        type: sectionContainer
+        slots:
+          content:
+            - _id: e9fc2405-e9e9-47a1-b03a-2de221e72559
+              type: textBlock
+              parameters:
+                richText:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h3
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Taxfix table
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: table
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuerjahr
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 1
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Verjährungsfrist für die Steuererklärung
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 1
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Verjährungsfrist für den Verlustvortrag
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 1
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2017
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Abgelaufen
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2024
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2018
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2022
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2025
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2019
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2023
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2026
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2020
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2024
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2027
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2021
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2025
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2028
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2022
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2026
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2029
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                              - type: tablerow
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    width: 305
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Steuererklärung 2023
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 274
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2027
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    width: 401
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 31.12.2030
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: ltr
+                            direction: ltr
+                        direction: ltr
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              explicitlyHidden: true
+      - _id: b632c564-0d7e-4b46-b1a5-30eff29fc6cd
+        type: sectionContainer
+        slots:
+          content:
+            - _id: a8951779-e892-455b-8e51-04df30f7f4c3
+              type: textBlock
+              parameters:
+                richText:
+                  type: richText
+                  locales:
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - tag: h3
+                            type: heading
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: Sizing table
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children: []
+                            direction: null
+                            textStyle: ''
+                            textFormat: 0
+                          - type: table
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children: []
+                                        direction: null
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 3
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Chest
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 1
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Hips
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 1
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: Arm Length
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 1
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: S
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 36-38 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 35-37 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 33.5 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: M
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 39-41 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 38-40 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 34.0 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: L
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 42-44 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 41-43 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 34.8 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: XL
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 45-48 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 44-46 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 35.5 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 2XL
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 49-52 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 47-49 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 36.3 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 3XL
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 53-56 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 50-52 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 37.0 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 2X
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 50-52 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 50.5-52.5 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 35-36 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 3X
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 54-56 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 54.5-56.5 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 35.75-36.75 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 4X
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 58-60 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 58.5-60.5 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 36.25-37.25 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                              - type: tablerow
+                                format: ''
+                                height: 21
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 5X
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 2
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 62-64 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 62.5-64.5 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                  - type: tablecell
+                                    format: ''
+                                    indent: 0
+                                    colSpan: 1
+                                    rowSpan: 1
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 36.75-37.75 in
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: null
+                                    headerState: 0
+                                    backgroundColor: null
+                                direction: null
+                            direction: null
+                        direction: ltr
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              explicitlyHidden: true
+  _locales:
+    - en-US
+created: '2024-09-04T16:47:24.047545+00:00'
+modified: '2024-09-05T18:12:45.864335+00:00'
+pattern: false

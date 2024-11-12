@@ -1,0 +1,10 @@
+id: 701fef38-fd94-4e99-b81a-0f56fd1246eb
+name: Cuisine
+order: 500
+path: /:locale/demos/recipes/:cuisine
+type: composition
+pathSegment: ':cuisine'
+data:
+  previewValue: italian
+compositionId: c92d4b6f-947e-420e-b8e3-c74fa718ac50
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

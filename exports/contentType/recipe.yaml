@@ -1,7 +1,7 @@
 id: recipe
 name: Recipe
 created: '2023-10-11T11:33:51.958828+00:00'
-updated: '2024-08-09T12:13:24.020008+00:00'
+updated: '2024-09-06T11:32:00.935854+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -57,7 +57,6 @@ fields:
   - id: description
     name: Description
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -73,6 +72,7 @@ fields:
           - quote
           - code
           - variable
+          - table
       required: false
       formatting:
         builtIn:
@@ -101,7 +101,6 @@ fields:
   - id: notes
     name: Notes
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -117,6 +116,7 @@ fields:
           - quote
           - code
           - variable
+          - table
       required: false
       formatting:
         builtIn:

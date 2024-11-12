@@ -1,0 +1,33 @@
+created: '2024-09-06T11:28:17.30112+00:00'
+modified: '2024-09-11T17:02:40.374306+00:00'
+pattern: false
+entry:
+  _id: 19677436-0aee-4bd3-88c3-866ca1244989
+  _name: rosemary
+  _slug: rosemary
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1523738914649-b0d2753887a1?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+  type: ingredient
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: rosemary
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 2a4ff895-dc8e-4e60-9614-2ddd7846cc86
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1523738914649-b0d2753887a1?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+            _source: custom-url
+    namePlural:
+      type: text
+      locales:
+        en-US: rosemary
+  _locales:
+    - en-US

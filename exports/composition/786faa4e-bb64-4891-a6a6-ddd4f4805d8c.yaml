@@ -19,7 +19,6 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Stop being blocked by your tech
                     en-US: Stop being blocked by your tech
                 tagName:
                   type: select
@@ -28,20 +27,19 @@ composition:
           body:
             type: text
             locales:
-              de-DE: |
-                Uniland is an example landing page built with Uniform.dev
               en-US: |
                 Uniland is an example landing page built with Uniform.dev
+          title:
+            type: text
+            locales:
+              en-US: Default
           imageFit:
             type: select
             locales:
-              de-DE: contain
               en-US: contain
           imageUrl:
             type: text
             locales:
-              de-DE: >-
-                https://images.ctfassets.net/9ku1oyd4k3wo/2HUzabTa59pnJ3MU5tokXg/dfe55a01f15e86c9c4e7b48c4caeb16f/Hero_Home_Hero_1.svg
               en-US: >-
                 https://images.ctfassets.net/9ku1oyd4k3wo/2HUzabTa59pnJ3MU5tokXg/dfe55a01f15e86c9c4e7b48c4caeb16f/Hero_Home_Hero_1.svg
     sections:
@@ -56,63 +54,12 @@ composition:
                   - _id: c8d29df6-44f5-44cf-bea1-5a1956d5c7f6
                     type: textBlock
                     parameters:
-                      title:
-                        type: text
-                        locales:
-                          de-DE: Learn and innovate—outpace your competition!
                       locale:
                         type: localeSelect
                         value: en-US
                       richText:
                         type: richText
                         locales:
-                          de-DE:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        When change happens and you need to add
-                                        new channels or features to meet it, you
-                                        can’t afford to be held back by tools or
-                                        begin a slow and expensive replatforming
-                                        process. 
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        With Uniform, you can add, remove, or
-                                        adapt services as necessary to innovate,
-                                        optimize, and stay ahead of the market
-                                        for the long term because there’s no
-                                        glue-code to take apart and rebuild
-                                        manually. Uniform Mesh configures every
-                                        integration so you’re never late to the
-                                        game.
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                              direction: ltr
                           en-US:
                             root:
                               type: root
@@ -138,6 +85,7 @@ composition:
                                       format: 0
                                       version: 1
                                   direction: ltr
+                                  textStyle: ''
                                 - type: paragraph
                                   format: ''
                                   indent: 0
@@ -159,6 +107,7 @@ composition:
                                       format: 0
                                       version: 1
                                   direction: ltr
+                                  textStyle: ''
                               direction: ltr
                 rightContent:
                   - _id: 71c0b166-4424-4ea0-bc15-0d3899e7eee7
@@ -196,6 +145,18 @@ composition:
                       imageFit:
                         type: select
                         value: cover
+                      imageWidth:
+                        type: select
+                        value: width-full
+                        conditions:
+                          - id: 0
+                            when:
+                              clauses:
+                                - op: is
+                                  rule: $qk
+                                  value: m
+                                  source: deviceType
+                            value: width-half
               parameters:
                 layout:
                   type: select
@@ -238,8 +199,7 @@ composition:
           theme:
             type: select
             locales:
-              de-DE: spring
-              en-US: mango
+              en-US: light
           title:
             type: text
             locales:
@@ -255,63 +215,12 @@ composition:
                   - _id: 3dde454b-412e-4d9e-92f0-68377817d33a
                     type: textBlock
                     parameters:
-                      title:
-                        type: text
-                        locales:
-                          de-DE: Learn and innovate—outpace your competition!
                       locale:
                         type: localeSelect
                         value: en-US
                       richText:
                         type: richText
                         locales:
-                          de-DE:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        When change happens and you need to add
-                                        new channels or features to meet it, you
-                                        can’t afford to be held back by tools or
-                                        begin a slow and expensive replatforming
-                                        process. 
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        With Uniform, you can add, remove, or
-                                        adapt services as necessary to innovate,
-                                        optimize, and stay ahead of the market
-                                        for the long term because there’s no
-                                        glue-code to take apart and rebuild
-                                        manually. Uniform Mesh configures every
-                                        integration so you’re never late to the
-                                        game.
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                              direction: ltr
                           en-US:
                             root:
                               type: root
@@ -350,6 +259,7 @@ composition:
                                       format: 0
                                       version: 1
                                   direction: ltr
+                                  textStyle: ''
                               direction: ltr
                 rightContent:
                   - _id: 4dd86207-cd53-4937-85ce-bc0c6631eee1
@@ -415,8 +325,7 @@ composition:
           theme:
             type: select
             locales:
-              de-DE: spring
-              en-US: mango
+              en-US: ice
       - _id: d35e7ff3-d7be-47c7-9c82-0dad741a8182
         type: sectionContainer
         slots:
@@ -460,49 +369,15 @@ composition:
                       body:
                         type: text
                         locales:
-                          de-DE: |+
-
                           en-US: |+
 
                       title:
                         type: text
                         locales:
-                          de-DE: Connect your design components
                           en-US: Connect your design components
                       richText:
                         type: richText
                         locales:
-                          de-DE:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >
-                                        Connecting front-end components and
-                                        variations to Uniform only takes
-                                        minutes, after which business users can
-                                        assemble digital experiences for any
-                                        channel without developer support -
-                                        either with an existing design system or
-                                        a new look. Just choose the components
-                                        that help tell your story, add the
-                                        content from a connected service, then
-                                        publish to any channel.
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                              direction: ltr
                           en-US:
                             root:
                               type: root
@@ -589,47 +464,10 @@ composition:
                       title:
                         type: text
                         locales:
-                          de-DE: Empower Marketers with Canvas
                           en-US: Empower Marketers with Canvas
                       richText:
                         type: richText
                         locales:
-                          de-DE:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        Headless tools make life slow and
-                                        complex for business users, who need to
-                                        jump between countless tools and tabs,
-                                        click through various levels of content,
-                                        and “publish and pray” without effective
-                                        previews. Uniform DXC eliminates these
-                                        daily stresses. Marketers,
-                                        merchandisers, and other business teams
-                                        can use Canvas to create immersive
-                                        experiences with no coding and instantly
-                                        preview their changes. That means
-                                        business teams can independently publish
-                                        without support from developers, who are
-                                        then free to focus on building new
-                                        features.
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                              direction: ltr
                           en-US:
                             root:
                               type: root
@@ -769,50 +607,10 @@ composition:
                       title:
                         type: text
                         locales:
-                          de-DE: Keep working your Core Web Vitals
                           en-US: Keep working your Core Web Vitals
                       richText:
                         type: richText
                         locales:
-                          de-DE:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        Search engines prioritize fast-loading
-                                        pages, penalizing poor performance with
-                                        lower rankings. Uniform can keep your
-                                        Core Web Vitals green by making it easy
-                                        to utilize the latest front-end
-                                        frameworks and cutting-edge CDN edge
-                                        integrations - including for A/B tests
-                                        and personalization deployed from
-                                        Canvas. This lets teams drive
-                                        conversions without impacting user
-                                        experience or undermining SEO
-                                        investments.
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children: []
-                                  direction: null
-                              direction: ltr
                           en-US:
                             root:
                               type: root
@@ -895,7 +693,6 @@ composition:
                             quote:
                               type: text
                               locales:
-                                de-DE: Nothing is certain except for death and taxes.
                                 en-US: Nothing is certain except for death and taxes.
                             theme:
                               type: select
@@ -903,18 +700,15 @@ composition:
                             author:
                               type: text
                               locales:
-                                de-DE: Benjamin Franklin
                                 en-US: Benjamin Franklin
                             source:
                               type: text
                               locales:
-                                de-DE: US Founding Father
                                 en-US: US Founding Father
                     parameters:
                       title:
                         type: text
                         locales:
-                          de-DE: Quote 1
                           en-US: Quote 1
                   - _id: 799a4b3b-17cf-4056-94dc-80a2e81c8f30
                     type: tabPanel
@@ -926,9 +720,6 @@ composition:
                             quote:
                               type: text
                               locales:
-                                de-DE: >-
-                                  One good thing about music, when it hits you,
-                                  you feel no pain.
                                 en-US: >-
                                   One good thing about music, when it hits you,
                                   you feel no pain.
@@ -938,18 +729,15 @@ composition:
                             author:
                               type: text
                               locales:
-                                de-DE: Bob Marley
                                 en-US: Bob Marley
                             source:
                               type: text
                               locales:
-                                de-DE: Babylon by bus
                                 en-US: Babylon by bus
                     parameters:
                       title:
                         type: text
                         locales:
-                          de-DE: Quote 2
                           en-US: Quote 2
                       isActive:
                         type: checkbox
@@ -964,50 +752,10 @@ composition:
                             title:
                               type: text
                               locales:
-                                de-DE: Keep working your Core Web Vitals
                                 en-US: Keep working your Core Web Vitals
                             richText:
                               type: richText
                               locales:
-                                de-DE:
-                                  root:
-                                    type: root
-                                    format: ''
-                                    indent: 0
-                                    version: 1
-                                    children:
-                                      - type: paragraph
-                                        format: ''
-                                        indent: 0
-                                        version: 1
-                                        children:
-                                          - mode: normal
-                                            text: >-
-                                              Search engines prioritize fast-loading
-                                              pages, penalizing poor performance with
-                                              lower rankings. Uniform can keep your
-                                              Core Web Vitals green by making it easy
-                                              to utilize the latest front-end
-                                              frameworks and cutting-edge CDN edge
-                                              integrations - including for A/B tests
-                                              and personalization deployed from
-                                              Canvas. This lets teams drive
-                                              conversions without impacting user
-                                              experience or undermining SEO
-                                              investments.
-                                            type: text
-                                            style: ''
-                                            detail: 0
-                                            format: 0
-                                            version: 1
-                                        direction: ltr
-                                      - type: paragraph
-                                        format: ''
-                                        indent: 0
-                                        version: 1
-                                        children: []
-                                        direction: null
-                                    direction: ltr
                                 en-US:
                                   root:
                                     type: root
@@ -1054,7 +802,6 @@ composition:
                       title:
                         type: text
                         locales:
-                          de-DE: Some text
                           en-US: Some text
           heading:
             - _id: 0c363e58-9571-40e9-9709-160676d84ae5
@@ -1063,7 +810,6 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Some quotes by some famous people
                     en-US: Some quotes by some famous people
                 tagName:
                   type: select
@@ -1072,7 +818,6 @@ composition:
           theme:
             type: select
             locales:
-              de-DE: spring
               en-US: spring
       - _id: 64044509-9a41-4fb0-b8dd-ab08bd706c89
         type: sectionContainer
@@ -1092,37 +837,6 @@ composition:
                             richText:
                               type: richText
                               locales:
-                                de-DE:
-                                  root:
-                                    type: root
-                                    format: ''
-                                    indent: 0
-                                    version: 1
-                                    children:
-                                      - type: paragraph
-                                        format: ''
-                                        indent: 0
-                                        version: 1
-                                        children:
-                                          - mode: normal
-                                            text: >-
-                                              Connecting front-end components and
-                                              variations to Uniform only takes
-                                              minutes, after which business users can
-                                              assemble digital experiences for any
-                                              channel without developer support -
-                                              either with an existing design system or
-                                              a new look. Just choose the components
-                                              that help tell your story, add the
-                                              content from a connected service, then
-                                              publish to any channel.
-                                            type: text
-                                            style: ''
-                                            detail: 0
-                                            format: 0
-                                            version: 1
-                                        direction: ltr
-                                    direction: ltr
                                 en-US:
                                   root:
                                     type: root
@@ -1171,55 +885,6 @@ composition:
                             richText:
                               type: richText
                               locales:
-                                de-DE:
-                                  root:
-                                    type: root
-                                    format: ''
-                                    indent: 0
-                                    version: 1
-                                    children:
-                                      - type: paragraph
-                                        format: ''
-                                        indent: 0
-                                        version: 1
-                                        children:
-                                          - mode: normal
-                                            text: >-
-                                              Headless tools make life slow and
-                                              complex for business users, who need to
-                                              jump between countless tools and tabs,
-                                              click through various levels of content,
-                                              and “publish and pray” without effective
-                                              previews. 
-                                            type: text
-                                            style: ''
-                                            detail: 0
-                                            format: 0
-                                            version: 1
-                                        direction: ltr
-                                      - type: paragraph
-                                        format: ''
-                                        indent: 0
-                                        version: 1
-                                        children:
-                                          - mode: normal
-                                            text: >-
-                                              Uniform DXC eliminates these daily
-                                              stresses. Marketers, merchandisers, and
-                                              other business teams can use Canvas to
-                                              create immersive experiences with no
-                                              coding and instantly preview their
-                                              changes. That means business teams can
-                                              independently publish without support
-                                              from developers, who are then free to
-                                              focus on building new features.
-                                            type: text
-                                            style: ''
-                                            detail: 0
-                                            format: 0
-                                            version: 1
-                                        direction: ltr
-                                    direction: ltr
                                 en-US:
                                   root:
                                     type: root
@@ -1280,7 +945,6 @@ composition:
                 groupName:
                   type: text
                   locales:
-                    de-DE: group1
                     en-US: group1
                 internalName:
                   type: text
@@ -1289,7 +953,6 @@ composition:
           theme:
             type: select
             locales:
-              de-DE: mango
               en-US: mango
       - _id: ae6fe7bc-308d-4921-8ad8-9330e772e570
         type: sectionContainer
@@ -1310,20 +973,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
-                                  url:
-                                    type: text
-                                    value: https://img.logoipsum.com/220.svg
-                                  title:
-                                    type: text
-                                    value: Logo 2
-                                _source: custom-url
                             en-US:
                               - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
                                 type: image
@@ -1341,7 +990,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 1
                             en-US: Company 1
                     - _id: a3bdd71b-48e9-4b87-b348-61b9511c610c
                       type: logo
@@ -1349,20 +997,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: 9c36716b-47a3-4a25-84ba-e159f811bfa8
-                                  url:
-                                    type: text
-                                    value: https://img.logoipsum.com/263.svg
-                                  title:
-                                    type: text
-                                    value: Company 2
-                                _source: custom-url
                             en-US:
                               - _id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
                                 type: image
@@ -1380,7 +1014,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 2
                             en-US: Company 2
                     - _id: 31764992-7acb-4700-8daa-b73d5dd04990
                       type: logo
@@ -1388,36 +1021,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: 02436b24-44a0-4c0b-be6d-1b4f15863034
-                                  url:
-                                    value: >-
-                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
-                                    type: text
-                                  size:
-                                    value: 6602
-                                    type: number
-                                  title:
-                                    type: text
-                                    value: logoipsum-285.svg
-                                  width:
-                                    value: 186
-                                    type: number
-                                  height:
-                                    value: 41
-                                    type: number
-                                  mediaType:
-                                    value: image/svg+xml
-                                    type: text
-                                  description:
-                                    type: text
-                                    value: ''
-                                _source: uniform-assets
                             en-US:
                               - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
                                 type: image
@@ -1451,7 +1054,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 5
                             en-US: Company 5
                     - _id: e15335a7-a825-472f-9f2a-654f36511c3b
                       type: logo
@@ -1459,36 +1061,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
-                                  url:
-                                    value: >-
-                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
-                                    type: text
-                                  size:
-                                    value: 4227
-                                    type: number
-                                  title:
-                                    type: text
-                                    value: logoipsum-242.svg
-                                  width:
-                                    value: 150
-                                    type: number
-                                  height:
-                                    value: 57
-                                    type: number
-                                  mediaType:
-                                    value: image/svg+xml
-                                    type: text
-                                  description:
-                                    type: text
-                                    value: ''
-                                _source: uniform-assets
                             en-US:
                               - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
                                 type: image
@@ -1522,7 +1094,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 4
                             en-US: Company 4
                     - _id: 913c375d-db6b-4d8e-9ee9-8ceeccd09e78
                       type: logo
@@ -1530,17 +1101,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: 39fb768e-5174-47fe-9816-8846d955ce8f
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: 39fb768e-5174-47fe-9816-8846d955ce8f
-                                  url:
-                                    type: text
-                                    value: https://img.logoipsum.com/288.svg
-                                _source: custom-url
                             en-US:
                               - _id: 39fb768e-5174-47fe-9816-8846d955ce8f
                                 type: image
@@ -1555,7 +1115,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 3
                             en-US: Company 3
                     - _id: 73dec981-fcd3-4b4b-a5fc-de430f38c1b4
                       type: logo
@@ -1563,36 +1122,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: f8dc1787-1570-4cb2-8757-5e85a40401b2
-                                  url:
-                                    value: >-
-                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
-                                    type: text
-                                  size:
-                                    value: 4691
-                                    type: number
-                                  title:
-                                    type: text
-                                    value: logoipsum-264.svg
-                                  width:
-                                    value: 170
-                                    type: number
-                                  height:
-                                    value: 41
-                                    type: number
-                                  mediaType:
-                                    value: image/svg+xml
-                                    type: text
-                                  description:
-                                    type: text
-                                    value: ''
-                                _source: uniform-assets
                             en-US:
                               - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
                                 type: image
@@ -1626,7 +1155,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 6
                             en-US: Company 6
                     - _id: ed890743-cf83-4d5b-8e1b-538e9417b0ff
                       type: logo
@@ -1634,20 +1162,6 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            de-DE:
-                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
-                                type: image
-                                fields:
-                                  id:
-                                    type: text
-                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
-                                  url:
-                                    type: text
-                                    value: https://img.logoipsum.com/221.svg
-                                  title:
-                                    type: text
-                                    value: Logo 2
-                                _source: custom-url
                             en-US:
                               - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
                                 type: image
@@ -1665,7 +1179,6 @@ composition:
                         name:
                           type: text
                           locales:
-                            de-DE: Company 7
                             en-US: Company 7
                 title:
                   type: text
@@ -1677,7 +1190,6 @@ composition:
           theme:
             type: select
             locales:
-              de-DE: light
               en-US: light
       - _id: 11754546-ada3-4633-a8a3-0139185b4f59
         type: sectionContainer
@@ -1693,16 +1205,12 @@ composition:
                       body:
                         type: text
                         locales:
-                          de-DE: This is my card
                           en-US: >-
                             ${#jptr:/Blog Post
                             Content/entry/fields/subtitle/value}
                       image:
                         type: text
                         locales:
-                          de-DE: >-
-                            ${#jptr:/Blog Post
-                            Content/entry/fields/postImage/value}
                           en-US: >-
                             ${#jptr:/Blog Post
                             Content/entry/fields/image/value/0/fields/url/value}
@@ -1735,17 +1243,14 @@ composition:
                       body:
                         type: text
                         locales:
-                          de-DE: ${#jptr:/Recipe Content/entry/subtitle}
                           en-US: ${#jptr:/Recipe Content/entry/subtitle}
                       image:
                         type: text
                         locales:
-                          de-DE: ${#jptr:/Recipe Content/entry/featuredimage/url}
                           en-US: ${#jptr:/Recipe Content/entry/featuredimage/url}
                       title:
                         type: text
                         locales:
-                          de-DE: ${#jptr:/Recipe Content/entry/title}
                           en-US: ${#jptr:/Recipe Content/entry/title}
               parameters:
                 columns:
@@ -1761,18 +1266,15 @@ composition:
                 title:
                   type: text
                   locales:
-                    de-DE: Demo
                     en-US: Demo
         parameters:
           theme:
             type: select
             locales:
-              de-DE: dark
               en-US: dark
           title:
             type: text
             locales:
-              de-DE: Demo
               en-US: Demo
   _dataResources:
     Event:
@@ -1841,62 +1343,10 @@ composition:
         title:
           type: text
           locales:
-            de-DE: Integrate in minutes, not months
             en-US: Integrate in minutes, not months
         richText:
           type: richText
           locales:
-            de-DE:
-              root:
-                type: root
-                format: ''
-                indent: 0
-                version: 1
-                children:
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: 'Instead of '
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - mode: normal
-                        text: spending weeks
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 1
-                        version: 1
-                      - mode: normal
-                        text: ' or months connecting CMS, commerce, DAM, search, analytics, legacy services, etc., just add your API keys to Uniform Mesh and start converting leads or purchases. '
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          Beyond making replatforming faster and cheaper,
-                          Uniform DXCP also extends your value from legacy tools
-                          by improving their performance and usability.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                direction: ltr
             en-US:
               root:
                 type: root
@@ -1964,7 +1414,8 @@ composition:
               hideLockedParameters: true
   _locales:
     - en-US
-    - de-DE
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2024-08-16T14:51:18.982394+00:00'
+modified: '2024-10-25T17:01:07.538367+00:00'
 pattern: false
+editionName: ''
+editionPriority: 100

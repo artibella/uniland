@@ -1,0 +1,9 @@
+id: cca1afcb-e823-44f9-bbd9-8e4a9b58e125
+name: Italian
+order: 600
+path: /:locale/demos/recipes/italian
+type: composition
+pathSegment: italian
+data: {}
+compositionId: fcadfcb8-9314-4a75-96aa-90e91cfd81f4
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

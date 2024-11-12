@@ -1,7 +1,7 @@
 id: textBlock
 name: Text Block
 created: '2023-10-25T08:23:46.324521+00:00'
-updated: '2023-12-14T19:47:17.053515+00:00'
+updated: '2024-09-06T11:32:58.753391+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -15,7 +15,6 @@ fields:
   - id: body
     name: Body
     type: richText
-    helpText: ''
     typeConfig:
       elements:
         builtIn:
@@ -31,6 +30,7 @@ fields:
           - quote
           - code
           - variable
+          - table
       required: false
       formatting:
         builtIn:

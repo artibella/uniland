@@ -1,0 +1,762 @@
+created: '2024-11-12T11:16:13.171626+00:00'
+modified: '2024-11-12T11:18:06.649398+00:00'
+pattern: false
+entry:
+  _id: 7d9196ed-c7f6-41ee-a3f1-5b83eca17a16
+  _name: Sunny Lemon Bars Recipe
+  _slug: sunny-lemon-bars-recipe
+  _thumbnail: >-
+    https://www.seriouseats.com/thmb/31_PZhw70k8079Qzl8M51w8an-Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__03__20160223-lemon-bars-vicky-wasik-21-08653d6abf6c442bb524f7b9b4fc0a2b.jpg
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Sunny Lemon Bars Recipe
+    cuisines:
+      type: contentReference
+      value: ${#jptr:/ref-7d9196ed-c7f6-41ee-a3f1-5b83eca17a16-cuisines/entries}
+    subtitle:
+      type: text
+      locales:
+        en-US: A cross between lemon curd and lemon meringue pie.
+    dishTypes:
+      type: contentReference
+      value: ${#jptr:/ref-7d9196ed-c7f6-41ee-a3f1-5b83eca17a16-dishTypes/entries}
+    sourceUrl:
+      type: link
+      value:
+        path: https://www.seriouseats.com/sunny-lemon-bars-recipe
+        type: url
+    totalTime:
+      type: text
+      value: '125'
+    cookingTime:
+      type: text
+      value: '55'
+    description:
+      type: richText
+      value:
+        root:
+          type: root
+          format: ''
+          indent: 0
+          version: 1
+          children:
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Lemon bars occupy a quirky piece of culinary real estate, a sun-drenched lot on Lemon Lane, right between meringue pie and a fancy\_tarte au citron. It's a great part of town, where the rent is cheap and the neighbors friendly, quick to loan a cup of sugar to those in need."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Good thing, too, because lemon bars aren't snuggled down
+                    under a fluffy blanket of meringue, so they need a lot of
+                    sugar to balance their sour filling. That makes them sweeter
+                    than pie, and a little more custardy, though not to the
+                    extent of a yolky curd; unlike the French tarts next door,
+                    lemon bars aren't so rich.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Maybe that's why so many culinary architects err on the side
+                    of pragmatism, building lemon bars from whole eggs alone.
+                    It's a nice thought, but it's a softer foundation that's
+                    inclined to slowly ooze past the property line, so to speak,
+                    making for a messy snack. Some combat that problem with a
+                    thinner (some might say stingy) layer of filling, while
+                    others forge ahead and bake their bars as thoroughly as any
+                    cake, turning the custard all lumpy and weird. Then there
+                    are those who resort to a spoonful of cornstarch, accepting
+                    a murky custard as the price of stability.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    But the lemon bars of my childhood were of a different sort,
+                    thick slabs as yellow as a daffodil and clear like a spring
+                    afternoon—no cloudy cornstarch in sight! I'm not sure what
+                    church lady I should credit for impressing me so, but that's
+                    the image that always comes to mind. With a great deal of
+                    trial and error, I've found that the trick to thick lemon
+                    bars without cornstarch is making the custard from equal
+                    parts whole eggs and yolks, by weight. That ratio offers
+                    enough extra yolks for structure, without turning the
+                    custard into an ultra-dense curd.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: ltr
+              textStyle: ''
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: The Perfect Lemon Bar Crust
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Of course, perfecting the filling would be for naught if my crust was but a pasty afterthought. And, while a good crust should be able to support the custard for days without devolving into a pile of mush, it should also serve as more than an edible plate. To that end, my version is barely sweetened, speckled with lemon zest, and buttery but light—like a\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/soft-and-chewy-sugar-cookie-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: classic sugar cookie
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_crossed with lemon shortbread."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "For a hybrid texture like that, I have to avoid the puff factor associated with\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/cookie-science-creaming-butter-sugar
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: creaming butter and sugar
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ", while also steering clear of chewy eggs. (If you'll recall\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/cookie-science-how-do-eggs-affect-my-cookies
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: Cookie Science 101
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: >-
+                    , eggless doughs are more tender.) Those adjustments mean
+                    there is no friction nor liquid ingredients to help dissolve
+                    granulated sugar, a condition that calls for powdered sugar—
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/organic-powdered-sugar-versus-conventional-baking-cornstarch-tapioca
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: once my greatest nemesis, but now a trusted friend
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: .
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    By nature, the dough is better suited to a food processor,
+                    which can tear through cold butter to coat the flour in fat
+                    (thus shortening the potential length of each gluten
+                    strand). Since it all comes together lightning-fast, the
+                    butter stays cold, making for a dry meal that's more Dippin'
+                    Dots than dough, easily sprinkled and smooshed into a
+                    parchment-lined anodized-aluminum pan.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: ltr
+              textStyle: ''
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Choosing the Right Baking Pan
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Yeah, that's a lot of adjectives to describe a baking pan, but they're all important. We'll get to the parchment later, but as for the rest? Well, non-aluminum options, like glass and ceramic, retain heat for\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: ages
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: >-
+                    , which can lead to overcooked lemon bars. Plus, their
+                    dimensions tend to make the bars too thin. Metal cake pans
+                    cool far more rapidly, but few folks own a set of stainless
+                    steel pans, and that's where anodized aluminum comes in.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "It may not be a term you're actively aware of, but anodization is what makes iPad minis look so boss, and why certain lightweight cake pans never rust. Anodization is a manufacturing process that sends an electrical charge through a sheet of metal while it soaks in an acidic bath of electrolytes. The result of this, shall we say, shock therapy is a metal so chill, it won't even react when confronted by acidic liquids looking for a fight. Without anodization, citric acid + unfinished aluminum = janky, old-tin-can-flavored lemon bars.\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - mode: normal
+                  text: Mmmm
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 2
+                  version: 1
+                - mode: normal
+                  text: ', boy!'
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children: []
+              direction: ltr
+              textStyle: ''
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: A Simple Stovetop Filling
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    With the crust in the right pan and baking to a golden
+                    brown, I prepare the filling on the stove. Again, it's
+                    vitally important that everything from the pot to the whisk
+                    be nonreactive (in those cases, that typically means
+                    stainless steel), but it's otherwise dead easy to prepare.
+                    Just combine the eggs and yolks, add the lemon zest and
+                    sugar, then whisk until smooth.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Yeah, that's right, straight in the pan—no tempering
+                    required! Ladling hot liquids while whisking with one hand
+                    is like having to rub your head and pat your tummy—annoying
+                    at best. Doubly so, considering the extra dishes. Tempering
+                    is reasonable when dealing with eggs and hot liquids, which
+                    are inherent to any infusion (like vanilla steeped in milk).
+                    But, when combining eggs with room-temperature ingredients,
+                    like fresh lemon juice, there really isn't any need so long
+                    as everything is warmed up slowly over low heat.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Once you've knocked off the chill, you can turn up the dial
+                    and let a digital thermometer be your guide. While egg yolks
+                    and whites normally coagulate at around 140 and 150°F (60
+                    and 66°C), respectively, sugar delays that process by about
+                    10 degrees. To get a custard that's thick enough to slice,
+                    it needs to go a little higher still, to about 170°F (77°C).
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Cooking on the stovetop allows for precise control over the
+                    custard's final texture, which is vastly preferable to
+                    jiggling a hot pan in the oven and wondering exactly how
+                    wobbly "wobbly" should be (or else trying to test the
+                    relatively shallow filling layer with a Thermapen and hoping
+                    you don't hit the crust).
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - type: linebreak
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Stovetop cooking also means I can strain the custard as it goes over the crust, eliminating coagulated lumps of\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://en.wikipedia.org/wiki/Chalaza
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: chalazae
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_and bits of zest that have already given up their lemony aroma. After that, I cover my lemon bars with foil to trap steam, then toss them in the oven, where a few minutes of warmth will spread the filling to a perfectly level, mirror-smooth finish."
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Necessary? No. But it's a simple touch that makes lemon bars
+                    as stunning as any French tart.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - tag: h2
+              type: heading
+              format: left
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: Finishing and Cutting Lemon Bars
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Once cooled to room temperature, the lemon bars are chilled
+                    and transferred to a cutting board (hence the aforementioned
+                    parchment to pull them loose). You might be tempted to file
+                    that under "fussy, cheffy steps I don't care about," but
+                    wait! Cutting the bars in the pan will a) dull your knife
+                    and b) scratch your pan, c) making future cakes or crusts
+                    more likely to stick and d) ruining the anodized surface,
+                    which e) negates its nonreactive properties, meaning, oh, f)
+                    your future lemon bars will taste like a dirty penny.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Besides, with a cutting board, you'll be able to slice 'n'
+                    dice the bars into the most gorgeously geometric squares.
+                    Pack them up for picnics and potlucks (the high-sugar,
+                    high-acid bars will do fine at room temperature), or serve
+                    them straight from the fridge, cold and refreshing like
+                    lemonade.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Like any self-respecting American, I finish my lemon bars
+                    with a dusting of powdered sugar. It may not add much beyond
+                    a hint of sweet against the sour filling, but it's hard to
+                    overstate the visual appeal—a field of flawless white to
+                    make edges look more crisp and the custard more radiant.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    If powdered sugar isn't usually your cup of tea, you may
+                    appreciate the mellower sweetness of organic brands; just be
+                    aware that the organic sugar will begin to melt within 15
+                    minutes. Conventional brands taste a little chalkier, but
+                    they'll widen that window to about a half hour.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: "Whatever you choose, don't forget to save your used-up lemon rinds! Even when zested, juiced, cut, and otherwise abused, they're the basis of my no-cook\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/fresh-lemon-syrup-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: fresh lemon syrup
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: ". It's great to have for whipping up everything from cocktails to vinaigrette, but it's also the key to a few citrusy garnishes that'll make the neighbors jealous:\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: https://www.seriouseats.com/lemon-chantilly-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: lemon chantilly
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+                - mode: normal
+                  text: "\_and\_"
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+                - link:
+                    path: >-
+                      https://www.seriouseats.com/crispy-candied-pistachios-recipe
+                    type: url
+                  type: link
+                  format: ''
+                  indent: 0
+                  version: 1
+                  children:
+                    - mode: normal
+                      text: crispy candied pistachios.
+                      type: text
+                      style: ''
+                      detail: 0
+                      format: 0
+                      version: 1
+                  direction: ltr
+              direction: ltr
+              textStyle: ''
+            - type: paragraph
+              format: ''
+              indent: 0
+              version: 1
+              children:
+                - mode: normal
+                  text: >-
+                    Together, they make a community of citrus anyone would want
+                    to live in...or eat.
+                  type: text
+                  style: ''
+                  detail: 0
+                  format: 0
+                  version: 1
+              direction: ltr
+              textStyle: ''
+          direction: ltr
+    publishDate:
+      type: date
+      value: '2024-03-31'
+    recipeYield:
+      type: text
+      value: 16 servings
+    restingTime:
+      type: text
+      value: '60'
+    featuredImage:
+      type: asset
+      value:
+        - _id: e2313428-d22c-45f8-b674-ebef932a37d1
+          type: image
+          fields:
+            url:
+              type: text
+              value: >-
+                https://www.seriouseats.com/thmb/31_PZhw70k8079Qzl8M51w8an-Q=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2016__03__20160223-lemon-bars-vicky-wasik-21-08653d6abf6c442bb524f7b9b4fc0a2b.jpg
+          _source: custom-url
+    preparationTime:
+      type: text
+      value: '10'
+  _dataResources:
+    ref-7d9196ed-c7f6-41ee-a3f1-5b83eca17a16-cuisines:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: dd35f4df-64f4-4e81-b680-305a7eee1db1
+    ref-7d9196ed-c7f6-41ee-a3f1-5b83eca17a16-dishTypes:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4af81e6b-4ff2-421a-ab7e-c64d9ab3b4f2
+  _locales:
+    - en-US

@@ -3,9 +3,96 @@ composition:
   _id: e5e63e53-1b78-4bbf-86fe-402762f70572
   _slug: ':review'
   type: page
-  _dataResources: {}
+  slots:
+    sections:
+      - _id: 8f424be9-2cc7-4d60-827f-66037af3b94b
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 479281d9-6af1-4a5c-a545-2b6f43ca1496
+              type: logos
+              parameters:
+                logos:
+                  type: $block
+                  value:
+                    - _id: f5d89173-e381-4fd2-8b29-5c62b1b04a82
+                      type: $loop
+                      fields:
+                        body:
+                          type: $block
+                          value:
+                            - _id: f9ddd4ec-a1b5-4d8b-a454-c14313c19a5a
+                              type: logo
+                              fields:
+                                logo:
+                                  type: asset
+                                  locales:
+                                    en-US: >-
+                                      ${#jptr:/Restaurant value Loop
+                                      Item/fields/logo/value}
+                                name:
+                                  type: text
+                                  locales:
+                                    en-US: >-
+                                      ${#jptr:/Restaurant value Loop
+                                      Item/fields/name/value}
+                                website:
+                                  type: link
+                                  value: >-
+                                    ${#jptr:/Restaurant value Loop
+                                    Item/fields/website/value}
+                      _dataResources:
+                        Restaurant value Loop Item:
+                          type: sys-reserved-loop
+                          variables:
+                            connectedData: >-
+                              #jptr:/Restaurant/entry/fields/orderOptions/value:fa=c
+                title:
+                  type: text
+                  value: Delivery options
+                logosPerRow:
+                  type: number
+                  value: '3'
+          heading:
+            - _id: fad7dcd8-b77b-464d-8f8e-416353a20711
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Manual binding
+      - _id: 3b7448a3-6f54-47fe-9d95-05b3b850ae95
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 6ba7cf32-deb0-46e4-8b6c-64d6a672f215
+              type: logos
+              parameters:
+                logos:
+                  type: $block
+                  value: ${#jptr:/Restaurant/entry/fields/orderOptions/value}
+                title:
+                  type: text
+                  value: Delivery options
+                logosPerRow:
+                  type: number
+                  value: '3'
+          heading:
+            - _id: c7639b53-6ba1-4f2c-a3e5-7737e9c85054
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Full block binding
+  _dataResources:
+    Restaurant:
+      type: restaurantBySlug
+      variables:
+        slug: ${review}
+        locale: ${locale}
   _locales:
     - en-US
 created: '2023-06-14T10:36:52.367945+00:00'
-modified: '2024-08-02T12:49:03.377661+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false

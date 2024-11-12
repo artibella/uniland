@@ -13,9 +13,13 @@ parameters:
     type: asset
     typeConfig:
       max: 1
+    localizable: true
+    notLocalizedByDefault: true
+    allowConditionalValues: true
   - id: imageUrl
     name: Image URL
     type: image
+    helpText: 'Legacy: connect to external images'
     typeConfig: null
   - id: imageSetting
     name: Image setting
@@ -69,6 +73,7 @@ parameters:
           value: width-three-quarter
         - text: 100% width
           value: width-full
+    allowConditionalValues: true
   - id: aspectRatio
     name: Aspect ratio
     type: select
@@ -81,6 +86,7 @@ parameters:
           value: square
         - text: Video
           value: video
+    allowConditionalValues: true
   - id: imageFit
     name: Image fit
     type: select
@@ -99,6 +105,7 @@ parameters:
           value: scale-down
         - text: None
           value: none
+    allowConditionalValues: true
   - id: imagePosition
     name: Image position
     type: select
@@ -178,6 +185,7 @@ categoryId: 91f990da-3be3-4559-add7-7580b0108e7c
 useTeamPermissions: true
 slots: []
 titleParameter: title
+thumbnailParameter: image
 canBeComposition: false
 created: '2022-12-15T14:08:26.5631+00:00'
-updated: '2023-11-23T13:17:35.910097+00:00'
+updated: '2024-09-26T10:39:06.445911+00:00'

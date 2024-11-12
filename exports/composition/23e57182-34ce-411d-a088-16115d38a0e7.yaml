@@ -1,0 +1,30 @@
+composition:
+  _name: Puffer
+  _id: 23e57182-34ce-411d-a088-16115d38a0e7
+  _slug: puffer
+  type: page
+  _dataResources:
+    Product:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
+  _overrides:
+    23e57182-34ce-411d-a088-16115d38a0e7|28ada3af-1854-4ebf-968e-a733324e5eb3:
+      parameters:
+        internalLink:
+          type: link
+          value:
+            path: /:locale/shop/:product
+            type: projectMapNode
+            nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+            dynamicInputValues:
+              locale: ${locale}
+              product: ${#jptr:/Product/entry/_slug}
+  _locales:
+    - en-US
+  _pattern: 6eb90d15-4002-42f5-b2fb-d7eaa07f2b2b
+created: '2024-09-04T14:33:00.745138+00:00'
+modified: '2024-09-05T08:40:08.051381+00:00'
+pattern: false

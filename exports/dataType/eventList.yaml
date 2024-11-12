@@ -1,9 +1,10 @@
 id: eventList
 displayName: Event List
 ttl: 30
+body: ''
 path: /query
 custom:
-  maxDepth: 2
+  maxDepth: 1
   proposedName: Query Event
   allowedContentTypes:
     - event

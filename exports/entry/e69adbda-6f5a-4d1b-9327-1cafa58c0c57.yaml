@@ -1,0 +1,28 @@
+created: '2024-09-09T15:13:24.635836+00:00'
+modified: '2024-09-11T17:02:21.464767+00:00'
+pattern: false
+entry:
+  _id: e69adbda-6f5a-4d1b-9327-1cafa58c0c57
+  _name: Sicilian
+  _slug: sicilian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Sicilian
+    types:
+      type: multi-select
+      value:
+        - Regional
+    ingredients:
+      type: contentReference
+      value: ${#jptr:/ref-e69adbda-6f5a-4d1b-9327-1cafa58c0c57-ingredients/entries/0}
+  _dataResources:
+    ref-e69adbda-6f5a-4d1b-9327-1cafa58c0c57-ingredients:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 19677436-0aee-4bd3-88c3-866ca1244989
+  _locales:
+    - en-US

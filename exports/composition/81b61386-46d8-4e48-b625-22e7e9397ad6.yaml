@@ -1,0 +1,17 @@
+composition:
+  _name: Grey sneakers
+  _id: 81b61386-46d8-4e48-b625-22e7e9397ad6
+  _slug: grey-sneakers
+  type: page
+  _dataResources:
+    Product:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 38be89c4-8aca-4008-ace2-1527547eb42d
+  _locales:
+    - en-US
+  _pattern: 6eb90d15-4002-42f5-b2fb-d7eaa07f2b2b
+created: '2024-09-05T08:48:15.939345+00:00'
+modified: '2024-09-05T11:52:01.796697+00:00'
+pattern: false

@@ -1,0 +1,17 @@
+composition:
+  _name: Hoodie
+  _id: 737edb99-bcfa-4390-a310-e058a04abb56
+  _slug: hoodie
+  type: page
+  _dataResources:
+    Product:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: 36af3cc9-d1c0-42ee-87ad-d216a1fbcecd
+  _locales:
+    - en-US
+  _pattern: 6eb90d15-4002-42f5-b2fb-d7eaa07f2b2b
+created: '2024-09-05T08:43:36.900349+00:00'
+modified: '2024-09-05T08:46:07.638452+00:00'
+pattern: false

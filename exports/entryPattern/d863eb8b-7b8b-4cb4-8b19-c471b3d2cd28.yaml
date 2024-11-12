@@ -1,0 +1,221 @@
+created: '2024-09-18T11:04:57.767068+00:00'
+modified: '2024-09-18T11:21:12.665789+00:00'
+pattern: true
+entry:
+  _id: d863eb8b-7b8b-4cb4-8b19-c471b3d2cd28
+  _name: Contentstack Recipe
+  _slug: recipe-pattern
+  _thumbnail: >-
+    https://images.contentstack.io/v3/assets/bltcc1a417cc141c7d3/bltb3235f771ea7c4fd/6334337f0046bd180f978b27/_opt_aboutcom_coeus_resources_content_migration_serious_eats_seriouseats.com_2017_12_20171206-pasta-alla-limone-vicky-wasik-13-042287072d9146d084f7eb29e23c400b.webp
+  type: recipe
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: ${#jptr:/Recipe/entry/title}
+    intro:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Recipe/entry/intro'
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    notes:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Recipe/entry/notes'
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    subtitle:
+      type: text
+      locales:
+        en-US: ${#jptr:/Recipe/entry/subtitle}
+    totalTime:
+      type: text
+      value: ${#jptr:/Recipe/entry/cooking_times_group/total_time}
+    cookingTime:
+      type: text
+      value: ${#jptr:/Recipe/entry/cooking_times_group/cooking_time}
+    description:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: variable
+                    version: 1
+                    reference: '#jptr:/Recipe/entry/description'
+                direction: null
+                textStyle: ''
+                textFormat: 0
+            direction: null
+    ingredients:
+      type: $block
+      value:
+        - _id: 2193d8e7-521d-4d5e-8582-5b07fbc2b0e6
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 8e48edca-767b-4fb0-8836-6c3f81d1ed59
+                  type: recipeIngredient
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Recipe ingredients Loop Item/Ingredient/name}
+          _dataResources:
+            Recipe ingredients Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: '#jptr:/Recipe/entry/ingredients:fa=c'
+    recipeYield:
+      type: text
+      value: ${#jptr:/Recipe/entry/yield}
+    restingTime:
+      type: text
+      value: ${#jptr:/Recipe/entry/cooking_times_group/resting_time:fa=p:fl=i}
+    instructions:
+      type: $block
+      value:
+        - _id: 3c0b6bb0-0730-4e47-9a24-388d7b4b9297
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: 61741eef-daf7-4d12-872d-b54d1ab58699
+                  type: howtoStep
+                  fields:
+                    name:
+                      type: text
+                      locales:
+                        en-US: ${#jptr:/Recipe instructions Loop Item/Step/name}
+                    images:
+                      type: asset
+                      value:
+                        - _id: d0402b27-b1bb-4bdd-aed8-6f5e4ab8fc32
+                          type: image
+                          fields:
+                            url:
+                              type: text
+                              value: >-
+                                ${#jptr:/Recipe instructions Loop
+                                Item/Step/image/url}
+                          _source: custom-url
+                    description:
+                      type: richText
+                      locales:
+                        en-US:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Recipe instructions Loop
+                                      Item/Step/description
+                                direction: null
+                                textStyle: ''
+                                textFormat: 0
+                            direction: null
+          _dataResources:
+            Recipe instructions Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: '#jptr:/Recipe/entry/instructions:fa=c'
+    featuredImage:
+      type: asset
+      value:
+        - _id: 76bb7167-8c95-4177-839d-abc96c7443b7
+          type: image
+          fields:
+            url:
+              type: text
+              value: ${#jptr:/Recipe/entry/featuredimage/url}
+          _source: custom-url
+    nutritionFacts:
+      type: $block
+      value:
+        - _id: b3fd206b-8e9a-41a8-9d41-cd88b421e51b
+          type: $loop
+          fields:
+            body:
+              type: $block
+              value:
+                - _id: ef1fddd4-9e0a-4adc-9a94-b6301ac5c465
+                  type: nutritionInformation
+                  fields:
+                    amount:
+                      type: number
+                      value: >-
+                        ${#jptr:/Recipe nutrition_facts Loop
+                        Item/Nutrition_Information/amount}
+          _dataResources:
+            Recipe nutrition_facts Loop Item:
+              type: sys-reserved-loop
+              variables:
+                connectedData: '#jptr:/Recipe/entry/nutrition_facts:fa=c'
+    preparationTime:
+      type: text
+      value: ${#jptr:/Recipe/entry/cooking_times_group/preparation_time:fa=p:fl=i}
+  _dataResources:
+    Recipe:
+      type: recipeContentstack
+      variables:
+        query: ''
+        entry_uid: bltc0e29f5dc145e52e
+        content_type_uid: recipe
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US

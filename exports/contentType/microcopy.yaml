@@ -1,7 +1,7 @@
 id: microcopy
 name: Microcopy
 created: '2023-06-23T08:33:09.853941+00:00'
-updated: '2023-10-05T18:33:55.767973+00:00'
+updated: '2024-09-04T13:20:13.287151+00:00'
 slugSettings:
   unique: 'no'
   required: disabled
@@ -42,6 +42,6 @@ fields:
           value: other
 entryName: key
 description: ''
-icon: file-document
+icon: format-text
 type: contentType
 permissions: []

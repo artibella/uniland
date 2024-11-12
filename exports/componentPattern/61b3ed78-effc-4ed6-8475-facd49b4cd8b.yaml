@@ -18,11 +18,11 @@ composition:
           locale: ${locale}
   _overridability:
     parameters:
-      title: 'yes'
+      title: 'no'
       internalLink: 'yes'
     hideLockedParameters: true
   _locales:
     - en-US
 created: '2024-04-23T08:38:40.160433+00:00'
-modified: '2024-04-23T08:41:00.753471+00:00'
+modified: '2024-09-05T08:38:15.604836+00:00'
 pattern: true

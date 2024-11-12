@@ -1,0 +1,9 @@
+id: 54fa61e3-b6cc-4b6b-9af7-1f1aaff3fce2
+name: Hoodie
+order: 500
+path: /:locale/shop/hoodie
+type: composition
+pathSegment: hoodie
+data: {}
+compositionId: 737edb99-bcfa-4390-a310-e058a04abb56
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
