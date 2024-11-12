@@ -2,16 +2,27 @@ import { UniformSlot, UniformText } from '@uniformdev/canvas-react';
 import Link from 'next/link';
 import { Badge, Card } from 'react-daisyui';
 import isHtml from 'is-html';
+import { convertAssetToProps } from '../lib/utils/convertFieldsToProps';
 
 export default function GenericCard({
   title = '',
   byline = '',
   image,
+  cardImage = [],
   body = '',
 }) {
+  const asset = cardImage && cardImage.length ? cardImage[0] : undefined;
+  let assetUrl;
+  if (asset) {
+    const assetProps = convertAssetToProps(asset);
+    assetUrl = assetProps.url;
+  }
+
+  const selectedImage = assetUrl || image || null;
+
   return (
     <Card className="bg-white hover:-translate-y-2 transition-transform ease-in-out delay-150 duration-300">
-      {image && <Card.Image src={image} alt={title} />}
+      {image && <Card.Image src={selectedImage} alt={title} />}
       <Card.Body>
         {byline && (
           <Badge variant="outline" className="block capitalize">
