@@ -1,7 +1,10 @@
 id: cuisine
 displayName: Cuisine
+ttl: 30
+body: ''
 path: /single
 custom:
+  maxDepth: 3
   allowedContentTypes:
     - cuisine
 method: GET

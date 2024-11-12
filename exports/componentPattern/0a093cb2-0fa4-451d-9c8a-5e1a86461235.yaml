@@ -1,5 +1,5 @@
 composition:
-  _name: Blog posts grid
+  _name: Blog posts grid (Query)
   _id: 0a093cb2-0fa4-451d-9c8a-5e1a86461235
   type: gridContainer
   parameters:
@@ -22,7 +22,7 @@ composition:
                       title:
                         type: text
                         locales:
-                          de-DE: Mehr lesen
+                          de-DE: Read post
                           en-US: Read post
                       internalLink:
                         type: link
@@ -45,10 +45,10 @@ composition:
                   locales:
                     de-DE: >-
                       ${#jptr:/Posts entries Loop
-                      Item/entry/fields/postImage/value}
+                      Item/entry/fields/image/value/0/fields/url/value:fd=https\;//images.unsplash.com/photo-1542435503-956c469947f6?q\+80&w}
                     en-US: >-
                       ${#jptr:/Posts entries Loop
-                      Item/entry/fields/postImage/value:fl=i:fd=https\;//images.unsplash.com/photo-1542435503-956c469947f6?q\+80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D}
+                      Item/entry/fields/image/value/0/fields/url/value:fd=https\;//images.unsplash.com/photo-1542435503-956c469947f6?q\+80&w}
                 title:
                   type: text
                   locales:
@@ -81,6 +81,6 @@ composition:
     - en-US
     - de-DE
 created: '2023-10-10T09:02:25.634959+00:00'
-modified: '2024-06-06T08:44:07.76006+00:00'
+modified: '2024-09-26T13:11:19.75623+00:00'
 pattern: true
 categoryId: 7c7c6ecc-9368-4cb5-92b4-7b4d25dbf457

@@ -1,7 +1,7 @@
 id: cuisine
 name: Cuisine
 created: '2024-07-11T10:04:51.451005+00:00'
-updated: '2024-08-08T12:30:06.776312+00:00'
+updated: '2024-09-11T17:03:05.602157+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -53,8 +53,9 @@ fields:
     name: Ingredients
     type: contentReference
     helpText: Common ingredients for this cuisine
-    typeConfig: null
-    localizable: false
+    typeConfig:
+      allowedContentTypes:
+        - ingredient
 entryName: name
 thumbnailField: image
 description: ''

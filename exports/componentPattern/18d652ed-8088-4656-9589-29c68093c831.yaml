@@ -8,7 +8,7 @@ composition:
       value: ${#jptr:/Post/entry/fields/subtitle/value}
     image:
       type: text
-      value: ${#jptr:/Post/entry/fields/postImage/value}
+      value: ${#jptr:/Post/entry/fields/image/value/0/fields/url/value}
     title:
       type: text
       value: ${#jptr:/Post/entry/fields/title/value}
@@ -17,28 +17,35 @@ composition:
       - _id: 108d7fd4-de27-45bc-b740-8cc17fa6ee79
         type: callToAction
         parameters:
-          link:
-            type: text
-            value: ${#jptr:/Post/fields/slug}
           title:
             type: text
             value: Read post
-          linkPrefix:
-            type: text
-            value: /blog/
+          internalLink:
+            type: link
+            value:
+              path: /${locale}/blog/${#jptr:/Post/entry/_slug}
+              type: projectMapNode
+              nodeId: d947bbe8-7fe2-44e1-a628-d15557c43e42
+              projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+              dynamicInputValues:
+                slug: ${#jptr:/Post/entry/_slug}
+                locale: ${locale}
         _overridability:
           variants: true
           parameters:
-            link: 'yes'
+            $viz: 'yes'
+            link: 'no'
             title: 'yes'
-            linkPrefix: 'yes'
+            linkPrefix: 'no'
             internalLink: 'yes'
             openInNewTab: 'yes'
+          hideLockedParameters: true
   _dataResources:
     Post:
       type: blogPost
       variables:
-        entryId: 5029a265-87ab-43db-a1a4-9d0aeb9c9331
+        locale: ${locale},en-US
+        entryId: 6ecbbb3e-817c-4d89-a603-67489892bfaf
       isPatternParameter: true
       ignorePatternParameterDefault: true
   _overridability:
@@ -47,6 +54,11 @@ composition:
       image: 'yes'
       title: 'yes'
       byline: 'yes'
+  _locales:
+    - de-DE
+    - en-US
+    - da-DK
+    - it-IT
 created: '2023-04-26T21:53:47.005086+00:00'
-modified: '2023-08-10T09:17:13.157379+00:00'
+modified: '2024-09-30T09:30:09.352429+00:00'
 pattern: true

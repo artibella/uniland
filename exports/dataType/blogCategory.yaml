@@ -1,5 +1,7 @@
 id: blogCategory
 displayName: Blog Category
+ttl: 30
+body: ''
 path: /single
 custom:
   allowedContentTypes:

@@ -1,0 +1,15 @@
+created: '2024-09-09T14:54:43.506616+00:00'
+modified: '2024-09-09T14:55:39.095806+00:00'
+pattern: false
+entry:
+  _id: bb06c7d1-4b02-413b-9f95-919adb042eb9
+  _name: Party 🥳
+  _slug: new-entry-occasion
+  type: occasion
+  fields:
+    name:
+      type: text
+      locales:
+        en-US: Party 🥳
+  _locales:
+    - en-US

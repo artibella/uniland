@@ -1,0 +1,57 @@
+composition:
+  _name: Cuisine
+  _id: c92d4b6f-947e-420e-b8e3-c74fa718ac50
+  _slug: ':cuisine'
+  type: page
+  slots:
+    hero:
+      - _id: 3d6d303d-eecc-4b4b-95ab-cb6c5552b65f
+        type: hero
+        slots:
+          heading:
+            - _id: d59487f5-e242-40b8-99bd-d78d5611935a
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Cuisine/entry/fields/name/value}
+        parameters:
+          imageUrl:
+            type: text
+            locales:
+              en-US: ${#jptr:/Cuisine/entry/fields/image/value/0/fields/url/value}
+    sections:
+      - _id: 7577dd65-5c55-4b13-8850-5e4fc9e9ca71
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 707ce6ae-0d28-4b18-9772-f5e8571116ca
+              type: $loop
+              slots:
+                body:
+                  - _id: 8c1bdd45-307a-408e-9d14-ce2efb5d9e64
+                    type: textBlock
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          en-US: >-
+                            ${#jptr:/Cuisine value Loop
+                            Item/entry/fields/name/value}
+              _dataResources:
+                Cuisine value Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    connectedData: '#jptr:/Cuisine/entry/fields/childCuisines/value:fa=c'
+  _dataResources:
+    Cuisine:
+      type: cuisineBySlug
+      variables:
+        slug: ${cuisine}
+        locale: ${locale}
+  _locales:
+    - en-US
+created: '2024-09-09T15:18:35.249532+00:00'
+modified: '2024-09-09T15:23:36.413447+00:00'
+pattern: false

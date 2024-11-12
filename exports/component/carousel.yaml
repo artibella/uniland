@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: carousel
+name: Carousel
+icon: stories
+parameters:
+  - id: internalName
+    name: Internal name
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: images
+    name: Images
+    type: asset
+    typeConfig: {}
+    localizable: true
+    allowConditionalValues: true
+  - id: 89ea0446-e055-46be-bd01-e500448eaaa9
+    name: Options
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - loop
+        - autoplay
+  - id: loop
+    name: Loop
+    type: checkbox
+    typeConfig: null
+  - id: autoplay
+    name: Autoplay
+    type: checkbox
+    typeConfig: null
+categoryId: 6d7270f9-cbf6-47ad-93a4-fecc01bf77f4
+useTeamPermissions: true
+slots:
+  - id: slides
+    name: Slides
+    allowedComponents:
+      - imageBlock
+      - sectionContainer
+      - hero
+      - lottieAnimation
+      - $loop
+      - $personalization
+      - $test
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: internalName
+thumbnailParameter: images
+canBeComposition: false
+created: '2024-09-12T22:14:21.751225+00:00'
+updated: '2024-09-12T22:14:21.751225+00:00'

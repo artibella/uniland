@@ -1,5 +1,5 @@
 created: '2024-07-11T10:05:22.735347+00:00'
-modified: '2024-07-26T11:12:59.131229+00:00'
+modified: '2024-09-09T14:39:51.710572+00:00'
 pattern: false
 entry:
   _id: d10a55c2-0bac-4945-b85e-fbb668f767e4
@@ -12,6 +12,7 @@ entry:
     name:
       type: text
       locales:
+        de-DE: Glutenfrei
         en-US: Gluten free
     image:
       type: asset
@@ -47,3 +48,4 @@ entry:
           _source: uniform-assets
   _locales:
     - en-US
+    - de-DE

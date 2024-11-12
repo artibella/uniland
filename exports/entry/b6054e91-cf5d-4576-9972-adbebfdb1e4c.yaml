@@ -1,0 +1,21 @@
+created: '2024-09-30T10:03:37.781339+00:00'
+modified: '2024-09-30T10:04:11.228458+00:00'
+pattern: false
+entry:
+  _id: b6054e91-cf5d-4576-9972-adbebfdb1e4c
+  _name: Portugal
+  _slug: portugal
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        de-DE: Portugal
+        en-US: Portugal
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - en-US
+    - de-DE

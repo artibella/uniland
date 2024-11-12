@@ -1,0 +1,56 @@
+created: '2024-09-09T14:28:40.632683+00:00'
+modified: '2024-09-09T14:44:04.741419+00:00'
+pattern: true
+entry:
+  _id: 9d36faf5-b03d-4a57-9dc5-0dbe7674f0e7
+  _name: Restaurant Pattern
+  _slug: restaurant-pattern
+  type: restaurant
+  fields:
+    name:
+      type: text
+      value: ${#jptr:/Restaurant/entry/title}
+    diets:
+      type: contentReference
+      value: ${#jptr:/ref-9d36faf5-b03d-4a57-9dc5-0dbe7674f0e7-diets/entries}
+    famousRecipe:
+      type: contentReference
+      locales:
+        de-DE: >-
+          ${#jptr:/ref-9d36faf5-b03d-4a57-9dc5-0dbe7674f0e7-famousRecipe-de-DE/entries/0}
+  _dataResources:
+    Restaurant:
+      type: restaurantCS
+      variables:
+        query: ''
+        entry_uid: blt7e36a1246dbd8d06
+        content_type_uid: restaurant
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+    ref-9d36faf5-b03d-4a57-9dc5-0dbe7674f0e7-diets:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: d10a55c2-0bac-4945-b85e-fbb668f767e4
+    ref-9d36faf5-b03d-4a57-9dc5-0dbe7674f0e7-famousRecipe-de-DE:
+      type: uniformContentInternalReference
+      variables:
+        locale: de-DE
+        entryIds: 7b367a19-5f74-4add-8e8b-6a444b33e09f
+  _locales:
+    - en-US
+    - de-DE
+  _overridability:
+    parameters:
+      city: 'yes'
+      logo: 'yes'
+      name: 'yes'
+      diets: 'yes'
+      image: 'yes'
+      phone: 'yes'
+      address: 'yes'
+      zipCode: 'yes'
+      cuisines: 'yes'
+      description: 'yes'
+      famousRecipe: 'yes'
+      googleMapsLink: 'yes'

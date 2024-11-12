@@ -9,6 +9,87 @@ composition:
         type: sectionContainer
         slots:
           content:
+            - _id: 15b4955e-a4ab-4101-8f34-b7b7307d7479
+              type: textBlock
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: empty
+                          rule: $dt
+                          value: ''
+                          source: ${#jptr:/Recipe Results/entries/0/entry/_id}
+                richText:
+                  type: richText
+                  locales:
+                    de-DE:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: No results found for "
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                              - type: variable
+                                version: 1
+                                reference: search
+                              - mode: normal
+                                text: '"'
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
+                    en-US:
+                      root:
+                        type: root
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - type: paragraph
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - mode: normal
+                                text: No results found for "
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                              - type: variable
+                                version: 1
+                                reference: search
+                              - mode: normal
+                                text: '"'
+                                type: text
+                                style: ''
+                                detail: 0
+                                format: 0
+                                version: 1
+                            direction: ltr
+                            textStyle: ''
+                            textFormat: 0
+                        direction: ltr
             - _id: 75dcd024-def1-4b15-ab2b-bf61b1562045
               type: gridContainer
               slots:
@@ -52,16 +133,25 @@ composition:
                               locales:
                                 de-DE: >-
                                   Rating: ${#jptr:/Recipe Results entries Loop
-                                  Item/entry/fields/ratingValue/value}
+                                  Item/entry/fields/ratingValue/value:fl=i}
                                 en-US: >-
                                   Rating: ${#jptr:/Recipe Results entries Loop
-                                  Item/entry/fields/ratingValue/value}
+                                  Item/entry/fields/ratingValue/value:fa=p:fl=i}
                     _dataResources:
                       Recipe Results entries Loop Item:
                         type: sys-reserved-loop
                         variables:
                           connectedData: /Recipe Results/entries
               parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: '!empty'
+                          rule: $dt
+                          value: ''
+                          source: ${#jptr:/Recipe Results/entries/0/entry/_id}
                 columns:
                   type: number
                   value: '2'
@@ -85,13 +175,14 @@ composition:
       type: recipeList
       variables:
         locale: ${locale}
-        search: ${search}
-        filters: '{"type[eq]":"recipe","locale[eq]":"${locale}"}'
+        search: ''
+        filters: >-
+          {"type[eq]":"recipe","locale[eq]":"${locale}","fields.name[match]":"${search}"}
         orderBy: fields.publishDate_DESC
         contentTypes: recipe
   _locales:
     - en-US
     - de-DE
 created: '2024-04-24T11:42:04.721185+00:00'
-modified: '2024-06-07T12:40:08.426389+00:00'
+modified: '2024-09-27T16:38:21.05982+00:00'
 pattern: false

@@ -1,0 +1,9 @@
+id: a112117f-9b0d-4d1e-9946-99ba8094fb86
+name: Rich text playground
+order: 500
+path: /:locale/demos/rich-text-playground
+type: composition
+pathSegment: rich-text-playground
+data: {}
+compositionId: f4418d16-47c9-4841-b1e9-2f0252db2e80
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

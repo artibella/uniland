@@ -1,0 +1,59 @@
+composition:
+  _name: Post Link List (Query)
+  _id: c7603027-d7b5-4aa0-bbc0-d91fae02f4e5
+  type: linkList
+  slots:
+    items:
+      - _id: 55ad5d92-d87e-47ab-9629-54c873116428
+        type: $loop
+        slots:
+          body:
+            - _id: fda4b358-310a-42cb-9179-95d0d3fc55ec
+              type: linkListItem
+              parameters:
+                link:
+                  type: link
+                  value:
+                    path: >-
+                      /${locale}/blog/${#jptr:/Posts entries Loop
+                      Item/entry/_slug}
+                    type: projectMapNode
+                    nodeId: d947bbe8-7fe2-44e1-a628-d15557c43e42
+                    projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                    dynamicInputValues:
+                      slug: ${#jptr:/Posts entries Loop Item/entry/_slug}
+                      locale: ${locale}
+                title:
+                  type: text
+                  value: ${#jptr:/Posts entries Loop Item/entry/fields/title/value}
+                description:
+                  type: text
+                  value: >-
+                    ${#jptr:/Posts entries Loop
+                    Item/entry/fields/subtitle/value}
+              _overridability:
+                hideLockedParameters: true
+        _dataResources:
+          Posts entries Loop Item:
+            type: sys-reserved-loop
+            variables:
+              connectedData: '#jptr:/Posts/entries:fa=c'
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Posts:
+      type: blogPostList
+      variables:
+        limit: '10'
+        locale: ${locale}
+        offset: '3'
+        search: ''
+        contentTypes: blogPost
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+    - de-DE
+created: '2024-10-11T09:02:53.27951+00:00'
+modified: '2024-10-11T09:05:58.166939+00:00'
+pattern: true

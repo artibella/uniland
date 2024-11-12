@@ -1,0 +1,274 @@
+composition:
+  _name: Product page
+  _id: 6eb90d15-4002-42f5-b2fb-d7eaa07f2b2b
+  type: page
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Product/entry/fields/name/value}
+  slots:
+    hero:
+      - _id: ce615a51-a644-4952-bcfd-37d8f0110c4a
+        type: hero
+        slots:
+          ctas:
+            - _id: 28ada3af-1854-4ebf-968e-a733324e5eb3
+              type: callToAction
+              _pattern: 61b3ed78-effc-4ed6-8475-facd49b4cd8b
+            - _id: 56e25546-57b1-43a3-a549-6830433fff00
+              type: $slotSection
+              parameters:
+                max:
+                  type: text
+                  value: 1
+                name:
+                  type: text
+                  value: Extra CTA
+                specific:
+                  type: array
+                  value:
+                    - callToAction
+                groupType:
+                  type: text
+                  value: specific
+              _overridability:
+                hideLockedParameters: true
+          heading:
+            - _id: eacc68fd-c98a-45af-8e30-728bcf144569
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: ${#jptr:/Product/entry/fields/name/value}
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          body:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product/entry/fields/teaserText/value}
+          title:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product/entry/fields/name/value}
+          imageFit:
+            type: select
+            locales:
+              en-US: cover
+          imageUrl:
+            type: text
+            locales:
+              en-US: >-
+                ${#jptr:/Product/entry/fields/featuredImage/value/0/fields/url/value}
+          imageAltText:
+            type: text
+            locales:
+              en-US: ${#jptr:/Product/entry/fields/name/value}
+        _overridability:
+          hideLockedParameters: true
+    sections:
+      - _id: 96caeccc-24b6-4cbd-9ec7-fa634515792e
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 5eee3bc4-e74c-4959-a22a-4cd16d64a5f7
+              type: carousel
+              slots:
+                slides:
+                  - _id: a5be0b79-03d4-4276-bfac-939432a697f7
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 3b853bf5-defe-46a7-b246-e7fb2b5a2027
+                          type: imageBlock
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: e5cfc4dc-ec6a-498e-b21e-0ad8b3dc3e0c
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        ${#jptr:/Product Loop
+                                        Item/fields/image/value/0/fields/url/value:fa=c:fl=i}
+                                  _source: custom-url
+                          _overridability:
+                            hideLockedParameters: true
+                    _dataResources:
+                      Product Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: '#jptr:/Product/entry/fields/media/value:fa=c'
+                    _overridability:
+                      hideLockedParameters: true
+              _overridability:
+                hideLockedParameters: true
+          heading:
+            - _id: 0ee371ab-b222-4476-ae8c-35b26d9ece3c
+              type: heading
+              parameters:
+                theme:
+                  type: select
+                  value: dark
+                title:
+                  type: text
+                  locales:
+                    en-US: Images
+                tagName:
+                  type: select
+                  value: h3
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          theme:
+            type: select
+            locales:
+              en-US: dark
+          title:
+            type: text
+            locales:
+              en-US: Images
+      - _id: bce8c128-1702-4e43-ad64-ae11d39ee70f
+        type: $slotSection
+        parameters:
+          name:
+            type: text
+            value: Extra sections
+          specific:
+            type: array
+            value:
+              - sectionContainer
+              - $p:ecab3ea5-2141-4ae1-8223-dcac8028aba0
+          groupType:
+            type: text
+            value: specific
+        _overridability:
+          hideLockedParameters: true
+      - _id: b7a9ce68-5399-4401-8118-7dc2164895fe
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 0b7b0de1-7944-47e0-bda6-5a99dab59476
+              type: gridContainer
+              slots:
+                items:
+                  - _id: f27040a2-7a14-462f-919c-1bc6c26a332e
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: d8a12335-c8ee-45d2-8437-e80a49cc29f0
+                          type: card
+                          slots:
+                            actions:
+                              - _id: 4abaef6e-5879-4afb-ab38-1e081432e4c9
+                                type: callToAction
+                                parameters:
+                                  title:
+                                    type: text
+                                    locales:
+                                      en-US: Explore
+                                  internalLink:
+                                    type: link
+                                    value:
+                                      path: >-
+                                        /${locale}/shop/collections/${#jptr:/Product
+                                        value Loop Item/fields/slug/value}
+                                      type: projectMapNode
+                                      nodeId: 05eb23ca-be6a-4f43-9d31-41f9c10f6dd6
+                                      projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+                                      dynamicInputValues:
+                                        handle: >-
+                                          ${#jptr:/Product value Loop
+                                          Item/fields/slug/value}
+                                        locale: ${locale}
+                                _overridability:
+                                  hideLockedParameters: true
+                          parameters:
+                            body:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product value Loop
+                                  Item/fields/description/value}
+                            image:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product value Loop
+                                  Item/fields/image/value/0/fields/url/value}
+                            title:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Product value Loop
+                                  Item/fields/name/value}
+                            byline:
+                              type: text
+                              locales:
+                                en-US: Collection
+                          _overridability:
+                            hideLockedParameters: true
+                    _dataResources:
+                      Product value Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          limit: '3'
+                          connectedData: '#jptr:/Product/entry/fields/collections/value:fa=c'
+                    _overridability:
+                      hideLockedParameters: true
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+              _overridability:
+                hideLockedParameters: true
+          heading:
+            - _id: 43d20293-e276-4283-8235-610e49dd8524
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Browse collections
+              _overridability:
+                hideLockedParameters: true
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Related collections
+        _overridability:
+          hideLockedParameters: true
+  _dataResources:
+    Product:
+      type: product
+      variables:
+        locale: ${locale}
+        entryId: b0ddf1cb-87d6-41a9-aa84-8fc84d2807af
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _overrides:
+    28ada3af-1854-4ebf-968e-a733324e5eb3:
+      parameters:
+        internalLink:
+          type: link
+          value:
+            path: /:locale/shop/:product
+            type: projectMapNode
+            nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
+            projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+            dynamicInputValues:
+              locale: ${locale}
+              product: ${#jptr:/Product/entry/_slug}
+  _overridability:
+    hideLockedParameters: true
+  _locales:
+    - en-US
+created: '2024-09-04T14:02:50.643562+00:00'
+modified: '2024-09-12T22:55:20.572479+00:00'
+pattern: true
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1725459473/Uniland/compositions/product-page_gwl70b.png

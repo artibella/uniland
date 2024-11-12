@@ -1,6 +1,7 @@
 id: recipeList
 displayName: Recipe List
 ttl: 30
+body: ''
 path: /query
 custom:
   maxDepth: 2

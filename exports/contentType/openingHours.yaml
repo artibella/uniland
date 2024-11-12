@@ -1,7 +1,7 @@
 id: openingHours
 name: Opening hours
 created: '2023-11-01T11:01:53.666605+00:00'
-updated: '2024-08-02T10:52:48.933633+00:00'
+updated: '2024-09-06T11:45:49.078406+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -27,6 +27,11 @@ fields:
       regex: ^[0-9]{1,2}:[0-9]{2}$
       regexMessage: 'Enter a valid time format: e.g. 11:30'
     localizable: false
+  - id: isClosed
+    name: Is closed
+    type: checkbox
+    helpText: Check this if the company is closed on that day
+    typeConfig: null
 entryName: day
 description: ''
 icon: sand-clock

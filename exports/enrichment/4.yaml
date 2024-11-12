@@ -1,6 +1,8 @@
 id: '4'
-name: Berlin
+name: Region
 cap: 500
 values:
   - id: '1'
-    value: berlin
+    value: Berlin
+  - id: '2'
+    value: New York

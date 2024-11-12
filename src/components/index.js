@@ -24,6 +24,7 @@ import ImageGallery from './ImageGallery';
 import Logos from './Logos';
 import Pagination from './Pagination';
 import Button from './Button';
+import Carousel from './Carousel/index.jsx';
 
 const ComponentsMap = {
   navigation: Navigation,
@@ -51,6 +52,7 @@ const ComponentsMap = {
   logos: Logos,
   pagination: Pagination,
   button: Button,
+  carousel: Carousel,
 };
 
 const initComponents = () => {

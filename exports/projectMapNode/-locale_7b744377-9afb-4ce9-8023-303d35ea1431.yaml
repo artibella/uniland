@@ -1,10 +1,17 @@
 id: 7b744377-9afb-4ce9-8023-303d35ea1431
 name: Home
-type: composition
-data:
-  previewValue: ''
 order: 150
 path: /:locale
-compositionId: 786faa4e-bb64-4891-a6a6-ddd4f4805d8c
+type: composition
 pathSegment: ':locale'
+data:
+  previewValue: ''
+  queryStrings:
+    - name: utm_source
+      value: ''
+      helpText: UTM source
+    - name: utm_campaign
+      value: ''
+      helpText: UTM campaign
+compositionId: 786faa4e-bb64-4891-a6a6-ddd4f4805d8c
 projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

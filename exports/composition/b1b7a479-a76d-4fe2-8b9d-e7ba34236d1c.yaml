@@ -29,7 +29,9 @@ composition:
                 byline:
                   type: text
                   locales:
-                    de-DE: Von ${#jptr:/Post/entry/fields/author/value:fa=p:fl=i}
+                    de-DE: >-
+                      By
+                      ${#jptr:/Post/entry/fields/authors/value/0/entry/fields/name/value}
                     en-US: >-
                       By
                       ${#jptr:/Post/entry/fields/authors/value/0/entry/fields/name/value}
@@ -55,9 +57,9 @@ composition:
             type: text
             locales:
               de-DE: >-
-                ${#jptr:/Post/entry/fields/postImage/value:fl=i:fd=https\;//images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q\+80&w}
+                ${#jptr:/Post/entry/fields/image/value/0/fields/url/value:fl=i:fd=https\;//images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q\+80&w}
               en-US: >-
-                ${#jptr:/Post/entry/fields/postImage/value:fl=i:fd=https\;//images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q\+80&w}
+                ${#jptr:/Post/entry/fields/image/value/0/fields/url/value:fl=i:fd=https\;//images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?q\+80&w}
           imageAltText:
             type: text
             locales:
@@ -79,6 +81,92 @@ composition:
                 textAlign:
                   type: select
                   value: left
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: has
+                    rule: $dt
+                    value: richText
+                    source: ${#jptr:/Post/entry/fields/postBody/type}
+          title:
+            type: text
+            locales:
+              en-US: Basic article
+      - _id: 04bcee33-00c0-4d3d-a2d1-8e3796650926
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 5bc7052d-7d33-44a9-adfe-d9f959ae97aa
+              type: $loop
+              slots:
+                body:
+                  - _id: 4c208f04-8ffe-43ce-9541-33815ff5d1d7
+                    type: textBlock
+                    parameters:
+                      $viz:
+                        type: $viz
+                        value:
+                          criteria:
+                            clauses:
+                              - op: has
+                                rule: $dt
+                                value: textBlock
+                                source: ${#jptr:/Post value Loop Item/type}
+                      title:
+                        type: text
+                        locales:
+                          en-US: ${#jptr:/Post value Loop Item/fields/title/value}
+                      richText:
+                        type: richText
+                        locales:
+                          en-US: ${#jptr:/Post value Loop Item/fields/body/value}
+                  - _id: 63b87e8f-d3f8-4227-bd74-8860e2c3830b
+                    type: imageBlock
+                    parameters:
+                      $viz:
+                        type: $viz
+                        value:
+                          criteria:
+                            clauses:
+                              - op: is
+                                rule: $dt
+                                value: imageBlock
+                                source: ${#jptr:/Post value Loop Item/type}
+                      image:
+                        type: asset
+                        value: ${#jptr:/Post value Loop Item/fields/image/value}
+                      title:
+                        type: text
+                        value: ${#jptr:/Post value Loop Item/fields/title/value}
+                      caption:
+                        type: text
+                        value: ${#jptr:/Post value Loop Item/fields/title/value}
+                      borderRadius:
+                        type: select
+                        value: 2xl
+              _dataResources:
+                Post value Loop Item:
+                  type: sys-reserved-loop
+                  variables:
+                    skip: ''
+                    connectedData: '#jptr:/Post/entry/fields/postContent/value:fa=c'
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: has
+                    rule: $dt
+                    value: $block
+                    source: ${#jptr:/Post/entry/fields/postContent/type}
+          title:
+            type: text
+            locales:
+              en-US: Modular article
       - _id: 981bfa98-aee5-42aa-b77c-f54de8dc8288
         type: sectionContainer
         slots:
@@ -134,5 +222,5 @@ composition:
     - en-US
     - de-DE
 created: '2023-05-22T22:39:10.655331+00:00'
-modified: '2024-08-08T12:52:59.082149+00:00'
+modified: '2024-10-29T10:46:45.198801+00:00'
 pattern: false

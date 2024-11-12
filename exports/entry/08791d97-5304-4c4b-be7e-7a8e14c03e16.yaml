@@ -1,5 +1,5 @@
 created: '2024-08-13T09:23:43.76845+00:00'
-modified: '2024-08-15T16:54:42.713621+00:00'
+modified: '2024-09-13T17:21:05.775518+00:00'
 pattern: false
 entry:
   _id: 08791d97-5304-4c4b-be7e-7a8e14c03e16
@@ -201,6 +201,9 @@ entry:
     dishTypes:
       type: contentReference
       value: ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-dishTypes/entries}
+    occasions:
+      type: contentReference
+      value: ${#jptr:/ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-occasions/entries}
     sourceUrl:
       type: link
       value:
@@ -316,6 +319,21 @@ entry:
               type: text
               locales:
                 en-US: (5 ounces; 140g), thinly sliced
+        - _id: e97e3560-e49e-4f6c-a297-d92fc93584df
+          type: recipeIngredient
+          fields:
+            name:
+              type: text
+              locales:
+                en-US: Freshly ground black pepper
+            ingredientText:
+              type: text
+              locales:
+                en-US: black pepper
+            ingredientPrefix:
+              type: text
+              locales:
+                en-US: Freshly ground
         - _id: 8e27c173-d257-44de-bf5f-1551fe36c5d4
           type: recipeIngredient
           fields:
@@ -341,56 +359,12 @@ entry:
               type: text
               locales:
                 en-US: roughly chopped fresh
-            substituteIngredients:
-              type: contentReference
-              value: >-
-                ${#jptr:/ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-substituteIngredients/entries}
           _dataResources:
             ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-ingredient:
               type: uniformContentInternalReference
               variables:
-                entryIds: 32ed8f5e-0c4d-487f-b9d5-437c1c367b32
-            ref-8e27c173-d257-44de-bf5f-1551fe36c5d4-substituteIngredients:
-              type: uniformContentInternalReference
-              variables:
-                entryIds: >-
-                  18b566a2-58ac-45f0-9d9d-06bb3101905f,1ac4ec08-e437-465e-a5b8-80a2f7bc4eba,32ed8f5e-0c4d-487f-b9d5-437c1c367b32
-        - _id: e97e3560-e49e-4f6c-a297-d92fc93584df
-          type: recipeIngredient
-          fields:
-            name:
-              type: text
-              locales:
-                en-US: Freshly ground black pepper
-            ingredientText:
-              type: text
-              locales:
-                en-US: black pepper
-            ingredientPrefix:
-              type: text
-              locales:
-                en-US: Freshly ground
-        - _id: 81c49616-37bc-4751-a86a-fcd23181c110
-          type: recipeIngredient
-          fields:
-            ingredient:
-              type: contentReference
-              value: >-
-                ${#jptr:/ref-81c49616-37bc-4751-a86a-fcd23181c110-ingredient/entries/0}
-            substituteIngredients:
-              type: contentReference
-              value: >-
-                ${#jptr:/ref-81c49616-37bc-4751-a86a-fcd23181c110-substituteIngredients/entries}
-          _dataResources:
-            ref-81c49616-37bc-4751-a86a-fcd23181c110-ingredient:
-              type: uniformContentInternalReference
-              variables:
-                entryIds: 32ed8f5e-0c4d-487f-b9d5-437c1c367b32
-            ref-81c49616-37bc-4751-a86a-fcd23181c110-substituteIngredients:
-              type: uniformContentInternalReference
-              variables:
-                entryIds: >-
-                  32ed8f5e-0c4d-487f-b9d5-437c1c367b32,1ac4ec08-e437-465e-a5b8-80a2f7bc4eba,18b566a2-58ac-45f0-9d9d-06bb3101905f
+                locale: ${locale}
+                entryIds: 19677436-0aee-4bd3-88c3-866ca1244989
     publishDate:
       type: date
       value: '2024-08-13'
@@ -760,17 +734,23 @@ entry:
     ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-seasons:
       type: uniformContentInternalReference
       variables:
+        locale: ${locale}
         entryIds: >-
-          79a002a3-7991-4e42-8003-a4c5d22f14a3,17192f38-cf77-461f-bb4e-f45a5cce7ca9,0aea1583-2f31-44c8-a5a1-114961bf6f29,09d54f99-500b-434c-afbd-c555772d9b3a
+          17192f38-cf77-461f-bb4e-f45a5cce7ca9,79a002a3-7991-4e42-8003-a4c5d22f14a3,09d54f99-500b-434c-afbd-c555772d9b3a,0aea1583-2f31-44c8-a5a1-114961bf6f29
     ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-cuisines:
       type: uniformContentInternalReference
       variables:
-        entryIds: >-
-          7da277be-785a-4c12-badd-323c4ee97c14,446ea9a3-1138-46e0-b083-f05c028d5360,9669ce2c-4524-4487-8392-ce5e10b6491f
+        locale: ${locale}
+        entryIds: 7da277be-785a-4c12-badd-323c4ee97c14
     ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-dishTypes:
       type: uniformContentInternalReference
       variables:
         entryIds: dcd857dc-f70d-4651-94ed-14adbcdce61a
+    ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-occasions:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: bb06c7d1-4b02-413b-9f95-919adb042eb9
     ref-08791d97-5304-4c4b-be7e-7a8e14c03e16-cookingMethods:
       type: uniformContentInternalReference
       variables:

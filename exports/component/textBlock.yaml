@@ -10,13 +10,6 @@ parameters:
     typeConfig:
       multiline: false
     localizable: true
-  - id: body
-    name: Body
-    type: text
-    typeConfig:
-      multiline: true
-      linesCount: '10'
-    localizable: true
   - id: richText
     name: Rich text
     type: richText
@@ -35,6 +28,7 @@ parameters:
           - quote
           - code
           - variable
+          - table
       required: false
       formatting:
         builtIn:
@@ -52,8 +46,17 @@ parameters:
     typeConfig:
       collapsed: true
       childrenParams:
+        - body
         - externalRichText
         - richTextType
+  - id: body
+    name: Markdown
+    type: text
+    helpText: Use for content that is formatted in Markdown
+    typeConfig:
+      multiline: true
+      linesCount: 5
+    localizable: true
   - id: externalRichText
     name: External Rich Text
     type: json
@@ -80,8 +83,8 @@ parameters:
     typeConfig:
       collapsed: true
       childrenParams:
-        - theme
         - textAlign
+        - theme
   - id: textAlign
     name: Text align
     type: select
@@ -114,4 +117,4 @@ slots: []
 titleParameter: title
 canBeComposition: false
 created: '2022-12-15T14:08:27.903269+00:00'
-updated: '2024-07-18T14:00:49.488639+00:00'
+updated: '2024-09-05T17:41:52.424441+00:00'

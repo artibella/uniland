@@ -1,5 +1,5 @@
 created: '2024-07-11T10:05:16.600457+00:00'
-modified: '2024-08-12T07:54:27.767988+00:00'
+modified: '2024-09-09T15:14:04.369906+00:00'
 pattern: false
 entry:
   _id: 7da277be-785a-4c12-badd-323c4ee97c14
@@ -29,6 +29,14 @@ entry:
       type: multi-select
       value:
         - National
-  _dataResources: {}
+    childCuisines:
+      type: contentReference
+      value: ${#jptr:/ref-7da277be-785a-4c12-badd-323c4ee97c14-childCuisines/entries}
+  _dataResources:
+    ref-7da277be-785a-4c12-badd-323c4ee97c14-childCuisines:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: e69adbda-6f5a-4d1b-9327-1cafa58c0c57
   _locales:
     - en-US

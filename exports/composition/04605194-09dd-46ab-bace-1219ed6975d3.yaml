@@ -23,7 +23,6 @@ composition:
                   locales:
                     da-DK: Default
                     de-DE: Default
-                    en-US: Default
                   localesConditions:
                     da-DK:
                       - id: 0
@@ -60,10 +59,6 @@ composition:
                               value: Sneakers
                               source: ${#jptr:/Product/entry/fields/name/value}
                         value: Shoes
-                      - id: 1
-                        when:
-                          clauses: []
-                        value: Default
                 tagName:
                   type: select
                   value: h1
@@ -131,5 +126,5 @@ composition:
     - de-DE
     - da-DK
 created: '2023-06-07T08:49:36.736468+00:00'
-modified: '2024-08-16T11:49:43.288059+00:00'
+modified: '2024-09-04T14:07:55.904452+00:00'
 pattern: false

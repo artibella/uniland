@@ -1,0 +1,9 @@
+id: 7a9361f0-02e2-4ba9-9516-3efb36fa3c6d
+name: Grey sneakers
+order: 500
+path: /:locale/shop/grey-sneakers
+type: composition
+pathSegment: grey-sneakers
+data: {}
+compositionId: 81b61386-46d8-4e48-b625-22e7e9397ad6
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
