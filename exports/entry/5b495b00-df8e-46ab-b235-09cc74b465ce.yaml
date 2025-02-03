@@ -1,5 +1,5 @@
 created: '2024-07-29T16:03:00.945738+00:00'
-modified: '2024-07-29T16:04:08.947837+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 5b495b00-df8e-46ab-b235-09cc74b465ce
@@ -35,6 +35,7 @@ entry:
                   Minor</a> on <a
                   href="https://unsplash.com/s/photos/pho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
             _source: custom-url
+      value: []
     types:
       type: multi-select
       value:

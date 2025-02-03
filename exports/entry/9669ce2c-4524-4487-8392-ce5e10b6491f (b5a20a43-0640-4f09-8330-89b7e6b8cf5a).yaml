@@ -1,0 +1,21 @@
+created: '2024-09-30T10:05:00.178982+00:00'
+modified: '2024-09-30T10:05:00.178982+00:00'
+pattern: false
+editionId: b5a20a43-0640-4f09-8330-89b7e6b8cf5a
+editionName: EU Version
+entry:
+  _id: 9669ce2c-4524-4487-8392-ce5e10b6491f
+  _name: Peruvian
+  _slug: peruvian
+  type: cuisine
+  fields:
+    name:
+      type: text
+      locales:
+        de-DE: Peruanisch
+    types:
+      type: multi-select
+      value:
+        - National
+  _locales:
+    - de-DE

@@ -1,5 +1,5 @@
 created: '2024-07-11T10:05:19.861437+00:00'
-modified: '2024-07-29T13:26:51.750486+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: b23ff0e4-3c81-49f9-8a3c-484c25e5be8d
@@ -25,6 +25,7 @@ entry:
                 value: >-
                   https://www.uniform.dev/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9ku1oyd4k3wo%2F214syx45jCvpil0ulaUseh%2F53ce65fe8be923ea1c500483a67ebab4%2FComposableRoadshow_GuestSpeakers_darrenG.png&w=256&q=100
             _source: custom-url
+      value: []
     jobTitle:
       type: text
       locales:

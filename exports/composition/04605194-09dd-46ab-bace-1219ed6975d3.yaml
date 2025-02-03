@@ -3,6 +3,10 @@ composition:
   _id: 04605194-09dd-46ab-bace-1219ed6975d3
   _slug: ':product'
   type: page
+  parameters:
+    title:
+      type: text
+      value: ${#jptr:/Product/entry/fields/name/value}
   slots:
     hero:
       - _id: 75f5667b-5d8b-4a5e-bdd0-7032a36898af
@@ -69,6 +73,10 @@ composition:
               da-DK: ${#jptr:/Product/entry/fields/teaserText/value}
               de-DE: ${#jptr:/Product/entry/fields/teaserText/value}
               en-US: ${#jptr:/Product/entry/fields/teaserText/value}
+          title:
+            type: text
+            locales:
+              en-US: Product hero
           imageUrl:
             type: text
             locales:
@@ -106,6 +114,9 @@ composition:
                                         ${#jptr:/Product Loop
                                         Item/fields/image/value/0/fields/url/value:fa=c:fl=i}
                                   _source: custom-url
+                            title:
+                              type: text
+                              value: Image
                     _dataResources:
                       Product Loop Item:
                         type: sys-reserved-loop
@@ -115,6 +126,15 @@ composition:
                 columns:
                   type: number
                   value: '4'
+                internalName:
+                  type: text
+                  locales:
+                    en-US: Image grid
+        parameters:
+          title:
+            type: text
+            locales:
+              en-US: Product images
   _dataResources:
     Product:
       type: productBySlug
@@ -126,5 +146,5 @@ composition:
     - de-DE
     - da-DK
 created: '2023-06-07T08:49:36.736468+00:00'
-modified: '2024-09-04T14:07:55.904452+00:00'
+modified: '2024-11-27T20:22:04.002641+00:00'
 pattern: false

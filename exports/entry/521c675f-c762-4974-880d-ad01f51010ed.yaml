@@ -1,5 +1,5 @@
 created: '2023-12-12T13:31:40.930246+00:00'
-modified: '2024-04-03T19:14:32.676387+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 521c675f-c762-4974-880d-ad01f51010ed
@@ -43,6 +43,7 @@ entry:
                 value: image/png
                 type: text
             _source: uniform-assets
+      value: []
     name:
       type: text
       value: 5 Guys München Passing Arcaden
@@ -230,6 +231,7 @@ entry:
                         type: text
                         value: ''
                     _source: uniform-assets
+              value: []
             name:
               type: text
               locales:
@@ -275,6 +277,7 @@ entry:
                         type: text
                         value: ''
                     _source: uniform-assets
+              value: []
             name:
               type: text
               locales:
@@ -320,6 +323,7 @@ entry:
                         type: text
                         value: ''
                     _source: uniform-assets
+              value: []
             name:
               type: text
               locales:

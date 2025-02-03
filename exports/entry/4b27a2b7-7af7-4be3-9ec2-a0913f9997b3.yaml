@@ -1,5 +1,5 @@
 created: '2024-07-29T16:01:30.01721+00:00'
-modified: '2024-07-29T16:02:39.278417+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 4b27a2b7-7af7-4be3-9ec2-a0913f9997b3
@@ -31,6 +31,7 @@ entry:
                 type: text
                 value: Chinese food being prepared in a Wok
             _source: custom-url
+      value: []
     types:
       type: multi-select
       value:

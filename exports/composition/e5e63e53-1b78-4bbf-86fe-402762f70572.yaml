@@ -30,6 +30,7 @@ composition:
                                     en-US: >-
                                       ${#jptr:/Restaurant value Loop
                                       Item/fields/logo/value}
+                                  value: []
                                 name:
                                   type: text
                                   locales:

@@ -1,5 +1,5 @@
 created: '2024-07-29T15:58:21.013954+00:00'
-modified: '2024-07-29T15:59:27.283143+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 8e012aae-368f-4f6f-9b13-9aa57f21800a
@@ -28,6 +28,7 @@ entry:
                 type: text
                 value: Curries
             _source: custom-url
+      value: []
     types:
       type: multi-select
       value:

@@ -1,5 +1,5 @@
 created: '2023-10-28T13:31:09.722692+00:00'
-modified: '2024-07-11T10:05:02.274587+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 371b1719-6298-4a18-b59d-dc67c6b2aad2
@@ -109,6 +109,7 @@ entry:
                                   Loop
                                   Item/entry/fields/image/value/0/fields/url/value}
                             _source: custom-url
+                      value: []
           _dataResources:
             Product collections Content entries Loop Item:
               type: sys-reserved-loop
@@ -138,6 +139,7 @@ entry:
       type: asset
       locales:
         en-US: []
+      value: []
   _dataResources:
     Product by handle Content:
       type: productByHandle

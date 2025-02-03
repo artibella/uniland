@@ -16,6 +16,8 @@ const config: CLIConfiguration = {
       asset: {},
       contentType: {},
       entry: { publish: true },
+      previewViewport: {},
+      previewUrl: {},
       redirect: {},
       quirk: {},
       enrichment: {},

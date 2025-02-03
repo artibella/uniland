@@ -1,0 +1,2073 @@
+composition:
+  _name: Home
+  _id: 786faa4e-bb64-4891-a6a6-ddd4f4805d8c
+  _slug: /
+  type: page
+  parameters:
+    title:
+      type: text
+      value: Home
+  slots:
+    hero:
+      - _id: f80601a7-449d-4dd2-8229-425be9f9bcf9
+        type: hero
+        slots:
+          heading:
+            - _id: 3c1de273-8595-4e8d-905a-8bc4895069ec
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    da-DK: Stop being blocked by your tech
+                    de-DE: EUniland
+                    it-IT: Stop being blocked by your tech
+                tagName:
+                  type: select
+                  value: h1
+        parameters:
+          body:
+            type: text
+            locales:
+              da-DK: |
+                Uniland is an example landing page built with Uniform.dev
+              de-DE: |
+                Uniland is an example landing page built with Uniform.dev
+              it-IT: |
+                Uniland is an example landing page built with Uniform.dev
+          title:
+            type: text
+            locales:
+              da-DK: Default
+              it-IT: Default
+          imageFit:
+            type: select
+            locales:
+              da-DK: contain
+              de-DE: contain
+              it-IT: contain
+          imageUrl:
+            type: text
+            locales:
+              da-DK: >-
+                https://images.ctfassets.net/9ku1oyd4k3wo/2HUzabTa59pnJ3MU5tokXg/dfe55a01f15e86c9c4e7b48c4caeb16f/Hero_Home_Hero_1.svg
+              de-DE: >-
+                https://images.ctfassets.net/9ku1oyd4k3wo/2HUzabTa59pnJ3MU5tokXg/dfe55a01f15e86c9c4e7b48c4caeb16f/Hero_Home_Hero_1.svg
+              it-IT: >-
+                https://images.ctfassets.net/9ku1oyd4k3wo/2HUzabTa59pnJ3MU5tokXg/dfe55a01f15e86c9c4e7b48c4caeb16f/Hero_Home_Hero_1.svg
+    sections:
+      - _id: 11754546-ada3-4633-a8a3-0139185b4f59
+        type: sectionContainer
+        slots:
+          content:
+            - _id: f1a952de-503d-4509-a971-ec4cc9b16f85
+              type: card
+              _pattern: 18d652ed-8088-4656-9589-29c68093c831
+              _dataResources:
+                Post:
+                  type: blogPost
+                  variables:
+                    locale: ${locale},en-US
+                    entryId: 6ecbbb3e-817c-4d89-a603-67489892bfaf
+          heading:
+            - _id: 9c3009e5-8042-494c-a70b-bd09985e5769
+              type: heading
+              parameters:
+                theme:
+                  type: select
+                  value: dark
+                title:
+                  type: text
+                  locales:
+                    da-DK: Demo
+                    de-DE: Demo
+                    it-IT: Demo
+        parameters:
+          theme:
+            type: select
+            locales:
+              da-DK: dark
+              de-DE: dark
+              it-IT: dark
+          title:
+            type: text
+            locales:
+              da-DK: Demo
+              de-DE: Demo
+              it-IT: Demo
+      - _id: 0b120ba5-d1b4-4784-bb65-67cd8b1fcd3d
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 5f0f62b5-2181-438a-b178-be5bb166c973
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 3dde454b-412e-4d9e-92f0-68377817d33a
+                    type: textBlock
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          de-DE: Learn and innovate—outpace your competition!
+                      locale:
+                        type: localeSelect
+                        value: en-US
+                      richText:
+                        type: richText
+                        locales:
+                          da-DK:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        This is a component that is controlled
+                                        by a 
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: deviceType
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 16
+                                      version: 1
+                                    - mode: normal
+                                      text: >-
+                                        quirk which is emitted on browser resize
+                                        events.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                              direction: ltr
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        When change happens and you need to add
+                                        new channels or features to meet it, you
+                                        can’t afford to be held back by tools or
+                                        begin a slow and expensive replatforming
+                                        process. 
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        With Uniform, you can add, remove, or
+                                        adapt services as necessary to innovate,
+                                        optimize, and stay ahead of the market
+                                        for the long term because there’s no
+                                        glue-code to take apart and rebuild
+                                        manually. Uniform Mesh configures every
+                                        integration so you’re never late to the
+                                        game.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+                          it-IT:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        This is a component that is controlled
+                                        by a 
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                    - mode: normal
+                                      text: deviceType
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 16
+                                      version: 1
+                                    - mode: normal
+                                      text: >-
+                                        quirk which is emitted on browser resize
+                                        events.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                              direction: ltr
+                rightContent:
+                  - _id: 4dd86207-cd53-4937-85ce-bc0c6631eee1
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: bee7421f-bf6d-4e7c-b45f-c5f331d20daa
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.unsplash.com/photo-1565849904461-04a58ad377e0?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+                            _source: custom-url
+                      imageFit:
+                        type: select
+                        value: cover
+                      imageWidth:
+                        type: select
+                        value: width-full
+                      aspectRatio:
+                        type: select
+                        value: square
+                      borderRadius:
+                        type: select
+                        value: full
+              parameters:
+                layout:
+                  type: select
+                  value: split-50-50
+                locale:
+                  type: localeSelect
+                  value: en-US
+                gapSize:
+                  type: select
+                  value: xl
+                leftColumnVerticalAlignment:
+                  type: select
+                  value: center
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: is
+                    rule: $qk
+                    value: m
+                    source: deviceType
+          theme:
+            type: select
+            locales:
+              da-DK: ice
+              de-DE: spring
+              it-IT: ice
+      - _id: d35e7ff3-d7be-47c7-9c82-0dad741a8182
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 6bb326e8-3657-4d93-b82e-867f1c29f33d
+              type: twoColumns
+              _pattern: df1b8a6d-eb52-48da-9154-1713b8fc35fc
+            - _id: a34dd3cb-02d0-41a4-aa88-97b4b7132ee1
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: 48fb5819-005e-46b4-9769-ea2e11a2171d
+                    type: imageBlock
+                    parameters:
+                      altText:
+                        type: text
+                        value: Component libary
+                      imageFit:
+                        type: select
+                        value: ''
+                      imageUrl:
+                        type: image
+                        value: >-
+                          https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1200,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/55tDP2HiuMeLsT4uhULiBd/832dd50645fe2543a0c77b65fc5be240/Home_Hero_Component_Library_2.jpg
+                      aspectRatio:
+                        type: select
+                        value: auto
+                      borderRadius:
+                        type: select
+                        value: ''
+                      imagePosition:
+                        type: select
+                        value: right
+                rightContent:
+                  - _id: 682d2f58-36d1-4b98-9fb9-fd2c9edc6749
+                    type: imageBlock
+                    _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
+                  - _id: 8b987e67-95e6-4bec-8412-238cf6821e01
+                    type: textBlock
+                    parameters:
+                      body:
+                        type: text
+                        locales:
+                          it-IT: |+
+
+                      title:
+                        type: text
+                        locales:
+                          da-DK: Tilslut dine designkomponenter
+                          de-DE: Verbinden Sie Ihre Designkomponenten
+                          it-IT: Connect your design components
+                      richText:
+                        type: richText
+                        locales:
+                          da-DK:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >
+                                        At tilslutte front-end-komponenter og
+                                        variationer til Uniform tager kun nogle
+                                        få minutter, hvorefter
+                                        forretningsbrugere kan sammensætte
+                                        digitale oplevelser til enhver kanal
+                                        uden support fra en udvikler - enten med
+                                        et eksisterende designsystem eller et
+                                        nyt udseende. Vælg blot de komponenter,
+                                        der hjælper med at fortælle din
+                                        historie, tilføj indholdet fra en
+                                        tilsluttet tjeneste og udgiv derefter på
+                                        enhver kanal.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                              direction: ltr
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >
+                                        Das Verbinden von Front-End-Komponenten
+                                        und Varianten mit Uniform dauert nur
+                                        wenige Minuten, danach können
+                                        Geschäftsanwender ohne Unterstützung von
+                                        Entwicklern digitale Erlebnisse für
+                                        jeden Kanal zusammenstellen - entweder
+                                        mit einem bestehenden Designsystem oder
+                                        einem neuen Look. Wählen Sie einfach die
+                                        Komponenten aus, die helfen, Ihre
+                                        Geschichte zu erzählen, fügen Sie den
+                                        Inhalt aus einem verbundenen Service
+                                        hinzu und veröffentlichen Sie dann auf
+                                        jedem Kanal.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                              direction: ltr
+                          it-IT:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >
+                                        Connecting front-end components and
+                                        variations to Uniform only takes
+                                        minutes, after which business users can
+                                        assemble digital experiences for any
+                                        channel without developer support -
+                                        either with an existing design system or
+                                        a new look. Just choose the components
+                                        that help tell your story, add the
+                                        content from a connected service, then
+                                        publish to any channel.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+                      textAlign:
+                        type: select
+                        value: ''
+              parameters:
+                layout:
+                  type: select
+                  value: split-50-50
+                gapSize:
+                  type: select
+                  value: medium
+                mobileReverseOrder:
+                  type: checkbox
+                  value: true
+                leftColumnVerticalAlignment:
+                  type: select
+                  value: center
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+                leftColumnHorizontalAlignment:
+                  type: select
+                  value: center
+                rightColumnHorizontalAlignment:
+                  type: select
+                  value: start
+            - _id: 719c15e9-c117-4d20-883a-9207ab542f00
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: bdd333a8-f5e2-4ace-a028-5290a6eeb33c
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 8fc26d8e-072a-4085-9682-26e427df86fe
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/4jERsKHcSzCD3f0J3IQ6J8/85338cfe6631e7c18b5f68c50fe829bb/Icon_Create.svg
+                            _source: custom-url
+                      altText:
+                        type: text
+                        value: Icon +
+                      imageWidth:
+                        type: select
+                        value: icon-xl
+                  - _id: 3b822563-2569-4d87-9df9-aed05d728764
+                    type: textBlock
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          da-DK: Bemyndig Markedsførere med Canvas
+                          de-DE: Befähigen Sie Marketer mit Canvas
+                          it-IT: Empower Marketers with Canvas
+                      richText:
+                        type: richText
+                        locales:
+                          da-DK:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        Headless tools make life slow and
+                                        complex for business users, who need to
+                                        jump between countless tools and tabs,
+                                        click through various levels of content,
+                                        and “publish and pray” without effective
+                                        previews. Uniform DXC eliminates these
+                                        daily stresses. Marketers,
+                                        merchandisers, and other business teams
+                                        can use Canvas to create immersive
+                                        experiences with no coding and instantly
+                                        preview their changes. That means
+                                        business teams can independently publish
+                                        without support from developers, who are
+                                        then free to focus on building new
+                                        features.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                              direction: ltr
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        Headless Tools machen das Leben für
+                                        Geschäftsanwender langsam und komplex,
+                                        da sie zwischen zahllosen Tools und Tabs
+                                        wechseln, durch verschiedene
+                                        Content-Ebenen klicken und
+                                        "veröffentlichen und beten" müssen, ohne
+                                        wirksame Voransichten zu haben. Uniform
+                                        DXC beseitigt diese täglichen
+                                        Belastungen. Vermarkter, Einzelhändler
+                                        und andere Geschäftsteams können Canvas
+                                        verwenden, um immersive Erlebnisse ohne
+                                        Programmierung zu erstellen und ihre
+                                        Änderungen sofort anzusehen. Das
+                                        bedeutet, dass Geschäftsteams unabhängig
+                                        und ohne Unterstützung von Entwicklern
+                                        veröffentlichen können, die dann frei
+                                        sind, sich auf die Erstellung neuer
+                                        Funktionen zu konzentrieren.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                  textStyle: ''
+                                  textFormat: 0
+                              direction: ltr
+                          it-IT:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        Headless tools make life slow and
+                                        complex for business users, who need to
+                                        jump between countless tools and tabs,
+                                        click through various levels of content,
+                                        and “publish and pray” without effective
+                                        previews. Uniform DXC eliminates these
+                                        daily stresses. Marketers,
+                                        merchandisers, and other business teams
+                                        can use Canvas to create immersive
+                                        experiences with no coding and instantly
+                                        preview their changes. That means
+                                        business teams can independently publish
+                                        without support from developers, who are
+                                        then free to focus on building new
+                                        features.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                              direction: ltr
+                rightContent:
+                  - _id: 8d83c2db-9c61-4953-a6e2-eb8e815f9a4d
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 53450629-8929-4aad-9d98-fe3400113858
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/1dmhwIgHeSdfJu9JZ3JyIK/84a04c0afd138871b5ba5bbb260a5e6e/Hero_Canvas.jpg
+                            _source: custom-url
+                      altText:
+                        type: text
+                        value: Empower marketers
+                      imageWidth:
+                        type: select
+                        value: ''
+              parameters:
+                layout:
+                  type: select
+                  value: split-50-50
+                gapSize:
+                  type: select
+                  value: medium
+                leftColumnVerticalAlignment:
+                  type: select
+                  value: center
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+                leftColumnHorizontalAlignment:
+                  type: select
+                  value: start
+                rightColumnHorizontalAlignment:
+                  type: select
+                  value: start
+            - _id: f931ad58-8ddd-4e35-8a9d-060307226aa5
+              type: twoColumns
+              slots:
+                leftContent:
+                  - _id: ec59f1ad-84ca-46d3-a366-c3cfdda46b93
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: f4fcbb5e-a000-44de-afb7-86a2f6b1adc3
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/7C4QIikWjOcBahtJDwa5Rn/f3f545aefb89fbb37b2ad0934fff539e/Home_Hero_Speed_1.jpg
+                            _source: custom-url
+                      altText:
+                        type: text
+                        value: Illustration web core vitals
+                      imageFit:
+                        type: select
+                        value: ''
+                      aspectRatio:
+                        type: select
+                        value: auto
+                      borderRadius:
+                        type: select
+                        value: ''
+                      imagePosition:
+                        type: select
+                        value: right
+                rightContent:
+                  - _id: 2bfa7616-e581-450e-b17d-65c3017f2674
+                    type: imageBlock
+                    parameters:
+                      image:
+                        type: asset
+                        value:
+                          - _id: 6eea40dc-a2fd-4cb5-a4de-96ca254545e5
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  https://images.ctfassets.net/9ku1oyd4k3wo/2RNxUM1EMZQrhGYkCKOBm/611af48a3a519a386b499c3c8d097276/Icon_Speed.svg
+                            _source: custom-url
+                      altText:
+                        type: text
+                        value: Icon speed
+                      imageWidth:
+                        type: select
+                        value: icon-lg
+                      aspectRatio:
+                        type: select
+                        value: auto
+                  - _id: bc0982fb-0c40-431c-b441-03b8d0f8db71
+                    type: textBlock
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          da-DK: Keep working your Core Web Vitals
+                          de-DE: Keep working your Core Web Vitals
+                          it-IT: Keep working your Core Web Vitals
+                      richText:
+                        type: richText
+                        locales:
+                          da-DK:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        Search engines prioritize fast-loading
+                                        pages, penalizing poor performance with
+                                        lower rankings. Uniform can keep your
+                                        Core Web Vitals green by making it easy
+                                        to utilize the latest front-end
+                                        frameworks and cutting-edge CDN edge
+                                        integrations - including for A/B tests
+                                        and personalization deployed from
+                                        Canvas. This lets teams drive
+                                        conversions without impacting user
+                                        experience or undermining SEO
+                                        investments.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children: []
+                                  direction: null
+                              direction: ltr
+                          de-DE:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        Search engines prioritize fast-loading
+                                        pages, penalizing poor performance with
+                                        lower rankings. Uniform can keep your
+                                        Core Web Vitals green by making it easy
+                                        to utilize the latest front-end
+                                        frameworks and cutting-edge CDN edge
+                                        integrations - including for A/B tests
+                                        and personalization deployed from
+                                        Canvas. This lets teams drive
+                                        conversions without impacting user
+                                        experience or undermining SEO
+                                        investments.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children: []
+                                  direction: null
+                              direction: ltr
+                          it-IT:
+                            root:
+                              type: root
+                              format: ''
+                              indent: 0
+                              version: 1
+                              children:
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children:
+                                    - mode: normal
+                                      text: >-
+                                        Search engines prioritize fast-loading
+                                        pages, penalizing poor performance with
+                                        lower rankings. Uniform can keep your
+                                        Core Web Vitals green by making it easy
+                                        to utilize the latest front-end
+                                        frameworks and cutting-edge CDN edge
+                                        integrations - including for A/B tests
+                                        and personalization deployed from
+                                        Canvas. This lets teams drive
+                                        conversions without impacting user
+                                        experience or undermining SEO
+                                        investments.
+                                      type: text
+                                      style: ''
+                                      detail: 0
+                                      format: 0
+                                      version: 1
+                                  direction: ltr
+                                - type: paragraph
+                                  format: ''
+                                  indent: 0
+                                  version: 1
+                                  children: []
+                                  direction: null
+                              direction: ltr
+                      textAlign:
+                        type: select
+                        value: ''
+              parameters:
+                layout:
+                  type: select
+                  value: split-50-50
+                gapSize:
+                  type: select
+                  value: medium
+                mobileReverseOrder:
+                  type: checkbox
+                  value: true
+                leftColumnVerticalAlignment:
+                  type: select
+                  value: center
+                rightColumnVerticalAlignment:
+                  type: select
+                  value: center
+                leftColumnHorizontalAlignment:
+                  type: select
+                  value: center
+                rightColumnHorizontalAlignment:
+                  type: select
+                  value: start
+      - _id: 319a2b41-3ea7-41f4-953e-9effac5640d4
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 268a358b-37a4-425f-bded-85f99510ada7
+              type: tabContainer
+              slots:
+                tabs:
+                  - _id: 57f351d1-489b-4de2-a4f5-1b09387258be
+                    type: tabPanel
+                    slots:
+                      content:
+                        - _id: 07787c32-32fe-4022-8eb5-68a476319a65
+                          type: quoteBlock
+                          parameters:
+                            quote:
+                              type: text
+                              locales:
+                                da-DK: Nothing is certain except for death and taxes.
+                                de-DE: Nothing is certain except for death and taxes.
+                                it-IT: Nothing is certain except for death and taxes.
+                            theme:
+                              type: select
+                              value: light
+                            author:
+                              type: text
+                              locales:
+                                da-DK: Benjamin Franklin
+                                de-DE: Benjamin Franklin
+                                it-IT: Benjamin Franklin
+                            source:
+                              type: text
+                              locales:
+                                da-DK: US Founding Father
+                                de-DE: US Founding Father
+                                it-IT: US Founding Father
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          da-DK: Quote 1
+                          de-DE: Quote 1
+                          it-IT: Quote 1
+                  - _id: 799a4b3b-17cf-4056-94dc-80a2e81c8f30
+                    type: tabPanel
+                    slots:
+                      content:
+                        - _id: 28303afb-ffb8-4e7c-bee8-ab46d7bb225a
+                          type: quoteBlock
+                          parameters:
+                            quote:
+                              type: text
+                              locales:
+                                da-DK: >-
+                                  One good thing about music, when it hits you,
+                                  you feel no pain.
+                                de-DE: >-
+                                  One good thing about music, when it hits you,
+                                  you feel no pain.
+                                it-IT: >-
+                                  One good thing about music, when it hits you,
+                                  you feel no pain.
+                            theme:
+                              type: select
+                              value: light
+                            author:
+                              type: text
+                              locales:
+                                da-DK: Bob Marley
+                                de-DE: Bob Marley
+                                it-IT: Bob Marley
+                            source:
+                              type: text
+                              locales:
+                                da-DK: Babylon by bus
+                                de-DE: Babylon by bus
+                                it-IT: Babylon by bus
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          da-DK: Quote 2
+                          de-DE: Quote 2
+                          it-IT: Quote 2
+                      isActive:
+                        type: checkbox
+                        value: true
+                  - _id: eef1fede-3ed6-4724-96a4-3ce57d4a6472
+                    type: tabPanel
+                    slots:
+                      content:
+                        - _id: 4a25b07e-d60e-4356-8ddf-f984a0f3b1f9
+                          type: textBlock
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                da-DK: Keep working your Core Web Vitals
+                                de-DE: Keep working your Core Web Vitals
+                                it-IT: Keep working your Core Web Vitals
+                            richText:
+                              type: richText
+                              locales:
+                                da-DK:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Search engines prioritize fast-loading
+                                              pages, penalizing poor performance with
+                                              lower rankings. Uniform can keep your
+                                              Core Web Vitals green by making it easy
+                                              to utilize the latest front-end
+                                              frameworks and cutting-edge CDN edge
+                                              integrations - including for A/B tests
+                                              and personalization deployed from
+                                              Canvas. This lets teams drive
+                                              conversions without impacting user
+                                              experience or undermining SEO
+                                              investments.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children: []
+                                        direction: null
+                                    direction: ltr
+                                de-DE:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Search engines prioritize fast-loading
+                                              pages, penalizing poor performance with
+                                              lower rankings. Uniform can keep your
+                                              Core Web Vitals green by making it easy
+                                              to utilize the latest front-end
+                                              frameworks and cutting-edge CDN edge
+                                              integrations - including for A/B tests
+                                              and personalization deployed from
+                                              Canvas. This lets teams drive
+                                              conversions without impacting user
+                                              experience or undermining SEO
+                                              investments.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children: []
+                                        direction: null
+                                    direction: ltr
+                                it-IT:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Search engines prioritize fast-loading
+                                              pages, penalizing poor performance with
+                                              lower rankings. Uniform can keep your
+                                              Core Web Vitals green by making it easy
+                                              to utilize the latest front-end
+                                              frameworks and cutting-edge CDN edge
+                                              integrations - including for A/B tests
+                                              and personalization deployed from
+                                              Canvas. This lets teams drive
+                                              conversions without impacting user
+                                              experience or undermining SEO
+                                              investments.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children: []
+                                        direction: null
+                                    direction: ltr
+                            textAlign:
+                              type: select
+                              value: ''
+                    parameters:
+                      title:
+                        type: text
+                        locales:
+                          da-DK: Some text
+                          de-DE: Some text
+                          it-IT: Some text
+          heading:
+            - _id: 0c363e58-9571-40e9-9709-160676d84ae5
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    da-DK: Some quotes by some famous people
+                    de-DE: Some quotes by some famous people
+                    it-IT: Some quotes by some famous people
+                tagName:
+                  type: select
+                  value: h2
+        parameters:
+          theme:
+            type: select
+            locales:
+              da-DK: spring
+              de-DE: spring
+              it-IT: spring
+      - _id: 64044509-9a41-4fb0-b8dd-ab08bd706c89
+        type: sectionContainer
+        slots:
+          content:
+            - _id: ae599138-cb26-4c07-b0bb-ca4ffb58c19f
+              type: accordion
+              slots:
+                items:
+                  - _id: 1560275b-1347-42a4-88b5-8875f9e13441
+                    type: accordionItem
+                    slots:
+                      content:
+                        - _id: 0fe81ec1-ff79-4f79-be7f-d226638f5e72
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              locales:
+                                da-DK:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Connecting front-end components and
+                                              variations to Uniform only takes
+                                              minutes, after which business users can
+                                              assemble digital experiences for any
+                                              channel without developer support -
+                                              either with an existing design system or
+                                              a new look. Just choose the components
+                                              that help tell your story, add the
+                                              content from a connected service, then
+                                              publish to any channel.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                                de-DE:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Connecting front-end components and
+                                              variations to Uniform only takes
+                                              minutes, after which business users can
+                                              assemble digital experiences for any
+                                              channel without developer support -
+                                              either with an existing design system or
+                                              a new look. Just choose the components
+                                              that help tell your story, add the
+                                              content from a connected service, then
+                                              publish to any channel.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                                it-IT:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Connecting front-end components and
+                                              variations to Uniform only takes
+                                              minutes, after which business users can
+                                              assemble digital experiences for any
+                                              channel without developer support -
+                                              either with an existing design system or
+                                              a new look. Just choose the components
+                                              that help tell your story, add the
+                                              content from a connected service, then
+                                              publish to any channel.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                    parameters:
+                      title:
+                        type: text
+                        value: Connect your design components
+                      isActive:
+                        type: checkbox
+                        value: true
+                  - _id: 994ec292-b449-4f7e-b9e2-647af6ab978c
+                    type: accordionItem
+                    slots:
+                      content:
+                        - _id: 78023d37-5c7e-490e-a881-ad30bcb65e6c
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              locales:
+                                da-DK:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Headless tools make life slow and
+                                              complex for business users, who need to
+                                              jump between countless tools and tabs,
+                                              click through various levels of content,
+                                              and “publish and pray” without effective
+                                              previews. 
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Uniform DXC eliminates these daily
+                                              stresses. Marketers, merchandisers, and
+                                              other business teams can use Canvas to
+                                              create immersive experiences with no
+                                              coding and instantly preview their
+                                              changes. That means business teams can
+                                              independently publish without support
+                                              from developers, who are then free to
+                                              focus on building new features.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                                de-DE:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Headless tools make life slow and
+                                              complex for business users, who need to
+                                              jump between countless tools and tabs,
+                                              click through various levels of content,
+                                              and “publish and pray” without effective
+                                              previews. 
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Uniform DXC eliminates these daily
+                                              stresses. Marketers, merchandisers, and
+                                              other business teams can use Canvas to
+                                              create immersive experiences with no
+                                              coding and instantly preview their
+                                              changes. That means business teams can
+                                              independently publish without support
+                                              from developers, who are then free to
+                                              focus on building new features.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                                it-IT:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Headless tools make life slow and
+                                              complex for business users, who need to
+                                              jump between countless tools and tabs,
+                                              click through various levels of content,
+                                              and “publish and pray” without effective
+                                              previews. 
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Uniform DXC eliminates these daily
+                                              stresses. Marketers, merchandisers, and
+                                              other business teams can use Canvas to
+                                              create immersive experiences with no
+                                              coding and instantly preview their
+                                              changes. That means business teams can
+                                              independently publish without support
+                                              from developers, who are then free to
+                                              focus on building new features.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                    parameters:
+                      title:
+                        type: text
+                        value: Empower Marketers with Canvas
+              parameters:
+                icon:
+                  type: select
+                  value: plus
+                groupName:
+                  type: text
+                  locales:
+                    da-DK: group1
+                    de-DE: group1
+                    it-IT: group1
+                internalName:
+                  type: text
+                  value: Test accordion
+        parameters:
+          theme:
+            type: select
+            locales:
+              da-DK: mango
+              de-DE: mango
+              it-IT: mango
+      - _id: ae6fe7bc-308d-4921-8ad8-9330e772e570
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 7f3b6113-0f53-4e78-9ca5-ed906ef41712
+              type: logos
+              parameters:
+                align:
+                  type: select
+                  value: center
+                logos:
+                  type: $block
+                  value:
+                    - _id: 24057311-8023-419a-969e-9b63f1107f84
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/220.svg
+                                  title:
+                                    type: text
+                                    value: Logo 2
+                                _source: custom-url
+                            de-DE:
+                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/220.svg
+                                  title:
+                                    type: text
+                                    value: Logo 2
+                                _source: custom-url
+                            it-IT:
+                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/220.svg
+                                  title:
+                                    type: text
+                                    value: Logo 2
+                                _source: custom-url
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 1
+                            de-DE: Company 1
+                            it-IT: Company 1
+                    - _id: a3bdd71b-48e9-4b87-b348-61b9511c610c
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/263.svg
+                                  title:
+                                    type: text
+                                    value: Company 2
+                                _source: custom-url
+                            de-DE:
+                              - _id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/263.svg
+                                  title:
+                                    type: text
+                                    value: Company 2
+                                _source: custom-url
+                            it-IT:
+                              - _id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 9c36716b-47a3-4a25-84ba-e159f811bfa8
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/263.svg
+                                  title:
+                                    type: text
+                                    value: Company 2
+                                _source: custom-url
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 2
+                            de-DE: Company 2
+                            it-IT: Company 2
+                    - _id: 31764992-7acb-4700-8daa-b73d5dd04990
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                    type: text
+                                  size:
+                                    value: 6602
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-285.svg
+                                  width:
+                                    value: 186
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                            de-DE:
+                              - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                    type: text
+                                  size:
+                                    value: 6602
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-285.svg
+                                  width:
+                                    value: 186
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                            it-IT:
+                              - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 02436b24-44a0-4c0b-be6d-1b4f15863034
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/D-elI1MVSbeoL85FrQo-Vw-logoipsum-285.svg
+                                    type: text
+                                  size:
+                                    value: 6602
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-285.svg
+                                  width:
+                                    value: 186
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 5
+                            de-DE: Company 5
+                            it-IT: Company 5
+                    - _id: e15335a7-a825-472f-9f2a-654f36511c3b
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                    type: text
+                                  size:
+                                    value: 4227
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-242.svg
+                                  width:
+                                    value: 150
+                                    type: number
+                                  height:
+                                    value: 57
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                            de-DE:
+                              - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                    type: text
+                                  size:
+                                    value: 4227
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-242.svg
+                                  width:
+                                    value: 150
+                                    type: number
+                                  height:
+                                    value: 57
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                            it-IT:
+                              - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/8BDxFU2UT1G6s4VRNt04lw-logoipsum-242.svg
+                                    type: text
+                                  size:
+                                    value: 4227
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-242.svg
+                                  width:
+                                    value: 150
+                                    type: number
+                                  height:
+                                    value: 57
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 4
+                            de-DE: Company 4
+                            it-IT: Company 4
+                    - _id: 913c375d-db6b-4d8e-9ee9-8ceeccd09e78
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: 39fb768e-5174-47fe-9816-8846d955ce8f
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 39fb768e-5174-47fe-9816-8846d955ce8f
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/288.svg
+                                _source: custom-url
+                            de-DE:
+                              - _id: 39fb768e-5174-47fe-9816-8846d955ce8f
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 39fb768e-5174-47fe-9816-8846d955ce8f
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/288.svg
+                                _source: custom-url
+                            it-IT:
+                              - _id: 39fb768e-5174-47fe-9816-8846d955ce8f
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: 39fb768e-5174-47fe-9816-8846d955ce8f
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/288.svg
+                                _source: custom-url
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 3
+                            de-DE: Company 3
+                            it-IT: Company 3
+                    - _id: 73dec981-fcd3-4b4b-a5fc-de430f38c1b4
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                    type: text
+                                  size:
+                                    value: 4691
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-264.svg
+                                  width:
+                                    value: 170
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                            de-DE:
+                              - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                    type: text
+                                  size:
+                                    value: 4691
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-264.svg
+                                  width:
+                                    value: 170
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                            it-IT:
+                              - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: f8dc1787-1570-4cb2-8757-5e85a40401b2
+                                  url:
+                                    value: >-
+                                      https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/gfHWdezOTyq0s1Y1iAjajg-logoipsum-264.svg
+                                    type: text
+                                  size:
+                                    value: 4691
+                                    type: number
+                                  title:
+                                    type: text
+                                    value: logoipsum-264.svg
+                                  width:
+                                    value: 170
+                                    type: number
+                                  height:
+                                    value: 41
+                                    type: number
+                                  mediaType:
+                                    value: image/svg+xml
+                                    type: text
+                                  description:
+                                    type: text
+                                    value: ''
+                                _source: uniform-assets
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 6
+                            de-DE: Company 6
+                            it-IT: Company 6
+                    - _id: ed890743-cf83-4d5b-8e1b-538e9417b0ff
+                      type: logo
+                      fields:
+                        logo:
+                          type: asset
+                          locales:
+                            da-DK:
+                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/221.svg
+                                  title:
+                                    type: text
+                                    value: Logo 2
+                                _source: custom-url
+                            de-DE:
+                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/221.svg
+                                  title:
+                                    type: text
+                                    value: Logo 2
+                                _source: custom-url
+                            it-IT:
+                              - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                type: image
+                                fields:
+                                  id:
+                                    type: text
+                                    value: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
+                                  url:
+                                    type: text
+                                    value: https://img.logoipsum.com/221.svg
+                                  title:
+                                    type: text
+                                    value: Logo 2
+                                _source: custom-url
+                          value: []
+                        name:
+                          type: text
+                          locales:
+                            da-DK: Company 7
+                            de-DE: Company 7
+                            it-IT: Company 7
+                title:
+                  type: text
+                  value: Trusted by our customers and partners
+                logosPerRow:
+                  type: number
+                  value: '4'
+        parameters:
+          theme:
+            type: select
+            locales:
+              da-DK: light
+              de-DE: light
+              it-IT: light
+  _dataResources: {}
+  _overrides:
+    f1a952de-503d-4509-a971-ec4cc9b16f85:
+      parameters:
+        image:
+          type: text
+          value: ${#jptr:/Post/entry/fields/image/value/0/fields/url/value}
+    6bb326e8-3657-4d93-b82e-867f1c29f33d|5a4653f8-b7ab-45a8-8e1a-121bc15c2997:
+      parameters:
+        richText:
+          type: richText
+          locales:
+            da-DK:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: left
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: <Edit headline>
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Insert text here
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                direction: ltr
+            it-IT:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - tag: h3
+                    type: heading
+                    format: left
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: <Edit headline>
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Insert text here
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                direction: ltr
+  _locales:
+    - de-DE
+    - da-DK
+    - it-IT
+created: '2024-09-26T14:42:14.794891+00:00'
+modified: '2024-10-22T10:26:00.672407+00:00'
+pattern: false
+editionId: 4d55f9f6-3fee-46be-b007-3b7f3f796b82
+editionName: 'Region: EU'
+editionPriority: 100

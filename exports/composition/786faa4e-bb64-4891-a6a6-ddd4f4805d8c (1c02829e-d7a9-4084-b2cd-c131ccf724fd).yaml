@@ -7,6 +7,14 @@ composition:
     title:
       type: text
       value: Home
+    description:
+      type: text
+      locales:
+        en-US: >-
+          Discover Uniland – a cutting-edge platform designed for seamless
+          integration and customization. Empower marketers and developers to
+          innovate effortlessly, avoiding technology barriers, and stay ahead in
+          innovation and design.
   slots:
     hero:
       - _id: f80601a7-449d-4dd2-8229-425be9f9bcf9
@@ -145,18 +153,6 @@ composition:
                       imageFit:
                         type: select
                         value: cover
-                      imageWidth:
-                        type: select
-                        value: width-full
-                        conditions:
-                          - id: 0
-                            when:
-                              clauses:
-                                - op: is
-                                  rule: $qk
-                                  value: m
-                                  source: deviceType
-                            value: width-half
               parameters:
                 layout:
                   type: select
@@ -199,7 +195,7 @@ composition:
           theme:
             type: select
             locales:
-              en-US: light
+              en-US: mango
           title:
             type: text
             locales:
@@ -1421,8 +1417,9 @@ composition:
               hideLockedParameters: true
   _locales:
     - en-US
-created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2024-10-25T17:01:07.538367+00:00'
+created: '2024-09-30T13:44:49.150118+00:00'
+modified: '2024-10-22T12:36:57.023229+00:00'
 pattern: false
-editionName: ''
+editionId: 1c02829e-d7a9-4084-b2cd-c131ccf724fd
+editionName: 'Region: North America'
 editionPriority: 100

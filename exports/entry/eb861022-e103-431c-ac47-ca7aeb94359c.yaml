@@ -1,5 +1,5 @@
 created: '2024-07-30T08:13:21.990739+00:00'
-modified: '2024-07-30T08:37:03.263082+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: eb861022-e103-431c-ac47-ca7aeb94359c
@@ -25,6 +25,7 @@ entry:
                 value: >-
                   https://domesticfits.com/wp-content/uploads/2024/02/ukrainian-food-popular-world-640x427.jpeg
             _source: custom-url
+      value: []
     description:
       type: text
       locales:

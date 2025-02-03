@@ -1,5 +1,5 @@
 created: '2024-07-11T10:05:10.954858+00:00'
-modified: '2024-07-11T10:05:10.954858+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 5f3aa3e6-7d40-411c-a432-8c24dc00a397
@@ -26,6 +26,7 @@ entry:
                 type: text
                 value: Grilling
             _source: custom-url
+      value: []
     description:
       type: richText
       locales:

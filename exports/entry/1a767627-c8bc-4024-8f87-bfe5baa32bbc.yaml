@@ -1,5 +1,5 @@
 created: '2024-07-30T08:10:35.15385+00:00'
-modified: '2024-07-30T08:20:26.698352+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 1a767627-c8bc-4024-8f87-bfe5baa32bbc
@@ -28,6 +28,7 @@ entry:
                 type: text
                 value: Borscht
             _source: custom-url
+      value: []
     types:
       type: multi-select
       value:

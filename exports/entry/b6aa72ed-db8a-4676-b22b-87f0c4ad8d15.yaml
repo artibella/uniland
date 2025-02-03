@@ -1,5 +1,5 @@
 created: '2024-07-11T10:05:20.039452+00:00'
-modified: '2024-08-13T08:49:38.38138+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: b6aa72ed-db8a-4676-b22b-87f0c4ad8d15
@@ -25,6 +25,7 @@ entry:
                 value: >-
                   https://res.cloudinary.com/uniformdev/image/upload/fl_preserve_transparency/v1688991200/uniformdev/media-kit/alex-s.jpg?_s=public-apps
             _source: custom-url
+      value: []
     website:
       type: link
       locales:

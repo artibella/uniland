@@ -323,6 +323,7 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
+                          value: []
                         name:
                           type: text
                           locales:
@@ -363,6 +364,7 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
+                          value: []
                         name:
                           type: text
                           locales:
@@ -403,6 +405,7 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
+                          value: []
                         name:
                           type: text
                           locales:
@@ -443,6 +446,7 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
+                          value: []
                         name:
                           type: text
                           locales:
@@ -464,6 +468,7 @@ composition:
                                     type: text
                                     value: https://img.logoipsum.com/288.svg
                                 _source: custom-url
+                          value: []
                         name:
                           type: text
                           locales:
@@ -485,6 +490,7 @@ composition:
                                     type: text
                                     value: https://img.logoipsum.com/286.svg
                                 _source: custom-url
+                          value: []
                         name:
                           type: text
                           locales:
@@ -546,5 +552,5 @@ composition:
   _locales:
     - en-US
 created: '2023-10-09T14:30:34.28457+00:00'
-modified: '2024-05-06T15:21:42.46386+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false

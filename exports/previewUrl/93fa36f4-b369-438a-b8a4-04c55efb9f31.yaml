@@ -1,0 +1,4 @@
+id: 93fa36f4-b369-438a-b8a4-04c55efb9f31
+name: Local Dev
+url: http://localhost:3001/api/preview?secret=uniland
+order: 1

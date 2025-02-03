@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:23.042128+00:00'
-modified: '2024-04-15T15:38:39.97012+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 7f390f01-819a-4923-bdbc-936c0e620677
@@ -181,5 +181,6 @@ entry:
                 value: image/webp
                 type: text
             _source: uniform-assets
+      value: []
   _locales:
     - en-US

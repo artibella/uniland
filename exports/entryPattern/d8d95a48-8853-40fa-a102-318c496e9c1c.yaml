@@ -1,5 +1,5 @@
 created: '2023-12-14T13:16:25.423818+00:00'
-modified: '2024-08-02T17:27:11.302045+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: true
 entry:
   _id: d8d95a48-8853-40fa-a102-318c496e9c1c
@@ -36,6 +36,7 @@ entry:
                                 type: text
                                 value: ${#jptr:/Product images Loop/src}
                             _source: custom-url
+                      value: []
                     title:
                       type: text
                       locales:
@@ -52,6 +53,7 @@ entry:
       type: asset
       locales:
         en-US: []
+      value: []
     options:
       type: $block
       value:
@@ -194,6 +196,7 @@ entry:
                                 type: text
                                 value: ${#jptr:/Product Collection Loop/description}
                             _source: custom-url
+                      value: []
                     description:
                       type: text
                       value: ${#jptr:/Product Collection Loop/description}
@@ -237,6 +240,7 @@ entry:
                 type: text
                 value: ${#jptr:/Product/data/product/title}
             _source: custom-url
+      value: []
   _dataResources:
     Product:
       type: mockshopProductQuery

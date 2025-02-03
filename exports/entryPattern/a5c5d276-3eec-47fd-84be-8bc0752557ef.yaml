@@ -1,5 +1,5 @@
 created: '2024-02-09T11:07:44.869811+00:00'
-modified: '2024-05-06T13:53:57.134072+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: true
 entry:
   _id: a5c5d276-3eec-47fd-84be-8bc0752557ef
@@ -17,6 +17,7 @@ entry:
       type: asset
       locales:
         en-US: []
+      value: []
     variants:
       type: $block
       value: []
@@ -64,6 +65,7 @@ entry:
                 type: text
                 value: ${#jptr:/Product/0/name}
             _source: custom-url
+      value: []
   _dataResources:
     Product:
       type: fakeProduct

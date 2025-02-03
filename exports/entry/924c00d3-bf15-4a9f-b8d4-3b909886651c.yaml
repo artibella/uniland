@@ -1,5 +1,5 @@
 created: '2024-07-29T16:04:23.057925+00:00'
-modified: '2024-07-29T16:05:27.870116+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 924c00d3-bf15-4a9f-b8d4-3b909886651c
@@ -31,6 +31,7 @@ entry:
                 type: text
                 value: Various Korean dishes on a table
             _source: custom-url
+      value: []
     types:
       type: multi-select
       value:

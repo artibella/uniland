@@ -1,0 +1,120 @@
+composition:
+  _name: Shop
+  _id: 159cec9e-0eda-460f-bc32-bfdd6ce748b5
+  _slug: shop
+  type: page
+  slots:
+    hero:
+      - _id: c5f53876-739d-46db-9b9b-61ea3b3c2612
+        type: hero
+        _pattern: c572c2e1-7917-4958-874b-c4aa73db6e3a
+        _dataResources:
+          Product Content:
+            type: product
+            variables:
+              locale: ${locale},en-US
+              entryId: b0ddf1cb-87d6-41a9-aa84-8fc84d2807af
+    sections:
+      - _id: 5854ad01-202d-448f-aa41-1c35542d5bd0
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 899b609b-3a00-416c-bf23-b00eb560295f
+              type: accordion
+              _pattern: 6b2e4acd-7af9-45cf-b7e6-24db9375a70f
+              _dataResources:
+                Product Content:
+                  type: product
+                  variables:
+                    locale: ${locale}
+                    entryId: 36af3cc9-d1c0-42ee-87ad-d216a1fbcecd
+  _overrides:
+    2b20d8ec-7cc5-4939-8848-558829fcebfc|b24f190a-0c6e-4483-88a2-aa40b08d5393:
+      slots:
+        $slotSectionItems:
+          - _id: f2d19b29-3cea-42de-ba2e-f8560b3ee1c9
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 424b8839-548f-4bf7-8283-e0a40827c3fc
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+          - _id: 30e7853c-fc76-4517-8e75-5e4e814b8cf5
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 634ca3d2-5344-4eeb-b2b4-00d9fedcc3b0
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+          - _id: 038a9b35-cc2b-492f-8bfa-73d17f4a88d8
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 8d7cfb7f-3b26-4fc2-a6cb-4ec382c5eefa
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+          - _id: 4bd426c5-97bb-4f1c-822a-d424d3dee522
+            type: card
+            _pattern: 23d39c7a-9d92-4116-8649-c7a8db19834c
+            _dataResources:
+              Product:
+                type: product
+                variables:
+                  locale: ${locale},en-US
+                  entryId: 7f390f01-819a-4923-bdbc-936c0e620677
+            _overridability:
+              parameters:
+                body: 'yes'
+                image: 'yes'
+                title: 'yes'
+                byline: 'yes'
+    2b20d8ec-7cc5-4939-8848-558829fcebfc|c62e41c3-2d39-4d01-8823-be94b7295667:
+      parameters:
+        title:
+          type: text
+          locales:
+            de-DE: Featured products
+    899b609b-3a00-416c-bf23-b00eb560295f|9964f4c0-ff62-4788-ad3b-987ee6eb1966:
+      slots:
+        $slotSectionItems:
+          - _id: 52993e19-3646-495c-b23e-bfb74103a126
+            type: accordionItem
+            slots:
+              content:
+                - _id: 79a3d03a-2d7e-45a6-9aee-3b6e3c785bf2
+                  type: textBlock
+            parameters:
+              title:
+                type: text
+                value: Pricing
+  _locales:
+    - de-DE
+created: '2024-10-14T13:18:06.59609+00:00'
+modified: '2024-10-14T13:23:11.389465+00:00'
+pattern: false
+editionId: ec27c971-51ed-4bbf-ba3b-47631a7f16bf
+editionName: 'Region: EU'
