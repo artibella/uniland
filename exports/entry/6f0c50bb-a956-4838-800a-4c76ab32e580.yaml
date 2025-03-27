@@ -1,0 +1,943 @@
+created: '2024-04-03T19:14:41.949636+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
+pattern: false
+entry:
+  _id: 6f0c50bb-a956-4838-800a-4c76ab32e580
+  _name: Best practices for digital asset management
+  _slug: digital-asset-management-best-practices
+  type: blogPost
+  fields:
+    date:
+      type: date
+      value: '2024-01-24'
+    image:
+      type: asset
+      locales:
+        en-US: []
+      value: []
+    title:
+      type: text
+      locales:
+        en-US: Best practices for digital asset management
+    authors:
+      type: contentReference
+      value: ${#jptr:/ref-6f0c50bb-a956-4838-800a-4c76ab32e580-authors/entries}
+    postBody:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - link:
+                      path: >-
+                        https://uniform.dev/digital-asset-management/digital-asset-management
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Digital asset management (DAM)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: " is essential for leveraging digital assets to create personalized and consistent brand experiences. Whether you’re getting the most value from your DAM solution is a question all companies should be asking, but many don’t.\_For all the benefits DAM offers, its implementation could be overwhelming. This chapter delineates the best practices that ease the process."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Definition of DAM
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      DAM is about centrally organizing, storing, and managing
+                      digital assets, which are rendered searchable and
+                      accessible through software by the teams that need them.
+                      Asset types include the following:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: GIFs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Images
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Videos
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Infographics
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: ebooks
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 6
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Whitepapers
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 7
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Email marketing
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 8
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Blogs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 9
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Social media
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 10
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: AR
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 11
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: VR
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 12
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 3D
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Applying the best practices while implementing a DAM platform improves brand consistency, maintains your reputation with your target audience, and facilitates collaborations among internal and external stakeholders.\_publishedDAM Digital asset lifecycle"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Best practices
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "The steps below will start you and your team on the right track.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 1. Create a clear strategy.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      First, research a few DAM platforms that would fit your
+                      use case. Once you have a short list of potential
+                      candidates, narrow your selections by doing the following:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ol
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Find out the advanced capabilities, '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: if any, and the ways they can help your workflow.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Put the platform’s security to the test. '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Ask questions of the DAM provider or conduct
+                          penetration tests.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Evaluate the platform’s general criteria. '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          Look into the platform’s usability and analyze its
+                          integrations and performance.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Check the features. '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: Find out if the platform offers
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - mode: normal
+                        text: ' '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: 'DAM’s '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://www.iqequity.co.uk/products/10-core-dam-characteristics/
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: 10 core features
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: .
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: number
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 2. Centralize your digital-asset storage.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      A major benefit of DAM is its ability to organize brand
+                      assets in a central location. However, you and your team
+                      must start and maintain the process in a simple,
+                      easy-to-use architecture.A best practice along those lines
+                      is to consult your subject-matter experts (SMEs)—teams
+                      closest to your assets–generally your web and 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/digital-asset-management/marketing
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: marketing teams
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' who’re the most familiar with your digital-asset library and the process for using the assets. That knowledge is instrumental for structuring a framework that all internal and external stakeholders can readily understand and use.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 3. Organize your library with metadata.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "DAM platforms can make your entire library of digital assets searchable–a functionality that relies on accurate and consistent metadata for the files.Your SMEs know how your teams use those assets. Lean on those experts for taxonomy, tagging, categories, etc., to thoroughly and accurately generate file metadata. No matter the tedium of the process, adhering to those strict procedures from the start will benefit your system in the future, making it painlessly searchable and understandable for everyone regardless of team and tenure.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 4. Establish a naming convention.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Clarity and consistency of naming conventions at the outset is important because most stakeholders will begin their search on your DAM platform.\_Again, work with the SMEs to generate a vocabulary for file naming so as to populate critical metadata fields with consistent, easily searchable values."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 5. Implement proper version control.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Detailed version control cuts costs, streamlines
+                      production workflows, and affords greater control over
+                      digital assets.As your team edits and enhances assets over
+                      time, multiple versions of the same file will result. Be
+                      sure to either develop a naming convention to keep asset
+                      versioning in order or pick a DAM solution that does that
+                      for you. Some DAM solutions automatically organize
+                      multiple versions of the same file, positioning the most
+                      current one at the forefront for convenient access.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 6. Limit access to assets.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Most DAM platforms offer permission controls with which
+                      system administrators can grant file access to only those
+                      who need it. A way to do that is by adding names to a
+                      group of authorized users or by sending those people a
+                      link. Alternatively, establish a role within the system so
+                      that only those who’ve been assigned that role can access
+                      a specific set of files.Another good practice is the
+                      “least privilege” access-control approach, i.e., give
+                      people access to only the files they need. If those
+                      stakeholders undertake new projects or switch roles, grant
+                      them access to the appropriate assets.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 7. Continually review and update processes.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      As your business grows, your DAM needs might change.
+                      Hence, think of your DAM platform as a living system and
+                      continually evaluate its architecture and processes to
+                      determine if they still serve your purpose.Through regular
+                      evaluations, you can also optimize the experience for
+                      end-users. They can flag the problems they face while on
+                      the 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/digital-asset-management/types
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: DAM platform
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' as well as opportunities for enhancing the related process through new features, third-party integrations, etc.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Benefits
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Here are the '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/digital-asset-management/benefits
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          primary benefits of adhering to the best practices for
+                          DAM
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ':'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Shared access of secure assets.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A central system for file storage.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Enhanced workflows for asset creation and project
+                          distribution.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Brand consistency.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Easier management of digital assets.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Uniform’s role in strengthening your DAM strategy.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      After establishing a solid foundation for your DAM
+                      platform, supercharge its benefits, such as by connecting
+                      it with your other tools. That’s where Uniform comes
+                      in.Uniform 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://uniform.dev/what-is-digital-experience-composition
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Digital Experience Composition Platform’s (DXCP)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' orchestration capability connects all the tools in your martech stack on one simple, intuitive platform. For details on how to transform your brand identity and marketing with Uniform DXCP, '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/demo
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: schedule a free demo
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' with us.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        en-US: >-
+          The best practices for effectively managing and streamlining digital
+          assets with Uniform DXCP. 
+  _dataResources:
+    ref-6f0c50bb-a956-4838-800a-4c76ab32e580-authors:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: ded160f6-dfef-436c-97ab-c9e566ad2d8b
+  _locales:
+    - en-US

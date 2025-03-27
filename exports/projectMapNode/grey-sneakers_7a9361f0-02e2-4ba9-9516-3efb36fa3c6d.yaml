@@ -1,6 +1,6 @@
 id: 7a9361f0-02e2-4ba9-9516-3efb36fa3c6d
 name: Grey sneakers
-order: 500
+order: 250
 path: /:locale/shop/grey-sneakers
 type: composition
 pathSegment: grey-sneakers

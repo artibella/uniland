@@ -1,0 +1,9 @@
+id: 667278e1-6feb-4c67-8b0c-e4f77e16f42e
+name: Movies
+order: -200
+path: /:locale/demos/movies
+type: composition
+pathSegment: movies
+data: {}
+compositionId: c56a6db1-4a6e-4b0a-89ce-020c6343f7a4
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

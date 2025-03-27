@@ -12,6 +12,29 @@ composition:
       - _id: f80601a7-449d-4dd2-8229-425be9f9bcf9
         type: hero
         slots:
+          ctas:
+            - _id: d6867cd6-2fef-42f2-b15f-6e0c0a103e05
+              type: button
+              parameters:
+                size:
+                  type: select
+                  value: large
+                wide:
+                  type: checkbox
+                  value: true
+                block:
+                  type: checkbox
+                  value: true
+                title:
+                  type: text
+                  locales:
+                    en-US: Learn more
+                intent:
+                  type: select
+                  value: primary
+                responsive:
+                  type: checkbox
+                  value: true
           heading:
             - _id: 3c1de273-8595-4e8d-905a-8bc4895069ec
               type: heading
@@ -1259,6 +1282,21 @@ composition:
                         type: text
                         locales:
                           en-US: ${#jptr:/Recipe Content/entry/title}
+                      cardImage:
+                        type: asset
+                        value:
+                          - _id: 19dc9110-3772-4d4c-9b12-bf0e127b775b
+                            type: image
+                            fields:
+                              url:
+                                type: text
+                                value: >-
+                                  ${#jptr:/Recipe
+                                  Content/entry/featuredimage/url}
+                              title:
+                                type: text
+                                value: ${#jptr:/Recipe Content/entry/title}
+                            _source: custom-url
               parameters:
                 columns:
                   type: number
@@ -1422,7 +1460,7 @@ composition:
   _locales:
     - en-US
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2024-10-25T17:01:07.538367+00:00'
+modified: '2025-03-11T15:36:32.545886+00:00'
 pattern: false
 editionName: ''
 editionPriority: 100

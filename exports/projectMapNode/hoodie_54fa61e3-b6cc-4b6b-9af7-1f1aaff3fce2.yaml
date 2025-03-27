@@ -1,6 +1,6 @@
 id: 54fa61e3-b6cc-4b6b-9af7-1f1aaff3fce2
 name: Hoodie
-order: 500
+order: 275
 path: /:locale/shop/hoodie
 type: composition
 pathSegment: hoodie

@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: button
+name: Button
+icon: rectangle-rounded
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: link
+    name: Link
+    type: link
+    typeConfig: null
+    localizable: true
+    allowConditionalValues: true
+  - id: openInNewTab
+    name: Open in new tab
+    type: checkbox
+    typeConfig: null
+  - id: ec2afad9-e819-4e85-84c6-1282f02046f1
+    name: Display settings
+    type: group
+    typeConfig:
+      collapsed: true
+      childrenParams:
+        - intent
+        - size
+        - shape
+        - wide
+        - responsive
+        - block
+  - id: intent
+    name: Intent
+    type: select
+    typeConfig:
+      options:
+        - text: Primary
+          value: primary
+        - text: secondary
+          value: secondary
+        - text: accent
+          value: accent
+        - text: success
+          value: success
+        - text: warning
+          value: warning
+        - text: error
+          value: error
+        - text: info
+          value: info
+  - id: size
+    name: Size
+    type: select
+    helpText: Size of the button
+    typeConfig:
+      options:
+        - text: Large
+          value: large
+        - text: Medium
+          value: medium
+        - text: Small
+          value: small
+        - text: Extra Small
+          value: xs
+  - id: shape
+    name: Shape
+    type: select
+    typeConfig:
+      options:
+        - text: Circle
+          value: circle
+        - text: Square
+          value: square
+    localizable: true
+    notLocalizedByDefault: true
+  - id: wide
+    name: Wide
+    type: checkbox
+    typeConfig: null
+  - id: responsive
+    name: Responsive
+    type: checkbox
+    typeConfig: null
+  - id: block
+    name: Block
+    type: checkbox
+    typeConfig: null
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1692374043/Uniland/components/cta-button-primary.png
+useTeamPermissions: true
+slots: []
+titleParameter: title
+canBeComposition: false
+created: '2025-02-26T00:12:47.649676+00:00'
+updated: '2025-02-26T00:17:36.092287+00:00'
+variants:
+  - id: link
+    name: Link
+  - id: outline
+    name: Outline

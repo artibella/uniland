@@ -111,6 +111,11 @@ composition:
                         description:
                           type: text
                           value: ''
+                        focalPoint:
+                          value:
+                            x: 0.5
+                            'y': 0.87
+                          type: focalPoint
                       _source: uniform-assets
                     - _id: f84ce641-1ac9-4163-9da2-a3de9557b8e8
                       type: image

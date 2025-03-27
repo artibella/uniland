@@ -1,0 +1,88 @@
+composition:
+  _name: Movies
+  _id: c56a6db1-4a6e-4b0a-89ce-020c6343f7a4
+  _slug: movies
+  type: page
+  slots:
+    sections:
+      - _id: 452b7e70-6ee6-428f-a5bc-c563dc04b64d
+        type: sectionContainer
+        slots:
+          content:
+            - _id: b8db9924-2ec6-48a6-9a97-4ab3204efe08
+              type: gridContainer
+              slots:
+                items:
+                  - _id: 91e54810-c8ea-4f7c-b8ab-494a50399f1d
+                    type: $loop
+                    slots:
+                      body:
+                        - _id: 23588ca1-ff09-4b7a-b59e-350b0fc6cd71
+                          type: card
+                          parameters:
+                            body:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Movies entries Loop
+                                  Item/entry/fields/abstract/value}
+                            image:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Movies entries Loop
+                                  Item/entry/fields/poster/value/0/fields/url/value}
+                            title:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Movies entries Loop
+                                  Item/entry/fields/title/value}, 
+                            byline:
+                              type: text
+                              locales:
+                                en-US: >-
+                                  ${#jptr:/Movies entries Loop
+                                  Item/entry/fields/genre/value}
+                            cardImage:
+                              type: asset
+                              value: >-
+                                ${#jptr:/Movies entries Loop
+                                Item/entry/fields/poster/value}
+                    _dataResources:
+                      Movies entries Loop Item:
+                        type: sys-reserved-loop
+                        variables:
+                          connectedData: '#jptr:/Movies/entries:fa=c'
+              parameters:
+                columns:
+                  type: number
+                  value: '3'
+          heading:
+            - _id: 8d7ade7a-1788-4999-a59f-83fdb3cde522
+              type: heading
+              parameters:
+                title:
+                  type: text
+                  locales:
+                    en-US: Movies
+                tagName:
+                  type: select
+                  value: h1
+                showEditorialLine:
+                  type: checkbox
+                  value: true
+  _dataResources:
+    Movies:
+      type: queryMovie
+      variables:
+        limit: '50'
+        locale: ${locale}
+        search: ''
+        filters: '{"type[eq]":"movie"}'
+        contentTypes: movie
+  _locales:
+    - en-US
+created: '2025-02-19T12:11:03.152646+00:00'
+modified: '2025-02-19T12:22:38.887563+00:00'
+pattern: false

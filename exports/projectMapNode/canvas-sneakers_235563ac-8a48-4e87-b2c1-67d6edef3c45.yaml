@@ -1,6 +1,6 @@
 id: 235563ac-8a48-4e87-b2c1-67d6edef3c45
 name: Canvas Sneakers
-order: 300
+order: 100
 path: /:locale/shop/canvas-sneakers
 type: composition
 pathSegment: canvas-sneakers

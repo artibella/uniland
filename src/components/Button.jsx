@@ -1,64 +1,85 @@
 import { UniformText } from '@uniformdev/canvas-react';
 import classNames from 'classnames';
+import { cva } from 'class-variance-authority';
 import Link from 'next/link';
+
+const button = cva('button', {
+  variants: {
+    color: {
+      primary: ['btn-primary'],
+      secondary: ['btn-secondary'],
+      accent: ['btn-accent'],
+      success: ['btn-success'],
+      warning: ['btn-warning'],
+      error: ['btn-error'],
+      info: ['btn-info'],
+    },
+    size: {
+      large: ['btn-lg'],
+      medium: ['btn-md'],
+      small: ['btn-sm'],
+      xs: ['btn-xs'],
+    },
+    wide: {
+      false: null,
+      true: ['btn-wide'],
+    },
+    block: {
+      false: null,
+      true: ['btn-block'],
+    },
+    responsive: {
+      false: null,
+      true: ['btn-responsive'],
+    },
+    shape: {
+      circle: ['btn-circle'],
+      square: ['btn-square'],
+    },
+    style: {
+      link: ['btn-link'],
+      outline: ['btn-outline'],
+    },
+    disabled: {
+      false: null,
+      true: ['opacity-50', 'cursor-not-allowed'],
+    },
+  },
+  compoundVariants: [],
+  defaultVariants: {
+    disabled: false,
+    responsive: false,
+    wide: false,
+    block: false,
+    color: 'primary',
+    size: 'medium',
+  },
+});
 
 const renderButton = ({
   title = '',
   link = '',
   openInNewTab = false,
-  variant = '',
-  color = '',
+  style = '',
+  intent = '',
   size = '',
   shape = '',
   block = false,
   wide = false,
   responsive = false,
 }) => {
-  const baseClasses = classNames('btn');
-
-  const colorClasses = classNames(
-    { 'btn-neutral': color === 'neutral' },
-    { 'btn-primary': color === 'primary' },
-    { 'btn-secondary': color === 'secondary' },
-    { 'btn-accent': color === 'accent' },
-    { 'btn-success': color === 'success' },
-    { 'btn-warning': color === 'warning' },
-    { 'btn-error': color === 'error' },
-    { 'btn-info': color === 'info' },
-    { 'btn-ghost': color === 'ghost' }
-  );
-  const variantClasses = classNames(
-    { 'btn-link': variant === 'link' },
-    { 'btn-outline': variant === 'outline' }
-  );
-
-  const styleClasses = classNames(
-    { 'btn-lg': size === 'lg' },
-    { 'btn-md': size === 'md' },
-    { 'btn-sm': size === 'sm' },
-    { 'btn-xs': size === 'xs' },
-    { 'btn-block': block === true },
-    { 'btn-wide': wide === true },
-    { 'btn-responsive': responsive === true }
-  );
-
-  const shapeClasses = classNames(
-    { 'btn-circle': shape === 'circle' },
-    { 'btn-square': shape === 'square' }
-  );
-
-  const buttonClasses = classNames(
-    baseClasses,
-    colorClasses,
-    variantClasses,
-    styleClasses,
-    shapeClasses
-  );
-
   return (
     <Link
       href={link}
-      className={buttonClasses}
+      className={button({
+        intent,
+        size,
+        wide,
+        block,
+        responsive,
+        shape,
+        style,
+      })}
       target={openInNewTab ? '_blank' : '_self'}
       title={title}
     >
@@ -69,7 +90,7 @@ const renderButton = ({
 
 export default function Button(props) {
   const { title = '', link = {}, openInNewTab = false, component = {} } = props;
-  const variant = component?.variant || '';
+  const style = component?.variant || '';
   const url = link.path?.length ? link.path : '#';
 
   const buttonProps = {
@@ -77,7 +98,7 @@ export default function Button(props) {
     title,
     link: url,
     openInNewTab,
-    variant,
+    style,
   };
 
   return renderButton(buttonProps);

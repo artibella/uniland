@@ -1,0 +1,3093 @@
+created: '2023-07-24T08:57:48.830717+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
+pattern: false
+entry:
+  _id: 3a782d5d-88aa-49be-8711-a12ae38b0653
+  _name: Which digital experience architecture is right for your
+  _slug: which-digital-experience-architecture-is-right-for-your
+  type: blogPost
+  fields:
+    date:
+      type: text
+      value: '2023-02-01'
+    title:
+      type: text
+      locales:
+        da-DK: >-
+          Hvilken digital oplevelsesarkitektur er den rigtige for din
+          virksomhed?
+        en-US: Which digital experience architecture is right for your business?
+    authors:
+      type: contentReference
+      value: ${#jptr:/ref-3a782d5d-88aa-49be-8711-a12ae38b0653-authors/entries}
+    postBody:
+      type: richText
+      locales:
+        da-DK:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Monolithic, headless, MACH, composable, oh my! The past
+                      couple of years have seen a resurgence of spending by
+                      brands in digital-experience technologies. From the impact
+                      of COVID to the uncertainty in markets, brands have been
+                      seeking to raise the value of their digital properties,
+                      specifically in agility, flexibility, and performance, and
+                      overcome the slow time to market caused by the brands’
+                      existing technologies. Plus, brands must pay attention to
+                      retaining customers rather than just acquiring them.Many
+                      are the approaches that take advantage of new
+                      technologies. This article unpacks the options and their
+                      relative strengths and weaknesses in building the
+                      foundation on which you can scale or unchain your brand.As
+                      a start, the following are the key terms that apply to
+                      digital-experience architectures:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Monolithic,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which refers to single-vendor-based architectures, whereby the vendor is often a closed system with a single product that contains many specific components, that are glued together so that they are inseparable. '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Monoliths
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' frequently dictate certain paradigms for coding the front end.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Headless,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which applies to decoupled architectures, where presentation (the head) is separate from the underlying (headless) business logic technologies.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: MACH,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which stands for Microservices, APIs, Cloud, and Headless. Notably, products built the MACH way can meet brand requirements for performance, scalability, flexibility, etc. However, despite the vendors’ headless capabilities, not all vendors are MACH certified.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Composable,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which means that your digital-experience stack comprises various '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://www.elasticpath.com/blog/what-are-packaged-business-capablities
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: packaged business capabilities (PBCs)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , each of which featuring one or more technologies and
+                          which you can add or replace without fundamentally
+                          changing the architecture. In a 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: composable architecture
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , all the systems are decoupled. The more decoupled
+                          they are, the more flexibility for switching
+                          functionality or updating designs.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Headless and MACH, though often cited as composable,
+                      represent different concepts, as follows:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'How composable a technology is '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          refers to how pluggable or swappable its elements are
+                          and who can plug or swap them.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: How MACH ready a technology is
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' refers to how oriented it is vis-à-vis APIs and microservices and how mature it is in terms of MACH standards.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Based on the above axis, we’ve generated a matrix and the
+                      diagram below that illustrates the approaches:The four
+                      choices are—
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Legacy monolith:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' low composability and low MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Suite technologies:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' high composability and low MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Composed MACH monolith:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' low composability and high MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Composable MACH:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' high composability and high MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Legacy monolith
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The vendors that offer a legacy monolith have been around
+                      for a while, perennial leaders in categories like digital
+                      experience platforms (DXPs), 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/cms/what-is-a-cms
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: content management systems (CMSes)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      , commerce, and digital asset management (DAM), having
+                      started before cloud and SaaS technology became standard
+                      practice.Those vendors have large installed bases. Since
+                      they might already have paid a premium for the
+                      technologies, the existing customers usually stay around
+                      for a few years. For other customers, it’s simply too hard
+                      to change short-term because it took years to install
+                      those systems with tentacles all over the place. Also,
+                      those vendors have large, loyal agency partners and
+                      systems integrators that have built their own service
+                      offerings on top of the vendor's products, given that the
+                      partners have abundant resources that are trained on the
+                      technologies required for deployment and adoption. That’s
+                      a common problem for less mature buyers, however: As
+                      amazing as the vendor presentations and demos might look,
+                      in reality, the architecture has long been outdated.
+                      Obviously, smart brands would avoid those aging platforms
+                      at all costs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Organizations that are on fully-paid, perpetual licenses
+                      whose costs would increase significantly if they were to
+                      replatform, and organizations whose current implementation
+                      imposes few or no limitations.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The software has been in place for so long that
+                      organizations are no longer paying license fees, only
+                      maintenance costs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Inflexibility, involving extra costs when acquiring
+                          capabilities not offered by the vendor or when the
+                          capabilities offered cannot meet your requirements.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Vendor lock-in, i.e., a platform-based stack that
+                          often needs 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/switching-vendors-for-digital-architectures-without-replatforming
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: replatforming
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' for modernization every four to five years.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Limited access to resources for implementing solutions
+                          based on the vendor’s proprietary technology.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Suite technologies
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Suite vendors have often built or purchased various
+                      products and integrated them themselves. Even though those
+                      vendors have long been around, they have added modern
+                      capabilities to their core platform since losing deals to
+                      upstart competitors, such as headless vendors. These
+                      additions include SDKs for modern JavaScript frameworks
+                      (e.g., Next.js), headless capabilities, and easy
+                      integration with their technology ecosystem. Suite vendors
+                      tend to shy away from integrating outside their
+                      suite.Since their platforms are typically not fully SaaS,
+                      suite vendors are 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: 'not '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      MACH certified and are routinely sold as a cloud, with the
+                      vendor handling updates for customers and provisioning
+                      access to systems, etc. Even though suite vendors brand
+                      themselves as composable, e.g., composable DXP, they are 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: 'not '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      composable because you lose capabilities in the suite if
+                      you replace any preintegrated products.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Less digitally mature organizations without strong
+                      in-house engineering and architecture expertise.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A one-vendor contract, i.e., you buy the capabilities
+                          for your stack from a single vendor.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A preintegrated system with adjacent capabilities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A broad ecosystem of system integrators.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Inflexibility, involving extra costs when acquiring
+                          capabilities not offered by the vendor or when the
+                          capabilities offered cannot meet your requirements.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Vendor lock-in, i.e., a platform-based stack that
+                          often needs 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/switching-vendors-for-digital-architectures-without-replatforming
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: replatforming
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' for modernization every four to five years.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Limited access to resources for implementing solutions
+                          based on the vendor’s proprietary technology.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Composed MACH monolith
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The composed '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://uniform.dev/blogs/composable-architecture/the-mach-monolith
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: MACH monolith
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' leverages MACH-certified technologies for CMS, commerce, DAM, etc., and then builds code for manual integration between the systems that offer the user experience, e.g., MACH technologies and their front end of choice—open architecture, API first, flexible business logic.The projects typically start with one or two connected systems, which can become complex to manage and maintain once the number of integrations exceeds five and the number of connection points, 20. The architecture is more composed—e.g., gluing the selected technologies together—than composable, which is easier to adapt on the go. This example can also be an agency-created accelerator.Also, since composed architectures are often developer led, only developers can update them. Consequently, those architectures tend to focus on engineering interfaces with little need for business user UX.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Organizations that emphasize custom development and that
+                      traditionally lean toward build versus buy.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Learning how to use the composed MACH monolith is easy
+                          and fast given the small number of systems.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The front end being based on modern standards leads to
+                          a larger pool of developers.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Vendors might provide prebuilt connectors to other
+                          systems or support interoperability to an extent.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: You must manage multiple vendor contracts.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Significant maintenance is required over time in
+                          addition to a risk of being locked into the developer
+                          backlog for even trivial business-user tasks.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The dependency of maintenance on either the
+                          agency—thus creating a middle layer, or on the
+                          engineering team, which, over time, might balk at
+                          those mundane chores—is undesirable.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Glue code turns into tech debt, requiring constant
+                          maintenance and refactoring that slows development
+                          velocity over time.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Composable MACH
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The composable MACH architecture reaps the full benefits
+                      of composable, e.g., flexibility in connecting
+                      technologies to the stack and readiness in adapting to
+                      future needs, such as new front-end frameworks, new
+                      channels, and new markets.Organizations with a composable
+                      MACH architecture aim for the highest level of
+                      flexibility, optimized for the fastest time to market, and
+                      for a great UX for the teams that manage digital
+                      experiences. With a passion for maximum speed to market
+                      and time to value and learn, those organizations can
+                      iterate faster and faster.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ambitious and mature organizations that prioritize fast
+                      time-to-market and that clamor for the ability to quickly
+                      adapt to changing business needs—while recognizing that
+                      the task of building digital experiences is shared equally
+                      between business and technical teams.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A future fit as architectures become more value driven
+                          and adaptable to changes of their components on short
+                          notice.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          High speed and simplicity in deploying only a few
+                          systems.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A focus on the requirements and workflows of both
+                          developers and business users with the recognition
+                          that those two teams play a crucial yet different
+                          role.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Multiple vendor contracts.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A requirement for seasoned architects, either in-house
+                          or through agencies.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The likelihood of process change to ensure that
+                          marketers and developers work seamlessly together.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Based on the above four architectures, the diagram below
+                      highlights which solutions organizations should adopt as
+                      their architecture.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Legacy DXPs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , most of which, having been around for 10-12 years,
+                          are closed and monolithic.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Composable DXPs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , which are often legacy DXPs with added modern
+                          capabilities and branded as composable DXPs.
+                          Integrating tools that compete with the preintegrated
+                          ones might result in loss of significant
+                          functionality.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Bespoke accelerators (e.g., agency accelerators)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , developed either in-house or at the agency. They
+                          seek to speed up adoption of MACH products, which are
+                          often integrated through glue code that’s custom-built
+                          by integrators and agencies, not through
+                          configuration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://uniform.dev/what-is-digital-experience-composition
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Digital experience composition
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 9
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , a new category of products that build the basis for
+                          managing composable experiences at scale, integrating
+                          MACH tools through configuration with a no-code or
+                          low-code approach to preserve the benefits of
+                          composability beyond the initial implementation.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Next steps
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Choosing the right digital-experience architecture is
+                      crucial for gaining agility, flexibility, and high
+                      performance for your digital properties. By understanding
+                      the key concepts and differences among the monolithic,
+                      headless, MACH, and composable options, you can make an
+                      informed decision that aligns with your business goals and
+                      needs.If you're still unsure which architecture best suits
+                      you, 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/demo
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: book a free demo
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' with us to learn how a digital experience composition platform (DXCP) can help you realize the true promise of composable.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Monolithic, headless, MACH, composable, oh my! The past
+                      couple of years have seen a resurgence of spending by
+                      brands in digital-experience technologies. From the impact
+                      of COVID to the uncertainty in markets, brands have been
+                      seeking to raise the value of their digital properties,
+                      specifically in agility, flexibility, and performance, and
+                      overcome the slow time to market caused by the brands’
+                      existing technologies. Plus, brands must pay attention to
+                      retaining customers rather than just acquiring them.Many
+                      are the approaches that take advantage of new
+                      technologies. This article unpacks the options and their
+                      relative strengths and weaknesses in building the
+                      foundation on which you can scale or unchain your brand.As
+                      a start, the following are the key terms that apply to
+                      digital-experience architectures:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Monolithic,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which refers to single-vendor-based architectures, whereby the vendor is often a closed system with a single product that contains many specific components, that are glued together so that they are inseparable. '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/composable-architectures-are-the-future-of-the-digital-sphere
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Monoliths
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' frequently dictate certain paradigms for coding the front end.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Headless,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which applies to decoupled architectures, where presentation (the head) is separate from the underlying (headless) business logic technologies.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: MACH,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which stands for Microservices, APIs, Cloud, and Headless. Notably, products built the MACH way can meet brand requirements for performance, scalability, flexibility, etc. However, despite the vendors’ headless capabilities, not all vendors are MACH certified.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Composable,
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' which means that your digital-experience stack comprises various '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://www.elasticpath.com/blog/what-are-packaged-business-capablities
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: packaged business capabilities (PBCs)
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , each of which featuring one or more technologies and
+                          which you can add or replace without fundamentally
+                          changing the architecture. In a 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/composable-platforms-what-why-how
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: composable architecture
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , all the systems are decoupled. The more decoupled
+                          they are, the more flexibility for switching
+                          functionality or updating designs.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Headless and MACH, though often cited as composable,
+                      represent different concepts, as follows:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'How composable a technology is '
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          refers to how pluggable or swappable its elements are
+                          and who can plug or swap them.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: How MACH ready a technology is
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' refers to how oriented it is vis-à-vis APIs and microservices and how mature it is in terms of MACH standards.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Based on the above axis, we’ve generated a matrix and the
+                      diagram below that illustrates the approaches:The four
+                      choices are—
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Legacy monolith:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' low composability and low MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Suite technologies:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' high composability and low MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Composed MACH monolith:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' low composability and high MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: 'Composable MACH:'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: ' high composability and high MACH maturity'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Legacy monolith
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The vendors that offer a legacy monolith have been around
+                      for a while, perennial leaders in categories like digital
+                      experience platforms (DXPs), 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/cms/what-is-a-cms
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: content management systems (CMSes)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      , commerce, and digital asset management (DAM), having
+                      started before cloud and SaaS technology became standard
+                      practice.Those vendors have large installed bases. Since
+                      they might already have paid a premium for the
+                      technologies, the existing customers usually stay around
+                      for a few years. For other customers, it’s simply too hard
+                      to change short-term because it took years to install
+                      those systems with tentacles all over the place. Also,
+                      those vendors have large, loyal agency partners and
+                      systems integrators that have built their own service
+                      offerings on top of the vendor's products, given that the
+                      partners have abundant resources that are trained on the
+                      technologies required for deployment and adoption. That’s
+                      a common problem for less mature buyers, however: As
+                      amazing as the vendor presentations and demos might look,
+                      in reality, the architecture has long been outdated.
+                      Obviously, smart brands would avoid those aging platforms
+                      at all costs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Organizations that are on fully-paid, perpetual licenses
+                      whose costs would increase significantly if they were to
+                      replatform, and organizations whose current implementation
+                      imposes few or no limitations.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The software has been in place for so long that
+                      organizations are no longer paying license fees, only
+                      maintenance costs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Inflexibility, involving extra costs when acquiring
+                          capabilities not offered by the vendor or when the
+                          capabilities offered cannot meet your requirements.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Vendor lock-in, i.e., a platform-based stack that
+                          often needs 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/switching-vendors-for-digital-architectures-without-replatforming
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: replatforming
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' for modernization every four to five years.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Limited access to resources for implementing solutions
+                          based on the vendor’s proprietary technology.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Suite technologies
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Suite vendors have often built or purchased various
+                      products and integrated them themselves. Even though those
+                      vendors have long been around, they have added modern
+                      capabilities to their core platform since losing deals to
+                      upstart competitors, such as headless vendors. These
+                      additions include SDKs for modern JavaScript frameworks
+                      (e.g., Next.js), headless capabilities, and easy
+                      integration with their technology ecosystem. Suite vendors
+                      tend to shy away from integrating outside their
+                      suite.Since their platforms are typically not fully SaaS,
+                      suite vendors are 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: 'not '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      MACH certified and are routinely sold as a cloud, with the
+                      vendor handling updates for customers and provisioning
+                      access to systems, etc. Even though suite vendors brand
+                      themselves as composable, e.g., composable DXP, they are 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - mode: normal
+                    text: 'not '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                  - mode: normal
+                    text: >-
+                      composable because you lose capabilities in the suite if
+                      you replace any preintegrated products.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Less digitally mature organizations without strong
+                      in-house engineering and architecture expertise.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A one-vendor contract, i.e., you buy the capabilities
+                          for your stack from a single vendor.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A preintegrated system with adjacent capabilities.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A broad ecosystem of system integrators.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Inflexibility, involving extra costs when acquiring
+                          capabilities not offered by the vendor or when the
+                          capabilities offered cannot meet your requirements.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Vendor lock-in, i.e., a platform-based stack that
+                          often needs 
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                      - link:
+                          path: >-
+                            https://uniform.dev/blogs/composable-architecture/switching-vendors-for-digital-architectures-without-replatforming
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: replatforming
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: ' for modernization every four to five years.'
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Limited access to resources for implementing solutions
+                          based on the vendor’s proprietary technology.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Composed MACH monolith
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'The composed '
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://uniform.dev/blogs/composable-architecture/the-mach-monolith
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: MACH monolith
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' leverages MACH-certified technologies for CMS, commerce, DAM, etc., and then builds code for manual integration between the systems that offer the user experience, e.g., MACH technologies and their front end of choice—open architecture, API first, flexible business logic.The projects typically start with one or two connected systems, which can become complex to manage and maintain once the number of integrations exceeds five and the number of connection points, 20. The architecture is more composed—e.g., gluing the selected technologies together—than composable, which is easier to adapt on the go. This example can also be an agency-created accelerator.Also, since composed architectures are often developer led, only developers can update them. Consequently, those architectures tend to focus on engineering interfaces with little need for business user UX.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Organizations that emphasize custom development and that
+                      traditionally lean toward build versus buy.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Learning how to use the composed MACH monolith is easy
+                          and fast given the small number of systems.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The front end being based on modern standards leads to
+                          a larger pool of developers.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Vendors might provide prebuilt connectors to other
+                          systems or support interoperability to an extent.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: You must manage multiple vendor contracts.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Significant maintenance is required over time in
+                          addition to a risk of being locked into the developer
+                          backlog for even trivial business-user tasks.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The dependency of maintenance on either the
+                          agency—thus creating a middle layer, or on the
+                          engineering team, which, over time, might balk at
+                          those mundane chores—is undesirable.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Glue code turns into tech debt, requiring constant
+                          maintenance and refactoring that slows development
+                          velocity over time.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Composable MACH
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The composable MACH architecture reaps the full benefits
+                      of composable, e.g., flexibility in connecting
+                      technologies to the stack and readiness in adapting to
+                      future needs, such as new front-end frameworks, new
+                      channels, and new markets.Organizations with a composable
+                      MACH architecture aim for the highest level of
+                      flexibility, optimized for the fastest time to market, and
+                      for a great UX for the teams that manage digital
+                      experiences. With a passion for maximum speed to market
+                      and time to value and learn, those organizations can
+                      iterate faster and faster.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Typical customers
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Ambitious and mature organizations that prioritize fast
+                      time-to-market and that clamor for the ability to quickly
+                      adapt to changing business needs—while recognizing that
+                      the task of building digital experiences is shared equally
+                      between business and technical teams.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Pros
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A future fit as architectures become more value driven
+                          and adaptable to changes of their components on short
+                          notice.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          High speed and simplicity in deploying only a few
+                          systems.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A focus on the requirements and workflows of both
+                          developers and business users with the recognition
+                          that those two teams play a crucial yet different
+                          role.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h3
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Cons
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Multiple vendor contracts.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          A requirement for seasoned architects, either in-house
+                          or through agencies.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The likelihood of process change to ensure that
+                          marketers and developers work seamlessly together.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Based on the above four architectures, the diagram below
+                      highlights which solutions organizations should adopt as
+                      their architecture.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Legacy DXPs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , most of which, having been around for 10-12 years,
+                          are closed and monolithic.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Composable DXPs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , which are often legacy DXPs with added modern
+                          capabilities and branded as composable DXPs.
+                          Integrating tools that compete with the preintegrated
+                          ones might result in loss of significant
+                          functionality.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Bespoke accelerators (e.g., agency accelerators)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 1
+                        version: 1
+                      - mode: normal
+                        text: >-
+                          , developed either in-house or at the agency. They
+                          seek to speed up adoption of MACH products, which are
+                          often integrated through glue code that’s custom-built
+                          by integrators and agencies, not through
+                          configuration.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: >-
+                            https://uniform.dev/what-is-digital-experience-composition
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Digital experience composition
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 9
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          , a new category of products that build the basis for
+                          managing composable experiences at scale, integrating
+                          MACH tools through configuration with a no-code or
+                          low-code approach to preserve the benefits of
+                          composability beyond the initial implementation.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Next steps
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Choosing the right digital-experience architecture is
+                      crucial for gaining agility, flexibility, and high
+                      performance for your digital properties. By understanding
+                      the key concepts and differences among the monolithic,
+                      headless, MACH, and composable options, you can make an
+                      informed decision that aligns with your business goals and
+                      needs.If you're still unsure which architecture best suits
+                      you, 
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://uniform.dev/demo
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: book a free demo
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ' with us to learn how a digital experience composition platform (DXCP) can help you realize the true promise of composable.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        da-DK: >-
+          Monolitisk, headless, MACH, composable, oh my! I de seneste par år har
+          brands igen investeret i teknologier til digitale oplevelser.
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-3a782d5d-88aa-49be-8711-a12ae38b0653-categories/entries}
+  _dataResources:
+    ref-3a782d5d-88aa-49be-8711-a12ae38b0653-authors:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: 37ccdf41-8138-44ab-bdc4-58099af0984c
+    ref-3a782d5d-88aa-49be-8711-a12ae38b0653-categories:
+      type: uniformContentInternalReference
+      variables:
+        entryIds: >-
+          ce1e5b5f-5644-4e44-bf65-c882dff072a3,d2c37f0b-24f8-4a57-91fe-8e72ad94c6d0,438b8d13-f7a3-4ce5-8ee4-befc83b0b547
+  _locales:
+    - da-DK
+    - en-US

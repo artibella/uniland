@@ -1,0 +1,1173 @@
+created: '2024-09-18T10:12:07.324313+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
+pattern: false
+entry:
+  _id: 2fc377b5-cb6d-4d41-8ede-e42adf4621e8
+  _name: 'The Uniform Advantage: Visual Editing Across Channels and'
+  _slug: the-uniform-advantage-visual-editing-across-channels-and-sources
+  _thumbnail: >-
+    https://images.ctfassets.net/9ku1oyd4k3wo/kicWzYhX4tb0uWD02BCV9/631020e46ebd675b25bde9bed869cf28/BlogHeader_Q7_4.png?w=500
+  type: blogPost
+  fields:
+    date:
+      type: date
+      value: '2024-06-03'
+    image:
+      type: asset
+      locales:
+        de-DE:
+          - _id: a4c5247e-de78-4624-981f-5e051bbbcc54
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/9ku1oyd4k3wo/kicWzYhX4tb0uWD02BCV9/631020e46ebd675b25bde9bed869cf28/BlogHeader_Q7_4.png?w=500
+            _source: custom-url
+        en-US:
+          - _id: a4c5247e-de78-4624-981f-5e051bbbcc54
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.ctfassets.net/9ku1oyd4k3wo/kicWzYhX4tb0uWD02BCV9/631020e46ebd675b25bde9bed869cf28/BlogHeader_Q7_4.png?w=500
+            _source: custom-url
+      value: []
+    title:
+      type: text
+      locales:
+        de-DE: 'The Uniform Advantage: Visual Editing Across Channels and Sources'
+        en-US: 'The Uniform Advantage: Visual Editing Across Channels and Sources'
+    authors:
+      type: contentReference
+      value: ${#jptr:/ref-2fc377b5-cb6d-4d41-8ede-e42adf4621e8-authors/entries}
+    postBody:
+      type: richText
+      locales:
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "The digital experience landscape, as is the role of\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.uniform.dev/features/content-management
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Content Management Systems (CMS)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      , is evolving. Current discussions highlight critical
+                      challenges in the ecosystem:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The absence of robust marketing interfaces and tools
+                          in headless CMSs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The constraint of page-based thinking binds design
+                          decisions too closely to the content model
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The need for a CMS that serves both business users and
+                          developers, providing flexibility for front-end
+                          frameworks while empowering users to create and manage
+                          digital experiences seamlessly
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "The evolution from early Web CMSs to Digital Experience Platforms (DXPs) and headless CMSs has significantly reduced capabilities. Although headless CMSs offer simplicity in creating content models and APIs, they lack business features like visual editing,\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.uniform.dev/features/personalization
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: personalization
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ",\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.uniform.dev/features/ab-testing
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A/B testing
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ', and governance.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Brands with solid engineering teams have tried to bridge
+                      these gaps by building custom middle-layers or
+                      back-end-for-front-end (BFF) solutions. However, the need
+                      for simpler solutions is growing as headless architectures
+                      become mainstream.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Business users require intuitive visual interfaces to perform their tasks efficiently without constant reliance on developers. Recently, new solutions have emerged to address this divide, though many remain overly technical. At Uniform, we align with Gartner's concept of\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.uniform.dev/what-is-digital-experience-composition
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Digital Experience Composition
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ", which outlines how to cater to business and developer needs.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.forrester.com/blogs/a-tantalizing-sequel-to-web-cms-is-coming-soon/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Forrester’s 2018 description of the Agile CMS
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_predicted the need for a CMS that balances the needs of both audiences, a vision we at Uniform have brought to life."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Many brands still view the CMS as the cornerstone of their
+                      digital experience stack, often overlooking the broader
+                      capabilities required in today's multi-channel
+                      environment. A standard headless CMS usually necessitates
+                      extensive custom development to meet modern digital
+                      experience needs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: start
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Uniform?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Uniform was founded to address these deficiencies. Our
+                      team, comprising experts from both the DXP and headless
+                      CMS ecosystems, aimed to deliver a solution that
+                      accelerates the creation and management of digital
+                      experiences.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Our priorities in building Uniform included:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Front-End Agnosticism: Uniform integrates seamlessly
+                          with your front end without imposing design
+                          constraints, allowing developers to retain full
+                          control over the app.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: https://www.uniform.dev/integrations
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Data and Technology Integrations
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          : Connecting your front end with any source is
+                          straightforward, enabling users to link data
+                          effortlessly.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: https://www.uniform.dev/features/content-management
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Comprehensive CMS Capabilities
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          : Our platform supports editorial and non-editorial
+                          content, which can be content objects such as SKUs,
+                          location data, and user-generated content.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: https://www.uniform.dev/visual-workspace
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Channel-Agnostic Visual Workspace
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          : A unified interface allows you to manage experiences
+                          across all channels—web, app, email, kiosk, and more.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Separation of Concerns: Maintain distinct boundaries
+                          between design and content model for better
+                          management.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h4
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Uniform provides a flexible visual workspace that empowers
+                      brands to:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Connect any content, data, or technology from modern
+                          APIs to legacy systems.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Visually create and manage digital experiences across
+                          channels.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Optimize and personalize experiences based on
+                          real-time data.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Utilize Uniform for CMS capabilities or integrate with
+                          other CMSs.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "The digital experience landscape, as is the role of\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.uniform.dev/features/content-management
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Content Management Systems (CMS)
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: >-
+                      , is evolving. Current discussions highlight critical
+                      challenges in the ecosystem:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The absence of robust marketing interfaces and tools
+                          in headless CMSs
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The constraint of page-based thinking binds design
+                          decisions too closely to the content model
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          The need for a CMS that serves both business users and
+                          developers, providing flexibility for front-end
+                          frameworks while empowering users to create and manage
+                          digital experiences seamlessly
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "The evolution from early Web CMSs to Digital Experience Platforms (DXPs) and headless CMSs has significantly reduced capabilities. Although headless CMSs offer simplicity in creating content models and APIs, they lack business features like visual editing,\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.uniform.dev/features/personalization
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: personalization
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ",\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: https://www.uniform.dev/features/ab-testing
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: A/B testing
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ', and governance.'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Brands with solid engineering teams have tried to bridge
+                      these gaps by building custom middle-layers or
+                      back-end-for-front-end (BFF) solutions. However, the need
+                      for simpler solutions is growing as headless architectures
+                      become mainstream.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: "Business users require intuitive visual interfaces to perform their tasks efficiently without constant reliance on developers. Recently, new solutions have emerged to address this divide, though many remain overly technical. At Uniform, we align with Gartner's concept of\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.uniform.dev/what-is-digital-experience-composition
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Digital Experience Composition
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: ", which outlines how to cater to business and developer needs.\_"
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                  - link:
+                      path: >-
+                        https://www.forrester.com/blogs/a-tantalizing-sequel-to-web-cms-is-coming-soon/
+                      type: url
+                    type: link
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: Forrester’s 2018 description of the Agile CMS
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 8
+                        version: 1
+                    direction: ltr
+                  - mode: normal
+                    text: "\_predicted the need for a CMS that balances the needs of both audiences, a vision we at Uniform have brought to life."
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Many brands still view the CMS as the cornerstone of their
+                      digital experience stack, often overlooking the broader
+                      capabilities required in today's multi-channel
+                      environment. A standard headless CMS usually necessitates
+                      extensive custom development to meet modern digital
+                      experience needs.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: h3
+                type: heading
+                format: start
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Why Uniform?
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 1
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Uniform was founded to address these deficiencies. Our
+                      team, comprising experts from both the DXP and headless
+                      CMS ecosystems, aimed to deliver a solution that
+                      accelerates the creation and management of digital
+                      experiences.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: 'Our priorities in building Uniform included:'
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+                textStyle: ''
+                textFormat: 0
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Front-End Agnosticism: Uniform integrates seamlessly
+                          with your front end without imposing design
+                          constraints, allowing developers to retain full
+                          control over the app.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: https://www.uniform.dev/integrations
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Data and Technology Integrations
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          : Connecting your front end with any source is
+                          straightforward, enabling users to link data
+                          effortlessly.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: https://www.uniform.dev/features/content-management
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Comprehensive CMS Capabilities
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          : Our platform supports editorial and non-editorial
+                          content, which can be content objects such as SKUs,
+                          location data, and user-generated content.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - link:
+                          path: https://www.uniform.dev/visual-workspace
+                          type: url
+                        type: link
+                        format: ''
+                        indent: 0
+                        version: 1
+                        children:
+                          - mode: normal
+                            text: Channel-Agnostic Visual Workspace
+                            type: text
+                            style: ''
+                            detail: 0
+                            format: 8
+                            version: 1
+                        direction: ltr
+                      - mode: normal
+                        text: >-
+                          : A unified interface allows you to manage experiences
+                          across all channels—web, app, email, kiosk, and more.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 5
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Separation of Concerns: Maintain distinct boundaries
+                          between design and content model for better
+                          management.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+              - tag: h4
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Uniform provides a flexible visual workspace that empowers
+                      brands to:
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: ul
+                type: list
+                start: 1
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: listitem
+                    value: 1
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Connect any content, data, or technology from modern
+                          APIs to legacy systems.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 2
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Visually create and manage digital experiences across
+                          channels.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 3
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Optimize and personalize experiences based on
+                          real-time data.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                  - type: listitem
+                    value: 4
+                    format: start
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Utilize Uniform for CMS capabilities or integrate with
+                          other CMSs.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                listType: bullet
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        de-DE: 'The Uniform Advantage: Visual Editing Across Channels and Sources'
+        en-US: 'The Uniform Advantage: Visual Editing Across Channels and Sources'
+    categories:
+      type: contentReference
+      value: ${#jptr:/ref-2fc377b5-cb6d-4d41-8ede-e42adf4621e8-categories/entries}
+  _dataResources:
+    ref-2fc377b5-cb6d-4d41-8ede-e42adf4621e8-authors:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 37ccdf41-8138-44ab-bdc4-58099af0984c
+    ref-2fc377b5-cb6d-4d41-8ede-e42adf4621e8-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: 4a4667e7-9aad-4a2f-a330-ceadb79a29e8
+  _locales:
+    - de-DE
+    - en-US

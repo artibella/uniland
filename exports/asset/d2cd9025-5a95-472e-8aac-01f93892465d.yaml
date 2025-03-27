@@ -1,14 +1,11 @@
 asset:
   type: image
   _id: d2cd9025-5a95-472e-8aac-01f93892465d
-  _name: ''
+  _name: re-oliveira-C9iIB99YV4I-unsplash.jpg
   fields:
     title:
       type: text
       value: re-oliveira-C9iIB99YV4I-unsplash.jpg
-    description:
-      type: text
-      value: ''
     file:
       type: file
       value: d2cd9025-5a95-472e-8aac-01f93892465d
@@ -28,6 +25,11 @@ asset:
     height:
       value: 1600
       type: number
+    focalPoint:
+      value:
+        x: 0.5
+        'y': 0.87
+      type: focalPoint
     custom: {}
 created: '2023-10-09T15:08:43.251475+00:00'
-modified: '2023-10-09T15:08:43.251475+00:00'
+modified: '2025-03-26T13:43:28.19251+00:00'

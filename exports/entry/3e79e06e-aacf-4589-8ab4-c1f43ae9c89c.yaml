@@ -1,0 +1,608 @@
+created: '2023-06-20T13:51:38.354871+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
+pattern: false
+entry:
+  _id: 3e79e06e-aacf-4589-8ab4-c1f43ae9c89c
+  _name: 'Apus Apus: The Swift Bird'
+  _slug: apus-apus-the-swift-bird
+  type: blogPost
+  fields:
+    date:
+      type: date
+      value: '2024-03-18'
+    image:
+      type: asset
+      locales:
+        da-DK:
+          - _id: ef264250-6647-4777-97c7-3d4dc996505e
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1652794773884-bd659391c605?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80
+            _source: custom-url
+        de-DE:
+          - _id: 71021a8c-916b-4905-91f8-983d9610aee3
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1652794773884-bd659391c605?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80
+            _source: custom-url
+        en-US:
+          - _id: 54495906-59c7-4bcd-9561-92fc8bbcf2c9
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1652794773884-bd659391c605?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1734&q=80
+            _source: custom-url
+      value: []
+    title:
+      type: text
+      locales:
+        da-DK: 'Apus Apus: Den hurtige fugl '
+        de-DE: 'Apus Apus: Der schnelle Vogel'
+        en-US: 'Apus Apus: The Swift Bird '
+    postBody:
+      type: richText
+      locales:
+        da-DK:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Introduction
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Apus Apus, commonly known as the Swift Bird, is a
+                      remarkable bird with unique characteristics that make it
+                      stand out. This bird is found in many parts of the world
+                      and is known for its remarkable aerial abilities. In this
+                      blog post, we will explore the interesting facts about
+                      Apus Apus and why it is a fascinating bird.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Physical Characteristics
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Apus Apus has a distinctive appearance. It has a slender
+                      body, long wings, and a forked tail. The bird is about
+                      16cm long, has a wingspan of about 42cm, and weighs about
+                      45g. The Swift Bird has a dark brown color, with a
+                      slightly paler throat and a white belly. The bird's wings
+                      make up most of its body length, making it look like a
+                      flying cigar. The bird's wings are narrow and pointed,
+                      allowing it to fly at high speeds and make sharp turns.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Habitat and Migration
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swift Bird is found in many parts of the world,
+                      including Europe, Asia, Africa, and the Americas. It is a
+                      migratory bird that spends the winter in Africa and the
+                      summer in Europe. The bird's migration is impressive, as
+                      it travels over long distances and at high altitudes. The
+                      Swift Bird can fly up to 1000 km per day and cover up to
+                      10,000 km during its migration.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Behavior and Diet
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swift Bird is a highly skilled flyer. It can fly at
+                      speeds of up to 70 km/h and can even fly upside down and
+                      backwards. The bird feeds on insects, which it catches
+                      while flying. It can consume up to 2000 insects per day.
+                      The bird's flying skills allow it to catch insects that
+                      other birds cannot. The Swift Bird is also known for its
+                      social behavior, as it lives in large colonies during the
+                      breeding season.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In conclusion, Apus Apus is a fascinating bird with unique
+                      characteristics that make it stand out. Its impressive
+                      aerial abilities, migration, and social behavior make it a
+                      remarkable bird to observe. The next time you see a Swift
+                      Bird flying in the sky, take a moment to appreciate its
+                      beauty and incredible skills.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        de-DE:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Introduction
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Apus Apus, commonly known as the Swift Bird, is a
+                      remarkable bird with unique characteristics that make it
+                      stand out. This bird is found in many parts of the world
+                      and is known for its remarkable aerial abilities. In this
+                      blog post, we will explore the interesting facts about
+                      Apus Apus and why it is a fascinating bird.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Physical Characteristics
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Apus Apus has a distinctive appearance. It has a slender
+                      body, long wings, and a forked tail. The bird is about
+                      16cm long, has a wingspan of about 42cm, and weighs about
+                      45g. The Swift Bird has a dark brown color, with a
+                      slightly paler throat and a white belly. The bird's wings
+                      make up most of its body length, making it look like a
+                      flying cigar. The bird's wings are narrow and pointed,
+                      allowing it to fly at high speeds and make sharp turns.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Habitat and Migration
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swift Bird is found in many parts of the world,
+                      including Europe, Asia, Africa, and the Americas. It is a
+                      migratory bird that spends the winter in Africa and the
+                      summer in Europe. The bird's migration is impressive, as
+                      it travels over long distances and at high altitudes. The
+                      Swift Bird can fly up to 1000 km per day and cover up to
+                      10,000 km during its migration.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Behavior and Diet
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swift Bird is a highly skilled flyer. It can fly at
+                      speeds of up to 70 km/h and can even fly upside down and
+                      backwards. The bird feeds on insects, which it catches
+                      while flying. It can consume up to 2000 insects per day.
+                      The bird's flying skills allow it to catch insects that
+                      other birds cannot. The Swift Bird is also known for its
+                      social behavior, as it lives in large colonies during the
+                      breeding season.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In conclusion, Apus Apus is a fascinating bird with unique
+                      characteristics that make it stand out. Its impressive
+                      aerial abilities, migration, and social behavior make it a
+                      remarkable bird to observe. The next time you see a Swift
+                      Bird flying in the sky, take a moment to appreciate its
+                      beauty and incredible skills.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Introduction
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Apus Apus, commonly known as the Swift Bird, is a
+                      remarkable bird with unique characteristics that make it
+                      stand out. This bird is found in many parts of the world
+                      and is known for its remarkable aerial abilities. In this
+                      blog post, we will explore the interesting facts about
+                      Apus Apus and why it is a fascinating bird.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Physical Characteristics
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      Apus Apus has a distinctive appearance. It has a slender
+                      body, long wings, and a forked tail. The bird is about
+                      16cm long, has a wingspan of about 42cm, and weighs about
+                      45g. The Swift Bird has a dark brown color, with a
+                      slightly paler throat and a white belly. The bird's wings
+                      make up most of its body length, making it look like a
+                      flying cigar. The bird's wings are narrow and pointed,
+                      allowing it to fly at high speeds and make sharp turns.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Habitat and Migration
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swift Bird is found in many parts of the world,
+                      including Europe, Asia, Africa, and the Americas. It is a
+                      migratory bird that spends the winter in Africa and the
+                      summer in Europe. The bird's migration is impressive, as
+                      it travels over long distances and at high altitudes. The
+                      Swift Bird can fly up to 1000 km per day and cover up to
+                      10,000 km during its migration.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Behavior and Diet
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      The Swift Bird is a highly skilled flyer. It can fly at
+                      speeds of up to 70 km/h and can even fly upside down and
+                      backwards. The bird feeds on insects, which it catches
+                      while flying. It can consume up to 2000 insects per day.
+                      The bird's flying skills allow it to catch insects that
+                      other birds cannot. The Swift Bird is also known for its
+                      social behavior, as it lives in large colonies during the
+                      breeding season.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - tag: h2
+                type: heading
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: Conclusion
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: >-
+                      In conclusion, Apus Apus is a fascinating bird with unique
+                      characteristics that make it stand out. Its impressive
+                      aerial abilities, migration, and social behavior make it a
+                      remarkable bird to observe. The next time you see a Swift
+                      Bird flying in the sky, take a moment to appreciate its
+                      beauty and incredible skills.
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        da-DK: >-
+          Hurtigfuglen, Apus Apus, er en bemærkelsesværdig flyver, der findes
+          over hele verden. Med sine lange vinger, kløftede hale og evne til at
+          flyve hurtigt, lever den af op til 2000 insekter dagligt. Dens
+          migrations- og yngleadfærd er også bemærkelsesværdig. special
+        de-DE: >-
+          The Swift Bird, Apus Apus, is a remarkable flyer found worldwide. With
+          long wings, forked tail, and high-speed abilities, it feeds on up to
+          2000 insects daily. Its migration and breeding behavior are also
+          noteworthy.
+        en-US: >-
+          The Swift Bird, Apus Apus, is a remarkable flyer found worldwide. With
+          long wings, forked tail, and high-speed abilities, it feeds on up to
+          2000 insects daily. Its migration and breeding behavior are also
+          noteworthy. special
+  _locales:
+    - de-DE
+    - en-US
+    - da-DK

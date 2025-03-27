@@ -1,9 +1,9 @@
 id: 85a51285-d076-4821-86ce-f790662b420b
 name: Product Categories
-type: composition
-data: {}
-order: 100
+order: 287
 path: /:locale/shop/categories
-compositionId: 699f24cf-e4bf-4945-835d-6ef00dcd4b59
+type: composition
 pathSegment: categories
+data: {}
+compositionId: 699f24cf-e4bf-4945-835d-6ef00dcd4b59
 projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

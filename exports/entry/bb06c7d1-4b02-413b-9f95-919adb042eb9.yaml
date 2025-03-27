@@ -1,15 +1,76 @@
 created: '2024-09-09T14:54:43.506616+00:00'
-modified: '2024-09-09T14:55:39.095806+00:00'
+modified: '2025-03-12T19:06:17.308652+00:00'
 pattern: false
 entry:
   _id: bb06c7d1-4b02-413b-9f95-919adb042eb9
   _name: Party 🥳
   _slug: new-entry-occasion
+  _thumbnail: >-
+    https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3&q=85
   type: occasion
   fields:
     name:
       type: text
       locales:
         en-US: Party 🥳
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: 9396ecd3-35e7-4672-83f1-6d6734ad3aa0
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3&q=85
+              title:
+                type: text
+                value: >-
+                  Pull out the beer. Grab the smoked cheddar. Your team is on TV
+                  and it’s high time we cheer. And by “cheer”, I mean “stuff our
+                  faces.” Obvs.
+              width:
+                type: number
+                value: 5066
+              custom:
+                type: object
+                value:
+                  color: '#d9d9d9'
+                  apiUrl: >-
+                    https://api.unsplash.com/photos/flat-lay-photography-of-sliced-apples-sausages-chips-and-brown-sauce-C1fMH2Vej8A
+                  blurHash: LKLgX{e-*0Mw%MxtDht7_4NID%xv
+                  sourceId: C1fMH2Vej8A
+                  createdAt: '2017-02-01T15:45:00Z'
+                  detailUrl: >-
+                    https://unsplash.com/photos/flat-lay-photography-of-sliced-apples-sausages-chips-and-brown-sauce-C1fMH2Vej8A
+                  updatedAt: '2025-03-12T14:56:43Z'
+                  authorName: Brooke Lark
+                  downloadUrl: >-
+                    https://unsplash.com/photos/C1fMH2Vej8A/download?ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA
+                  photoRawUrl: >-
+                    https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3
+                  photoFullUrl: >-
+                    https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3&q=85
+                  photoSmallUrl: >-
+                    https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3&q=80&w=400
+                  photoThumbUrl: >-
+                    https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3&q=80&w=200
+                  authorUsername: brookelark
+                  photoRegularUrl: >-
+                    https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA&ixlib=rb-4.0.3&q=80&w=1080
+                  authorProfileUrl: https://unsplash.com/@brookelark
+                  downloadLocation: >-
+                    https://api.unsplash.com/photos/C1fMH2Vej8A/download?ixid=M3w3MTY2Njl8MHwxfHNlYXJjaHw4fHxwYXJ0eSUyMGZvb2R8ZW58MHx8fHwxNzQxODA2MzUwfDA
+                  authorProfileImage: >-
+                    https://images.unsplash.com/profile-1496175100457-27a8e68786eb?ixlib=rb-4.0.3&crop=faces&fit=crop&w=32&h=32
+              height:
+                type: number
+                value: 3793
+              description:
+                type: text
+                value: Photo by Brooke Lark on Unsplash
+            _source: unisplash-bdaded99-0206-4640-be8d-d631ecabd41f
+      value: []
   _locales:
     - en-US

@@ -1,0 +1,12 @@
+id: 95ef1e07-51f5-4a35-b75a-98d0499aefcb
+sourceUrl: /:locale/shop/puffer
+sourceRetainQuerystring: true
+targetUrl: https://uniland-staging.vercel.app/:locale/shop/puffer-jacket
+targetStatusCode: 301
+targetProjectMapNodeId: b9b0ceda-67f8-4cbb-a139-2dafd16c4e78
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
+sourceMustMatchDomain: false
+targetPreserveIncomingProtocol: true
+targetPreserveIncomingDomain: true
+targetMergeQuerystring: true
+labelAsSystem: true

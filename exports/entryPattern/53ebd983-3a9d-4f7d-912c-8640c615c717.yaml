@@ -1,0 +1,60 @@
+created: '2024-02-28T14:25:47.647877+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
+pattern: true
+entry:
+  _id: 53ebd983-3a9d-4f7d-912c-8640c615c717
+  _name: Contentful Post
+  _slug: blog-post-pattern
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/2bn6CN4eFqNW4kjb9tvEzJ/2f59f09cefa5fe2416e125d89f84d37c/4096x2048_twitter_3.png
+  type: blogPost
+  fields:
+    tags:
+      type: $block
+      value: []
+    image:
+      type: asset
+      locales:
+        en-US:
+          - _id: ecb40a20-ddb7-43dd-b30e-5834c59d90c5
+            type: image
+            fields:
+              url:
+                type: text
+                value: >-
+                  https:${#jptr:/Contentful Blog
+                  Post/fields/featuredImage/fields/file/url}
+            _source: custom-url
+      value: []
+    title:
+      type: text
+      locales:
+        en-US: ${#jptr:/Contentful Blog Post/fields/title}
+    postJson:
+      type: json
+      value: ${#jptr:/Contentful Blog Post/fields/content}
+    subtitle:
+      type: text
+      locales:
+        en-US: ${#jptr:/Contentful Blog Post/fields/metaData/fields/description}
+  _dataResources:
+    Contentful Blog Post:
+      type: singlePost
+      variables:
+        locale: ${locale}
+        entryIds: 5k8iUAYG5dm8gjUP1dEgOU
+      isPatternParameter: true
+      ignorePatternParameterDefault: true
+  _locales:
+    - en-US
+  _overridability:
+    parameters:
+      date: 'yes'
+      image: 'no'
+      title: 'yes'
+      author: 'yes'
+      authors: 'yes'
+      postBody: 'no'
+      postJson: 'yes'
+      subtitle: 'yes'
+      categories: 'yes'

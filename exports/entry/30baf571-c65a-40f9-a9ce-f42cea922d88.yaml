@@ -1,0 +1,43 @@
+created: '2024-04-03T19:14:52.220685+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
+pattern: false
+entry:
+  _id: 30baf571-c65a-40f9-a9ce-f42cea922d88
+  _name: 'Draft: How to plan for composable architectures?'
+  _slug: draft-how-to-plan-for-composable-architectures
+  type: blogPost
+  fields:
+    title:
+      type: text
+      locales:
+        en-US: 'Draft: How to plan for composable architectures?'
+    postBody:
+      type: richText
+      locales:
+        en-US:
+          root:
+            type: root
+            format: ''
+            indent: 0
+            version: 1
+            children:
+              - type: paragraph
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - mode: normal
+                    text: TODO
+                    type: text
+                    style: ''
+                    detail: 0
+                    format: 0
+                    version: 1
+                direction: ltr
+            direction: ltr
+    subtitle:
+      type: text
+      locales:
+        en-US: TODO
+  _locales:
+    - en-US

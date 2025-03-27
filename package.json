@@ -67,6 +67,7 @@
     "@uniformdev/project-map": "20.2.0",
     "@uniformdev/redirect": "20.2.0",
     "@uniformdev/richtext": "20.2.0",
+    "class-variance-authority": "^0.7.1",
     "classnames": "^2.3.2",
     "contentful": "^10.5.1",
     "contentstack": "^3.17.1",

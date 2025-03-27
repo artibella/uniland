@@ -1,9 +1,9 @@
 id: b9b0ceda-67f8-4cbb-a139-2dafd16c4e78
 name: Puffer
-order: 400
-path: /:locale/shop/puffer
+order: 200
+path: /:locale/shop/puffer-jacket
 type: composition
-pathSegment: puffer
+pathSegment: puffer-jacket
 data: {}
 compositionId: 23e57182-34ce-411d-a088-16115d38a0e7
 projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
