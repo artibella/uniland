@@ -8,6 +8,7 @@ parameters:
     name: Title
     type: text
     typeConfig: null
+    localizable: true
   - id: group_seoMetadata
     name: SEO metadata
     type: group
@@ -50,4 +51,4 @@ slots:
 titleParameter: title
 canBeComposition: true
 created: '2022-12-15T14:08:27.337946+00:00'
-updated: '2024-09-04T16:50:23.710353+00:00'
+updated: '2025-05-13T09:30:50.891527+00:00'

@@ -17,7 +17,6 @@ entry:
       type: asset
       locales:
         en-US: []
-      value: []
     variants:
       type: $block
       value: []
@@ -65,7 +64,6 @@ entry:
                 type: text
                 value: ${#jptr:/Product/0/name}
             _source: custom-url
-      value: []
   _dataResources:
     Product:
       type: fakeProduct

@@ -1,0 +1,9 @@
+id: 0cc6e418-4315-4569-9725-026c73465bac
+name: Men
+order: 650
+path: /:locale/shop/collections/men
+type: composition
+pathSegment: men
+data: {}
+compositionId: f0407727-5424-4f42-88d5-f27d14ae04b4
+projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25

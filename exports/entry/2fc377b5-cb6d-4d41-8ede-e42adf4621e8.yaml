@@ -33,7 +33,6 @@ entry:
                 value: >-
                   https://images.ctfassets.net/9ku1oyd4k3wo/kicWzYhX4tb0uWD02BCV9/631020e46ebd675b25bde9bed869cf28/BlogHeader_Q7_4.png?w=500
             _source: custom-url
-      value: []
     title:
       type: text
       locales:

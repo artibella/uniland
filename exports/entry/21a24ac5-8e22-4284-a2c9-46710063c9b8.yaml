@@ -25,7 +25,6 @@ entry:
                 value: >-
                   https://images.ctfassets.net/ux22f0cna7l9/46udaFm555h2fi3z3Tck19/41e2169fd9cd19fa452dcc23afd0b720/photo-1498654896293-37aacf113fd9
             _source: custom-url
-      value: []
     types:
       type: multi-select
       value:

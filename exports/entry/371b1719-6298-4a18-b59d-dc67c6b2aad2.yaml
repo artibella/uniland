@@ -109,7 +109,6 @@ entry:
                                   Loop
                                   Item/entry/fields/image/value/0/fields/url/value}
                             _source: custom-url
-                      value: []
           _dataResources:
             Product collections Content entries Loop Item:
               type: sys-reserved-loop
@@ -139,7 +138,6 @@ entry:
       type: asset
       locales:
         en-US: []
-      value: []
   _dataResources:
     Product by handle Content:
       type: productByHandle

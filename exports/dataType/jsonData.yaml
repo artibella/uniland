@@ -1,0 +1,42 @@
+id: jsonData
+displayName: JSON Data
+ttl: 30
+path: /staticdata
+custom:
+  json:
+    common:
+      buttons:
+        cancel: Cancel
+        search: Search
+        submit: Submit
+        explore: Explore
+      navigation:
+        home: Home
+        about: About
+        contact: Contact
+        destinations: Destinations
+    errors:
+      general: An error occurred. Please try again.
+      notFound: Page not found
+    contact:
+      form:
+        name: Name
+        email: Email
+        submit: Send Message
+        message: Message
+      title: Contact Us
+      success: Thank you for your message. We will get back to you soon.
+    destinations:
+      title: Explore Destinations
+      readMore: Read more
+      description: Discover amazing travel destinations around the world
+  proposedName: JSON Data
+method: GET
+purgeKey: abf61518-c2d5-4ffe-862a-bc4a56aedefb
+archetype: staticData
+variables:
+  json:
+    type: text
+    default: ''
+dataSourceId: commonTerms
+allowedOnComponents: []

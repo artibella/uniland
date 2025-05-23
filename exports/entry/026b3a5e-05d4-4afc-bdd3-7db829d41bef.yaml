@@ -31,7 +31,6 @@ entry:
                 type: text
                 value: Some Nigiri sushi on a plate
             _source: custom-url
-      value: []
     types:
       type: multi-select
       value:

@@ -256,7 +256,7 @@ composition:
         internalLink:
           type: link
           value:
-            path: /:locale/shop/:product
+            path: /${locale}/shop/${#jptr:/Product/entry/_slug}
             type: projectMapNode
             nodeId: d85b9208-ed28-4f58-a97b-aa4e29d688c1
             projectMapId: 181c0b35-974a-4063-aca1-34bc7ae4cf25
@@ -268,7 +268,7 @@ composition:
   _locales:
     - en-US
 created: '2024-09-04T14:02:50.643562+00:00'
-modified: '2024-09-12T22:55:20.572479+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: true
 previewImageUrl: >-
   https://res.cloudinary.com/content-ops/image/upload/v1725459473/Uniland/compositions/product-page_gwl70b.png

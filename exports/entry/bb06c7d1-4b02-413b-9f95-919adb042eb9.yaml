@@ -71,6 +71,5 @@ entry:
                 type: text
                 value: Photo by Brooke Lark on Unsplash
             _source: unisplash-bdaded99-0206-4640-be8d-d631ecabd41f
-      value: []
   _locales:
     - en-US

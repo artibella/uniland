@@ -36,7 +36,6 @@ entry:
                                 type: text
                                 value: ${#jptr:/Product images Loop/src}
                             _source: custom-url
-                      value: []
                     title:
                       type: text
                       locales:
@@ -53,7 +52,6 @@ entry:
       type: asset
       locales:
         en-US: []
-      value: []
     options:
       type: $block
       value:
@@ -196,7 +194,6 @@ entry:
                                 type: text
                                 value: ${#jptr:/Product Collection Loop/description}
                             _source: custom-url
-                      value: []
                     description:
                       type: text
                       value: ${#jptr:/Product Collection Loop/description}
@@ -240,7 +237,6 @@ entry:
                 type: text
                 value: ${#jptr:/Product/data/product/title}
             _source: custom-url
-      value: []
   _dataResources:
     Product:
       type: mockshopProductQuery

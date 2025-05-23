@@ -127,3 +127,4 @@ description: Ingredients and amount needed for a specific recipe
 icon: bowl
 type: block
 permissions: []
+previewConfigurations: []

@@ -28,7 +28,6 @@ entry:
                 type: text
                 value: Curries
             _source: custom-url
-      value: []
     types:
       type: multi-select
       value:

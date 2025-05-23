@@ -24,7 +24,6 @@ entry:
                 value: >-
                   https://images.ctfassets.net/9ku1oyd4k3wo/7brhJbQEedGLH3fui3TMFZ/a4ec60b75353f1b98a2072f00b8afe00/01_headers_12.png
             _source: custom-url
-      value: []
     title:
       type: text
       locales:

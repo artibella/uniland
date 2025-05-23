@@ -55,3 +55,4 @@ description: Season in which a recipe or ingredients are available. E.g. winter,
 icon: tag
 type: contentType
 permissions: []
+previewConfigurations: []

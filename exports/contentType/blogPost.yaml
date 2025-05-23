@@ -1,7 +1,7 @@
 id: blogPost
 name: Blog Post
 created: '2023-05-25T12:26:42.445534+00:00'
-updated: '2025-03-26T13:39:41.2099+00:00'
+updated: '2025-04-02T10:35:13.77939+00:00'
 slugSettings:
   unique: 'no'
   required: 'yes'
@@ -180,3 +180,10 @@ permissions:
   - roleId: 05e14931-3aa0-4fb3-afa4-822f00cd8539
     permission: write
     state: 64
+previewConfigurations:
+  - type: project-map
+    id: d947bbe8-7fe2-44e1-a628-d15557c43e42
+    label: Blog post
+    dynamicInputs:
+      slug: ${#jptr:/entry/_slug}
+      locale: ${locale}

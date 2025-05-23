@@ -27,7 +27,6 @@ entry:
                 value: >-
                   https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_384,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/1Vsc9nc1IBDDXgBdDSYEWQ/ce9b4fedaa23377c14a7b5da69d9587f/01_03-landscape03.png
             _source: custom-url
-      value: []
     title:
       type: text
       locales:
@@ -660,7 +659,6 @@ entry:
               locales:
                 en-US: []
                 it-IT: []
-              value: []
         - _id: 9624b22f-ec7d-4c68-9a12-dcc163ad0d4c
           type: textBlock
           fields:

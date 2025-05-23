@@ -1,14 +1,14 @@
 asset:
   type: image
   _id: 0a78ba88-b84a-4b9c-acc5-03e8ed82718e
-  _name: ''
+  _name: tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
   fields:
     title:
       type: text
-      value: tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
+      value: Star night
     description:
       type: text
-      value: ''
+      value: By Tobias Pfeifer, Unsplash
     file:
       type: file
       value: 0a78ba88-b84a-4b9c-acc5-03e8ed82718e
@@ -28,6 +28,11 @@ asset:
     height:
       value: 3600
       type: number
+    focalPoint:
+      value:
+        x: 0.32
+        'y': 0.66
+      type: focalPoint
     custom: {}
 created: '2023-10-09T15:10:05.037256+00:00'
-modified: '2023-10-09T15:10:05.037256+00:00'
+modified: '2025-04-02T10:52:34.451152+00:00'

@@ -14,7 +14,6 @@ entry:
       type: asset
       locales:
         en-US: []
-      value: []
     title:
       type: text
       locales:

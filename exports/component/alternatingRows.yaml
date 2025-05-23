@@ -1,0 +1,38 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: alternatingRows
+name: Alternating Rows
+icon: arrow-align-h
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: verticalSpacing
+    name: Vertical spacing
+    type: select
+    typeConfig:
+      options:
+        - text: small
+          value: small
+        - text: medium
+          value: medium
+        - text: large
+          value: large
+        - text: xl
+          value: xl
+categoryId: 656dca0f-e68a-4fd2-bf18-2c9606c0c111
+useTeamPermissions: true
+slots:
+  - id: rows
+    name: Rows
+    allowedComponents:
+      - twoColumns
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: false
+created: '2025-05-23T14:11:17.580457+00:00'
+updated: '2025-05-23T14:11:17.580457+00:00'

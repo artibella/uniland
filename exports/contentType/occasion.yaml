@@ -55,3 +55,4 @@ description: 'Occasion for which a recipe is prepared: e.g. BBQ, Christmas, Hall
 icon: tag
 type: contentType
 permissions: []
+previewConfigurations: []

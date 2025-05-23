@@ -1,5 +1,5 @@
 created: '2023-10-31T09:37:39.736729+00:00'
-modified: '2024-08-13T08:29:05.311833+00:00'
+modified: '2024-09-26T11:47:08.410516+00:00'
 pattern: false
 entry:
   _id: 4a627919-dd77-4eb9-8f7c-2232d0022f67
@@ -2567,6 +2567,11 @@ entry:
                             description:
                               type: text
                               value: ''
+                            focalPoint:
+                              value:
+                                x: 1
+                                'y': 0.04
+                              type: focalPoint
                           _source: uniform-assets
                     description:
                       type: richText

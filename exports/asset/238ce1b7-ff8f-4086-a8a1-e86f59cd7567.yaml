@@ -1,7 +1,8 @@
 asset:
   type: image
   _id: 238ce1b7-ff8f-4086-a8a1-e86f59cd7567
-  _name: ''
+  _name: >-
+    Simply-Recipes-Homemade-Pizza-METHOD-04-afecb1b8853b4ed7a7ad27ad53d5b627.webp
   fields:
     title:
       type: text
@@ -26,6 +27,11 @@ asset:
     height:
       value: 1000
       type: number
+    focalPoint:
+      value:
+        x: 1
+        'y': 0.04
+      type: focalPoint
     custom: {}
 created: '2023-10-27T14:16:00.585718+00:00'
-modified: '2023-10-27T14:16:00.585718+00:00'
+modified: '2025-04-07T10:27:52.785402+00:00'

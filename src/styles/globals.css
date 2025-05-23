@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './alternating-rows.css';
+
 @layer base {
   :root {
     --Mango-900: 157 132 2;
@@ -17,7 +19,6 @@
   }
 }
 
-
 .main-nav {
   margin-bottom: 4rem;
 }
@@ -29,7 +30,7 @@
 
 .main-nav li {
   list-style: none;
-  margin-right: 2rem
+  margin-right: 2rem;
 }
 
 /* fake counter for steps */
@@ -45,7 +46,6 @@
 .howto-section-steps .howto-step:before {
   content: counter(css-counter);
 }
-
 
 /* embla carousel */
 
@@ -101,7 +101,6 @@
   align-items: center;
 }
 
-
 .embla__dot--selected:after {
-  box-shadow: inset 0 0 0 0.2rem rgb(25, 25, 25);;
+  box-shadow: inset 0 0 0 0.2rem rgb(25, 25, 25);
 }

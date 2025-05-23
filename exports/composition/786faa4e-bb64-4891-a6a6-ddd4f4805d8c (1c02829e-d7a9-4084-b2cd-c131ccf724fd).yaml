@@ -983,7 +983,6 @@ composition:
                                     type: text
                                     value: Logo 2
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1008,7 +1007,6 @@ composition:
                                     type: text
                                     value: Company 2
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1049,7 +1047,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1090,7 +1087,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1112,7 +1108,6 @@ composition:
                                     type: text
                                     value: https://img.logoipsum.com/288.svg
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1153,7 +1148,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1178,7 +1172,6 @@ composition:
                                     type: text
                                     value: Logo 2
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1418,8 +1411,8 @@ composition:
   _locales:
     - en-US
 created: '2024-09-30T13:44:49.150118+00:00'
-modified: '2024-10-22T12:36:57.023229+00:00'
+modified: '2025-05-16T09:48:46.078342+00:00'
 pattern: false
 editionId: 1c02829e-d7a9-4084-b2cd-c131ccf724fd
 editionName: 'Region: North America'
-editionPriority: 100
+editionPriority: 110

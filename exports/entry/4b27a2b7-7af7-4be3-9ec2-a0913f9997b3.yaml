@@ -31,7 +31,6 @@ entry:
                 type: text
                 value: Chinese food being prepared in a Wok
             _source: custom-url
-      value: []
     types:
       type: multi-select
       value:
