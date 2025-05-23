@@ -15,6 +15,7 @@ import TabContainer from './TabContainer';
 import TabPanel from './TabPanel';
 import LottieAnimation from './LottieAnimation';
 import TwoColumns from './TwoColumns';
+import AlternatingRows from './AlternatingRows';
 import BrickContainer from './BrickContainer';
 import QuoteBlock from './QuoteBlock';
 import Heading from './Heading';
@@ -43,6 +44,7 @@ const ComponentsMap = {
   tabPanel: TabPanel,
   lottieAnimation: LottieAnimation,
   twoColumns: TwoColumns,
+  alternatingRows: AlternatingRows,
   brick: BrickContainer,
   quoteBlock: QuoteBlock,
   heading: Heading,

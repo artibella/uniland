@@ -1,0 +1,26 @@
+/* AlternatingRows Component Styles */
+
+/* Desktop alternating layout */
+.alternating-rows .two-columns:nth-child(odd) .column-left {
+  order: 1;
+}
+
+.alternating-rows .two-columns:nth-child(odd) .column-right {
+  order: 2;
+}
+
+.alternating-rows .two-columns:nth-child(even) .column-left {
+  order: 2;
+}
+
+.alternating-rows .two-columns:nth-child(even) .column-right {
+  order: 1;
+}
+
+/* Mobile responsive - reset order */
+@media (max-width: 768px) {
+  .alternating-rows .two-columns .column-left,
+  .alternating-rows .two-columns .column-right {
+    order: unset !important;
+  }
+}
