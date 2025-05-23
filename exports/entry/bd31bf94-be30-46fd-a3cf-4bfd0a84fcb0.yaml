@@ -28,7 +28,6 @@ entry:
                 type: text
                 value: Frying
             _source: custom-url
-      value: []
     description:
       type: richText
       locales:

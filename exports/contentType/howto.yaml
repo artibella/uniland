@@ -40,3 +40,4 @@ description: A generic article format for tutorials or other step-based instruct
 icon: bulb
 type: contentType
 permissions: []
+previewConfigurations: []

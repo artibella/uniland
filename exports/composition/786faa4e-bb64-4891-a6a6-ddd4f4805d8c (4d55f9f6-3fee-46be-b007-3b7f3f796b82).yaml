@@ -1494,7 +1494,6 @@ composition:
                                     type: text
                                     value: Logo 2
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1549,7 +1548,6 @@ composition:
                                     type: text
                                     value: Company 2
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1652,7 +1650,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1755,7 +1752,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1801,7 +1797,6 @@ composition:
                                     type: text
                                     value: https://img.logoipsum.com/288.svg
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1904,7 +1899,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -1959,7 +1953,6 @@ composition:
                                     type: text
                                     value: Logo 2
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:

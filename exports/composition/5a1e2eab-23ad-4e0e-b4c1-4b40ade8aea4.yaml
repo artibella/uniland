@@ -224,7 +224,7 @@ composition:
                           type: number
                         title:
                           type: text
-                          value: tobias-pfeifer-F-f6FCN0bWU-unsplash.jpg
+                          value: Star night
                         width:
                           value: 2400
                           type: number
@@ -236,7 +236,12 @@ composition:
                           type: text
                         description:
                           type: text
-                          value: ''
+                          value: By Tobias Pfeifer, Unsplash
+                        focalPoint:
+                          value:
+                            x: 0.32
+                            'y': 0.66
+                          type: focalPoint
                       _source: uniform-assets
                     - _id: 0c3a7a1e-0d31-4e19-8a7d-020a99f17482
                       type: image
@@ -328,7 +333,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -369,7 +373,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -410,7 +413,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -451,7 +453,6 @@ composition:
                                     type: text
                                     value: ''
                                 _source: uniform-assets
-                          value: []
                         name:
                           type: text
                           locales:
@@ -473,7 +474,6 @@ composition:
                                     type: text
                                     value: https://img.logoipsum.com/288.svg
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -495,7 +495,6 @@ composition:
                                     type: text
                                     value: https://img.logoipsum.com/286.svg
                                 _source: custom-url
-                          value: []
                         name:
                           type: text
                           locales:
@@ -524,27 +523,27 @@ composition:
                   type: text
                   value: edc0334f-85a5-446b-a081-e3596a18f977
                 url:
-                  type: text
                   value: >-
                     https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/40XmylKrQMaKcgBpL9MrJA-AI-generated-image-for-Image
+                  type: text
                 file:
                   type: file
                   value: d0f257eb-821e-4893-ae6c-c18d172d4a9e
                 size:
-                  type: number
                   value: 199732
+                  type: number
                 title:
                   type: text
                   value: AI-generated-image-for-Image
                 width:
-                  type: number
                   value: 1024
+                  type: number
                 height:
-                  type: number
                   value: 1024
+                  type: number
                 mediaType:
-                  type: text
                   value: image/png
+                  type: text
               _source: uniform-assets
     382220e7-dba4-4480-8f8f-e35060d9f0a1|430eea25-5964-4666-a0bb-50e148f5ae70:
       parameters:

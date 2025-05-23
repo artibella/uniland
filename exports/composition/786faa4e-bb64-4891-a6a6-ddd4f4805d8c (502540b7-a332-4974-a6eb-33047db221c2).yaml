@@ -7,14 +7,6 @@ composition:
     title:
       type: text
       value: Home
-    description:
-      type: text
-      locales:
-        en-US: >-
-          Discover Uniland – a cutting-edge platform designed for seamless
-          integration and customization. Empower marketers and developers to
-          innovate effortlessly, avoiding technology barriers, and stay ahead in
-          innovation and design.
   slots:
     hero:
       - _id: f80601a7-449d-4dd2-8229-425be9f9bcf9
@@ -27,7 +19,7 @@ composition:
                 title:
                   type: text
                   locales:
-                    en-US: Stop being blocked by your tech
+                    it-IT: Stop being blocked by your tech
                 tagName:
                   type: select
                   value: h1
@@ -35,171 +27,55 @@ composition:
           body:
             type: text
             locales:
-              en-US: |
+              it-IT: |
                 Uniland is an example landing page built with Uniform.dev
           title:
             type: text
             locales:
-              en-US: Default
+              it-IT: Default
           imageFit:
             type: select
             locales:
-              en-US: contain
+              it-IT: contain
           imageUrl:
             type: text
             locales:
-              en-US: >-
+              it-IT: >-
                 https://images.ctfassets.net/9ku1oyd4k3wo/2HUzabTa59pnJ3MU5tokXg/dfe55a01f15e86c9c4e7b48c4caeb16f/Hero_Home_Hero_1.svg
     sections:
-      - _id: 1a38c3ac-5ff8-4698-8f52-917f9647a05b
+      - _id: 11754546-ada3-4633-a8a3-0139185b4f59
         type: sectionContainer
         slots:
           content:
-            - _id: 1ceecd0f-27b1-4b75-891c-e54d64269ad7
-              type: twoColumns
-              slots:
-                leftContent:
-                  - _id: c8d29df6-44f5-44cf-bea1-5a1956d5c7f6
-                    type: textBlock
-                    parameters:
-                      locale:
-                        type: localeSelect
-                        value: en-US
-                      richText:
-                        type: richText
-                        locales:
-                          en-US:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        When change happens and you need to add
-                                        new channels or features to meet it, you
-                                        can’t afford to be held back by tools or
-                                        begin a slow and expensive replatforming
-                                        process. 
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                                  textStyle: ''
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        With Uniform, you can add, remove, or
-                                        adapt services as necessary to innovate,
-                                        optimize, and stay ahead of the market
-                                        for the long term because there’s no
-                                        glue-code to take apart and rebuild
-                                        manually. Uniform Mesh configures every
-                                        integration so you’re never late to the
-                                        game.
-                                      type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                                  textStyle: ''
-                              direction: ltr
-                rightContent:
-                  - _id: 71c0b166-4424-4ea0-bc15-0d3899e7eee7
-                    type: imageBlock
-                    parameters:
-                      image:
-                        type: asset
-                        value:
-                          - _id: 71bcb555-cc5f-4f65-814b-69835c8e96b9
-                            type: image
-                            fields:
-                              id:
-                                type: text
-                                value: 5a3c6edd-4a34-47ec-bb09-794362522748
-                              url:
-                                value: >-
-                                  https://canary-img.uniform.global/p/FN8m-0vcTRezXIMgyNXN2Q/ek68GSIRT0G4TwQaJgg2Kg-Home_Hero_Innovate_1.svg
-                                type: text
-                              size:
-                                value: 21403
-                                type: number
-                              title:
-                                type: text
-                                value: Home_Hero_Innovate_1.svg
-                              width:
-                                value: 549
-                                type: number
-                              height:
-                                value: 642
-                                type: number
-                              mediaType:
-                                value: image/svg+xml
-                                type: text
-                            _source: uniform-assets
-                      imageFit:
-                        type: select
-                        value: cover
-              parameters:
-                layout:
-                  type: select
-                  value: split-50-50
-                locale:
-                  type: localeSelect
-                  value: en-US
-                gapSize:
-                  type: select
-                  value: medium
-                leftColumnVerticalAlignment:
-                  type: select
-                  value: center
-                rightColumnVerticalAlignment:
-                  type: select
-                  value: center
+            - _id: f1a952de-503d-4509-a971-ec4cc9b16f85
+              type: card
+              _pattern: 18d652ed-8088-4656-9589-29c68093c831
+              _dataResources:
+                Post:
+                  type: blogPost
+                  variables:
+                    locale: ${locale},en-US
+                    entryId: 6ecbbb3e-817c-4d89-a603-67489892bfaf
           heading:
-            - _id: 9e253cc7-c860-458c-9d95-152071535a31
+            - _id: 9c3009e5-8042-494c-a70b-bd09985e5769
               type: heading
               parameters:
-                align:
+                theme:
                   type: select
-                  value: left
+                  value: dark
                 title:
                   type: text
                   locales:
-                    en-US: Learn and innovate—outpace your competition!
-                tagName:
-                  type: select
-                  value: h2
-                showEditorialLine:
-                  type: checkbox
-                  value: true
+                    it-IT: Demo
         parameters:
-          $viz:
-            type: $viz
-            value:
-              criteria:
-                clauses: []
           theme:
             type: select
             locales:
-              en-US: mango
+              it-IT: dark
           title:
             type: text
             locales:
-              en-US: Innovate section
+              it-IT: Demo
       - _id: 0b120ba5-d1b4-4784-bb65-67cd8b1fcd3d
         type: sectionContainer
         slots:
@@ -217,7 +93,7 @@ composition:
                       richText:
                         type: richText
                         locales:
-                          en-US:
+                          it-IT:
                             root:
                               type: root
                               format: ''
@@ -300,14 +176,6 @@ composition:
                 rightColumnVerticalAlignment:
                   type: select
                   value: center
-          heading:
-            - _id: 39494155-7b01-457f-badf-f19fa75a4ac1
-              type: heading
-              parameters:
-                title:
-                  type: text
-                  locales:
-                    en-US: Show on mobile
         parameters:
           $viz:
             type: $viz
@@ -321,7 +189,7 @@ composition:
           theme:
             type: select
             locales:
-              en-US: ice
+              it-IT: ice
       - _id: d35e7ff3-d7be-47c7-9c82-0dad741a8182
         type: sectionContainer
         slots:
@@ -365,16 +233,16 @@ composition:
                       body:
                         type: text
                         locales:
-                          en-US: |+
+                          it-IT: |+
 
                       title:
                         type: text
                         locales:
-                          en-US: Connect your design components
+                          it-IT: Connect your design components
                       richText:
                         type: richText
                         locales:
-                          en-US:
+                          it-IT:
                             root:
                               type: root
                               format: ''
@@ -460,11 +328,11 @@ composition:
                       title:
                         type: text
                         locales:
-                          en-US: Empower Marketers with Canvas
+                          it-IT: Empower Marketers with Canvas
                       richText:
                         type: richText
                         locales:
-                          en-US:
+                          it-IT:
                             root:
                               type: root
                               format: ''
@@ -603,11 +471,11 @@ composition:
                       title:
                         type: text
                         locales:
-                          en-US: Keep working your Core Web Vitals
+                          it-IT: Keep working your Core Web Vitals
                       richText:
                         type: richText
                         locales:
-                          en-US:
+                          it-IT:
                             root:
                               type: root
                               format: ''
@@ -689,23 +557,23 @@ composition:
                             quote:
                               type: text
                               locales:
-                                en-US: Nothing is certain except for death and taxes.
+                                it-IT: Nothing is certain except for death and taxes.
                             theme:
                               type: select
                               value: light
                             author:
                               type: text
                               locales:
-                                en-US: Benjamin Franklin
+                                it-IT: Benjamin Franklin
                             source:
                               type: text
                               locales:
-                                en-US: US Founding Father
+                                it-IT: US Founding Father
                     parameters:
                       title:
                         type: text
                         locales:
-                          en-US: Quote 1
+                          it-IT: Quote 1
                   - _id: 799a4b3b-17cf-4056-94dc-80a2e81c8f30
                     type: tabPanel
                     slots:
@@ -716,7 +584,7 @@ composition:
                             quote:
                               type: text
                               locales:
-                                en-US: >-
+                                it-IT: >-
                                   One good thing about music, when it hits you,
                                   you feel no pain.
                             theme:
@@ -725,16 +593,16 @@ composition:
                             author:
                               type: text
                               locales:
-                                en-US: Bob Marley
+                                it-IT: Bob Marley
                             source:
                               type: text
                               locales:
-                                en-US: Babylon by bus
+                                it-IT: Babylon by bus
                     parameters:
                       title:
                         type: text
                         locales:
-                          en-US: Quote 2
+                          it-IT: Quote 2
                       isActive:
                         type: checkbox
                         value: true
@@ -748,11 +616,11 @@ composition:
                             title:
                               type: text
                               locales:
-                                en-US: Keep working your Core Web Vitals
+                                it-IT: Keep working your Core Web Vitals
                             richText:
                               type: richText
                               locales:
-                                en-US:
+                                it-IT:
                                   root:
                                     type: root
                                     format: ''
@@ -798,7 +666,7 @@ composition:
                       title:
                         type: text
                         locales:
-                          en-US: Some text
+                          it-IT: Some text
           heading:
             - _id: 0c363e58-9571-40e9-9709-160676d84ae5
               type: heading
@@ -806,7 +674,7 @@ composition:
                 title:
                   type: text
                   locales:
-                    en-US: Some quotes by some famous people
+                    it-IT: Some quotes by some famous people
                 tagName:
                   type: select
                   value: h2
@@ -814,7 +682,7 @@ composition:
           theme:
             type: select
             locales:
-              en-US: spring
+              it-IT: spring
       - _id: 64044509-9a41-4fb0-b8dd-ab08bd706c89
         type: sectionContainer
         slots:
@@ -833,7 +701,7 @@ composition:
                             richText:
                               type: richText
                               locales:
-                                en-US:
+                                it-IT:
                                   root:
                                     type: root
                                     format: ''
@@ -881,7 +749,7 @@ composition:
                             richText:
                               type: richText
                               locales:
-                                en-US:
+                                it-IT:
                                   root:
                                     type: root
                                     format: ''
@@ -941,7 +809,7 @@ composition:
                 groupName:
                   type: text
                   locales:
-                    en-US: group1
+                    it-IT: group1
                 internalName:
                   type: text
                   value: Test accordion
@@ -949,7 +817,7 @@ composition:
           theme:
             type: select
             locales:
-              en-US: mango
+              it-IT: mango
       - _id: ae6fe7bc-308d-4921-8ad8-9330e772e570
         type: sectionContainer
         slots:
@@ -969,7 +837,7 @@ composition:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
                                 type: image
                                 fields:
@@ -986,14 +854,14 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 1
+                            it-IT: Company 1
                     - _id: a3bdd71b-48e9-4b87-b348-61b9511c610c
                       type: logo
                       fields:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: 9c36716b-47a3-4a25-84ba-e159f811bfa8
                                 type: image
                                 fields:
@@ -1010,14 +878,14 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 2
+                            it-IT: Company 2
                     - _id: 31764992-7acb-4700-8daa-b73d5dd04990
                       type: logo
                       fields:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: 02436b24-44a0-4c0b-be6d-1b4f15863034
                                 type: image
                                 fields:
@@ -1050,14 +918,14 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 5
+                            it-IT: Company 5
                     - _id: e15335a7-a825-472f-9f2a-654f36511c3b
                       type: logo
                       fields:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: b5ce2ae8-d9d1-43b9-9c54-ba3199cc57fc
                                 type: image
                                 fields:
@@ -1090,14 +958,14 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 4
+                            it-IT: Company 4
                     - _id: 913c375d-db6b-4d8e-9ee9-8ceeccd09e78
                       type: logo
                       fields:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: 39fb768e-5174-47fe-9816-8846d955ce8f
                                 type: image
                                 fields:
@@ -1111,14 +979,14 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 3
+                            it-IT: Company 3
                     - _id: 73dec981-fcd3-4b4b-a5fc-de430f38c1b4
                       type: logo
                       fields:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: f8dc1787-1570-4cb2-8757-5e85a40401b2
                                 type: image
                                 fields:
@@ -1151,14 +1019,14 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 6
+                            it-IT: Company 6
                     - _id: ed890743-cf83-4d5b-8e1b-538e9417b0ff
                       type: logo
                       fields:
                         logo:
                           type: asset
                           locales:
-                            en-US:
+                            it-IT:
                               - _id: efce57ba-e8bd-48ac-ae9d-b14d603bb1c6
                                 type: image
                                 fields:
@@ -1175,7 +1043,7 @@ composition:
                         name:
                           type: text
                           locales:
-                            en-US: Company 7
+                            it-IT: Company 7
                 title:
                   type: text
                   value: Trusted by our customers and partners
@@ -1186,191 +1054,34 @@ composition:
           theme:
             type: select
             locales:
-              en-US: light
-      - _id: 11754546-ada3-4633-a8a3-0139185b4f59
-        type: sectionContainer
-        slots:
-          content:
-            - _id: 9f0cbb85-9903-41d4-b93f-e1f279dc6829
-              type: gridContainer
-              slots:
-                items:
-                  - _id: 7a5371bc-a9ab-4a10-a28a-993565887651
-                    type: card
-                    parameters:
-                      body:
-                        type: text
-                        locales:
-                          en-US: >-
-                            ${#jptr:/Blog Post
-                            Content/entry/fields/subtitle/value}
-                      image:
-                        type: text
-                        locales:
-                          en-US: >-
-                            ${#jptr:/Blog Post
-                            Content/entry/fields/image/value/0/fields/url/value}
-                      title:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Blog Post Content/entry/fields/title/value}
-                      byline:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Blog Post Content/entry/fields/date/value}
-                  - _id: d4596237-1741-425f-975d-f2e67d2e6fd3
-                    type: card
-                    parameters:
-                      body:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Event/entry/fields/teaserText/value}
-                      title:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Event/entry/fields/title/value}
-                      byline:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Event/entry/fields/start/value/datetime}
-                  - _id: c0dbda3f-1c15-476e-9ca0-b7f05acf7bf1
-                    type: card
-                    parameters:
-                      body:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Recipe Content/entry/subtitle}
-                      image:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Recipe Content/entry/featuredimage/url}
-                      title:
-                        type: text
-                        locales:
-                          en-US: ${#jptr:/Recipe Content/entry/title}
-              parameters:
-                columns:
-                  type: number
-                  value: '2'
-          heading:
-            - _id: 9c3009e5-8042-494c-a70b-bd09985e5769
-              type: heading
-              parameters:
-                theme:
-                  type: select
-                  value: dark
-                title:
-                  type: text
-                  locales:
-                    en-US: Demo
-        parameters:
-          theme:
-            type: select
-            locales:
-              en-US: dark
-          title:
-            type: text
-            locales:
-              en-US: Demo
-  _dataResources:
-    Event:
-      type: event
-      variables:
-        locale: ${locale}
-        entryId: 58cc1daa-20b9-4f93-947a-1c58533e7bc8
-    Hello copy:
-      type: microcopy
-      variables:
-        entryId: 968d7787-e1a4-41e3-b93b-58db7da4b9f7
-    Hero image:
-      type: pexelsSearch
-      variables:
-        query: Berlin
-    Recipe Content:
-      type: recipeContentstack
-      variables:
-        query: ''
-        locale: ''
-        include: ''
-        entry_uid: bltbc48227d876af7c0
-        content_type_uid: recipe
-    Blog Post Content:
-      type: blogPost
-      variables:
-        locale: ${locale}
-        entryId: ef0a876a-49ec-4546-bcea-d668981704ed
-    Microcopy  Content:
-      type: microcopy
-      variables:
-        entryId: ae188464-fe6c-4e4c-9e0c-1e34db5292d3
+              it-IT: light
+  _dataResources: {}
   _overrides:
-    b2b7d8f6-c6b2-4073-bef0-e2f68dd65d7d:
+    f1a952de-503d-4509-a971-ec4cc9b16f85:
       parameters:
         image:
-          type: asset
-          value:
-            - _id: 38e540ee-e4d8-40ab-b7cd-e0433665050e
-              type: image
-              fields:
-                url:
-                  type: text
-                  value: >-
-                    https://res.cloudinary.com/uniformdev/image/upload/v1/uniformdev/home/create
-              _source: custom-url
-    6bb326e8-3657-4d93-b82e-867f1c29f33d|08bd29bf-dc77-4b14-9f63-8da2086de260:
-      slots:
-        $slotSectionItems:
-          - _id: 6684a6cc-0296-4065-9c6a-ea39388a9bef
-            type: imageBlock
-            parameters:
-              image:
-                type: asset
-                value:
-                  - _id: 687fc650-3ccb-42e1-8cba-ad03d4f39d79
-                    type: image
-                    fields:
-                      url:
-                        type: text
-                        value: >-
-                          https://www.uniform.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Funiformdev%2Fimage%2Fupload%2Fv1%2Funiformdev%2FHomepage_Heroes_Q1_2023_Empower&w=1024&q=75
-                    _source: custom-url
+          type: text
+          value: ${#jptr:/Post/entry/fields/image/value/0/fields/url/value}
     6bb326e8-3657-4d93-b82e-867f1c29f33d|5a4653f8-b7ab-45a8-8e1a-121bc15c2997:
       parameters:
-        title:
-          type: text
-          locales:
-            en-US: Integrate in minutes, not months
         richText:
           type: richText
           locales:
-            en-US:
+            it-IT:
               root:
                 type: root
                 format: ''
                 indent: 0
                 version: 1
                 children:
-                  - type: paragraph
-                    format: ''
+                  - tag: h3
+                    type: heading
+                    format: left
                     indent: 0
                     version: 1
                     children:
                       - mode: normal
-                        text: 'Instead of '
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - mode: normal
-                        text: spending weeks
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 1
-                        version: 1
-                      - mode: normal
-                        text: ' or months connecting CMS, commerce, DAM, search, analytics, legacy services, etc., just add your API keys to Uniform Mesh and start converting leads or purchases. '
+                        text: <Edit headline>
                         type: text
                         style: ''
                         detail: 0
@@ -1383,10 +1094,7 @@ composition:
                     version: 1
                     children:
                       - mode: normal
-                        text: >-
-                          Beyond making replatforming faster and cheaper,
-                          Uniform DXCP also extends your value from legacy tools
-                          by improving their performance and usability.
+                        text: Insert text here
                         type: text
                         style: ''
                         detail: 0
@@ -1394,25 +1102,11 @@ composition:
                         version: 1
                     direction: ltr
                 direction: ltr
-        textAlign:
-          type: select
-          value: left
-    6bb326e8-3657-4d93-b82e-867f1c29f33d|7f69c1da-5b5b-4ae0-a104-1c708bc3a88d:
-      slots:
-        $slotSectionItems:
-          - _id: b2b7d8f6-c6b2-4073-bef0-e2f68dd65d7d
-            type: imageBlock
-            _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
-            _overridability:
-              parameters:
-                image: 'yes'
-                altText: 'yes'
-              hideLockedParameters: true
   _locales:
-    - en-US
-created: '2024-09-30T13:44:49.150118+00:00'
-modified: '2025-05-16T09:48:46.078342+00:00'
+    - it-IT
+created: '2025-05-16T09:55:18.854358+00:00'
+modified: '2025-05-16T09:55:18.854358+00:00'
 pattern: false
-editionId: 1c02829e-d7a9-4084-b2cd-c131ccf724fd
-editionName: 'Region: North America'
+editionId: 502540b7-a332-4974-a6eb-33047db221c2
+editionName: 🇮🇹 Italian Edition (Backup)
 editionPriority: 110

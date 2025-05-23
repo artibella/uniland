@@ -27,7 +27,6 @@ entry:
                 type: text
                 value: DAM for Marketing
             _source: custom-url
-      value: []
     title:
       type: text
       locales:

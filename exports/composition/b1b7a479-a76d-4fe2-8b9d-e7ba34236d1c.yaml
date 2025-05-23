@@ -95,6 +95,50 @@ composition:
             type: text
             locales:
               en-US: Basic article
+      - _id: c2908e06-8497-4544-9cd5-2043c6cb14ab
+        type: sectionContainer
+        slots:
+          content:
+            - _id: 739a8ecf-37be-4826-8ea1-b638aaf7dfa6
+              type: textBlock
+              parameters:
+                $viz:
+                  type: $viz
+                  value:
+                    criteria:
+                      clauses:
+                        - op: '!is'
+                          rule: $dt
+                          value: json
+                          source: ${#jptr:/Post/entry/fields/postJson/type}
+                richText:
+                  type: richText
+                  locales:
+                    de-DE: ${#jptr:/Post/entry/fields/postBody/value}
+                textAlign:
+                  type: select
+                  value: left
+                richTextType:
+                  type: select
+                  value: contentful
+                externalRichText:
+                  type: json
+                  locales:
+                    en-US: ${#jptr:/Post/entry/fields/postJson/value:fa=p:fl=i}
+        parameters:
+          $viz:
+            type: $viz
+            value:
+              criteria:
+                clauses:
+                  - op: has
+                    rule: $dt
+                    value: richText
+                    source: ${#jptr:/Post/entry/fields/postBody/type}
+          title:
+            type: text
+            locales:
+              en-US: Contentful article
       - _id: 04bcee33-00c0-4d3d-a2d1-8e3796650926
         type: sectionContainer
         slots:
@@ -222,5 +266,5 @@ composition:
     - en-US
     - de-DE
 created: '2023-05-22T22:39:10.655331+00:00'
-modified: '2024-10-29T10:46:45.198801+00:00'
+modified: '2025-04-02T10:42:00.471502+00:00'
 pattern: false

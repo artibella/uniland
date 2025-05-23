@@ -106,7 +106,6 @@ entry:
                 type: text
                 value: ''
             _source: uniform-assets
-      value: []
   _dataResources:
     Product by handle Content:
       type: productByHandle

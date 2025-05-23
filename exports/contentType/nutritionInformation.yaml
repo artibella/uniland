@@ -1,7 +1,7 @@
 id: nutritionInformation
 name: Nutrition Information
 created: '2023-10-11T11:52:44.160187+00:00'
-updated: '2023-10-11T12:58:55.635753+00:00'
+updated: '2024-04-03T19:14:06.315432+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -57,3 +57,4 @@ description: Nutrition information per serving for calories, carbs, protein, etc
 icon: chart
 type: block
 permissions: []
+previewConfigurations: []

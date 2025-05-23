@@ -1,12 +1,12 @@
 created: '2024-04-03T19:21:16.570872+00:00'
-modified: '2024-07-22T16:20:37.894493+00:00'
+modified: '2025-04-24T15:35:51.406339+00:00'
 pattern: true
 entry:
   _id: 4315b653-79ae-433c-9191-c105a687329c
   _name: OMBD Movie
   _slug: movie-pattern
   _thumbnail: >-
-    https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+    https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_SX300.jpg
   type: movie
   fields:
     plot:
@@ -128,4 +128,7 @@ entry:
   _locales:
     - en-US
   _overridability:
+    parameters:
+      image: 'yes'
+      poster: 'yes'
     hideLockedParameters: true

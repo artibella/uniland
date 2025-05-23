@@ -55,3 +55,4 @@ description: 'How is a recipe prepared: e.g. baking, stewing, frying'
 icon: tag
 type: contentType
 permissions: []
+previewConfigurations: []

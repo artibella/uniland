@@ -25,7 +25,6 @@ entry:
                 value: >-
                   https://www.uniform.dev/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F9ku1oyd4k3wo%2FxnakkffQbvVwoxoJ8IuJy%2F708e7e1b11b5d65e71e02736a27a7f82%2Flars_birkholm_petersen.jpg&w=256&q=100
             _source: custom-url
-      value: []
     jobTitle:
       type: text
       locales:

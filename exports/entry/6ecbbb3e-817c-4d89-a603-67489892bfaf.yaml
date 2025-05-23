@@ -39,7 +39,6 @@ entry:
                 type: text
                 value: Illustration headless CMS costs
             _source: custom-url
-      value: []
     title:
       type: text
       locales:

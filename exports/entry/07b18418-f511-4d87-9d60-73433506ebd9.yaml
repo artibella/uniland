@@ -31,7 +31,6 @@ entry:
                 type: text
                 value: Photo by emy on Unsplash
             _source: custom-url
-      value: []
     types:
       type: multi-select
       value:

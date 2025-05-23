@@ -177,3 +177,4 @@ description: Any ingredient that is used in a recipe.
 icon: bowl
 type: contentType
 permissions: []
+previewConfigurations: []

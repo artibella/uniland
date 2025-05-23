@@ -28,7 +28,6 @@ entry:
                 type: text
                 value: Stir fry
             _source: custom-url
-      value: []
     description:
       type: richText
       locales:

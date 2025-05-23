@@ -25,7 +25,6 @@ entry:
                 value: >-
                   https://res.cloudinary.com/uniformdev/image/upload/fl_preserve_transparency/v1688991200/uniformdev/media-kit/alex-s.jpg?_s=public-apps
             _source: custom-url
-      value: []
     website:
       type: link
       locales:

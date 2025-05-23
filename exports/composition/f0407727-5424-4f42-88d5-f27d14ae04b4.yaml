@@ -1,0 +1,18 @@
+composition:
+  _name: Men
+  _id: f0407727-5424-4f42-88d5-f27d14ae04b4
+  _slug: men
+  type: page
+  _dataResources:
+    Product collection:
+      type: productCollection
+      variables:
+        locale: ${locale}
+        entryId: 4703dbb6-61f8-429e-bc50-00c1e9c3353f
+  _locales:
+    - en-US
+    - de-DE
+  _pattern: 74779d35-d62e-470a-98c4-61d52acfa00a
+created: '2025-05-13T08:53:03.39819+00:00'
+modified: '2025-05-13T09:42:30.721912+00:00'
+pattern: false

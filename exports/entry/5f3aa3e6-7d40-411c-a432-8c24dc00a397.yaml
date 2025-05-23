@@ -26,7 +26,6 @@ entry:
                 type: text
                 value: Grilling
             _source: custom-url
-      value: []
     description:
       type: richText
       locales:

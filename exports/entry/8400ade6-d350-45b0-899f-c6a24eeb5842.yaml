@@ -62,7 +62,6 @@ entry:
                 value: image/png
                 type: text
             _source: uniform-assets
-      value: []
     attendanceMode:
       type: select
       value: mixed

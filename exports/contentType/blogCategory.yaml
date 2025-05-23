@@ -1,7 +1,7 @@
 id: blogCategory
 name: Blog Category
 created: '2024-07-11T10:04:53.765671+00:00'
-updated: '2024-07-11T10:04:53.765671+00:00'
+updated: '2024-08-14T09:20:23.718249+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -32,3 +32,4 @@ description: ''
 icon: tag
 type: contentType
 permissions: []
+previewConfigurations: []

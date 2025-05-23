@@ -1,5 +1,5 @@
 created: '2024-04-03T19:15:26.752308+00:00'
-modified: '2024-09-26T11:47:08.410516+00:00'
+modified: '2025-04-02T10:42:48.289236+00:00'
 pattern: false
 entry:
   _id: 569664c3-0336-4aed-a30d-a8704fe34fb5
@@ -19,6 +19,12 @@ entry:
       type: uniformContentInternalReference
       variables:
         entryIds: 0dc78f76-31cc-4b73-a10d-39bdc05bf4e9
+    ref-569664c3-0336-4aed-a30d-a8704fe34fb5-categories:
+      type: uniformContentInternalReference
+      variables:
+        locale: ${locale}
+        entryIds: >-
+          4bf64973-97ee-4be1-bb49-6610b50135ba,ce1e5b5f-5644-4e44-bf65-c882dff072a3
   _locales:
     - en-US
   _overrides:
@@ -33,4 +39,8 @@ entry:
         authors:
           type: contentReference
           value: ${#jptr:/ref-569664c3-0336-4aed-a30d-a8704fe34fb5-authors/entries}
+        categories:
+          type: contentReference
+          value: >-
+            ${#jptr:/ref-569664c3-0336-4aed-a30d-a8704fe34fb5-categories/entries}
   _pattern: 53ebd983-3a9d-4f7d-912c-8640c615c717

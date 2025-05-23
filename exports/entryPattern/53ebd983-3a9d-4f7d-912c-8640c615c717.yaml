@@ -25,7 +25,6 @@ entry:
                   https:${#jptr:/Contentful Blog
                   Post/fields/featuredImage/fields/file/url}
             _source: custom-url
-      value: []
     title:
       type: text
       locales:

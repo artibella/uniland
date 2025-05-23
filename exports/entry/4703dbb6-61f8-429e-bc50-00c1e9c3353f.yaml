@@ -1,5 +1,5 @@
 created: '2024-07-30T17:24:04.128624+00:00'
-modified: '2024-07-30T18:44:18.34712+00:00'
+modified: '2025-05-13T09:21:45.30276+00:00'
 pattern: false
 entry:
   _id: 4703dbb6-61f8-429e-bc50-00c1e9c3353f
@@ -26,10 +26,65 @@ entry:
           36af3cc9-d1c0-42ee-87ad-d216a1fbcecd,b0ddf1cb-87d6-41a9-aa84-8fc84d2807af,494618cb-7c90-4f49-9606-6fbdd83ca8e9,fb926a0d-4e7c-4c32-bf79-a51fbbbacd66,088acb66-5e80-4f6b-87fd-0ee206906793,4af8a2c4-ba9d-4966-bfee-442dd9e00d19,4f6b19cb-233a-4c89-b6ef-f3b017c0aad8,f8963523-81ab-43a2-a536-e029d23204e2,38be89c4-8aca-4008-ace2-1527547eb42d,7e1a38bc-6898-41a1-b069-fea427f6a55c
   _locales:
     - en-US
+    - de-DE
   _overrides:
     4703dbb6-61f8-429e-bc50-00c1e9c3353f:
       parameters:
+        name:
+          type: text
+          locales:
+            de-DE: Männer
         products:
           type: contentReference
           value: ${#jptr:/ref-4703dbb6-61f8-429e-bc50-00c1e9c3353f-products/entries}
+        description:
+          type: richText
+          value: null
+          locales:
+            de-DE:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - mode: normal
+                        text: >-
+                          Hochwertige Herrenbekleidung, fachmännisch gestaltet,
+                          um Stil mit Komfort zu verbinden. Von elegant
+                          geschneiderten Bürooutfits bis hin zu schicken
+                          Freizeitteilen, perfekt für einen Wochenendausflug.
+                        type: text
+                        style: ''
+                        detail: 0
+                        format: 0
+                        version: 1
+                    direction: ltr
+                    textStyle: ''
+                    textFormat: 0
+                direction: ltr
+            en-US:
+              root:
+                type: root
+                format: ''
+                indent: 0
+                version: 1
+                children:
+                  - type: paragraph
+                    format: ''
+                    indent: 0
+                    version: 1
+                    children:
+                      - type: variable
+                        version: 1
+                        reference: '#jptr:/Collection/data/collection/description'
+                    direction: null
+                    textStyle: ''
+                    textFormat: 0
+                direction: null
   _pattern: 27198504-f414-4d01-a7ff-662599297465

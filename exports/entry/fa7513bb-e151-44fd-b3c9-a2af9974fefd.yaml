@@ -120,7 +120,6 @@ entry:
                         type: text
                         value: Deine Checkliste für die Steuererklärung-Unterlagen
                     _source: custom-url
-              value: []
             title:
               type: text
               locales:

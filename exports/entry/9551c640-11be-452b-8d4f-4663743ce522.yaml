@@ -1,0 +1,20 @@
+created: '2025-04-24T15:41:32.199955+00:00'
+modified: '2025-04-28T09:26:30.489559+00:00'
+pattern: false
+entry:
+  _id: 9551c640-11be-452b-8d4f-4663743ce522
+  _name: Are digital experience solutions truly composable or just
+  _slug: are-digital-experience-solutions-truly-composable-or-just
+  _thumbnail: >-
+    https://images.ctfassets.net/wixnju9zmprr/4vMz2PIArirjyk18tFNn7k/cfdfd97a3e369f66e8b6d8afe86e1e9a/BlogHeader_ComposedorComposable.png
+  type: blogPost
+  fields: {}
+  _dataResources:
+    Contentful Blog Post:
+      type: singlePost
+      variables:
+        locale: ${locale}
+        entryIds: 1SyaYV2LFE6SNs3CcpVwql
+  _locales:
+    - en-US
+  _pattern: 53ebd983-3a9d-4f7d-912c-8640c615c717

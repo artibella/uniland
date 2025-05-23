@@ -181,6 +181,5 @@ entry:
                 value: image/webp
                 type: text
             _source: uniform-assets
-      value: []
   _locales:
     - en-US

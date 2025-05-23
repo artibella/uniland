@@ -1,5 +1,5 @@
 created: '2024-07-30T16:30:04.075971+00:00'
-modified: '2024-08-09T14:37:12.384584+00:00'
+modified: '2025-05-13T09:00:59.628831+00:00'
 pattern: true
 entry:
   _id: 27198504-f414-4d01-a7ff-662599297465
@@ -11,7 +11,9 @@ entry:
   fields:
     name:
       type: text
-      value: ${#jptr:/Collection/data/collection/title}
+      locales:
+        de-DE: ${#jptr:/Collection/data/collection/title}
+        en-US: ${#jptr:/Collection/data/collection/title}
     image:
       type: asset
       value:
@@ -60,10 +62,31 @@ entry:
                     name:
                       type: text
                       locales:
+                        de-DE: ${#jptr:/Collection edges Loop Item/node/title}
                         en-US: ${#jptr:/Collection edges Loop Item/node/title}
                     description:
                       type: richText
                       locales:
+                        de-DE:
+                          root:
+                            type: root
+                            format: ''
+                            indent: 0
+                            version: 1
+                            children:
+                              - type: paragraph
+                                format: ''
+                                indent: 0
+                                version: 1
+                                children:
+                                  - type: variable
+                                    version: 1
+                                    reference: >-
+                                      #jptr:/Collection edges Loop
+                                      Item/node/description
+                                direction: null
+                                textFormat: 0
+                            direction: null
                         en-US:
                           root:
                             type: root
@@ -87,6 +110,9 @@ entry:
                     featuredImage:
                       type: image
                       locales:
+                        de-DE: >-
+                          ${#jptr:/Collection edges Loop
+                          Item/node/featuredImage/url}
                         en-US: >-
                           ${#jptr:/Collection edges Loop
                           Item/node/featuredImage/url}
@@ -103,6 +129,7 @@ entry:
       ignorePatternParameterDefault: true
   _locales:
     - en-US
+    - de-DE
   _overridability:
     parameters:
       name: 'yes'

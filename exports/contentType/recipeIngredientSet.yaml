@@ -1,7 +1,7 @@
 id: recipeIngredientSet
 name: Recipe Ingredient Set
 created: '2023-10-11T12:21:20.784611+00:00'
-updated: '2023-12-14T19:45:38.252661+00:00'
+updated: '2024-04-03T19:14:09.724148+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -27,3 +27,4 @@ description: >-
 icon: bowl
 type: block
 permissions: []
+previewConfigurations: []

@@ -1,0 +1,9 @@
+created: '2025-03-27T16:43:27.403368+00:00'
+modified: '2025-03-27T16:43:27.403368+00:00'
+pattern: false
+entry:
+  _id: 493d87cb-3876-413a-aa22-c7de449eb431
+  _name: 'New entry: Product'
+  _slug: new-entry-product
+  type: product
+  fields: {}

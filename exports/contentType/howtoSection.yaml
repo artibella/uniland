@@ -1,7 +1,7 @@
 id: howtoSection
 name: Howto Section
 created: '2023-10-11T11:39:02.850882+00:00'
-updated: '2023-12-14T19:44:35.610063+00:00'
+updated: '2024-04-03T19:14:03.594772+00:00'
 slugSettings:
   required: 'no'
 useTeamPermissions: true
@@ -55,3 +55,4 @@ description: ''
 icon: play-list-add
 type: block
 permissions: []
+previewConfigurations: []

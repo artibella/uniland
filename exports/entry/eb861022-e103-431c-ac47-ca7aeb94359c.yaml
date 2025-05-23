@@ -25,7 +25,6 @@ entry:
                 value: >-
                   https://domesticfits.com/wp-content/uploads/2024/02/ukrainian-food-popular-world-640x427.jpeg
             _source: custom-url
-      value: []
     description:
       type: text
       locales:
