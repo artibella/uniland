@@ -29,10 +29,11 @@ slots:
     name: Rows
     allowedComponents:
       - twoColumns
+      - $loop
     allowAllComponents: false
     inheritAllowedComponents: false
     patternsInAllowedComponents: false
 titleParameter: title
 canBeComposition: false
 created: '2025-05-23T14:11:17.580457+00:00'
-updated: '2025-05-23T14:11:17.580457+00:00'
+updated: '2025-05-23T14:37:50.390291+00:00'

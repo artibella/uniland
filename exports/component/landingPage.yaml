@@ -1,0 +1,60 @@
+# yaml-language-server: $schema=<https://canary.uniform.app/schemas/json-schema/component-definition/v1.json>
+$schema: https://canary.uniform.app/schemas/json-schema/component-definition/v1.json
+id: landingPage
+name: Landing page
+icon: screen
+parameters:
+  - id: title
+    name: Title
+    type: text
+    typeConfig: null
+    localizable: true
+  - id: group_seoMetadata
+    name: SEO metadata
+    type: group
+    typeConfig:
+      collapsed: false
+      childrenParams:
+        - description
+  - id: description
+    name: Description
+    type: text
+    typeConfig: null
+    localizable: true
+description: A generic page type which has a hero and a single content slot
+previewImageUrl: >-
+  https://res.cloudinary.com/content-ops/image/upload/v1713287667/Uniland/components/page.png
+useTeamPermissions: true
+slots:
+  - id: hero
+    name: Hero
+    maxComponents: 1
+    allowedComponents:
+      - $personalization
+      - $test
+      - $localization
+      - hero
+    allowAllComponents: false
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+  - id: sections
+    name: Sections
+    allowedComponents:
+      - $personalization
+      - $test
+      - $localization
+      - $loop
+      - sectionContainer
+      - hero
+      - conditionalContainer
+    inheritAllowedComponents: false
+  - id: section2
+    name: Section 2
+    allowedComponents: []
+    allowAllComponents: true
+    inheritAllowedComponents: false
+    patternsInAllowedComponents: false
+titleParameter: title
+canBeComposition: true
+created: '2025-05-23T15:11:29.206868+00:00'
+updated: '2025-05-23T15:11:29.206868+00:00'

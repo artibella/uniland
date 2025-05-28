@@ -2,19 +2,19 @@
 
 /* Desktop alternating layout */
 .alternating-rows .two-columns:nth-child(odd) .column-left {
-  order: 1;
+  order: 2;
 }
 
 .alternating-rows .two-columns:nth-child(odd) .column-right {
-  order: 2;
+  order: 1;
 }
 
 .alternating-rows .two-columns:nth-child(even) .column-left {
-  order: 2;
+  order: 1;
 }
 
 .alternating-rows .two-columns:nth-child(even) .column-right {
-  order: 1;
+  order: 2;
 }
 
 /* Mobile responsive - reset order */

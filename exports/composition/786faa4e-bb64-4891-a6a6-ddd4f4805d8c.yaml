@@ -222,7 +222,7 @@ composition:
           theme:
             type: select
             locales:
-              en-US: light
+              en-US: spring
           title:
             type: text
             locales:
@@ -353,351 +353,462 @@ composition:
         type: sectionContainer
         slots:
           content:
-            - _id: 6bb326e8-3657-4d93-b82e-867f1c29f33d
-              type: twoColumns
-              _pattern: df1b8a6d-eb52-48da-9154-1713b8fc35fc
-            - _id: a34dd3cb-02d0-41a4-aa88-97b4b7132ee1
-              type: twoColumns
+            - _id: 6f274227-883c-44a8-a582-39b2759e1c72
+              type: alternatingRows
               slots:
-                leftContent:
-                  - _id: 48fb5819-005e-46b4-9769-ea2e11a2171d
-                    type: imageBlock
+                rows:
+                  - _id: 336deb7a-47d7-460f-93ed-216df024dc4e
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: bc2f8d00-fc5b-43bc-941b-a57399abca6e
+                          type: imageBlock
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 687fc650-3ccb-42e1-8cba-ad03d4f39d79
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://www.uniform.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Funiformdev%2Fimage%2Fupload%2Fv1%2Funiformdev%2FHomepage_Heroes_Q1_2023_Empower&w=1024&q=75
+                                  _source: custom-url
+                      rightContent:
+                        - _id: ba0ae423-475a-4501-bb88-e087095437c2
+                          type: imageBlock
+                          _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
+                        - _id: 41f69cdc-5474-4062-b793-531e2ce4c441
+                          type: textBlock
+                          parameters:
+                            richText:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: 'Instead of '
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                          - mode: normal
+                                            text: spending weeks
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 1
+                                            version: 1
+                                          - mode: normal
+                                            text: ' or months connecting CMS, commerce, DAM, search, analytics, legacy services, etc., just add your API keys to Uniform Mesh and start converting leads or purchases. '
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Beyond making replatforming faster and
+                                              cheaper, Uniform DXCP also extends your
+                                              value from legacy tools by improving
+                                              their performance and usability.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                        textStyle: ''
+                                        textFormat: 0
+                                    direction: ltr
                     parameters:
-                      altText:
-                        type: text
-                        value: Component libary
-                      imageFit:
+                      layout:
                         type: select
-                        value: ''
-                      imageUrl:
-                        type: image
-                        value: >-
-                          https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1200,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/55tDP2HiuMeLsT4uhULiBd/832dd50645fe2543a0c77b65fc5be240/Home_Hero_Component_Library_2.jpg
-                      aspectRatio:
+                        value: split-50-50
+                      gapSize:
                         type: select
-                        value: auto
-                      borderRadius:
+                        value: medium
+                      mobileReverseOrder:
+                        type: checkbox
+                        value: true
+                      leftColumnVerticalAlignment:
                         type: select
-                        value: ''
-                      imagePosition:
+                        value: center
+                      rightColumnVerticalAlignment:
                         type: select
-                        value: right
-                rightContent:
-                  - _id: 682d2f58-36d1-4b98-9fb9-fd2c9edc6749
-                    type: imageBlock
-                    _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
-                  - _id: 8b987e67-95e6-4bec-8412-238cf6821e01
-                    type: textBlock
-                    parameters:
-                      body:
-                        type: text
-                        locales:
-                          en-US: |+
+                        value: center
+                      leftColumnHorizontalAlignment:
+                        type: select
+                        value: center
+                      rightColumnHorizontalAlignment:
+                        type: select
+                        value: start
+                  - _id: a1a90151-773b-4478-a558-b12fad1bd95a
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: a9c08cc7-c1e7-41f3-b84f-73d6fcc88269
+                          type: imageBlock
+                          parameters:
+                            altText:
+                              type: text
+                              value: Component libary
+                            imageFit:
+                              type: select
+                              value: ''
+                            imageUrl:
+                              type: image
+                              value: >-
+                                https://res.cloudinary.com/uniformdev/image/fetch/f_auto,c_limit,w_1200,q_75/https://images.ctfassets.net/9ku1oyd4k3wo/55tDP2HiuMeLsT4uhULiBd/832dd50645fe2543a0c77b65fc5be240/Home_Hero_Component_Library_2.jpg
+                            aspectRatio:
+                              type: select
+                              value: auto
+                            borderRadius:
+                              type: select
+                              value: ''
+                            imagePosition:
+                              type: select
+                              value: right
+                      rightContent:
+                        - _id: 1c21d5cb-5df1-448b-b6a1-00f7de94f3b9
+                          type: imageBlock
+                          _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
+                        - _id: 19e61352-ec72-4c05-9035-9037bd7860a8
+                          type: textBlock
+                          parameters:
+                            body:
+                              type: text
+                              locales:
+                                en-US: |+
 
-                      title:
-                        type: text
-                        locales:
-                          en-US: Connect your design components
-                      richText:
-                        type: richText
-                        locales:
-                          en-US:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >
-                                        Connecting front-end components and
-                                        variations to Uniform only takes
-                                        minutes, after which business users can
-                                        assemble digital experiences for any
-                                        channel without developer support -
-                                        either with an existing design system or
-                                        a new look. Just choose the components
-                                        that help tell your story, add the
-                                        content from a connected service, then
-                                        publish to any channel.
+                            title:
+                              type: text
+                              locales:
+                                en-US: Connect your design components
+                            richText:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >
+                                              Connecting front-end components and
+                                              variations to Uniform only takes
+                                              minutes, after which business users can
+                                              assemble digital experiences for any
+                                              channel without developer support -
+                                              either with an existing design system or
+                                              a new look. Just choose the components
+                                              that help tell your story, add the
+                                              content from a connected service, then
+                                              publish to any channel.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                            textAlign:
+                              type: select
+                              value: ''
+                    parameters:
+                      layout:
+                        type: select
+                        value: split-50-50
+                      gapSize:
+                        type: select
+                        value: medium
+                      mobileReverseOrder:
+                        type: checkbox
+                        value: true
+                      leftColumnVerticalAlignment:
+                        type: select
+                        value: center
+                      rightColumnVerticalAlignment:
+                        type: select
+                        value: center
+                      leftColumnHorizontalAlignment:
+                        type: select
+                        value: center
+                      rightColumnHorizontalAlignment:
+                        type: select
+                        value: start
+                  - _id: ea3fe67e-9d98-41eb-ad21-359c6a02e4fa
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: bdd41f52-5eeb-4ee7-b65a-4a2d758cc68e
+                          type: imageBlock
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: f4fcbb5e-a000-44de-afb7-86a2f6b1adc3
+                                  type: image
+                                  fields:
+                                    url:
                                       type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                              direction: ltr
-                      textAlign:
-                        type: select
-                        value: ''
-              parameters:
-                layout:
-                  type: select
-                  value: split-50-50
-                gapSize:
-                  type: select
-                  value: medium
-                mobileReverseOrder:
-                  type: checkbox
-                  value: true
-                leftColumnVerticalAlignment:
-                  type: select
-                  value: center
-                rightColumnVerticalAlignment:
-                  type: select
-                  value: center
-                leftColumnHorizontalAlignment:
-                  type: select
-                  value: center
-                rightColumnHorizontalAlignment:
-                  type: select
-                  value: start
-            - _id: 719c15e9-c117-4d20-883a-9207ab542f00
-              type: twoColumns
-              slots:
-                leftContent:
-                  - _id: bdd333a8-f5e2-4ace-a028-5290a6eeb33c
-                    type: imageBlock
-                    parameters:
-                      image:
-                        type: asset
-                        value:
-                          - _id: 8fc26d8e-072a-4085-9682-26e427df86fe
-                            type: image
-                            fields:
-                              url:
-                                type: text
-                                value: >-
-                                  https://images.ctfassets.net/9ku1oyd4k3wo/4jERsKHcSzCD3f0J3IQ6J8/85338cfe6631e7c18b5f68c50fe829bb/Icon_Create.svg
-                            _source: custom-url
-                      altText:
-                        type: text
-                        value: Icon +
-                      imageWidth:
-                        type: select
-                        value: icon-xl
-                  - _id: 3b822563-2569-4d87-9df9-aed05d728764
-                    type: textBlock
-                    parameters:
-                      title:
-                        type: text
-                        locales:
-                          en-US: Empower Marketers with Canvas
-                      richText:
-                        type: richText
-                        locales:
-                          en-US:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        Headless tools make life slow and
-                                        complex for business users, who need to
-                                        jump between countless tools and tabs,
-                                        click through various levels of content,
-                                        and “publish and pray” without effective
-                                        previews. Uniform DXC eliminates these
-                                        daily stresses. Marketers,
-                                        merchandisers, and other business teams
-                                        can use Canvas to create immersive
-                                        experiences with no coding and instantly
-                                        preview their changes. That means
-                                        business teams can independently publish
-                                        without support from developers, who are
-                                        then free to focus on building new
-                                        features.
+                                      value: >-
+                                        https://images.ctfassets.net/9ku1oyd4k3wo/7C4QIikWjOcBahtJDwa5Rn/f3f545aefb89fbb37b2ad0934fff539e/Home_Hero_Speed_1.jpg
+                                  _source: custom-url
+                            altText:
+                              type: text
+                              value: Illustration web core vitals
+                            imageFit:
+                              type: select
+                              value: ''
+                            aspectRatio:
+                              type: select
+                              value: auto
+                            borderRadius:
+                              type: select
+                              value: ''
+                            imagePosition:
+                              type: select
+                              value: right
+                      rightContent:
+                        - _id: a7ab09a9-4769-4829-9eb8-e01359ebae90
+                          type: imageBlock
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 6eea40dc-a2fd-4cb5-a4de-96ca254545e5
+                                  type: image
+                                  fields:
+                                    url:
                                       type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                              direction: ltr
-                rightContent:
-                  - _id: 8d83c2db-9c61-4953-a6e2-eb8e815f9a4d
-                    type: imageBlock
+                                      value: >-
+                                        https://images.ctfassets.net/9ku1oyd4k3wo/2RNxUM1EMZQrhGYkCKOBm/611af48a3a519a386b499c3c8d097276/Icon_Speed.svg
+                                  _source: custom-url
+                            altText:
+                              type: text
+                              value: Icon speed
+                            imageWidth:
+                              type: select
+                              value: icon-lg
+                            aspectRatio:
+                              type: select
+                              value: auto
+                        - _id: eaefaf13-6835-437c-bac9-28c1e90a03e9
+                          type: textBlock
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                en-US: Keep working your Core Web Vitals
+                            richText:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Search engines prioritize fast-loading
+                                              pages, penalizing poor performance with
+                                              lower rankings. Uniform can keep your
+                                              Core Web Vitals green by making it easy
+                                              to utilize the latest front-end
+                                              frameworks and cutting-edge CDN edge
+                                              integrations - including for A/B tests
+                                              and personalization deployed from
+                                              Canvas. This lets teams drive
+                                              conversions without impacting user
+                                              experience or undermining SEO
+                                              investments.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children: []
+                                        direction: null
+                                    direction: ltr
+                            textAlign:
+                              type: select
+                              value: ''
                     parameters:
-                      image:
-                        type: asset
-                        value:
-                          - _id: 53450629-8929-4aad-9d98-fe3400113858
-                            type: image
-                            fields:
-                              url:
-                                type: text
-                                value: >-
-                                  https://images.ctfassets.net/9ku1oyd4k3wo/1dmhwIgHeSdfJu9JZ3JyIK/84a04c0afd138871b5ba5bbb260a5e6e/Hero_Canvas.jpg
-                            _source: custom-url
-                      altText:
-                        type: text
-                        value: Empower marketers
-                      imageWidth:
+                      layout:
                         type: select
-                        value: ''
-              parameters:
-                layout:
-                  type: select
-                  value: split-50-50
-                gapSize:
-                  type: select
-                  value: medium
-                leftColumnVerticalAlignment:
-                  type: select
-                  value: center
-                rightColumnVerticalAlignment:
-                  type: select
-                  value: center
-                leftColumnHorizontalAlignment:
-                  type: select
-                  value: start
-                rightColumnHorizontalAlignment:
-                  type: select
-                  value: start
-            - _id: f931ad58-8ddd-4e35-8a9d-060307226aa5
-              type: twoColumns
-              slots:
-                leftContent:
-                  - _id: ec59f1ad-84ca-46d3-a366-c3cfdda46b93
-                    type: imageBlock
-                    parameters:
-                      image:
-                        type: asset
-                        value:
-                          - _id: f4fcbb5e-a000-44de-afb7-86a2f6b1adc3
-                            type: image
-                            fields:
-                              url:
-                                type: text
-                                value: >-
-                                  https://images.ctfassets.net/9ku1oyd4k3wo/7C4QIikWjOcBahtJDwa5Rn/f3f545aefb89fbb37b2ad0934fff539e/Home_Hero_Speed_1.jpg
-                            _source: custom-url
-                      altText:
-                        type: text
-                        value: Illustration web core vitals
-                      imageFit:
+                        value: split-50-50
+                      gapSize:
                         type: select
-                        value: ''
-                      aspectRatio:
+                        value: medium
+                      mobileReverseOrder:
+                        type: checkbox
+                        value: true
+                      leftColumnVerticalAlignment:
                         type: select
-                        value: auto
-                      borderRadius:
+                        value: center
+                      rightColumnVerticalAlignment:
                         type: select
-                        value: ''
-                      imagePosition:
+                        value: center
+                      leftColumnHorizontalAlignment:
                         type: select
-                        value: right
-                rightContent:
-                  - _id: 2bfa7616-e581-450e-b17d-65c3017f2674
-                    type: imageBlock
-                    parameters:
-                      image:
-                        type: asset
-                        value:
-                          - _id: 6eea40dc-a2fd-4cb5-a4de-96ca254545e5
-                            type: image
-                            fields:
-                              url:
-                                type: text
-                                value: >-
-                                  https://images.ctfassets.net/9ku1oyd4k3wo/2RNxUM1EMZQrhGYkCKOBm/611af48a3a519a386b499c3c8d097276/Icon_Speed.svg
-                            _source: custom-url
-                      altText:
-                        type: text
-                        value: Icon speed
-                      imageWidth:
+                        value: center
+                      rightColumnHorizontalAlignment:
                         type: select
-                        value: icon-lg
-                      aspectRatio:
-                        type: select
-                        value: auto
-                  - _id: bc0982fb-0c40-431c-b441-03b8d0f8db71
-                    type: textBlock
-                    parameters:
-                      title:
-                        type: text
-                        locales:
-                          en-US: Keep working your Core Web Vitals
-                      richText:
-                        type: richText
-                        locales:
-                          en-US:
-                            root:
-                              type: root
-                              format: ''
-                              indent: 0
-                              version: 1
-                              children:
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children:
-                                    - mode: normal
-                                      text: >-
-                                        Search engines prioritize fast-loading
-                                        pages, penalizing poor performance with
-                                        lower rankings. Uniform can keep your
-                                        Core Web Vitals green by making it easy
-                                        to utilize the latest front-end
-                                        frameworks and cutting-edge CDN edge
-                                        integrations - including for A/B tests
-                                        and personalization deployed from
-                                        Canvas. This lets teams drive
-                                        conversions without impacting user
-                                        experience or undermining SEO
-                                        investments.
+                        value: start
+                  - _id: 23cfd401-204a-44f8-97c7-d3160ebd32bd
+                    type: twoColumns
+                    slots:
+                      leftContent:
+                        - _id: a5d454b1-5ec6-46be-b99d-3658f5b3562a
+                          type: imageBlock
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 53450629-8929-4aad-9d98-fe3400113858
+                                  type: image
+                                  fields:
+                                    url:
                                       type: text
-                                      style: ''
-                                      detail: 0
-                                      format: 0
-                                      version: 1
-                                  direction: ltr
-                                - type: paragraph
-                                  format: ''
-                                  indent: 0
-                                  version: 1
-                                  children: []
-                                  direction: null
-                              direction: ltr
-                      textAlign:
+                                      value: >-
+                                        https://images.ctfassets.net/9ku1oyd4k3wo/1dmhwIgHeSdfJu9JZ3JyIK/84a04c0afd138871b5ba5bbb260a5e6e/Hero_Canvas.jpg
+                                  _source: custom-url
+                            altText:
+                              type: text
+                              value: Empower marketers
+                            imageWidth:
+                              type: select
+                              value: ''
+                      rightContent:
+                        - _id: e61ccada-799c-4fd1-9a23-0302e7088dc5
+                          type: imageBlock
+                          parameters:
+                            image:
+                              type: asset
+                              value:
+                                - _id: 8fc26d8e-072a-4085-9682-26e427df86fe
+                                  type: image
+                                  fields:
+                                    url:
+                                      type: text
+                                      value: >-
+                                        https://images.ctfassets.net/9ku1oyd4k3wo/4jERsKHcSzCD3f0J3IQ6J8/85338cfe6631e7c18b5f68c50fe829bb/Icon_Create.svg
+                                  _source: custom-url
+                            altText:
+                              type: text
+                              value: Icon +
+                            imageWidth:
+                              type: select
+                              value: icon-xl
+                        - _id: d987ba8a-a11f-4bf9-b5de-9404c1109a2c
+                          type: textBlock
+                          parameters:
+                            title:
+                              type: text
+                              locales:
+                                en-US: Empower Marketers with Canvas
+                            richText:
+                              type: richText
+                              locales:
+                                en-US:
+                                  root:
+                                    type: root
+                                    format: ''
+                                    indent: 0
+                                    version: 1
+                                    children:
+                                      - type: paragraph
+                                        format: ''
+                                        indent: 0
+                                        version: 1
+                                        children:
+                                          - mode: normal
+                                            text: >-
+                                              Headless tools make life slow and
+                                              complex for business users, who need to
+                                              jump between countless tools and tabs,
+                                              click through various levels of content,
+                                              and “publish and pray” without effective
+                                              previews. Uniform DXC eliminates these
+                                              daily stresses. Marketers,
+                                              merchandisers, and other business teams
+                                              can use Canvas to create immersive
+                                              experiences with no coding and instantly
+                                              preview their changes. That means
+                                              business teams can independently publish
+                                              without support from developers, who are
+                                              then free to focus on building new
+                                              features.
+                                            type: text
+                                            style: ''
+                                            detail: 0
+                                            format: 0
+                                            version: 1
+                                        direction: ltr
+                                    direction: ltr
+                    parameters:
+                      layout:
                         type: select
-                        value: ''
+                        value: split-50-50
+                      gapSize:
+                        type: select
+                        value: medium
+                      leftColumnVerticalAlignment:
+                        type: select
+                        value: center
+                      rightColumnVerticalAlignment:
+                        type: select
+                        value: center
+                      leftColumnHorizontalAlignment:
+                        type: select
+                        value: start
+                      rightColumnHorizontalAlignment:
+                        type: select
+                        value: start
               parameters:
-                layout:
+                verticalSpacing:
                   type: select
-                  value: split-50-50
-                gapSize:
-                  type: select
-                  value: medium
-                mobileReverseOrder:
-                  type: checkbox
-                  value: true
-                leftColumnVerticalAlignment:
-                  type: select
-                  value: center
-                rightColumnVerticalAlignment:
-                  type: select
-                  value: center
-                leftColumnHorizontalAlignment:
-                  type: select
-                  value: center
-                rightColumnHorizontalAlignment:
-                  type: select
-                  value: start
+                  value: large
       - _id: 319a2b41-3ea7-41f4-953e-9effac5640d4
         type: sectionContainer
         slots:
@@ -1346,7 +1457,7 @@ composition:
       variables:
         entryId: ae188464-fe6c-4e4c-9e0c-1e34db5292d3
   _overrides:
-    b2b7d8f6-c6b2-4073-bef0-e2f68dd65d7d:
+    ba0ae423-475a-4501-bb88-e087095437c2:
       parameters:
         image:
           type: asset
@@ -1359,101 +1470,10 @@ composition:
                   value: >-
                     https://res.cloudinary.com/uniformdev/image/upload/v1/uniformdev/home/create
               _source: custom-url
-    6bb326e8-3657-4d93-b82e-867f1c29f33d|08bd29bf-dc77-4b14-9f63-8da2086de260:
-      slots:
-        $slotSectionItems:
-          - _id: 6684a6cc-0296-4065-9c6a-ea39388a9bef
-            type: imageBlock
-            parameters:
-              image:
-                type: asset
-                value:
-                  - _id: 687fc650-3ccb-42e1-8cba-ad03d4f39d79
-                    type: image
-                    fields:
-                      url:
-                        type: text
-                        value: >-
-                          https://www.uniform.dev/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Funiformdev%2Fimage%2Fupload%2Fv1%2Funiformdev%2FHomepage_Heroes_Q1_2023_Empower&w=1024&q=75
-                    _source: custom-url
-    6bb326e8-3657-4d93-b82e-867f1c29f33d|5a4653f8-b7ab-45a8-8e1a-121bc15c2997:
-      parameters:
-        title:
-          type: text
-          locales:
-            en-US: Integrate in minutes, not months
-        richText:
-          type: richText
-          locales:
-            en-US:
-              root:
-                type: root
-                format: ''
-                indent: 0
-                version: 1
-                children:
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: 'Instead of '
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                      - mode: normal
-                        text: spending weeks
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 1
-                        version: 1
-                      - mode: normal
-                        text: ' or months connecting CMS, commerce, DAM, search, analytics, legacy services, etc., just add your API keys to Uniform Mesh and start converting leads or purchases. '
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                  - type: paragraph
-                    format: ''
-                    indent: 0
-                    version: 1
-                    children:
-                      - mode: normal
-                        text: >-
-                          Beyond making replatforming faster and cheaper,
-                          Uniform DXCP also extends your value from legacy tools
-                          by improving their performance and usability.
-                        type: text
-                        style: ''
-                        detail: 0
-                        format: 0
-                        version: 1
-                    direction: ltr
-                direction: ltr
-        textAlign:
-          type: select
-          value: left
-    6bb326e8-3657-4d93-b82e-867f1c29f33d|7f69c1da-5b5b-4ae0-a104-1c708bc3a88d:
-      slots:
-        $slotSectionItems:
-          - _id: b2b7d8f6-c6b2-4073-bef0-e2f68dd65d7d
-            type: imageBlock
-            _pattern: a2bc9481-f69b-4bf6-92a7-ed57d4df63cd
-            _overridability:
-              parameters:
-                image: 'yes'
-                altText: 'yes'
-              hideLockedParameters: true
   _locales:
     - en-US
 created: '2022-12-15T14:10:06.178157+00:00'
-modified: '2025-03-11T15:36:32.545886+00:00'
+modified: '2025-05-23T17:24:42.660133+00:00'
 pattern: false
 editionName: ''
 editionPriority: 100
