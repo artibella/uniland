@@ -2,14 +2,14 @@
   "project": {
     "pz": {
       "agg": {
-        "visitBerlin": {
+        "berliner": {
           "inputs": [
             {
               "dim": "berlinVisitor"
             }
           ]
         },
-        "berliner": {
+        "visitBerlin": {
           "inputs": [
             {
               "dim": "berlinVisitor"
@@ -89,6 +89,7 @@
       }
     },
     "test": {
+      "movieListing": {},
       "test1": {}
     }
   }

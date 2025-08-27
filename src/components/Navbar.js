@@ -1,6 +1,7 @@
-export default function NavBar ({children}) {
+export default function NavBar({ children }) {
   return (
-    <nav>
+    <nav className="">
+      {/* Children content */}
       {children}
     </nav>
   );
